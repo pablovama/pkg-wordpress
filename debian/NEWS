@@ -1,0 +1,73 @@
+wordpress (2.6.2-2) experimental; urgency=low
+
+    Patch for CVE-2008-2392 (unrestricted upload capability issue) has
+    been modified. Now there is a new option menu in the admin panel
+    tha makes you enable unrestricted upload for administrators
+    
+    WARNING: For security reasons the package comes with the option
+    disabled by default. Please check out the README file before enabling
+    unrestricted upload.
+	
+ -- Andrea De Iacovo <andrea.de.iacovo@gmail.com>  Thu,  6 Nov 2008 10:15:24 +0200
+
+wordpress (2.6.2-1) experimental; urgency=low
+
+    Updated to upstream version 2.6.2, this requires a database update,
+    which should be non-distructive. However, please backup your database
+    just to be on the safe side. After that please visit the administration
+    interface of your wordpress installation and follow the instructions there.
+	
+ -- Andrea De Iacovo <andrea.de.iacovo@gmail.com>  Tue,  15 Jul 2008 17:19:00 +0200
+
+wordpress (2.5.1-4) unstable; urgency=low
+
+    Unrestricted upload capability for blog administrators has been
+    disabled to fix CVE-2008-2392 ().
+    
+    If you run a SINGLE blog with wordpress it might be safe to activate
+    this option again.
+    
+    Please refer to the README file for more informations.
+	
+ -- Andrea De Iacovo <andrea.de.iacovo@gmail.com>  Sat,  24 Jun 2008 17:58:00 +0200
+ 
+wordpress (2.0.1-1) unstable; urgency=low
+
+    In accordance with http://bugs.debian.org/348458
+
+    It might be necessary to manually run:
+    /wp-admin/upgrade.php
+
+ -- Kai Hendry <hendry@iki.fi>  Thu,  2 Feb 2006 11:20:15 +0900
+
+wordpress (1.5.0-1) unstable; urgency=high
+
+    Background read http://codex.wordpress.org/Upgrading_WordPress
+    Please http://codex.wordpress.org/Backing_up_your_database
+
+    You need to run wp-admin/upgrade.php
+
+    A new theme system means you need to:
+    http://codex.wordpress.org/Upgrade_1.2_to_1.5#Upgrading_Old_Templates
+
+    Update your (rewrites)
+    Check your plugins (e.g. Markdown) are activated
+
+ -- Kai Hendry <hendry@cs.helsinki.fi>  Tue, 22 Feb 2005 05:53:50 +0200
+
+wordpress (1.2.0-1) unstable; urgency=low
+
+    UPGRADE NOTICES
+    When upgrading from wordpress 1.0 you will need to run
+    http://your-wordpress-installation/wp-admin/upgrade.php otherwise you might get
+    a post_date_gmt error.
+
+    The configuration files are now kept in /etc/wordpress. Please
+    copy in your wp-config.php into /etc/wordpress and run: ln -s
+    /etc/wordpress/wp-config.php /usr/share/wordpress/wp-config.php 
+    Modify 'ABSPATH' to: 
+    define('ABSPATH', '/usr/share/wordpress/');
+
+    And do not forget to check your .htaccess rewrite rules.
+
+ -- Kai Hendry <hendry@cs.helsinki.fi>  Sat, 29 May 2004 23:40:53 +0300

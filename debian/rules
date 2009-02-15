@@ -1,0 +1,45 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE=0
+include /usr/share/dpatch/dpatch.make
+
+all:
+
+%.mo: %.po
+	msgfmt '$<' -o '$@'
+
+POFILES:=$(shell find wp-content -name '*.po')
+MOFILES:=$(POFILES:.po=.mo)
+
+install: $(MOFILES) patch-stamp
+	dh_testdir
+	dh_testroot
+	chmod -R a-x,a+X wp-includes/
+	dh_install -Xlicense.txt -Xlicense.html -XMIT-LICENSE -Xclass-phpmailer.php -Xclass-smtp.php -X.po
+	dh_installdocs
+	dh_installchangelogs
+	dh_installexamples
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	#Removing unneeded tinymce files
+	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/media
+	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/autosave/
+	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/directionality/
+	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/fullscreen/
+	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/paste/
+	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/safari/
+	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/wordpress/js
+	dh_link
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+clean: unpatch
+	dh_clean $(MOFILES)
+
+binary: install
+
+build:
+binary-arch:
+binary-indep:

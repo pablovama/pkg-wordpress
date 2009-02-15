@@ -1,0 +1,3 @@
+# For rewrite rules needed for making Wordpress URL friendly
+# See Options -> Permalinks for details and please use the defaults,
+# especially in mind when hosting several blogs on one machine!

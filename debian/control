@@ -1,0 +1,22 @@
+Source: wordpress
+Section: web
+Priority: optional
+Maintainer: Andrea De Iacovo <andrea.de.iacovo@gmail.com>
+Standards-Version: 3.8.0
+Build-Depends: debhelper, gettext, dpatch
+Homepage: http://wordpress.org
+
+Package: wordpress
+Architecture: all
+Depends: apache2 | httpd, virtual-mysql-client, libapache2-mod-php5 | php5 | php4, php5-mysql | php4-mysql, libphp-phpmailer (>= 1.73-4), php5-gd | php4-gd, libjs-prototype, libjs-scriptaculous, tinymce (>= 3.2.1), libphp-snoopy, libjs-jquery
+Suggests: virtual-mysql-server
+Conflicts: mysql-server (<< 4.0.20-8)
+Description: weblog manager
+ WordPress is a full featured web blogging tool:
+    * Instant publishing (no rebuilding)
+    * Comment pingback support with spam protection
+    * Non-crufty URLs
+    * Themable
+    * Plugin support
+ .
+ This package includes French language support.

@@ -1,0 +1,32 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## rss_language patch.dpatch by  <andrea.de.iacovo@gmail.com>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: This makes us able to change rss_language directly from the admin page. Thanks to Lionel Elie Mamane
+
+@DPATCH@
+
+--- wordpress/wp-admin/options-reading.php	2008-05-05 23:26:51.000000000 +0200
++++ wordpress/wp-admin/options-reading-new.php	2008-05-05 23:32:03.000000000 +0200
+@@ -61,6 +61,10 @@
+ <td><input name="posts_per_rss" type="text" id="posts_per_rss" value="<?php form_option('posts_per_rss'); ?>" size="3" /> <?php _e('posts') ?></td>
+ </tr>
+ <tr valign="top">
++<th scope="row"><?php _e('RSS feed language') ?></th>
++<td><input name="rss_language" type="text" id="rss_language" value="<?php form_option('rss_language'); ?>" size="2" /></td>
++</tr>
++<tr valign="top">
+ <th scope="row"><?php _e('For each article in a feed, show') ?> </th>
+ <td>
+ <p><label><input name="rss_use_excerpt"  type="radio" value="0" <?php checked(0, get_option('rss_use_excerpt')); ?>	/> <?php _e('Full text') ?></label><br />
+--- wordpress/wp-admin/options.php	2008-12-09 19:03:31.000000000 +0100
++++ wordpress/wp-admin/options-new.php	2009-01-12 12:17:11.000000000 +0100
+@@ -27,7 +27,7 @@
+ 	'misc' => array( 'hack_file', 'use_linksupdate', 'uploads_use_yearmonth_folders', 'upload_path', 'upload_url_path' ),
+ 	'media' => array( 'thumbnail_size_w', 'thumbnail_size_h', 'thumbnail_crop', 'medium_size_w', 'medium_size_h', 'large_size_w', 'large_size_h', 'image_default_size', 'image_default_align', 'image_default_link_type' ),
+ 	'privacy' => array( 'blog_public' ),
+-	'reading' => array( 'posts_per_page', 'posts_per_rss', 'rss_use_excerpt', 'blog_charset', 'show_on_front', 'page_on_front', 'page_for_posts' ),
++	'reading' => array( 'posts_per_page', 'posts_per_rss', 'rss_use_excerpt', 'rss_language', 'blog_charset', 'show_on_front', 'page_on_front', 'page_for_posts' ),
+ 	'writing' => array( 'default_post_edit_rows', 'use_smilies', 'ping_sites', 'mailserver_url', 'mailserver_port', 'mailserver_login', 'mailserver_pass', 'default_category', 'default_email_category', 'use_balanceTags', 'default_link_category', 'enable_app', 'enable_xmlrpc' ),
+ 	'options' => array( '' ) );
+ if ( !defined( 'WP_SITEURL' ) ) $whitelist_options['general'][] = 'siteurl';

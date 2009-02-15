@@ -1,0 +1,52 @@
+#### Quick setup
+
+Setup apache to point to /usr/share/wordpress. See the examples/apache.conf
+
+Database setup can be done with the help of a script in examples/setup-mysql
+
+#### A little more about the (multiple blog) configuration
+
+The default wp-config.php searches for a (mysql) configuration filename based
+on the blog's host. This allows you to host more than one blog on a Debian
+system.
+
+#### Upgrading from 1.5-1 and below
+
+If you would like to use the optional default multiple blog configuration from
+version 1.5-2 then:
+
+Backup your database. http://codex.wordpress.org/Backing_Up_Your_Database
+Backup your configs, sudo cp -r /etc/wordpress/ ~/asafeplace
+Purge wordpress, apt-get remove --purge wordpress
+Install wordpress, apt-get install wordpress
+Point your browser to your blog and you should get an error message similar to above.
+Copy in your backed up wp-config.php to what it failed to open in the Fatal error, e.g. /etc/wordpress/config-my.blog.example.com.php
+Ensure correct permissions, sudo chown :www-data /etc/wordpress/*
+
+#### Plugins, themes and extra bits related to Wordpress
+
+Currently plugins and themes need to be dropped in by root into:
+/usr/share/wordpress/wp-content
+Or better by utilising symbolic links. e.g.
+ln -s /home/user/mytheme /usr/share/wordpress/wp-content/themes/mytheme
+
+#### Switching a blog to a new language
+
+ - in the admin pages, select a theme in the desired language;
+ - add "define ('WPLANG', 'LANGUAGE');" to the
+   /etc/wordpress/config-HOSTNAME.php of the blog; LANGUAGE is 'en'
+   for English and 'fr_FR' for French; this value should be the
+   filename of the .mo file (in
+   /usr/share/wordpress/wp-content/languages) without the ".mo";
+ - with MySQL, change the rss_language option to 'LANGAGE':
+
+   #DB_USER is the MySQL user,     as in /etc/wordpress/config-HOSTNAME.php
+   #DB_NAME is the MySQL database, as in /etc/wordpress/config-HOSTNAME.php
+   mysql -uUSER -p DB_NAME
+   #enter the password (as DB_PASSWORD in /etc/wordpress/config-HOSTNAME.php)
+   #if your $table_prefix is not wp_, adapt the following line
+   UPDATE wp_options SET option_value='LANGAGE' WHERE option_name='rss_language';
+   exit;
+
+   You can drop the _FR suffix for French (just 'fr', not 'fr_FR').
+   (See Debian bug #461584)

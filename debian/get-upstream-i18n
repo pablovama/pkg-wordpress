@@ -1,0 +1,68 @@
+#! /bin/sh
+
+set -e
+
+usage () {
+    printf "Usage: %s version\n" "$0"
+}
+
+if [ "$#" -lt 1 ]; then
+    usage 1>&2
+    exit 1
+fi
+
+if ! [ -d wp-content ]; then
+    printf "Cannot find wp-content directory\n" 1>&2
+    exit 2
+fi
+
+UPSTREAM_I18N_SVN=http://svn.automattic.com/wordpress-i18n/
+BASEDIR="${PWD}"
+
+version="$1"
+
+if ! [ -e wp-content/languages ]; then
+    mkdir wp-content/languages
+fi
+
+url_escape () {
+    printf "%s" "$1" | sed -e 's/@/%40/g' -e 's|/|%2f|g' -e 's/;/%3b/g' -e 's/?/%3f/g' -e 's/:/%3a/g' -e 's/&/%26/g' -e 's/=/%3d/g' -e 's/+/%2b/g' -e 's/\$/%24/g' -e 's/,/%2c/g' -e 's/</%3c/g' -e 's/>/%3e/g' -e 's/#/%23/g' -e 's/%/%25/g' -e 's/"/%22/g'
+}
+
+base_lang () {
+    printf "%s" "$1" | sed -e 's/_.*//'
+}
+
+do_file () {
+    local lang dir fname
+    lang="$1"
+    rdir="$2"
+    ldir="$3"
+    fname="$4"
+
+    url_fname="$(url_escape "${fname}")"
+    if ! [ -e "${ldir}" ]; then
+	mkdir -p "${ldir}"
+    fi
+    OLD_PWD="${PWD}"
+    cd "${ldir}"
+    if ! svn export -r "${HEAD_REV}" -q "${UPSTREAM_I18N_SVN}/${lang}/tags/${version}/${rdir}/${url_fname}"; then
+	if [ -e "${fname}" ]; then
+	    printf "WARNING: deleting outdated '%s', no up-to-date version found.\n" "${fname}"
+	    rm -f "${fname}"
+	fi
+    fi
+    cd "${OLD_PWD}"
+}
+
+do_file_prefix () {
+    do_file "$1" "$2/$3" "$3" "$4"
+}
+
+HEAD_REV="$(svn info "${UPSTREAM_I18N_SVN}" | sed -n -e 's/^Revision:[[:space:]]\+//p')"
+
+for lang in $(svn ls "${UPSTREAM_I18N_SVN}" | sed -n -e 's|/$||p' | egrep -v '^(theme|tools)$'); do
+    url_lang="$(url_escape "${lang}")"
+    baselang="$(base_lang "${lang}")"
+    do_file "${url_lang}" "messages" "wp-content/languages" "${lang}.po"
+done

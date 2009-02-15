@@ -1,0 +1,498 @@
+wordpress (2.7.1-2) unstable; urgency=low
+
+  * setup-mysql corrected to accept domain names with hyphens (Closes: #514447)
+  * wp-config.php now dies if no config file is found (Closes: #500296)
+  * now the static browser uploader is supported (Closes: #501507)
+  	Users che chose to use the browser (instead of flash) to upload media files.
+
+ -- Andrea De Iacovo <andrea.de.iacovo@gmail.com>  Sun, 15 Feb 2009 19:13:35 +0100
+
+wordpress (2.7.1-1) experimental; urgency=low
+
+  * Merge with upstream Wordpress-2.7 (Closes: #514845)
+  * Corrected security regression on CVE-2008-2392.
+  	Admins had unfiltered upload capability again.
+  	Now this options is disabled by default and can be
+  	enable through the security options panel.
+
+ -- Andrea De Iacovo <andrea.de.iacovo@gmail.com>  Thu, 12 Feb 2009 00:39:29 +0100
+
+wordpress (2.7-1) experimental; urgency=low
+
+  * Merge with upstream Wordpress-2.7 (Closes: #507356)
+  * README file is now more clear about Apache
+    configuration (Closes: #511312, #507981)
+
+ -- Andrea De Iacovo <andrea.de.iacovo@gmail.com>  Mon, 12 Jan 2009 12:30:05 +0100
+
+wordpress (2.6.2-2) experimental; urgency=low
+
+  * 007CVE2008-2392.patch modified.
+  	Now users chan dinamically choose to enable unrestricted upload for admins.
+
+ -- Andrea De Iacovo <andrea.de.iacovo@gmail.com>  Thu, 06 Nov 2008 10:38:07 +0100
+
+wordpress (2.6.2-1) experimental; urgency=low
+
+  * Merge with upstream Wordpress-2.6.2 (Closes: #490977)
+  * Dependency field was changed to erase useless dependencies (Closes: #496240)
+
+ -- Andrea De Iacovo <andrea.de.iacovo@gmail.com>  Tue, 23 Oct 2008 17:20:34 +0200
+
+wordpress (2.5.1-8) unstable; urgency=high
+
+  * Added 009CVE2008-4106 patch. (Closes: #500115)
+    Whitespaces in user name are now checked during login.
+    It's not possible to register an "admin(n-whitespaces)" user anymore
+    to gain unauthorized access to the admin panel.
+
+ -- Andrea De Iacovo <andrea.de.iacovo@gmail.com>  Thu, 25 Sep 2008 17:02:47 +0200
+
+wordpress (2.5.1-7) unstable; urgency=high
+
+  * Modified CVE2008-3747 patch. (Closes: #497524)
+    The old patch made the package completely unusable. The new
+    one should solve the issue. (Thanks to Del Gurt)
+
+ -- Andrea De Iacovo <andrea.de.iacovo@gmail.com>  Thu, 04 Sep 2008 00:42:11 +0200
+
+wordpress (2.5.1-6) unstable; urgency=high
+
+  * Added patch to fix remote attack vulnerability (Closes: #497216)
+  	Attackers could gain administrative powers by sniffing cookies.
+  	This patch force wordpress over a ssl connection to prevent
+  	this issue. (CVE-2008-3747)
+
+ -- Andrea De Iacovo <andrea.de.iacovo@gmail.com>  Sun, 31 Aug 2008 09:02:22 +0200
+
+wordpress (2.5.1-5) unstable; urgency=low
+
+  * Modified rules file to have a lintian clean package.
+
+ -- Andrea De Iacovo <andrea.de.iacovo@gmail.com>  Mon, 16 Jun 2008 18:41:21 +0200
+
+wordpress (2.5.1-4) unstable; urgency=low
+
+  * Added patch to fix unrestricted file upload vulnerability (Closes: #485807)
+    Now administrators can upload only files that are in the standard
+    mime-type set (Fixes CVE-2008-2392)
+
+ -- Andrea De Iacovo <andrea.de.iacovo@gmail.com>  Sat, 14 Jun 2008 17:31:04 +0200
+
+wordpress (2.5.1-3) unstable; urgency=low
+
+  * rss_language is now modifiable through wp-admin panel.
+    Thanks to Lionel Elie Mamane (Closes: #461584)
+  * Makes Wordpress depend on tinymce (>= 3.0.7)
+
+ -- Andrea De Iacovo <andrea.de.iacovo@gmail.com>  Mon, 05 May 2008 23:39:35 +0200
+
+wordpress (2.5.1-2) unstable; urgency=low
+
+  * Wordpress provides a MODIFIED tinymce (Closes: #478257) 
+  * Setup-mysql script modified to handle SECURITY_KEY. (Closes: #478515)
+
+ -- Andrea De Iacovo <andrea.de.iacovo@gmail.com>  Mon, 28 Apr 2008 18:45:10 +0200
+
+wordpress (2.5.1-1) unstable; urgency=high
+
+  * Merged with upstream 2.5.1 security release
+  * CVE-2008-1930 integrity protection vulnerability (Closes: #477910)
+  * Depends on tinymce
+
+ -- Andrea De Iacovo <andrea.de.iacovo@gmail.com>  Sat, 26 Apr 2008 19:08:14 +0200
+
+wordpress (2.5.0-2) unstable; urgency=low
+
+  * New maintainer. (Closes: #473451: ITA: wordpress -- weblog manager)
+  * Doesn't have a sane upload directory set (Closes: #430781)
+  * Don't embedd prototype/scriptaculous (Closes: #475284
+
+ -- Andrea De Iacovo <andrea.de.iacovo@gmail.com>  Fri, 18 Apr 2008 20:50:26 +0100
+
+wordpress (2.5.0-1) unstable; urgency=low
+
+  [ Kai Hendry ]
+  * New Upstream Version
+
+  [ Lionel Elie Mamane ]
+  * Import translations as of 2008-04-01:
+    ca.po, fr_FR, id_ID, ja, pt_PT, ru_RU, sr_RS
+  * Update French theme to 2.5.0
+
+ -- Lionel Elie Mamane <lmamane@debian.org>  Wed, 02 Apr 2008 00:33:30 +0200
+
+wordpress (2.3.3+fr-2) unstable; urgency=low
+
+  * Update French translation to 2.3.3 upstream version.
+
+ -- Lionel Elie Mamane <lmamane@debian.org>  Mon, 03 Mar 2008 11:09:56 +0100
+
+wordpress (2.3.3+fr-1) unstable; urgency=low
+
+  * Add French language support back (accidentally dropped in 2.3.2-1,
+    closes: #461617)
+
+ -- Lionel Elie Mamane <lmamane@debian.org>  Sat, 09 Feb 2008 09:44:24 +0100
+
+wordpress (2.3.3-1) unstable; urgency=high
+
+  * New upstream security release:
+    http://wordpress.org/development/2008/02/wordpress-233/
+    - Fix for security flaw in XML-RPC implementation (CVE-2008-0664,
+      closes: #464170) and http://trac.wordpress.org/ticket/5313
+
+ -- Kai Hendry <hendry@iki.fi>  Tue, 05 Feb 2008 16:22:57 +0000
+
+wordpress (2.3.2+fr-1) unstable; urgency=low
+
+  * Add French language support (Closes: #461617)
+  * Bump up Standards-Version to 3.7.3
+  * Move Homepage from description to dpkg field
+  * Tweak description to make it less advertisy
+  * Consistently prefer php5 over php4 in dependency alternatives
+  * Don't override local admin's idea of permissions on
+    /etc/wordpress/config-* on every upgrade.
+
+ -- Lionel Elie Mamane <lmamane@debian.org>  Mon, 21 Jan 2008 23:08:32 +0100
+
+wordpress (2.3.2-1) unstable; urgency=high
+
+  * New upstream security release
+  * http://wordpress.org/development/2007/12/wordpress-232/
+  * new version 2.3.2 fixes security bugs (Closes: #459305)
+
+ -- Kai Hendry <hendry@iki.fi>  Sun, 06 Jan 2008 18:12:21 +0000
+
+wordpress (2.3.1-1) unstable; urgency=high
+
+  * New upstream security release
+  * http://wordpress.org/development/2007/10/wordpress-231/
+  * should depend on php4-gd | php5-gd (Closes: #447492)
+    php4-gd | php5-gd moves from suggests to depends
+  * Bugs closed in this release:
+    http://trac.wordpress.org/query?status=closed&milestone=2.3.1
+
+ -- Kai Hendry <hendry@iki.fi>  Sun, 28 Oct 2007 17:20:12 +0000
+
+wordpress (2.3-1) unstable; urgency=low
+
+  * New upstream release
+  * Maintainer meets upstream:
+    http://flickr.com/photos/hendry/1468125949/
+  * http://wordpress.org/development/2007/09/wordpress-23/
+
+ -- Kai Hendry <hendry@iki.fi>  Mon, 01 Oct 2007 23:51:59 +0100
+
+wordpress (2.2.3-1) unstable; urgency=high
+
+  * New upstream security release
+  * http://wordpress.org/development/2007/09/wordpress-223/
+  * wordpress debian config overrides $file, $server in upstream php
+    files (Closes: #440572)
+
+ -- Kai Hendry <hendry@iki.fi>  Mon, 10 Sep 2007 19:36:34 +0100
+
+wordpress (2.2.2-1) unstable; urgency=high
+
+  * New upstream security release
+  * http://wordpress.org/development/2007/08/wordpress-222-and-2011/
+  * Bugs closed http://trac.wordpress.org/query?status=closed&milestone=2.2.2
+  * Changed files
+    http://trac.wordpress.org/changeset?new=branches%2F2.2%405849&old=branches%2F2.2%405725
+  * Several vulnerabilities detected (XSS, SQL-injection) (Closes:
+    #435848)
+  * wp-config.php breaks when accessed with port (Closes: #435289)
+
+ -- Kai Hendry <hendry@iki.fi>  Sun, 05 Aug 2007 09:59:15 +0100
+
+wordpress (2.2.1-1) unstable; urgency=high
+
+  * New upstream release
+  * http://wordpress.org/development/2007/06/wordpress-221/
+  * Needs to use libphp-phpmailer (Closes: #429346)
+  * [CVE-2007-3215] remote shell command injection in PHPMailer (Closes:
+    #429194)
+  * remote SQL injection vulnerability (Closes: #428073)
+
+ -- Kai Hendry <hendry@iki.fi>  Sat, 23 Jun 2007 12:47:10 +0100
+
+wordpress (2.2-1) unstable; urgency=low
+
+  * New upstream release
+  * http://wordpress.org/development/2007/05/wordpress-22/
+
+ -- Kai Hendry <hendry@iki.fi>  Wed, 16 May 2007 09:54:36 +0100
+
+wordpress (2.1.3-1) unstable; urgency=high
+
+  * New upstream security release
+  * http://wordpress.org/development/2007/04/wordpress-213-and-2010/
+  * attempt to create a link into /srv/www/, directory which may not
+    exist (Closes: #409258)
+
+ -- Kai Hendry <hendry@iki.fi>  Wed, 04 Apr 2007 20:35:40 +0100
+
+wordpress (2.1.2-1) unstable; urgency=high
+
+  * New upstream security release
+  * possible security issue (Closes: #413171)
+  * http://trac.wordpress.org/ticket/3879
+  * http://wordpress.org/development/2007/03/upgrade-212/
+
+ -- Kai Hendry <hendry@iki.fi>  Sun,  4 Mar 2007 20:53:12 +0000
+
+wordpress (2.1.1-1) unstable; urgency=high
+
+  * New upstream security release
+  * Updated copyright with new download link
+  * http://wordpress.org/development/2007/02/new-releases
+  * http://trac.wordpress.org/milestone/2.1.1
+  * http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-1049
+
+ -- Kai Hendry <hendry@iki.fi>  Wed, 21 Feb 2007 11:14:33 +0000
+
+wordpress (2.1.0-1) unstable; urgency=low
+
+  * New upstream release
+  * http://wordpress.org/development/2007/01/ella-21/
+  * Thanks to #debian-devel's Sesse and seanius to help fix the execute perm
+    problems on wp-includes/
+  * Modified Blogroll to point only to Planet Debian
+
+ -- Kai Hendry <hendry@iki.fi>  Tue, 23 Jan 2007 14:47:30 +0000
+
+wordpress (2.0.7-1) unstable; urgency=low
+
+  * New upstream release
+  * New upstream available (security fix) (Closes: #407116)
+  * Thanks to Fabio Tranchitella and Moritz Muehlenhoff for their support
+  * Improved the copyright at Moritz's request
+  * Moritz says the security fix does not apply to Debian's PHP hence low
+    urgency
+  * See http://wordpress.org/development/2007/01/wordpress-207/ for details of
+    minor changes
+  * Tweaked the dependency line for better php5 support
+  * setup-mysql -h  minor usage summary error + should be executable
+    (Closes: #407496)
+
+ -- Kai Hendry <hendry@iki.fi>  Fri, 19 Jan 2007 10:35:57 +0000
+
+wordpress (2.0.6-1) unstable; urgency=high
+
+  * New upstream release
+  * Security fix, urgency high.
+  * FrSIRT/ADV-2006-5191, CVE-2006-6808: WordPress "get_file_description()"
+    Function Client-Side Cross Site Scripting Vulnerability.
+    (Closes: #405299, #405691)
+
+ -- Kai Hendry <hendry@iki.fi>  Fri,  5 Jan 2007 14:04:56 +0000
+
+wordpress (2.0.5-0.1) unstable; urgency=medium
+
+  * NMU on maintainer's request.
+  * Security fix, urgency medium.
+  * readme.html: s/license.txt/copyright/. (Closes: #382283)
+  * New upstream release, which fixes:
+    - CVE-2006-4208: Directory traversal vulnerability in WP-DB-Backup
+      plugin for WordPress. (Closes: #384800)
+
+ -- Fabio Tranchitella <kobold@debian.org>  Fri,  3 Nov 2006 15:12:06 +0100
+
+wordpress (2.0.4-2) unstable; urgency=low
+
+  * examples/setup-mysql doesn't work with dash (Closes: #372128)
+  * installs apache AND apache2 by default (Closes: #379118)
+    Many thanks to Fabio Tranchitella and Jesus Climent
+  * "Publish" produces broken links (Closes: #367001)
+    Disabled "Rich editor" by default
+
+ -- Kai Hendry <hendry@iki.fi>  Sun,  6 Aug 2006 12:39:56 +0100
+
+wordpress (2.0.4-1) unstable; urgency=high
+
+  * New upstream release
+  * examples/setup-mysql doesn't work with dash (Closes: #372128)
+
+ -- Kai Hendry <hendry@iki.fi>  Sun,  6 Aug 2006 11:59:39 +0100
+
+wordpress (2.0.3-1) unstable; urgency=high
+
+  * New upstream release
+  * 'Cache' shell injection vulnerability (Closes: #369014)
+
+ -- Kai Hendry <hendry@iki.fi>  Fri,  2 Jun 2006 21:00:51 +0900
+
+wordpress (2.0.2-2) unstable; urgency=high
+
+  * setup-mysql fails if the domain contains a port number (Closes:
+    #362171)
+  * Insecure file permissions in /etc/wordpress (Closes: #363580)
+  * Added a postinst to help users correct permissions
+
+ -- Kai Hendry <hendry@iki.fi>  Thu, 20 Apr 2006 10:12:56 +0900
+
+wordpress (2.0.2-1) unstable; urgency=high
+
+  * New upstream release
+  * 'This would have been out sooner, if I wasn't in hospital' release ;)
+  * Changed blogroll link to Planet Debian
+  * Altered 'plugin policy', it's now DIY
+  * mysql syntax error when running setup-mysql script (Closes: #355958)
+  * Several vulnerabilities discovered by 'snake oil' Neo Security Team
+    (Closes: #355055)
+    http://somethingunpredictable.com/archives/01/03/2006/wordpress-vulnerabilities-bogus/
+  * http://wordpress.org/development/2006/03/security-202/
+
+ -- Kai Hendry <hendry@iki.fi>  Mon, 13 Mar 2006 12:44:44 +0900
+
+wordpress (2.0.1-1) unstable; urgency=low
+
+  * New upstream release
+  * CSS Security Vulnerability (Closes: #328909)
+  * Please announce that upgrade.php needs to be run after update
+    (Closes: #348458)
+
+ -- Kai Hendry <hendry@iki.fi>  Thu,  2 Feb 2006 11:22:31 +0900
+
+wordpress (2.0-1) unstable; urgency=low
+
+  * New upstream release
+  * Closes: #320462: Wordpress replaces valid characters in urls with
+    HTML entities, breaking the URL
+  * Closes: #326685: Incorrectly mangles URLs using the wptexturize
+    function
+  * Closes: #347339: Wordpress version 2 is available
+  * Closes: #345508: Should have a dependancy on the php5-gd package
+
+ -- Kai Hendry <hendry@iki.fi>  Fri, 13 Jan 2006 03:58:59 +0000
+
+wordpress (1.5.2-2) unstable; urgency=low
+
+  * Now with support for PHP5
+  * Requires mysql-server when the server can actually be on a remote
+    server (Closes: #328554)
+
+ -- Kai Hendry <hendry@iki.fi>  Thu, 22 Sep 2005 13:56:50 +1000
+
+wordpress (1.5.2-1) unstable; urgency=high
+
+  * New upstream "security fix" release
+  * Closes: #323040: CAN-2005-2612
+  * See: http://wordpress.org/development/2005/08/one-five-two/
+
+ -- Kai Hendry <hendry@iki.fi>  Fri, 19 Aug 2005 10:58:17 +1000
+
+wordpress (1.5.1.3-4) unstable; urgency=medium
+
+  * 'I really should have tested this on another machine' release
+  * Closes: #319007: dbconfig dep screws upgrade
+
+ -- Kai Hendry <hendry@iki.fi>  Tue, 19 Jul 2005 20:03:10 +1000
+
+wordpress (1.5.1.3-3) unstable; urgency=low
+
+  * Improved the setup-mysql script for Wordpress MASS hosting with Apache's
+    VirtualDocumentRoot 
+
+ -- Kai Hendry <hendry@iki.fi>  Fri, 15 Jul 2005 10:50:59 +1000
+
+wordpress (1.5.1.3-2) unstable; urgency=high
+
+  * The no XML-RPC vulnerabilities here release. ;)
+  * Strongly advised to upgrade due to inconsistencies between 1.5.1.3-1 orig
+    tar.gz and the upstream 1.5.1.3 latest.tar.gz after checking.
+  * Closes: #312721: wordpress does not see mysql
+  * Changed upstream's default links. Controversial?
+
+ -- Kai Hendry <hendry@iki.fi>  Fri,  8 Jul 2005 12:11:23 +1000
+
+wordpress (1.5.1.3-1) unstable; urgency=high
+
+  * New upstream release
+  * Yet another security release:
+    http://wordpress.org/development/2005/06/wordpress-1513
+
+ -- Kai Hendry <hendry@iki.fi>  Thu, 30 Jun 2005 15:25:27 +1000
+
+wordpress (1.5.1.2-1) unstable; urgency=high
+
+  * New upstream release
+  * Another security release:
+    http://wordpress.org/development/2005/05/security-update/
+
+ -- Kai Hendry <hendry@iki.fi>  Sun, 29 May 2005 00:52:39 +1000
+
+wordpress (1.5.1-1) unstable; urgency=high
+
+  * Upstream changelog is here:
+    http://codex.wordpress.org/Changelog/1.5.1
+  * Fixes an unannounced "important security fix"
+
+ --  <hendry@cs.helsinki.fi>  Tue, 10 May 2005 01:48:34 +0100
+
+wordpress (1.5.0-2) unstable; urgency=low
+
+  * Thanks to NOKUBI Takatsugu and the Debian Japan people for making this
+    release possible
+  * Moved mysql setup out of postinst allowing multiple blogs on the host at
+    the loss of automated mysql setup.
+  * Closes: #298563: incompatible with mysql-server-4.1
+  * Closes: #298571: multiple installation support
+  * Closes: #300200: multiple installation support
+  * Closes: #300757: How would one add plugins to wordpress ?
+
+ -- Kai Hendry <hendry@cs.helsinki.fi>  Sat, 23 Apr 2005 15:17:45 +0900
+
+wordpress (1.5.0-1) unstable; urgency=high
+
+  * Closes: #275814: New version fixes security flaws
+    http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2004-1559
+  * Closes: #288613: /usr/share/wordpress/readme.html missing
+  * Closes: #287086: new upstream 1.2.2
+  * Added some NEWS that users will find helpful in the upgrade
+
+ -- Kai Hendry <hendry@cs.helsinki.fi>  Fri, 25 Feb 2005 07:11:47 +0200
+
+wordpress (1.2.2-1.1) unstable; urgency=medium
+
+  * NMU
+  * Thank you Dominic Hargreaves and svn-upgrade
+
+ -- Kai Hendry <hendry@cs.helsinki.fi>  Sat, 18 Dec 2004 09:32:14 +0200
+
+wordpress (1.2.1-1.1) unstable; urgency=medium
+
+  * NMU
+  * Closes: #275814: New upstream release that fixes security problem
+    detailed: http://secunia.com/advisories/12773/
+  * Closes: #276112: Need more complete README.Debian for new users
+    Added some detail to README.Debian
+  * Escaped a mysql line in the postrm that might avoid a bug.
+
+ -- Kai Hendry <hendry@cs.helsinki.fi>  Sat, 27 Nov 2004 16:48:32 +0200
+
+wordpress (1.2.0-1.1) unstable; urgency=low
+
+  * NMU
+  * Closes: #250812: New upstream
+  * Closes: #251653: apache2 support
+  * Closes: #255121: conffiles not marked
+  * Revised dependency on mysql-server otherwise debian-sys-maint will never work
+  * Thanks to Teemu Hukkanen, Corey Wright, Christian Hammers and Matt Mullenweg 
+
+ -- Kai Hendry <hendry@cs.helsinki.fi>  Thu, 12 Aug 2004 21:50:04 +0300
+
+wordpress (1.0.2-1) unstable; urgency=low
+
+  * New upstream release
+  * New package description (Closes: #237137)
+  * Made a plain text version of readme.html
+
+ -- Gabriel Rodríguez Alberich <chewie@the-geek.org>  Sun, 21 Mar 2004 18:25:20 +0000
+
+wordpress (1.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #230034)
+
+ -- Gabriel Rodríguez Alberich <chewie@the-geek.org>  Thu, 26 Feb 2004 19:37:33 +0000

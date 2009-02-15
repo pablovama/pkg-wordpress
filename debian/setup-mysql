@@ -1,0 +1,184 @@
+#!/bin/bash -e
+
+usage() {
+cat <<EOF
+$0 [-n NAME] [-h | -d | -b] FQDN
+
+Creates by default a Wordpress mysql configuration depending on required fully
+qualified domain name(FQDN).
+
+Options:
+    -n  name for the mysql user and database
+    -h  help
+    -d  destroy and purge
+    -b  backup
+
+Example: You want your blog to be served from http://blog.example.com
+         for user 'wordpress'.
+
+Then run:
+sudo bash setup-mysql -n wordpress blog.example.com
+
+BUGS: See ../TODO.Debian
+EOF
+}
+
+checkforexistingsetup() {
+if [ -f $CONFIG_FILE ] ; then
+    echo WARNING: $CONFIG_FILE exists!
+    exit 1
+fi
+
+# Generate a random password without Perl
+MATRIX="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+LENGTH="8"
+while [ "${n:=1}" -le "$LENGTH" ]
+do
+    DB_PASSWORD="$DB_PASSWORD${MATRIX:$(($RANDOM%${#MATRIX})):1}"
+    let n+=1
+done
+
+LENGTH="50"
+while [ "${n:=1}" -le "$LENGTH" ]
+do
+    SECRET_KEY="$SECRET_KEY${MATRIX:$(($RANDOM%${#MATRIX})):1}"
+    let n+=1
+done
+
+# Write the config file for wordpress
+umask 0027
+cat > $CONFIG_FILE << EOF
+<?php
+define('DB_NAME', '$NAME');
+define('DB_USER', '$NAME');
+define('DB_PASSWORD', '$DB_PASSWORD');
+define('DB_HOST', 'localhost');
+define('SECRET_KEY', '$SECRET_KEY');
+
+\$table_prefix  = 'wp_';
+\$server = DB_HOST;
+\$loginsql = DB_USER;
+\$passsql = DB_PASSWORD;
+\$base = DB_NAME;
+\$upload_path = "$UPLOAD";
+\$upload_url_path = "http://$DOMAIN/wp-uploads";
+?>
+EOF
+chgrp www-data "${CONFIG_FILE}"
+echo $CONFIG_FILE written
+}
+
+create() {
+# Create the database and user
+# Wordpress's install.php creates the tables btw
+mysql --defaults-extra-file=/etc/mysql/debian.cnf <<EOF
+CREATE DATABASE $NAME;
+GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,ALTER
+ON $NAME.*
+TO $NAME@localhost
+IDENTIFIED BY '$DB_PASSWORD';
+FLUSH PRIVILEGES;
+EOF
+[ -d /srv/www ] || mkdir -p /srv/www
+ln -s /usr/share/wordpress /srv/www/$DOMAIN
+
+echo Trying to create upload directory: $UPLOAD
+mkdir -p $UPLOAD
+echo Setting up permissions
+chown -R root:www-data /srv/www/wp-uploads
+chmod -R 0774 $UPLOAD
+chown -R root:www-data /srv/www/$DOMAIN/wp-content
+chmod -R 0770 /srv/www/$DOMAIN/wp-content
+
+echo Goto http://$DOMAIN to setup Wordpress
+}
+
+backup() {
+echo Enter root password for mysql:
+BACKUPFILE=/tmp/blog-$NAME.bak.sql.bz2
+mysqldump --add-drop-table -u root -p $NAME | bzip2 -c > $BACKUPFILE && echo Wrote $BACKUPFILE
+}
+
+destroy() {
+echo Destroying $NAME
+prompt
+mysql --defaults-extra-file=/etc/mysql/debian.cnf <<EOF
+CONNECT mysql;
+delete from user where user='$NAME';
+DELETE FROM db WHERE User = '$NAME';
+DELETE FROM tables_priv WHERE User = '$NAME';
+DELETE FROM columns_priv WHERE User = '$NAME';
+FLUSH PRIVILEGES ;
+DROP DATABASE IF EXISTS $NAME;
+EOF
+rm $CONFIG_FILE
+rm -rf /srv/www/$DOMAIN
+
+[ -d $UPLOAD ] && echo Please destroy $UPLOAD manually
+}
+
+prompt() {
+while true; do
+  echo -n "Are you sure? (y/n) "
+  read yn
+  case $yn in
+    y* | Y* ) break ;;
+    [nN]* )   exit 0 ; break ;;
+    * ) echo "unknown response.  Asking again" ;;
+  esac
+done
+}
+
+
+while getopts "n:hbd-" opt ; do
+    case "$opt" in
+    h) usage ; exit 0 ;;
+    b) BACKUP=1 ;;
+    d) DESTROY=1 ;;
+    n) NAME="$OPTARG" ;;
+    -) break ;;
+    *) usage 1>&2 ; exit 1 ;;
+    esac
+done
+shift $(($OPTIND - 1))
+
+if [ "$(id -u)" != "0" ]
+then
+  echo "You must be root to use this script."
+  exit 1
+fi
+
+DOMAIN=$1
+UPLOAD="/srv/www/wp-uploads/$DOMAIN"
+
+if [ $DOMAIN ] ; then
+ping -c 1 `echo $DOMAIN | sed 's/:[0-9]\+//'` || exit 1
+else
+    usage
+    exit 0
+fi
+
+CONFIG_FILE=/etc/wordpress/config-$DOMAIN.php
+
+if [ ! $NAME ] ; then
+NAME=$(echo $DOMAIN | sed 's,\.,,g;s,-,,g')
+echo Constructed database name and user: $NAME from $DOMAIN
+fi
+
+if [ ${#NAME} -gt 16 ]; then
+echo "$NAME is longer than MySQL's limit of 16 characters. Please specify a shorter one."
+exit 1
+fi
+
+if [ $BACKUP ] ; then
+backup
+exit 0
+fi
+
+if [ $DESTROY ] ; then
+destroy
+exit 0
+fi
+
+checkforexistingsetup
+create

@@ -1,0 +1,1728 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## French language patch.dpatch by  <andrea.de.iacovo@gmail.com>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: Making a new french theme
+
+@DPATCH@
+
+diff -Nru wordpress/wp-content/themes/default-fr/404.php wordpress-2.5.0/wp-content/themes/default-fr/404.php
+--- wordpress/wp-content/themes/default-fr/404.php	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.0/wp-content/themes/default-fr/404.php	2008-04-18 14:21:14.000000000 +0200
+@@ -0,0 +1,8 @@
++<?php get_header(); ?>
++
++<div id="content" class="narrowcolumn">
++	<h2 class="center">Erreur 404 - Rien n'a été trouvé</h2>
++</div>
++	
++<?php get_sidebar(); ?>
++<?php get_footer(); ?>
+\ No newline at end of file
+diff -Nru wordpress/wp-content/themes/default-fr/archive.php wordpress-2.5.0/wp-content/themes/default-fr/archive.php
+--- wordpress/wp-content/themes/default-fr/archive.php	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.0/wp-content/themes/default-fr/archive.php	2008-04-18 14:21:14.000000000 +0200
+@@ -0,0 +1,51 @@
++<?php get_header(); ?>
++
++<div id="content" class="narrowcolumn">
++	<?php if (have_posts()) : ?>		
++		<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>		
++		<?php /* If this is a category archive */ if (is_category()) { ?>
++			<h2 class="pagetitle">Archive pour la catégorie &#8216;<?php single_cat_title(); ?>&#8217;</h2>
++		<?php /* If this is a tag archive */ } elseif( is_tag() ) { ?> 
++			<h2 class="pagetitle">Articles taggés avec &#8216;<?php single_tag_title(); ?>&#8217;</h2> 
++		<?php /* If this is a daily archive */ } elseif (is_day()) { ?>
++			<h2 class="pagetitle">Archive pour <?php the_time('j F Y'); ?></h2>
++		<?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
++			<h2 class="pagetitle">Archive pour <?php the_time('F Y'); ?></h2>
++		<?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
++			<h2 class="pagetitle">Archive pour <?php the_time('Y'); ?></h2>
++		<?php /* If this is an author archive */ } elseif (is_author()) { ?>
++			<h2 class="pagetitle">Archive par auteur </h2>
++		<?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
++			<h2 class="pagetitle">Archives du blog </h2>
++		<?php } ?>
++
++		<div class="navigation">
++			<div class="alignleft"><?php next_posts_link('&laquo; Articles plus anciens') ?></div>
++			<div class="alignright"><?php previous_posts_link('Articles plus récents &raquo;') ?></div>
++		</div>
++
++		<?php while (have_posts()) : the_post(); ?>
++		
++			<div class="post">
++				<h3 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Lien permanent vers <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
++				<small><?php the_time('l j F Y') ?></small>
++				<div class="entry">
++					<?php the_content('Lire le reste de cet article &raquo;'); ?>
++				</div>
++				<p class="postmetadata"><?php the_tags('Tags: ', ', ', '<br />'); ?> Publié dans <?php the_category(', ') ?> | <?php edit_post_link('Modifier', '', ' | '); ?>  <?php comments_popup_link('Aucun commentaire »', '1 commentaire »', '% commentaires »', 'comments-link', 'Les commentaires sont fermés'); ?></p>
++			</div>
++		
++		<?php endwhile; ?>
++		
++		<div class="navigation">
++			<div class="alignleft"><?php next_posts_link('&laquo; Articles plus anciens') ?></div>
++			<div class="alignright"><?php previous_posts_link('Articles plus récents &raquo;') ?></div>
++		</div>
++	<?php else : ?>
++		<h2 class="center">Introuvable</h2>
++		<?php include (TEMPLATEPATH . '/searchform.php'); ?>
++	<?php endif; ?>
++</div>
++	
++<?php get_sidebar(); ?>
++<?php get_footer(); ?>
+\ No newline at end of file
+diff -Nru wordpress/wp-content/themes/default-fr/archives.php wordpress-2.5.0/wp-content/themes/default-fr/archives.php
+--- wordpress/wp-content/themes/default-fr/archives.php	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.0/wp-content/themes/default-fr/archives.php	2008-04-18 14:21:14.000000000 +0200
+@@ -0,0 +1,23 @@
++<?php
++/*
++Template Name: Archives
++*/
++?>
++
++<?php get_header(); ?>
++
++<div id="content" class="widecolumn">
++	<?php include (TEMPLATEPATH . '/searchform.php'); ?>
++	
++	<h2>Archives par mois&nbsp;:</h2>
++	<ul>
++		<?php wp_get_archives('type=monthly'); ?>
++	</ul>
++	
++	<h2>Archives par sujet&nbsp;:</h2>
++	<ul>
++		<?php wp_list_categories(); ?>
++	</ul>
++</div>
++
++<?php get_footer(); ?>
+\ No newline at end of file
+diff -Nru wordpress/wp-content/themes/default-fr/attachment.php wordpress-2.5.0/wp-content/themes/default-fr/attachment.php
+--- wordpress/wp-content/themes/default-fr/attachment.php	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.0/wp-content/themes/default-fr/attachment.php	2008-04-18 14:21:14.000000000 +0200
+@@ -0,0 +1,53 @@
++<?php get_header(); ?>
++
++<div id="content" class="widecolumn">
++	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
++
++		<div class="navigation">
++			<div class="alignleft">&nbsp;</div>
++			<div class="alignright">&nbsp;</div>
++		</div>
++		
++		<?php $attachment_link = get_the_attachment_link($post->ID, true, array(450, 800)); // This also populates the iconsize for the next line ?>
++		<?php $_post = &get_post($post->ID); $classname = ($_post->iconsize[0] <= 128 ? 'small' : '') . 'attachment'; // This lets us style narrow icons specially ?>
++		
++		<div class="post" id="post-<?php the_ID(); ?>">
++			<h2><a href="<?php echo get_permalink($post->post_parent); ?>" rev="attachment"><?php echo get_the_title($post->post_parent); ?></a> &raquo; <a href="<?php echo get_permalink() ?>" rel="bookmark" title="Permanent Link: <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
++			<div class="entry">
++				<p class="<?php echo $classname; ?>"><?php echo $attachment_link; ?><br /><?php echo basename($post->guid); ?></p>
++				<?php the_content('<p class="serif">Lire la suite de cet article &raquo;</p>'); ?>
++				<?php link_pages('<p><strong>Pages :</strong> ', '</p>', 'number'); ?>
++				<p class="postmetadata alt">
++					<small>
++						Cet article a été publié
++						le <?php the_time('l j F Y') ?> à <?php the_time() ?>
++						et est classée dans <?php the_category(', ') ?>.
++						Vous pouvez suivre toutes les réponses à cet article par le biais du flux 
++						<?php post_comments_feed_link('RSS 2.0'); ?>. 
++						<?php if (('open' == $post-> comment_status) && ('open' == $post->ping_status)) {
++							// Both Comments and Pings are open ?>
++							Vous pouvez <a href="#respond">laisser un commentaire</a>, ou <a href="<?php trackback_url(); ?>" rel="trackback">faire un trackback</a> depuis votre propre site.
++						<?php } elseif (!('open' == $post-> comment_status) && ('open' == $post->ping_status)) {
++							// Only Pings are Open ?>
++							Les commentaires sont fermés pour le moment, mais vous pouvez <a href="<?php trackback_url(); ?> " rel="trackback">faire un trackback</a> depuis votre propre site.
++						<?php } elseif (('open' == $post-> comment_status) && !('open' == $post->ping_status)) {
++							// Comments are open, Pings are not ?>
++							Vous poussez aller directement à la fin et laisser un commentaire. Le ping n'est pas autorisé.
++						<?php } elseif (!('open' == $post-> comment_status) && !('open' == $post->ping_status)) {
++							// Neither Comments, nor Pings are open ?>
++							Les commentaires tout comme les pings sont fermés.
++						<?php } edit_post_link('Modifier cet article.','',''); ?>
++					</small>
++				</p>
++			</div>
++		</div>
++		
++		<?php comments_template(); ?>
++	<?php endwhile; else: ?>
++	
++		<p>Désolé, aucun fichier attaché ne correspond à vos critères.</p>
++		
++	<?php endif; ?>
++</div>
++
++<?php get_footer(); ?>
+\ No newline at end of file
+diff -Nru wordpress/wp-content/themes/default-fr/comments.php wordpress-2.5.0/wp-content/themes/default-fr/comments.php
+--- wordpress/wp-content/themes/default-fr/comments.php	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.0/wp-content/themes/default-fr/comments.php	2008-04-18 14:21:14.000000000 +0200
+@@ -0,0 +1,90 @@
++<?php // Do not delete these lines
++if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME'])) 
++	die ('Merci de ne pas lancer cette page directement.');
++
++if (!empty($post->post_password)) { // if there's a password
++	if ($_COOKIE['wp-postpass_' . COOKIEHASH] != $post->post_password) {  // and it doesn't match the cookie
++		?>
++		<p class="nocomments">Cet article est protégé par un mot de passe. Entrez ce mot de passe pour lire les commentaires.</p>
++		<?php
++		return;
++	}
++}
++
++/* This variable is for alternating comment background */
++$oddcomment = 'class="alt" ';
++?>
++
++<!-- You can start editing here. -->
++
++<?php if ($comments) : ?>
++
++	<h3 id="comments"><?php comments_number('Aucun commentaire', 'Un commentaire', '% commentaires' );?> pour &#8220;<?php the_title(); ?>&#8221;</h3> 
++
++	<ol class="commentlist">
++		<?php foreach ($comments as $comment) : ?>
++			<li <?php echo $oddcomment; ?>id="comment-<?php comment_ID() ?>"> 
++				<?php echo get_avatar( $comment, 32 ); ?> 
++				<cite><?php comment_author_link() ?></cite> dit :
++				<?php if ($comment->comment_approved == '0') : ?>
++				<em>Votre commentaire est en attente de modération.</em>
++				<?php endif; ?>
++				<br />
++				<small class="commentmetadata"><a href="#comment-<?php comment_ID() ?>" title=""><?php comment_date('j F Y') ?> à <?php comment_time() ?></a> <?php edit_comment_link('Editer','-- ',''); ?></small>
++				<?php comment_text() ?>
++			</li>
++		  <?php 
++			/* Changes every other comment to a different class */ 
++			$oddcomment = ( empty( $oddcomment ) ) ? 'class="alt" ' : ''; 
++		endforeach; /* end for each comment */ ?>
++	</ol>
++
++<?php else : // this is displayed if there are no comments so far ?>
++
++	<?php if ('open' == $post->comment_status) : ?> 
++		<!-- If comments are open, but there are no comments. -->
++	<?php else : // comments are closed ?>
++		<!-- If comments are closed. -->
++		<p class="nocomments">Les commentaires sont fermés. </p>
++	<?php endif; ?>
++	
++<?php endif; ?>
++
++<?php if ('open' == $post->comment_status) : ?>
++	<h3 id="respond">Laisser un commentaire </h3>
++	
++	<?php if ( get_option('comment_registration') && !$user_ID ) : ?>
++		<p>Vous devez être  <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>">connecté</a> pour publier un commentaire.</p>
++	
++	<?php else : ?>
++	
++		<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
++		
++			<?php if ( $user_ID ) : ?>
++			
++			<p>Connecté en tant que <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?action=logout" title="Se déconnecter du site.">Se déconnecter  &raquo;</a></p>
++			
++			<?php else : ?>
++			
++				<p><input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" size="22" tabindex="1" />
++					<label for="author"><small>Nom <?php if ($req) echo "(obligatoire)"; ?></small></label></p>
++					
++				<p><input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" />
++					<label for="email"><small>Adresse e-mail (ne sera pas publié) <?php if ($req) echo "(obligatoire)"; ?></small></label></p>
++					
++				<p><input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" />
++					<label for="url"><small>Site Web</small></label></p>
++				
++			<?php endif; ?>
++			
++			<!--<p><small><strong>XHTML:</strong> Vous pouvez utiliser ces tags: <code><?php echo allowed_tags(); ?></code></small></p>-->
++			<p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>
++			
++			<p><input name="submit" type="submit" id="submit" tabindex="5" value="Dites-le !" />
++				<input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" /></p>
++				
++			<?php do_action('comment_form', $post->ID); ?>
++		</form>
++
++	<?php endif; // If registration required and not logged in ?>
++<?php endif; // if you delete this the sky will fall on your head ?>
+\ No newline at end of file
+diff -Nru wordpress/wp-content/themes/default-fr/comments-popup.php wordpress-2.5.0/wp-content/themes/default-fr/comments-popup.php
+--- wordpress/wp-content/themes/default-fr/comments-popup.php	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.0/wp-content/themes/default-fr/comments-popup.php	2008-04-18 14:21:14.000000000 +0200
+@@ -0,0 +1,121 @@
++<?php 
++/* Don't remove these lines. */
++add_filter('comment_text', 'popuplinks');
++while ( have_posts()) : the_post();
++?>
++<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
++<html xmlns="http://www.w3.org/1999/xhtml">
++<head>
++     <title><?php echo get_settings('blogname'); ?> - Commentaires de <?php the_title(); ?></title>
++
++	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php echo get_settings('blog_charset'); ?>" />
++	<style type="text/css" media="screen">
++		@import url( <?php bloginfo('stylesheet_url'); ?> );
++		body { margin: 3px; }
++	</style>
++
++</head>
++<body id="commentspopup">
++
++<h1 id="header"><a href="" title="<?php echo get_settings('blogname'); ?>"><?php echo get_settings('blogname'); ?></a></h1>
++<h2 id="comments">Commentaires</h2>
++
++<p><a href="<?php echo get_post_comments_feed_link($post->ID); ?>">Flux <abbr title="Really Simple Syndication">RSS</abbr> pour les commentaires de cet article.</a></p>
++
++<?php if ('open' == $post->ping_status) { ?>
++<p>L'URL à utiliser pour le trackback est : <em><?php trackback_url() ?></em></p>
++<?php } ?>
++
++<?php
++// this line is WordPress' motor, do not delete it.
++$commenter = wp_get_current_commenter();
++extract($commenter);
++$comments = get_approved_comments($id);
++$post = get_post($id);
++if (!empty($post->post_password) && $_COOKIE['wp-postpass_'. COOKIEHASH] != $post->post_password) {  // and it doesn't match the cookie
++	echo(get_the_password_form());
++} else { ?>
++
++<?php if ($comments) { ?>
++
++	<ol id="commentlist">
++	<?php foreach ($comments as $comment) { ?>
++		<li id="comment-<?php comment_ID() ?>">
++		<?php comment_text() ?>
++		<p><cite><?php comment_type('Commentaire', 'Trackback', 'Pingback'); ?> par <?php comment_author_link() ?> &#8212; <?php comment_date() ?> à <a href="#comment-<?php comment_ID() ?>"><?php comment_time() ?></a></cite></p>
++		</li>
++	<?php } // end for each comment ?>
++	</ol>
++	
++<?php } else { // this is displayed if there are no comments so far ?>
++
++	<p>Pas encore de commentaire.</p>
++	
++<?php } ?>
++
++<?php if ('open' == $post->comment_status) { ?>
++
++	<h2>Laisser un commentaire</h2>
++	<p>Les retours à la ligne et les paragraphes seront mis automatiquement, l'adresse e-mail n'est jamais affichée, les balises HTML acceptées sont : <code><?php echo allowed_tags(); ?></code></p>
++
++	<form action="<?php echo get_settings('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
++		<?php if ( $user_ID ) : ?>
++		<p>Connecté en tant que <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?action=logout" title="Se déconnecter du site.">Se déconnecter  &raquo;</a></p>
++		<?php else : ?>  
++		<p>
++			<input type="text" name="author" id="author" class="textarea" value="<?php echo $comment_author; ?>" size="28" tabindex="1" />
++			<label for="author">Nom</label>
++			<input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
++			<input type="hidden" name="redirect_to" value="<?php echo wp_specialchars($_SERVER["REQUEST_URI"]); ?>" />
++		</p>
++
++		<p>
++		  <input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="28" tabindex="2" />
++		   <label for="email">Adresse e-mail</label>
++		</p>
++
++		<p>
++		  <input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="28" tabindex="3" />
++		   <label for="url">Site internet</label>
++		</p>
++		<?php endif; ?> 
++		<p>
++		  <label for="comment">Votre commentaire </label>
++		<br />
++		  <textarea name="comment" id="comment" cols="70" rows="4" tabindex="4"></textarea>
++		</p>
++
++		<p>
++		  <input name="submit" type="submit" tabindex="5" value="Dites-le !" />
++		</p>
++		<?php do_action('comment_form', $post->ID); ?>
++	</form>
++
++<?php } else { // comments are closed ?>
++
++	<p>Désolé, les commentaires sont fermés pour l'instant.</p>
++	
++<?php }
++} // end password check
++?>
++
++<div><strong><a href="javascript:window.close()">Fermer cette fenêtre.</a></strong></div>
++
++<?php // if you delete this the sky will fall on your head
++endwhile;
++?>
++
++<!-- // this is just the end of the motor - don't touch that line either :) -->
++<?php //} ?> 
++<p class="credit"><?php timer_stop(1); ?> <cite>Propulsé par <a href="http://wordpress.org/" title="Propulsé par WordPress, une plate-forme de publication personnelle à la pointe de la sémantique"><strong>WordPress</strong></a></cite></p>
++<?php // Seen at http://www.mijnkopthee.nl/log2/archive/2003/05/28/esc(18) ?>
++<script type="text/javascript">
++	<!--
++	document.onkeypress = function esc(e) {
++		if(typeof(e) == "undefined") { e=event; }
++		if (e.keyCode == 27) { self.close(); }
++	}
++	// -->
++</script>
++</body>
++</html>
+\ No newline at end of file
+diff -Nru wordpress/wp-content/themes/default-fr/footer.php wordpress-2.5.0/wp-content/themes/default-fr/footer.php
+--- wordpress/wp-content/themes/default-fr/footer.php	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.0/wp-content/themes/default-fr/footer.php	2008-04-18 14:21:14.000000000 +0200
+@@ -0,0 +1,16 @@
++		<hr />
++		<div id="footer">
++			<!-- If you'd like to support WordPress, having the "powered by" link somewhere on your blog is the best way; it's our only promotion or advertising. --> 
++			<p>
++				<?php bloginfo('name'); ?> est fièrement propulsé par <a href="http://wordpress.org/">WordPress</a>
++				<br />
++				<a href="feed:<?php bloginfo('rss2_url'); ?>">Articles (RSS)</a> et <a href="feed:<?php bloginfo('comments_rss2_url'); ?>">Commentaires (RSS)</a>.
++				<!-- <?php echo get_num_queries(); ?> requêtes. <?php timer_stop(1); ?> secondes. -->
++			</p>
++		</div>
++	</div>
++	<!-- Gorgeous design by Michael Heilemann - http://binarybonsai.com/kubrick/ -->
++	<?php /* "Just what do you think you're doing Dave?" */ ?>
++	<?php wp_footer(); ?>
++	</body>
++</html>
+\ No newline at end of file
+diff -Nru wordpress/wp-content/themes/default-fr/functions.php wordpress-2.5.0/wp-content/themes/default-fr/functions.php
+--- wordpress/wp-content/themes/default-fr/functions.php	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.0/wp-content/themes/default-fr/functions.php	2008-04-18 14:21:14.000000000 +0200
+@@ -0,0 +1,418 @@
++<?php
++if ( function_exists('register_sidebar') )
++    register_sidebar(array(
++        'before_widget' => '<li id="%1$s" class="widget %2$s">',
++        'after_widget' => '</li>',
++        'before_title' => '<h2 class="widgettitle">',
++        'after_title' => '</h2>',
++    ));
++
++function kubrick_head() {
++	$head = "<style type='text/css'>\n<!--";
++	$output = '';
++	if ( kubrick_header_image() ) {
++		$url =  kubrick_header_image_url() ;
++		$output .= "#header { background: url('$url') no-repeat bottom center; }\n";
++	}
++	if ( false !== ( $color = kubrick_header_color() ) ) {
++		$output .= "#headerimg h1 a, #headerimg h1 a:visited, #headerimg .description { color: $color; }\n";
++	}
++	if ( false !== ( $display = kubrick_header_display() ) ) {
++		$output .= "#headerimg { display: $display }\n";
++	}
++	$foot = "--></style>\n";
++	if ( '' != $output )
++		echo $head . $output . $foot;
++}
++
++add_action('wp_head', 'kubrick_head');
++
++function kubrick_header_image() {
++	return apply_filters('kubrick_header_image', get_option('kubrick_header_image'));
++}
++
++function kubrick_upper_color() {
++	if (strpos($url = kubrick_header_image_url(), 'header-img.php?') !== false) {
++		parse_str(substr($url, strpos($url, '?') + 1), $q);
++		return $q['upper'];
++	} else
++		return '69aee7';
++}
++
++function kubrick_lower_color() {
++	if (strpos($url = kubrick_header_image_url(), 'header-img.php?') !== false) {
++		parse_str(substr($url, strpos($url, '?') + 1), $q);
++		return $q['lower'];
++	} else
++		return '4180b6';
++}
++
++function kubrick_header_image_url() {
++	if ( $image = kubrick_header_image() )
++		$url = get_template_directory_uri() . '/images/' . $image;
++	else
++		$url = get_template_directory_uri() . '/images/kubrickheader.jpg';
++
++	return $url;
++}
++
++function kubrick_header_color() {
++	return apply_filters('kubrick_header_color', get_option('kubrick_header_color'));
++}
++
++function kubrick_header_color_string() {
++	$color = kubrick_header_color();
++	if ( false === $color )
++		return 'white';
++
++	return $color;
++}
++
++function kubrick_header_display() {
++	return apply_filters('kubrick_header_display', get_option('kubrick_header_display'));
++}
++
++function kubrick_header_display_string() {
++	$display = kubrick_header_display();
++	return $display ? $display : 'inline';
++}
++
++add_action('admin_menu', 'kubrick_add_theme_page');
++
++function kubrick_add_theme_page() {
++	if ( isset( $_GET['page'] ) && $_GET['page'] == basename(__FILE__) ) { 
++		if ( isset( $_REQUEST['action'] ) && 'save' == $_REQUEST['action'] ) { 
++			check_admin_referer('kubrick-header');
++			if ( isset($_REQUEST['njform']) ) {
++				if ( isset($_REQUEST['defaults']) ) {
++					delete_option('kubrick_header_image');
++					delete_option('kubrick_header_color');
++					delete_option('kubrick_header_display');
++				} else {
++					if ( '' == $_REQUEST['njfontcolor'] )
++						delete_option('kubrick_header_color');
++					else {
++						$fontcolor = preg_replace('/^.*(#[0-9a-fA-F]{6})?.*$/', '$1', $_REQUEST['njfontcolor']);
++						update_option('kubrick_header_color', $fontcolor);
++					}
++					if ( preg_match('/[0-9A-F]{6}|[0-9A-F]{3}/i', $_REQUEST['njuppercolor'], $uc) && preg_match('/[0-9A-F]{6}|[0-9A-F]{3}/i', $_REQUEST['njlowercolor'], $lc) ) {
++						$uc = ( strlen($uc[0]) == 3 ) ? $uc[0]{0}.$uc[0]{0}.$uc[0]{1}.$uc[0]{1}.$uc[0]{2}.$uc[0]{2} : $uc[0];
++						$lc = ( strlen($lc[0]) == 3 ) ? $lc[0]{0}.$lc[0]{0}.$lc[0]{1}.$lc[0]{1}.$lc[0]{2}.$lc[0]{2} : $lc[0];
++						update_option('kubrick_header_image', "header-img.php?upper=$uc&lower=$lc");
++					}
++
++					if ( isset($_REQUEST['toggledisplay']) ) {
++						if ( false === get_option('kubrick_header_display') )
++							update_option('kubrick_header_display', 'none');
++						else
++							delete_option('kubrick_header_display');
++					}
++				}
++			} else {
++
++				if ( isset($_REQUEST['headerimage']) ) {
++					check_admin_referer('kubrick-header');
++					if ( '' == $_REQUEST['headerimage'] )
++						delete_option('kubrick_header_image');
++					else {
++						$headerimage = preg_replace('/^.*?(header-img.php\?upper=[0-9a-fA-F]{6}&lower=[0-9a-fA-F]{6})?.*$/', '$1', $_REQUEST['headerimage']);
++						update_option('kubrick_header_image', $headerimage);
++					}
++				}
++
++				if ( isset($_REQUEST['fontcolor']) ) {
++					check_admin_referer('kubrick-header');
++					if ( '' == $_REQUEST['fontcolor'] )
++						delete_option('kubrick_header_color');
++					else {
++						$fontcolor = preg_replace('/^.*?(#[0-9a-fA-F]{6})?.*$/', '$1', $_REQUEST['fontcolor']);
++						update_option('kubrick_header_color', $fontcolor);
++					}
++				}
++
++				if ( isset($_REQUEST['fontdisplay']) ) {
++					check_admin_referer('kubrick-header');
++					if ( '' == $_REQUEST['fontdisplay'] || 'inline' == $_REQUEST['fontdisplay'] )
++						delete_option('kubrick_header_display');
++					else
++						update_option('kubrick_header_display', 'none');
++				}
++			}
++			//print_r($_REQUEST);
++			wp_redirect("themes.php?page=functions.php&saved=true");
++			die;
++		}
++		add_action('admin_head', 'kubrick_theme_page_head');
++	}
++	add_theme_page(__('Customize Header'), __('Header Image and Color'), 'edit_themes', basename(__FILE__), 'kubrick_theme_page');
++}
++
++function kubrick_theme_page_head() {
++?>
++<script type="text/javascript" src="../wp-includes/js/colorpicker.js"></script>
++<script type='text/javascript'>
++// <![CDATA[
++	function pickColor(color) {
++		ColorPicker_targetInput.value = color;
++		kUpdate(ColorPicker_targetInput.id);
++	}
++	function PopupWindow_populate(contents) {
++		contents += '<br /><p style="text-align:center;margin-top:0px;"><input type="button" class="button-secondary" value="<?php echo attribute_escape(__('Close Color Picker')); ?>" onclick="cp.hidePopup(\'prettyplease\')"></input></p>';
++		this.contents = contents;
++		this.populated = false;
++	}
++	function PopupWindow_hidePopup(magicword) {
++		if ( magicword != 'prettyplease' )
++			return false;
++		if (this.divName != null) {
++			if (this.use_gebi) {
++				document.getElementById(this.divName).style.visibility = "hidden";
++			}
++			else if (this.use_css) {
++				document.all[this.divName].style.visibility = "hidden";
++			}
++			else if (this.use_layers) {
++				document.layers[this.divName].visibility = "hidden";
++			}
++		}
++		else {
++			if (this.popupWindow && !this.popupWindow.closed) {
++				this.popupWindow.close();
++				this.popupWindow = null;
++			}
++		}
++		return false;
++	}
++	function colorSelect(t,p) {
++		if ( cp.p == p && document.getElementById(cp.divName).style.visibility != "hidden" )
++			cp.hidePopup('prettyplease');
++		else {
++			cp.p = p;
++			cp.select(t,p);
++		}
++	}
++	function PopupWindow_setSize(width,height) {
++		this.width = 162;
++		this.height = 210;
++	}
++
++	var cp = new ColorPicker();
++	function advUpdate(val, obj) {
++		document.getElementById(obj).value = val;
++		kUpdate(obj);
++	}
++	function kUpdate(oid) {
++		if ( 'uppercolor' == oid || 'lowercolor' == oid ) {
++			uc = document.getElementById('uppercolor').value.replace('#', '');
++			lc = document.getElementById('lowercolor').value.replace('#', '');
++			hi = document.getElementById('headerimage');
++			hi.value = 'header-img.php?upper='+uc+'&lower='+lc;
++			document.getElementById('header').style.background = 'url("<?php echo get_template_directory_uri(); ?>/images/'+hi.value+'") center no-repeat';
++			document.getElementById('advuppercolor').value = '#'+uc;
++			document.getElementById('advlowercolor').value = '#'+lc;
++		}
++		if ( 'fontcolor' == oid ) {
++			document.getElementById('header').style.color = document.getElementById('fontcolor').value;
++			document.getElementById('advfontcolor').value = document.getElementById('fontcolor').value;
++		}
++		if ( 'fontdisplay' == oid ) {
++			document.getElementById('headerimg').style.display = document.getElementById('fontdisplay').value;
++		}
++	}
++	function toggleDisplay() {
++		td = document.getElementById('fontdisplay');
++		td.value = ( td.value == 'none' ) ? 'inline' : 'none';
++		kUpdate('fontdisplay');
++	}
++	function toggleAdvanced() {
++		a = document.getElementById('jsAdvanced');
++		if ( a.style.display == 'none' )
++			a.style.display = 'block';
++		else
++			a.style.display = 'none';
++	}
++	function kDefaults() {
++		document.getElementById('headerimage').value = '';
++		document.getElementById('advuppercolor').value = document.getElementById('uppercolor').value = '#69aee7';
++		document.getElementById('advlowercolor').value = document.getElementById('lowercolor').value = '#4180b6';
++		document.getElementById('header').style.background = 'url("<?php echo get_template_directory_uri(); ?>/images/kubrickheader.jpg") center no-repeat';
++		document.getElementById('header').style.color = '#FFFFFF';
++		document.getElementById('advfontcolor').value = document.getElementById('fontcolor').value = '';
++		document.getElementById('fontdisplay').value = 'inline';
++		document.getElementById('headerimg').style.display = document.getElementById('fontdisplay').value;
++	}
++	function kRevert() {
++		document.getElementById('headerimage').value = '<?php echo js_escape(kubrick_header_image()); ?>';
++		document.getElementById('advuppercolor').value = document.getElementById('uppercolor').value = '#<?php echo js_escape(kubrick_upper_color()); ?>';
++		document.getElementById('advlowercolor').value = document.getElementById('lowercolor').value = '#<?php echo js_escape(kubrick_lower_color()); ?>';
++		document.getElementById('header').style.background = 'url("<?php echo js_escape(kubrick_header_image_url()); ?>") center no-repeat';
++		document.getElementById('header').style.color = '';
++		document.getElementById('advfontcolor').value = document.getElementById('fontcolor').value = '<?php echo js_escape(kubrick_header_color_string()); ?>';
++		document.getElementById('fontdisplay').value = '<?php echo js_escape(kubrick_header_display_string()); ?>';
++		document.getElementById('headerimg').style.display = document.getElementById('fontdisplay').value;
++	}
++	function kInit() {
++		document.getElementById('jsForm').style.display = 'block';
++		document.getElementById('nonJsForm').style.display = 'none';
++	}
++	addLoadEvent(kInit);
++// ]]>
++</script>
++<style type='text/css'>
++	#headwrap {
++		text-align: center;
++	}
++	#kubrick-header {
++		font-size: 80%;
++	}
++	#kubrick-header .hibrowser {
++		width: 780px;
++		height: 260px;
++		overflow: scroll;
++	}
++	#kubrick-header #hitarget {
++		display: none;
++	}
++	#kubrick-header #header h1 {
++		font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
++		font-weight: bold;
++		font-size: 4em;
++		text-align: center;
++		padding-top: 70px;
++		margin: 0;
++	}
++
++	#kubrick-header #header .description {
++		font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
++		font-size: 1.2em;
++		text-align: center;
++	}
++	#kubrick-header #header {
++		text-decoration: none;
++		color: <?php echo kubrick_header_color_string(); ?>;
++		padding: 0;
++		margin: 0;
++		height: 200px;
++		text-align: center;
++		background: url('<?php echo kubrick_header_image_url(); ?>') center no-repeat;
++	}
++	#kubrick-header #headerimg {
++		margin: 0;
++		height: 200px;
++		width: 100%;
++		display: <?php echo kubrick_header_display_string(); ?>;
++	}
++	#jsForm {
++		display: none;
++		text-align: center;
++	}
++	#jsForm input.submit, #jsForm input.button, #jsAdvanced input.button {
++		padding: 0px;
++		margin: 0px;
++	}
++	#advanced {
++		text-align: center;
++		width: 620px;
++	}
++	html>body #advanced {
++		text-align: center;
++		position: relative;
++		left: 50%;
++		margin-left: -380px;
++	}
++	#jsAdvanced {
++		text-align: right;
++	}
++	#nonJsForm {
++		position: relative;
++		text-align: left;
++		margin-left: -370px;
++		left: 50%;
++	}
++	#nonJsForm label {
++		padding-top: 6px;
++		padding-right: 5px;
++		float: left;
++		width: 100px;
++		text-align: right;
++	}
++	.defbutton {
++		font-weight: bold;
++	}
++	.zerosize {
++		width: 0px;
++		height: 0px;
++		overflow: hidden;
++	}
++	#colorPickerDiv a, #colorPickerDiv a:hover {
++		padding: 1px;
++		text-decoration: none;
++		border-bottom: 0px;
++	}
++</style>
++<?php
++}
++
++function kubrick_theme_page() {
++	if ( isset( $_REQUEST['saved'] ) ) echo '<div id="message" class="updated fade"><p><strong>'.__('Options saved.').'</strong></p></div>';
++?>
++<div class='wrap'>
++	<div id="kubrick-header">
++	<h2><?php _e('Header Image and Color'); ?></h2>
++		<div id="headwrap">
++			<div id="header">
++				<div id="headerimg">
++					<h1><?php bloginfo('name'); ?></h1>
++					<div class="description"><?php bloginfo('description'); ?></div>
++				</div>
++			</div>
++		</div>
++		<br />
++		<div id="nonJsForm">
++			<form method="post" action="">
++				<?php wp_nonce_field('kubrick-header'); ?>
++				<div class="zerosize">
++					<input type="submit" name="defaultsubmit" value="<?php echo attribute_escape(__('Save')); ?>" />
++				</div>
++				<label for="njfontcolor"><?php _e('Font Color:'); ?></label><input type="text" name="njfontcolor" id="njfontcolor" value="<?php echo attribute_escape(kubrick_header_color()); ?>" /> <?php printf(__('Any CSS color (%s or %s or %s)'), '<code>red</code>', '<code>#FF0000</code>', '<code>rgb(255, 0, 0)</code>'); ?><br />
++				<label for="njuppercolor"><?php _e('Upper Color:'); ?></label><input type="text" name="njuppercolor" id="njuppercolor" value="#<?php echo attribute_escape(kubrick_upper_color()); ?>" /> <?php printf(__('HEX only (%s or %s)'), '<code>#FF0000</code>', '<code>#F00</code>'); ?><br />
++				<label for="njlowercolor"><?php _e('Lower Color:'); ?></label><input type="text" name="njlowercolor" id="njlowercolor" value="#<?php echo attribute_escape(kubrick_lower_color()); ?>" /> <?php printf(__('HEX only (%s or %s)'), '<code>#FF0000</code>', '<code>#F00</code>'); ?><br />
++				<input type="hidden" name="hi" id="hi" value="<?php echo attribute_escape(kubrick_header_image()); ?>" />
++				<input type="submit" name="toggledisplay" id="toggledisplay" value="<?php echo attribute_escape(__('Toggle Text')); ?>" />
++				<input type="submit" name="defaults" value="<?php echo attribute_escape(__('Use Defaults')); ?>" />
++				<input type="submit" class="defbutton" name="submitform" value="&nbsp;&nbsp;<?php _e('Save'); ?>&nbsp;&nbsp;" />
++				<input type="hidden" name="action" value="save" />
++				<input type="hidden" name="njform" value="true" />
++			</form>
++		</div>
++		<div id="jsForm">
++			<form style="display:inline;" method="post" name="hicolor" id="hicolor" action="<?php echo attribute_escape($_SERVER['REQUEST_URI']); ?>">
++				<?php wp_nonce_field('kubrick-header'); ?>
++				<input type="button" class="button-secondary" onclick="tgt=document.getElementById('fontcolor');colorSelect(tgt,'pick1');return false;" name="pick1" id="pick1" value="<?php echo attribute_escape(__('Font Color')); ?>"></input>
++				<input type="button" class="button-secondary" onclick="tgt=document.getElementById('uppercolor');colorSelect(tgt,'pick2');return false;" name="pick2" id="pick2" value="<?php echo attribute_escape(__('Upper Color')); ?>"></input>
++				<input type="button" class="button-secondary" onclick="tgt=document.getElementById('lowercolor');colorSelect(tgt,'pick3');return false;" name="pick3" id="pick3" value="<?php echo attribute_escape(__('Lower Color')); ?>"></input>
++				<input type="button" class="button-secondary" name="revert" value="<?php echo attribute_escape(__('Revert')); ?>" onclick="kRevert()" />
++				<input type="button" class="button-secondary" value="<?php echo attribute_escape(__('Advanced')); ?>" onclick="toggleAdvanced()" />
++				<input type="hidden" name="action" value="save" />
++				<input type="hidden" name="fontdisplay" id="fontdisplay" value="<?php echo attribute_escape(kubrick_header_display()); ?>" />
++				<input type="hidden" name="fontcolor" id="fontcolor" value="<?php echo attribute_escape(kubrick_header_color()); ?>" />
++				<input type="hidden" name="uppercolor" id="uppercolor" value="<?php echo attribute_escape(kubrick_upper_color()); ?>" />
++				<input type="hidden" name="lowercolor" id="lowercolor" value="<?php echo attribute_escape(kubrick_lower_color()); ?>" />
++				<input type="hidden" name="headerimage" id="headerimage" value="<?php echo attribute_escape(kubrick_header_image()); ?>" />
++				<p class="submit"><input type="submit" name="submitform" class="defbutton" value="<?php echo attribute_escape(__('Update Header')); ?>" onclick="cp.hidePopup('prettyplease')" /></p>
++			</form>
++			<div id="colorPickerDiv" style="z-index: 100;background:#eee;border:1px solid #ccc;position:absolute;visibility:hidden;"> </div>
++			<div id="advanced">
++				<form id="jsAdvanced" style="display:none;" action="">
++					<?php wp_nonce_field('kubrick-header'); ?>
++					<label for="advfontcolor"><?php _e('Font Color (CSS):'); ?> </label><input type="text" id="advfontcolor" onchange="advUpdate(this.value, 'fontcolor')" value="<?php echo attribute_escape(kubrick_header_color()); ?>" /><br />
++					<label for="advuppercolor"><?php _e('Upper Color (HEX):');?> </label><input type="text" id="advuppercolor" onchange="advUpdate(this.value, 'uppercolor')" value="#<?php echo attribute_escape(kubrick_upper_color()); ?>" /><br />
++					<label for="advlowercolor"><?php _e('Lower Color (HEX):'); ?> </label><input type="text" id="advlowercolor" onchange="advUpdate(this.value, 'lowercolor')" value="#<?php echo attribute_escape(kubrick_lower_color()); ?>" /><br />
++					<input type="button" class="button-secondary" name="default" value="<?php echo attribute_escape(__('Select Default Colors')); ?>" onclick="kDefaults()" /><br />
++					<input type="button" class="button-secondary" onclick="toggleDisplay();return false;" name="pick" id="pick" value="<?php echo attribute_escape(__('Toggle Text Display')); ?>"></input><br />
++				</form>
++			</div>
++		</div>
++	</div>
++</div>
++<?php } ?>
+diff -Nru wordpress/wp-content/themes/default-fr/header.php wordpress-2.5.0/wp-content/themes/default-fr/header.php
+--- wordpress/wp-content/themes/default-fr/header.php	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.0/wp-content/themes/default-fr/header.php	2008-04-18 14:21:14.000000000 +0200
+@@ -0,0 +1,31 @@
++<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
++<html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
++
++<head profile="http://gmpg.org/xfn/11">
++	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
++	<title><?php bloginfo('name'); ?> <?php if ( is_single() ) { ?> &raquo; Archive du blog <?php } ?> <?php wp_title(); ?></title>
++
++	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
++	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
++	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
++	
++	<style type="text/css" media="screen">
++		<?php // Controle si la sidebar est présente ou pas.
++		if ( !empty($withcomments) && !is_single() ) : ?>
++			#page { background: url("<?php bloginfo('stylesheet_directory'); ?>/images/kubrickbg-<?php bloginfo('text_direction'); ?>.jpg") repeat-y top; border: none; } 
++		<?php else : // Pas de sidebar ?>
++			#page { background: url("<?php bloginfo('stylesheet_directory'); ?>/images/kubrickbgwide.jpg") repeat-y top; border: none; } 
++		<?php endif; ?>
++	</style>
++	<?php wp_head(); ?>
++</head>
++
++<body>
++	<div id="page">
++		<div id="header">
++			<div id="headerimg">
++				<h1><a href="<?php bloginfo('home'); ?>"><?php bloginfo('name'); ?></a></h1>
++				<div class="description"><?php bloginfo('description'); ?></div>
++			</div>
++		</div>
++		<hr />
+\ No newline at end of file
+diff -Nru wordpress/wp-content/themes/default-fr/index.php wordpress-2.5.0/wp-content/themes/default-fr/index.php
+--- wordpress/wp-content/themes/default-fr/index.php	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.0/wp-content/themes/default-fr/index.php	2008-04-18 14:21:14.000000000 +0200
+@@ -0,0 +1,34 @@
++<?php get_header(); ?>
++
++<div id="content" class="narrowcolumn">
++	<?php if (have_posts()) : ?>
++	
++		<?php while (have_posts()) : the_post(); ?>
++		
++			<div class="post" id="post-<?php the_ID(); ?>">
++				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Lien permanent vers <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
++				<small><?php the_time('j F Y') ?> <!-- par <?php the_author() ?> --></small>
++				<div class="entry">
++					<?php the_content('Lire le reste de cet article &raquo;'); ?>
++				</div>
++				<p class="postmetadata"><?php the_tags('Tags: ', ', ', '<br />'); ?> Publié dans <?php the_category(', ') ?> | <?php edit_post_link('Modifier', '', ' | '); ?>  <?php comments_popup_link('Aucun commentaire »', '1 commentaire »', '% commentaires »', 'comments-link', 'Les commentaires sont fermés'); ?></p>
++			</div>
++			
++		<?php endwhile; ?>
++		
++		<div class="navigation">
++			<div class="alignleft"><?php next_posts_link('&laquo; Articles plus anciens') ?></div>
++			<div class="alignright"><?php previous_posts_link('Articles plus récents &raquo;') ?></div>
++		</div>
++		
++	<?php else : ?>
++	
++		<h2 class="center">Introuvable</h2>
++		<p class="center">Désolé, mais vous cherchez quelque chose qui ne se trouve pas ici .</p>
++		<?php include (TEMPLATEPATH . "/searchform.php"); ?>
++		
++	<?php endif; ?>
++</div>
++	
++<?php get_sidebar(); ?>
++<?php get_footer(); ?>
+\ No newline at end of file
+diff -Nru wordpress/wp-content/themes/default-fr/links.php wordpress-2.5.0/wp-content/themes/default-fr/links.php
+--- wordpress/wp-content/themes/default-fr/links.php	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.0/wp-content/themes/default-fr/links.php	2008-04-18 14:21:14.000000000 +0200
+@@ -0,0 +1,16 @@
++<?php
++/*
++Template Name: Liens
++*/
++?>
++
++<?php get_header(); ?>
++
++<div id="content" class="widecolumn">
++	<h2>Liens&nbsp;:</h2>
++	<ul>
++		<?php wp_list_bookmarks(); ?> 
++	</ul>
++</div>
++
++<?php get_footer(); ?>
+\ No newline at end of file
+diff -Nru wordpress/wp-content/themes/default-fr/page.php wordpress-2.5.0/wp-content/themes/default-fr/page.php
+--- wordpress/wp-content/themes/default-fr/page.php	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.0/wp-content/themes/default-fr/page.php	2008-04-18 14:21:14.000000000 +0200
+@@ -0,0 +1,19 @@
++<?php get_header(); ?>
++
++<div id="content" class="narrowcolumn">
++
++	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
++		<div class="post" id="post-<?php the_ID(); ?>">
++			<h2><?php the_title(); ?></h2>
++			<div class="entry">
++				<?php the_content('<p class="serif">Lire le reste de cette page &raquo;</p>'); ?>
++				<?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
++			</div>
++		</div>
++		<?php edit_post_link('Modifier cette page.', '<p>', '</p>'); ?>
++	 <?php endwhile; endif; ?>
++	
++</div>
++
++<?php get_sidebar(); ?>
++<?php get_footer(); ?>
+\ No newline at end of file
+diff -Nru wordpress/wp-content/themes/default-fr/rtl.css wordpress-2.5.0/wp-content/themes/default-fr/rtl.css
+--- wordpress/wp-content/themes/default-fr/rtl.css	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.0/wp-content/themes/default-fr/rtl.css	2008-04-18 14:21:14.000000000 +0200
+@@ -0,0 +1,98 @@
++﻿/* Based on Arabic (RTL) version of Kubrick theme, converted by Serdal (Serdal.com) */
++.narrowcolumn, .alignleft, .widecolumn .smallattachment {
++	float: right;
++}
++.alignright, #commentform #submit {
++	float: left;
++}
++#page, .post, #wp-calendar #prev a {
++	text-align: right;
++}
++body, #commentform p {
++	font-family: 'Geeza Pro', Tahoma, 'Lucida Grande', Verdana, Arial, Sans-Serif;
++}
++small {
++	font-family: 'Geeza Pro', Tahoma, Arial, Helvetica, Sans-Serif;
++}
++h1, h2, h3 {
++	font-family: 'Al Bayan', 'Traditional Arabic', 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
++}
++#sidebar h2 {
++	font-family: 'Al Bayan', 'Traditional Arabic', 'Lucida Grande', Verdana, Sans-Serif;
++}
++.commentlist li, #commentform input, #commentform textarea {
++	font-family: 'Geeza Pro', Tahoma, 'Lucida Grande', Verdana, Arial, Sans-Serif;
++}
++#sidebar {
++	font-family: 'Geeza Pro', Tahoma, 'Lucida Grande', Verdana, Arial, Sans-Serif;
++}
++#wp-calendar caption {
++	font-family: 'Geeza Pro', Tahoma, 'Lucida Grande', Verdana, Arial, Sans-Serif;
++}
++acronym, abbr, span.caps {
++	letter-spacing: normal;
++}
++#header {
++	margin: 0 1px 0 0;
++}
++.narrowcolumn {
++	padding: 0 45px 20px 0;
++}
++.widecolumn {
++	margin: 5px 150px 0 0;
++}
++.widecolumn .smallattachment {
++	margin: 5px 0px 5px 5px;
++}
++.postmetadata {
++	clear: right;
++}
++img.alignright {
++	margin: 0 7px 2px 0;
++}
++img.alignleft {
++	margin: 0 0 2px 7px;
++}
++.entry ol {
++	padding: 0 35px 0 0;
++}
++#sidebar ul ul, #sidebar ul ol {
++	margin: 5px 10px 0 0;
++}
++#sidebar ul ul ul, #sidebar ul ol {
++	margin: 0 10px 0 0;
++}
++#commentform input {
++	margin: 5px 0 1px 5px;
++}
++.commentlist p {
++	margin: 10px 0 10px 5px;
++}
++html > body .entry li {
++	margin: 7px 10px 8px 0;
++}
++html > body .entry ul {
++	margin-left: auto;
++	margin-right: 0px;
++	padding: 0 30px 0 0;
++}
++#sidebar {
++	margin-left: auto;
++	margin-right: 545px;
++}
++#wp-calendar #prev a, html > body .entry ul {
++	padding-left: 0;
++	padding-right: 10px;
++}
++blockquote {
++	border-left: 0;
++	border-right: 5px solid #ddd;
++	padding-left: 0;
++	padding-right: 20px;
++	margin: 15px 10px 0 30px;
++}
++#wp-calendar #next a {
++	padding-right: 0;
++	padding-left: 10px;
++	text-align: left;
++}
+\ No newline at end of file
+diff -Nru wordpress/wp-content/themes/default-fr/searchform.php wordpress-2.5.0/wp-content/themes/default-fr/searchform.php
+--- wordpress/wp-content/themes/default-fr/searchform.php	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.0/wp-content/themes/default-fr/searchform.php	2008-04-18 14:21:14.000000000 +0200
+@@ -0,0 +1,6 @@
++<form method="get" id="searchform" action="<?php bloginfo('url'); ?>/">
++	<div>
++		<input type="text" value="<?php the_search_query(); ?>" name="s" id="s" />
++		<input type="submit" id="searchsubmit" value="Chercher" />
++	</div>
++</form>
+\ No newline at end of file
+diff -Nru wordpress/wp-content/themes/default-fr/search.php wordpress-2.5.0/wp-content/themes/default-fr/search.php
+--- wordpress/wp-content/themes/default-fr/search.php	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.0/wp-content/themes/default-fr/search.php	2008-04-18 14:21:14.000000000 +0200
+@@ -0,0 +1,34 @@
++<?php get_header(); ?>
++
++<div id="content" class="narrowcolumn">
++	<?php if (have_posts()) : ?>
++	
++		<h2 class="pagetitle">Résultats de recherche</h2>
++		<div class="navigation">
++			<div class="alignleft"><?php next_posts_link('&laquo; Articles plus anciens') ?></div>
++			<div class="alignright"><?php previous_posts_link('Articles plus récents &raquo;') ?></div>
++		</div>
++		
++		<?php while (have_posts()) : the_post(); ?>
++			<div class="post">
++				<h3 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
++				<small><?php the_time('l j F Y') ?></small>
++				<p class="postmetadata"><?php the_tags('Tags: ', ', ', '<br />'); ?> Publié dans <?php the_category(', ') ?> | <?php edit_post_link('Modifier', '', ' | '); ?>  <?php comments_popup_link('Aucun commentaire »', '1 commentaire »', '% commentaires »', 'comments-link', 'Les commentaires sont fermés'); ?></p>
++			</div>
++		<?php endwhile; ?>
++		
++		<div class="navigation">
++			<div class="alignleft"><?php next_posts_link('&laquo; Articles plus anciens') ?></div>
++			<div class="alignright"><?php previous_posts_link('Articles plus récents &raquo;') ?></div>
++		</div>
++		
++	<?php else : ?>
++	
++		<h2 class="center">Aucun article trouvé. Essayer une autre recherche ?</h2>
++		<?php include (TEMPLATEPATH . '/searchform.php'); ?>
++		
++	<?php endif; ?>
++</div>
++
++<?php get_sidebar(); ?>
++<?php get_footer(); ?>
+\ No newline at end of file
+diff -Nru wordpress/wp-content/themes/default-fr/sidebar.php wordpress-2.5.0/wp-content/themes/default-fr/sidebar.php
+--- wordpress/wp-content/themes/default-fr/sidebar.php	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.0/wp-content/themes/default-fr/sidebar.php	2008-04-18 14:21:14.000000000 +0200
+@@ -0,0 +1,63 @@
++<div id="sidebar">
++	<ul>
++		<?php   /* Widgetized sidebar, if you have the plugin installed. */ 
++			if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
++			 
++		<li>
++			<?php include (TEMPLATEPATH . '/searchform.php'); ?>
++		</li>
++
++		<!-- Author information is disabled per default. Uncomment and fill in your details if you want to use it.
++		<li><h2>Auteur</h2>
++		<p>Une petite description de vue. Pas un roman... juste un apercu !</p>
++		</li>
++		-->
++
++		<?php if ( is_404() || is_category() || is_day() || is_month() || is_year() || is_search() || is_paged() ) { ?> 
++		<li> 
++			<?php /* If this is a 404 page */ if (is_404()) { ?>
++			<?php /* If this is a category archive */ } elseif (is_category()) { ?>
++				<p>Vous vous trouvez dans les archives de la catégorie <?php single_cat_title(''); ?>.</p>
++			<?php /* If this is a yearly archive */ } elseif (is_day()) { ?>
++				<p>Vous vous trouvez dans les archives du blog <a href="<?php bloginfo('home'); ?>/"><?php echo bloginfo('name'); ?></a> pour la journée du <?php the_time('l j F Y'); ?>.</p>
++			<?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
++				<p>Vous vous trouvez dans les archives du blog <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> pour <?php the_time('F Y'); ?>.</p>
++			<?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
++				<p>Vous vous trouvez dans les archives du blog <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> pour l'année <?php the_time('Y'); ?>.</p>
++			<?php /* If this is a monthly archive */ } elseif (is_search()) { ?>
++				<p>Vous avez lancé la recherche <strong>'<?php the_search_query(); ?>'</strong> dans les archives du blog  <a href="<?php echo bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> . Si vous ne trouvez rien dans ces résultats, essayez l'un de ces liens.</p>
++			<?php /* If this is a monthly archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
++				<p>Vous vous trouvez dans les archives du blog <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a>.</p>
++			<?php } ?>
++		</li> 
++		<?php }?> 
++
++		<?php wp_list_pages('title_li=<h2>Pages</h2>' ); ?>
++
++		<li><h2>Archives</h2>
++			<ul>
++				<?php wp_get_archives('type=monthly'); ?>
++			</ul>
++		</li>
++
++		<?php wp_list_categories('show_count=1&title_li=<h2>Catégories</h2>'); ?>
++
++		<?php /* Si c'est la page d'accueil */ if ( is_home() || is_page() ) { ?>
++			<?php wp_list_bookmarks(); ?>
++
++			<li><h2>Méta</h2>
++				<ul>
++					<?php wp_register(); ?>
++					<li><?php wp_loginout(); ?></li>
++					<li><a href="http://validator.w3.org/check/referer" title="This page validates as XHTML 1.0 Transitional"><abbr title="eXtensible HyperText Markup Language">XHTML valide</abbr></a></li>
++					<li><a href="http://gmpg.org/xfn/"><abbr title="XHTML Friends Network">XFN</abbr></a></li>
++					<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress</a></li>
++					<li><a href="http://wordpress-fr.net/" title="Communauté francophone de WordPress et WPmu.">WordPress Francophone</a></li>
++					<?php wp_meta(); ?>
++				</ul>
++			</li>
++		<?php } ?>
++		
++		<?php endif; ?> 
++	</ul>
++</div>
+\ No newline at end of file
+diff -Nru wordpress/wp-content/themes/default-fr/single.php wordpress-2.5.0/wp-content/themes/default-fr/single.php
+--- wordpress/wp-content/themes/default-fr/single.php	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.0/wp-content/themes/default-fr/single.php	2008-04-18 14:21:14.000000000 +0200
+@@ -0,0 +1,50 @@
++<?php get_header(); ?>
++
++<div id="content" class="widecolumn">
++	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
++	
++		<div class="navigation">
++			<div class="alignleft"><?php previous_post_link('&laquo; %link') ?></div>
++			<div class="alignright"><?php next_post_link('%link &raquo;') ?></div>
++		</div>
++		
++		<div class="post" id="post-<?php the_ID(); ?>">
++			<h2><?php the_title(); ?></h2>
++			<div class="entry">
++				<?php the_content('<p class="serif">Lire la suite de l\'article &raquo;</p>'); ?>
++				<?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
++				<?php the_tags( '<p>Tags: ', ', ', '</p>'); ?> 
++				<p class="postmetadata alt">
++					<small>
++						Cet article  a été publié 
++						le <?php the_time('l j F Y') ?> à <?php the_time() ?>
++						et est classé dans <?php the_category(', ') ?>.
++						Vous pouvez en suivre les commentaires par le biais du flux  
++						<?php post_comments_feed_link('RSS 2.0'); ?>. 
++						<?php if (('open' == $post-> comment_status) && ('open' == $post->ping_status)) {
++							// Both Comments and Pings are open ?>
++							Vous pouvez  <a href="#respond">laisser un commentaire</a>, ou <a href="<?php trackback_url(); ?>" rel="trackback">faire un trackback</a> depuis votre propre site.
++						<?php } elseif (!('open' == $post-> comment_status) && ('open' == $post->ping_status)) {
++							// Only Pings are Open ?>
++							Les commentaires sont fermés, mais vous pouvez  <a href="<?php trackback_url(); ?> " rel="trackback">faire un trackback</a> depuis votre propre site.
++						<?php } elseif (('open' == $post-> comment_status) && !('open' == $post->ping_status)) {
++							// Comments are open, Pings are not ?>
++							Vous pouvez aller directement à la fin et laisser un commentaire. Les pings ne sont pas autorisés.
++						<?php } elseif (!('open' == $post-> comment_status) && !('open' == $post->ping_status)) {
++							// Neither Comments, nor Pings are open ?>
++							Les commentaires et pings sont fermés.
++						<?php } edit_post_link('Modifier cet article.','',''); ?>
++					</small>				
++				</p>
++			</div>
++		</div>
++		<?php comments_template(); ?>
++	
++	<?php endwhile; else: ?>
++	
++		<p>Désolé, aucun article ne correspond à vos critères.</p>
++		
++	<?php endif; ?>
++</div>
++
++<?php get_footer(); ?>
+\ No newline at end of file
+diff -Nru wordpress/wp-content/themes/default-fr/style.css wordpress-2.5.0/wp-content/themes/default-fr/style.css
+--- wordpress/wp-content/themes/default-fr/style.css	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.0/wp-content/themes/default-fr/style.css	2008-04-18 14:21:14.000000000 +0200
+@@ -0,0 +1,501 @@
++/*
++Theme Name: WordPress Default Fr
++Theme URI: http://wordpress.org/
++Description: Le thème par défaut de WordPress, basé sur le fameux thème <a href="http://binarybonsai.com/kubrick/">Kubrick</a>.
++Version: 1.6
++Author: Michael Heilemann
++Author URI: http://binarybonsai.com/
++Tags: blue, custom header, fixed width, two columns, widgets 
++
++Kubrick v1.5
++http://binarybonsai.com/kubrick/
++
++This theme was designed and built by Michael Heilemann,
++whose blog you will find at http://binarybonsai.com/
++
++The CSS, XHTML and design is released under GPL:
++http://www.opensource.org/licenses/gpl-license.php
++
++*/
++/* Begin Typography & Colors */
++body {
++font-size: 62.5%; /* Resets 1em to 10px */
++font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
++background: #d5d6d7 url('images/kubrickbgcolor.jpg');
++color: #333;
++text-align: center;
++}
++#page {
++background-color: white;
++border: 1px solid #959596;
++text-align: left;
++}
++#header {
++background: #73a0c5 url('images/kubrickheader.jpg') no-repeat bottom center;
++}
++#headerimg {
++margin: 7px 9px 0;
++height: 192px;
++width: 740px;
++}
++#content {
++font-size: 1.2em;
++}
++.widecolumn .entry p {
++font-size: 1.05em;
++}
++.narrowcolumn .entry, .widecolumn .entry {
++line-height: 1.4em;
++}
++.widecolumn {
++line-height: 1.6em;
++}
++.narrowcolumn .postmetadata {
++text-align: center;
++}
++.alt {
++background-color: #f8f8f8;
++border-top: 1px solid #ddd;
++border-bottom: 1px solid #ddd;
++}
++#footer {
++background: #eee url('images/kubrickfooter.jpg') no-repeat top;
++border: none;
++}
++small {
++font-family: Arial, Helvetica, Sans-Serif;
++font-size: 0.9em;
++line-height: 1.5em;
++}
++h1, h2, h3 {
++font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
++font-weight: bold;
++}
++h1 {
++font-size: 4em;
++text-align: center;
++}
++#headerimg .description {
++font-size: 1.2em;
++text-align: center;
++}
++h2 {
++font-size: 1.6em;
++}
++h2.pagetitle {
++font-size: 1.6em;
++}
++#sidebar h2 {
++font-family: 'Lucida Grande', Verdana, Sans-Serif;
++font-size: 1.2em;
++}
++h3 {
++font-size: 1.3em;
++}
++h1, h1 a, h1 a:hover, h1 a:visited, #headerimg .description {
++text-decoration: none;
++color: white;
++}
++h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited {
++color: #333;
++}
++h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
++text-decoration: none;
++}
++.entry p a:visited {
++color: #b85b5a;
++}
++.commentlist li, #commentform input, #commentform textarea {
++font: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
++}
++.commentlist li {
++font-weight: bold;
++}
++.commentlist cite, .commentlist cite a {
++font-weight: bold;
++font-style: normal;
++font-size: 1.1em;
++}
++.commentlist p {
++font-weight: normal;
++line-height: 1.5em;
++text-transform: none;
++}
++#commentform p {
++font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
++}
++.commentmetadata {
++font-weight: normal;
++}
++#sidebar {
++font: 1em 'Lucida Grande', Verdana, Arial, Sans-Serif;
++}
++small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
++color: #777;
++}
++code {
++font: 1.1em 'Courier New', Courier, Fixed;
++}
++acronym, abbr, span.caps {
++font-size: 0.9em;
++letter-spacing: .07em;
++}
++a, h2 a:hover, h3 a:hover {
++color: #06c;
++text-decoration: none;
++}
++a:hover {
++color: #147;
++text-decoration: underline;
++}
++#wp-calendar #prev a, #wp-calendar #next a {
++font-size: 9pt;
++}
++#wp-calendar a {
++text-decoration: none;
++}
++#wp-calendar caption {
++font: bold 1.3em 'Lucida Grande', Verdana, Arial, Sans-Serif;
++text-align: center;
++}
++#wp-calendar th {
++font-style: normal;
++text-transform: capitalize;
++}
++/* End Typography & Colors */
++/* Begin Structure */
++body {
++margin: 0 0 20px 0;
++padding: 0;
++}
++#page {
++background-color: white;
++margin: 20px auto;
++padding: 0;
++width: 760px;
++border: 1px solid #959596;
++}
++#header {
++background-color: #73a0c5;
++margin: 0 0 0 1px;
++padding: 0;
++height: 200px;
++width: 758px;
++}
++#headerimg {
++margin: 0;
++height: 200px;
++width: 100%;
++}
++.narrowcolumn {
++float: left;
++padding: 0 0 20px 45px;
++margin: 0px 0 0;
++width: 450px;
++}
++.widecolumn {
++padding: 10px 0 20px 0;
++margin: 5px 0 0 150px;
++width: 450px;
++}
++.post {
++margin: 0 0 40px;
++text-align: justify;
++}
++.post hr {
++display: block;
++}
++.widecolumn .post {
++margin: 0;
++}
++.narrowcolumn .postmetadata {
++padding-top: 5px;
++}
++.widecolumn .postmetadata {
++margin: 30px 0;
++}
++.widecolumn .smallattachment {
++text-align: center;
++float: left;
++width: 128px;
++margin: 5px 5px 5px 0px;
++}
++.widecolumn .attachment {
++text-align: center;
++margin: 5px 0px;
++}
++.postmetadata {
++clear: left;
++}
++.clear { 
++clear: both; 
++}
++#footer {
++padding: 0;
++margin: 0 auto;
++width: 760px;
++clear: both;
++}
++#footer p {
++margin: 0;
++padding: 20px 0;
++text-align: center;
++}
++/* End Structure */
++/*	Begin Headers */
++h1 {
++padding-top: 70px;
++margin: 0;
++}
++h2 {
++margin: 30px 0 0;
++}
++h2.pagetitle {
++margin-top: 30px;
++text-align: center;
++}
++#sidebar h2 {
++margin: 5px 0 0;
++padding: 0;
++}
++h3 {
++padding: 0;
++margin: 30px 0 0;
++}
++h3.comments {
++padding: 0;
++margin: 40px auto 20px;
++}
++/* End Headers */
++/* Begin Images */
++p img {
++padding: 0;
++max-width: 100%;
++}
++/*	Using 'class="alignright"' on an image will (who would've
++thought?!) align the image to the right. And using 'class="centered',
++will of course center the image. This is much better than using
++align="center", being much more futureproof (and valid) */
++img.centered {
++display: block;
++margin-left: auto;
++margin-right: auto;
++}
++img.alignright {
++padding: 4px;
++margin: 0 0 2px 7px;
++display: inline;
++}
++img.alignleft {
++padding: 4px;
++margin: 0 7px 2px 0;
++display: inline;
++}
++.alignright {
++float: right;
++}
++.alignleft {
++float: left;
++}
++/* End Images */
++/* Begin Lists
++
++Special stylized non-IE bullets
++Do not work in Internet Explorer, which merely default to normal bullets. */
++html > body .entry ul {
++margin-left: 0px;
++padding: 0 0 0 30px;
++list-style: none;
++padding-left: 10px;
++text-indent: -10px;
++}
++html > body .entry li {
++margin: 7px 0 8px 10px;
++}
++.entry ul li:before, #sidebar ul ul li:before {
++content: "\00BB \0020";
++}
++.entry ol {
++padding: 0 0 0 35px;
++margin: 0;
++}
++.entry ol li {
++margin: 0;
++padding: 0;
++}
++.postmetadata ul, .postmetadata li {
++display: inline;
++list-style-type: none;
++list-style-image: none;
++}
++#sidebar ul, #sidebar ul ol {
++margin: 0;
++padding: 0;
++}
++#sidebar ul li {
++list-style-type: none;
++list-style-image: none;
++margin-bottom: 15px;
++}
++#sidebar ul p, #sidebar ul select {
++margin: 5px 0 8px;
++}
++#sidebar ul ul, #sidebar ul ol {
++margin: 5px 0 0 10px;
++}
++#sidebar ul ul ul, #sidebar ul ol {
++margin: 0 0 0 10px;
++}
++ol li, #sidebar ul ol li {
++list-style: decimal outside;
++}
++#sidebar ul ul li, #sidebar ul ol li {
++margin: 3px 0 0;
++padding: 0;
++}
++/* End Entry Lists */
++/* Begin Form Elements */
++#searchform {
++margin: 10px auto;
++padding: 5px 3px;
++text-align: center;
++}
++#sidebar #searchform #s {
++width: 108px;
++padding: 2px;
++}
++#sidebar #searchsubmit {
++padding: 1px;
++}
++.entry form {
++/* This is mainly for password protected posts, makes them look better. */
++text-align: center;
++}
++select {
++width: 130px;
++}
++#commentform input {
++width: 170px;
++padding: 2px;
++margin: 5px 5px 1px 0;
++}
++#commentform textarea {
++width: 100%;
++padding: 2px;
++}
++#commentform #submit {
++margin: 0;
++float: right;
++}
++/* End Form Elements */
++/* Begin Comments*/
++.alt {
++margin: 0;
++padding: 10px;
++}
++.commentlist {
++padding: 0;
++text-align: justify;
++}
++.commentlist li {
++margin: 15px 0 3px;
++padding: 5px 10px 3px;
++list-style: none;
++}
++.commentlist li .avatar {
++float: right;
++border: 1px solid #eee;
++padding: 2px;
++background: #fff;
++}
++.commentlist p {
++margin: 10px 5px 10px 0;
++}
++#commentform p {
++margin: 5px 0;
++}
++.nocomments {
++text-align: center;
++margin: 0;
++padding: 0;
++}
++.commentmetadata {
++margin: 0;
++display: block;
++}
++/* End Comments */
++/* Begin Sidebar */
++#sidebar {
++padding: 20px 0 10px 0;
++margin-left: 545px;
++width: 190px;
++}
++#sidebar form {
++margin: 0;
++}
++/* End Sidebar */
++/* Begin Calendar */
++#wp-calendar {
++empty-cells: show;
++margin: 10px auto 0;
++width: 155px;
++}
++#wp-calendar #next a {
++padding-right: 10px;
++text-align: right;
++}
++#wp-calendar #prev a {
++padding-left: 10px;
++text-align: left;
++}
++#wp-calendar a {
++display: block;
++}
++#wp-calendar caption {
++text-align: center;
++width: 100%;
++}
++#wp-calendar td {
++padding: 3px 0;
++text-align: center;
++}
++#wp-calendar td.pad:hover {
++/* Doesn't work in IE */
++background-color: #fff;
++}
++/* End Calendar */
++/* Begin Various Tags & Classes */
++acronym, abbr, span.caps {
++cursor: help;
++}
++acronym, abbr {
++border-bottom: 1px dashed #999;
++}
++blockquote {
++margin: 15px 30px 0 10px;
++padding-left: 20px;
++border-left: 5px solid #ddd;
++}
++blockquote cite {
++margin: 5px 0 0;
++display: block;
++}
++.center {
++text-align: center;
++}
++hr {
++display: none;
++}
++a img {
++border: none;
++}
++.navigation {
++display: block;
++text-align: center;
++margin-top: 10px;
++margin-bottom: 60px;
++}
++/* End Various Tags & Classes*/
++/* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.
++It won't be a stylish marriage, I can't afford a carriage.
++But you'll look sweet upon the seat of a bicycle built for two." */

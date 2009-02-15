@@ -1,0 +1,50 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## Bad $_REQUEST usage patch.dpatch by  <andrea.de.iacovo@gmail.com>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: This patch introduces a workaround to avoid DoS and data loss because 
+## DP: of a bad $_REQUEST usage in wordpress
+
+@DPATCH@
+
+diff -Nru wordpress-2.5.1/wp-admin/admin.php wordpress-2.5.1-new/wp-admin/admin.php
+--- wordpress-2.5.1/wp-admin/admin.php	2008-03-12 01:12:34.000000000 +0100
++++ wordpress-2.5.1-new/wp-admin/admin.php	2008-11-10 09:19:52.000000000 +0100
+@@ -19,6 +19,9 @@
+ 
+ update_category_cache();
+ 
++if (!check_malicious_cookies())
++	die("Warning! Malicious cookies indentified. Please clean cookies for this host and retry.<br><br>Wordpress will be unusable until you clean your cookies");
++
+ $posts_per_page = get_option('posts_per_page');
+ $what_to_show = get_option('what_to_show');
+ $date_format = get_option('date_format');
+diff -Nru wordpress-2.5.1/wp-admin/includes/admin.php wordpress-2.5.1-new/wp-admin/includes/admin.php
+--- wordpress-2.5.1/wp-admin/includes/admin.php	2008-04-14 19:07:18.000000000 +0200
++++ wordpress-2.5.1-new/wp-admin/includes/admin.php	2008-11-10 08:52:34.000000000 +0100
+@@ -5,6 +5,8 @@
+  * @package WordPress
+  * @subpackage Administration
+  */
++/**Debianized workaround for CVE-2008-5113 */
++require_once(ABSPATH . 'wp-admin/includes/check_malicious.php');
+ 
+ /** WordPress Bookmark Administration API */
+ require_once(ABSPATH . 'wp-admin/includes/bookmark.php');
+diff -Nru wordpress-2.5.1/wp-admin/includes/check_malicious.php wordpress-2.5.1-new/wp-admin/includes/check_malicious.php
+--- wordpress-2.5.1/wp-admin/includes/check_malicious.php	1970-01-01 01:00:00.000000000 +0100
++++ wordpress-2.5.1-new/wp-admin/includes/check_malicious.php	2008-11-10 08:58:49.000000000 +0100
+@@ -0,0 +1,12 @@
++<?php
++function check_malicious_cookies() {
++	$safe = true;
++	$malicious = array("GLOBALS" => "", "action" => "");
++	foreach ($_COOKIE as $name => $value)
++		foreach ($malicious as $dangerous => $dvalue)
++			if ($name == $dangerous)
++				$safe = false;
++
++	return $safe;
++}
++?>
