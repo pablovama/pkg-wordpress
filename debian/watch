@@ -1,0 +1,3 @@
+version=3
+opts="uversionmangle=s/-IIS//" \
+http://wordpress.org/download/release-archive/ http://wordpress.org/wordpress-(.*)\.tar\.gz 
