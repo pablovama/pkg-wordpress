@@ -19,15 +19,17 @@ class RSS_Import {
 		$trans_tbl = array_flip($trans_tbl);
 		return strtr($string, $trans_tbl);
 	}
-	
+
 	function greet() {
-		echo '<p>'.__('Howdy! This importer allows you to extract posts from any RSS 2.0 file into your blog. This is useful if you want to import your posts from a system that is not handled by a custom import tool. Pick an RSS file to upload and click Import.').'</p>';
+		echo '<div class="narrow">';
+		echo '<p>'.__('Howdy! This importer allows you to extract posts from an RSS 2.0 file into your blog. This is useful if you want to import your posts from a system that is not handled by a custom import tool. Pick an RSS file to upload and click Import.').'</p>';
 		wp_import_upload_form("admin.php?import=rss&amp;step=1");
+		echo '</div>';
 	}
 
 	function get_posts() {
 		global $wpdb;
-		
+
 		set_magic_quotes_runtime(0);
 		$datalines = file($this->file); // Read the file into an array
 		$importdata = implode('', $datalines); // squish it
@@ -69,7 +71,7 @@ class RSS_Import {
 				$cat_index++;
 			}
 
-			preg_match('|<guid.+?>(.*?)</guid>|is', $post, $guid);
+			preg_match('|<guid.*?>(.*?)</guid>|is', $post, $guid);
 			if ($guid)
 				$guid = $wpdb->escape(trim($guid[1]));
 			else
@@ -108,6 +110,8 @@ class RSS_Import {
 				_e('Post already imported');
 			} else {
 				$post_id = wp_insert_post($post);
+				if ( is_wp_error( $post_id ) )
+					return $post_id;
 				if (!$post_id) {
 					_e("Couldn't get post ID");
 					return;
@@ -133,9 +137,12 @@ class RSS_Import {
 
 		$this->file = $file['file'];
 		$this->get_posts();
-		$this->import_posts();
+		$result = $this->import_posts();
+		if ( is_wp_error( $result ) )
+			return $result;
 		wp_import_cleanup($file['id']);
-		
+		do_action('import_done', 'rss');
+
 		echo '<h3>';
 		printf(__('All done. <a href="%s">Have fun!</a>'), get_option('home'));
 		echo '</h3>';
@@ -148,25 +155,28 @@ class RSS_Import {
 			$step = (int) $_GET['step'];
 
 		$this->header();
-		
+
 		switch ($step) {
 			case 0 :
 				$this->greet();
 				break;
 			case 1 :
-				$this->import();
+				check_admin_referer('import-upload');
+				$result = $this->import();
+				if ( is_wp_error( $result ) )
+					echo $result->get_error_message();
 				break;
 		}
-		
+
 		$this->footer();
 	}
 
 	function RSS_Import() {
-		// Nothing.	
+		// Nothing.
 	}
 }
 
 $rss_import = new RSS_Import();
 
-register_importer('rss', __('RSS'), __('Import posts from an RSS feed'), array ($rss_import, 'dispatch'));
+register_importer('rss', __('RSS'), __('Import posts from an RSS feed.'), array ($rss_import, 'dispatch'));
 ?>

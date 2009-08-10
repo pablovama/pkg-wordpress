@@ -6,7 +6,7 @@ Description: This is not just a plugin, it symbolizes the hope and enthusiasm of
 Author: Matt Mullenweg
 Version: 1.5
 Author URI: http://photomatt.net/
-*/ 
+*/
 
 // These are the lyrics to Hello Dolly
 $lyrics = "Hello, Dolly
@@ -41,7 +41,7 @@ Dolly'll never go away again";
 // Here we split it into lines
 $lyrics = explode("\n", $lyrics);
 // And then randomly choose a line
-$chosen = wptexturize( $lyrics[ mt_rand(0, count($lyrics) ) ] );
+$chosen = wptexturize( $lyrics[ mt_rand(0, count($lyrics) - 1) ] );
 
 // This just echoes the chosen line, we'll position it later
 function hello_dolly() {
@@ -59,10 +59,11 @@ function dolly_css() {
 	#dolly {
 		position: absolute;
 		top: 2.3em;
-margin: 0; padding: 0;
-		right: 1em;
+		margin: 0;
+		padding: 0;
+		right: 10px;
 		font-size: 16px;
-		color: #f1f1f1;
+		color: #d54e21;
 	}
 	</style>
 	";

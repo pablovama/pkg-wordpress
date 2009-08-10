@@ -3,16 +3,9 @@ require_once('admin.php');
 
 if ( isset($_GET['action']) ) {
 	check_admin_referer('switch-theme_' . $_GET['template']);
-	
+
 	if ('activate' == $_GET['action']) {
-		if ( isset($_GET['template']) )
-			update_option('template', $_GET['template']);
-		
-		if ( isset($_GET['stylesheet']) )
-			update_option('stylesheet', $_GET['stylesheet']);
-		
-		do_action('switch_theme', get_current_theme());
-		
+		switch_theme($_GET['template'], $_GET['stylesheet']);
 		wp_redirect('themes.php?activated=true');
 		exit;
 	}
@@ -26,7 +19,7 @@ require_once('admin-header.php');
 <?php if ( ! validate_current_theme() ) : ?>
 <div id="message1" class="updated fade"><p><?php _e('The active theme is broken.  Reverting to the default theme.'); ?></p></div>
 <?php elseif ( isset($_GET['activated']) ) : ?>
-<div id="message2" class="updated fade"><p><?php printf(__('New theme activated. <a href="%s">View site &raquo;</a>'), get_bloginfo('home') . '/'); ?></p></div>
+<div id="message2" class="updated fade"><p><?php printf(__('New theme activated. <a href="%s">Visit site</a>'), get_bloginfo('url') . '/'); ?></p></div>
 <?php endif; ?>
 
 <?php
@@ -40,13 +33,16 @@ $ct = current_theme_info();
 <?php if ( $ct->screenshot ) : ?>
 <img src="<?php echo get_option('siteurl') . '/' . $ct->stylesheet_dir . '/' . $ct->screenshot; ?>" alt="<?php _e('Current theme preview'); ?>" />
 <?php endif; ?>
-<h3><?php printf(__('%1$s %2$s by %3$s'), $ct->title, $ct->version, $ct->author) ; ?></h3>
+<h3><?php printf(_c('%1$s %2$s by %3$s|1: theme title, 2: theme version, 3: theme author'), $ct->title, $ct->version, $ct->author) ; ?></h3>
 <p><?php echo $ct->description; ?></p>
 <?php if ($ct->parent_theme) { ?>
 	<p><?php printf(__('The template files are located in <code>%2$s</code>.  The stylesheet files are located in <code>%3$s</code>.  <strong>%4$s</strong> uses templates from <strong>%5$s</strong>.  Changes made to the templates will affect both themes.'), $ct->title, $ct->template_dir, $ct->stylesheet_dir, $ct->title, $ct->parent_theme); ?></p>
 <?php } else { ?>
 	<p><?php printf(__('All of this theme&#8217;s files are located in <code>%2$s</code>.'), $ct->title, $ct->template_dir, $ct->stylesheet_dir); ?></p>
 <?php } ?>
+<?php if ( $ct->tags ) : ?>
+<p><?php _e('Tags:'); ?> <?php echo join(', ', $ct->tags); ?></p>
+<?php endif; ?>
 </div>
 
 <h2><?php _e('Available Themes'); ?></h2>
@@ -69,10 +65,11 @@ foreach ($theme_names as $theme_name) {
 	$author = $themes[$theme_name]['Author'];
 	$screenshot = $themes[$theme_name]['Screenshot'];
 	$stylesheet_dir = $themes[$theme_name]['Stylesheet Dir'];
-	$activate_link = wp_nonce_url("themes.php?action=activate&amp;template=$template&amp;stylesheet=$stylesheet", 'switch-theme_' . $template);
+	$tags = $themes[$theme_name]['Tags'];
+	$activate_link = wp_nonce_url("themes.php?action=activate&amp;template=".urlencode($template)."&amp;stylesheet=".urlencode($stylesheet), 'switch-theme_' . $template);
 ?>
 <div class="available-theme">
-<h3><a href="<?php echo $activate_link; ?>"><?php echo "$title $version"; ?></a></h3>
+<h3><a href="<?php echo $activate_link; ?>"><?php echo $title; ?></a></h3>
 
 <a href="<?php echo $activate_link; ?>" class="screenshot">
 <?php if ( $screenshot ) : ?>
@@ -81,6 +78,9 @@ foreach ($theme_names as $theme_name) {
 </a>
 
 <p><?php echo $description; ?></p>
+<?php if ( $tags ) : ?>
+<p><?php _e('Tags:'); ?> <?php echo join(', ', $tags); ?></p>
+<?php endif; ?>
 </div>
 <?php } // end foreach theme_names ?>
 
@@ -102,7 +102,7 @@ if ( count($broken_themes) ) {
 	</tr>
 <?php
 	$theme = '';
-	
+
 	$theme_names = array_keys($broken_themes);
 	natcasesort($theme_names);
 
@@ -112,10 +112,10 @@ if ( count($broken_themes) ) {
 
 		$theme = ('class="alternate"' == $theme) ? '' : 'class="alternate"';
 		echo "
-	  <tr $theme>
-	     <td>$title</td>
-	     <td>$description</td>
-	  </tr>";
+		<tr $theme>
+			 <td>$title</td>
+			 <td>$description</td>
+		</tr>";
 	}
 ?>
 </table>
