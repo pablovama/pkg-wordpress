@@ -6,17 +6,17 @@
 
 @DPATCH@
 
-diff -Nru wordpress/wp-admin/install.php wordpress-2.5.0/wp-admin/install.php
---- wordpress/wp-admin/install.php	2008-03-14 19:22:19.000000000 +0100
-+++ wordpress-2.5.0/wp-admin/install.php	2008-04-14 14:08:58.000000000 +0200
-@@ -85,6 +85,10 @@
- 		$wpdb->show_errors();
- 		$result = wp_install($weblog_title, 'admin', $admin_email, $public);
- 		extract($result, EXTR_SKIP);
+diff -urNad wordpress~/wp-admin/install.php wordpress/wp-admin/install.php
+--- wordpress~/wp-admin/install.php	2009-08-10 18:19:50.000000000 +0200
++++ wordpress/wp-admin/install.php	2009-08-10 18:27:53.000000000 +0200
+@@ -118,6 +118,10 @@
+ 			$wpdb->show_errors();
+ 			$result = wp_install($weblog_title, 'admin', $admin_email, $public);
+ 			extract($result, EXTR_SKIP);
 +
-+		// Setup upload directories for Debian #430781
-+		$wpdb->query("UPDATE $wpdb->options set option_value = '$upload_path' where option_name = 'upload_path'");
-+		$wpdb->query("UPDATE $wpdb->options set option_value = '$upload_url_path' where option_name = 'upload_url_path'");
++			// Setup upload directories for Debian #430781
++			$wpdb->query("UPDATE $wpdb->options set option_value = '$upload_path' where option_name = 'upload_path'");
++			$wpdb->query("UPDATE $wpdb->options set option_value = '$upload_url_path' where option_name = 'upload_url_path'");
  ?>
  
  <h1><?php _e('Success!'); ?></h1>
