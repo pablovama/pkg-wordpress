@@ -26,7 +26,7 @@ var wpList = {
 		var c = [], cl;
 		try {
 			cl = $(e).attr('class') || '';
-			cl = cl.match(new RegExp(t+':[A-Za-z0-9:_=-]+'));
+			cl = cl.match(new RegExp(t+':[\\S]+'));
 			if ( cl ) { c = cl[0].split(':'); }
 		} catch(r) {}
 		return c;
@@ -87,6 +87,8 @@ var wpList = {
 		s.success = function(r) {
 			var res = wpAjax.parseAjaxResponse(r, s.response, s.element);
 			if ( !res || res.errors ) { return false; }
+
+			if ( true === res ) { return true; }
 
 			jQuery.each( res.responses, function() {
 				wpList.add.call( list, this.data, $.extend( {}, s, { // this.firstChild.nodevalue
@@ -173,6 +175,8 @@ var wpList = {
 	},
 
 	ajaxDim: function( e, s ) {
+		if ( $(e).parent().css('display') == 'none' ) // Prevent hidden links from being clicked by hotkeys
+			return false;
 		var list = this; e = $(e); s = s || {};
 		var cls = wpList.parseClass(e,'dim');
 		s = wpList.pre.call( list, e, s, 'dim' );

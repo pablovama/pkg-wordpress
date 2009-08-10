@@ -1,4 +1,11 @@
-<?php get_header(); ?>
+<?php
+/**
+ * @package WordPress
+ * @subpackage Default_Theme
+ */
+
+get_header();
+?>
 
 	<div id="content" class="widecolumn">
 
@@ -9,7 +16,7 @@
 			<div class="alignright"><?php next_post_link('%link &raquo;') ?></div>
 		</div>
 
-		<div class="post" id="post-<?php the_ID(); ?>">
+		<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<h2><?php the_title(); ?></h2>
 
 			<div class="entry">
@@ -45,7 +52,7 @@
 							// Neither Comments, nor Pings are open ?>
 							Both comments and pings are currently closed.
 
-						<?php } edit_post_link('Edit this entry.','',''); ?>
+						<?php } edit_post_link('Edit this entry','','.'); ?>
 
 					</small>
 				</p>

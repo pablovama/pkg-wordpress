@@ -1,6 +1,10 @@
 /* This file contains the CSS data for the editable area(iframe) of TinyMCE */
+html {
+	background-color: #fff;
+}
 
-.aligncenter {
+.aligncenter,
+dl.aligncenter {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -14,10 +18,40 @@
 	float: right;
 }
 
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption-dd {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+
+img.wpGallery {
+	border: 1px dotted #cc0000;
+	background: #ffffcc url("plugins/wpgallery/img/gallery.png") no-repeat scroll center center;
+	width: 99%;
+	height: 250px;
+}
+
 body.mceContentBody {
-	background: #fff;
-	color: #000;
-	font: 13px/19px "Lucida Grande","Lucida Sans Unicode",Tahoma,Verdana,sans-serif;
+	font: 13px/19px Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
 	padding: 0.6em;
 	margin: 0;
 }
@@ -50,16 +84,6 @@ pre {
 	font: 12px/18px "Courier New", monospace;
 }
 
-img.mceItemAnchor {
-	width: 12px;
-	height: 12px;
-	background: url(img/items.gif) no-repeat;
-}
-
-a.mceItemAnchor {
-	width: 12px;
-	line-height: 6px;
-	overflow: hidden;
-	padding-left: 12px;
-	background: url(img/items.gif) no-repeat bottom left;
+.mceIEcenter {
+	text-align: center;
 }

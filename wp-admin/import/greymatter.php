@@ -1,11 +1,26 @@
 <?php
+/**
+ * GreyMatter Importer
+ *
+ * @package WordPress
+ * @subpackage Importer
+ */
 
+/**
+ * GreyMatter Importer class
+ *
+ * Basic GreyMatter to WordPress importer, will import posts, comments, and
+ * posts karma.
+ *
+ * @since unknown
+ */
 class GM_Import {
 
 	var $gmnames = array ();
 
 	function header() {
 		echo '<div class="wrap">';
+		screen_icon();
 		echo '<h2>'.__('Import GreyMatter').'</h2>';
 	}
 
@@ -31,28 +46,27 @@ class GM_Import {
 </ul>
 <p>&nbsp;</p>
 
-<form name="stepOne" method="get">
+<form name="stepOne" method="get" action="">
 <input type="hidden" name="import" value="greymatter" />
 <input type="hidden" name="step" value="1" />
 <?php wp_nonce_field('import-greymatter'); ?>
 <h3><?php _e('Second step: GreyMatter details:') ?></h3>
 <table class="form-table">
 <tr>
-<td><?php _e('Path to GM files:') ?></td>
-<td><input type="text" style="width:300px" name="gmpath" value="/home/my/site/cgi-bin/greymatter/" /></td>
+<td><label for="gmpath"><?php _e('Path to GM files:') ?></label></td>
+<td><input type="text" style="width:300px" name="gmpath" id="gmpath" value="/home/my/site/cgi-bin/greymatter/" /></td>
 </tr>
 <tr>
-<td><?php _e('Path to GM entries:') ?></td>
-<td><input type="text" style="width:300px" name="archivespath" value="/home/my/site/cgi-bin/greymatter/archives/" /></td>
+<td><label for="archivespath"><?php _e('Path to GM entries:') ?></label></td>
+<td><input type="text" style="width:300px" name="archivespath" id="archivespath" value="/home/my/site/cgi-bin/greymatter/archives/" /></td>
 </tr>
 <tr>
-<td><?php _e("Last entry's number:") ?></td>
-<td><input type="text" name="lastentry" value="00000001" /><br />
+<td><label for="lastentry"><?php _e("Last entry's number:") ?></label></td>
+<td><input type="text" name="lastentry" id="lastentry" value="00000001" /><br />
 	<?php _e("This importer will search for files 00000001.cgi to 000-whatever.cgi,<br />so you need to enter the number of the last GM post here.<br />(if you don't know that number, just log into your FTP and look it out<br />in the entries' folder)") ?></td>
 </tr>
 </table>
-</p>
-<p><input type="submit" name="submit" value="<?php _e('Start Importing') ?>" class="button" /></p>
+<p class="submit"><input type="submit" name="submit" class="button" value="<?php _e('Start Importing') ?>" /></p>
 </form>
 <?php
 		$this->footer();

@@ -1,10 +1,12 @@
 <?php
+/**
+ * Redirects to the Comments RSS2 feed
+ * This file is deprecated and only exists for backwards compatibility
+ *
+ * @package WordPress
+ */
 
-if (empty($wp)) {
-	require_once('./wp-config.php');
-	wp('feed=rss2&withcomments=1');
-}
-
-require (ABSPATH . WPINC . '/feed-rss2-comments.php');
+require( './wp-load.php' );
+wp_redirect( get_bloginfo( 'comments_rss2_url' ), 301 );
 
 ?>

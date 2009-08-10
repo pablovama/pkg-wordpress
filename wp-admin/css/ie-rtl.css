@@ -1,53 +1,91 @@
-/* footer */
-body, td {
-	font-family: Tahoma,Verdana,sans-serif;
+* html #wpcontent #adminmenu .wp-has-submenu .wp-menu-toggle {
+	background: url(../images/menu-bits-rtl.gif) no-repeat scroll right -109px;
 }
 
-.wrap {
-	text-align: right;
+* html #wpcontent #adminmenu li.wp-has-current-submenu .wp-menu-toggle {
+	background: url(../images/menu-bits-rtl.gif) no-repeat scroll right -206px;
 }
-
-.wrap h2 {
-	margin: 5px 0 0 4px;
+* html #adminmenu {
+	margin-left:0;
+	margin-right: -80px;
 }
-
-#footer {
-	padding-left:50px;
+* html div.folded #adminmenu {
+	margin-left: 0;
+	margin-right: -22px;
 }
-#footer p {
-	background:none;
-	height:auto;
-	padding: 5px 5px 0;
+#wpcontent #adminmenu .wp-submenu li.wp-submenu-head {
+	padding: 3px 10px 4px 4px;
 }
-
+.inline-edit-row fieldset label span.title {
+	float: right;
+}
+.inline-edit-row fieldset label span.input-text-wrap {
+	margin-right: 0;
+}
+p.search-box {
+	float: left;
+}
+* html #poststuff h2 {
+	margin-right: 0;
+}
 #bh {
-	padding-left: 15px;
-	padding-right: 0px;
+	margin: 7px 10px 0 0;
+	float: left;
 }
-/* write post */
-#poststuff .togbox {
-	margin-right:-16px;
+#user_info + div#favorite-actions {
+	right: auto;
+	left: 15px;
 }
-#poststuff h3 {
-	padding-right:20px;
+#wphead-info {
+	float: left;
 }
-
-p#widget-search, p#post-search {
-	padding-left: 15px;
+/* without this dashboard widgets appear in one column for some screen widths */
+div#dashboard-widgets {
+	padding-right: 0;
+	padding-left: 1px;
 }
-
-.widefat th {
-	padding-bottom: 8px;
+#tagchecklist span a {
+	margin: 4px -9px 0 0;
 }
-
-/* template editor */
-#template textarea {
-	float:left;
+.widefat th input {
+	margin: 0 5px 0 0;
 }
-
-/* Editor */
-
-.mceToolbar {
+/* ---------- add by navid */
+#TB_window {
+	width: 670px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: 335px !important;
+}
+#dashboard_plugins {
 	direction: ltr;
-	text-align: left;
+}
+#dashboard_plugins h3.hndle {
+	direction: rtl;
+}
+#dashboard_incoming_links ul li,
+#dashboard_secondary ul li,
+#dashboard_primary ul li,
+p.row-actions {
+	width: 100%;
+}
+#favorite-inside {
+	position: absolute;
+	right:0;
+}
+#post-status-info {
+	height: 25px;
+}
+#screen-meta {
+	position: static;
+}
+p.submit { /* quick edit and reply in edit-comments.php */
+	height:22px;
+}
+.inner-sidebar { /* fix edit single comment */
+	position: static;
+}
+form#widgets-filter { /* fix widget page */
+	position: static;
 }

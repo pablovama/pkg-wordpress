@@ -1,6 +1,21 @@
 <?php
+/**
+ * WordPress Widgets Administration API
+ *
+ * @package WordPress
+ * @subpackage Administration
+ */
 
-// $_search is unsanitized
+/**
+ * Display list of widgets, either all or matching search.
+ *
+ * The search parameter are search terms separated by spaces.
+ *
+ * @since unknown
+ *
+ * @param string $show Optional, default is all. What to display, can be 'all', 'unused', or 'used'.
+ * @param string $_search Optional. Search for widgets. Should be unsanitized.
+ */
 function wp_list_widgets( $show = 'all', $_search = false ) {
 	global $wp_registered_widgets, $sidebars_widgets, $wp_registered_widget_controls;
 	if ( $_search ) {
@@ -46,9 +61,11 @@ function wp_list_widgets( $show = 'all', $_search = false ) {
 			if ( ( 'unused' == $show && $sidebar ) || ( 'used' == $show && !$sidebar ) )
 				continue;
 
+			if ( ! isset( $widget['params'][0] ) )
+				$widget['params'][0] = array();
 			ob_start();
-				$args = wp_list_widget_controls_dynamic_sidebar( array( 0 => array( 'widget_id' => $widget['id'], 'widget_name' => $widget['name'], '_display' => 'template', '_show' => $show ), 1 => $widget['params'][0] ) );
-				$sidebar_args = call_user_func_array( 'wp_widget_control', $args );
+			$args = wp_list_widget_controls_dynamic_sidebar( array( 0 => array( 'widget_id' => $widget['id'], 'widget_name' => $widget['name'], '_display' => 'template', '_show' => $show ), 1 => $widget['params'][0] ) );
+			$sidebar_args = call_user_func_array( 'wp_widget_control', $args );
 			$widget_control_template = ob_get_contents();
 			ob_end_clean();
 
@@ -64,7 +81,7 @@ function wp_list_widgets( $show = 'all', $_search = false ) {
 				if ( 'all' == $show && $is_multi ) {
 					// it's a multi-widget.  We only need to show it in the list once.
 					$already_shown[] = $widget['callback'];
-					$num = (int) array_pop( explode( '-', $widget['id'] ) );
+					$num = (int) array_pop( $ids = explode( '-', $widget['id'] ) );
 					$id_base = $wp_registered_widget_controls[$widget['id']]['id_base'];
 					// so that we always add a new one when clicking "add"
 					while ( isset($wp_registered_widgets["$id_base-$num"]) )
@@ -76,7 +93,7 @@ function wp_list_widgets( $show = 'all', $_search = false ) {
 				}
 				$add_query['add'] = $widget['id'];
 				$action = 'add';
-				$add_url = wp_nonce_url( add_query_arg( $add_query ), "add-widget_$widget[id]" );
+				$add_url = clean_url( wp_nonce_url( add_query_arg( $add_query ), "add-widget_$widget[id]" ) );
 			} else {
 				$action = 'edit';
 				$edit_url = clean_url( add_query_arg( array(
@@ -84,7 +101,7 @@ function wp_list_widgets( $show = 'all', $_search = false ) {
 					'edit' => $widget['id'],
 					'key' => array_search( $widget['id'], $sidebars_widgets[$sidebar] ),
 				) ) );
-				
+
 				$widget_control_template = '<textarea rows="1" cols="1">' . htmlspecialchars( $widget_control_template ) . '</textarea>';
 			}
 
@@ -102,7 +119,7 @@ function wp_list_widgets( $show = 'all', $_search = false ) {
 		<li id="widget-list-item-<?php echo attribute_escape( $widget['id'] ); ?>" class="widget-list-item">
 			<h4 class="widget-title widget-draggable">
 
-				<?php echo $widget_title; ?>
+				<span><?php echo $widget_title; ?></span>
 
 				<?php if ( 'add' == $action ) : ?>
 
@@ -115,6 +132,8 @@ function wp_list_widgets( $show = 'all', $_search = false ) {
 				<a class="widget-action widget-control-edit" href="<?php echo $edit_url; ?>" style="display: none;"><?php _e( 'Edit' ); ?></a>
 
 				<?php endif; ?>
+
+				<br class="clear" />
 
 			</h4>
 
@@ -146,8 +165,13 @@ function wp_list_widgets( $show = 'all', $_search = false ) {
 <?php
 }
 
-
-
+/**
+ * {@internal Missing Short Description}}
+ *
+ * @since unknown
+ *
+ * @param string $sidebar
+ */
 function wp_list_widget_controls( $sidebar ) {
 	add_filter( 'dynamic_sidebar_params', 'wp_list_widget_controls_dynamic_sidebar' );
 ?>
@@ -161,7 +185,14 @@ function wp_list_widget_controls( $sidebar ) {
 <?php
 }
 
-
+/**
+ * {@internal Missing Short Description}}
+ *
+ * @since unknown
+ *
+ * @param array $params
+ * @return array
+ */
 function wp_list_widget_controls_dynamic_sidebar( $params ) {
 	global $wp_registered_widgets;
 	static $i = 0;
@@ -180,15 +211,22 @@ function wp_list_widget_controls_dynamic_sidebar( $params ) {
 	return $params;
 }
 
-/*
- * Meta widget used to display the control form for a widget.  Called from dynamic_sidebar()
+/**
+ * Meta widget used to display the control form for a widget.
+ *
+ * Called from dynamic_sidebar().
+ *
+ * @since unknown
+ *
+ * @param array $sidebar_args
+ * @return array
  */
 function wp_widget_control( $sidebar_args ) {
 	global $wp_registered_widgets, $wp_registered_widget_controls, $sidebars_widgets, $edit_widget;
 	$widget_id = $sidebar_args['widget_id'];
 	$sidebar_id = isset($sidebar_args['id']) ? $sidebar_args['id'] : false;
 
-	$control = $wp_registered_widget_controls[$widget_id];
+	$control = isset($wp_registered_widget_controls[$widget_id]) ? $wp_registered_widget_controls[$widget_id] : 0;
 	$widget  = $wp_registered_widgets[$widget_id];
 
 	$key = $sidebar_id ? array_search( $widget_id, $sidebars_widgets[$sidebar_id] ) : 'no-key'; // position of widget in sidebar
@@ -196,6 +234,13 @@ function wp_widget_control( $sidebar_args ) {
 	$edit = -1 <  $edit_widget && is_numeric($key) && $edit_widget === $key; // (bool) are we currently editing this widget
 
 	$id_format = $widget['id'];
+
+	if ( ! isset( $sidebar_args['_show'] ) )
+		$sidebar_args['_show'] = '';
+
+	if ( ! isset( $sidebar_args['_display'] ) )
+		$sidebar_args['_display'] = '';
+
 	// We aren't showing a widget control, we're outputing a template for a mult-widget control
 	if ( 'all' == $sidebar_args['_show'] && 'template' == $sidebar_args['_display'] && isset($control['params'][0]['number']) ) {
 		// number == -1 implies a template where id numbers are replaced by a generic '%i%'
@@ -227,11 +272,12 @@ function wp_widget_control( $sidebar_args ) {
 	if ( empty($sidebar_args['_display']) || 'template' != $sidebar_args['_display'] )
 		echo $sidebar_args['before_widget'];
 ?>
-		<h4 class="widget-title"><?php echo $widget_title ?>
+		<div class="widget-top">
+		<h4 class="widget-title"><span><?php echo $widget_title ?></span>
 
 			<?php if ( $edit ) : ?>
 
-			<a class="widget-action widget-control-edit" href="<?php echo remove_query_arg( array( 'edit', 'key' ) ); ?>"><?php _e('Cancel'); ?></a>
+			<a class="widget-action widget-control-edit" href="<?php echo clean_url( remove_query_arg( array( 'edit', 'key' ) ) ); ?>"><?php _e('Cancel'); ?></a>
 
 			<?php else : ?>
 
@@ -239,7 +285,9 @@ function wp_widget_control( $sidebar_args ) {
 
 			<?php endif; ?>
 
-		</h4>
+			<br class="clear" />
+
+		</h4></div>
 
 		<div class="widget-control"<?php if ( $edit ) echo ' style="display: block;"'; ?>>
 
@@ -257,11 +305,11 @@ function wp_widget_control( $sidebar_args ) {
 
 				<?php if ( $control ) : ?>
 
-				<a class="widget-action widget-control-save wp-no-js-hidden edit alignleft" href="#save:<?php echo $id_format; ?>"><?php _e('Change'); ?></a>
+				<a class="button widget-action widget-control-save hide-if-no-js edit alignleft" href="#save:<?php echo $id_format; ?>"><?php _e('Done'); ?></a>
 
 				<?php endif; ?>
 
-				<a class="widget-action widget-control-remove delete alignright" href="<?php echo clean_url( wp_nonce_url( add_query_arg( array( 'remove' => $id_format, 'key' => $key ) ), "remove-widget_$widget[id]" ) ); ?>"><?php _e('Remove'); ?></a>
+				<a class="button widget-action widget-control-remove alignright" href="<?php echo clean_url( wp_nonce_url( add_query_arg( array( 'remove' => $id_format, 'key' => $key ) ), "remove-widget_$widget[id]" ) ); ?>"><?php _e('Remove'); ?></a>
 				<br class="clear" />
 			</div>
 		</div>
@@ -271,6 +319,14 @@ function wp_widget_control( $sidebar_args ) {
 	return $sidebar_args;
 }
 
+/**
+ * {@internal Missing Short Description}}
+ *
+ * @since unknown
+ *
+ * @param string $string
+ * @return string
+ */
 function wp_widget_control_ob_filter( $string ) {
 	if ( false === $beg = strpos( $string, '%BEG_OF_TITLE%' ) )
 		return '';
@@ -280,11 +336,5 @@ function wp_widget_control_ob_filter( $string ) {
 	$string = str_replace( '&nbsp;', ' ', $string );
 	return trim( wp_specialchars( strip_tags( $string ) ) );
 }
-
-function widget_css() {
-	wp_admin_css( 'css/widgets' );
-}
-
-add_action( 'admin_head', 'widget_css' );
 
 ?>

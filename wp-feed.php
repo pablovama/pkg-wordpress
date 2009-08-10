@@ -1,10 +1,12 @@
 <?php
+/**
+ * Redirects to the RSS2 feed
+ * This file is deprecated and only exists for backwards compatibility
+ *
+ * @package WordPress
+ */
 
-if (empty($doing_rss)) {
-	$doing_rss = 1;
-	require(dirname(__FILE__) . '/wp-blog-header.php');
-}
-
-do_feed();
+require( './wp-load.php' );
+wp_redirect( get_bloginfo( 'rss2_url' ), 301 );
 
 ?>

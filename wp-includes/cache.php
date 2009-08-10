@@ -2,14 +2,16 @@
 /**
  * Object Cache API
  *
+ * @link http://codex.wordpress.org/Function_Reference/WP_Cache
+ *
  * @package WordPress
  * @subpackage Cache
  */
 
 /**
- * wp_cache_add() - Adds data to the cache, if the cache key doesn't aleady exist
+ * Adds data to the cache, if the cache key doesn't aleady exist.
  *
- * @since 2.0
+ * @since 2.0.0
  * @uses $wp_object_cache Object Cache Class
  * @see WP_Object_Cache::add()
  *
@@ -26,13 +28,14 @@ function wp_cache_add($key, $data, $flag = '', $expire = 0) {
 }
 
 /**
- * wp_cache_close() - Closes the cache
+ * Closes the cache.
  *
- * This function has ceased to do anything since WordPress 2.5.
- * The functionality was removed along with the rest of the
- * persistant cache.
+ * This function has ceased to do anything since WordPress 2.5. The
+ * functionality was removed along with the rest of the persistant cache. This
+ * does not mean that plugins can't implement this function when they need to
+ * make sure that the cache is cleaned up after WordPress no longer needs it.
  *
- * @since 2.0
+ * @since 2.0.0
  *
  * @return bool Always returns True
  */
@@ -41,9 +44,9 @@ function wp_cache_close() {
 }
 
 /**
- * wp_cache_delete() - Removes the cache contents matching ID and flag
+ * Removes the cache contents matching ID and flag.
  *
- * @since 2.0
+ * @since 2.0.0
  * @uses $wp_object_cache Object Cache Class
  * @see WP_Object_Cache::delete()
  *
@@ -58,9 +61,9 @@ function wp_cache_delete($id, $flag = '') {
 }
 
 /**
- * wp_cache_flush() - Removes all cache items
+ * Removes all cache items.
  *
- * @since 2.0
+ * @since 2.0.0
  * @uses $wp_object_cache Object Cache Class
  * @see WP_Object_Cache::flush()
  *
@@ -73,15 +76,16 @@ function wp_cache_flush() {
 }
 
 /**
- * wp_cache_get() - Retrieves the cache contents from the cache by ID and flag
+ * Retrieves the cache contents from the cache by ID and flag.
  *
- * @since 2.0
+ * @since 2.0.0
  * @uses $wp_object_cache Object Cache Class
  * @see WP_Object_Cache::get()
  *
  * @param int|string $id What the contents in the cache are called
  * @param string $flag Where the cache contents are grouped
- * @return bool|mixed False on failure to retrieve contents or the cache contents on success
+ * @return bool|mixed False on failure to retrieve contents or the cache
+ *		contents on success
  */
 function wp_cache_get($id, $flag = '') {
 	global $wp_object_cache;
@@ -90,9 +94,9 @@ function wp_cache_get($id, $flag = '') {
 }
 
 /**
- * wp_cache_init() - Sets up Object Cache Global and assigns it
+ * Sets up Object Cache Global and assigns it.
  *
- * @since 2.0
+ * @since 2.0.0
  * @global WP_Object_Cache $wp_object_cache WordPress Object Cache
  */
 function wp_cache_init() {
@@ -100,9 +104,9 @@ function wp_cache_init() {
 }
 
 /**
- * wp_cache_replace() - Replaces the contents of the cache with new data
+ * Replaces the contents of the cache with new data.
  *
- * @since 2.0
+ * @since 2.0.0
  * @uses $wp_object_cache Object Cache Class
  * @see WP_Object_Cache::replace()
  *
@@ -119,7 +123,7 @@ function wp_cache_replace($key, $data, $flag = '', $expire = 0) {
 }
 
 /**
- * wp_cache_set() - Saves the data to the cache
+ * Saves the data to the cache.
  *
  * @since 2.0
  * @uses $wp_object_cache Object Cache Class
@@ -138,16 +142,40 @@ function wp_cache_set($key, $data, $flag = '', $expire = 0) {
 }
 
 /**
+ * Adds a group or set of groups to the list of global groups.
+ *
+ * @since 2.6.0
+ *
+ * @param string|array $groups A group or an array of groups to add
+ */
+function wp_cache_add_global_groups( $groups ) {
+	// Default cache doesn't persist so nothing to do here.
+	return;
+}
+
+/**
+ * Adds a group or set of groups to the list of non-persistent groups.
+ *
+ * @since 2.6.0
+ *
+ * @param string|array $groups A group or an array of groups to add
+ */
+function wp_cache_add_non_persistent_groups( $groups ) {
+	// Default cache doesn't persist so nothing to do here.
+	return;
+}
+
+/**
  * WordPress Object Cache
  *
- * The WordPress Object Cache is used to save on trips to the database.
- * The Object Cache stores all of the cache data to memory and makes the
- * cache contents available by using a key, which is used to name and
- * later retrieve the cache contents.
+ * The WordPress Object Cache is used to save on trips to the database. The
+ * Object Cache stores all of the cache data to memory and makes the cache
+ * contents available by using a key, which is used to name and later retrieve
+ * the cache contents.
  *
- * The Object Cache can be replaced by other caching mechanisms by placing
- * files in the wp-content folder which is looked at in wp-settings. If
- * that file exists, then this file will not be included.
+ * The Object Cache can be replaced by other caching mechanisms by placing files
+ * in the wp-content folder which is looked at in wp-settings. If that file
+ * exists, then this file will not be included.
  *
  * @package WordPress
  * @subpackage Cache
@@ -160,7 +188,7 @@ class WP_Object_Cache {
 	 *
 	 * @var array
 	 * @access private
-	 * @since 2.0
+	 * @since 2.0.0
 	 */
 	var $cache = array ();
 
@@ -169,23 +197,14 @@ class WP_Object_Cache {
 	 *
 	 * @var array
 	 * @access private
-	 * @since 2.0
+	 * @since 2.0.0
 	 */
 	var $non_existant_objects = array ();
 
 	/**
-	 * Object caches that are global
-	 *
-	 * @var array
-	 * @access private
-	 * @since 2.0
-	 */
-	var $global_groups = array ('users', 'userlogins', 'usermeta');
-
-	/**
 	 * The amount of times the cache data was already stored in the cache.
 	 *
-	 * @since 2.5
+	 * @since 2.5.0
 	 * @access private
 	 * @var int
 	 */
@@ -196,7 +215,7 @@ class WP_Object_Cache {
 	 *
 	 * @var int
 	 * @access public
-	 * @since 2.0
+	 * @since 2.0.0
 	 */
 	var $cache_misses = 0;
 
@@ -204,9 +223,10 @@ class WP_Object_Cache {
 	 * Adds data to the cache if it doesn't already exist.
 	 *
 	 * @uses WP_Object_Cache::get Checks to see if the cache already has data.
-	 * @uses WP_Object_Cache::set Sets the data after the checking the cache contents existance.
+	 * @uses WP_Object_Cache::set Sets the data after the checking the cache
+	 *		contents existance.
 	 *
-	 * @since 2.0
+	 * @since 2.0.0
 	 *
 	 * @param int|string $id What to call the contents in the cache
 	 * @param mixed $data The contents to store in the cache
@@ -227,18 +247,19 @@ class WP_Object_Cache {
 	/**
 	 * Remove the contents of the cache ID in the group
 	 *
-	 * If the cache ID does not exist in the group and $force parameter
-	 * is set to false, then nothing will happen. The $force parameter
-	 * is set to false by default.
+	 * If the cache ID does not exist in the group and $force parameter is set
+	 * to false, then nothing will happen. The $force parameter is set to false
+	 * by default.
 	 *
 	 * On success the group and the id will be added to the
 	 * $non_existant_objects property in the class.
 	 *
-	 * @since 2.0
+	 * @since 2.0.0
 	 *
 	 * @param int|string $id What the contents in the cache are called
 	 * @param string $group Where the cache contents are grouped
-	 * @param bool $force Optional. Whether to force the unsetting of the cache ID in the group
+	 * @param bool $force Optional. Whether to force the unsetting of the cache
+	 *		ID in the group
 	 * @return bool False if the contents weren't deleted and true on success
 	 */
 	function delete($id, $group = 'default', $force = false) {
@@ -256,7 +277,7 @@ class WP_Object_Cache {
 	/**
 	 * Clears the object cache of all data
 	 *
-	 * @since 2.0
+	 * @since 2.0.0
 	 *
 	 * @return bool Always returns true
 	 */
@@ -269,21 +290,22 @@ class WP_Object_Cache {
 	/**
 	 * Retrieves the cache contents, if it exists
 	 *
-	 * The contents will be first attempted to be retrieved by searching
-	 * by the ID in the cache group. If the cache is hit (success) then
-	 * the contents are returned.
+	 * The contents will be first attempted to be retrieved by searching by the
+	 * ID in the cache group. If the cache is hit (success) then the contents
+	 * are returned.
 	 *
-	 * On failure, the $non_existant_objects property is checked and if
-	 * the cache group and ID exist in there the cache misses will not be
-	 * incremented. If not in the nonexistant objects property, then the
-	 * cache misses will be incremented and the cache group and ID will
-	 * be added to the nonexistant objects.
+	 * On failure, the $non_existant_objects property is checked and if the
+	 * cache group and ID exist in there the cache misses will not be
+	 * incremented. If not in the nonexistant objects property, then the cache
+	 * misses will be incremented and the cache group and ID will be added to
+	 * the nonexistant objects.
 	 *
-	 * @since 2.0
+	 * @since 2.0.0
 	 *
 	 * @param int|string $id What the contents in the cache are called
 	 * @param string $group Where the cache contents are grouped
-	 * @return bool|mixed False on failure to retrieve contents or the cache contents on success
+	 * @return bool|mixed False on failure to retrieve contents or the cache
+	 *		contents on success
 	 */
 	function get($id, $group = 'default') {
 		if (empty ($group))
@@ -291,7 +313,10 @@ class WP_Object_Cache {
 
 		if (isset ($this->cache[$group][$id])) {
 			$this->cache_hits += 1;
-			return $this->cache[$group][$id];
+			if ( is_object($this->cache[$group][$id]) )
+				return wp_clone($this->cache[$group][$id]);
+			else
+				return $this->cache[$group][$id];
 		}
 
 		if ( isset ($this->non_existant_objects[$group][$id]) )
@@ -305,7 +330,7 @@ class WP_Object_Cache {
 	/**
 	 * Replace the contents in the cache, if contents already exist
 	 *
-	 * @since 2.0
+	 * @since 2.0.0
 	 * @see WP_Object_Cache::set()
 	 *
 	 * @param int|string $id What to call the contents in the cache
@@ -327,17 +352,16 @@ class WP_Object_Cache {
 	/**
 	 * Sets the data contents into the cache
 	 *
-	 * The cache contents is grouped by the $group parameter followed
-	 * by the $id. This allows for duplicate ids in unique groups.
-	 * Therefore, naming of the group should be used with care and
-	 * should follow normal function naming guidelines outside of
-	 * core WordPress usage.
+	 * The cache contents is grouped by the $group parameter followed by the
+	 * $id. This allows for duplicate ids in unique groups. Therefore, naming of
+	 * the group should be used with care and should follow normal function
+	 * naming guidelines outside of core WordPress usage.
 	 *
-	 * The $expire parameter is not used, because the cache will
-	 * automatically expire for each time a page is accessed and PHP
-	 * finishes. The method is more for cache plugins which use files.
+	 * The $expire parameter is not used, because the cache will automatically
+	 * expire for each time a page is accessed and PHP finishes. The method is
+	 * more for cache plugins which use files.
 	 *
-	 * @since 2.0
+	 * @since 2.0.0
 	 *
 	 * @param int|string $id What to call the contents in the cache
 	 * @param mixed $data The contents to store in the cache
@@ -352,6 +376,9 @@ class WP_Object_Cache {
 		if (NULL === $data)
 			$data = '';
 
+		if ( is_object($data) )
+			$data = wp_clone($data);
+
 		$this->cache[$group][$id] = $data;
 
 		if(isset($this->non_existant_objects[$group][$id]))
@@ -363,10 +390,10 @@ class WP_Object_Cache {
 	/**
 	 * Echos the stats of the caching.
 	 *
-	 * Gives the cache hits, and cache misses. Also prints every cached
-	 * group, key and the data.
+	 * Gives the cache hits, and cache misses. Also prints every cached group,
+	 * key and the data.
 	 *
-	 * @since 2.0
+	 * @since 2.0.0
 	 */
 	function stats() {
 		echo "<p>";
@@ -387,7 +414,7 @@ class WP_Object_Cache {
 	/**
 	 * PHP4 constructor; Calls PHP 5 style constructor
 	 *
-	 * @since 2.0
+	 * @since 2.0.0
 	 *
 	 * @return WP_Object_Cache
 	 */
@@ -402,7 +429,11 @@ class WP_Object_Cache {
 	 * @return null|WP_Object_Cache If cache is disabled, returns null.
 	 */
 	function __construct() {
-		register_shutdown_function(array(&$this, "__destruct")); /** @todo This should be moved to the PHP4 style constructor, PHP5 already calls __destruct() */
+		/**
+		 * @todo This should be moved to the PHP4 style constructor, PHP5
+		 * already calls __destruct()
+		 */
+		register_shutdown_function(array(&$this, "__destruct"));
 	}
 
 	/**

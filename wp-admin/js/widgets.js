@@ -1,6 +1,18 @@
 jQuery(function($) {
 	$('.noscript-action').remove();
 
+	var reminded = false;
+	var lameWidgetReminder = function() {
+		if ( reminded )
+			return;
+		window.onbeforeunload = function () { return widgetsL10n.lamerReminder };
+		$('h2:first').after( '<div class="updated"><p>' + widgetsL10n.lameReminder + '</p></div>' );
+		$('#current-widgets .submit input[name=save-widgets]').css( 'background-color', '#ffffe0' ).click( function() {
+			window.onbeforeunload = null;
+		} );
+		reminded = true;
+	};
+
 	var increment = 1;
 
 	// Open or close widget control form
@@ -13,12 +25,12 @@ jQuery(function($) {
 			if ( t.is(':visible') ) {
 				if ( disableFields ) { t.find( ':input:enabled' ).not( '[name="widget-id[]"], [name*="[submit]"]' ).attr( 'disabled', 'disabled' ); }
 				li.css( 'marginLeft', 0 );
-				t.siblings('h4').children('a').text( widgetsL10n.edit );
+				t.siblings('div').children('h4').children('a').text( widgetsL10n.edit );
 			} else {
 				t.find( ':disabled' ).attr( 'disabled', '' ); // always enable on open
 				if ( width > 250 )
 					li.css( 'marginLeft', ( width - 250 ) * -1 );
-				t.siblings('h4').children('a').text( widgetsL10n.cancel );
+				t.siblings('div').children('h4').children('a').text( widgetsL10n.cancel );
 			}
 			t.toggle();
 		} : function() {
@@ -28,12 +40,12 @@ jQuery(function($) {
 				if ( disableFields ) { t.find( ':input:enabled' ).not( '[name="widget-id[]"], [name*="[submit]"]' ).attr( 'disabled', 'disabled' ); }
 				if ( width > 250 )
 					li.animate( { marginLeft: 0 } );
-				t.siblings('h4').children('a').text( widgetsL10n.edit );
+				t.siblings('div').children('h4').children('a').text( widgetsL10n.edit );
 			} else {
 				t.find( ':disabled' ).attr( 'disabled', '' ); // always enable on open
 				if ( width > 250 )
 					li.animate( { marginLeft: ( width - 250 ) * -1 } );
-				t.siblings('h4').children('a').text( widgetsL10n.cancel );
+				t.siblings('div').children('h4').children('a').text( widgetsL10n.cancel );
 			}
 			t.animate( { height: 'toggle' } );
 		};
@@ -84,6 +96,7 @@ jQuery(function($) {
 		var n = parseInt( $('#widget-count').text(), 10 ) + 1;
 		$('#widget-count').text( n.toString() )
 
+		lameWidgetReminder();
 		return false;
 	};
 
@@ -96,6 +109,7 @@ jQuery(function($) {
 
 		// onclick for save links
 		$('a.widget-control-save', context).click( function() {
+			lameWidgetReminder();
 			toggleWidget( $(this).parents('li:first'), false ).blur()
 			return false;
 		} );

@@ -1,26 +1,61 @@
 <?php
-/*
- * wp-app.php - Atom Publishing Protocol support for WordPress
- * Original code by: Elias Torres, http://torrez.us/archives/2006/08/31/491/
- * Modified by: Dougal Campbell, http://dougal.gunters.org/
+/**
+ * Atom Publishing Protocol support for WordPress
  *
- * Version: 1.0.5-dc
+ * @author Original by Elias Torres <http://torrez.us/archives/2006/08/31/491/>
+ * @author Modified by Dougal Campbell <http://dougal.gunters.org/>
+ * @version 1.0.5-dc
  */
 
+/**
+ * WordPress is handling an Atom Publishing Protocol request.
+ *
+ * @var bool
+ */
 define('APP_REQUEST', true);
 
-require_once('./wp-config.php');
+/** Set up WordPress environment */
+require_once('./wp-load.php');
+
+/** Post Template API */
 require_once(ABSPATH . WPINC . '/post-template.php');
+
+/** Atom Publishing Protocol Class */
 require_once(ABSPATH . WPINC . '/atomlib.php');
+
+/** Feed Handling API */
 require_once(ABSPATH . WPINC . '/feed.php');
 
 $_SERVER['PATH_INFO'] = preg_replace( '/.*\/wp-app\.php/', '', $_SERVER['REQUEST_URI'] );
 
+/**
+ * Whether to enable Atom Publishing Protocol Logging.
+ *
+ * @name app_logging
+ * @var int|bool
+ */
 $app_logging = 0;
 
-// TODO: Should be an option somewhere
+/**
+ * Whether to always authenticate user. Permanently set to true.
+ *
+ * @name always_authenticate
+ * @var int|bool
+ * @todo Should be an option somewhere
+ */
 $always_authenticate = 1;
 
+/**
+ * Writes logging info to a file.
+ *
+ * @since 2.2.0
+ * @uses $app_logging
+ * @package WordPress
+ * @subpackage Logging
+ *
+ * @param string $label Type of logging
+ * @param string $msg Information describing logging reason.
+ */
 function log_app($label,$msg) {
 	global $app_logging;
 	if ($app_logging) {
@@ -32,6 +67,9 @@ function log_app($label,$msg) {
 }
 
 if ( !function_exists('wp_set_current_user') ) :
+/**
+ * @ignore
+ */
 function wp_set_current_user($id, $name = '') {
 	global $current_user;
 
@@ -44,38 +82,166 @@ function wp_set_current_user($id, $name = '') {
 }
 endif;
 
+/**
+ * Filter to add more post statuses.
+ *
+ * @since 2.2.0
+ *
+ * @param string $where SQL statement to filter.
+ * @return string Filtered SQL statement with added post_status for where clause.
+ */
 function wa_posts_where_include_drafts_filter($where) {
-        $where = str_replace("post_status = 'publish'","post_status = 'publish' OR post_status = 'future' OR post_status = 'draft' OR post_status = 'inherit'", $where);
-        return $where;
+	$where = str_replace("post_status = 'publish'","post_status = 'publish' OR post_status = 'future' OR post_status = 'draft' OR post_status = 'inherit'", $where);
+	return $where;
 
 }
 add_filter('posts_where', 'wa_posts_where_include_drafts_filter');
 
+/**
+ * WordPress AtomPub API implementation.
+ *
+ * @package WordPress
+ * @subpackage Publishing
+ * @since 2.2.0
+ */
 class AtomServer {
 
+	/**
+	 * ATOM content type.
+	 *
+	 * @since 2.2.0
+	 * @var string
+	 */
 	var $ATOM_CONTENT_TYPE = 'application/atom+xml';
+
+	/**
+	 * Categories ATOM content type.
+	 *
+	 * @since 2.2.0
+	 * @var string
+	 */
 	var $CATEGORIES_CONTENT_TYPE = 'application/atomcat+xml';
+
+	/**
+	 * Service ATOM content type.
+	 *
+	 * @since 2.3.0
+	 * @var string
+	 */
 	var $SERVICE_CONTENT_TYPE = 'application/atomsvc+xml';
 
+	/**
+	 * ATOM XML namespace.
+	 *
+	 * @since 2.3.0
+	 * @var string
+	 */
 	var $ATOM_NS = 'http://www.w3.org/2005/Atom';
+
+	/**
+	 * ATOMPUB XML namespace.
+	 *
+	 * @since 2.3.0
+	 * @var string
+	 */
 	var $ATOMPUB_NS = 'http://www.w3.org/2007/app';
 
+	/**
+	 * Entries path.
+	 *
+	 * @since 2.2.0
+	 * @var string
+	 */
 	var $ENTRIES_PATH = "posts";
+
+	/**
+	 * Categories path.
+	 *
+	 * @since 2.2.0
+	 * @var string
+	 */
 	var $CATEGORIES_PATH = "categories";
+
+	/**
+	 * Media path.
+	 *
+	 * @since 2.2.0
+	 * @var string
+	 */
 	var $MEDIA_PATH = "attachments";
+
+	/**
+	 * Entry path.
+	 *
+	 * @since 2.2.0
+	 * @var string
+	 */
 	var $ENTRY_PATH = "post";
+
+	/**
+	 * Service path.
+	 *
+	 * @since 2.2.0
+	 * @var string
+	 */
 	var $SERVICE_PATH = "service";
+
+	/**
+	 * Media single path.
+	 *
+	 * @since 2.2.0
+	 * @var string
+	 */
 	var $MEDIA_SINGLE_PATH = "attachment";
 
+	/**
+	 * ATOMPUB parameters.
+	 *
+	 * @since 2.2.0
+	 * @var array
+	 */
 	var $params = array();
+
+	/**
+	 * Supported ATOMPUB media types.
+	 *
+	 * @since 2.3.0
+	 * @var array
+	 */
 	var $media_content_types = array('image/*','audio/*','video/*');
+
+	/**
+	 * ATOMPUB content type(s).
+	 *
+	 * @since 2.2.0
+	 * @var array
+	 */
 	var $atom_content_types = array('application/atom+xml');
 
+	/**
+	 * ATOMPUB methods.
+	 *
+	 * @since 2.2.0
+	 * @var unknown_type
+	 */
 	var $selectors = array();
 
-	// support for head
+	/**
+	 * Whether to do output.
+	 *
+	 * Support for head.
+	 *
+	 * @since 2.2.0
+	 * @var bool
+	 */
 	var $do_output = true;
 
+	/**
+	 * PHP4 constructor - Sets up object properties.
+	 *
+	 * @since 2.2.0
+	 * @return AtomServer
+	 */
 	function AtomServer() {
 
 		$this->script_name = array_pop(explode('/',$_SERVER['SCRIPT_NAME']));
@@ -110,10 +276,19 @@ class AtomServer {
 		);
 	}
 
+	/**
+	 * Handle ATOMPUB request.
+	 *
+	 * @since 2.2.0
+	 */
 	function handle_request() {
 		global $always_authenticate;
 
-		$path = $_SERVER['PATH_INFO'];
+		if( !empty( $_SERVER['ORIG_PATH_INFO'] ) )
+			$path = $_SERVER['ORIG_PATH_INFO'];
+		else
+			$path = $_SERVER['PATH_INFO'];
+
 		$method = $_SERVER['REQUEST_METHOD'];
 
 		log_app('REQUEST',"$method $path\n================");
@@ -132,6 +307,10 @@ class AtomServer {
 			$this->redirect($this->get_service_url());
 		}
 
+		// check to see if AtomPub is enabled
+		if( !get_option( 'enable_app' ) )
+			$this->forbidden( sprintf( __( 'AtomPub services are disabled on this blog.  An admin user can enable them at %s' ), admin_url('options-writing.php') ) );
+
 		// dispatch
 		foreach($this->selectors as $regex => $funcs) {
 			if(preg_match($regex, $path, $matches)) {
@@ -139,9 +318,7 @@ class AtomServer {
 
 				// authenticate regardless of the operation and set the current
 				// user. each handler will decide if auth is required or not.
-				$this->authenticate();
-				$u = wp_get_current_user();
-				if(!isset($u) || $u->ID == 0) {
+				if(!$this->authenticate()) {
 					if ($always_authenticate) {
 						$this->auth_required('Credentials required.');
 					}
@@ -161,6 +338,11 @@ class AtomServer {
 		$this->not_found();
 	}
 
+	/**
+	 * Retrieve XML for ATOMPUB service.
+	 *
+	 * @since 2.2.0
+	 */
 	function get_service() {
 		log_app('function','get_service()');
 
@@ -170,9 +352,9 @@ class AtomServer {
 		$entries_url = attribute_escape($this->get_entries_url());
 		$categories_url = attribute_escape($this->get_categories_url());
 		$media_url = attribute_escape($this->get_attachments_url());
-                foreach ($this->media_content_types as $med) {
-                  $accepted_media_types = $accepted_media_types . "<accept>" . $med . "</accept>";
-                }
+		foreach ($this->media_content_types as $med) {
+			$accepted_media_types = $accepted_media_types . "<accept>" . $med . "</accept>";
+		}
 		$atom_prefix="atom";
 		$atom_blogname=get_bloginfo('name');
 		$service_doc = <<<EOD
@@ -196,6 +378,11 @@ EOD;
 		$this->output($service_doc, $this->SERVICE_CONTENT_TYPE);
 	}
 
+	/**
+	 * Retrieve categories list in XML format.
+	 *
+	 * @since 2.2.0
+	 */
 	function get_categories_xml() {
 		log_app('function','get_categories_xml()');
 
@@ -219,8 +406,10 @@ EOD;
 	$this->output($output, $this->CATEGORIES_CONTENT_TYPE);
 }
 
-	/*
-	 * Create Post (No arguments)
+	/**
+	 * Create new post.
+	 *
+	 * @since 2.2.0
 	 */
 	function create_post() {
 		global $blog_id, $user_ID;
@@ -292,6 +481,13 @@ EOD;
 		$this->created($postID, $output);
 	}
 
+	/**
+	 * Retrieve post.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $postID Post ID.
+	 */
 	function get_post($postID) {
 		global $entry;
 
@@ -305,6 +501,13 @@ EOD;
 
 	}
 
+	/**
+	 * Update post.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $postID Post ID.
+	 */
 	function put_post($postID) {
 		// checked for valid content-types (atom+xml)
 		// quick check and exit
@@ -327,6 +530,7 @@ EOD;
 			$this->auth_required(__('Sorry, you do not have the right to edit this post.'));
 
 		$publish = (isset($parsed->draft) && trim($parsed->draft) == 'yes') ? false : true;
+		$post_status = ($publish) ? 'publish' : 'draft';
 
 		extract($entry);
 
@@ -339,13 +543,6 @@ EOD;
 		$pubtimes = $this->get_publish_time($parsed->updated);
 		$post_modified = $pubtimes[0];
 		$post_modified_gmt = $pubtimes[1];
-
-		// let's not go backwards and make something draft again.
-		if(!$publish && $post_status == 'draft') {
-			$post_status = ($publish) ? 'publish' : 'draft';
-		} elseif($publish) {
-			$post_status = 'publish';
-		}
 
 		$postdata = compact('ID', 'post_content', 'post_title', 'post_category', 'post_status', 'post_excerpt', 'post_date', 'post_date_gmt', 'post_modified', 'post_modified_gmt');
 		$this->escape($postdata);
@@ -360,6 +557,13 @@ EOD;
 		$this->ok();
 	}
 
+	/**
+	 * Remove post.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $postID Post ID.
+	 */
 	function delete_post($postID) {
 
 		// check for not found
@@ -385,7 +589,14 @@ EOD;
 
 	}
 
-	function get_attachment($postID = NULL) {
+	/**
+	 * Retrieve attachment.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $postID Optional. Post ID.
+	 */
+	function get_attachment($postID = null) {
 		if( !current_user_can( 'upload_files' ) )
 			$this->auth_required( __( 'Sorry, you do not have permission to upload files.' ) );
 
@@ -399,6 +610,11 @@ EOD;
 		}
 	}
 
+	/**
+	 * Create new attachment.
+	 *
+	 * @since 2.2.0
+	 */
 	function create_attachment() {
 
 		$type = $this->get_accepted_content_type();
@@ -407,7 +623,7 @@ EOD;
 			$this->auth_required(__('You do not have permission to upload files.'));
 
 		$fp = fopen("php://input", "rb");
-		$bits = NULL;
+		$bits = null;
 		while(!feof($fp)) {
 			$bits .= fread($fp, 4096);
 		}
@@ -453,6 +669,13 @@ EOD;
 		log_app('function',"create_attachment($postID)");
 	}
 
+	/**
+	 * Update attachment.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $postID Post ID.
+	 */
 	function put_attachment($postID) {
 		// checked for valid content-types (atom+xml)
 		// quick check and exit
@@ -493,6 +716,13 @@ EOD;
 		$this->ok();
 	}
 
+	/**
+	 * Remove attachment.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $postID Post ID.
+	 */
 	function delete_attachment($postID) {
 		log_app('function',"delete_attachment($postID). File '$location' deleted.");
 
@@ -524,6 +754,13 @@ EOD;
 		$this->ok();
 	}
 
+	/**
+	 * Retrieve attachment from post.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $postID Post ID.
+	 */
 	function get_file($postID) {
 
 		// check for not found
@@ -555,6 +792,13 @@ EOD;
 		exit;
 	}
 
+	/**
+	 * Upload file to blog and add attachment to post.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $postID Post ID.
+	 */
 	function put_file($postID) {
 
 		// first check if user can upload
@@ -603,7 +847,15 @@ EOD;
 		$this->ok();
 	}
 
-	function get_entries_url($page = NULL) {
+	/**
+	 * Retrieve entries URL.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $page Page ID.
+	 * @return string
+	 */
+	function get_entries_url($page = null) {
 		if($GLOBALS['post_type'] == 'attachment') {
 			$path = $this->MEDIA_PATH;
 		} else {
@@ -616,19 +868,47 @@ EOD;
 		return $url;
 	}
 
-	function the_entries_url($page = NULL) {
+	/**
+	 * Display entries URL.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $page Page ID.
+	 */
+	function the_entries_url($page = null) {
 		echo $this->get_entries_url($page);
 	}
 
+	/**
+	 * Retrieve categories URL.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param mixed $deprecated Optional, not used.
+	 * @return string
+	 */
 	function get_categories_url($deprecated = '') {
 		return $this->app_base . $this->CATEGORIES_PATH;
 	}
 
+	/**
+	 * Display category URL.
+	 *
+	 * @since 2.2.0
+	 */
 	function the_categories_url() {
 		echo $this->get_categories_url();
 	}
 
-	function get_attachments_url($page = NULL) {
+	/**
+	 * Retrieve attachment URL.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $page Page ID.
+	 * @return string
+	 */
+	function get_attachments_url($page = null) {
 		$url = $this->app_base . $this->MEDIA_PATH;
 		if(isset($page) && is_int($page)) {
 			$url .= "/$page";
@@ -636,15 +916,37 @@ EOD;
 		return $url;
 	}
 
-	function the_attachments_url($page = NULL) {
+	/**
+	 * Display attachment URL.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $page Page ID.
+	 */
+	function the_attachments_url($page = null) {
 		echo $this->get_attachments_url($page);
 	}
 
+	/**
+	 * Retrieve service URL.
+	 *
+	 * @since 2.3.0
+	 *
+	 * @return string
+	 */
 	function get_service_url() {
 		return $this->app_base . $this->SERVICE_PATH;
 	}
 
-	function get_entry_url($postID = NULL) {
+	/**
+	 * Retrieve entry URL.
+	 *
+	 * @since 2.7.0
+	 *
+	 * @param int $postID Post ID.
+	 * @return string
+	 */
+	function get_entry_url($postID = null) {
 		if(!isset($postID)) {
 			global $post;
 			$postID = (int) $post->ID;
@@ -656,11 +958,26 @@ EOD;
 		return $url;
 	}
 
-	function the_entry_url($postID = NULL) {
+	/**
+	 * Display entry URL.
+	 *
+	 * @since 2.7.0
+	 *
+	 * @param int $postID Post ID.
+	 */
+	function the_entry_url($postID = null) {
 		echo $this->get_entry_url($postID);
 	}
 
-	function get_media_url($postID = NULL) {
+	/**
+	 * Retrieve media URL.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $postID Post ID.
+	 * @return string
+	 */
+	function get_media_url($postID = null) {
 		if(!isset($postID)) {
 			global $post;
 			$postID = (int) $post->ID;
@@ -672,10 +989,24 @@ EOD;
 		return $url;
 	}
 
-	function the_media_url($postID = NULL) {
+	/**
+	 * Display the media URL.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $postID Post ID.
+	 */
+	function the_media_url($postID = null) {
 		echo $this->get_media_url($postID);
 	}
 
+	/**
+	 * Set the current entry to post ID.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $postID Post ID.
+	 */
 	function set_current_entry($postID) {
 		global $entry;
 		log_app('function',"set_current_entry($postID)");
@@ -693,19 +1024,44 @@ EOD;
 		return;
 	}
 
+	/**
+	 * Display posts XML.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $page Optional. Page ID.
+	 * @param string $post_type Optional, default is 'post'. Post Type.
+	 */
 	function get_posts($page = 1, $post_type = 'post') {
 			log_app('function',"get_posts($page, '$post_type')");
 			$feed = $this->get_feed($page, $post_type);
 			$this->output($feed);
 	}
 
+	/**
+	 * Display attachment XML.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $page Page ID.
+	 * @param string $post_type Optional, default is 'attachment'. Post type.
+	 */
 	function get_attachments($page = 1, $post_type = 'attachment') {
-	    log_app('function',"get_attachments($page, '$post_type')");
-	    $GLOBALS['post_type'] = $post_type;
-	    $feed = $this->get_feed($page, $post_type);
-	    $this->output($feed);
+		log_app('function',"get_attachments($page, '$post_type')");
+		$GLOBALS['post_type'] = $post_type;
+		$feed = $this->get_feed($page, $post_type);
+		$this->output($feed);
 	}
 
+	/**
+	 * Retrieve feed XML.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $page Page ID.
+	 * @param string $post_type Optional, default is post. Post type.
+	 * @return string
+	 */
 	function get_feed($page = 1, $post_type = 'post') {
 		global $post, $wp, $wp_query, $posts, $wpdb, $blog_id;
 		log_app('function',"get_feed($page, '$post_type')");
@@ -763,6 +1119,15 @@ EOD;
 		return $feed;
 	}
 
+	/**
+	 * Display entry XML.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param int $postID Post ID.
+	 * @param string $post_type Optional, default is post. Post type.
+	 * @return string.
+	 */
 	function get_entry($postID, $post_type = 'post') {
 		log_app('function',"get_entry($postID, '$post_type')");
 		ob_start();
@@ -790,6 +1155,11 @@ EOD;
 		return $entry;
 	}
 
+	/**
+	 * Display post content XML.
+	 *
+	 * @since 2.3.0
+	 */
 	function echo_entry() { ?>
 <entry xmlns="<?php echo $this->ATOM_NS ?>"
        xmlns:app="<?php echo $this->ATOMPUB_NS ?>" xml:lang="<?php echo get_option('rss_language'); ?>">
@@ -827,6 +1197,11 @@ list($content_type, $content) = prep_atom_text_construct(get_the_content()); ?>
 </entry>
 <?php }
 
+	/**
+	 * Set 'OK' (200) status header.
+	 *
+	 * @since 2.2.0
+	 */
 	function ok() {
 		log_app('Status','200: OK');
 		header('Content-Type: text/plain');
@@ -834,6 +1209,11 @@ list($content_type, $content) = prep_atom_text_construct(get_the_content()); ?>
 		exit;
 	}
 
+	/**
+	 * Set 'No Content' (204) status header.
+	 *
+	 * @since 2.2.0
+	 */
 	function no_content() {
 		log_app('Status','204: No Content');
 		header('Content-Type: text/plain');
@@ -842,6 +1222,13 @@ list($content_type, $content) = prep_atom_text_construct(get_the_content()); ?>
 		exit;
 	}
 
+	/**
+	 * Display 'Internal Server Error' (500) status header.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param string $msg Optional. Status string.
+	 */
 	function internal_error($msg = 'Internal Server Error') {
 		log_app('Status','500: Server Error');
 		header('Content-Type: text/plain');
@@ -850,6 +1237,11 @@ list($content_type, $content) = prep_atom_text_construct(get_the_content()); ?>
 		exit;
 	}
 
+	/**
+	 * Set 'Bad Request' (400) status header.
+	 *
+	 * @since 2.2.0
+	 */
 	function bad_request() {
 		log_app('Status','400: Bad Request');
 		header('Content-Type: text/plain');
@@ -857,6 +1249,11 @@ list($content_type, $content) = prep_atom_text_construct(get_the_content()); ?>
 		exit;
 	}
 
+	/**
+	 * Set 'Length Required' (411) status header.
+	 *
+	 * @since 2.2.0
+	 */
 	function length_required() {
 		log_app('Status','411: Length Required');
 		header("HTTP/1.1 411 Length Required");
@@ -865,6 +1262,11 @@ list($content_type, $content) = prep_atom_text_construct(get_the_content()); ?>
 		exit;
 	}
 
+	/**
+	 * Set 'Unsupported Media Type' (415) status header.
+	 *
+	 * @since 2.2.0
+	 */
 	function invalid_media() {
 		log_app('Status','415: Unsupported Media Type');
 		header("HTTP/1.1 415 Unsupported Media Type");
@@ -872,6 +1274,24 @@ list($content_type, $content) = prep_atom_text_construct(get_the_content()); ?>
 		exit;
 	}
 
+	/**
+	 * Set 'Forbidden' (403) status header.
+	 *
+	 * @since 2.6.0
+	 */
+	function forbidden($reason='') {
+		log_app('Status','403: Forbidden');
+		header('Content-Type: text/plain');
+		status_header('403');
+		echo $reason;
+		exit;
+	}
+
+	/**
+	 * Set 'Not Found' (404) status header.
+	 *
+	 * @since 2.2.0
+	 */
 	function not_found() {
 		log_app('Status','404: Not Found');
 		header('Content-Type: text/plain');
@@ -879,6 +1299,11 @@ list($content_type, $content) = prep_atom_text_construct(get_the_content()); ?>
 		exit;
 	}
 
+	/**
+	 * Set 'Not Allowed' (405) status header.
+	 *
+	 * @since 2.2.0
+	 */
 	function not_allowed($allow) {
 		log_app('Status','405: Not Allowed');
 		header('Allow: ' . join(',', $allow));
@@ -886,6 +1311,11 @@ list($content_type, $content) = prep_atom_text_construct(get_the_content()); ?>
 		exit;
 	}
 
+	/**
+	 * Display Redirect (302) content and set status headers.
+	 *
+	 * @since 2.3.0
+	 */
 	function redirect($url) {
 
 		log_app('Status','302: Redirect');
@@ -911,7 +1341,11 @@ EOD;
 
 	}
 
-
+	/**
+	 * Set 'Client Error' (400) status header.
+	 *
+	 * @since 2.2.0
+	 */
 	function client_error($msg = 'Client Error') {
 		log_app('Status','400: Client Error');
 		header('Content-Type: text/plain');
@@ -919,6 +1353,13 @@ EOD;
 		exit;
 	}
 
+	/**
+	 * Set created status headers (201).
+	 *
+	 * Sets the 'content-type', 'content-location', and 'location'.
+	 *
+	 * @since 2.2.0
+	 */
 	function created($post_ID, $content, $post_type = 'post') {
 		log_app('created()::$post_ID',"$post_ID, $post_type");
 		$edit = $this->get_entry_url($post_ID);
@@ -939,12 +1380,19 @@ EOD;
 		exit;
 	}
 
+	/**
+	 * Set 'Auth Required' (401) headers.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param string $msg Status header content and HTML content.
+	 */
 	function auth_required($msg) {
 		log_app('Status','401: Auth Required');
 		nocache_headers();
 		header('WWW-Authenticate: Basic realm="WordPress Atom Protocol"');
 		header("HTTP/1.1 401 $msg");
-		header('Status: ' . $msg);
+		header('Status: 401 ' . $msg);
 		header('Content-Type: text/html');
 		$content = <<<EOD
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
@@ -963,6 +1411,14 @@ EOD;
 		exit;
 	}
 
+	/**
+	 * Display XML and set headers with content type.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param string $xml Display feed content.
+	 * @param string $ctype Optional, default is 'atom+xml'. Feed content type.
+	 */
 	function output($xml, $ctype = 'application/atom+xml') {
 			status_header('200');
 			$xml = '<?xml version="1.0" encoding="' . strtolower(get_option('blog_charset')) . '"?>'."\n".$xml;
@@ -977,6 +1433,13 @@ EOD;
 			exit;
 	}
 
+	/**
+	 * Sanitize content for database usage.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param array $array Sanitize array and multi-dimension array.
+	 */
 	function escape(&$array) {
 		global $wpdb;
 
@@ -991,13 +1454,14 @@ EOD;
 		}
 	}
 
-	/*
-	 * Access credential through various methods and perform login
+	/**
+	 * Access credential through various methods and perform login.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @return bool
 	 */
 	function authenticate() {
-		$login_data = array();
-		$already_md5 = false;
-
 		log_app("authenticate()",print_r($_ENV, true));
 
 		// if using mod_rewrite/ENV hack
@@ -1005,29 +1469,36 @@ EOD;
 		if(isset($_SERVER['HTTP_AUTHORIZATION'])) {
 			list($_SERVER['PHP_AUTH_USER'], $_SERVER['PHP_AUTH_PW']) =
 				explode(':', base64_decode(substr($_SERVER['HTTP_AUTHORIZATION'], 6)));
+		} else if (isset($_SERVER['REDIRECT_REMOTE_USER'])) {
+			// Workaround for setups that do not forward HTTP_AUTHORIZATION
+			// See http://trac.wordpress.org/ticket/7361
+			list($_SERVER['PHP_AUTH_USER'], $_SERVER['PHP_AUTH_PW']) =
+				explode(':', base64_decode(substr($_SERVER['REDIRECT_REMOTE_USER'], 6)));
 		}
 
 		// If Basic Auth is working...
 		if(isset($_SERVER['PHP_AUTH_USER']) && isset($_SERVER['PHP_AUTH_PW'])) {
-			$login_data = array('login' => $_SERVER['PHP_AUTH_USER'],	'password' => $_SERVER['PHP_AUTH_PW']);
-			log_app("Basic Auth",$login_data['login']);
-		} else {
-			// else, do cookie-based authentication
-			if (function_exists('wp_get_cookie_login')) {
-				$login_data = wp_get_cookie_login();
-				$already_md5 = true;
+			log_app("Basic Auth",$_SERVER['PHP_AUTH_USER']);
+			$user = wp_authenticate($_SERVER['PHP_AUTH_USER'], $_SERVER['PHP_AUTH_PW']);
+			if ( $user && !is_wp_error($user) ) {
+				wp_set_current_user($user->ID);
+				log_app("authenticate()", $_SERVER['PHP_AUTH_USER']);
+				return true;
 			}
 		}
 
-		// call wp_login and set current user
-		if (!empty($login_data) && wp_login($login_data['login'], $login_data['password'], $already_md5)) {
-			 $current_user = new WP_User(0, $login_data['login']);
-			 wp_set_current_user($current_user->ID);
-			log_app("authenticate()",$login_data['login']);
-		}
+		return false;
 	}
 
-	function get_accepted_content_type($types = NULL) {
+	/**
+	 * Retrieve accepted content types.
+	 *
+	 * @since 2.2.0
+	 *
+	 * @param array $types Optional. Content Types.
+	 * @return string
+	 */
+	function get_accepted_content_type($types = null) {
 
 		if(!isset($types)) {
 			$types = $this->media_content_types;
@@ -1053,6 +1524,11 @@ EOD;
 		$this->invalid_media();
 	}
 
+	/**
+	 * Process conditionals for posts.
+	 *
+	 * @since 2.2.0
+	 */
 	function process_conditionals() {
 
 		if(empty($this->params)) return;
@@ -1096,31 +1572,52 @@ EOD;
 		}
 	}
 
+	/**
+	 * Convert RFC3339 time string to timestamp.
+	 *
+	 * @since 2.3.0
+	 *
+	 * @param string $str String to time.
+	 * @return bool|int false if format is incorrect.
+	 */
 	function rfc3339_str2time($str) {
 
-	    $match = false;
-	    if(!preg_match("/(\d{4}-\d{2}-\d{2})T(\d{2}\:\d{2}\:\d{2})\.?\d{0,3}(Z|[+-]+\d{2}\:\d{2})/", $str, $match))
+		$match = false;
+		if(!preg_match("/(\d{4}-\d{2}-\d{2})T(\d{2}\:\d{2}\:\d{2})\.?\d{0,3}(Z|[+-]+\d{2}\:\d{2})/", $str, $match))
 			return false;
 
-	    if($match[3] == 'Z')
+		if($match[3] == 'Z')
 			$match[3] == '+0000';
 
-	    return strtotime($match[1] . " " . $match[2] . " " . $match[3]);
+		return strtotime($match[1] . " " . $match[2] . " " . $match[3]);
 	}
 
+	/**
+	 * Retrieve published time to display in XML.
+	 *
+	 * @since 2.3.0
+	 *
+	 * @param string $published Time string.
+	 * @return string
+	 */
 	function get_publish_time($published) {
 
-	    $pubtime = $this->rfc3339_str2time($published);
+		$pubtime = $this->rfc3339_str2time($published);
 
-	    if(!$pubtime) {
+		if(!$pubtime) {
 			return array(current_time('mysql'),current_time('mysql',1));
-	    } else {
+		} else {
 			return array(date("Y-m-d H:i:s", $pubtime), gmdate("Y-m-d H:i:s", $pubtime));
-	    }
+		}
 	}
 
 }
 
+/**
+ * AtomServer
+ * @var AtomServer
+ * @global object $server
+ */
 $server = new AtomServer();
 $server->handle_request();
 

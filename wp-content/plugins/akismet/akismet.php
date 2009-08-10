@@ -2,10 +2,10 @@
 /*
 Plugin Name: Akismet
 Plugin URI: http://akismet.com/
-Description: Akismet checks your comments against the Akismet web service to see if they look like spam or not. You need a <a href="http://wordpress.com/api-keys/">WordPress.com API key</a> to use it. You can review the spam it catches under "Comments." To show off your Akismet stats just put <code>&lt;?php akismet_counter(); ?></code> in your template. See also: <a href="http://wordpress.org/extend/plugins/stats/">WP Stats plugin</a>.
-Version: 2.1.4
+Description: Akismet checks your comments against the Akismet web service to see if they look like spam or not. You need a <a href="http://wordpress.com/api-keys/">WordPress.com API key</a> to use it. You can review the spam it catches under "Comments." To show off your Akismet stats just put <code>&lt;?php akismet_counter(); ?&gt;</code> in your template. See also: <a href="http://wordpress.org/extend/plugins/stats/">WP Stats plugin</a>.
+Version: 2.2.3
 Author: Matt Mullenweg
-Author URI: http://photomatt.net/
+Author URI: http://ma.tt/
 */
 
 // If you hardcode a WP.com API key here, all key config screens will be hidden
@@ -21,8 +21,18 @@ function akismet_init() {
 
 	$akismet_api_port = 80;
 	add_action('admin_menu', 'akismet_config_page');
+	add_action('admin_menu', 'akismet_stats_page');
 }
 add_action('init', 'akismet_init');
+
+function akismet_admin_init() {
+	if ( function_exists( 'get_plugin_page_hook' ) )
+		$hook = get_plugin_page_hook( 'akismet-stats-display', 'index.php' );
+	else
+		$hook = 'dashboard_page_akismet-stats-display';
+	add_action('admin_head-'.$hook, 'akismet_stats_script');
+}
+add_action('admin_init', 'akismet_admin_init');
 
 if ( !function_exists('wp_nonce_field') ) {
 	function akismet_nonce_field($action = -1) { return; }
@@ -135,6 +145,43 @@ function akismet_conf() {
 </div>
 </div>
 <?php
+}
+
+function akismet_stats_page() {
+	if ( function_exists('add_submenu_page') )
+		add_submenu_page('index.php', __('Akismet Stats'), __('Akismet Stats'), 'manage_options', 'akismet-stats-display', 'akismet_stats_display');
+
+}
+
+function akismet_stats_script() {
+	?>
+<script type="text/javascript">
+function resizeIframe() {
+    var height = document.documentElement.clientHeight;
+    height -= document.getElementById('akismet-stats-frame').offsetTop;
+    height += 100; // magic padding
+    
+    document.getElementById('akismet-stats-frame').style.height = height +"px";
+    
+};
+function resizeIframeInit() {
+	document.getElementById('akismet-stats-frame').onload = resizeIframe;
+	window.onresize = resizeIframe;
+}
+addLoadEvent(resizeIframeInit);
+</script><?php
+}
+
+
+function akismet_stats_display() {
+	global $akismet_api_host, $akismet_api_port, $wpcom_api_key;
+	$blog = urlencode( get_option('home') );
+	$url = "http://".get_option('wordpress_api_key').".web.akismet.com/1.0/user-stats.php?blog={$blog}";
+	?>
+	<div class="wrap">
+	<iframe src="<?php echo $url; ?>" width="100%" height="100%" frameborder="0" id="akismet-stats-frame"></iframe>
+	</div>
+	<?php
 }
 
 function akismet_verify_key( $key ) {
@@ -263,6 +310,9 @@ add_action('wp_set_comment_status', 'akismet_submit_spam_comment');
 add_action('edit_comment', 'akismet_submit_spam_comment');
 add_action('preprocess_comment', 'akismet_auto_check_comment', 1);
 
+function akismet_spamtoham( $comment ) { akismet_submit_nonspam_comment( $comment->comment_ID ); }
+add_filter( 'comment_spam_to_approved', 'akismet_spamtoham' );
+
 // Total spam in queue
 // get_option( 'akismet_spam_count' ) is the total caught ever
 function akismet_spam_count( $type = false ) {
@@ -327,7 +377,12 @@ function akismet_spam_totals() {
 }
 
 function akismet_manage_page() {
-	global $wpdb, $submenu;
+	global $wpdb, $submenu, $wp_db_version;
+
+	// WP 2.7 has its own spam management page
+	if ( 8645 <= $wp_db_version )
+		return;
+
 	$count = sprintf(__('Akismet Spam (%s)'), akismet_spam_count());
 	if ( isset( $submenu['edit-comments.php'] ) )
 		add_submenu_page('edit-comments.php', __('Akismet Spam'), $count, 'moderate_comments', 'akismet-admin', 'akismet_caught' );
@@ -337,6 +392,7 @@ function akismet_manage_page() {
 
 function akismet_caught() {
 	global $wpdb, $comment, $akismet_caught, $akismet_nonce;
+
 	akismet_recheck_queue();
 	if (isset($_POST['submit']) && 'recover' == $_POST['action'] && ! empty($_POST['not_spam'])) {
 		check_admin_referer( $akismet_nonce );
@@ -480,7 +536,7 @@ if ( isset( $_POST['s'] ) ) {
 	if ( isset( $_GET['ctype'] ) )
 		$current_type = preg_replace( '|[^a-z]|', '', $_GET['ctype'] );
 
-	$comments = akismet_spam_comments( $current_type );
+	$comments = akismet_spam_comments( $current_type, $page );
 	$total = akismet_spam_count( $current_type );
 	$totals = akismet_spam_totals();
 ?>
@@ -654,11 +710,14 @@ add_action('activity_box_end', 'akismet_stats');
 
 // WP 2.5+
 function akismet_rightnow() {
-	global $submenu;
-	if ( isset( $submenu['edit-comments.php'] ) )
-		$link = 'edit-comments.php';
+	global $submenu, $wp_db_version;
+
+	if ( 8645 < $wp_db_version  ) // 2.7
+		$link = 'edit-comments.php?comment_status=spam';
+	elseif ( isset( $submenu['edit-comments.php'] ) )
+		$link = 'edit-comments.php?page=akismet-admin';
 	else
-		$link = 'edit.php';
+		$link = 'edit.php?page=akismet-admin';
 
 	if ( $count = get_option('akismet_spam_count') ) {
 		$intro = sprintf( __ngettext(
@@ -675,9 +734,9 @@ function akismet_rightnow() {
 			'and there\'s <a href="%2$s">%1$s comment</a> in your spam queue right now.',
 			'and there are <a href="%2$s">%1$s comments</a> in your spam queue right now.',
 			$queue_count
-		), number_format_i18n( $queue_count ), clean_url("$link?page=akismet-admin") );
+		), number_format_i18n( $queue_count ), clean_url($link) );
 	} else {
-		$queue_text = sprintf( __( "but there's nothing in your <a href='%1\$s'>spam queue</a> at the moment." ), clean_url("$link?page=akismet-admin") );
+		$queue_text = sprintf( __( "but there's nothing in your <a href='%1\$s'>spam queue</a> at the moment." ), clean_url($link) );
 	}
 
 	$text = sprintf( _c( '%1$s %2$s|akismet_rightnow' ), $intro, $queue_text );
@@ -706,22 +765,24 @@ if ( 'moderation.php' == $pagenow ) {
 
 // For WP >= 2.5
 function akismet_check_for_spam_button($comment_status) {
-	if ( 'moderated' != $comment_status )
+	if ( 'approved' == $comment_status )
 		return;
-	$count = wp_count_comments();
-	if ( !empty($count->moderated ) )
-		echo "<a href='edit-comments.php?page=akismet-admin&amp;recheckqueue=true&amp;noheader=true'>" . __('Check for Spam') . "</a>";
+	if ( function_exists('plugins_url') )
+		$link = 'admin.php?action=akismet_recheck_queue';
+	else
+		$link = 'edit-comments.php?page=akismet-admin&amp;recheckqueue=true&amp;noheader=true';
+	echo "</div><div class='alignleft'><a class='button-secondary checkforspam' href='$link'>" . __('Check for Spam') . "</a>";
 }
 add_action('manage_comments_nav', 'akismet_check_for_spam_button');
 
 function akismet_recheck_queue() {
 	global $wpdb, $akismet_api_host, $akismet_api_port;
 
-	if ( !isset( $_GET['recheckqueue'] ) )
+	if ( ! ( isset( $_GET['recheckqueue'] ) || ( isset( $_REQUEST['action'] ) && 'akismet_recheck_queue' == $_REQUEST['action'] ) ) )
 		return;
 
 	$moderation = $wpdb->get_results( "SELECT * FROM $wpdb->comments WHERE comment_approved = '0'", ARRAY_A );
-	foreach ( $moderation as $c ) {
+	foreach ( (array) $moderation as $c ) {
 		$c['user_ip']    = $c['comment_author_IP'];
 		$c['user_agent'] = $c['comment_agent'];
 		$c['referrer']   = '';
@@ -740,6 +801,8 @@ function akismet_recheck_queue() {
 	wp_redirect( $_SERVER['HTTP_REFERER'] );
 	exit;
 }
+
+add_action('admin_action_akismet_recheck_queue', 'akismet_recheck_queue');
 
 function akismet_check_db_comment( $id ) {
 	global $wpdb, $akismet_api_host, $akismet_api_port;

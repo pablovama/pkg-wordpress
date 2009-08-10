@@ -15,9 +15,11 @@ if ( !defined('WP_MEMORY_LIMIT') )
 if ( function_exists('memory_get_usage') && ( (int) @ini_get('memory_limit') < abs(intval(WP_MEMORY_LIMIT)) ) )
 	@ini_set('memory_limit', WP_MEMORY_LIMIT);
 
+set_magic_quotes_runtime(0);
+@ini_set('magic_quotes_sybase', 0);
 
 /**
- * wp_unregister_GLOBALS() - Turn register globals off
+ * Turn register globals off.
  *
  * @access private
  * @since 2.1.0
@@ -68,6 +70,10 @@ if ( empty( $_SERVER['REQUEST_URI'] ) ) {
 	}
 	else
 	{
+		// Use ORIG_PATH_INFO if there is no PATH_INFO
+		if ( !isset($_SERVER['PATH_INFO']) && isset($_SERVER['ORIG_PATH_INFO']) )
+			$_SERVER['PATH_INFO'] = $_SERVER['ORIG_PATH_INFO'];
+
 		// Some IIS + PHP configurations puts the script-name in the path-info (No need to append it twice)
 		if ( isset($_SERVER['PATH_INFO']) ) {
 			if ( $_SERVER['PATH_INFO'] == $_SERVER['SCRIPT_NAME'] )
@@ -97,19 +103,53 @@ if ( empty($PHP_SELF) )
 	$_SERVER['PHP_SELF'] = $PHP_SELF = preg_replace("/(\?.*)?$/",'',$_SERVER["REQUEST_URI"]);
 
 if ( version_compare( '4.3', phpversion(), '>' ) ) {
-	die( 'Your server is running PHP version ' . phpversion() . ' but WordPress requires at least 4.3.' );
+	die( sprintf( /*WP_I18N_OLD_PHP*/'Your server is running PHP version %s but WordPress requires at least 4.3.'/*/WP_I18N_OLD_PHP*/, phpversion() ) );
 }
 
-if ( !extension_loaded('mysql') && !file_exists(ABSPATH . 'wp-content/db.php') )
-	die( 'Your PHP installation appears to be missing the MySQL extension which is required by WordPress.' );
+if ( !defined('WP_CONTENT_DIR') )
+	define( 'WP_CONTENT_DIR', ABSPATH . 'wp-content' ); // no trailing slash, full paths only - WP_CONTENT_URL is defined further down
+
+if ( file_exists(ABSPATH . '.maintenance') && !defined('WP_INSTALLING') ) {
+	include(ABSPATH . '.maintenance');
+	// If the $upgrading timestamp is older than 10 minutes, don't die.
+	if ( ( time() - $upgrading ) < 600 ) {
+		if ( file_exists( WP_CONTENT_DIR . '/maintenance.php' ) ) {
+			require_once( WP_CONTENT_DIR . '/maintenance.php' );
+			die();
+		}
+
+		$protocol = $_SERVER["SERVER_PROTOCOL"];
+		if ( 'HTTP/1.1' != $protocol && 'HTTP/1.0' != $protocol )
+			$protocol = 'HTTP/1.0';
+		header( "$protocol 503 Service Unavailable", true, 503 );
+		header( 'Content-Type: text/html; charset=utf-8' );
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Maintenance</title>
+
+</head>
+<body>
+	<h1>Briefly unavailable for scheduled maintenance. Check back in a minute.</h1>
+</body>
+</html>
+<?php
+		die();
+	}
+}
+
+if ( !extension_loaded('mysql') && !file_exists(WP_CONTENT_DIR . '/db.php') )
+	die( /*WP_I18N_OLD_MYSQL*/'Your PHP installation appears to be missing the MySQL extension which is required by WordPress.'/*/WP_I18N_OLD_MYSQL*/ );
 
 /**
- * timer_start() - PHP 4 standard microtime start capture
+ * PHP 4 standard microtime start capture.
  *
  * @access private
  * @since 0.71
- * @global int $timestart Seconds and Microseconds added together from when function is called
- * @return bool Always returns true
+ * @global int $timestart Seconds and Microseconds added together from when function is called.
+ * @return bool Always returns true.
  */
 function timer_start() {
 	global $timestart;
@@ -120,7 +160,7 @@ function timer_start() {
 }
 
 /**
- * timer_stop() - Return and/or display the time from the page start to when function is called.
+ * Return and/or display the time from the page start to when function is called.
  *
  * You can get the results and print them by doing:
  * <code>
@@ -161,12 +201,18 @@ timer_start();
 if (defined('WP_DEBUG') and WP_DEBUG == true) {
 	error_reporting(E_ALL);
 } else {
-	error_reporting(E_ALL ^ E_NOTICE ^ E_USER_NOTICE);
+	// Unicode Extension is in PHP 6.0 only or do version check when this changes.
+	if ( function_exists('unicode_decode') ) 
+		error_reporting( E_ALL ^ E_DEPRECATED ^ E_NOTICE ^ E_USER_NOTICE ^ E_STRICT );
+	else if ( defined( 'E_DEPRECATED' ) ) // Introduced in PHP 5.3
+		error_reporting( E_ALL ^ E_DEPRECATED ^ E_NOTICE ^ E_USER_NOTICE );
+	else
+		error_reporting(E_ALL ^ E_NOTICE ^ E_USER_NOTICE);
 }
 
 // For an advanced caching plugin to use, static because you would only want one
 if ( defined('WP_CACHE') )
-	@include ABSPATH . 'wp-content/advanced-cache.php';
+	@include WP_CONTENT_DIR . '/advanced-cache.php';
 
 /**
  * Stores the location of the WordPress directory of functions, classes, and core content.
@@ -175,29 +221,27 @@ if ( defined('WP_CACHE') )
  */
 define('WPINC', 'wp-includes');
 
-if ( !defined('LANGDIR') ) {
+if ( !defined('WP_LANG_DIR') ) {
 	/**
-	 * Stores the location of the language directory. First looks for language folder in wp-content
+	 * Stores the location of the language directory. First looks for language folder in WP_CONTENT_DIR
 	 * and uses that folder if it exists. Or it uses the "languages" folder in WPINC.
 	 *
 	 * @since 2.1.0
 	 */
-	if ( file_exists(ABSPATH . 'wp-content/languages') && @is_dir(ABSPATH . 'wp-content/languages') )
-		define('LANGDIR', 'wp-content/languages'); // no leading slash, no trailing slash
-	else
-		define('LANGDIR', WPINC . '/languages'); // no leading slash, no trailing slash
+	if ( file_exists(WP_CONTENT_DIR . '/languages') && @is_dir(WP_CONTENT_DIR . '/languages') ) {
+		define('WP_LANG_DIR', WP_CONTENT_DIR . '/languages'); // no leading slash, no trailing slash, full path, not relative to ABSPATH
+		if (!defined('LANGDIR')) {
+			// Old static relative path maintained for limited backwards compatibility - won't work in some cases
+			define('LANGDIR', 'wp-content/languages');
+		}
+	} else {
+		define('WP_LANG_DIR', ABSPATH . WPINC . '/languages'); // no leading slash, no trailing slash, full path, not relative to ABSPATH
+		if (!defined('LANGDIR')) {
+			// Old relative path maintained for backwards compatibility
+			define('LANGDIR', WPINC . '/languages');
+		}
+	}
 }
-
-/**
- * Allows for the plugins directory to be moved from the default location.
- *
- * This isn't used everywhere. Constant is not used in plugin_basename()
- * which might cause conflicts with changing this.
- *
- * @since 2.1
- */
-if ( !defined('PLUGINDIR') )
-	define('PLUGINDIR', 'wp-content/plugins'); // no leading slash, no trailing slash
 
 require (ABSPATH . WPINC . '/compat.php');
 require (ABSPATH . WPINC . '/functions.php');
@@ -211,14 +255,18 @@ if ( !empty($wpdb->error) )
 $prefix = $wpdb->set_prefix($table_prefix);
 
 if ( is_wp_error($prefix) )
-	wp_die('<strong>ERROR</strong>: <code>$table_prefix</code> in <code>wp-config.php</code> can only contain numbers, letters, and underscores.');
+	wp_die(/*WP_I18N_BAD_PREFIX*/'<strong>ERROR</strong>: <code>$table_prefix</code> in <code>wp-config.php</code> can only contain numbers, letters, and underscores.'/*/WP_I18N_BAD_PREFIX*/);
 
-if ( file_exists(ABSPATH . 'wp-content/object-cache.php') )
-	require_once (ABSPATH . 'wp-content/object-cache.php');
+if ( file_exists(WP_CONTENT_DIR . '/object-cache.php') )
+	require_once (WP_CONTENT_DIR . '/object-cache.php');
 else
 	require_once (ABSPATH . WPINC . '/cache.php');
 
 wp_cache_init();
+if ( function_exists('wp_cache_add_global_groups') ) {
+	wp_cache_add_global_groups(array ('users', 'userlogins', 'usermeta'));
+	wp_cache_add_non_persistent_groups(array( 'comment', 'counts', 'plugins' ));
+}
 
 require (ABSPATH . WPINC . '/plugin.php');
 require (ABSPATH . WPINC . '/default-filters.php');
@@ -267,20 +315,44 @@ require (ABSPATH . WPINC . '/update.php');
 require (ABSPATH . WPINC . '/canonical.php');
 require (ABSPATH . WPINC . '/shortcodes.php');
 require (ABSPATH . WPINC . '/media.php');
+require (ABSPATH . WPINC . '/http.php');
 
-if (strpos($_SERVER['PHP_SELF'], 'install.php') === false) {
-	// Used to guarantee unique hash cookies
-	$cookiehash = md5(get_option('siteurl'));
-	/**
-	 * Used to guarantee unique hash cookies
-	 * @since 1.5
-	 */
-	define('COOKIEHASH', $cookiehash);
-}
+if ( !defined('WP_CONTENT_URL') )
+	define( 'WP_CONTENT_URL', get_option('siteurl') . '/wp-content'); // full url - WP_CONTENT_DIR is defined further up
+
+/**
+ * Allows for the plugins directory to be moved from the default location.
+ *
+ * @since 2.6.0
+ */
+if ( !defined('WP_PLUGIN_DIR') )
+	define( 'WP_PLUGIN_DIR', WP_CONTENT_DIR . '/plugins' ); // full path, no trailing slash
+
+/**
+ * Allows for the plugins directory to be moved from the default location.
+ *
+ * @since 2.6.0
+ */
+if ( !defined('WP_PLUGIN_URL') )
+	define( 'WP_PLUGIN_URL', WP_CONTENT_URL . '/plugins' ); // full url, no trailing slash
+
+/**
+ * Allows for the plugins directory to be moved from the default location.
+ *
+ * @since 2.1.0
+ */
+if ( !defined('PLUGINDIR') )
+	define( 'PLUGINDIR', 'wp-content/plugins' ); // Relative to ABSPATH.  For back compat.
+
+/**
+ * Used to guarantee unique hash cookies
+ * @since 1.5
+ */
+define('COOKIEHASH', md5(get_option('siteurl')));
 
 /**
  * Should be exactly the same as the default value of SECRET_KEY in wp-config-sample.php
- * @since 2.5
+ * @since 2.5.0
  */
 $wp_default_secret_key = 'put your unique phrase here';
 
@@ -300,10 +372,24 @@ if ( !defined('PASS_COOKIE') )
 
 /**
  * It is possible to define this in wp-config.php
- * @since 2.5
+ * @since 2.5.0
  */
 if ( !defined('AUTH_COOKIE') )
 	define('AUTH_COOKIE', 'wordpress_' . COOKIEHASH);
+
+/**
+ * It is possible to define this in wp-config.php
+ * @since 2.6.0
+ */
+if ( !defined('SECURE_AUTH_COOKIE') )
+	define('SECURE_AUTH_COOKIE', 'wordpress_sec_' . COOKIEHASH);
+
+/**
+ * It is possible to define this in wp-config.php
+ * @since 2.6.0
+ */
+if ( !defined('LOGGED_IN_COOKIE') )
+	define('LOGGED_IN_COOKIE', 'wordpress_logged_in_' . COOKIEHASH);
 
 /**
  * It is possible to define this in wp-config.php
@@ -328,18 +414,48 @@ if ( !defined('SITECOOKIEPATH') )
 
 /**
  * It is possible to define this in wp-config.php
+ * @since 2.6.0
+ */
+if ( !defined('ADMIN_COOKIE_PATH') )
+	define( 'ADMIN_COOKIE_PATH', SITECOOKIEPATH . 'wp-admin' );
+
+/**
+ * It is possible to define this in wp-config.php
+ * @since 2.6.0
+ */
+if ( !defined('PLUGINS_COOKIE_PATH') )
+	define( 'PLUGINS_COOKIE_PATH', preg_replace('|https?://[^/]+|i', '', WP_PLUGIN_URL)  );
+
+/**
+ * It is possible to define this in wp-config.php
  * @since 2.0.0
  */
 if ( !defined('COOKIE_DOMAIN') )
 	define('COOKIE_DOMAIN', false);
-	
+
+/**
+ * It is possible to define this in wp-config.php
+ * @since 2.6.0
+ */
+if ( !defined('FORCE_SSL_ADMIN') )
+	define('FORCE_SSL_ADMIN', false);
+force_ssl_admin(FORCE_SSL_ADMIN);
+
+/**
+ * It is possible to define this in wp-config.php
+ * @since 2.6.0
+ */
+if ( !defined('FORCE_SSL_LOGIN') )
+	define('FORCE_SSL_LOGIN', false);
+force_ssl_login(FORCE_SSL_LOGIN);
+
 /**
  * It is possible to define this in wp-config.php
  * @since 2.5.0
  */
 if ( !defined( 'AUTOSAVE_INTERVAL' ) )
 	define( 'AUTOSAVE_INTERVAL', 60 );
-	
+
 
 require (ABSPATH . WPINC . '/vars.php');
 
@@ -349,12 +465,12 @@ if (get_option('hack_file')) {
 		require(ABSPATH . 'my-hacks.php');
 }
 
-if ( get_option('active_plugins') ) {
+if ( get_option('active_plugins') && !defined('WP_INSTALLING') ) {
 	$current_plugins = get_option('active_plugins');
 	if ( is_array($current_plugins) ) {
 		foreach ($current_plugins as $plugin) {
-			if ('' != $plugin && file_exists(ABSPATH . PLUGINDIR . '/' . $plugin))
-				include_once(ABSPATH . PLUGINDIR . '/' . $plugin);
+			if ( '' != $plugin && 0 == validate_file($plugin) && file_exists(WP_PLUGIN_DIR . '/' . $plugin) )
+				include_once(WP_PLUGIN_DIR . '/' . $plugin);
 		}
 	}
 }
@@ -375,6 +491,11 @@ if ( defined('WP_CACHE') && function_exists('wp_cache_postload') )
 	wp_cache_postload();
 
 do_action('plugins_loaded');
+
+$default_constants = array( 'WP_POST_REVISIONS' => true );
+foreach ( $default_constants as $c => $v )
+	@define( $c, $v ); // will fail if the constant is already defined
+unset($default_constants, $c, $v);
 
 // If already slashed, strip.
 if ( get_magic_quotes_gpc() ) {
@@ -420,16 +541,17 @@ $wp_rewrite   =& new WP_Rewrite();
  */
 $wp           =& new WP();
 
+do_action('setup_theme');
 
 /**
  * Web Path to the current active template directory
- * @since 1.5
+ * @since 1.5.0
  */
 define('TEMPLATEPATH', get_template_directory());
 
 /**
  * Web Path to the current active template stylesheet directory
- * @since 2.1
+ * @since 2.1.0
  */
 define('STYLESHEETPATH', get_stylesheet_directory());
 
@@ -441,7 +563,7 @@ load_default_textdomain();
  * @since 1.5.0
  */
 $locale = get_locale();
-$locale_file = ABSPATH . LANGDIR . "/$locale.php";
+$locale_file = WP_LANG_DIR . "/$locale.php";
 if ( is_readable($locale_file) )
 	require_once($locale_file);
 
@@ -462,10 +584,10 @@ if ( file_exists(TEMPLATEPATH . '/functions.php') )
 	include(TEMPLATEPATH . '/functions.php');
 
 /**
- * shutdown_action_hook() - Runs just before PHP shuts down execution.
+ * Runs just before PHP shuts down execution.
  *
  * @access private
- * @since 1.2
+ * @since 1.2.0
  */
 function shutdown_action_hook() {
 	do_action('shutdown');
