@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Andrea De Iacovo <andrea.de.iacovo@gmail.com>
 Uploaders: Giuseppe Iuculano <giuseppe@iuculano.it>
 Standards-Version: 3.8.0
-Build-Depends: debhelper, gettext, dpatch
+Build-Depends: debhelper (>= 7), gettext, dpatch
 Homepage: http://wordpress.org
 Vcs-Git: git://git.debian.org/git/collab-maint/wordpress.git
 Vcs-Browser: http://git.debian.org/?p=collab-maint/wordpress.git
