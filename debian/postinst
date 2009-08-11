@@ -1,5 +1,5 @@
-#!/bin/sh -e
-
+#!/bin/sh
+set -e
 # To address security bug #363580, but don't change them again and
 # again if local admin put something else.
 if [ "$1" = upgrade ] && dpkg --compare-versions "$2" lt 2.0.2-2; then
