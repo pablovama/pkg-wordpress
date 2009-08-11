@@ -1,3 +1,34 @@
+wordpress (2.8.3-1) unstable; urgency=medium
+
+  * [f625087] Imported Upstream version 2.8.3 (Closes: #533387, #539411)
+    This release fixed several security issue:
+    - Privileges unchecked and multiple information disclosures.
+      (CVE-2009-2334, CVE-2009-2335, CVE-2009-2336) (Closes: #536724)
+    - CVE-2009-2431, CVE-2009-2432: Obtain sensitive information
+      (Closes: #537146)
+    - CVE-2008-6762: Open redirect vulnerability in wp-admin/upgrade.php
+      (Closes: #531736)
+  * [347c164] debian/control: Added Giuseppe Iuculano in Uploaders,
+    added Vcs and DM-Upload-Allowed control field
+  * [92fb4ab] Bump to debhelper 7 compatibility levels
+  * [5b8536e] Refreshing patches
+  * [d999c0e] Added a watch file
+  * [4163c0c] debian/rules: There isn't anymore the autosave tinymce
+    plugin, do not remove it
+  * [9c4d0e5] debian/get-upstream-i18n: download .xpi files into
+    debian/languages
+  * [76b7c5c] Install language files
+  * [a0bfad2] Move gettext in Build-Depends-Indep
+  * [8b607bf] Use set -e instead of passing -e to the shell on the #!
+    line
+  * [6cbbf36] debian/patches/009CVE2008-6767.dpatch: Only admin can
+    upgrade wordpress. (CVE-2008-6767) (Closes: #531736)
+  * [d6adfbe] Disabled the the "please update" warning, thanks to Hans
+    Spaans and Rolf Leggewie (Closes: #506685)
+  * [15c360c] Updated to standards version 3.8.2 (No changes needed)
+
+ -- Giuseppe Iuculano <giuseppe@iuculano.it>  Tue, 11 Aug 2009 16:30:35 +0200
+
 wordpress (2.7.1-2) unstable; urgency=low
 
   * setup-mysql corrected to accept domain names with hyphens (Closes: #514447)
