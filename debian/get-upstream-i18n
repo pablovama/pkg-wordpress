@@ -2,6 +2,8 @@
 
 set -e
 
+LANG=C
+
 usage () {
     printf "Usage: %s version\n" "$0"
 }
@@ -11,8 +13,8 @@ if [ "$#" -lt 1 ]; then
     exit 1
 fi
 
-if ! [ -d wp-content ]; then
-    printf "Cannot find wp-content directory\n" 1>&2
+if ! [ -d debian ]; then
+    printf "Cannot find debian directory\n" 1>&2
     exit 2
 fi
 
@@ -21,8 +23,8 @@ BASEDIR="${PWD}"
 
 version="$1"
 
-if ! [ -e wp-content/languages ]; then
-    mkdir wp-content/languages
+if ! [ -e debian/languages ]; then
+    mkdir debian/languages
 fi
 
 url_escape () {
@@ -64,5 +66,7 @@ HEAD_REV="$(svn info "${UPSTREAM_I18N_SVN}" | sed -n -e 's/^Revision:[[:space:]]
 for lang in $(svn ls "${UPSTREAM_I18N_SVN}" | sed -n -e 's|/$||p' | egrep -v '^(theme|tools)$'); do
     url_lang="$(url_escape "${lang}")"
     baselang="$(base_lang "${lang}")"
-    do_file "${url_lang}" "messages" "wp-content/languages" "${lang}.po"
+    do_file "${url_lang}" "messages" "debian/languages" "${lang}.po"
 done
+
+
