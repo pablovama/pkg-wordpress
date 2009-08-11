@@ -1,0 +1,27 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 009CVE2008-6767.dpatch by Giuseppe Iuculano <giuseppe@iuculano.it>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: No description.
+
+@DPATCH@
+diff -urNad wordpress~/wp-admin/upgrade.php wordpress/wp-admin/upgrade.php
+--- wordpress~/wp-admin/upgrade.php	2009-08-10 17:25:44.000000000 +0200
++++ wordpress/wp-admin/upgrade.php	2009-08-11 12:59:38.000000000 +0200
+@@ -14,6 +14,16 @@
+  */
+ define( 'WP_INSTALLING', true );
+ 
++/** WordPress Administration Bootstrap */
++require_once('admin.php');
++$user_id = (int) $user_id;
++
++$current_user = wp_get_current_user();
++$user_id = $current_user->ID;
++if ($user_id != 1) 
++	        wp_die( __('Only admin can update Wordpress.') );
++
++
+ /** Load WordPress Bootstrap */
+ require( '../wp-load.php' );
+ 
