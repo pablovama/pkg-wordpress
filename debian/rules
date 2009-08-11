@@ -16,6 +16,13 @@ install: $(MOFILES) patch-stamp
 	dh_testroot
 	chmod -R a-x,a+X wp-includes/
 	dh_install -Xlicense.txt -Xlicense.html -XMIT-LICENSE -Xclass-phpmailer.php -Xclass-smtp.php -X.po
+	dh_installdirs
+	for i in debian/languages/*.po; \
+        do \
+		OUT=$$(echo $$i | awk -F\/ '{ print $$3 }');\
+		OUT=$${OUT%.po}.mo; \
+		msgfmt $$i -o debian/wordpress/usr/share/wordpress/wp-content/languages/$$OUT ;\
+        done
 	dh_installdocs
 	dh_installchangelogs
 	dh_installexamples

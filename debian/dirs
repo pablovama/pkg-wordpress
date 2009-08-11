@@ -1,3 +1,1 @@
-usr/bin
-usr/sbin
-etc/wordpress
+usr/share/wordpress/wp-content/languages
