@@ -55,6 +55,9 @@ define('DB_PASSWORD', '$DB_PASSWORD');
 define('DB_HOST', 'localhost');
 define('SECRET_KEY', '$SECRET_KEY');
 
+#This will disable the update notification.
+define('WP_CORE_UPDATE', false);
+
 \$table_prefix  = 'wp_';
 \$server = DB_HOST;
 \$loginsql = DB_USER;

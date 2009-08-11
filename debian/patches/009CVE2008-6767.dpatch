@@ -2,7 +2,7 @@
 ## 009CVE2008-6767.dpatch by Giuseppe Iuculano <giuseppe@iuculano.it>
 ##
 ## All lines beginning with `## DP:' are a description of the patch.
-## DP: No description.
+## DP: Only admin can upgrade wordpress. (CVE-2008-6767) (Closes: #531736)
 
 @DPATCH@
 diff -urNad wordpress~/wp-admin/upgrade.php wordpress/wp-admin/upgrade.php

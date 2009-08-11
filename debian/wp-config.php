@@ -17,6 +17,7 @@ Please do NOT edit and read about how the configuration works in the README.Debi
     require_once($debian_file);
 
 define('ABSPATH', '/usr/share/wordpress/');
+define('WP_CORE_UPDATE', false);
 
 require_once(ABSPATH.'wp-settings.php');
 ?>
