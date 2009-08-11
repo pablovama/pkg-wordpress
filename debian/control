@@ -3,7 +3,7 @@ Section: web
 Priority: optional
 Maintainer: Andrea De Iacovo <andrea.de.iacovo@gmail.com>
 Uploaders: Giuseppe Iuculano <giuseppe@iuculano.it>
-Standards-Version: 3.8.0
+Standards-Version: 3.8.2
 Build-Depends: debhelper (>= 7), dpatch
 Build-Depends-Indep: gettext
 Homepage: http://wordpress.org
