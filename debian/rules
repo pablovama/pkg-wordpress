@@ -24,7 +24,6 @@ install: $(MOFILES) patch-stamp
 	dh_installdeb
 	#Removing unneeded tinymce files
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/media
-	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/autosave/
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/directionality/
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/fullscreen/
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/paste/
