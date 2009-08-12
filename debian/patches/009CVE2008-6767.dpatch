@@ -6,22 +6,29 @@
 
 @DPATCH@
 diff -urNad wordpress~/wp-admin/upgrade.php wordpress/wp-admin/upgrade.php
---- wordpress~/wp-admin/upgrade.php	2009-08-10 17:25:44.000000000 +0200
-+++ wordpress/wp-admin/upgrade.php	2009-08-11 12:59:38.000000000 +0200
-@@ -14,6 +14,16 @@
-  */
- define( 'WP_INSTALLING', true );
+--- wordpress~/wp-admin/upgrade.php	2009-08-11 23:11:06.000000000 +0200
++++ wordpress/wp-admin/upgrade.php	2009-08-12 18:05:06.000000000 +0200
+@@ -16,6 +16,12 @@
  
-+/** WordPress Administration Bootstrap */
-+require_once('admin.php');
+ /** Load WordPress Bootstrap */
+ require( '../wp-load.php' );
 +$user_id = (int) $user_id;
 +
 +$current_user = wp_get_current_user();
 +$user_id = $current_user->ID;
 +if ($user_id != 1) 
-+	        wp_die( __('Only admin can update Wordpress.') );
-+
-+
- /** Load WordPress Bootstrap */
- require( '../wp-load.php' );
++	        wp_safe_redirect('../wp-login.php?upgrade');
+ 
+ timer_start();
+ require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
+diff -urNad wordpress~/wp-login.php wordpress/wp-login.php
+--- wordpress~/wp-login.php	2009-08-11 23:11:06.000000000 +0200
++++ wordpress/wp-login.php	2009-08-12 18:04:45.000000000 +0200
+@@ -491,6 +491,7 @@
+ 	elseif	( isset($_GET['checkemail']) && 'confirm' == $_GET['checkemail'] )	$errors->add('confirm', __('Check your e-mail for the confirmation link.'), 'message');
+ 	elseif	( isset($_GET['checkemail']) && 'newpass' == $_GET['checkemail'] )	$errors->add('newpass', __('Check your e-mail for your new password.'), 'message');
+ 	elseif	( isset($_GET['checkemail']) && 'registered' == $_GET['checkemail'] )	$errors->add('registered', __('Registration complete. Please check your e-mail.'), 'message');
++	elseif  ( isset($_GET['upgrade'])) $errors->add('upgrade', __('Upgrade is needed, please log in with the admin account.'), 'message');
+ 
+ 	login_header(__('Log In'), '', $errors);
  
