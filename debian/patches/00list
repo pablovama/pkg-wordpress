@@ -8,3 +8,4 @@
 008CVE2008-2392.patch
 009CVE2008-6767.dpatch
 010disabling_update_note.dpatch
+011enforce_activaction_key.dpatch
