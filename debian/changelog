@@ -1,3 +1,12 @@
+wordpress (2.8.3-2) unstable; urgency=medium
+
+  * [2372863] debian/patches/011enforce_activaction_key.dpatch: Enforce
+    activation key to be a string (Closes: #541102)
+  * [cb80386] Fixed CVE-2008-6767 patch and prevent redirect loop.
+    (Closes: #541199)
+
+ -- Giuseppe Iuculano <giuseppe@iuculano.it>  Wed, 12 Aug 2009 18:18:52 +0200
+
 wordpress (2.8.3-1) unstable; urgency=medium
 
   * [f625087] Imported Upstream version 2.8.3 (Closes: #533387, #539411)
