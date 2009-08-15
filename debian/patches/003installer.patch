@@ -1,15 +1,8 @@
-#! /bin/sh /usr/share/dpatch/dpatch-run
-## 003installer.dpatch by  <andrea.de.iacovo@gmail.com>
-##
-## All lines beginning with `## DP:' are a description of the patch.
-## DP: Patching install.php to permit a valid upload path
-
-@DPATCH@
-
-diff -urNad wordpress~/wp-admin/install.php wordpress/wp-admin/install.php
---- wordpress~/wp-admin/install.php	2009-08-10 18:19:50.000000000 +0200
-+++ wordpress/wp-admin/install.php	2009-08-10 18:27:53.000000000 +0200
-@@ -118,6 +118,10 @@
+Author: <andrea.de.iacovo@gmail.com>
+Description: Patching install.php to permit a valid upload path
+--- a/wp-admin/install.php
++++ b/wp-admin/install.php
+@@ -118,6 +118,10 @@ switch($step) {
  			$wpdb->show_errors();
  			$result = wp_install($weblog_title, 'admin', $admin_email, $public);
  			extract($result, EXTR_SKIP);

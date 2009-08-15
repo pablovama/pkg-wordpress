@@ -1,15 +1,9 @@
-#! /bin/sh /usr/share/dpatch/dpatch-run
-## rss_language patch.dpatch by  <andrea.de.iacovo@gmail.com>
-##
-## All lines beginning with `## DP:' are a description of the patch.
-## DP: This makes us able to change rss_language directly from the admin page. Thanks to Lionel Elie Mamane
-
-@DPATCH@
-
---- wordpress/wp-admin/options-reading.php	2008-05-05 23:26:51.000000000 +0200
-+++ wordpress/wp-admin/options-reading-new.php	2008-05-05 23:32:03.000000000 +0200
-@@ -61,6 +61,10 @@
- <td><input name="posts_per_rss" type="text" id="posts_per_rss" value="<?php form_option('posts_per_rss'); ?>" size="3" /> <?php _e('posts') ?></td>
+Author: <andrea.de.iacovo@gmail.com>
+Description: This makes us able to change rss_language directly from the admin page. Thanks to Lionel Elie Mamane
+--- a/wp-admin/options-reading.php
++++ b/wp-admin/options-reading.php
+@@ -65,6 +65,10 @@ include('admin-header.php');
+ <td><input name="posts_per_rss" type="text" id="posts_per_rss" value="<?php form_option('posts_per_rss'); ?>" class="small-text" /> <?php _e('posts') ?></td>
  </tr>
  <tr valign="top">
 +<th scope="row"><?php _e('RSS feed language') ?></th>
@@ -17,12 +11,12 @@
 +</tr>
 +<tr valign="top">
  <th scope="row"><?php _e('For each article in a feed, show') ?> </th>
- <td>
+ <td><fieldset><legend class="screen-reader-text"><span><?php _e('For each article in a feed, show') ?> </span></legend>
  <p><label><input name="rss_use_excerpt"  type="radio" value="0" <?php checked(0, get_option('rss_use_excerpt')); ?>	/> <?php _e('Full text') ?></label><br />
---- wordpress/wp-admin/options.php	2008-12-09 19:03:31.000000000 +0100
-+++ wordpress/wp-admin/options-new.php	2009-01-12 12:17:11.000000000 +0100
-@@ -27,7 +27,7 @@
- 	'misc' => array( 'hack_file', 'use_linksupdate', 'uploads_use_yearmonth_folders', 'upload_path', 'upload_url_path' ),
+--- a/wp-admin/options.php
++++ b/wp-admin/options.php
+@@ -27,7 +27,7 @@ $whitelist_options = array(
+ 	'misc' => array( 'use_linksupdate', 'uploads_use_yearmonth_folders', 'upload_path', 'upload_url_path' ),
  	'media' => array( 'thumbnail_size_w', 'thumbnail_size_h', 'thumbnail_crop', 'medium_size_w', 'medium_size_h', 'large_size_w', 'large_size_h', 'image_default_size', 'image_default_align', 'image_default_link_type' ),
  	'privacy' => array( 'blog_public' ),
 -	'reading' => array( 'posts_per_page', 'posts_per_rss', 'rss_use_excerpt', 'blog_charset', 'show_on_front', 'page_on_front', 'page_for_posts' ),

@@ -1,15 +1,8 @@
-#! /bin/sh /usr/share/dpatch/dpatch-run
-## CVE-2008-2392.dpatch by  <andrea.de.iacovo@gmail.com>
-##
-## All lines beginning with `## DP:' are a description of the patch.
-## DP: Disables unfiltered upload capability for administrators.
-
-@DPATCH@
-
-diff -Nru wordpress-old/wp-admin/includes/schema.php wordpress-2.7.1/wp-admin/includes/schema.php
---- wordpress-old/wp-admin/includes/schema.php	2009-02-12 09:13:33.000000000 +0100
-+++ wordpress-2.7.1/wp-admin/includes/schema.php	2009-02-12 09:13:44.000000000 +0100
-@@ -482,11 +482,11 @@
+Author: <andrea.de.iacovo@gmail.com>
+Description: Disables unfiltered upload capability for administrators.
+--- a/wp-admin/includes/schema.php
++++ b/wp-admin/includes/schema.php
+@@ -517,11 +517,11 @@ function populate_roles_210() {
   * @since 2.3.0
   */
  function populate_roles_230() {
@@ -26,20 +19,18 @@ diff -Nru wordpress-old/wp-admin/includes/schema.php wordpress-2.7.1/wp-admin/in
  }
  
  /**
-diff -Nru wordpress-old/wp-admin/menu.php wordpress-2.7.1/wp-admin/menu.php
---- wordpress-old/wp-admin/menu.php	2009-01-22 19:56:10.000000000 +0100
-+++ wordpress-2.7.1/wp-admin/menu.php	2009-02-12 08:37:00.000000000 +0100
-@@ -98,6 +98,7 @@
+--- a/wp-admin/menu.php
++++ b/wp-admin/menu.php
+@@ -113,6 +113,7 @@ $menu[80] = array( __('Settings'), 'mana
  	$submenu['options-general.php'][35] = array(__('Privacy'), 'manage_options', 'options-privacy.php');
  	$submenu['options-general.php'][40] = array(__('Permalinks'), 'manage_options', 'options-permalink.php');
  	$submenu['options-general.php'][45] = array(__('Miscellaneous'), 'manage_options', 'options-misc.php');
 +	$submenu['options-general.php'][45] = array(__('Security'), 'manage_options', 'options-security.php');
  
- $_wp_last_utility_menu = 60; // The index of the last top-level menu in the utility menu group
+ $_wp_last_utility_menu = 80; // The index of the last top-level menu in the utility menu group
  
-diff -Nru wordpress-old/wp-admin/options-sec.php wordpress-2.7.1/wp-admin/options-sec.php
---- wordpress-old/wp-admin/options-sec.php	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.7.1/wp-admin/options-sec.php	2009-02-12 09:10:48.000000000 +0100
+--- /dev/null
++++ b/wp-admin/options-sec.php
 @@ -0,0 +1,48 @@
 +<?php
 +/**
@@ -79,7 +70,7 @@ diff -Nru wordpress-old/wp-admin/options-sec.php wordpress-2.7.1/wp-admin/option
 +	$role->add_cap('unfiltered_upload');
 +	$change_ok = true;
 +	}
-+	
++
 +$wp_rewrite->flush_rules();
 +
 +wp_cache_flush();
@@ -89,9 +80,8 @@ diff -Nru wordpress-old/wp-admin/options-sec.php wordpress-2.7.1/wp-admin/option
 +
 +include('admin-footer.php');
 +?>
-diff -Nru wordpress-old/wp-admin/options-security.php wordpress-2.7.1/wp-admin/options-security.php
---- wordpress-old/wp-admin/options-security.php	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.7.1/wp-admin/options-security.php	2009-02-12 08:58:59.000000000 +0100
+--- /dev/null
++++ b/wp-admin/options-security.php
 @@ -0,0 +1,81 @@
 +<?php
 +/**

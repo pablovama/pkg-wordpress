@@ -1,37 +1,29 @@
-#! /bin/sh /usr/share/dpatch/dpatch-run
-## French language patch.dpatch by  <andrea.de.iacovo@gmail.com>
-##
-## All lines beginning with `## DP:' are a description of the patch.
-## DP: Making a new french theme
-
-@DPATCH@
-
-diff -Nru wordpress/wp-content/themes/default-fr/404.php wordpress-2.5.0/wp-content/themes/default-fr/404.php
---- wordpress/wp-content/themes/default-fr/404.php	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.5.0/wp-content/themes/default-fr/404.php	2008-04-18 14:21:14.000000000 +0200
+Author: <andrea.de.iacovo@gmail.com>
+Description: Making a new french theme
+--- /dev/null
++++ b/wp-content/themes/default-fr/404.php
 @@ -0,0 +1,8 @@
 +<?php get_header(); ?>
 +
 +<div id="content" class="narrowcolumn">
 +	<h2 class="center">Erreur 404 - Rien n'a été trouvé</h2>
 +</div>
-+	
++
 +<?php get_sidebar(); ?>
 +<?php get_footer(); ?>
 \ No newline at end of file
-diff -Nru wordpress/wp-content/themes/default-fr/archive.php wordpress-2.5.0/wp-content/themes/default-fr/archive.php
---- wordpress/wp-content/themes/default-fr/archive.php	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.5.0/wp-content/themes/default-fr/archive.php	2008-04-18 14:21:14.000000000 +0200
+--- /dev/null
++++ b/wp-content/themes/default-fr/archive.php
 @@ -0,0 +1,51 @@
 +<?php get_header(); ?>
 +
 +<div id="content" class="narrowcolumn">
-+	<?php if (have_posts()) : ?>		
-+		<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>		
++	<?php if (have_posts()) : ?>
++		<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
 +		<?php /* If this is a category archive */ if (is_category()) { ?>
 +			<h2 class="pagetitle">Archive pour la catégorie &#8216;<?php single_cat_title(); ?>&#8217;</h2>
-+		<?php /* If this is a tag archive */ } elseif( is_tag() ) { ?> 
-+			<h2 class="pagetitle">Articles taggés avec &#8216;<?php single_tag_title(); ?>&#8217;</h2> 
++		<?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
++			<h2 class="pagetitle">Articles taggés avec &#8216;<?php single_tag_title(); ?>&#8217;</h2>
 +		<?php /* If this is a daily archive */ } elseif (is_day()) { ?>
 +			<h2 class="pagetitle">Archive pour <?php the_time('j F Y'); ?></h2>
 +		<?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
@@ -50,7 +42,7 @@ diff -Nru wordpress/wp-content/themes/default-fr/archive.php wordpress-2.5.0/wp-
 +		</div>
 +
 +		<?php while (have_posts()) : the_post(); ?>
-+		
++
 +			<div class="post">
 +				<h3 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Lien permanent vers <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
 +				<small><?php the_time('l j F Y') ?></small>
@@ -59,9 +51,9 @@ diff -Nru wordpress/wp-content/themes/default-fr/archive.php wordpress-2.5.0/wp-
 +				</div>
 +				<p class="postmetadata"><?php the_tags('Tags: ', ', ', '<br />'); ?> Publié dans <?php the_category(', ') ?> | <?php edit_post_link('Modifier', '', ' | '); ?>  <?php comments_popup_link('Aucun commentaire »', '1 commentaire »', '% commentaires »', 'comments-link', 'Les commentaires sont fermés'); ?></p>
 +			</div>
-+		
++
 +		<?php endwhile; ?>
-+		
++
 +		<div class="navigation">
 +			<div class="alignleft"><?php next_posts_link('&laquo; Articles plus anciens') ?></div>
 +			<div class="alignright"><?php previous_posts_link('Articles plus récents &raquo;') ?></div>
@@ -71,13 +63,12 @@ diff -Nru wordpress/wp-content/themes/default-fr/archive.php wordpress-2.5.0/wp-
 +		<?php include (TEMPLATEPATH . '/searchform.php'); ?>
 +	<?php endif; ?>
 +</div>
-+	
++
 +<?php get_sidebar(); ?>
 +<?php get_footer(); ?>
 \ No newline at end of file
-diff -Nru wordpress/wp-content/themes/default-fr/archives.php wordpress-2.5.0/wp-content/themes/default-fr/archives.php
---- wordpress/wp-content/themes/default-fr/archives.php	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.5.0/wp-content/themes/default-fr/archives.php	2008-04-18 14:21:14.000000000 +0200
+--- /dev/null
++++ b/wp-content/themes/default-fr/archives.php
 @@ -0,0 +1,23 @@
 +<?php
 +/*
@@ -89,12 +80,12 @@ diff -Nru wordpress/wp-content/themes/default-fr/archives.php wordpress-2.5.0/wp
 +
 +<div id="content" class="widecolumn">
 +	<?php include (TEMPLATEPATH . '/searchform.php'); ?>
-+	
++
 +	<h2>Archives par mois&nbsp;:</h2>
 +	<ul>
 +		<?php wp_get_archives('type=monthly'); ?>
 +	</ul>
-+	
++
 +	<h2>Archives par sujet&nbsp;:</h2>
 +	<ul>
 +		<?php wp_list_categories(); ?>
@@ -103,9 +94,8 @@ diff -Nru wordpress/wp-content/themes/default-fr/archives.php wordpress-2.5.0/wp
 +
 +<?php get_footer(); ?>
 \ No newline at end of file
-diff -Nru wordpress/wp-content/themes/default-fr/attachment.php wordpress-2.5.0/wp-content/themes/default-fr/attachment.php
---- wordpress/wp-content/themes/default-fr/attachment.php	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.5.0/wp-content/themes/default-fr/attachment.php	2008-04-18 14:21:14.000000000 +0200
+--- /dev/null
++++ b/wp-content/themes/default-fr/attachment.php
 @@ -0,0 +1,53 @@
 +<?php get_header(); ?>
 +
@@ -161,12 +151,11 @@ diff -Nru wordpress/wp-content/themes/default-fr/attachment.php wordpress-2.5.0/
 +
 +<?php get_footer(); ?>
 \ No newline at end of file
-diff -Nru wordpress/wp-content/themes/default-fr/comments.php wordpress-2.5.0/wp-content/themes/default-fr/comments.php
---- wordpress/wp-content/themes/default-fr/comments.php	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.5.0/wp-content/themes/default-fr/comments.php	2008-04-18 14:21:14.000000000 +0200
+--- /dev/null
++++ b/wp-content/themes/default-fr/comments.php
 @@ -0,0 +1,90 @@
 +<?php // Do not delete these lines
-+if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME'])) 
++if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
 +	die ('Merci de ne pas lancer cette page directement.');
 +
 +if (!empty($post->post_password)) { // if there's a password
@@ -186,12 +175,12 @@ diff -Nru wordpress/wp-content/themes/default-fr/comments.php wordpress-2.5.0/wp
 +
 +<?php if ($comments) : ?>
 +
-+	<h3 id="comments"><?php comments_number('Aucun commentaire', 'Un commentaire', '% commentaires' );?> pour &#8220;<?php the_title(); ?>&#8221;</h3> 
++	<h3 id="comments"><?php comments_number('Aucun commentaire', 'Un commentaire', '% commentaires' );?> pour &#8220;<?php the_title(); ?>&#8221;</h3>
 +
 +	<ol class="commentlist">
 +		<?php foreach ($comments as $comment) : ?>
-+			<li <?php echo $oddcomment; ?>id="comment-<?php comment_ID() ?>"> 
-+				<?php echo get_avatar( $comment, 32 ); ?> 
++			<li <?php echo $oddcomment; ?>id="comment-<?php comment_ID() ?>">
++				<?php echo get_avatar( $comment, 32 ); ?>
 +				<cite><?php comment_author_link() ?></cite> dit :
 +				<?php if ($comment->comment_approved == '0') : ?>
 +				<em>Votre commentaire est en attente de modération.</em>
@@ -200,67 +189,66 @@ diff -Nru wordpress/wp-content/themes/default-fr/comments.php wordpress-2.5.0/wp
 +				<small class="commentmetadata"><a href="#comment-<?php comment_ID() ?>" title=""><?php comment_date('j F Y') ?> à <?php comment_time() ?></a> <?php edit_comment_link('Editer','-- ',''); ?></small>
 +				<?php comment_text() ?>
 +			</li>
-+		  <?php 
-+			/* Changes every other comment to a different class */ 
-+			$oddcomment = ( empty( $oddcomment ) ) ? 'class="alt" ' : ''; 
++		  <?php
++			/* Changes every other comment to a different class */
++			$oddcomment = ( empty( $oddcomment ) ) ? 'class="alt" ' : '';
 +		endforeach; /* end for each comment */ ?>
 +	</ol>
 +
 +<?php else : // this is displayed if there are no comments so far ?>
 +
-+	<?php if ('open' == $post->comment_status) : ?> 
++	<?php if ('open' == $post->comment_status) : ?>
 +		<!-- If comments are open, but there are no comments. -->
 +	<?php else : // comments are closed ?>
 +		<!-- If comments are closed. -->
 +		<p class="nocomments">Les commentaires sont fermés. </p>
 +	<?php endif; ?>
-+	
++
 +<?php endif; ?>
 +
 +<?php if ('open' == $post->comment_status) : ?>
 +	<h3 id="respond">Laisser un commentaire </h3>
-+	
++
 +	<?php if ( get_option('comment_registration') && !$user_ID ) : ?>
 +		<p>Vous devez être  <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>">connecté</a> pour publier un commentaire.</p>
-+	
++
 +	<?php else : ?>
-+	
++
 +		<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
-+		
++
 +			<?php if ( $user_ID ) : ?>
-+			
++
 +			<p>Connecté en tant que <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?action=logout" title="Se déconnecter du site.">Se déconnecter  &raquo;</a></p>
-+			
++
 +			<?php else : ?>
-+			
++
 +				<p><input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" size="22" tabindex="1" />
 +					<label for="author"><small>Nom <?php if ($req) echo "(obligatoire)"; ?></small></label></p>
-+					
++
 +				<p><input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" />
 +					<label for="email"><small>Adresse e-mail (ne sera pas publié) <?php if ($req) echo "(obligatoire)"; ?></small></label></p>
-+					
++
 +				<p><input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" />
 +					<label for="url"><small>Site Web</small></label></p>
-+				
++
 +			<?php endif; ?>
-+			
++
 +			<!--<p><small><strong>XHTML:</strong> Vous pouvez utiliser ces tags: <code><?php echo allowed_tags(); ?></code></small></p>-->
 +			<p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>
-+			
++
 +			<p><input name="submit" type="submit" id="submit" tabindex="5" value="Dites-le !" />
 +				<input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" /></p>
-+				
++
 +			<?php do_action('comment_form', $post->ID); ?>
 +		</form>
 +
 +	<?php endif; // If registration required and not logged in ?>
 +<?php endif; // if you delete this the sky will fall on your head ?>
 \ No newline at end of file
-diff -Nru wordpress/wp-content/themes/default-fr/comments-popup.php wordpress-2.5.0/wp-content/themes/default-fr/comments-popup.php
---- wordpress/wp-content/themes/default-fr/comments-popup.php	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.5.0/wp-content/themes/default-fr/comments-popup.php	2008-04-18 14:21:14.000000000 +0200
+--- /dev/null
++++ b/wp-content/themes/default-fr/comments-popup.php
 @@ -0,0 +1,121 @@
-+<?php 
++<?php
 +/* Don't remove these lines. */
 +add_filter('comment_text', 'popuplinks');
 +while ( have_posts()) : the_post();
@@ -308,11 +296,11 @@ diff -Nru wordpress/wp-content/themes/default-fr/comments-popup.php wordpress-2.
 +		</li>
 +	<?php } // end for each comment ?>
 +	</ol>
-+	
++
 +<?php } else { // this is displayed if there are no comments so far ?>
 +
 +	<p>Pas encore de commentaire.</p>
-+	
++
 +<?php } ?>
 +
 +<?php if ('open' == $post->comment_status) { ?>
@@ -323,7 +311,7 @@ diff -Nru wordpress/wp-content/themes/default-fr/comments-popup.php wordpress-2.
 +	<form action="<?php echo get_settings('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
 +		<?php if ( $user_ID ) : ?>
 +		<p>Connecté en tant que <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?action=logout" title="Se déconnecter du site.">Se déconnecter  &raquo;</a></p>
-+		<?php else : ?>  
++		<?php else : ?>
 +		<p>
 +			<input type="text" name="author" id="author" class="textarea" value="<?php echo $comment_author; ?>" size="28" tabindex="1" />
 +			<label for="author">Nom</label>
@@ -340,7 +328,7 @@ diff -Nru wordpress/wp-content/themes/default-fr/comments-popup.php wordpress-2.
 +		  <input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="28" tabindex="3" />
 +		   <label for="url">Site internet</label>
 +		</p>
-+		<?php endif; ?> 
++		<?php endif; ?>
 +		<p>
 +		  <label for="comment">Votre commentaire </label>
 +		<br />
@@ -356,7 +344,7 @@ diff -Nru wordpress/wp-content/themes/default-fr/comments-popup.php wordpress-2.
 +<?php } else { // comments are closed ?>
 +
 +	<p>Désolé, les commentaires sont fermés pour l'instant.</p>
-+	
++
 +<?php }
 +} // end password check
 +?>
@@ -368,7 +356,7 @@ diff -Nru wordpress/wp-content/themes/default-fr/comments-popup.php wordpress-2.
 +?>
 +
 +<!-- // this is just the end of the motor - don't touch that line either :) -->
-+<?php //} ?> 
++<?php //} ?>
 +<p class="credit"><?php timer_stop(1); ?> <cite>Propulsé par <a href="http://wordpress.org/" title="Propulsé par WordPress, une plate-forme de publication personnelle à la pointe de la sémantique"><strong>WordPress</strong></a></cite></p>
 +<?php // Seen at http://www.mijnkopthee.nl/log2/archive/2003/05/28/esc(18) ?>
 +<script type="text/javascript">
@@ -382,13 +370,12 @@ diff -Nru wordpress/wp-content/themes/default-fr/comments-popup.php wordpress-2.
 +</body>
 +</html>
 \ No newline at end of file
-diff -Nru wordpress/wp-content/themes/default-fr/footer.php wordpress-2.5.0/wp-content/themes/default-fr/footer.php
---- wordpress/wp-content/themes/default-fr/footer.php	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.5.0/wp-content/themes/default-fr/footer.php	2008-04-18 14:21:14.000000000 +0200
+--- /dev/null
++++ b/wp-content/themes/default-fr/footer.php
 @@ -0,0 +1,16 @@
 +		<hr />
 +		<div id="footer">
-+			<!-- If you'd like to support WordPress, having the "powered by" link somewhere on your blog is the best way; it's our only promotion or advertising. --> 
++			<!-- If you'd like to support WordPress, having the "powered by" link somewhere on your blog is the best way; it's our only promotion or advertising. -->
 +			<p>
 +				<?php bloginfo('name'); ?> est fièrement propulsé par <a href="http://wordpress.org/">WordPress</a>
 +				<br />
@@ -403,9 +390,8 @@ diff -Nru wordpress/wp-content/themes/default-fr/footer.php wordpress-2.5.0/wp-c
 +	</body>
 +</html>
 \ No newline at end of file
-diff -Nru wordpress/wp-content/themes/default-fr/functions.php wordpress-2.5.0/wp-content/themes/default-fr/functions.php
---- wordpress/wp-content/themes/default-fr/functions.php	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.5.0/wp-content/themes/default-fr/functions.php	2008-04-18 14:21:14.000000000 +0200
+--- /dev/null
++++ b/wp-content/themes/default-fr/functions.php
 @@ -0,0 +1,418 @@
 +<?php
 +if ( function_exists('register_sidebar') )
@@ -825,9 +811,8 @@ diff -Nru wordpress/wp-content/themes/default-fr/functions.php wordpress-2.5.0/w
 +	</div>
 +</div>
 +<?php } ?>
-diff -Nru wordpress/wp-content/themes/default-fr/header.php wordpress-2.5.0/wp-content/themes/default-fr/header.php
---- wordpress/wp-content/themes/default-fr/header.php	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.5.0/wp-content/themes/default-fr/header.php	2008-04-18 14:21:14.000000000 +0200
+--- /dev/null
++++ b/wp-content/themes/default-fr/header.php
 @@ -0,0 +1,31 @@
 +<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 +<html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
@@ -839,13 +824,13 @@ diff -Nru wordpress/wp-content/themes/default-fr/header.php wordpress-2.5.0/wp-c
 +	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 +	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 +	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-+	
++
 +	<style type="text/css" media="screen">
 +		<?php // Controle si la sidebar est présente ou pas.
 +		if ( !empty($withcomments) && !is_single() ) : ?>
-+			#page { background: url("<?php bloginfo('stylesheet_directory'); ?>/images/kubrickbg-<?php bloginfo('text_direction'); ?>.jpg") repeat-y top; border: none; } 
++			#page { background: url("<?php bloginfo('stylesheet_directory'); ?>/images/kubrickbg-<?php bloginfo('text_direction'); ?>.jpg") repeat-y top; border: none; }
 +		<?php else : // Pas de sidebar ?>
-+			#page { background: url("<?php bloginfo('stylesheet_directory'); ?>/images/kubrickbgwide.jpg") repeat-y top; border: none; } 
++			#page { background: url("<?php bloginfo('stylesheet_directory'); ?>/images/kubrickbgwide.jpg") repeat-y top; border: none; }
 +		<?php endif; ?>
 +	</style>
 +	<?php wp_head(); ?>
@@ -861,17 +846,16 @@ diff -Nru wordpress/wp-content/themes/default-fr/header.php wordpress-2.5.0/wp-c
 +		</div>
 +		<hr />
 \ No newline at end of file
-diff -Nru wordpress/wp-content/themes/default-fr/index.php wordpress-2.5.0/wp-content/themes/default-fr/index.php
---- wordpress/wp-content/themes/default-fr/index.php	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.5.0/wp-content/themes/default-fr/index.php	2008-04-18 14:21:14.000000000 +0200
+--- /dev/null
++++ b/wp-content/themes/default-fr/index.php
 @@ -0,0 +1,34 @@
 +<?php get_header(); ?>
 +
 +<div id="content" class="narrowcolumn">
 +	<?php if (have_posts()) : ?>
-+	
++
 +		<?php while (have_posts()) : the_post(); ?>
-+		
++
 +			<div class="post" id="post-<?php the_ID(); ?>">
 +				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Lien permanent vers <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 +				<small><?php the_time('j F Y') ?> <!-- par <?php the_author() ?> --></small>
@@ -880,29 +864,28 @@ diff -Nru wordpress/wp-content/themes/default-fr/index.php wordpress-2.5.0/wp-co
 +				</div>
 +				<p class="postmetadata"><?php the_tags('Tags: ', ', ', '<br />'); ?> Publié dans <?php the_category(', ') ?> | <?php edit_post_link('Modifier', '', ' | '); ?>  <?php comments_popup_link('Aucun commentaire »', '1 commentaire »', '% commentaires »', 'comments-link', 'Les commentaires sont fermés'); ?></p>
 +			</div>
-+			
++
 +		<?php endwhile; ?>
-+		
++
 +		<div class="navigation">
 +			<div class="alignleft"><?php next_posts_link('&laquo; Articles plus anciens') ?></div>
 +			<div class="alignright"><?php previous_posts_link('Articles plus récents &raquo;') ?></div>
 +		</div>
-+		
++
 +	<?php else : ?>
-+	
++
 +		<h2 class="center">Introuvable</h2>
 +		<p class="center">Désolé, mais vous cherchez quelque chose qui ne se trouve pas ici .</p>
 +		<?php include (TEMPLATEPATH . "/searchform.php"); ?>
-+		
++
 +	<?php endif; ?>
 +</div>
-+	
++
 +<?php get_sidebar(); ?>
 +<?php get_footer(); ?>
 \ No newline at end of file
-diff -Nru wordpress/wp-content/themes/default-fr/links.php wordpress-2.5.0/wp-content/themes/default-fr/links.php
---- wordpress/wp-content/themes/default-fr/links.php	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.5.0/wp-content/themes/default-fr/links.php	2008-04-18 14:21:14.000000000 +0200
+--- /dev/null
++++ b/wp-content/themes/default-fr/links.php
 @@ -0,0 +1,16 @@
 +<?php
 +/*
@@ -921,9 +904,8 @@ diff -Nru wordpress/wp-content/themes/default-fr/links.php wordpress-2.5.0/wp-co
 +
 +<?php get_footer(); ?>
 \ No newline at end of file
-diff -Nru wordpress/wp-content/themes/default-fr/page.php wordpress-2.5.0/wp-content/themes/default-fr/page.php
---- wordpress/wp-content/themes/default-fr/page.php	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.5.0/wp-content/themes/default-fr/page.php	2008-04-18 14:21:14.000000000 +0200
+--- /dev/null
++++ b/wp-content/themes/default-fr/page.php
 @@ -0,0 +1,19 @@
 +<?php get_header(); ?>
 +
@@ -939,15 +921,14 @@ diff -Nru wordpress/wp-content/themes/default-fr/page.php wordpress-2.5.0/wp-con
 +		</div>
 +		<?php edit_post_link('Modifier cette page.', '<p>', '</p>'); ?>
 +	 <?php endwhile; endif; ?>
-+	
++
 +</div>
 +
 +<?php get_sidebar(); ?>
 +<?php get_footer(); ?>
 \ No newline at end of file
-diff -Nru wordpress/wp-content/themes/default-fr/rtl.css wordpress-2.5.0/wp-content/themes/default-fr/rtl.css
---- wordpress/wp-content/themes/default-fr/rtl.css	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.5.0/wp-content/themes/default-fr/rtl.css	2008-04-18 14:21:14.000000000 +0200
+--- /dev/null
++++ b/wp-content/themes/default-fr/rtl.css
 @@ -0,0 +1,98 @@
 +﻿/* Based on Arabic (RTL) version of Kubrick theme, converted by Serdal (Serdal.com) */
 +.narrowcolumn, .alignleft, .widecolumn .smallattachment {
@@ -1048,9 +1029,8 @@ diff -Nru wordpress/wp-content/themes/default-fr/rtl.css wordpress-2.5.0/wp-cont
 +	text-align: left;
 +}
 \ No newline at end of file
-diff -Nru wordpress/wp-content/themes/default-fr/searchform.php wordpress-2.5.0/wp-content/themes/default-fr/searchform.php
---- wordpress/wp-content/themes/default-fr/searchform.php	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.5.0/wp-content/themes/default-fr/searchform.php	2008-04-18 14:21:14.000000000 +0200
+--- /dev/null
++++ b/wp-content/themes/default-fr/searchform.php
 @@ -0,0 +1,6 @@
 +<form method="get" id="searchform" action="<?php bloginfo('url'); ?>/">
 +	<div>
@@ -1059,21 +1039,20 @@ diff -Nru wordpress/wp-content/themes/default-fr/searchform.php wordpress-2.5.0/
 +	</div>
 +</form>
 \ No newline at end of file
-diff -Nru wordpress/wp-content/themes/default-fr/search.php wordpress-2.5.0/wp-content/themes/default-fr/search.php
---- wordpress/wp-content/themes/default-fr/search.php	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.5.0/wp-content/themes/default-fr/search.php	2008-04-18 14:21:14.000000000 +0200
+--- /dev/null
++++ b/wp-content/themes/default-fr/search.php
 @@ -0,0 +1,34 @@
 +<?php get_header(); ?>
 +
 +<div id="content" class="narrowcolumn">
 +	<?php if (have_posts()) : ?>
-+	
++
 +		<h2 class="pagetitle">Résultats de recherche</h2>
 +		<div class="navigation">
 +			<div class="alignleft"><?php next_posts_link('&laquo; Articles plus anciens') ?></div>
 +			<div class="alignright"><?php previous_posts_link('Articles plus récents &raquo;') ?></div>
 +		</div>
-+		
++
 +		<?php while (have_posts()) : the_post(); ?>
 +			<div class="post">
 +				<h3 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
@@ -1081,32 +1060,31 @@ diff -Nru wordpress/wp-content/themes/default-fr/search.php wordpress-2.5.0/wp-c
 +				<p class="postmetadata"><?php the_tags('Tags: ', ', ', '<br />'); ?> Publié dans <?php the_category(', ') ?> | <?php edit_post_link('Modifier', '', ' | '); ?>  <?php comments_popup_link('Aucun commentaire »', '1 commentaire »', '% commentaires »', 'comments-link', 'Les commentaires sont fermés'); ?></p>
 +			</div>
 +		<?php endwhile; ?>
-+		
++
 +		<div class="navigation">
 +			<div class="alignleft"><?php next_posts_link('&laquo; Articles plus anciens') ?></div>
 +			<div class="alignright"><?php previous_posts_link('Articles plus récents &raquo;') ?></div>
 +		</div>
-+		
++
 +	<?php else : ?>
-+	
++
 +		<h2 class="center">Aucun article trouvé. Essayer une autre recherche ?</h2>
 +		<?php include (TEMPLATEPATH . '/searchform.php'); ?>
-+		
++
 +	<?php endif; ?>
 +</div>
 +
 +<?php get_sidebar(); ?>
 +<?php get_footer(); ?>
 \ No newline at end of file
-diff -Nru wordpress/wp-content/themes/default-fr/sidebar.php wordpress-2.5.0/wp-content/themes/default-fr/sidebar.php
---- wordpress/wp-content/themes/default-fr/sidebar.php	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.5.0/wp-content/themes/default-fr/sidebar.php	2008-04-18 14:21:14.000000000 +0200
+--- /dev/null
++++ b/wp-content/themes/default-fr/sidebar.php
 @@ -0,0 +1,63 @@
 +<div id="sidebar">
 +	<ul>
-+		<?php   /* Widgetized sidebar, if you have the plugin installed. */ 
++		<?php   /* Widgetized sidebar, if you have the plugin installed. */
 +			if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
-+			 
++
 +		<li>
 +			<?php include (TEMPLATEPATH . '/searchform.php'); ?>
 +		</li>
@@ -1117,8 +1095,8 @@ diff -Nru wordpress/wp-content/themes/default-fr/sidebar.php wordpress-2.5.0/wp-
 +		</li>
 +		-->
 +
-+		<?php if ( is_404() || is_category() || is_day() || is_month() || is_year() || is_search() || is_paged() ) { ?> 
-+		<li> 
++		<?php if ( is_404() || is_category() || is_day() || is_month() || is_year() || is_search() || is_paged() ) { ?>
++		<li>
 +			<?php /* If this is a 404 page */ if (is_404()) { ?>
 +			<?php /* If this is a category archive */ } elseif (is_category()) { ?>
 +				<p>Vous vous trouvez dans les archives de la catégorie <?php single_cat_title(''); ?>.</p>
@@ -1133,8 +1111,8 @@ diff -Nru wordpress/wp-content/themes/default-fr/sidebar.php wordpress-2.5.0/wp-
 +			<?php /* If this is a monthly archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
 +				<p>Vous vous trouvez dans les archives du blog <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a>.</p>
 +			<?php } ?>
-+		</li> 
-+		<?php }?> 
++		</li>
++		<?php }?>
 +
 +		<?php wp_list_pages('title_li=<h2>Pages</h2>' ); ?>
 +
@@ -1161,38 +1139,37 @@ diff -Nru wordpress/wp-content/themes/default-fr/sidebar.php wordpress-2.5.0/wp-
 +				</ul>
 +			</li>
 +		<?php } ?>
-+		
-+		<?php endif; ?> 
++
++		<?php endif; ?>
 +	</ul>
 +</div>
 \ No newline at end of file
-diff -Nru wordpress/wp-content/themes/default-fr/single.php wordpress-2.5.0/wp-content/themes/default-fr/single.php
---- wordpress/wp-content/themes/default-fr/single.php	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.5.0/wp-content/themes/default-fr/single.php	2008-04-18 14:21:14.000000000 +0200
+--- /dev/null
++++ b/wp-content/themes/default-fr/single.php
 @@ -0,0 +1,50 @@
 +<?php get_header(); ?>
 +
 +<div id="content" class="widecolumn">
 +	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-+	
++
 +		<div class="navigation">
 +			<div class="alignleft"><?php previous_post_link('&laquo; %link') ?></div>
 +			<div class="alignright"><?php next_post_link('%link &raquo;') ?></div>
 +		</div>
-+		
++
 +		<div class="post" id="post-<?php the_ID(); ?>">
 +			<h2><?php the_title(); ?></h2>
 +			<div class="entry">
 +				<?php the_content('<p class="serif">Lire la suite de l\'article &raquo;</p>'); ?>
 +				<?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
-+				<?php the_tags( '<p>Tags: ', ', ', '</p>'); ?> 
++				<?php the_tags( '<p>Tags: ', ', ', '</p>'); ?>
 +				<p class="postmetadata alt">
 +					<small>
-+						Cet article  a été publié 
++						Cet article  a été publié
 +						le <?php the_time('l j F Y') ?> à <?php the_time() ?>
 +						et est classé dans <?php the_category(', ') ?>.
-+						Vous pouvez en suivre les commentaires par le biais du flux  
-+						<?php post_comments_feed_link('RSS 2.0'); ?>. 
++						Vous pouvez en suivre les commentaires par le biais du flux
++						<?php post_comments_feed_link('RSS 2.0'); ?>.
 +						<?php if (('open' == $post-> comment_status) && ('open' == $post->ping_status)) {
 +							// Both Comments and Pings are open ?>
 +							Vous pouvez  <a href="#respond">laisser un commentaire</a>, ou <a href="<?php trackback_url(); ?>" rel="trackback">faire un trackback</a> depuis votre propre site.
@@ -1206,24 +1183,23 @@ diff -Nru wordpress/wp-content/themes/default-fr/single.php wordpress-2.5.0/wp-c
 +							// Neither Comments, nor Pings are open ?>
 +							Les commentaires et pings sont fermés.
 +						<?php } edit_post_link('Modifier cet article.','',''); ?>
-+					</small>				
++					</small>
 +				</p>
 +			</div>
 +		</div>
 +		<?php comments_template(); ?>
-+	
++
 +	<?php endwhile; else: ?>
-+	
++
 +		<p>Désolé, aucun article ne correspond à vos critères.</p>
-+		
++
 +	<?php endif; ?>
 +</div>
 +
 +<?php get_footer(); ?>
 \ No newline at end of file
-diff -Nru wordpress/wp-content/themes/default-fr/style.css wordpress-2.5.0/wp-content/themes/default-fr/style.css
---- wordpress/wp-content/themes/default-fr/style.css	1970-01-01 01:00:00.000000000 +0100
-+++ wordpress-2.5.0/wp-content/themes/default-fr/style.css	2008-04-18 14:21:14.000000000 +0200
+--- /dev/null
++++ b/wp-content/themes/default-fr/style.css
 @@ -0,0 +1,501 @@
 +/*
 +Theme Name: WordPress Default Fr
@@ -1232,7 +1208,7 @@ diff -Nru wordpress/wp-content/themes/default-fr/style.css wordpress-2.5.0/wp-co
 +Version: 1.6
 +Author: Michael Heilemann
 +Author URI: http://binarybonsai.com/
-+Tags: blue, custom header, fixed width, two columns, widgets 
++Tags: blue, custom header, fixed width, two columns, widgets
 +
 +Kubrick v1.5
 +http://binarybonsai.com/kubrick/
@@ -1454,8 +1430,8 @@ diff -Nru wordpress/wp-content/themes/default-fr/style.css wordpress-2.5.0/wp-co
 +.postmetadata {
 +clear: left;
 +}
-+.clear { 
-+clear: both; 
++.clear {
++clear: both;
 +}
 +#footer {
 +padding: 0;

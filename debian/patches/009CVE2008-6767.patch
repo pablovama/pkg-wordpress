@@ -1,14 +1,8 @@
-#! /bin/sh /usr/share/dpatch/dpatch-run
-## 009CVE2008-6767.dpatch by Giuseppe Iuculano <giuseppe@iuculano.it>
-##
-## All lines beginning with `## DP:' are a description of the patch.
-## DP: Only admin can upgrade wordpress. (CVE-2008-6767) (Closes: #531736)
-
-@DPATCH@
-diff -urNad wordpress~/wp-admin/upgrade.php wordpress/wp-admin/upgrade.php
---- wordpress~/wp-admin/upgrade.php	2009-08-11 23:11:06.000000000 +0200
-+++ wordpress/wp-admin/upgrade.php	2009-08-12 18:05:06.000000000 +0200
-@@ -16,6 +16,12 @@
+Author: Giuseppe Iuculano <giuseppe@iuculano.it>
+Description: Only admin can upgrade wordpress. (CVE-2008-6767) (Closes: #531736)
+--- a/wp-admin/upgrade.php
++++ b/wp-admin/upgrade.php
+@@ -16,6 +16,12 @@ define( 'WP_INSTALLING', true );
  
  /** Load WordPress Bootstrap */
  require( '../wp-load.php' );
@@ -16,15 +10,14 @@ diff -urNad wordpress~/wp-admin/upgrade.php wordpress/wp-admin/upgrade.php
 +
 +$current_user = wp_get_current_user();
 +$user_id = $current_user->ID;
-+if ($user_id != 1) 
++if ($user_id != 1)
 +	        wp_safe_redirect('../wp-login.php?upgrade');
  
  timer_start();
  require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
-diff -urNad wordpress~/wp-login.php wordpress/wp-login.php
---- wordpress~/wp-login.php	2009-08-11 23:11:06.000000000 +0200
-+++ wordpress/wp-login.php	2009-08-12 18:04:45.000000000 +0200
-@@ -491,6 +491,7 @@
+--- a/wp-login.php
++++ b/wp-login.php
+@@ -494,6 +494,7 @@ default:
  	elseif	( isset($_GET['checkemail']) && 'confirm' == $_GET['checkemail'] )	$errors->add('confirm', __('Check your e-mail for the confirmation link.'), 'message');
  	elseif	( isset($_GET['checkemail']) && 'newpass' == $_GET['checkemail'] )	$errors->add('newpass', __('Check your e-mail for your new password.'), 'message');
  	elseif	( isset($_GET['checkemail']) && 'registered' == $_GET['checkemail'] )	$errors->add('registered', __('Registration complete. Please check your e-mail.'), 'message');

@@ -1,14 +1,7 @@
-#! /bin/sh /usr/share/dpatch/dpatch-run
-## 002js-library.dpatch by  <andrea.de.iacovo@gmail.com>
-##
-## All lines beginning with `## DP:' are a description of the patch.
-## DP: Deleteing non-needed libraries
-
-@DPATCH@
-
-diff -Nru wordpress/wp-includes/js/prototype.js wordpress-2.5.0/wp-includes/js/prototype.js
---- wordpress/wp-includes/js/prototype.js	2007-12-28 20:17:21.000000000 +0100
-+++ wordpress-2.5.0/wp-includes/js/prototype.js	1970-01-01 01:00:00.000000000 +0100
+Author: <andrea.de.iacovo@gmail.com>
+Description: Deleteing non-needed libraries
+--- a/wp-includes/js/prototype.js
++++ /dev/null
 @@ -1,4184 +0,0 @@
 -/*  Prototype JavaScript framework, version 1.6.0
 - *  (c) 2005-2007 Sam Stephenson
@@ -4195,9 +4188,8 @@ diff -Nru wordpress/wp-includes/js/prototype.js wordpress-2.5.0/wp-includes/js/p
 -
 -Element.addMethods();
 \ No newline at end of file
-diff -Nru wordpress/wp-includes/js/scriptaculous/builder.js wordpress-2.5.0/wp-includes/js/scriptaculous/builder.js
---- wordpress/wp-includes/js/scriptaculous/builder.js	2008-03-02 22:34:25.000000000 +0100
-+++ wordpress-2.5.0/wp-includes/js/scriptaculous/builder.js	1970-01-01 01:00:00.000000000 +0100
+--- a/wp-includes/js/scriptaculous/builder.js
++++ /dev/null
 @@ -1,136 +0,0 @@
 -// script.aculo.us builder.js v1.8.0, Tue Nov 06 15:01:40 +0300 2007
 -
@@ -4335,9 +4327,8 @@ diff -Nru wordpress/wp-includes/js/scriptaculous/builder.js wordpress-2.5.0/wp-i
 -    });
 -  }
 -}
-diff -Nru wordpress/wp-includes/js/scriptaculous/controls.js wordpress-2.5.0/wp-includes/js/scriptaculous/controls.js
---- wordpress/wp-includes/js/scriptaculous/controls.js	2008-03-02 22:34:25.000000000 +0100
-+++ wordpress-2.5.0/wp-includes/js/scriptaculous/controls.js	1970-01-01 01:00:00.000000000 +0100
+--- a/wp-includes/js/scriptaculous/controls.js
++++ /dev/null
 @@ -1,965 +0,0 @@
 -// script.aculo.us controls.js v1.8.0, Tue Nov 06 15:01:40 +0300 2007
 -
@@ -5304,9 +5295,8 @@ diff -Nru wordpress/wp-includes/js/scriptaculous/controls.js wordpress-2.5.0/wp-
 -    this.callback(this.element, $F(this.element));
 -  }
 -});
-diff -Nru wordpress/wp-includes/js/scriptaculous/dragdrop.js wordpress-2.5.0/wp-includes/js/scriptaculous/dragdrop.js
---- wordpress/wp-includes/js/scriptaculous/dragdrop.js	2008-03-02 22:34:25.000000000 +0100
-+++ wordpress-2.5.0/wp-includes/js/scriptaculous/dragdrop.js	1970-01-01 01:00:00.000000000 +0100
+--- a/wp-includes/js/scriptaculous/dragdrop.js
++++ /dev/null
 @@ -1,974 +0,0 @@
 -// script.aculo.us dragdrop.js v1.8.0, Tue Nov 06 15:01:40 +0300 2007
 -
@@ -6282,9 +6272,8 @@ diff -Nru wordpress/wp-includes/js/scriptaculous/dragdrop.js wordpress-2.5.0/wp-
 -Element.offsetSize = function (element, type) {
 -  return element['offset' + ((type=='vertical' || type=='height') ? 'Height' : 'Width')];
 -}
-diff -Nru wordpress/wp-includes/js/scriptaculous/effects.js wordpress-2.5.0/wp-includes/js/scriptaculous/effects.js
---- wordpress/wp-includes/js/scriptaculous/effects.js	2008-03-02 22:34:25.000000000 +0100
-+++ wordpress-2.5.0/wp-includes/js/scriptaculous/effects.js	1970-01-01 01:00:00.000000000 +0100
+--- a/wp-includes/js/scriptaculous/effects.js
++++ /dev/null
 @@ -1,1122 +0,0 @@
 -// script.aculo.us effects.js v1.8.0, Tue Nov 06 15:01:40 +0300 2007
 -
@@ -7408,9 +7397,8 @@ diff -Nru wordpress/wp-includes/js/scriptaculous/effects.js wordpress-2.5.0/wp-i
 -);
 -
 -Element.addMethods(Effect.Methods);
-diff -Nru wordpress/wp-includes/js/scriptaculous/prototype.js wordpress-2.5.0/wp-includes/js/scriptaculous/prototype.js
---- wordpress/wp-includes/js/scriptaculous/prototype.js	2008-03-02 22:34:25.000000000 +0100
-+++ wordpress-2.5.0/wp-includes/js/scriptaculous/prototype.js	1970-01-01 01:00:00.000000000 +0100
+--- a/wp-includes/js/scriptaculous/prototype.js
++++ /dev/null
 @@ -1,4184 +0,0 @@
 -/*  Prototype JavaScript framework, version 1.6.0
 - *  (c) 2005-2007 Sam Stephenson
@@ -11597,9 +11585,8 @@ diff -Nru wordpress/wp-includes/js/scriptaculous/prototype.js wordpress-2.5.0/wp
 -
 -Element.addMethods();
 \ No newline at end of file
-diff -Nru wordpress/wp-includes/js/scriptaculous/scriptaculous.js wordpress-2.5.0/wp-includes/js/scriptaculous/scriptaculous.js
---- wordpress/wp-includes/js/scriptaculous/scriptaculous.js	2008-03-02 22:34:25.000000000 +0100
-+++ wordpress-2.5.0/wp-includes/js/scriptaculous/scriptaculous.js	1970-01-01 01:00:00.000000000 +0100
+--- a/wp-includes/js/scriptaculous/scriptaculous.js
++++ /dev/null
 @@ -1,58 +0,0 @@
 -// script.aculo.us scriptaculous.js v1.8.0, Tue Nov 06 15:01:40 +0300 2007
 -
@@ -11660,9 +11647,8 @@ diff -Nru wordpress/wp-includes/js/scriptaculous/scriptaculous.js wordpress-2.5.
 -
 -Scriptaculous.load();
 \ No newline at end of file
-diff -Nru wordpress/wp-includes/js/scriptaculous/slider.js wordpress-2.5.0/wp-includes/js/scriptaculous/slider.js
---- wordpress/wp-includes/js/scriptaculous/slider.js	2008-03-02 22:34:25.000000000 +0100
-+++ wordpress-2.5.0/wp-includes/js/scriptaculous/slider.js	1970-01-01 01:00:00.000000000 +0100
+--- a/wp-includes/js/scriptaculous/slider.js
++++ /dev/null
 @@ -1,275 +0,0 @@
 -// script.aculo.us slider.js v1.8.0, Tue Nov 06 15:01:40 +0300 2007
 -
@@ -11939,9 +11925,8 @@ diff -Nru wordpress/wp-includes/js/scriptaculous/slider.js wordpress-2.5.0/wp-in
 -    this.event = null;
 -  }
 -});
-diff -Nru wordpress/wp-includes/js/scriptaculous/sound.js wordpress-2.5.0/wp-includes/js/scriptaculous/sound.js
---- wordpress/wp-includes/js/scriptaculous/sound.js	2008-03-02 22:34:25.000000000 +0100
-+++ wordpress-2.5.0/wp-includes/js/scriptaculous/sound.js	1970-01-01 01:00:00.000000000 +0100
+--- a/wp-includes/js/scriptaculous/sound.js
++++ /dev/null
 @@ -1,55 +0,0 @@
 -// script.aculo.us sound.js v1.8.0, Tue Nov 06 15:01:40 +0300 2007
 -
@@ -11998,9 +11983,8 @@ diff -Nru wordpress/wp-includes/js/scriptaculous/sound.js wordpress-2.5.0/wp-inc
 -  else
 -    Sound.play = function(){}
 -}
-diff -Nru wordpress/wp-includes/js/scriptaculous/unittest.js wordpress-2.5.0/wp-includes/js/scriptaculous/unittest.js
---- wordpress/wp-includes/js/scriptaculous/unittest.js	2008-03-02 22:34:25.000000000 +0100
-+++ wordpress-2.5.0/wp-includes/js/scriptaculous/unittest.js	1970-01-01 01:00:00.000000000 +0100
+--- a/wp-includes/js/scriptaculous/unittest.js
++++ /dev/null
 @@ -1,568 +0,0 @@
 -// script.aculo.us unittest.js v1.8.0, Tue Nov 06 15:01:40 +0300 2007
 -
