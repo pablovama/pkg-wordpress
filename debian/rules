@@ -35,7 +35,24 @@ install: $(MOFILES) $(QUILT_STAMPFN)
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/fullscreen/
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/paste/
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/safari/
+	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/inlinepopups/
+	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/spellchecker/
+	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/tabfocus/
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/wordpress/js
+	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/crop
+	rm debian/wordpress/usr/share/wordpress/wp-includes/gettext.php \
+		debian/wordpress/usr/share/wordpress/wp-includes/streams.php \
+		debian/wordpress/usr/share/wordpress/wp-includes/class-snoopy.php \
+		debian/wordpress/usr/share/wordpress/wp-includes/js/prototype.js \
+		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/builder.js \
+		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/controls.js \
+		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/dragdrop.js \
+		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/effects.js \
+		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/prototype.js \
+		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/scriptaculous.js \
+		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/slider.js \
+		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/sound.js \
+		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/unittest.js 
 	dh_link
 	dh_gencontrol
 	dh_md5sums

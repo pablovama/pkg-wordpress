@@ -12,7 +12,7 @@ DM-Upload-Allowed: yes
 
 Package: wordpress
 Architecture: all
-Depends: apache2 | httpd, virtual-mysql-client, libapache2-mod-php5 | php5 | php4, php5-mysql | php4-mysql, libphp-phpmailer (>= 1.73-4), php5-gd | php4-gd, libjs-prototype, libjs-scriptaculous, tinymce (>= 3.2.1), libphp-snoopy, libjs-jquery
+Depends: apache2 | httpd, virtual-mysql-client, libapache2-mod-php5 | php5 | php4, php5-mysql | php4-mysql, libphp-phpmailer (>= 1.73-4), php5-gd | php4-gd, libjs-prototype, libjs-scriptaculous, tinymce (>= 3.2.1), libphp-snoopy, libjs-jquery, php-gettext, libjs-cropper
 Suggests: virtual-mysql-server
 Conflicts: mysql-server (<< 4.0.20-8)
 Description: weblog manager
