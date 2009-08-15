@@ -5,7 +5,7 @@ set -e
 LANG=C
 
 usage () {
-    printf "Usage: %s version\n" "$0"
+    printf "Usage: %s version [remove]\n" "$0"
 }
 
 if [ "$#" -lt 1 ]; then
@@ -18,10 +18,19 @@ if ! [ -d debian ]; then
     exit 2
 fi
 
-UPSTREAM_I18N_SVN=http://svn.automattic.com/wordpress-i18n/
+UPSTREAM_I18N_SVN=http://svn.automattic.com/wordpress-i18n
 BASEDIR="${PWD}"
 
 version="$1"
+if [ -z $2 ]; then
+	options="0"
+else
+	options="$2"
+fi
+remove="0"
+if [ "$options" = "remove" ];then
+	remove="1"
+fi
 
 if ! [ -e debian/languages ]; then
     mkdir debian/languages
@@ -50,8 +59,10 @@ do_file () {
     cd "${ldir}"
     if ! svn export -r "${HEAD_REV}" -q "${UPSTREAM_I18N_SVN}/${lang}/tags/${version}/${rdir}/${url_fname}"; then
 	if [ -e "${fname}" ]; then
-	    printf "WARNING: deleting outdated '%s', no up-to-date version found.\n" "${fname}"
-	    rm -f "${fname}"
+		if [ "$remove" = "1" ]; then
+			printf "WARNING: deleting outdated '%s', no up-to-date version found.\n" "${fname}"
+			rm -f "${fname}"
+		fi
 	fi
     fi
     cd "${OLD_PWD}"
