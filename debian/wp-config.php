@@ -8,6 +8,10 @@ Please do NOT edit and read about how the configuration works in the README.Debi
     $debian_server = preg_replace('/:.*/', "", $_SERVER['HTTP_HOST']);
     $debian_file = '/etc/wordpress/config-'.strtolower($debian_server).'.php';
 
+    $allowed_paths = array('/etc/wordpress');
+    if (!in_array(dirname(realpath($debian_file)), $allowed_paths))
+	    die("The config file for the specified host is not under an allowed path");
+
     if (!file_exists($debian_file)) {
         header("HTTP/1.0 404 Not Found");
         echo "404 Not found";
