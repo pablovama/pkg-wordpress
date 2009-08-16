@@ -7,6 +7,41 @@ if [ "$1" = upgrade ] && dpkg --compare-versions "$2" lt 2.0.2-2; then
  chgrp www-data /etc/wordpress/config* >/dev/null 2>&1 || true
 fi
 
+if [ "$1" = configure ] && dpkg --compare-versions "$2" lt-nl "2.8.4-1" ; then
+        if ! [ -h /usr/share/wordpress/wp-includes/js/tinymce/plugins/media ];then
+                rm -rf /usr/share/wordpress/wp-includes/js/tinymce/plugins/media
+		ln -s /usr/share/tinymce/www/plugins/media /usr/share/wordpress/wp-includes/js/tinymce/plugins/
+        fi
+        if ! [ -h /usr/share/wordpress/wp-includes/js/tinymce/plugins/directionality ];then
+                rm -rf /usr/share/wordpress/wp-includes/js/tinymce/plugins/directionality
+		ln -s /usr/share/tinymce/www/plugins/directionality /usr/share/wordpress/wp-includes/js/tinymce/plugins/
+        fi
+        if ! [ -h /usr/share/wordpress/wp-includes/js/tinymce/plugins/fullscreen ];then
+                rm -rf /usr/share/wordpress/wp-includes/js/tinymce/plugins/fullscreen
+		ln -s /usr/share/tinymce/www/plugins/fullscreen /usr/share/wordpress/wp-includes/js/tinymce/plugins/
+        fi
+        if ! [ -h /usr/share/wordpress/wp-includes/js/tinymce/plugins/paste ];then
+                rm -rf /usr/share/wordpress/wp-includes/js/tinymce/plugins/paste
+		ln -s /usr/share/tinymce/www/plugins/paste /usr/share/wordpress/wp-includes/js/tinymce/plugins/
+        fi
+        if ! [ -h /usr/share/wordpress/wp-includes/js/tinymce/plugins/safari ];then
+                rm -rf /usr/share/wordpress/wp-includes/js/tinymce/plugins/safari
+		ln -s /usr/share/tinymce/www/plugins/safari /usr/share/wordpress/wp-includes/js/tinymce/plugins/
+        fi
+        if ! [ -h /usr/share/wordpress/wp-includes/js/tinymce/plugins/inlinepopups ];then
+                rm -rf /usr/share/wordpress/wp-includes/js/tinymce/plugins/inlinepopups
+		ln -s /usr/share/tinymce/www/plugins/inlinepopups /usr/share/wordpress/wp-includes/js/tinymce/plugins/
+        fi
+        if ! [ -h /usr/share/wordpress/wp-includes/js/tinymce/plugins/spellchecker ];then
+                rm -rf /usr/share/wordpress/wp-includes/js/tinymce/plugins/spellchecker
+		ln -s /usr/share/tinymce/www/plugins/spellchecker /usr/share/wordpress/wp-includes/js/tinymce/plugins/
+        fi
+        if ! [ -h /usr/share/wordpress/wp-includes/js/crop ];then
+                rm -rf /usr/share/wordpress/wp-includes/js/crop
+		ln -s /usr/share/javascript/cropper /usr/share/wordpress/wp-includes/js/crop
+        fi
+fi
+
 #DEBHELPER#
 
 exit 0
