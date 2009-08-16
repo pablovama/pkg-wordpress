@@ -37,7 +37,7 @@ install: $(MOFILES) $(QUILT_STAMPFN)
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/safari/
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/inlinepopups/
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/spellchecker/
-	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/tabfocus/
+	#rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/tabfocus/
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/wordpress/js
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/crop
 	rm debian/wordpress/usr/share/wordpress/wp-includes/gettext.php \
