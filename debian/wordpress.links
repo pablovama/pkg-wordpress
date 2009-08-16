@@ -22,7 +22,9 @@ usr/share/tinymce/www/plugins/media usr/share/wordpress/wp-includes/js/tinymce/p
 usr/share/tinymce/www/plugins/paste usr/share/wordpress/wp-includes/js/tinymce/plugins/paste
 usr/share/tinymce/www/plugins/safari usr/share/wordpress/wp-includes/js/tinymce/plugins/safari
 usr/share/tinymce/www/plugins/inlinepopups usr/share/wordpress/wp-includes/js/tinymce/plugins/inlinepopups
-usr/share/tinymce/www/plugins/spellchecker usr/share/wordpress/wp-includes/js/tinymce/plugins/spellchecker
+usr/share/tinymce/www/plugins/spellchecker/editor_plugin.js usr/share/wordpress/wp-includes/js/tinymce/plugins/spellchecker/editor_plugin.js
+usr/share/tinymce/www/plugins/spellchecker/css usr/share/wordpress/wp-includes/js/tinymce/plugins/spellchecker/css
+usr/share/tinymce/www/plugins/spellchecker/img usr/share/wordpress/wp-includes/js/tinymce/plugins/spellchecker/img
 #usr/share/tinymce/www/plugins/tabfocus usr/share/wordpress/wp-includes/js/tinymce/plugins/tabfocus
 
 #Snoopy
