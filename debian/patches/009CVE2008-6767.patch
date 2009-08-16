@@ -2,16 +2,12 @@ Author: Giuseppe Iuculano <giuseppe@iuculano.it>
 Description: Only admin can upgrade wordpress. (CVE-2008-6767) (Closes: #531736)
 --- a/wp-admin/upgrade.php
 +++ b/wp-admin/upgrade.php
-@@ -16,6 +16,12 @@ define( 'WP_INSTALLING', true );
+@@ -16,6 +16,8 @@ define( 'WP_INSTALLING', true );
  
  /** Load WordPress Bootstrap */
  require( '../wp-load.php' );
-+$user_id = (int) $user_id;
-+
-+$current_user = wp_get_current_user();
-+$user_id = $current_user->ID;
-+if ($user_id != 1)
-+	        wp_safe_redirect('../wp-login.php?upgrade');
++if(!current_user_can('level_10'))
++	wp_safe_redirect('../wp-login.php?upgrade');
  
  timer_start();
  require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
@@ -21,7 +17,7 @@ Description: Only admin can upgrade wordpress. (CVE-2008-6767) (Closes: #531736)
  	elseif	( isset($_GET['checkemail']) && 'confirm' == $_GET['checkemail'] )	$errors->add('confirm', __('Check your e-mail for the confirmation link.'), 'message');
  	elseif	( isset($_GET['checkemail']) && 'newpass' == $_GET['checkemail'] )	$errors->add('newpass', __('Check your e-mail for your new password.'), 'message');
  	elseif	( isset($_GET['checkemail']) && 'registered' == $_GET['checkemail'] )	$errors->add('registered', __('Registration complete. Please check your e-mail.'), 'message');
-+	elseif  ( isset($_GET['upgrade'])) $errors->add('upgrade', __('Upgrade is needed, please log in with the admin account.'), 'message');
++	elseif  ( isset($_GET['upgrade'])) $errors->add('upgrade', __('Upgrade is needed, please log in with an admin account.'), 'message');
  
  	login_header(__('Log In'), '', $errors);
  
