@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.8\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-08-03 16:56+0000\n"
-"PO-Revision-Date: 2009-08-04 12:40+0100\n"
+"POT-Creation-Date: 2009-08-12 04:56+0000\n"
+"PO-Revision-Date: 2009-08-13 11:11+0100\n"
 "Last-Translator: José Fontainhas <jfontainhas@gmail.com>\n"
 "Language-Team: WordPress PT <www.wordpress-pt.com>\n"
 "MIME-Version: 1.0\n"
@@ -722,7 +722,7 @@ msgstr "Autor"
 #: wp-admin/user-edit.php:261
 #: wp-admin/user-new.php:109
 #: wp-content/themes/classic/comments-popup.php:76
-#: wp-login.php:414
+#: wp-login.php:417
 msgid "E-mail"
 msgstr "Email"
 
@@ -5029,8 +5029,8 @@ msgstr "Nome do Host"
 #: wp-admin/install.php:129
 #: wp-admin/user-edit.php:187
 #: wp-admin/user-new.php:96
-#: wp-login.php:410
-#: wp-login.php:504
+#: wp-login.php:413
+#: wp-login.php:507
 msgid "Username"
 msgstr "Nome de Utilizador"
 
@@ -5039,7 +5039,7 @@ msgstr "Nome de Utilizador"
 #: wp-admin/install.php:133
 #: wp-admin/options-writing.php:100
 #: wp-admin/user-new.php:119
-#: wp-login.php:508
+#: wp-login.php:511
 msgid "Password"
 msgstr "Password"
 
@@ -6978,7 +6978,7 @@ msgid "You can&#8217;t give users that role."
 msgstr "Não pode atribuir essa função a utilizadores."
 
 #: wp-admin/includes/user.php:138
-#: wp-login.php:236
+#: wp-login.php:239
 msgid "<strong>ERROR</strong>: Please enter a username."
 msgstr "<strong>ERRO</strong>:  introduza um nome de utilizador."
 
@@ -7020,7 +7020,7 @@ msgid "<strong>ERROR</strong>: The e-mail address isn&#8217;t correct."
 msgstr "<strong>ERRO</strong>: o endereço de email não está correcto."
 
 #: wp-admin/includes/user.php:178
-#: wp-login.php:250
+#: wp-login.php:253
 msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
 msgstr "<strong>ERROR</strong>: este endereço de email já está registado, escolha outro."
 
@@ -7130,8 +7130,8 @@ msgid "WordPress has been installed. Were you expecting more steps? Sorry to dis
 msgstr "O WordPress está instalado. Estava à espera de mais passos? Temos pena mas não há mais."
 
 #: wp-admin/install.php:141
-#: wp-login.php:495
-#: wp-login.php:514
+#: wp-login.php:498
+#: wp-login.php:517
 msgid "Log In"
 msgstr "Iniciar Sessão"
 
@@ -10932,9 +10932,9 @@ msgid "Search for:"
 msgstr "Buscar por:"
 
 #: wp-includes/general-template.php:147
-#: wp-login.php:352
 #: wp-login.php:355
-#: wp-login.php:424
+#: wp-login.php:358
+#: wp-login.php:427
 msgid "Log in"
 msgstr "Iniciar Sessão"
 
@@ -10943,9 +10943,9 @@ msgid "Log out"
 msgstr "Sair"
 
 #: wp-includes/general-template.php:236
-#: wp-login.php:353
-#: wp-login.php:420
-#: wp-login.php:524
+#: wp-login.php:356
+#: wp-login.php:423
+#: wp-login.php:527
 msgid "Register"
 msgstr "Registar"
 
@@ -12969,7 +12969,7 @@ msgstr "Registo de novo utilizador no seu blog %s:"
 #: wp-includes/pluggable.php:1151
 #: wp-includes/pluggable.php:1159
 #: wp-login.php:162
-#: wp-login.php:204
+#: wp-login.php:207
 #, php-format
 msgid "Username: %s"
 msgstr "Nome de Utilizador: %s"
@@ -12985,7 +12985,7 @@ msgid "[%s] New User Registration"
 msgstr "[%s] Registo de Novo Utilizador"
 
 #: wp-includes/pluggable.php:1160
-#: wp-login.php:205
+#: wp-login.php:208
 #, php-format
 msgid "Password: %s"
 msgstr "Password: %s"
@@ -13425,128 +13425,129 @@ msgid "[%s] Password Reset"
 msgstr "[%s] Reposição de Password"
 
 #: wp-login.php:172
-#: wp-login.php:214
+#: wp-login.php:217
 msgid "The e-mail could not be sent."
 msgstr "Não foi possível enviar a mensagem."
 
 #: wp-login.php:172
-#: wp-login.php:214
+#: wp-login.php:217
 msgid "Possible reason: your host may have disabled the mail() function..."
 msgstr "Motivo possível: o fornecedor de alojamento poderá ter desactivado a função mail()..."
 
 #: wp-login.php:191
-#: wp-login.php:195
+#: wp-login.php:194
+#: wp-login.php:198
 msgid "Invalid key"
 msgstr "Chave inválida"
 
-#: wp-login.php:208
+#: wp-login.php:211
 #, php-format
 msgid "[%s] Your new password"
 msgstr "[%s] A sua nova password"
 
-#: wp-login.php:238
+#: wp-login.php:241
 msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
 msgstr "<strong>ERRO</strong>:  este nome de utilizador é inválido. Introduza um nome de utilizador válido."
 
-#: wp-login.php:241
+#: wp-login.php:244
 msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
 msgstr "<strong>ERRO</strong>: este nome de utilizador já está registado, escolha outro."
 
-#: wp-login.php:245
+#: wp-login.php:248
 msgid "<strong>ERROR</strong>: Please type your e-mail address."
 msgstr "<strong>ERRO</strong>: escreva o seu email."
 
-#: wp-login.php:247
+#: wp-login.php:250
 msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
 msgstr "<strong>ERRO</strong>: o email não está correcto."
 
-#: wp-login.php:262
+#: wp-login.php:265
 #, php-format
 msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
 msgstr "<strong>ERRO</strong>: não foi possível proceder ao registo... contacte o <a href=\"mailto:%s\">webmaster</a> !"
 
-#: wp-login.php:332
+#: wp-login.php:335
 msgid "Sorry, that key does not appear to be valid."
 msgstr "A chave fornecida não parece ser válida."
 
-#: wp-login.php:335
+#: wp-login.php:338
 msgid "Lost Password"
 msgstr "Password Perdida"
 
-#: wp-login.php:335
+#: wp-login.php:338
 msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
 msgstr "Indique o seu nome de utilizador ou endereço de email. Receberá a sua password por email."
 
-#: wp-login.php:343
+#: wp-login.php:346
 msgid "Username or E-mail:"
 msgstr "Nome de utilizador ou endereço de email."
 
-#: wp-login.php:347
+#: wp-login.php:350
 msgid "Get New Password"
 msgstr "Obter Nova Password"
 
-#: wp-login.php:361
-#: wp-login.php:430
-#: wp-login.php:533
+#: wp-login.php:364
+#: wp-login.php:433
+#: wp-login.php:536
 msgid "Are you lost?"
 msgstr "Não sabe onde está?"
 
-#: wp-login.php:361
-#: wp-login.php:430
-#: wp-login.php:533
+#: wp-login.php:364
+#: wp-login.php:433
+#: wp-login.php:536
 #, php-format
 msgid "&larr; Back to %s"
 msgstr "&larr; Voltar a %s"
 
-#: wp-login.php:405
+#: wp-login.php:408
 msgid "Registration Form"
 msgstr "Formulário de Registo"
 
-#: wp-login.php:405
+#: wp-login.php:408
 msgid "Register For This Site"
 msgstr "Criar Registo Neste Site"
 
-#: wp-login.php:418
+#: wp-login.php:421
 msgid "A password will be e-mailed to you."
 msgstr "Irá ser-lhe enviada uma password por correio electrónico."
 
-#: wp-login.php:425
-#: wp-login.php:525
-#: wp-login.php:527
+#: wp-login.php:428
+#: wp-login.php:528
+#: wp-login.php:530
 msgid "Password Lost and Found"
 msgstr "Password Perdida e Encontrada"
 
-#: wp-login.php:425
-#: wp-login.php:525
-#: wp-login.php:527
+#: wp-login.php:428
+#: wp-login.php:528
+#: wp-login.php:530
 msgid "Lost your password?"
 msgstr "Esqueceu-se da password?"
 
-#: wp-login.php:486
+#: wp-login.php:489
 msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
 msgstr "<strong>ERRO</strong>: Os cookies estão bloqueados ou não são suportados pelo seu browser. Deve <a href='http://www.google.com/cookies.html'>permitir cookies</a> para usar o WordPress."
 
-#: wp-login.php:489
+#: wp-login.php:492
 msgid "You are now logged out."
 msgstr "A sua sessão terminou"
 
-#: wp-login.php:490
+#: wp-login.php:493
 msgid "User registration is currently not allowed."
 msgstr "De momento não é permitido o registo de novos utilizadores."
 
-#: wp-login.php:491
+#: wp-login.php:494
 msgid "Check your e-mail for the confirmation link."
 msgstr "Consulte a mensagem com o link de confirmação na sua caixa de correio."
 
-#: wp-login.php:492
+#: wp-login.php:495
 msgid "Check your e-mail for your new password."
 msgstr "Consulte a mensagem com a nova senha na sua caixa de correio."
 
-#: wp-login.php:493
+#: wp-login.php:496
 msgid "Registration complete. Please check your e-mail."
 msgstr "Registo concluído. Por favor consulte a sua caixa de correio."
 
-#: wp-login.php:512
+#: wp-login.php:515
 msgid "Remember Me"
 msgstr "Lembrar-me"
 

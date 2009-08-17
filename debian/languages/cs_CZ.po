@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress CZ (2.8.3)\n"
+"Project-Id-Version: WordPress CZ (2.8.4)\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-08-03 16:56+0000\n"
-"PO-Revision-Date: 2009-08-04 11:32+0100\n"
+"POT-Creation-Date: 2009-08-12 04:56+0000\n"
+"PO-Revision-Date: 2009-08-13 16:39+0100\n"
 "Last-Translator: Separatista <pavelevap@separatista.net>\n"
 "Language-Team: Separatista <pavelevap@separatista.net>\n"
 "MIME-Version: 1.0\n"
@@ -326,7 +326,7 @@ msgstr "Přihlášen: <a href=\"%1$s\" title=\"Upravit profil\">%2$s</a>"
 
 #: wp-admin/admin-header.php:109
 msgid "Turbo"
-msgstr "Zrychlit Wordpress"
+msgstr "Zrychlit WordPress"
 
 #: wp-admin/admin-header.php:110
 msgid "Log Out"
@@ -718,7 +718,7 @@ msgstr "Autor"
 #: wp-admin/user-edit.php:261
 #: wp-admin/user-new.php:109
 #: wp-content/themes/classic/comments-popup.php:76
-#: wp-login.php:414
+#: wp-login.php:417
 msgid "E-mail"
 msgstr "Email"
 
@@ -2016,7 +2016,7 @@ msgstr "Název"
 
 #: wp-admin/edit-link-form.php:382
 msgid "Example: Nifty blogging software"
-msgstr "Příklad: Čeština pro Wordpress"
+msgstr "Příklad: Čeština pro WordPress"
 
 #: wp-admin/edit-link-form.php:387
 msgid "Web Address"
@@ -2138,7 +2138,7 @@ msgstr "Pořadí stránky"
 
 #: wp-admin/edit-page-form.php:299
 msgid "Pages are usually ordered alphabetically, but you can put a number above to change the order pages appear in. (We know this is a little janky, it&#8217;ll be better in future releases.)"
-msgstr "Stránky jsou většinou řazeny abecedně, ale pokud chcete, můžete jejich pořadí změnit očíslováním. (Víme, že to není ideální řešení, ale mělo by být vylepšeno v dalších verzích Wordpressu.)"
+msgstr "Stránky jsou většinou řazeny abecedně, ale pokud chcete, můžete jejich pořadí změnit očíslováním. (Víme, že to není ideální řešení, ale mělo by být vylepšeno v dalších verzích WordPressu.)"
 
 #: wp-admin/edit-page-form.php:302
 msgid "Attributes"
@@ -2694,7 +2694,7 @@ msgstr "Tato funkce vyžaduje použití Javascriptu, který máte ale patrně za
 
 #: wp-admin/import/blogger.php:656
 msgid "All posts were imported with the current user as author. Use this form to move each Blogger user&#8217;s posts to a different WordPress user. You may <a href=\"users.php\">add users</a> and then return to this page and complete the user mapping. This form may be used as many times as you like until you activate the &#8220;Restart&#8221; function below."
-msgstr "Všem naimportovaným příspěvkům byl jako autor přiřazen aktuálně přihlášený uživatel. Pokud chcete každého autora z Bloggeru přiřadit k jinému autorovi ve Wordpressu, použijte následující formulář. Můžete také nejdříve <a href=\"users.php\">vytvořit uživatele</a> a potom se vrátit na tuto stránku a dokončit přiřazení autorů k importovaným příspěvkům. Tento formulář můžete používat neomezeně, dokud neaktivujetete dolním tlačítkem funkci &#8222;Vyčištění&#8220;."
+msgstr "Všem naimportovaným příspěvkům byl jako autor přiřazen aktuálně přihlášený uživatel. Pokud chcete každého autora z Bloggeru přiřadit k jinému autorovi ve WordPressu, použijte následující formulář. Můžete také nejdříve <a href=\"users.php\">vytvořit uživatele</a> a potom se vrátit na tuto stránku a dokončit přiřazení autorů k importovaným příspěvkům. Tento formulář můžete používat neomezeně, dokud neaktivujetete dolním tlačítkem funkci &#8222;Vyčištění&#8220;."
 
 #: wp-admin/import/blogger.php:657
 msgid "Author mapping"
@@ -3029,7 +3029,7 @@ msgstr "Uživatelé"
 #: wp-admin/import/dotclear.php:607
 #, php-format
 msgid "You have already setup WordPress and have been assigned an administrative login and password.  Forget it.  You didn&#8217;t have that login in DotClear, why should you have it here?  Instead we have taken care to import all of your users into our system.  Unfortunately there is one downside.  Because both WordPress and DotClear uses a strong encryption hash with passwords, it is impossible to decrypt it and we are forced to assign temporary passwords to all your users.  <strong>Every user has the same username, but their passwords are reset to password123.</strong>  So <a href=\"%1$s\">Login</a> and change it."
-msgstr "Právě jste úspěšně nastavili WordPress a máte přiřazeno své administrátorské uživatelské jméno a heslo. Ale zapomeňte na ně. Nepoužívali jste tyto přihlašovací údaje v DotClearu, tak proč byste je měli používat tady? Místo nich automaticky naimportujeme všechny uživatele z DotClearu do Wordpressu. Je tu ale bohužel jeden problém. WordPress i Dotclear totiž používají opravdu bezpečně zašifrovaná hesla, která nelze získat zpět do původní podoby, takže nemohou být během importu přenesena a všem uživatelům tak bude přiřazeno dočasné heslo.  <strong>Všechna uživatelská jména tedy zůstanou stejná, ale jejich hesla budou automaticky nastavena na password123.</strong>  <a href=\"%1$s\">Přihlaste se</a> a změňte si heslo."
+msgstr "Právě jste úspěšně nastavili WordPress a máte přiřazeno své administrátorské uživatelské jméno a heslo. Ale zapomeňte na ně. Nepoužívali jste tyto přihlašovací údaje v DotClearu, tak proč byste je měli používat tady? Místo nich automaticky naimportujeme všechny uživatele z DotClearu do WordPressu. Je tu ale bohužel jeden problém. WordPress i Dotclear totiž používají opravdu bezpečně zašifrovaná hesla, která nelze získat zpět do původní podoby, takže nemohou být během importu přenesena a všem uživatelům tak bude přiřazeno dočasné heslo.  <strong>Všechna uživatelská jména tedy zůstanou stejná, ale jejich hesla budou automaticky nastavena na password123.</strong>  <a href=\"%1$s\">Přihlaste se</a> a změňte si heslo."
 
 #: wp-admin/import/dotclear.php:608
 #: wp-admin/import/textpattern.php:586
@@ -3127,7 +3127,7 @@ msgstr "Co tento skript provede?"
 
 #: wp-admin/import/greymatter.php:37
 msgid "Parses gm-authors.cgi to import (new) authors. Everyone is imported at level 1."
-msgstr "Připraví soubor gm-authors.cgi pro import (nových) autorů. Všichni takto vytvoření autoři budou mít ve Wordpressu uživatelskou úroveň 1."
+msgstr "Připraví soubor gm-authors.cgi pro import (nových) autorů. Všichni takto vytvoření autoři budou mít ve WordPressu uživatelskou úroveň 1."
 
 #: wp-admin/import/greymatter.php:38
 msgid "Parses the entries cgi files to import posts, comments, and karma on posts (although karma is not used on WordPress yet).<br />If authors are found not to be in gm-authors.cgi, imports them at level 0."
@@ -3266,7 +3266,7 @@ msgstr "Importovat Jerome&#8217;s Keywords"
 
 #: wp-admin/import/jkw.php:31
 msgid "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
-msgstr "Tímto importovacím nástrojem můžete do Wordpressu importovat štítky ze systému Jerome&#8217;s Keywords."
+msgstr "Tímto importovacím nástrojem můžete do WordPressu importovat štítky ze systému Jerome&#8217;s Keywords."
 
 #: wp-admin/import/jkw.php:32
 msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
@@ -3336,11 +3336,11 @@ msgstr "Heslo"
 
 #: wp-admin/import/livejournal.php:211
 msgid "If you have any entries on LiveJournal which are marked as private, they will be password-protected when they are imported so that only people who know the password can see them."
-msgstr "Pokud máte některé příspěvky u LiveJournalu označeny jako soukromé, budou automaticky během importu zaheslovány, takže i ve Wordpressu k nim budou mít přístup jenom lidé, kteří znají heslo."
+msgstr "Pokud máte některé příspěvky u LiveJournalu označeny jako soukromé, budou automaticky během importu zaheslovány, takže i ve WordPressu k nim budou mít přístup jenom lidé, kteří znají heslo."
 
 #: wp-admin/import/livejournal.php:212
 msgid "If you don&#8217;t enter a password, ALL ENTRIES from your LiveJournal will be imported as public posts in WordPress."
-msgstr "Pokud však heslo nezadáte, budou všechny příspěvky z LiveJournalu do Wordpressu naimportovány jako veřejné."
+msgstr "Pokud však heslo nezadáte, budou všechny příspěvky z LiveJournalu do WordPressu naimportovány jako veřejné."
 
 #: wp-admin/import/livejournal.php:213
 msgid "Enter the password you would like to use for all protected entries here:"
@@ -3352,7 +3352,7 @@ msgstr "Heslo pro ochranu importovaných soukromých příspěvků"
 
 #: wp-admin/import/livejournal.php:223
 msgid "<strong>WARNING:</strong> This can take a really long time if you have a lot of entries in your LiveJournal, or a lot of comments. Ideally, you should only start this process if you can leave your computer alone while it finishes the import."
-msgstr "<strong>Upozornění:</strong> Pokud máte u LiveJournalu mnoho příspěvků nebo komentářů, může jejich import do Wordpressu trvat opravdu dlouhou dobu. Takže doporučujeme zahájit import až ve chvíli, kdy na počítači nechcete zrovna nic dělat a můžete nechat Wordpress v klidu dokončit svou práci."
+msgstr "<strong>Upozornění:</strong> Pokud máte u LiveJournalu mnoho příspěvků nebo komentářů, může jejich import do WordPressu trvat opravdu dlouhou dobu. Takže doporučujeme zahájit import až ve chvíli, kdy na počítači nechcete zrovna nic dělat a můžete nechat WordPress v klidu dokončit svou práci."
 
 #: wp-admin/import/livejournal.php:226
 msgid "Connect to LiveJournal and Import"
@@ -3722,7 +3722,7 @@ msgstr "Importovat Simple Tagging"
 
 #: wp-admin/import/stp.php:30
 msgid "Howdy! This imports tags from Simple Tagging 1.6.2 into WordPress tags."
-msgstr "Tento importovací nástroj vám umožní převést štítky vytvořené pomocí pluginu Simple Tagging 1.6.2 do stávající verze Wordpressu."
+msgstr "Tento importovací nástroj vám umožní převést štítky vytvořené pomocí pluginu Simple Tagging 1.6.2 do stávající verze WordPressu."
 
 #: wp-admin/import/stp.php:31
 msgid "This has not been tested on any other versions of Simple Tagging. Mileage may vary."
@@ -3763,7 +3763,7 @@ msgstr "Krok č. 2"
 #: wp-admin/import/stp.php:104
 #: wp-admin/import/utw.php:169
 msgid "Adding Tags to Posts&#8230;"
-msgstr "Probíhá přidávání štítků k příspěvkům&#8230; ve Wordpressu"
+msgstr "Probíhá přidávání štítků k příspěvkům&#8230; ve WordPressu"
 
 #: wp-admin/import/stp.php:109
 #, php-format
@@ -3789,7 +3789,7 @@ msgstr "Nebylo to snadné?"
 
 #: wp-admin/import/stp.php:169
 msgid "Import Simple Tagging tags into WordPress tags."
-msgstr "Importuje štítky z pluginu Simple Tagging přímo do Wordpressu."
+msgstr "Importuje štítky z pluginu Simple Tagging přímo do WordPressu."
 
 #: wp-admin/import/textpattern.php:56
 msgid "Import Textpattern"
@@ -3862,7 +3862,7 @@ msgstr "Importovat štítky z pluginu Ultimate Tag Warrior"
 
 #: wp-admin/import/utw.php:31
 msgid "Howdy! This imports tags from Ultimate Tag Warrior 3 into WordPress tags."
-msgstr "Tímto importovacím nástrojem můžete převést štítky z pluginu Ultimate Tag Warrior 3 přímo do Wordpressu."
+msgstr "Tímto importovacím nástrojem můžete převést štítky z pluginu Ultimate Tag Warrior 3 přímo do WordPressu."
 
 #: wp-admin/import/utw.php:32
 msgid "This has not been tested on any other versions of Ultimate Tag Warrior. Mileage may vary."
@@ -3918,7 +3918,7 @@ msgstr "Nahráním svého WXR (WordPress eXtended RSS) souboru umožníte import
 
 #: wp-admin/import/wordpress.php:54
 msgid "Choose a WordPress WXR file to upload, then click Upload file and import."
-msgstr "Vyberte WXR soubor Wordpressu k nahrání a poté klikněte na tlačítko \"Nahrát soubor a importovat\"."
+msgstr "Vyberte WXR soubor WordPressu k nahrání a poté klikněte na tlačítko \"Nahrát soubor a importovat\"."
 
 #: wp-admin/import/wordpress.php:203
 msgid "To make it easier for you to edit and save the imported posts and drafts, you may want to change the name of the author of the posts. For example, you may want to import all the entries as <code>admin</code>s entries."
@@ -4251,7 +4251,7 @@ msgstr "Nepodařilo se najít hlavní adresář s WordPressem."
 
 #: wp-admin/includes/class-wp-upgrader.php:48
 msgid "Unable to locate WordPress Content directory (wp-content)."
-msgstr "Nepodařilo se najít adresář Wordpressu s uživatelským obsahem (wp-content)."
+msgstr "Nepodařilo se najít adresář WordPressu s uživatelským obsahem (wp-content)."
 
 #: wp-admin/includes/class-wp-upgrader.php:49
 #: wp-admin/includes/plugin.php:445
@@ -4400,7 +4400,7 @@ msgstr "Šablona byla úspěšně nainstalována."
 
 #: wp-admin/includes/class-wp-upgrader.php:662
 msgid "WordPress is at the latest version."
-msgstr "Používáte nejnovější verzi Wordpressu."
+msgstr "Používáte nejnovější verzi WordPressu."
 
 #: wp-admin/includes/class-wp-upgrader.php:666
 msgid "Could not copy files."
@@ -5071,8 +5071,8 @@ msgstr "Server"
 #: wp-admin/install.php:129
 #: wp-admin/user-edit.php:187
 #: wp-admin/user-new.php:96
-#: wp-login.php:410
-#: wp-login.php:504
+#: wp-login.php:413
+#: wp-login.php:507
 msgid "Username"
 msgstr "Uživatelské jméno"
 
@@ -5081,7 +5081,7 @@ msgstr "Uživatelské jméno"
 #: wp-admin/install.php:133
 #: wp-admin/options-writing.php:100
 #: wp-admin/user-new.php:119
-#: wp-login.php:508
+#: wp-login.php:511
 msgid "Password"
 msgstr "Heslo"
 
@@ -5550,7 +5550,7 @@ msgstr "Došlo k nějaké neznámé chybě"
 
 #: wp-admin/includes/plugin-install.php:127
 msgid "Plugins extend and expand the functionality of WordPress. You may automatically install plugins from the <a href=\"http://wordpress.org/extend/plugins/\">WordPress Plugin Directory</a> or upload a plugin in .zip format via this page."
-msgstr "Pluginy významně zlepšují a rozšiřují možnosti Wordpressu. Můžete je vyhledat a automaticky instalovat z <a href=\"http://wordpress.org/extend/plugins/\">oficiálního adresáře pluginů pro Wordpress</a>, nebo nahrát získaný instalační balíček ve formátu .zip."
+msgstr "Pluginy významně zlepšují a rozšiřují možnosti WordPressu. Můžete je vyhledat a automaticky instalovat z <a href=\"http://wordpress.org/extend/plugins/\">oficiálního adresáře pluginů pro WordPress</a>, nebo nahrát získaný instalační balíček ve formátu .zip."
 
 #: wp-admin/includes/plugin-install.php:129
 #: wp-admin/includes/template.php:3165
@@ -5575,7 +5575,7 @@ msgstr "Nejoblíbenější štítky"
 
 #: wp-admin/includes/plugin-install.php:134
 msgid "You may also browse based on the most popular tags in the Plugin Directory:"
-msgstr "Můžete si také vybrat plugin podle nejoblíbenějších štítků v oficiálním adresáři pluginů pro Wordpress:"
+msgstr "Můžete si také vybrat plugin podle nejoblíbenějších štítků v oficiálním adresáři pluginů pro WordPress:"
 
 #: wp-admin/includes/plugin-install.php:148
 #, php-format
@@ -5759,7 +5759,7 @@ msgstr[2] "%s-krát"
 
 #: wp-admin/includes/plugin-install.php:515
 msgid "WordPress.org Plugin Page &#187;"
-msgstr "Oficiální stránka pluginu v adresáři Wordpressu &#187;"
+msgstr "Oficiální stránka pluginu v adresáři WordPressu &#187;"
 
 #: wp-admin/includes/plugin-install.php:517
 msgid "Plugin Homepage  &#187;"
@@ -5775,7 +5775,7 @@ msgstr "<strong>Upozornění:</strong> Tento plugin zatím <strong>nebyl testov�
 
 #: wp-admin/includes/plugin-install.php:539
 msgid "<strong>Warning:</strong> This plugin has <strong>not been marked as compatible</strong> with your version of WordPress."
-msgstr "<strong>Upozornění:</strong> Tento plugin pravděpodobně není <strong>kompatibilní</strong> s vámi používanou verzí Wordpressu."
+msgstr "<strong>Upozornění:</strong> Tento plugin pravděpodobně není <strong>kompatibilní</strong> s vámi používanou verzí WordPressu."
 
 #: wp-admin/includes/plugin.php:121
 msgid "Visit plugin homepage"
@@ -6489,7 +6489,7 @@ msgstr "Objekty na této stránce mohou být zobrazovány v několika sloupcích
 
 #: wp-admin/includes/template.php:3467
 msgid "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=\"_blank\">General Settings</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=\"_blank\">Základní nastavení Wordpressu</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=\"_blank\">Základní nastavení WordPressu</a>"
 
 #: wp-admin/includes/template.php:3481
 msgid "Enable accessibility mode"
@@ -6527,7 +6527,7 @@ msgstr "Nápověda"
 
 #: wp-admin/includes/template.php:3533
 msgid "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Documentation</a>"
-msgstr "<a href=\"http://www.separatista.net/wordpress-problemy-a-jejich-reseni\" target=\"_blank\">Wordpress - problémy a jejich řešení</a><br><a href=\"http://codex.wordpress.org/\" target=\"_blank\">Manuál (anglicky)</a>"
+msgstr "<a href=\"http://www.separatista.net/wordpress-problemy-a-jejich-reseni\" target=\"_blank\">WordPress - problémy a jejich řešení</a><br><a href=\"http://codex.wordpress.org/\" target=\"_blank\">Manuál (anglicky)</a>"
 
 #: wp-admin/includes/template.php:3535
 msgid "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
@@ -6819,7 +6819,7 @@ msgstr "<strong>Upozornění:</strong> Tato šablona zatím <strong>nebyla testo
 
 #: wp-admin/includes/theme-install.php:474
 msgid "<strong>Warning:</strong> This theme has not been marked as <strong>compatible</strong> with your version of WordPress."
-msgstr "<strong>Upozornění:</strong> Tato šablona pravděpodobně není <strong>kompatibilní</strong> s vámi používanou verzí Wordpressu."
+msgstr "<strong>Upozornění:</strong> Tato šablona pravděpodobně není <strong>kompatibilní</strong> s vámi používanou verzí WordPressu."
 
 #: wp-admin/includes/theme-install.php:507
 #, php-format
@@ -6875,7 +6875,7 @@ msgstr "Verze %s"
 #: wp-admin/includes/update.php:100
 #, php-format
 msgid "You are using a development version (%1$s). Cool! Please <a href=\"%2$s\">stay updated</a>."
-msgstr "Používáte vývojářskou verzi Wordpressu (%1$s). Děkujeme! Pravidelně, prosím, aktualizujte na <a href=\"%2$s\">nejnovější verzi</a>."
+msgstr "Používáte vývojářskou verzi WordPressu (%1$s). Děkujeme! Pravidelně, prosím, aktualizujte na <a href=\"%2$s\">nejnovější verzi</a>."
 
 #: wp-admin/includes/update.php:105
 #, php-format
@@ -6924,11 +6924,11 @@ msgstr "Nová verze %1$s je k dispozici. <a href=\"%2$s\" class=\"thickbox\" tit
 #: wp-admin/includes/update.php:212
 #, php-format
 msgid "An automated WordPress update has failed to complete - <a href=\"%s\">please attempt the update again now</a>."
-msgstr "Automatická aktualizace Wordpressu bohužel selhala - <a href=\"%s\">zkuste prosím spustit aktualizaci ještě jednou</a>."
+msgstr "Automatická aktualizace WordPressu bohužel selhala - <a href=\"%s\">zkuste prosím spustit aktualizaci ještě jednou</a>."
 
 #: wp-admin/includes/update.php:214
 msgid "An automated WordPress update has failed to complete! Please notify the site administrator."
-msgstr "Automatická aktualizace Wordpressu bohužel selhala! Kontaktujte, prosím, administrátora webu."
+msgstr "Automatická aktualizace WordPressu bohužel selhala! Kontaktujte, prosím, administrátora webu."
 
 #: wp-admin/includes/upgrade.php:62
 msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you."
@@ -7030,7 +7030,7 @@ msgid "You can&#8217;t give users that role."
 msgstr "Nemůžete přiřadit tomuto uživateli zvolenou úroveň."
 
 #: wp-admin/includes/user.php:138
-#: wp-login.php:236
+#: wp-login.php:239
 msgid "<strong>ERROR</strong>: Please enter a username."
 msgstr "<strong>CHYBA</strong>: Zadejte své uživatelské jméno."
 
@@ -7072,7 +7072,7 @@ msgid "<strong>ERROR</strong>: The e-mail address isn&#8217;t correct."
 msgstr "<strong>CHYBA</strong>: Zadaná emailová adresa není správná."
 
 #: wp-admin/includes/user.php:178
-#: wp-login.php:250
+#: wp-login.php:253
 msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
 msgstr "<strong>CHYBA</strong>: Tato emailová adresa je již registrována, zvolte si prosím nějakou jinou."
 
@@ -7086,7 +7086,7 @@ msgid ""
 "Notice: you're using the auto-generated password for your account. Would you like to change it to something you'll remember easier?<br />\n"
 "\t\t\t  <a href='%s'>Yes, Take me to my profile page</a> | <a href='%s' id='default-password-nag-no'>No Thanks, Do not remind me again.</a>"
 msgstr ""
-"Poznámka: Pro vaše přihlášení do Wordpressu používáte automaticky vygenerované heslo. Nechcete si ho změnit na nějaké, které si budete lépe pamatovat?<br />\n"
+"Poznámka: Pro vaše přihlášení do WordPressu používáte automaticky vygenerované heslo. Nechcete si ho změnit na nějaké, které si budete lépe pamatovat?<br />\n"
 "\t\t\t  <a href='%s'>Ano, chci si heslo změnit na stránce se svým profilem</a> | <a href='%s' id='default-password-nag-no'>Ne, děkuji za upozornění, ale ponechám si toto heslo a už mi to nepřipomínejte.</a>"
 
 #: wp-admin/includes/widgets.php:179
@@ -7107,7 +7107,7 @@ msgstr "Nástěnka"
 
 #: wp-admin/install.php:42
 msgid "WordPress &rsaquo; Installation"
-msgstr "Instalace &rsaquo; Wordpressu"
+msgstr "Instalace &rsaquo; WordPressu"
 
 #: wp-admin/install.php:54
 #, php-format
@@ -7142,7 +7142,7 @@ msgstr "WordPress byl již nainstalován"
 
 #: wp-admin/install.php:77
 msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
-msgstr "Wordpress byl již pravděpodobně nainstalován. Pokud jej chcete přeinstalovat, vymažte nejprve stávající tabulky v databázi."
+msgstr "WordPress byl již pravděpodobně nainstalován. Pokud jej chcete přeinstalovat, vymažte nejprve stávající tabulky v databázi."
 
 #: wp-admin/install.php:84
 msgid "Welcome"
@@ -7182,8 +7182,8 @@ msgid "WordPress has been installed. Were you expecting more steps? Sorry to dis
 msgstr "Instalace WordPress byla úspěšně dokončena. Očekávali jste něco složitějšího? Bohužel vás zklameme, můžete pokračovat přihlášením do administrace."
 
 #: wp-admin/install.php:141
-#: wp-login.php:495
-#: wp-login.php:514
+#: wp-login.php:498
+#: wp-login.php:517
 msgid "Log In"
 msgstr "Přihlásit se"
 
@@ -7373,7 +7373,7 @@ msgstr "Nástroje"
 
 #: wp-admin/menu.php:105
 msgid "Upgrade"
-msgstr "Aktualizovat Wordpress"
+msgstr "Aktualizovat WordPress"
 
 #: wp-admin/menu.php:107
 #: wp-admin/options.php:18
@@ -8064,7 +8064,7 @@ msgstr "XML-RPC"
 
 #: wp-admin/options-writing.php:78
 msgid "Enable the WordPress, Movable Type, MetaWeblog and Blogger XML-RPC publishing protocols."
-msgstr "Povolit publikační protokol XML-RPC Wordpressu, Movable Type, MetaWeblogu a Bloggeru."
+msgstr "Povolit publikační protokol XML-RPC WordPressu, Movable Type, MetaWeblogu a Bloggeru."
 
 #: wp-admin/options-writing.php:84
 msgid "Post via e-mail"
@@ -8288,7 +8288,7 @@ msgstr "Kliknutím zobrazíte seznam všech souborů, které budou smazány"
 
 #: wp-admin/plugins.php:228
 msgid "Plugins extend and expand the functionality of WordPress. Once a plugin is installed, you may activate it or deactivate it here."
-msgstr "Pluginy přidávají Wordpressu další funkce. Jejich instalace spočívá v nahrání (ručně s pomocí FTP klienta) souborů s pluginem do adresáře <code>wp-content/plugins</code>. Po instalaci můžete jednotlivé pluginy aktivovat či deaktivovat."
+msgstr "Pluginy přidávají WordPressu další funkce. Jejich instalace spočívá v nahrání (ručně s pomocí FTP klienta) souborů s pluginem do adresáře <code>wp-content/plugins</code>. Po instalaci můžete jednotlivé pluginy aktivovat či deaktivovat."
 
 #: wp-admin/plugins.php:229
 #, php-format
@@ -8298,7 +8298,7 @@ msgstr "Pokud v pluginu něco nefunguje tak, jak by mělo a WordPress tak nelze 
 #: wp-admin/plugins.php:230
 #, php-format
 msgid "You can find additional plugins for your site by using the new <a href=\"%1$s\">Plugin Browser/Installer</a> functionality or by browsing the <a href=\"http://wordpress.org/extend/plugins/\">WordPress Plugin Directory</a> directly and installing manually.  To <em>manually</em> install a plugin you generally just need to upload the plugin file into your <code>%2$s</code> directory.  Once a plugin has been installed, you may activate it here."
-msgstr "Další pluginy pro váš web můžete najít pomocí našich nových funkcí pro <a href=\"%1$s\">vyhledávání a automatickou instalaci pluginů</a> nebo přímo v <a href=\"http://wordpress.org/extend/plugins/\">oficiálním adresáři pluginů pro Wordpress</a>, kde si plugin můžete také přímo stáhnout a potom ho ručně nainstalovat. Abyste mohli plugin <em>ručně</em> nainstalovat, stačí pouze nahrát soubory pluginu do vašeho adresáře <code>%2$s</code>. Jakmile je plugin nainstalován, můžete ho tady rovnou aktivovat."
+msgstr "Další pluginy pro váš web můžete najít pomocí našich nových funkcí pro <a href=\"%1$s\">vyhledávání a automatickou instalaci pluginů</a> nebo přímo v <a href=\"http://wordpress.org/extend/plugins/\">oficiálním adresáři pluginů pro WordPress</a>, kde si plugin můžete také přímo stáhnout a potom ho ručně nainstalovat. Abyste mohli plugin <em>ručně</em> nainstalovat, stačí pouze nahrát soubory pluginu do vašeho adresáře <code>%2$s</code>. Jakmile je plugin nainstalován, můžete ho tady rovnou aktivovat."
 
 #: wp-admin/plugins.php:240
 #, php-format
@@ -8629,12 +8629,12 @@ msgstr "Nemáte dostatečné oprávnění pro instalaci šablon na tomto webu."
 
 #: wp-admin/themes.php:34
 msgid "Themes give your WordPress style. Once a theme is installed, you may preview it, activate it or deactivate it here."
-msgstr "Šablony přesně určují zobrazování informací z Wordpressu pro návštěvníky webu. Jakmile je šablona nainstalována, můžete ji zde rovnou aktivovat, zobrazit si její náhled, nebo ji deaktivovat."
+msgstr "Šablony přesně určují zobrazování informací z WordPressu pro návštěvníky webu. Jakmile je šablona nainstalována, můžete ji zde rovnou aktivovat, zobrazit si její náhled, nebo ji deaktivovat."
 
 #: wp-admin/themes.php:36
 #, php-format
 msgid "You can find additional themes for your site by using the new <a href=\"%1$s\">Theme Browser/Installer</a> functionality or by browsing the <a href=\"http://wordpress.org/extend/themes/\">WordPress Theme Directory</a> directly and installing manually.  To install a theme <em>manually</em>, <a href=\"%2$s\">upload its ZIP archive with the new uploader</a> or copy its folder via FTP into your <code>wp-content/themes</code> directory."
-msgstr "Další šablony pro váš web můžete najít pomocí našich nových funkcí pro <a href=\"%1$s\">vyhledávání a automatickou instalaci šablon</a> nebo přímo v <a href=\"http://wordpress.org/extend/themes/\">oficiálním adresáři šablon pro Wordpress</a>, kde si šablonu můžete přímo stáhnout a potom ji ručně nainstalovat. Abyste mohli šablonu <em>ručně</em> nainstalovat, <a href=\"%2$s\">nahrajte šablonu prostřednictvím administračního rozhraní ve formátu .zip souboru</a> nebo zkopírujte pomocí FTP celou složku se všemi jejími soubory do vašeho adresáře <code>wp-content/themes</code>."
+msgstr "Další šablony pro váš web můžete najít pomocí našich nových funkcí pro <a href=\"%1$s\">vyhledávání a automatickou instalaci šablon</a> nebo přímo v <a href=\"http://wordpress.org/extend/themes/\">oficiálním adresáři šablon pro WordPress</a>, kde si šablonu můžete přímo stáhnout a potom ji ručně nainstalovat. Abyste mohli šablonu <em>ručně</em> nainstalovat, <a href=\"%2$s\">nahrajte šablonu prostřednictvím administračního rozhraní ve formátu .zip souboru</a> nebo zkopírujte pomocí FTP celou složku se všemi jejími soubory do vašeho adresáře <code>wp-content/themes</code>."
 
 #: wp-admin/themes.php:37
 msgid "Once a theme is uploaded, you should see it on this page."
@@ -8740,15 +8740,15 @@ msgstr "Následující šablony jsou nainstalované, ale nejsou kompletní. Šab
 #: wp-admin/tools.php:44
 #: wp-admin/tools.php:60
 msgid "Turbo:"
-msgstr "Zrychlit Wordpress:"
+msgstr "Zrychlit WordPress:"
 
 #: wp-admin/tools.php:27
 msgid "Speed up WordPress"
-msgstr "Využití Google Gears k urychlení práce s Wordpressem"
+msgstr "Využití Google Gears k urychlení práce s WordPressem"
 
 #: wp-admin/tools.php:28
 msgid "WordPress now has support for Gears, which adds new features to your web browser."
-msgstr "Wordpress nyní podporuje Google Gears, které umožňují vašemu prohlížeči využívat některé nové možnosti."
+msgstr "WordPress nyní podporuje Google Gears, které umožňují vašemu prohlížeči využívat některé nové možnosti."
 
 #: wp-admin/tools.php:29
 msgid "More information..."
@@ -8756,7 +8756,7 @@ msgstr "Více informací..."
 
 #: wp-admin/tools.php:30
 msgid "After you install and enable Gears, most of WordPress&#8217; images, scripts, and CSS files will be stored locally on your computer. This speeds up page load time."
-msgstr "Po instalaci a povolení Google Gears bude většina obrázků, PHP skriptů a CSS souborů používaných Wordpressem uložena přímo ve vašem počítači. Tím si na svém počítači zrychlíte načítání internetových stránek."
+msgstr "Po instalaci a povolení Google Gears bude většina obrázků, PHP skriptů a CSS souborů používaných WordPressem uložena přímo ve vašem počítači. Tím si na svém počítači zrychlíte načítání internetových stránek."
 
 #: wp-admin/tools.php:31
 msgid "Don&#8217;t install on a public or shared computer."
@@ -8770,7 +8770,7 @@ msgstr "Stav Google Gears"
 
 #: wp-admin/tools.php:37
 msgid "Gears is installed on this computer, but is not enabled for use with WordPress."
-msgstr "Google Gears jsou sice nainstalovány na tomto počítači, ale zatím ještě nejsou zapnuty pro vaše internetové stránky s Wordpressem."
+msgstr "Google Gears jsou sice nainstalovány na tomto počítači, ale zatím ještě nejsou zapnuty pro vaše internetové stránky s WordPressem."
 
 #: wp-admin/tools.php:38
 msgid "To enable it click the button below."
@@ -8827,7 +8827,7 @@ msgstr "Google Gears povolíte tak, že změníte jejich nastavení ve vašem pr
 
 #: wp-admin/tools.php:76
 msgid "Turbo is not available for your browser."
-msgstr "Funkce pro zrychlení Wordpressu není ve vašem internetovém prohlížeči dostupná."
+msgstr "Funkce pro zrychlení WordPressu není ve vašem internetovém prohlížeči dostupná."
 
 #: wp-admin/tools.php:83
 msgid "Press This is a bookmarklet: a little app that runs in your browser and lets you grab bits of the web."
@@ -8853,7 +8853,7 @@ msgstr "Aktualizovat automaticky"
 
 #: wp-admin/update-core.php:25
 msgid "You are using a development version of WordPress.  You can upgrade to the latest nightly build automatically or download the nightly build and install it manually:"
-msgstr "Používáte vývojářskou verzi Wordpressu.  Můžete provést automatickou aktualizaci na nejnovější verzi (aktualizována každý den), nebo ji stáhnout a nainstalovat ručně:"
+msgstr "Používáte vývojářskou verzi WordPressu.  Můžete provést automatickou aktualizaci na nejnovější verzi (aktualizována každý den), nebo ji stáhnout a nainstalovat ručně:"
 
 #: wp-admin/update-core.php:26
 msgid "Download nightly build"
@@ -8862,7 +8862,7 @@ msgstr "Stáhnout nejnovější verzi ručně"
 #: wp-admin/update-core.php:29
 #, php-format
 msgid "You have the latest version of WordPress. You do not need to upgrade. However, if you want to re-install version %s, you can do so automatically or download the package and re-install manually:"
-msgstr "Používáte nejnovější verzi Wordpressu. Není tedy potřeba Wordpress aktualizovat. Pokud však chcete přeinstalovat stávající verzi %s, můžete provést buď automatickou aktualizaci, nebo si stáhnout instalační balíček a přeinstalovat Wordpress ručně:"
+msgstr "Používáte nejnovější verzi WordPressu. Není tedy potřeba WordPress aktualizovat. Pokud však chcete přeinstalovat stávající verzi %s, můžete provést buď automatickou aktualizaci, nebo si stáhnout instalační balíček a přeinstalovat WordPress ručně:"
 
 #: wp-admin/update-core.php:30
 msgid "Re-install Automatically"
@@ -8871,7 +8871,7 @@ msgstr "Automatická aktualizace"
 #: wp-admin/update-core.php:33
 #, php-format
 msgid "You can upgrade to version %s automatically or download the package and install it manually:"
-msgstr "Můžete provést buď automatickou aktualizaci na verzi %s, nebo si stáhnout instalační balíček a nainstalovat Wordpress ručně:"
+msgstr "Můžete provést buď automatickou aktualizaci na verzi %s, nebo si stáhnout instalační balíček a nainstalovat WordPress ručně:"
 
 #: wp-admin/update-core.php:35
 #, php-format
@@ -8888,12 +8888,12 @@ msgstr "Obnovit tuto aktualizaci"
 
 #: wp-admin/update-core.php:55
 msgid "This localized version contains both the translation and various other localization fixes. You can skip upgrading if you want to keep your current translation."
-msgstr "Nová lokalizovaná verze Wordpressu obsahuje nejen samotný aktuální překlad, ale i další opravy drobných lokalizačních problémů a chyb. Pokud si chcete ponechat vaši současnou lokalizovanou verzi, tak můžete její aktualizaci přeskočit."
+msgstr "Nová lokalizovaná verze WordPressu obsahuje nejen samotný aktuální překlad, ale i další opravy drobných lokalizačních problémů a chyb. Pokud si chcete ponechat vaši současnou lokalizovanou verzi, tak můžete její aktualizaci přeskočit."
 
 #: wp-admin/update-core.php:57
 #, php-format
 msgid "You are about to install WordPress %s <strong>in English.</strong> There is a chance this upgrade will break your translation. You may prefer to wait for the localized version to be released."
-msgstr "WordPress %s je ihned po vydání dostupný v původní <strong>anglické verzi (en_US)</strong>. Protože však používáte českou verzi Wordpressu, nemusí být po této aktualizaci vše správně přeloženo a mohou se objevit i další související problémy. Měli byste tedy raději počkat až se vám v nabídce objeví i příslušná <strong>česká verze (cs_CZ)</strong>. Zkontrolujte si, zda už je <a target=\"_blank\" href=\"http://www.separatista.net\">dostupná</a> nová verze češtiny, případně její autory popožeňte svým komentářem."
+msgstr "WordPress %s je ihned po vydání dostupný v původní <strong>anglické verzi (en_US)</strong>. Protože však používáte českou verzi WordPressu, nemusí být po této aktualizaci vše správně přeloženo a mohou se objevit i další související problémy. Měli byste tedy raději počkat až se vám v nabídce objeví i příslušná <strong>česká verze (cs_CZ)</strong>. Zkontrolujte si, zda už je <a target=\"_blank\" href=\"http://www.separatista.net\">dostupná</a> nová verze češtiny, případně její autory popožeňte svým komentářem."
 
 #: wp-admin/update-core.php:67
 #: wp-admin/update-core.php:79
@@ -8913,7 +8913,7 @@ msgstr "Aktualizovat WordPress"
 
 #: wp-admin/update-core.php:106
 msgid "You have the latest version of WordPress. You do not need to upgrade"
-msgstr "Používáte nejnovější verzi Wordpressu. Není tedy potřeba Wordpress aktualizovat."
+msgstr "Používáte nejnovější verzi WordPressu. Není tedy potřeba WordPress aktualizovat."
 
 #: wp-admin/update-core.php:110
 msgid "<strong>Important:</strong> before upgrading, please <a href=\"http://codex.wordpress.org/WordPress_Backups\">backup your database and files</a>."
@@ -8921,7 +8921,7 @@ msgstr "<strong>Upozornění:</strong> Před každou aktualizací proveďte pros
 
 #: wp-admin/update-core.php:114
 msgid "There is a new version of WordPress available for upgrade"
-msgstr "Nová verze Wordpressu je k dispozici"
+msgstr "Nová verze WordPressu je k dispozici"
 
 #: wp-admin/update-core.php:182
 msgid "Installation Failed"
@@ -8929,7 +8929,7 @@ msgstr "Instalace se nezdařila"
 
 #: wp-admin/update-core.php:184
 msgid "WordPress upgraded successfully"
-msgstr "Wordpress byl úspěšně aktualizován"
+msgstr "WordPress byl úspěšně aktualizován"
 
 #: wp-admin/update-links.php:19
 msgid "Feature disabled."
@@ -9008,7 +9008,7 @@ msgstr "Není třeba aktualizovat"
 
 #: wp-admin/upgrade.php:53
 msgid "Your WordPress database is already up-to-date!"
-msgstr "Vaše Wordpress databáze je aktuální!"
+msgstr "Vaše WordPress databáze je aktuální!"
 
 #: wp-admin/upgrade.php:63
 msgid "Database Upgrade Required"
@@ -9016,7 +9016,7 @@ msgstr "Je nutná aktualizace databáze"
 
 #: wp-admin/upgrade.php:64
 msgid "WordPress has been updated! Before we send you on your way, we have to upgrade your database to the newest version."
-msgstr "Wordpress byl úspěšně aktualizován! Ale ještě než vás necháme s redakčním systémem pracovat, musíme ještě aktualizovat databázi."
+msgstr "WordPress byl úspěšně aktualizován! Ale ještě než vás necháme s redakčním systémem pracovat, musíme ještě aktualizovat databázi."
 
 #: wp-admin/upgrade.php:65
 msgid "The upgrade process may take a little while, so please be patient."
@@ -9615,7 +9615,7 @@ msgstr "Váš klíč byl smazán."
 
 #: wp-content/plugins/akismet/akismet.php:121
 msgid "Your key has been verified. Happy blogging!"
-msgstr "Váš klíč byl úspěšně ověřen. Užívejte Wordpress bez spamů!"
+msgstr "Váš klíč byl úspěšně ověřen. Užívejte si WordPress bez spamů!"
 
 #: wp-content/plugins/akismet/akismet.php:122
 msgid "The key you entered is invalid. Please double-check it."
@@ -9764,12 +9764,12 @@ msgstr "Aby vše fungovalo, musíte ještě <a href=\"%1$s\">vložit svůj API k
 
 #: wp-content/plugins/akismet/akismet.php:335
 msgid "Akismet has detected a problem."
-msgstr "U Akismetu se objevil problém."
+msgstr "U Akismetu se objevil nějaký problém."
 
 #: wp-content/plugins/akismet/akismet.php:335
 #, php-format
 msgid "A server or network problem is preventing Akismet from working correctly.  <a href=\"%1$s\">Click here for more information</a> about how to fix the problem."
-msgstr "Nějaký problém se serverem nebo sítí znemožnil správné fungování Akismetu.  <a href=\"%1$s\">Kliknutím získáte podrobnější informace</a> o tomto problému a možnostech jeho řešení."
+msgstr "Patrně jde o potíže se serverem nebo počítačovou sítí, které znemožnily správné fungování Akismetu.  <a href=\"%1$s\">Kliknutím získáte podrobnější informace</a> o tomto problému a možnostech jeho řešení."
 
 #: wp-content/plugins/akismet/akismet.php:579
 #, php-format
@@ -10525,7 +10525,7 @@ msgstr "Zobrazit jako rozbalovací menu"
 
 #: wp-includes/default-widgets.php:283
 msgid "Log in/out, admin, feed and WordPress links"
-msgstr "Přihlášení/odhlášení, administrace, RSS zdroj a oficiální odkazy Wordpressu"
+msgstr "Přihlášení/odhlášení, administrace, RSS zdroj a oficiální odkazy WordPressu"
 
 #: wp-includes/default-widgets.php:284
 #: wp-includes/default-widgets.php:289
@@ -11003,9 +11003,9 @@ msgid "Search for:"
 msgstr "Hledat:"
 
 #: wp-includes/general-template.php:147
-#: wp-login.php:352
 #: wp-login.php:355
-#: wp-login.php:424
+#: wp-login.php:358
+#: wp-login.php:427
 msgid "Log in"
 msgstr "Přihlásit se"
 
@@ -11014,9 +11014,9 @@ msgid "Log out"
 msgstr "Odhlásit se"
 
 #: wp-includes/general-template.php:236
-#: wp-login.php:353
-#: wp-login.php:420
-#: wp-login.php:524
+#: wp-login.php:356
+#: wp-login.php:423
+#: wp-login.php:527
 msgid "Register"
 msgstr "Registrace"
 
@@ -13041,7 +13041,7 @@ msgstr "Registrace nového uživatele na webu %s:"
 #: wp-includes/pluggable.php:1151
 #: wp-includes/pluggable.php:1159
 #: wp-login.php:162
-#: wp-login.php:204
+#: wp-login.php:207
 #, php-format
 msgid "Username: %s"
 msgstr "Uživatelské jméno: %s"
@@ -13057,7 +13057,7 @@ msgid "[%s] New User Registration"
 msgstr "[%s] Registrace nového uživatele"
 
 #: wp-includes/pluggable.php:1160
-#: wp-login.php:205
+#: wp-login.php:208
 #, php-format
 msgid "Password: %s"
 msgstr "Heslo: %s"
@@ -13497,128 +13497,129 @@ msgid "[%s] Password Reset"
 msgstr "[%s] Vytvoření nového hesla"
 
 #: wp-login.php:172
-#: wp-login.php:214
+#: wp-login.php:217
 msgid "The e-mail could not be sent."
 msgstr "Email nemohl být odeslán."
 
 #: wp-login.php:172
-#: wp-login.php:214
+#: wp-login.php:217
 msgid "Possible reason: your host may have disabled the mail() function..."
 msgstr "Možná příčina: Váš poskytovatel hostingu nemá povolenou funkci mail()..."
 
 #: wp-login.php:191
-#: wp-login.php:195
+#: wp-login.php:194
+#: wp-login.php:198
 msgid "Invalid key"
 msgstr "Špatný klíč"
 
-#: wp-login.php:208
+#: wp-login.php:211
 #, php-format
 msgid "[%s] Your new password"
 msgstr "[%s] Vaše nové heslo"
 
-#: wp-login.php:238
+#: wp-login.php:241
 msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
 msgstr "<strong>CHYBA</strong>: Špatné uživatelské jméno. Zadejte prosím platné uživatelské jméno."
 
-#: wp-login.php:241
+#: wp-login.php:244
 msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
 msgstr "<strong>CHYBA</strong>: Toto uživatelské jméno je již registrováno, zvolte si prosím nějaké jiné."
 
-#: wp-login.php:245
+#: wp-login.php:248
 msgid "<strong>ERROR</strong>: Please type your e-mail address."
 msgstr "<strong>CHYBA</strong>: Zadejte prosím svoji emailovou adresu."
 
-#: wp-login.php:247
+#: wp-login.php:250
 msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
 msgstr "<strong>CHYBA</strong>: Zadaná emailová adresa není správná."
 
-#: wp-login.php:262
+#: wp-login.php:265
 #, php-format
 msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
 msgstr "<strong>CHYBA</strong>: Registrace se nezdařila... Kontaktujte prosím <a href=\"mailto:%s\">administrátora webu</a> !"
 
-#: wp-login.php:332
+#: wp-login.php:335
 msgid "Sorry, that key does not appear to be valid."
 msgstr "Omlouváme se, ale tento klíč zřejmě není platný."
 
-#: wp-login.php:335
+#: wp-login.php:338
 msgid "Lost Password"
 msgstr "Zapomenuté heslo"
 
-#: wp-login.php:335
+#: wp-login.php:338
 msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
 msgstr "Zadejte prosím své uživatelské jméno nebo emailovou adresu. Nové heslo vám bude automaticky zasláno emailem."
 
-#: wp-login.php:343
+#: wp-login.php:346
 msgid "Username or E-mail:"
 msgstr "Uživatelské jméno nebo email:"
 
-#: wp-login.php:347
+#: wp-login.php:350
 msgid "Get New Password"
 msgstr "Získat nové heslo"
 
-#: wp-login.php:361
-#: wp-login.php:430
-#: wp-login.php:533
+#: wp-login.php:364
+#: wp-login.php:433
+#: wp-login.php:536
 msgid "Are you lost?"
 msgstr "Nevíte co dělat dál?"
 
-#: wp-login.php:361
-#: wp-login.php:430
-#: wp-login.php:533
+#: wp-login.php:364
+#: wp-login.php:433
+#: wp-login.php:536
 #, php-format
 msgid "&larr; Back to %s"
 msgstr "&larr; Zpět na %s"
 
-#: wp-login.php:405
+#: wp-login.php:408
 msgid "Registration Form"
 msgstr "Registrační formulář"
 
-#: wp-login.php:405
+#: wp-login.php:408
 msgid "Register For This Site"
 msgstr "Registrace na tomto webu"
 
-#: wp-login.php:418
+#: wp-login.php:421
 msgid "A password will be e-mailed to you."
 msgstr "Heslo vám bude automaticky zasláno emailem."
 
-#: wp-login.php:425
-#: wp-login.php:525
-#: wp-login.php:527
+#: wp-login.php:428
+#: wp-login.php:528
+#: wp-login.php:530
 msgid "Password Lost and Found"
 msgstr "Potřebujete nové heslo?"
 
-#: wp-login.php:425
-#: wp-login.php:525
-#: wp-login.php:527
+#: wp-login.php:428
+#: wp-login.php:528
+#: wp-login.php:530
 msgid "Lost your password?"
 msgstr "Zapomněli jste heslo?"
 
-#: wp-login.php:486
+#: wp-login.php:489
 msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
 msgstr "<strong>CHYBA</strong>: Váš internetový prohlížeč buď nepodporuje cookies, nebo jsou přímo zakázány. Pro bezproblémové používání WordPressu musíte mít <a href='http://www.google.com/cookies.html'>cookies povoleny</a>."
 
-#: wp-login.php:489
+#: wp-login.php:492
 msgid "You are now logged out."
 msgstr "Odhlášení proběhlo úspěšně."
 
-#: wp-login.php:490
+#: wp-login.php:493
 msgid "User registration is currently not allowed."
 msgstr "Registrace uživatelů není v tuto chvíli povolena."
 
-#: wp-login.php:491
+#: wp-login.php:494
 msgid "Check your e-mail for the confirmation link."
 msgstr "Zkontrolujte svojí emailovou schránku, zda už nedorazil ověřovací email."
 
-#: wp-login.php:492
+#: wp-login.php:495
 msgid "Check your e-mail for your new password."
 msgstr "Zkontrolujte svojí emailovou schránku, zda už nedorazilo nové heslo."
 
-#: wp-login.php:493
+#: wp-login.php:496
 msgid "Registration complete. Please check your e-mail."
 msgstr "Registrace úspěšně dokončena. Zkontrolujte prosím svojí emailovou schránku."
 
-#: wp-login.php:512
+#: wp-login.php:515
 msgid "Remember Me"
 msgstr "Pamatovat si mě"
 
@@ -13982,17 +13983,17 @@ msgstr ""
 "<li>Má uživatel <code>%2$s</code> oprávnění používat databázi <code>%1$s</code>?</li>\n"
 "<li>V některých případech může mít název databáze prefix (předponu) ve tvaru vašeho uživatelského jména, tedy např. <code>uživatelskéjméno_%1$s</code>. Nejedná se o tento problém?</li>\n"
 "</ul>\n"
-"<p>Pokud nevíte jak zprovoznit databázi, měli byste <strong>kontaktovat svého poskytovatele hostingových služeb</strong>. V případě dalších problémů zkuste nalézt řešení na <a href=\"http://wordpress.org/support/\">Fóru podpory Wordpressu</a>.</p>"
+"<p>Pokud nevíte jak zprovoznit databázi, měli byste <strong>kontaktovat svého poskytovatele hostingových služeb</strong>. V případě dalších problémů zkuste nalézt řešení na <a href=\"http://wordpress.org/support/\">Fóru podpory WordPressu</a>.</p>"
 
 #. Not gettexted string WP_I18N_DB_QUERY_ERROR_FULL
 #: wp-includes/wp-db.php:561
 msgid "WordPress database error %1$s for query %2$s made by %3$s"
-msgstr "Chyba databáze Wordpressu %1$s u dotazu %2$s, který vytvořil %3$s"
+msgstr "Chyba databáze WordPressu %1$s u dotazu %2$s, který vytvořil %3$s"
 
 #. Not gettexted string WP_I18N_DB_QUERY_ERROR
 #: wp-includes/wp-db.php:563
 msgid "WordPress database error %1$s for query %2$s"
-msgstr "Chyba databáze ve Wordpressu %1$s u dotazu %2$s"
+msgstr "Chyba databáze ve WordPressu %1$s u dotazu %2$s"
 
 #. Not gettexted string WP_I18N_DB_GETROW_ERROR
 #: wp-includes/wp-db.php:860
@@ -14007,7 +14008,7 @@ msgstr "Váš server sice používá PHP verze %s, ale WordPress vyžaduje minim
 #. Not gettexted string WP_I18N_OLD_MYSQL
 #: wp-settings.php:147
 msgid "Your PHP installation appears to be missing the MySQL extension which is required by WordPress."
-msgstr "Vypadá to, že ve vaší instalaci PHP chybí rozšíření MySQL, které je však pro fungování Wordpressu vyžadováno."
+msgstr "Vypadá to, že ve vaší instalaci PHP chybí rozšíření MySQL, které je však pro fungování WordPressu vyžadováno."
 
 #. Not gettexted string WP_I18N_BAD_PREFIX
 #: wp-settings.php:271
@@ -14022,7 +14023,7 @@ msgstr "ltr"
 #. Not gettexted string WP_I18N_NO_CONFIG
 #: wp-load.php:50
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
-msgstr "Pravděpodobně nemáte vytvořen soubor <code>wp-config.php</code>. Než začnete s instalací Wordpressu, tak musíte tento soubor vytvořit. Nevíte jak? <a href='http://codex.wordpress.org/Editing_wp-config.php'>Pomoc najdete v manuálu</a>. Můžete také zkusit vytvořit soubor <code>wp-config.php</code> prostřednictvím webového rozhraní, ale tato možnost nefunguje na všech hostingových serverech. Nejbezpečnějším způsobem je vytvoření tohoto souboru manuálně.</p><p><a href='%ssetup-config.php' class='button'>Vytvořit konfigurační soubor</a>"
+msgstr "Pravděpodobně nemáte vytvořen soubor <code>wp-config.php</code>. Než začnete s instalací WordPressu, tak musíte tento soubor vytvořit. Nevíte jak? <a href='http://codex.wordpress.org/Editing_wp-config.php'>Pomoc najdete v manuálu</a>. Můžete také zkusit vytvořit soubor <code>wp-config.php</code> prostřednictvím webového rozhraní, ale tato možnost nefunguje na všech hostingových serverech. Nejbezpečnějším způsobem je vytvoření tohoto souboru manuálně.</p><p><a href='%ssetup-config.php' class='button'>Vytvořit konfigurační soubor</a>"
 
 #~ msgid "Enable syntax highlighting"
 #~ msgstr "Povolit zvýrazňování zdrojového kódu"

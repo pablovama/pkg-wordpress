@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP Korean by Soul\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-08-03 16:56+0000\n"
-"PO-Revision-Date: 2009-08-05 14:52+0900\n"
+"POT-Creation-Date: 2009-08-12 04:56+0000\n"
+"PO-Revision-Date: 2009-08-16 14:20+0900\n"
 "Last-Translator: Jong-In Kim <soulofpure@hotmail.com>\n"
 "Language-Team:  <(original by Jang Seok-moon) drssay97@gmail.com, (fixed by "
 "Jong-In Kim)soulofpure@hotmail.com>\n"
@@ -582,7 +582,7 @@ msgstr "글쓴이"
 #: wp-admin/comment.php:115 wp-admin/includes/template.php:900
 #: wp-admin/includes/template.php:2281 wp-admin/user-edit.php:261
 #: wp-admin/user-new.php:109 wp-content/themes/classic/comments-popup.php:76
-#: wp-login.php:414
+#: wp-login.php:417
 msgid "E-mail"
 msgstr "이메일"
 
@@ -858,8 +858,8 @@ msgstr[1] "댓글 %s개를 받아들였습니다."
 #, php-format
 msgid "%s comment deleted"
 msgid_plural "%s comments deleted"
-msgstr[0] "%s 댓글 지워짐"
-msgstr[1] "%s 댓글 지워짐"
+msgstr[0] "%s 댓글이 삭제되었습니다."
+msgstr[1] "%s 댓글이 삭제되었습니다."
 
 #: wp-admin/edit-comments.php:127
 #, php-format
@@ -2215,7 +2215,7 @@ msgstr[1] "%s 글을 업데이트 할 수 없습니다, 누군가가 편집중�
 msgid "Post deleted."
 msgid_plural "%s posts deleted."
 msgstr[0] "글이 삭제되었습니다."
-msgstr[1] "%s 글이 삭제되었습니다."
+msgstr[1] "%s개의 글이 삭제되었습니다."
 
 #: wp-admin/edit.php:147
 #, php-format
@@ -5120,13 +5120,13 @@ msgstr "호스트이름"
 
 #: wp-admin/includes/file.php:755 wp-admin/includes/template.php:898
 #: wp-admin/install.php:129 wp-admin/user-edit.php:187
-#: wp-admin/user-new.php:96 wp-login.php:410 wp-login.php:504
+#: wp-admin/user-new.php:96 wp-login.php:413 wp-login.php:507
 msgid "Username"
 msgstr "사용자명"
 
 #: wp-admin/includes/file.php:760 wp-admin/includes/template.php:1079
 #: wp-admin/install.php:133 wp-admin/options-writing.php:100
-#: wp-admin/user-new.php:119 wp-login.php:508
+#: wp-admin/user-new.php:119 wp-login.php:511
 msgid "Password"
 msgstr "비밀번호"
 
@@ -7151,7 +7151,7 @@ msgstr "새 워드프레스 블로그"
 msgid "You can&#8217;t give users that role."
 msgstr "당신은 그 역할을 유저에게 줄 수 없습니다."
 
-#: wp-admin/includes/user.php:138 wp-login.php:236
+#: wp-admin/includes/user.php:138 wp-login.php:239
 msgid "<strong>ERROR</strong>: Please enter a username."
 msgstr "<strong>에러</strong>:사용자 이름을 적어주세요."
 
@@ -7203,7 +7203,7 @@ msgstr "<strong>에러</strong>: 이메일 주소를 넣으세요."
 msgid "<strong>ERROR</strong>: The e-mail address isn&#8217;t correct."
 msgstr "<strong>에러</strong>: 이메일 주소가 올바르지 않습니다."
 
-#: wp-admin/includes/user.php:178 wp-login.php:250
+#: wp-admin/includes/user.php:178 wp-login.php:253
 msgid ""
 "<strong>ERROR</strong>: This email is already registered, please choose "
 "another one."
@@ -7339,7 +7339,7 @@ msgstr ""
 "워드프레스가 설치되었습니다. 더 복잡한 것을 기대하셨나요? 실망을 안겨드려 죄"
 "송합니다. 더 할 일이 없습니다! :)"
 
-#: wp-admin/install.php:141 wp-login.php:495 wp-login.php:514
+#: wp-admin/install.php:141 wp-login.php:498 wp-login.php:517
 msgid "Log In"
 msgstr "로그인"
 
@@ -11555,8 +11555,8 @@ msgstr "메뉴얼 오프셋"
 msgid "Search for:"
 msgstr "검색:"
 
-#: wp-includes/general-template.php:147 wp-login.php:352 wp-login.php:355
-#: wp-login.php:424
+#: wp-includes/general-template.php:147 wp-login.php:355 wp-login.php:358
+#: wp-login.php:427
 msgid "Log in"
 msgstr "로그인"
 
@@ -11564,8 +11564,8 @@ msgstr "로그인"
 msgid "Log out"
 msgstr "로그아웃"
 
-#: wp-includes/general-template.php:236 wp-login.php:353 wp-login.php:420
-#: wp-login.php:524
+#: wp-includes/general-template.php:236 wp-login.php:356 wp-login.php:423
+#: wp-login.php:527
 msgid "Register"
 msgstr "등록하기"
 
@@ -13655,7 +13655,7 @@ msgid "New user registration on your blog %s:"
 msgstr "당신 블로그 %s 에 새로운 사용자 가입:"
 
 #: wp-includes/pluggable.php:1151 wp-includes/pluggable.php:1159
-#: wp-login.php:162 wp-login.php:204
+#: wp-login.php:162 wp-login.php:207
 #, php-format
 msgid "Username: %s"
 msgstr "사용자 이름: %s"
@@ -13670,7 +13670,7 @@ msgstr "이메일: %s"
 msgid "[%s] New User Registration"
 msgstr "[%s] 새로운 사용자 등록"
 
-#: wp-includes/pluggable.php:1160 wp-login.php:205
+#: wp-includes/pluggable.php:1160 wp-login.php:208
 #, php-format
 msgid "Password: %s"
 msgstr "비밀번호: %s"
@@ -14117,25 +14117,25 @@ msgstr ""
 msgid "[%s] Password Reset"
 msgstr "[%s] 비밀번호 재설정"
 
-#: wp-login.php:172 wp-login.php:214
+#: wp-login.php:172 wp-login.php:217
 msgid "The e-mail could not be sent."
 msgstr "이메일을 보낼 수 없습니다."
 
-#: wp-login.php:172 wp-login.php:214
+#: wp-login.php:172 wp-login.php:217
 msgid "Possible reason: your host may have disabled the mail() function..."
 msgstr ""
 "가능한 이유: 당신의 서버(host)에서 mail() 함수를 막아놓았을 수 있습니다..."
 
-#: wp-login.php:191 wp-login.php:195
+#: wp-login.php:191 wp-login.php:194 wp-login.php:198
 msgid "Invalid key"
 msgstr "잘못된 키"
 
-#: wp-login.php:208
+#: wp-login.php:211
 #, php-format
 msgid "[%s] Your new password"
 msgstr "[%s] 당신의 새 비밀번호입니다."
 
-#: wp-login.php:238
+#: wp-login.php:241
 msgid ""
 "<strong>ERROR</strong>: This username is invalid.  Please enter a valid "
 "username."
@@ -14143,7 +14143,7 @@ msgstr ""
 "<strong>에러</strong>: 이 사용자 이름은 올바르지 않습니다. 올바른 사용자 이름"
 "을 입력하여 주십시오."
 
-#: wp-login.php:241
+#: wp-login.php:244
 msgid ""
 "<strong>ERROR</strong>: This username is already registered, please choose "
 "another one."
@@ -14151,15 +14151,15 @@ msgstr ""
 "<strong>에러</strong>: 이 사용자 이름은 이미 등록되어 있습니다. 다른 이름을 "
 "선택해 주세요."
 
-#: wp-login.php:245
+#: wp-login.php:248
 msgid "<strong>ERROR</strong>: Please type your e-mail address."
 msgstr "<strong>에러</strong>: 당신의 이메일 주소를 입력하세요."
 
-#: wp-login.php:247
+#: wp-login.php:250
 msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
 msgstr "<strong>에러</strong>: 이메일 주소가 올바르지 않습니다."
 
-#: wp-login.php:262
+#: wp-login.php:265
 #, php-format
 msgid ""
 "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
@@ -14168,15 +14168,15 @@ msgstr ""
 "<strong>에러</strong>: 등록할 수 없습니다. <a href=\"mailto:%s\">운영자</a>에"
 "게 연락해 보세요!"
 
-#: wp-login.php:332
+#: wp-login.php:335
 msgid "Sorry, that key does not appear to be valid."
 msgstr "죄송합니다. 쓸 수 없는 키(key)입니다."
 
-#: wp-login.php:335
+#: wp-login.php:338
 msgid "Lost Password"
 msgstr "비밀번호 분실"
 
-#: wp-login.php:335
+#: wp-login.php:338
 msgid ""
 "Please enter your username or e-mail address. You will receive a new "
 "password via e-mail."
@@ -14184,44 +14184,44 @@ msgstr ""
 "당신의 사용자 이름이나 이메일 주소를 입력하세요. 새 비밀번호를 보내드리겠습니"
 "다."
 
-#: wp-login.php:343
+#: wp-login.php:346
 msgid "Username or E-mail:"
 msgstr "사용자 이름이나 이메일 주소:"
 
-#: wp-login.php:347
+#: wp-login.php:350
 msgid "Get New Password"
 msgstr "새 비밀번호 얻기"
 
-#: wp-login.php:361 wp-login.php:430 wp-login.php:533
+#: wp-login.php:364 wp-login.php:433 wp-login.php:536
 msgid "Are you lost?"
 msgstr "잃어버리셨나요?"
 
-#: wp-login.php:361 wp-login.php:430 wp-login.php:533
+#: wp-login.php:364 wp-login.php:433 wp-login.php:536
 #, php-format
 msgid "&larr; Back to %s"
 msgstr "&larr; %s로 돌아가기"
 
-#: wp-login.php:405
+#: wp-login.php:408
 msgid "Registration Form"
 msgstr "등록 양식"
 
-#: wp-login.php:405
+#: wp-login.php:408
 msgid "Register For This Site"
 msgstr "이 사이트에 등록하기"
 
-#: wp-login.php:418
+#: wp-login.php:421
 msgid "A password will be e-mailed to you."
 msgstr "비밀번호가 이메일로 전송될 것 입니다."
 
-#: wp-login.php:425 wp-login.php:525 wp-login.php:527
+#: wp-login.php:428 wp-login.php:528 wp-login.php:530
 msgid "Password Lost and Found"
 msgstr "비밀번호 분실 및 찾기"
 
-#: wp-login.php:425 wp-login.php:525 wp-login.php:527
+#: wp-login.php:428 wp-login.php:528 wp-login.php:530
 msgid "Lost your password?"
 msgstr "비밀번호를 잃어버렸나요?"
 
-#: wp-login.php:486
+#: wp-login.php:489
 msgid ""
 "<strong>ERROR</strong>: Cookies are blocked or not supported by your "
 "browser. You must <a href='http://www.google.com/cookies.html'>enable "
@@ -14231,27 +14231,27 @@ msgstr ""
 "지 않습니다. 워드프레스를 사용하려면 <a href='http://www.google.com/cookies."
 "html'>쿠키를  사용</a>해야 합니다."
 
-#: wp-login.php:489
+#: wp-login.php:492
 msgid "You are now logged out."
 msgstr "로그아웃 하셨습니다."
 
-#: wp-login.php:490
+#: wp-login.php:493
 msgid "User registration is currently not allowed."
 msgstr "현재 사용자 등록이 허용되지 않습니다."
 
-#: wp-login.php:491
+#: wp-login.php:494
 msgid "Check your e-mail for the confirmation link."
 msgstr "확인 링크를 보려면 먼저 이메일을 확인해 보세요."
 
-#: wp-login.php:492
+#: wp-login.php:495
 msgid "Check your e-mail for your new password."
 msgstr "새 비밀번호를 보려면 먼저 이메일을 확인해 보세요."
 
-#: wp-login.php:493
+#: wp-login.php:496
 msgid "Registration complete. Please check your e-mail."
 msgstr "등록이 완료 되었습니다. 이메일을 확인하십시오."
 
-#: wp-login.php:512
+#: wp-login.php:515
 msgid "Remember Me"
 msgstr "기억하기"
 
@@ -14721,10 +14721,10 @@ msgstr ""
 #~ msgstr[0] "댓글 %s개를 휴지통으로 이동했습니다."
 #~ msgstr[1] "댓글 %s개를 휴지통으로 이동했습니다."
 
-#~ msgid "%s comment removed from the trash"
-#~ msgid_plural "%s comments removed from the trash"
-#~ msgstr[0] "%1$s 댓글이 휴지통에서 삭제되었습니다."
-#~ msgstr[1] "%1$s 댓글이 휴지통에서 삭제되었습니다."
+#~ msgid "%s comment restored from the trash"
+#~ msgid_plural "%s comments restored from the trash"
+#~ msgstr[0] "%1$s 댓글이 휴지통에서 복원되었습니다."
+#~ msgstr[1] "%1$s 댓글이 휴지통에서 복원되었습니다."
 
 #~ msgid "%s comment permanently deleted"
 #~ msgid_plural "%s comments permanently deleted"
@@ -14775,11 +14775,11 @@ msgstr ""
 #~ msgid "Error in moving to trash..."
 #~ msgstr "휴지통으로 이동 중에 문제가 생겼습니다..."
 
-#~ msgid "You are not allowed to remove this page from the trash."
-#~ msgstr "당신은 휴지통에 있는 이 페이지를 삭제할 수 없습니다."
+#~ msgid "You are not allowed to restore this page from the trash."
+#~ msgstr "당신은 휴지통에 있는 이 페이지를 복원할 수 없습니다."
 
-#~ msgid "Error in removing from trash..."
-#~ msgstr "휴지통에서 삭제 중에 문제가 생겼습니다..."
+#~ msgid "Error in restoring from trash..."
+#~ msgstr "휴지통에서 복원 중에 문제가 생겼습니다..."
 
 #~ msgctxt "page"
 #~ msgid "Trash"
@@ -14804,16 +14804,16 @@ msgstr ""
 #~ msgstr[0] "페이지가 휴지통으로 이동되었습니다."
 #~ msgstr[1] "%s개의 페이지가 휴지통으로 이동되었습니다."
 
-#~ msgid "Page removed from the trash."
-#~ msgid_plural "%s pages removed from the trash."
-#~ msgstr[0] "페이지가 휴지통에서 삭제되었습니다."
-#~ msgstr[1] "%s 개의 페이지가 휴지통에서 삭제되었습니다."
+#~ msgid "Page restored from the trash."
+#~ msgid_plural "%s pages restored from the trash."
+#~ msgstr[0] "페이지가 휴지통에서 복원되었습니다."
+#~ msgstr[1] "%s 개의 페이지가 휴지통에서 복원되었습니다."
 
 #~ msgid "You are not allowed to move this post to the trash."
 #~ msgstr "당신은 이 글을 휴지통으로 이동시킬 수 없습니다."
 
-#~ msgid "You are not allowed to remove this post from the trash."
-#~ msgstr "당신은 휴지통의 이 글을 삭제할 수 없습니다."
+#~ msgid "You are not allowed to restore this post from the trash."
+#~ msgstr "당신은 휴지통의 이 글을 복원할 수 없습니다."
 
 #~ msgid "Post permanently deleted."
 #~ msgid_plural "%s posts permanently deleted."
@@ -14825,10 +14825,10 @@ msgstr ""
 #~ msgstr[0] "글이 휴지통으로 이동되었습니다."
 #~ msgstr[1] "%s 개의 글이 휴지통으로 이동되었습니다."
 
-#~ msgid "Post removed from the trash."
-#~ msgid_plural "%s posts removed from the trash."
-#~ msgstr[0] "글이 휴지통에서 삭제되었습니다."
-#~ msgstr[1] "%s 개의 글이 휴지통에서 삭제되었습니다."
+#~ msgid "Post restored from the trash."
+#~ msgid_plural "%s posts restored from the trash."
+#~ msgstr[0] "글이 휴지통에서 복원되었습니다."
+#~ msgstr[1] "%s 개의 글이 휴지통에서 복원되었습니다."
 
 #~ msgctxt "post"
 #~ msgid "Trash"
@@ -14887,18 +14887,18 @@ msgstr ""
 #~ "이 페이지가 휴지통에 있어서 편집할 수 없습니다. 휴지통에서 꺼내서 재시도해"
 #~ "보시기 바랍니다."
 
-#~ msgid "You are not allowed to remove this page form the trash."
-#~ msgstr "당신은 휴지통의 이 페이지를 삭제할 수 없습니다."
+#~ msgid "You are not allowed to move this page out of the trash."
+#~ msgstr "당신은 이 페이지를 휴지통에서 꺼낼 수 없습니다."
 
 #~ msgid ""
-#~ "You can&#8217;t edit this post because it is in the Trash. Please move it "
-#~ "out of the Trash and try again."
+#~ "You can&#8217;t edit this post because it is in the Trash. Please restore "
+#~ "it and try again."
 #~ msgstr ""
-#~ "이 글이 휴지통에 있어서 편집할 수 없습니다. 휴지통에서 꺼내서 재시도해보시"
-#~ "기 바랍니다."
+#~ "이 글이 휴지통에 있어서 편집할 수 없습니다. 휴지통에서 복원하여 재시도해보"
+#~ "시기 바랍니다."
 
-#~ msgid "Error in restoring from trash..."
-#~ msgstr "휴지통에서 복원 중에 문제가 생겼습니다..."
+#~ msgid "You are not allowed to move this post out of the trash."
+#~ msgstr "당신은 이 글을 휴지통에서 꺼낼 수 없습니다."
 
 #~ msgid "Media moved to Trash."
 #~ msgstr "미디어가 휴지통으로 이동됨."
@@ -14918,8 +14918,17 @@ msgstr ""
 #~ msgid "Moved to Trash"
 #~ msgstr "휴지통으로 이동됨"
 
+#~ msgid "Slow down cowboy, no need to check for new mails so often!"
+#~ msgstr "서두르지 마세요, 새로운 메일을 자주 확인할 필요가 없습니다!"
+
 #~ msgid "Allow new users to sign up"
 #~ msgstr "새로운 사용자 등록 허용"
+
+#~ msgid "Error in removing from trash..."
+#~ msgstr "휴지통에서 삭제 중에 문제가 생겼습니다..."
+
+#~ msgid "You are not allowed to remove this page form the trash."
+#~ msgstr "당신은 휴지통의 이 페이지를 삭제할 수 없습니다."
 
 #~ msgid "Comment|noun"
 #~ msgstr "댓글"

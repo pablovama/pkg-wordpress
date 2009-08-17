@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-07-20 04:56+0000\n"
-"PO-Revision-Date: 2009-07-21 16:25+0100\n"
+"POT-Creation-Date: 2009-08-03 16:56+0000\n"
+"PO-Revision-Date: 2009-08-04 11:51+0100\n"
 "Last-Translator: René Clausen Nielsen <rcn@shevy.dk>\n"
 "Language-Team: Danish <rcn@shevy.dk>\n"
 "MIME-Version: 1.0\n"
@@ -24,32 +24,32 @@ msgstr "<strong>ADVARSEL: Du er logget ud!</strong> Kunne ikke gemme kladde. <a 
 
 #: wp-admin/admin-ajax.php:164
 #: wp-admin/categories.php:177
-#: wp-admin/edit-comments.php:214
+#: wp-admin/edit-comments.php:217
 #: wp-admin/edit-link-categories.php:100
-#: wp-admin/edit-pages.php:199
+#: wp-admin/edit-pages.php:202
 #: wp-admin/edit-tags.php:190
-#: wp-admin/edit.php:184
+#: wp-admin/edit.php:187
 #: wp-admin/includes/media.php:1777
 #: wp-admin/includes/plugin-install.php:287
 #: wp-admin/includes/theme-install.php:386
-#: wp-admin/plugins.php:344
-#: wp-admin/themes.php:77
+#: wp-admin/plugins.php:362
+#: wp-admin/themes.php:80
 #: wp-admin/upload.php:227
 msgid "&laquo;"
 msgstr "&laquo;"
 
 #: wp-admin/admin-ajax.php:165
 #: wp-admin/categories.php:178
-#: wp-admin/edit-comments.php:215
+#: wp-admin/edit-comments.php:218
 #: wp-admin/edit-link-categories.php:101
-#: wp-admin/edit-pages.php:200
+#: wp-admin/edit-pages.php:203
 #: wp-admin/edit-tags.php:191
-#: wp-admin/edit.php:185
+#: wp-admin/edit.php:188
 #: wp-admin/includes/media.php:1778
 #: wp-admin/includes/plugin-install.php:288
 #: wp-admin/includes/theme-install.php:387
-#: wp-admin/plugins.php:345
-#: wp-admin/themes.php:78
+#: wp-admin/plugins.php:363
+#: wp-admin/themes.php:81
 #: wp-admin/upload.php:228
 msgid "&raquo;"
 msgstr "&raquo;"
@@ -176,11 +176,14 @@ msgstr "Gem er sl&#229;et fra: %s redigerer lige nu indl&#230;gget."
 #: wp-admin/categories.php:26
 #: wp-admin/categories.php:41
 #: wp-admin/categories.php:92
+#: wp-admin/edit-comments.php:13
 #: wp-admin/edit-link-categories.php:18
+#: wp-admin/edit-pages.php:13
 #: wp-admin/edit-tags.php:35
 #: wp-admin/edit-tags.php:51
 #: wp-admin/edit-tags.php:71
 #: wp-admin/edit-tags.php:106
+#: wp-admin/edit.php:13
 #: wp-admin/import/opml.php:28
 #: wp-admin/import/opml.php:80
 #: wp-admin/import/wp-cat2tag.php:28
@@ -191,11 +194,12 @@ msgstr "Gem er sl&#229;et fra: %s redigerer lige nu indl&#230;gget."
 #: wp-admin/options.php:39
 #: wp-admin/press-this.php:14
 #: wp-admin/sidebar.php:19
-#: wp-admin/themes.php:21
+#: wp-admin/themes.php:13
+#: wp-admin/themes.php:24
 #: wp-admin/user-new.php:13
 #: wp-admin/users.php:16
 #: wp-admin/widgets.php:16
-#: wp-content/plugins/akismet/akismet.php:64
+#: wp-content/plugins/akismet/akismet.php:66
 msgid "Cheatin&#8217; uh?"
 msgstr "Hey! Snyder du?"
 
@@ -217,8 +221,8 @@ msgid "No posts found."
 msgstr "Ingen indl&#230;g fundet."
 
 #: wp-admin/admin-ajax.php:1201
-#: wp-admin/edit-form-advanced.php:594
-#: wp-admin/edit-page-form.php:438
+#: wp-admin/edit-form-advanced.php:598
+#: wp-admin/edit-page-form.php:442
 #: wp-admin/includes/dashboard.php:388
 #: wp-admin/includes/media.php:978
 #: wp-admin/includes/media.php:1642
@@ -228,7 +232,7 @@ msgstr "Ingen indl&#230;g fundet."
 #: wp-admin/includes/template.php:801
 #: wp-admin/includes/template.php:1036
 #: wp-includes/js/tinymce/langs/wp-langs.php:295
-#: wp-includes/post.php:3425
+#: wp-includes/post.php:3422
 msgid "Title"
 msgstr "Titel"
 
@@ -237,16 +241,16 @@ msgid "Time"
 msgstr "Tid"
 
 #: wp-admin/admin-ajax.php:1201
-#: wp-admin/edit-form-comment.php:31
+#: wp-admin/edit-form-comment.php:35
 #: wp-admin/includes/template.php:1203
 msgid "Status"
 msgstr "Status"
 
 #: wp-admin/admin-ajax.php:1207
-#: wp-admin/edit-form-advanced.php:114
-#: wp-admin/edit-form-advanced.php:135
-#: wp-admin/edit-page-form.php:108
-#: wp-admin/edit-page-form.php:129
+#: wp-admin/edit-form-advanced.php:118
+#: wp-admin/edit-form-advanced.php:139
+#: wp-admin/edit-page-form.php:112
+#: wp-admin/edit-page-form.php:133
 #: wp-admin/includes/template.php:1209
 #: wp-admin/includes/template.php:1426
 #: wp-admin/includes/template.php:1644
@@ -258,10 +262,10 @@ msgid "Published"
 msgstr "Udgivet"
 
 #: wp-admin/admin-ajax.php:1210
-#: wp-admin/edit-form-advanced.php:117
-#: wp-admin/edit-form-advanced.php:139
-#: wp-admin/edit-page-form.php:111
-#: wp-admin/edit-page-form.php:133
+#: wp-admin/edit-form-advanced.php:121
+#: wp-admin/edit-form-advanced.php:143
+#: wp-admin/edit-page-form.php:115
+#: wp-admin/edit-page-form.php:137
 #: wp-admin/includes/template.php:1210
 #: wp-admin/includes/template.php:1431
 #: wp-admin/includes/template.php:1649
@@ -269,17 +273,17 @@ msgid "Scheduled"
 msgstr "Planlagt"
 
 #: wp-admin/admin-ajax.php:1213
-#: wp-admin/edit-form-advanced.php:120
-#: wp-admin/edit-form-advanced.php:141
-#: wp-admin/edit-page-form.php:114
-#: wp-admin/edit-page-form.php:135
+#: wp-admin/edit-form-advanced.php:124
+#: wp-admin/edit-form-advanced.php:145
+#: wp-admin/edit-page-form.php:118
+#: wp-admin/edit-page-form.php:139
 #: wp-admin/includes/template.php:1215
 #: wp-includes/post.php:357
 msgid "Pending Review"
 msgstr "Afventer genneml&#230;sning"
 
 #: wp-admin/admin-ajax.php:1216
-#: wp-admin/edit-attachment-rows.php:130
+#: wp-admin/edit-attachment-rows.php:132
 #: wp-admin/includes/template.php:1404
 #: wp-admin/includes/template.php:1626
 #: wp-admin/upload.php:359
@@ -288,8 +292,8 @@ msgstr "Ikke udgivet"
 
 #. translators: date format in table columns, see http://php.net/date
 #: wp-admin/admin-ajax.php:1224
-#: wp-admin/edit-attachment-rows.php:141
-#: wp-admin/edit-attachment-rows.php:155
+#: wp-admin/edit-attachment-rows.php:143
+#: wp-admin/edit-attachment-rows.php:157
 #: wp-admin/includes/template.php:1416
 #: wp-admin/includes/template.php:1638
 #: wp-admin/includes/template.php:2125
@@ -301,15 +305,15 @@ msgstr "d.m.Y"
 msgid "An error has occured. Please reload the page and try again."
 msgstr "Der er opst&#229;et en fejl. Genindl&#230;s siden og pr&#248;v igen."
 
-#: wp-admin/admin-footer.php:19
+#: wp-admin/admin-footer.php:23
 msgid "Thank you for creating with <a href=\"http://wordpress.org/\">WordPress</a>."
 msgstr "Tak fordi du udgiver med <a href=\"http://www.wordpress.org\">WordPress</a>"
 
-#: wp-admin/admin-footer.php:19
+#: wp-admin/admin-footer.php:23
 msgid "<a href=\"http://codex.wordpress.org/\">Documentation</a>"
 msgstr "<a href=\"http://codex.wordpress.org/\">Dokumentation</a>"
 
-#: wp-admin/admin-footer.php:19
+#: wp-admin/admin-footer.php:23
 msgid "<a href=\"http://wordpress.org/support/forum/4\">Feedback</a>"
 msgstr "<a href=\"http://wordpress.org/support/forum/4\">Feedback</a>"
 
@@ -361,7 +365,7 @@ msgid "Cannot load importer."
 msgstr "Kan ikke hente importer."
 
 #: wp-admin/admin.php:134
-#: wp-admin/import.php:11
+#: wp-admin/import.php:15
 #: wp-admin/import/blogger.php:193
 #: wp-admin/import/textpattern.php:73
 #: wp-admin/menu.php:103
@@ -377,8 +381,8 @@ msgid "You do not have permission to upload files."
 msgstr "Du har ikke rettigheder til at uploade filer."
 
 #: wp-admin/categories.php:12
-#: wp-admin/edit-form-advanced.php:346
-#: wp-admin/edit-link-form.php:150
+#: wp-admin/edit-form-advanced.php:350
+#: wp-admin/edit-link-form.php:154
 #: wp-admin/includes/template.php:754
 #: wp-admin/includes/template.php:855
 #: wp-admin/includes/template.php:1102
@@ -397,7 +401,7 @@ msgid "You are not allowed to delete categories."
 msgstr "Du har ikke tilladelse til at slette kategorier."
 
 #: wp-admin/categories.php:78
-#: wp-admin/edit-category-form.php:43
+#: wp-admin/edit-category-form.php:50
 #: wp-admin/link-category.php:64
 msgid "Edit Category"
 msgstr "Rediger kategori"
@@ -423,11 +427,11 @@ msgid "Category not added."
 msgstr "Kategori ikke tilf&#248;jet."
 
 #: wp-admin/categories.php:134
-#: wp-admin/edit-comments.php:101
+#: wp-admin/edit-comments.php:104
 #: wp-admin/edit-link-categories.php:66
-#: wp-admin/edit-pages.php:111
+#: wp-admin/edit-pages.php:114
 #: wp-admin/edit-tags.php:151
-#: wp-admin/edit.php:101
+#: wp-admin/edit.php:104
 #: wp-admin/link-manager.php:76
 #: wp-admin/upload.php:169
 #: wp-admin/users.php:244
@@ -444,19 +448,19 @@ msgstr "S&#248;g kategorier"
 
 #: wp-admin/categories.php:189
 #: wp-admin/categories.php:229
-#: wp-admin/edit-comments.php:245
-#: wp-admin/edit-comments.php:332
+#: wp-admin/edit-comments.php:248
+#: wp-admin/edit-comments.php:335
 #: wp-admin/edit-link-categories.php:112
 #: wp-admin/edit-link-categories.php:166
-#: wp-admin/edit-pages.php:216
-#: wp-admin/edit-pages.php:255
+#: wp-admin/edit-pages.php:219
+#: wp-admin/edit-pages.php:258
 #: wp-admin/edit-tags.php:202
 #: wp-admin/edit-tags.php:245
-#: wp-admin/edit.php:194
-#: wp-admin/edit.php:274
+#: wp-admin/edit.php:197
+#: wp-admin/edit.php:277
 #: wp-admin/link-manager.php:103
 #: wp-admin/link-manager.php:261
-#: wp-admin/plugins.php:460
+#: wp-admin/plugins.php:478
 #: wp-admin/upload.php:244
 #: wp-admin/upload.php:400
 #: wp-admin/users.php:308
@@ -466,21 +470,21 @@ msgstr "Massehandling:"
 
 #: wp-admin/categories.php:190
 #: wp-admin/categories.php:230
-#: wp-admin/edit-attachment-rows.php:85
-#: wp-admin/edit-comments.php:255
-#: wp-admin/edit-comments.php:342
-#: wp-admin/edit-form-advanced.php:232
-#: wp-admin/edit-form-comment.php:67
+#: wp-admin/edit-attachment-rows.php:87
+#: wp-admin/edit-comments.php:258
+#: wp-admin/edit-comments.php:345
+#: wp-admin/edit-form-advanced.php:236
+#: wp-admin/edit-form-comment.php:71
 #: wp-admin/edit-link-categories.php:113
 #: wp-admin/edit-link-categories.php:167
-#: wp-admin/edit-link-form.php:88
-#: wp-admin/edit-page-form.php:219
-#: wp-admin/edit-pages.php:218
-#: wp-admin/edit-pages.php:257
+#: wp-admin/edit-link-form.php:92
+#: wp-admin/edit-page-form.php:223
+#: wp-admin/edit-pages.php:221
+#: wp-admin/edit-pages.php:260
 #: wp-admin/edit-tags.php:203
 #: wp-admin/edit-tags.php:246
-#: wp-admin/edit.php:196
-#: wp-admin/edit.php:276
+#: wp-admin/edit.php:199
+#: wp-admin/edit.php:279
 #: wp-admin/includes/dashboard.php:545
 #: wp-admin/includes/media.php:1173
 #: wp-admin/includes/template.php:133
@@ -495,9 +499,9 @@ msgstr "Massehandling:"
 #: wp-admin/link-manager.php:104
 #: wp-admin/link-manager.php:200
 #: wp-admin/link-manager.php:262
-#: wp-admin/plugins.php:403
-#: wp-admin/plugins.php:468
-#: wp-admin/themes.php:216
+#: wp-admin/plugins.php:421
+#: wp-admin/plugins.php:486
+#: wp-admin/themes.php:219
 #: wp-admin/upload.php:245
 #: wp-admin/upload.php:344
 #: wp-admin/upload.php:401
@@ -508,20 +512,20 @@ msgstr "Slet"
 
 #: wp-admin/categories.php:192
 #: wp-admin/categories.php:232
-#: wp-admin/edit-comments.php:257
-#: wp-admin/edit-comments.php:344
+#: wp-admin/edit-comments.php:260
+#: wp-admin/edit-comments.php:347
 #: wp-admin/edit-link-categories.php:115
 #: wp-admin/edit-link-categories.php:169
-#: wp-admin/edit-pages.php:220
-#: wp-admin/edit-pages.php:259
+#: wp-admin/edit-pages.php:223
+#: wp-admin/edit-pages.php:262
 #: wp-admin/edit-tags.php:205
 #: wp-admin/edit-tags.php:248
-#: wp-admin/edit.php:198
-#: wp-admin/edit.php:278
+#: wp-admin/edit.php:201
+#: wp-admin/edit.php:281
 #: wp-admin/includes/template.php:3666
 #: wp-admin/link-manager.php:106
 #: wp-admin/link-manager.php:264
-#: wp-admin/plugins.php:471
+#: wp-admin/plugins.php:489
 #: wp-admin/upload.php:250
 #: wp-admin/upload.php:406
 #: wp-admin/users.php:311
@@ -543,41 +547,41 @@ msgstr "Kategorier kan efter &#248;nske konverteres til tags ved at bruge <a hre
 #: wp-admin/categories.php:256
 #: wp-admin/categories.php:286
 #: wp-admin/edit-link-categories.php:214
-#: wp-admin/edit-link-category-form.php:27
+#: wp-admin/edit-link-category-form.php:34
 msgid "Add Category"
 msgstr "Tilf&#248;j kategori"
 
 #: wp-admin/categories.php:263
-#: wp-admin/edit-category-form.php:51
+#: wp-admin/edit-category-form.php:58
 msgid "Category Name"
 msgstr "Kategorinavn"
 
 #: wp-admin/categories.php:265
-#: wp-admin/edit-category-form.php:53
+#: wp-admin/edit-category-form.php:60
 msgid "The name is used to identify the category almost everywhere, for example under the post or in the category widget."
 msgstr "Dette navn bruges til at identificere kategorien s&#229;dan ca. alle steder - blandt andet under indl&#230;gget og i kategoriwidgeten."
 
 #: wp-admin/categories.php:269
-#: wp-admin/edit-category-form.php:56
+#: wp-admin/edit-category-form.php:63
 msgid "Category Slug"
 msgstr "Kort titel (til permalinks)"
 
 #: wp-admin/categories.php:271
-#: wp-admin/edit-category-form.php:58
+#: wp-admin/edit-category-form.php:65
 #: wp-admin/edit-link-categories.php:206
-#: wp-admin/edit-link-category-form.php:71
-#: wp-admin/edit-tag-form.php:35
+#: wp-admin/edit-link-category-form.php:78
+#: wp-admin/edit-tag-form.php:42
 #: wp-admin/edit-tags.php:292
 msgid "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
 msgstr "Et &#8220;slug&#8221; er den url-venlige udgave af navnet. Det er normalt skrevet med sm&#229; bogstaver og indeholder kun bogstaver, tal og bindestreger."
 
 #: wp-admin/categories.php:275
-#: wp-admin/edit-category-form.php:61
+#: wp-admin/edit-category-form.php:68
 msgid "Category Parent"
 msgstr "Kategoriens for&#230;lder"
 
 #: wp-admin/categories.php:276
-#: wp-admin/edit-category-form.php:63
+#: wp-admin/edit-category-form.php:70
 #: wp-admin/includes/media.php:760
 #: wp-admin/includes/media.php:841
 #: wp-admin/includes/media.php:1906
@@ -590,14 +594,14 @@ msgid "None"
 msgstr "Ingen"
 
 #: wp-admin/categories.php:277
-#: wp-admin/edit-category-form.php:64
+#: wp-admin/edit-category-form.php:71
 msgid "Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have children categories for Bebop and Big Band. Totally optional."
 msgstr "Modsat tags kan kategorier v&#230;re hierarkiske. Du kan eksempelvis have kategorien Jazz, og under den have underkategorier for Bebop og Big Band. Helt valgfrit."
 
 #: wp-admin/categories.php:281
-#: wp-admin/edit-category-form.php:68
-#: wp-admin/edit-link-form.php:391
-#: wp-admin/edit-tag-form.php:38
+#: wp-admin/edit-category-form.php:75
+#: wp-admin/edit-link-form.php:395
+#: wp-admin/edit-tag-form.php:45
 #: wp-admin/edit-tags.php:296
 #: wp-admin/includes/media.php:866
 #: wp-admin/includes/media.php:986
@@ -606,24 +610,24 @@ msgstr "Modsat tags kan kategorier v&#230;re hierarkiske. Du kan eksempelvis hav
 #: wp-admin/includes/template.php:869
 #: wp-admin/includes/template.php:879
 #: wp-admin/includes/template.php:889
-#: wp-admin/plugins.php:370
-#: wp-admin/plugins.php:378
+#: wp-admin/plugins.php:388
+#: wp-admin/plugins.php:396
 #: wp-admin/press-this.php:135
 #: wp-admin/press-this.php:168
-#: wp-admin/themes.php:273
+#: wp-admin/themes.php:276
 msgid "Description"
 msgstr "Beskrivelse"
 
 #: wp-admin/categories.php:283
-#: wp-admin/edit-category-form.php:70
-#: wp-admin/edit-tag-form.php:40
+#: wp-admin/edit-category-form.php:77
+#: wp-admin/edit-tag-form.php:47
 #: wp-admin/edit-tags.php:298
 msgid "The description is not prominent by default, however some themes may show it."
 msgstr "Beskrivelsen vises ikke som standard, men nogle temaer viser den."
 
 #: wp-admin/comment.php:34
-#: wp-admin/edit-form-comment.php:12
-#: wp-admin/edit-form-comment.php:23
+#: wp-admin/edit-form-comment.php:16
+#: wp-admin/edit-form-comment.php:27
 msgid "Edit Comment"
 msgstr "Rediger kommentar"
 
@@ -695,9 +699,9 @@ msgid "No"
 msgstr "Nej"
 
 #: wp-admin/comment.php:110
-#: wp-admin/edit-form-advanced.php:469
-#: wp-admin/edit-form-comment.php:82
-#: wp-admin/edit-pages.php:299
+#: wp-admin/edit-form-advanced.php:473
+#: wp-admin/edit-form-comment.php:86
+#: wp-admin/edit-pages.php:302
 #: wp-admin/includes/plugin-install.php:164
 #: wp-admin/includes/template.php:753
 #: wp-admin/includes/template.php:778
@@ -731,7 +735,7 @@ msgstr "URL"
 
 #. translators: field name in comment form
 #: wp-admin/comment.php:126
-#: wp-admin/edit-form-advanced.php:471
+#: wp-admin/edit-form-advanced.php:475
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
 #: wp-includes/comment-template.php:647
@@ -785,14 +789,14 @@ msgstr "Benyt original farve"
 
 #: wp-admin/custom-header.php:290
 #: wp-admin/import/blogger.php:661
-#: wp-admin/options-discussion.php:223
-#: wp-admin/options-general.php:274
-#: wp-admin/options-media.php:68
-#: wp-admin/options-misc.php:70
-#: wp-admin/options-permalink.php:221
-#: wp-admin/options-privacy.php:42
-#: wp-admin/options-reading.php:83
-#: wp-admin/options-writing.php:130
+#: wp-admin/options-discussion.php:226
+#: wp-admin/options-general.php:277
+#: wp-admin/options-media.php:71
+#: wp-admin/options-misc.php:73
+#: wp-admin/options-permalink.php:224
+#: wp-admin/options-privacy.php:45
+#: wp-admin/options-reading.php:86
+#: wp-admin/options-writing.php:133
 #: wp-admin/options.php:133
 msgid "Save Changes"
 msgstr "Gem &#230;ndringer"
@@ -851,9 +855,9 @@ msgstr "Header f&#230;rdig!"
 msgid "Visit your site and you should see the new header now."
 msgstr "Bes&#248;g din side, hvor du burde kunne se din nye header nu."
 
-#: wp-admin/edit-attachment-rows.php:65
-#: wp-admin/edit-attachment-rows.php:77
-#: wp-admin/edit-attachment-rows.php:185
+#: wp-admin/edit-attachment-rows.php:67
+#: wp-admin/edit-attachment-rows.php:79
+#: wp-admin/edit-attachment-rows.php:187
 #: wp-admin/includes/dashboard.php:450
 #: wp-admin/includes/template.php:128
 #: wp-admin/includes/template.php:299
@@ -867,19 +871,19 @@ msgstr "Bes&#248;g din side, hvor du burde kunne se din nye header nu."
 msgid "Edit &#8220;%s&#8221;"
 msgstr "Rediger &#8220;%s&#8221;"
 
-#: wp-admin/edit-attachment-rows.php:83
-#: wp-admin/edit-attachment-rows.php:185
-#: wp-admin/edit-form-advanced.php:129
-#: wp-admin/edit-form-advanced.php:169
-#: wp-admin/edit-form-advanced.php:218
-#: wp-admin/edit-form-comment.php:58
-#: wp-admin/edit-page-form.php:123
-#: wp-admin/edit-page-form.php:163
-#: wp-admin/edit-page-form.php:205
-#: wp-admin/edit-pages.php:217
-#: wp-admin/edit-pages.php:256
-#: wp-admin/edit.php:195
-#: wp-admin/edit.php:275
+#: wp-admin/edit-attachment-rows.php:85
+#: wp-admin/edit-attachment-rows.php:187
+#: wp-admin/edit-form-advanced.php:133
+#: wp-admin/edit-form-advanced.php:173
+#: wp-admin/edit-form-advanced.php:222
+#: wp-admin/edit-form-comment.php:62
+#: wp-admin/edit-page-form.php:127
+#: wp-admin/edit-page-form.php:167
+#: wp-admin/edit-page-form.php:209
+#: wp-admin/edit-pages.php:220
+#: wp-admin/edit-pages.php:259
+#: wp-admin/edit.php:198
+#: wp-admin/edit.php:278
 #: wp-admin/includes/dashboard.php:541
 #: wp-admin/includes/post.php:1007
 #: wp-admin/includes/template.php:130
@@ -895,7 +899,7 @@ msgstr "Rediger &#8220;%s&#8221;"
 #: wp-admin/menu.php:33
 #: wp-admin/menu.php:54
 #: wp-admin/menu.php:60
-#: wp-admin/plugins.php:400
+#: wp-admin/plugins.php:418
 #: wp-admin/upload.php:342
 #: wp-includes/script-loader.php:275
 #: wp-includes/script-loader.php:299
@@ -903,7 +907,7 @@ msgstr "Rediger &#8220;%s&#8221;"
 msgid "Edit"
 msgstr "Rediger"
 
-#: wp-admin/edit-attachment-rows.php:85
+#: wp-admin/edit-attachment-rows.php:87
 #: wp-admin/upload.php:344
 #, php-format
 msgid ""
@@ -913,7 +917,7 @@ msgstr ""
 "Du er ved at slette den vedh&#230;ftede fil '%s'\n"
 "  'Annuller' for at stoppe, 'Ok' for at slette."
 
-#: wp-admin/edit-attachment-rows.php:86
+#: wp-admin/edit-attachment-rows.php:88
 #: wp-admin/includes/template.php:1458
 #: wp-admin/includes/template.php:1673
 #: wp-admin/upload.php:345
@@ -921,7 +925,7 @@ msgstr ""
 msgid "View &#8220;%s&#8221;"
 msgstr "Se &#8220;%s&#8221;"
 
-#: wp-admin/edit-attachment-rows.php:86
+#: wp-admin/edit-attachment-rows.php:88
 #: wp-admin/includes/template.php:1458
 #: wp-admin/includes/template.php:1532
 #: wp-admin/includes/template.php:1673
@@ -929,12 +933,12 @@ msgstr "Se &#8220;%s&#8221;"
 msgid "View"
 msgstr "Vis"
 
-#: wp-admin/edit-attachment-rows.php:116
+#: wp-admin/edit-attachment-rows.php:118
 #: wp-admin/includes/template.php:1503
 msgid "No Tags"
 msgstr "Ingen tags"
 
-#: wp-admin/edit-attachment-rows.php:132
+#: wp-admin/edit-attachment-rows.php:134
 #: wp-admin/includes/dashboard.php:450
 #: wp-admin/includes/template.php:1407
 #: wp-admin/includes/template.php:1629
@@ -942,13 +946,13 @@ msgstr "Ingen tags"
 msgid "Y/m/d g:i:s A"
 msgstr "d.m.Y H:i"
 
-#: wp-admin/edit-attachment-rows.php:137
+#: wp-admin/edit-attachment-rows.php:139
 #: wp-admin/upload.php:366
 #, php-format
 msgid "%s from now"
 msgstr "%s fra nu"
 
-#: wp-admin/edit-attachment-rows.php:139
+#: wp-admin/edit-attachment-rows.php:141
 #: wp-admin/includes/plugin-install.php:507
 #: wp-admin/includes/template.php:1414
 #: wp-admin/includes/template.php:1636
@@ -959,7 +963,7 @@ msgstr "%s fra nu"
 msgid "%s ago"
 msgstr "%s siden"
 
-#: wp-admin/edit-attachment-rows.php:171
+#: wp-admin/edit-attachment-rows.php:173
 #: wp-admin/includes/template.php:1513
 #: wp-admin/includes/template.php:1696
 #: wp-admin/includes/template.php:2217
@@ -968,7 +972,7 @@ msgid "%s pending"
 msgstr "%s venter"
 
 #. translators: comment count link
-#: wp-admin/edit-attachment-rows.php:174
+#: wp-admin/edit-attachment-rows.php:176
 #: wp-admin/includes/template.php:1516
 #: wp-admin/includes/template.php:1699
 #: wp-admin/includes/template.php:2220
@@ -977,7 +981,7 @@ msgid "0"
 msgstr "0"
 
 #. translators: comment count link
-#: wp-admin/edit-attachment-rows.php:174
+#: wp-admin/edit-attachment-rows.php:176
 #: wp-admin/includes/template.php:1516
 #: wp-admin/includes/template.php:1699
 #: wp-admin/includes/template.php:2220
@@ -986,7 +990,7 @@ msgid "1"
 msgstr "1"
 
 #. translators: comment count link: % will be substituted by comment count
-#: wp-admin/edit-attachment-rows.php:174
+#: wp-admin/edit-attachment-rows.php:176
 #: wp-admin/includes/template.php:1516
 #: wp-admin/includes/template.php:1699
 #: wp-admin/includes/template.php:2220
@@ -994,205 +998,209 @@ msgctxt "comment count"
 msgid "%"
 msgstr "%"
 
-#: wp-admin/edit-attachment-rows.php:186
+#: wp-admin/edit-attachment-rows.php:188
 msgid "Get permalink"
 msgstr "Hent permalink"
 
-#: wp-admin/edit-attachment-rows.php:205
+#: wp-admin/edit-attachment-rows.php:207
 #: wp-admin/upload.php:378
 msgid "No media attachments found."
 msgstr "Ingen medievedh&#230;ftninger fundet."
 
-#: wp-admin/edit-category-form.php:74
-#: wp-admin/edit-link-category-form.php:20
+#: wp-admin/edit-category-form.php:14
+msgid "You do not have sufficient permissions to edit categories for this blog."
+msgstr "Du har ikke tilstr&#230;kkelige rettigheder til at redigere kategorier p&#229; denne blog."
+
+#: wp-admin/edit-category-form.php:81
+#: wp-admin/edit-link-category-form.php:27
 #: wp-admin/includes/template.php:266
 msgid "Update Category"
 msgstr "Opdater kategori"
 
-#: wp-admin/edit-comments.php:80
+#: wp-admin/edit-comments.php:83
 #, php-format
 msgid "Edit Comments on &#8220;%s&#8221;"
 msgstr "Rediger kommentarer til &#8220;%s&#8221;"
 
-#: wp-admin/edit-comments.php:82
+#: wp-admin/edit-comments.php:85
 msgid "Edit Comments"
 msgstr "Rediger kommentarer"
 
-#: wp-admin/edit-comments.php:114
+#: wp-admin/edit-comments.php:117
 #, php-format
 msgid "%s comment approved"
 msgid_plural "%s comments approved"
 msgstr[0] "%s kommentar godkendt"
 msgstr[1] "%s kommentarer godkendt"
 
-#: wp-admin/edit-comments.php:119
+#: wp-admin/edit-comments.php:122
 #, php-format
 msgid "%s comment deleted"
 msgid_plural "%s comments deleted"
 msgstr[0] "%s kommentar slettet"
 msgstr[1] "%s kommentarer slettet"
 
-#: wp-admin/edit-comments.php:124
+#: wp-admin/edit-comments.php:127
 #, php-format
 msgid "%s comment marked as spam"
 msgid_plural "%s comments marked as spam"
 msgstr[0] "%s kommentar markeret som spam"
 msgstr[1] "%s kommentarer markeret som spam"
 
-#: wp-admin/edit-comments.php:141
-#: wp-content/plugins/akismet/akismet.php:733
+#: wp-admin/edit-comments.php:144
+#: wp-content/plugins/akismet/akismet.php:737
 msgid "All"
 msgid_plural "All"
 msgstr[0] "Alle"
 msgstr[1] "Alle"
 
-#: wp-admin/edit-comments.php:142
+#: wp-admin/edit-comments.php:145
 #, php-format
 msgid "Pending (<span class=\"pending-count\">%s</span>)"
 msgid_plural "Pending (<span class=\"pending-count\">%s</span>)"
 msgstr[0] "Afventer (<span class=\"pending-count\">%s</span>)"
 msgstr[1] "Afventer (<span class=\"pending-count\">%s</span>)"
 
-#: wp-admin/edit-comments.php:143
+#: wp-admin/edit-comments.php:146
 msgid "Approved"
 msgid_plural "Approved"
 msgstr[0] "Godkendt"
 msgstr[1] "Godkendt"
 
-#: wp-admin/edit-comments.php:144
+#: wp-admin/edit-comments.php:147
 #, php-format
 msgid "Spam (<span class=\"spam-count\">%s</span>)"
 msgid_plural "Spam (<span class=\"spam-count\">%s</span>)"
 msgstr[0] "Spam (<span class=\"spam-count\">%s</span>)"
 msgstr[1] "Spam (<span class=\"spam-count\">%s</span>)"
 
-#: wp-admin/edit-comments.php:178
-#: wp-admin/edit-comments.php:180
+#: wp-admin/edit-comments.php:181
+#: wp-admin/edit-comments.php:183
 msgid "Search Comments"
 msgstr "S&#248;g kommentarer"
 
-#: wp-admin/edit-comments.php:232
-#: wp-admin/edit-pages.php:206
-#: wp-admin/edit.php:245
+#: wp-admin/edit-comments.php:235
+#: wp-admin/edit-pages.php:209
+#: wp-admin/edit.php:248
 #: wp-admin/includes/user.php:731
-#: wp-admin/plugins.php:349
-#: wp-admin/themes.php:158
+#: wp-admin/plugins.php:367
+#: wp-admin/themes.php:161
 #: wp-admin/upload.php:234
 #, php-format
 msgid "Displaying %s&#8211;%s of %s"
 msgstr "Viser %s&#8211;%s af %s"
 
-#: wp-admin/edit-comments.php:247
-#: wp-admin/edit-comments.php:334
+#: wp-admin/edit-comments.php:250
+#: wp-admin/edit-comments.php:337
 #: wp-admin/includes/dashboard.php:540
 #: wp-admin/includes/template.php:2140
 #: wp-admin/includes/template.php:2143
 msgid "Unapprove"
 msgstr "Godkend ikke"
 
-#: wp-admin/edit-comments.php:250
-#: wp-admin/edit-comments.php:337
+#: wp-admin/edit-comments.php:253
+#: wp-admin/edit-comments.php:340
 #: wp-admin/includes/dashboard.php:539
 #: wp-admin/includes/template.php:2139
 #: wp-admin/includes/template.php:2146
 msgid "Approve"
 msgstr "Godkend"
 
-#: wp-admin/edit-comments.php:253
-#: wp-admin/edit-comments.php:340
+#: wp-admin/edit-comments.php:256
+#: wp-admin/edit-comments.php:343
 msgid "Mark as Spam"
 msgstr "Marker som spam"
 
-#: wp-admin/edit-comments.php:261
+#: wp-admin/edit-comments.php:264
 msgid "Show all comment types"
 msgstr "Vis alle kommentartyper"
 
-#: wp-admin/edit-comments.php:264
-#: wp-admin/edit-form-advanced.php:484
+#: wp-admin/edit-comments.php:267
+#: wp-admin/edit-form-advanced.php:488
 #: wp-admin/import/blogger.php:205
 #: wp-admin/includes/file.php:14
 #: wp-admin/includes/template.php:1166
 #: wp-admin/includes/template.php:3138
 #: wp-admin/includes/template.php:3254
-#: wp-content/plugins/akismet/akismet.php:738
+#: wp-content/plugins/akismet/akismet.php:742
 #: wp-content/themes/classic/comments-popup.php:29
 msgid "Comments"
 msgstr "Kommentarer"
 
-#: wp-admin/edit-comments.php:265
+#: wp-admin/edit-comments.php:268
 #: wp-admin/includes/template.php:1175
 msgid "Pings"
 msgstr "Pings"
 
-#: wp-admin/edit-comments.php:275
-#: wp-admin/edit.php:239
+#: wp-admin/edit-comments.php:278
+#: wp-admin/edit.php:242
 #: wp-admin/link-manager.php:127
 #: wp-admin/upload.php:283
 msgid "Filter"
 msgstr "Filtrer"
 
-#: wp-admin/edit-comments.php:284
-#: wp-admin/edit-comments.php:347
+#: wp-admin/edit-comments.php:287
+#: wp-admin/edit-comments.php:350
 msgid "Delete All Spam"
 msgstr "Slet alt spam"
 
-#: wp-admin/edit-comments.php:371
+#: wp-admin/edit-comments.php:374
 msgid "No comments awaiting moderation&hellip; yet."
 msgstr "Ingen kommentarer til bed&#248;mmelse&hellip; endnu."
 
-#: wp-admin/edit-comments.php:375
-#: wp-content/plugins/akismet/akismet.php:864
+#: wp-admin/edit-comments.php:378
+#: wp-content/plugins/akismet/akismet.php:868
 msgid "No results found."
 msgstr "Ingen resultater fundet."
 
-#: wp-admin/edit-form-advanced.php:19
+#: wp-admin/edit-form-advanced.php:23
 #, php-format
 msgid "Post updated. <a href=\"%s\">View post</a>"
 msgstr "Indl&#230;g opdateret. <a href=\"%s\">Vis indl&#230;g</a>"
 
-#: wp-admin/edit-form-advanced.php:20
-#: wp-admin/edit-page-form.php:22
+#: wp-admin/edit-form-advanced.php:24
+#: wp-admin/edit-page-form.php:26
 msgid "Custom field updated."
 msgstr "Eget felt opdateret"
 
-#: wp-admin/edit-form-advanced.php:21
-#: wp-admin/edit-page-form.php:23
+#: wp-admin/edit-form-advanced.php:25
+#: wp-admin/edit-page-form.php:27
 msgid "Custom field deleted."
 msgstr "Felt slettet."
 
-#: wp-admin/edit-form-advanced.php:22
+#: wp-admin/edit-form-advanced.php:26
 msgid "Post updated."
 msgstr "Indl&#230;g opdateret."
 
-#: wp-admin/edit-form-advanced.php:23
+#: wp-admin/edit-form-advanced.php:27
 #, php-format
 msgid "Post published. <a href=\"%s\">View post</a>"
 msgstr "Indl&#230;g udgivet. <a href=\"%s\">Vis indl&#230;g</a>"
 
-#: wp-admin/edit-form-advanced.php:24
+#: wp-admin/edit-form-advanced.php:28
 #: wp-admin/sidebar.php:100
 msgid "Post saved."
 msgstr "Indl&#230;g gemt."
 
-#: wp-admin/edit-form-advanced.php:25
+#: wp-admin/edit-form-advanced.php:29
 #, php-format
 msgid "Post submitted. <a href=\"%s\">Preview post</a>"
 msgstr "Indl&#230;g sendt. <a href=\"%s\">Preview indl&#230;g</a>"
 
-#: wp-admin/edit-form-advanced.php:28
+#: wp-admin/edit-form-advanced.php:32
 #, php-format
 msgid "Post restored to revision from %s"
 msgstr "Indl&#230;g genskabt til revision fra %s"
 
-#: wp-admin/edit-form-advanced.php:31
+#: wp-admin/edit-form-advanced.php:35
 #, php-format
 msgid "There is an autosave of this post that is more recent than the version below.  <a href=\"%s\">View the autosave</a>."
 msgstr "Der er en autogemt udgave af indl&#230;gget, der er nyere end versionen nedenfor. <a href=\"%s\">Se den autogemte version</a>."
 
-#: wp-admin/edit-form-advanced.php:75
-#: wp-admin/edit-link-form.php:63
-#: wp-admin/edit-link-form.php:106
-#: wp-admin/edit-page-form.php:69
+#: wp-admin/edit-form-advanced.php:79
+#: wp-admin/edit-link-form.php:67
+#: wp-admin/edit-link-form.php:110
+#: wp-admin/edit-page-form.php:73
 #: wp-admin/includes/widgets.php:196
 #: wp-content/themes/default/functions.php:383
 #: wp-content/themes/default/functions.php:390
@@ -1201,8 +1209,8 @@ msgstr "Der er en autogemt udgave af indl&#230;gget, der er nyere end versionen 
 msgid "Save"
 msgstr "Gem"
 
-#: wp-admin/edit-form-advanced.php:81
-#: wp-admin/edit-page-form.php:75
+#: wp-admin/edit-form-advanced.php:85
+#: wp-admin/edit-page-form.php:79
 #: wp-admin/includes/dashboard.php:415
 #: wp-admin/press-this.php:460
 #: wp-includes/script-loader.php:285
@@ -1210,49 +1218,49 @@ msgstr "Gem"
 msgid "Save Draft"
 msgstr "Gem kladde"
 
-#: wp-admin/edit-form-advanced.php:83
-#: wp-admin/edit-page-form.php:77
+#: wp-admin/edit-form-advanced.php:87
+#: wp-admin/edit-page-form.php:81
 #: wp-includes/script-loader.php:284
 #: wp-includes/script-loader.php:308
 msgid "Save as Pending"
 msgstr "Gem som afventer"
 
-#: wp-admin/edit-form-advanced.php:91
-#: wp-admin/edit-page-form.php:85
+#: wp-admin/edit-form-advanced.php:95
+#: wp-admin/edit-page-form.php:89
 msgid "Preview Changes"
 msgstr "Preview &#230;ndringer"
 
-#: wp-admin/edit-form-advanced.php:94
-#: wp-admin/edit-page-form.php:88
+#: wp-admin/edit-form-advanced.php:98
+#: wp-admin/edit-page-form.php:92
 #: wp-admin/includes/class-wp-upgrader.php:947
 #: wp-admin/includes/class-wp-upgrader.php:1004
 #: wp-admin/includes/template.php:1456
 #: wp-admin/includes/template.php:1671
 #: wp-admin/includes/theme-install.php:305
-#: wp-admin/themes.php:214
+#: wp-admin/themes.php:217
 #: wp-includes/js/tinymce/langs/wp-langs.php:62
 #: wp-includes/js/tinymce/langs/wp-langs.php:308
 msgid "Preview"
 msgstr "Preview"
 
-#: wp-admin/edit-form-advanced.php:106
-#: wp-admin/edit-page-form.php:100
+#: wp-admin/edit-form-advanced.php:110
+#: wp-admin/edit-page-form.php:104
 msgid "Status:"
 msgstr "Status:"
 
-#: wp-admin/edit-form-advanced.php:111
-#: wp-admin/edit-form-advanced.php:137
-#: wp-admin/edit-page-form.php:105
-#: wp-admin/edit-page-form.php:131
+#: wp-admin/edit-form-advanced.php:115
+#: wp-admin/edit-form-advanced.php:141
+#: wp-admin/edit-page-form.php:109
+#: wp-admin/edit-page-form.php:135
 #: wp-includes/script-loader.php:290
 #: wp-includes/script-loader.php:313
 msgid "Privately Published"
 msgstr "Udgivet privat"
 
-#: wp-admin/edit-form-advanced.php:123
-#: wp-admin/edit-form-advanced.php:142
-#: wp-admin/edit-page-form.php:117
-#: wp-admin/edit-page-form.php:136
+#: wp-admin/edit-form-advanced.php:127
+#: wp-admin/edit-form-advanced.php:146
+#: wp-admin/edit-page-form.php:121
+#: wp-admin/edit-page-form.php:140
 #: wp-admin/includes/template.php:1216
 #: wp-admin/includes/template.php:3388
 #: wp-includes/post.php:356
@@ -1260,18 +1268,18 @@ msgstr "Udgivet privat"
 msgid "Draft"
 msgstr "Kladde"
 
-#: wp-admin/edit-form-advanced.php:144
-#: wp-admin/edit-form-advanced.php:184
-#: wp-admin/edit-page-form.php:139
-#: wp-admin/edit-page-form.php:174
+#: wp-admin/edit-form-advanced.php:148
+#: wp-admin/edit-form-advanced.php:188
+#: wp-admin/edit-page-form.php:143
+#: wp-admin/edit-page-form.php:178
 #: wp-admin/includes/template.php:2580
 msgid "OK"
 msgstr "OK"
 
-#: wp-admin/edit-form-advanced.php:145
-#: wp-admin/edit-form-advanced.php:185
-#: wp-admin/edit-page-form.php:140
-#: wp-admin/edit-page-form.php:175
+#: wp-admin/edit-form-advanced.php:149
+#: wp-admin/edit-form-advanced.php:189
+#: wp-admin/edit-page-form.php:144
+#: wp-admin/edit-page-form.php:179
 #: wp-admin/includes/dashboard.php:118
 #: wp-admin/includes/media.php:1177
 #: wp-admin/includes/media.php:1372
@@ -1294,15 +1302,15 @@ msgstr "OK"
 msgid "Cancel"
 msgstr "Annuller"
 
-#: wp-admin/edit-form-advanced.php:152
-#: wp-admin/edit-page-form.php:147
+#: wp-admin/edit-form-advanced.php:156
+#: wp-admin/edit-page-form.php:151
 msgid "Visibility:"
 msgstr "Synlighed:"
 
-#: wp-admin/edit-form-advanced.php:157
-#: wp-admin/edit-form-advanced.php:181
-#: wp-admin/edit-page-form.php:152
-#: wp-admin/edit-page-form.php:172
+#: wp-admin/edit-form-advanced.php:161
+#: wp-admin/edit-form-advanced.php:185
+#: wp-admin/edit-page-form.php:156
+#: wp-admin/edit-page-form.php:176
 #: wp-admin/includes/template.php:1212
 #: wp-admin/includes/template.php:3386
 #: wp-includes/post.php:358
@@ -1312,78 +1320,78 @@ msgstr "Synlighed:"
 msgid "Private"
 msgstr "Privat"
 
-#: wp-admin/edit-form-advanced.php:160
-#: wp-admin/edit-form-advanced.php:179
-#: wp-admin/edit-page-form.php:155
-#: wp-admin/edit-page-form.php:170
+#: wp-admin/edit-form-advanced.php:164
+#: wp-admin/edit-form-advanced.php:183
+#: wp-admin/edit-page-form.php:159
+#: wp-admin/edit-page-form.php:174
 #: wp-admin/includes/template.php:3384
 msgid "Password protected"
 msgstr "Kodeordsbeskyttet"
 
-#: wp-admin/edit-form-advanced.php:163
+#: wp-admin/edit-form-advanced.php:167
 #: wp-includes/script-loader.php:288
 msgid "Public, Sticky"
 msgstr "Offentlig, klistret"
 
-#: wp-admin/edit-form-advanced.php:166
-#: wp-admin/edit-form-advanced.php:177
-#: wp-admin/edit-page-form.php:158
-#: wp-admin/edit-page-form.php:169
+#: wp-admin/edit-form-advanced.php:170
+#: wp-admin/edit-form-advanced.php:181
+#: wp-admin/edit-page-form.php:162
+#: wp-admin/edit-page-form.php:173
 #: wp-includes/script-loader.php:287
 #: wp-includes/script-loader.php:311
 msgid "Public"
 msgstr "Offentlig"
 
-#: wp-admin/edit-form-advanced.php:178
+#: wp-admin/edit-form-advanced.php:182
 msgid "Stick this post to the front page"
 msgstr "Klistr dette indl&#230;g til forsiden"
 
-#: wp-admin/edit-form-advanced.php:180
-#: wp-admin/edit-page-form.php:171
+#: wp-admin/edit-form-advanced.php:184
+#: wp-admin/edit-page-form.php:175
 #: wp-includes/post-template.php:1142
 msgid "Password:"
 msgstr "Kodeord:"
 
 #. translators: Publish box date formt, see http://php.net/date
-#: wp-admin/edit-form-advanced.php:195
-#: wp-admin/edit-form-comment.php:54
-#: wp-admin/edit-page-form.php:183
+#: wp-admin/edit-form-advanced.php:199
+#: wp-admin/edit-form-comment.php:58
+#: wp-admin/edit-page-form.php:187
 msgid "M j, Y @ G:i"
 msgstr "j. M Y H:i"
 
-#: wp-admin/edit-form-advanced.php:198
-#: wp-admin/edit-page-form.php:186
+#: wp-admin/edit-form-advanced.php:202
+#: wp-admin/edit-page-form.php:190
 #, php-format
 msgid "Scheduled for: <b>%1$s</b>"
 msgstr "Planlagt til: <b>%1$s</b>"
 
-#: wp-admin/edit-form-advanced.php:200
-#: wp-admin/edit-page-form.php:188
+#: wp-admin/edit-form-advanced.php:204
+#: wp-admin/edit-page-form.php:192
 #, php-format
 msgid "Published on: <b>%1$s</b>"
 msgstr "Udgivet: <b>%1$s</b>"
 
-#: wp-admin/edit-form-advanced.php:202
-#: wp-admin/edit-form-advanced.php:210
-#: wp-admin/edit-page-form.php:190
-#: wp-admin/edit-page-form.php:198
+#: wp-admin/edit-form-advanced.php:206
+#: wp-admin/edit-form-advanced.php:214
+#: wp-admin/edit-page-form.php:194
+#: wp-admin/edit-page-form.php:202
 msgid "Publish <b>immediately</b>"
 msgstr "Udgiv <b>med det samme</b>"
 
-#: wp-admin/edit-form-advanced.php:204
-#: wp-admin/edit-page-form.php:192
+#: wp-admin/edit-form-advanced.php:208
+#: wp-admin/edit-page-form.php:196
 #, php-format
 msgid "Schedule for: <b>%1$s</b>"
 msgstr "Planl&#230;g til: <b>%1$s</b>"
 
-#: wp-admin/edit-form-advanced.php:206
-#: wp-admin/edit-page-form.php:194
+#: wp-admin/edit-form-advanced.php:210
+#: wp-admin/edit-page-form.php:198
 #, php-format
 msgid "Publish on: <b>%1$s</b>"
 msgstr "Udgiv: <b>%1$s</b>"
 
-#: wp-admin/edit-form-advanced.php:232
-#: wp-admin/edit-page-form.php:219
+#: wp-admin/edit-form-advanced.php:236
+#: wp-admin/edit-page-form.php:223
 #, php-format
 msgid ""
 "You are about to delete this draft '%s'\n"
@@ -1392,7 +1400,7 @@ msgstr ""
 "Du er ved at slette kladden '%s'\n"
 "  'Annuller' for at stoppe, 'Ok' for at slette."
 
-#: wp-admin/edit-form-advanced.php:232
+#: wp-admin/edit-form-advanced.php:236
 #, php-format
 msgid ""
 "You are about to delete this post '%s'\n"
@@ -1401,21 +1409,21 @@ msgstr ""
 "Du er ved at slette dette indl&#230;g \\'%s\\'\\n"
 "  \\'Annuller\\' for at stoppe, \\'Ok\\' for at slette."
 
-#: wp-admin/edit-form-advanced.php:241
-#: wp-admin/edit-form-advanced.php:242
-#: wp-admin/edit-page-form.php:229
-#: wp-admin/edit-page-form.php:230
+#: wp-admin/edit-form-advanced.php:245
+#: wp-admin/edit-form-advanced.php:246
+#: wp-admin/edit-page-form.php:233
+#: wp-admin/edit-page-form.php:234
 #: wp-includes/script-loader.php:282
 #: wp-includes/script-loader.php:306
 msgid "Schedule"
-msgstr "Tidsplan"
+msgstr "Planl&#230;g"
 
-#: wp-admin/edit-form-advanced.php:244
-#: wp-admin/edit-form-advanced.php:245
-#: wp-admin/edit-form-advanced.php:264
-#: wp-admin/edit-page-form.php:232
-#: wp-admin/edit-page-form.php:233
-#: wp-admin/edit-page-form.php:251
+#: wp-admin/edit-form-advanced.php:248
+#: wp-admin/edit-form-advanced.php:249
+#: wp-admin/edit-form-advanced.php:268
+#: wp-admin/edit-page-form.php:236
+#: wp-admin/edit-page-form.php:237
+#: wp-admin/edit-page-form.php:255
 #: wp-admin/includes/dashboard.php:418
 #: wp-admin/press-this.php:457
 #: wp-admin/press-this.php:462
@@ -1425,39 +1433,39 @@ msgstr "Tidsplan"
 msgid "Publish"
 msgstr "Udgiv"
 
-#: wp-admin/edit-form-advanced.php:248
-#: wp-admin/edit-form-advanced.php:249
-#: wp-admin/edit-page-form.php:236
-#: wp-admin/edit-page-form.php:237
+#: wp-admin/edit-form-advanced.php:252
+#: wp-admin/edit-form-advanced.php:253
+#: wp-admin/edit-page-form.php:240
+#: wp-admin/edit-page-form.php:241
 #: wp-admin/includes/dashboard.php:420
 #: wp-admin/press-this.php:464
 msgid "Submit for Review"
 msgstr "Send til gennemkig"
 
-#: wp-admin/edit-form-advanced.php:253
-#: wp-admin/edit-form-advanced.php:254
+#: wp-admin/edit-form-advanced.php:257
+#: wp-admin/edit-form-advanced.php:258
 #: wp-admin/includes/template.php:1259
 #: wp-includes/script-loader.php:283
 msgid "Update Post"
 msgstr "Opdater indl&#230;g"
 
-#: wp-admin/edit-form-advanced.php:276
+#: wp-admin/edit-form-advanced.php:280
 msgid "Separate tags with commas."
 msgstr "Adskil tags med kommaer."
 
-#: wp-admin/edit-form-advanced.php:281
+#: wp-admin/edit-form-advanced.php:285
 msgid "Add or remove tags"
 msgstr "Tilf&#248;j eller fjern tags"
 
-#: wp-admin/edit-form-advanced.php:286
+#: wp-admin/edit-form-advanced.php:290
 #: wp-admin/press-this.php:502
 #: wp-includes/script-loader.php:272
 msgid "Add new tag"
 msgstr "Tilf&#248;j nyt tag"
 
-#: wp-admin/edit-form-advanced.php:287
-#: wp-admin/edit-form-advanced.php:338
-#: wp-admin/edit-link-form.php:143
+#: wp-admin/edit-form-advanced.php:291
+#: wp-admin/edit-form-advanced.php:342
+#: wp-admin/edit-link-form.php:147
 #: wp-admin/includes/widgets.php:167
 #: wp-admin/press-this.php:486
 #: wp-admin/press-this.php:503
@@ -1466,189 +1474,189 @@ msgstr "Tilf&#248;j nyt tag"
 msgid "Add"
 msgstr "Tilf&#248;j"
 
-#: wp-admin/edit-form-advanced.php:292
+#: wp-admin/edit-form-advanced.php:296
 #, php-format
 msgid "Choose from the most used tags in %s"
 msgstr "V&#230;lg blandt de mest popul&#230;re tags i %s"
 
-#: wp-admin/edit-form-advanced.php:316
-#: wp-admin/edit-link-form.php:117
+#: wp-admin/edit-form-advanced.php:320
+#: wp-admin/edit-link-form.php:121
 msgid "All Categories"
 msgstr "Alle kategorier"
 
-#: wp-admin/edit-form-advanced.php:317
-#: wp-admin/edit-link-form.php:118
+#: wp-admin/edit-form-advanced.php:321
+#: wp-admin/edit-link-form.php:122
 msgid "Most Used"
 msgstr "Mest brugte"
 
-#: wp-admin/edit-form-advanced.php:334
-#: wp-admin/edit-link-form.php:139
-#: wp-admin/edit-link-form.php:141
+#: wp-admin/edit-form-advanced.php:338
+#: wp-admin/edit-link-form.php:143
+#: wp-admin/edit-link-form.php:145
 #: wp-admin/press-this.php:482
 msgid "+ Add New Category"
 msgstr "+ Tilf&#248;j kategori"
 
-#: wp-admin/edit-form-advanced.php:336
+#: wp-admin/edit-form-advanced.php:340
 #: wp-admin/press-this.php:484
 msgid "Add New Category"
 msgstr "Tilf&#248;j ny kategori"
 
-#: wp-admin/edit-form-advanced.php:336
-#: wp-admin/edit-link-form.php:142
+#: wp-admin/edit-form-advanced.php:340
+#: wp-admin/edit-link-form.php:146
 #: wp-admin/press-this.php:484
 msgid "New category name"
 msgstr "Nyt kategorinavn"
 
-#: wp-admin/edit-form-advanced.php:337
+#: wp-admin/edit-form-advanced.php:341
 #: wp-admin/press-this.php:485
 msgid "Parent category"
 msgstr "For&#230;lderkategori"
 
-#: wp-admin/edit-form-advanced.php:357
+#: wp-admin/edit-form-advanced.php:361
 msgid "Keep this post private"
 msgstr "Hold dette indl&#230;g privat"
 
-#: wp-admin/edit-form-advanced.php:358
+#: wp-admin/edit-form-advanced.php:362
 msgid "Post Password"
 msgstr "Indl&#230;gskodeord"
 
-#: wp-admin/edit-form-advanced.php:359
+#: wp-admin/edit-form-advanced.php:363
 msgid "Password Protect This Post"
 msgstr "Kodeordsbeskyt dette indl&#230;g"
 
-#: wp-admin/edit-form-advanced.php:360
+#: wp-admin/edit-form-advanced.php:364
 msgid "Setting a password will require people who visit your blog to enter the above password to view this post and its comments."
 msgstr "Hvis du laver et kodeord, skal folk, der bes&#248;ger din blog, indtaste kodeordet ovenfor for at se et indl&#230;g og dets kommentarer."
 
-#: wp-admin/edit-form-advanced.php:374
 #: wp-admin/edit-form-advanced.php:378
-#: wp-includes/post.php:3427
+#: wp-admin/edit-form-advanced.php:382
+#: wp-includes/post.php:3424
 msgid "Excerpt"
 msgstr "Uddrag"
 
-#: wp-admin/edit-form-advanced.php:375
+#: wp-admin/edit-form-advanced.php:379
 msgid "Excerpts are optional hand-crafted summaries of your content that can be used in your theme. <a href=\"http://codex.wordpress.org/Excerpt\" target=\"_blank\">Learn more about manual excerpts.</a>"
 msgstr "Uddrag er valgfri, manuelt skrevne resumeer af indholdet, som kan bruges i dit tema. <a href=\"http://codex.wordpress.org/Excerpt\" target=\"_blank\">L&#230;r mere om Uddrag (p&#229; engelsk).</a>"
 
-#: wp-admin/edit-form-advanced.php:390
+#: wp-admin/edit-form-advanced.php:394
 msgid "Already pinged:"
 msgstr "Allerede pinget:"
 
-#: wp-admin/edit-form-advanced.php:399
+#: wp-admin/edit-form-advanced.php:403
 msgid "Send trackbacks to:"
 msgstr "Send trackbacks til:"
 
-#: wp-admin/edit-form-advanced.php:399
+#: wp-admin/edit-form-advanced.php:403
 msgid "Separate multiple URLs with spaces"
 msgstr "Adskil flere URL'er med mellemrum"
 
-#: wp-admin/edit-form-advanced.php:400
+#: wp-admin/edit-form-advanced.php:404
 msgid "Trackbacks are a way to notify legacy blog systems that you&#8217;ve linked to them. If you link other WordPress blogs they&#8217;ll be notified automatically using <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">pingbacks</a>, no other action necessary."
 msgstr "Trackbacks kan bruges til at fort&#230;lle de fleste blogsystemer, at du har linket til dem. Hvis du linker til andre WordPress-blogs, f&#229;r de det automatisk at vide, ved at bruge <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">pingbacks</a>. Mere beh&#248;ver du ikke g&#248;re."
 
-#: wp-admin/edit-form-advanced.php:405
+#: wp-admin/edit-form-advanced.php:409
 msgid "Send Trackbacks"
 msgstr "Send trackbacks"
 
-#: wp-admin/edit-form-advanced.php:423
-#: wp-admin/edit-page-form.php:316
+#: wp-admin/edit-form-advanced.php:427
+#: wp-admin/edit-page-form.php:320
 msgid "Custom fields can be used to add extra metadata to a post that you can <a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">use in your theme</a>."
 msgstr "Egne felter kan bruges til at tilf&#248;je ekstra metadata til et indl&#230;g, som du kan <a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">bruge i dit tema</a>."
 
-#: wp-admin/edit-form-advanced.php:426
-#: wp-admin/edit-page-form.php:319
+#: wp-admin/edit-form-advanced.php:430
+#: wp-admin/edit-page-form.php:323
 msgid "Custom Fields"
 msgstr "Egne felter"
 
-#: wp-admin/edit-form-advanced.php:441
+#: wp-admin/edit-form-advanced.php:445
 msgid "Allow comments on this post"
 msgstr "Tillad kommentarer til indl&#230;g"
 
-#: wp-admin/edit-form-advanced.php:442
+#: wp-admin/edit-form-advanced.php:446
 msgid "Allow <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks and pingbacks</a> on this post"
 msgstr "Tillad <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks og pingbacks</a> til dette indl&#230;g"
 
-#: wp-admin/edit-form-advanced.php:445
-#: wp-admin/edit-page-form.php:338
+#: wp-admin/edit-form-advanced.php:449
+#: wp-admin/edit-page-form.php:342
 #: wp-admin/menu.php:111
 msgid "Discussion"
 msgstr "Diskussion"
 
-#: wp-admin/edit-form-advanced.php:460
+#: wp-admin/edit-form-advanced.php:464
 #: wp-admin/includes/dashboard.php:516
 #: wp-content/themes/classic/comments-popup.php:58
 #: wp-content/themes/classic/comments.php:32
 msgid "No comments yet."
 msgstr "Endnu ingen kommentarer."
 
-#: wp-admin/edit-form-advanced.php:475
+#: wp-admin/edit-form-advanced.php:479
 msgid "Show comments"
 msgstr "Vis kommentarer"
 
-#: wp-admin/edit-form-advanced.php:495
 #: wp-admin/edit-form-advanced.php:499
+#: wp-admin/edit-form-advanced.php:503
 msgid "Post Slug"
 msgstr "Kort indl&#230;gstitel"
 
-#: wp-admin/edit-form-advanced.php:518
-#: wp-admin/edit-form-advanced.php:521
+#: wp-admin/edit-form-advanced.php:522
+#: wp-admin/edit-form-advanced.php:525
 msgid "Post Author"
 msgstr "Indl&#230;ggets forfatter"
 
-#: wp-admin/edit-form-advanced.php:535
+#: wp-admin/edit-form-advanced.php:539
 #: wp-admin/revision.php:141
 msgid "Post Revisions"
 msgstr "Indl&#230;gsrevisioner"
 
-#: wp-admin/edit-form-advanced.php:625
-#: wp-admin/edit-page-form.php:463
+#: wp-admin/edit-form-advanced.php:629
+#: wp-admin/edit-page-form.php:467
 #, php-format
 msgid "Last edited by %1$s on %2$s at %3$s"
 msgstr "Sidst redigeret af %1$s den %2$s kl. %3$s"
 
-#: wp-admin/edit-form-advanced.php:627
-#: wp-admin/edit-page-form.php:465
+#: wp-admin/edit-form-advanced.php:631
+#: wp-admin/edit-page-form.php:469
 #, php-format
 msgid "Last edited on %1$s at %2$s"
 msgstr "Sidst redigeret den %1$s kl. %2$s"
 
-#: wp-admin/edit-form-comment.php:13
+#: wp-admin/edit-form-comment.php:17
 #, php-format
 msgid "Editing Comment # %s"
 msgstr "Redigerer kommentar # %s"
 
-#: wp-admin/edit-form-comment.php:38
+#: wp-admin/edit-form-comment.php:42
 msgid "View Comment"
 msgstr "Se kommentar"
 
 #. translators: comment type radio button
 #. translators: comment status
-#: wp-admin/edit-form-comment.php:46
+#: wp-admin/edit-form-comment.php:50
 #: wp-includes/comment.php:258
 msgctxt "adjective"
 msgid "Approved"
 msgstr "Godkendt"
 
 #. translators: comment type radio button
-#: wp-admin/edit-form-comment.php:47
+#: wp-admin/edit-form-comment.php:51
 msgctxt "adjective"
 msgid "Pending"
 msgstr "Afventer"
 
 #. translators: comment type radio button
 #. translators: comment status
-#: wp-admin/edit-form-comment.php:48
+#: wp-admin/edit-form-comment.php:52
 #: wp-includes/comment.php:260
 msgctxt "adjective"
 msgid "Spam"
 msgstr "Spam"
 
-#: wp-admin/edit-form-comment.php:55
+#: wp-admin/edit-form-comment.php:59
 #, php-format
 msgid "Submitted on: <b>%1$s</b>"
 msgstr "Godkendt: <b>%1$s</b>"
 
-#: wp-admin/edit-form-comment.php:67
+#: wp-admin/edit-form-comment.php:71
 msgid ""
 "You are about to delete this comment. \n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -1656,39 +1664,39 @@ msgstr ""
 "Du er ved at slette denne kommentar.\\n"
 "  \\'Annuller\\' for at stoppe, \\'Ok\\' for at slette."
 
-#: wp-admin/edit-form-comment.php:70
+#: wp-admin/edit-form-comment.php:74
 #: wp-admin/includes/template.php:2297
 msgid "Update Comment"
 msgstr "Opdater kommentar"
 
-#: wp-admin/edit-form-comment.php:87
+#: wp-admin/edit-form-comment.php:91
 #: wp-includes/js/tinymce/langs/wp-langs.php:271
 msgid "Name:"
 msgstr "Navn:"
 
-#: wp-admin/edit-form-comment.php:94
+#: wp-admin/edit-form-comment.php:98
 #, php-format
 msgid "E-mail (%s):"
 msgstr "E-mail (%s):"
 
-#: wp-admin/edit-form-comment.php:94
+#: wp-admin/edit-form-comment.php:98
 msgid "send e-mail"
 msgstr "Send e-mail"
 
-#: wp-admin/edit-form-comment.php:96
+#: wp-admin/edit-form-comment.php:100
 msgid "E-mail:"
 msgstr "E-mail:"
 
-#: wp-admin/edit-form-comment.php:105
+#: wp-admin/edit-form-comment.php:109
 msgid "visit site"
 msgstr "bes&#248;g site"
 
-#: wp-admin/edit-form-comment.php:106
+#: wp-admin/edit-form-comment.php:110
 #, php-format
 msgid "URL (%s):"
 msgstr "URL (%s):"
 
-#: wp-admin/edit-form-comment.php:108
+#: wp-admin/edit-form-comment.php:112
 msgid "URL:"
 msgstr "URL:"
 
@@ -1707,58 +1715,62 @@ msgid "<strong>Note:</strong><br />Deleting a category does not delete the links
 msgstr "<strong>Bem&#230;rk:</strong><br />Sletning af en kategori sletter ikke links i kategorien. Links, der kun var i denne kategori, flyttes til <strong>%s</strong>."
 
 #: wp-admin/edit-link-categories.php:192
-#: wp-admin/edit-link-category-form.php:26
+#: wp-admin/edit-link-category-form.php:33
 msgid "Add Link Category"
 msgstr "Tilf&#248;j link-kategori"
 
 #: wp-admin/edit-link-categories.php:199
-#: wp-admin/edit-link-category-form.php:65
+#: wp-admin/edit-link-category-form.php:72
 msgid "Link Category name"
 msgstr "Linkkategorinavn"
 
 #: wp-admin/edit-link-categories.php:204
-#: wp-admin/edit-link-category-form.php:69
+#: wp-admin/edit-link-category-form.php:76
 msgid "Link Category slug"
 msgstr "Linkkategoris slug"
 
 #: wp-admin/edit-link-categories.php:210
-#: wp-admin/edit-link-category-form.php:74
+#: wp-admin/edit-link-category-form.php:81
 msgid "Description (optional)"
 msgstr "Beskrivelse (valgfri)"
 
-#: wp-admin/edit-link-category-form.php:19
+#: wp-admin/edit-link-category-form.php:14
+msgid "You do not have sufficient permissions to edit link categories for this blog."
+msgstr "Du har ikke tilstr&#230;kkelige rettigheder til at redigere linkkategorier p&#229; denne blog."
+
+#: wp-admin/edit-link-category-form.php:26
 msgid "Edit Link Category"
 msgstr "Rediger link-kategori"
 
-#: wp-admin/edit-link-form.php:10
+#: wp-admin/edit-link-form.php:14
 #, php-format
 msgid "<a href=\"%s\">Links</a> / Edit Link"
 msgstr "<a href=\"%s\">Links</a> / Rediger link"
 
-#: wp-admin/edit-link-form.php:11
-#: wp-admin/edit-link-form.php:94
+#: wp-admin/edit-link-form.php:15
+#: wp-admin/edit-link-form.php:98
 msgid "Update Link"
 msgstr "Opdater link"
 
-#: wp-admin/edit-link-form.php:15
+#: wp-admin/edit-link-form.php:19
 #, php-format
 msgid "<a href=\"%s\">Links</a> / Add New Link"
 msgstr "<a href=\"%s\">Links</a> / Tilf&#248;j link"
 
-#: wp-admin/edit-link-form.php:16
-#: wp-admin/edit-link-form.php:96
+#: wp-admin/edit-link-form.php:20
+#: wp-admin/edit-link-form.php:100
 msgid "Add Link"
 msgstr "Tilf&#248;j link"
 
-#: wp-admin/edit-link-form.php:69
+#: wp-admin/edit-link-form.php:73
 msgid "Visit Link"
 msgstr "Bes&#248;g link"
 
-#: wp-admin/edit-link-form.php:77
+#: wp-admin/edit-link-form.php:81
 msgid "Keep this link private"
 msgstr "Lad dette link v&#230;re privat"
 
-#: wp-admin/edit-link-form.php:88
+#: wp-admin/edit-link-form.php:92
 #: wp-admin/link-manager.php:200
 #, php-format
 msgid ""
@@ -1768,215 +1780,215 @@ msgstr ""
 "Du er ved at slette dette link '%s'\n"
 "  'Annuller' for at stoppe, 'OK' for at slette."
 
-#: wp-admin/edit-link-form.php:160
-#: wp-admin/edit-link-form.php:174
+#: wp-admin/edit-link-form.php:164
+#: wp-admin/edit-link-form.php:178
 #: wp-includes/js/tinymce/langs/wp-langs.php:292
 #: wp-includes/js/tinymce/langs/wp-langs.php:341
 msgid "Target"
 msgstr "Target"
 
-#: wp-admin/edit-link-form.php:163
+#: wp-admin/edit-link-form.php:167
 msgid "<code>_blank</code> - new window or tab."
 msgstr "<code>_blank</code> - nyt vindue eller faneblad."
 
-#: wp-admin/edit-link-form.php:166
+#: wp-admin/edit-link-form.php:170
 msgid "<code>_top</code> - current window or tab, with no frames."
 msgstr "<code>_top</code> - nuv&#230;rende vindue eller faneblad uden rammer."
 
-#: wp-admin/edit-link-form.php:169
+#: wp-admin/edit-link-form.php:173
 msgid "<code>_none</code> - same window or tab."
 msgstr "<code>_none</code> - samme vindue eller faneblad."
 
-#: wp-admin/edit-link-form.php:171
+#: wp-admin/edit-link-form.php:175
 msgid "Choose the target frame for your link."
 msgstr "V&#230;lg hvor linket skal &#229;bnes."
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:187
+#: wp-admin/edit-link-form.php:191
 msgid "rel:"
 msgstr "rel:"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:194
-#: wp-admin/edit-link-form.php:195
+#: wp-admin/edit-link-form.php:198
+#: wp-admin/edit-link-form.php:199
 msgid "identity"
 msgstr "identitet"
 
-#: wp-admin/edit-link-form.php:198
+#: wp-admin/edit-link-form.php:202
 msgid "another web address of mine"
 msgstr "en anden af mine webadresser"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:202
-#: wp-admin/edit-link-form.php:203
+#: wp-admin/edit-link-form.php:206
+#: wp-admin/edit-link-form.php:207
 msgid "friendship"
 msgstr "venskab"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:205
+#: wp-admin/edit-link-form.php:209
 msgid "contact"
 msgstr "kontakt"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:207
+#: wp-admin/edit-link-form.php:211
 msgid "acquaintance"
 msgstr "bekendt"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:209
+#: wp-admin/edit-link-form.php:213
 msgid "friend"
 msgstr "ven"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:211
-#: wp-admin/edit-link-form.php:244
-#: wp-admin/edit-link-form.php:267
+#: wp-admin/edit-link-form.php:215
+#: wp-admin/edit-link-form.php:248
+#: wp-admin/edit-link-form.php:271
 msgid "none"
 msgstr "ingen"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:215
-#: wp-admin/edit-link-form.php:216
+#: wp-admin/edit-link-form.php:219
+#: wp-admin/edit-link-form.php:220
 msgid "physical"
 msgstr "fysisk"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:219
+#: wp-admin/edit-link-form.php:223
 msgid "met"
 msgstr "m&#248;dt"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:223
-#: wp-admin/edit-link-form.php:224
+#: wp-admin/edit-link-form.php:227
+#: wp-admin/edit-link-form.php:228
 msgid "professional"
 msgstr "arbejde"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:227
+#: wp-admin/edit-link-form.php:231
 msgid "co-worker"
 msgstr "medarbejder"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:230
+#: wp-admin/edit-link-form.php:234
 msgid "colleague"
 msgstr "kollega"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:234
-#: wp-admin/edit-link-form.php:235
+#: wp-admin/edit-link-form.php:238
+#: wp-admin/edit-link-form.php:239
 msgid "geographical"
 msgstr "geografisk"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:238
+#: wp-admin/edit-link-form.php:242
 msgid "co-resident"
 msgstr "sammenboende"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:241
+#: wp-admin/edit-link-form.php:245
 msgid "neighbor"
 msgstr "nabo"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:248
-#: wp-admin/edit-link-form.php:249
+#: wp-admin/edit-link-form.php:252
+#: wp-admin/edit-link-form.php:253
 msgid "family"
 msgstr "familie"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:252
+#: wp-admin/edit-link-form.php:256
 msgid "child"
 msgstr "barn"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:255
+#: wp-admin/edit-link-form.php:259
 msgid "kin"
 msgstr "familie"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:258
+#: wp-admin/edit-link-form.php:262
 msgid "parent"
 msgstr "for&#230;lder"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:261
+#: wp-admin/edit-link-form.php:265
 msgid "sibling"
 msgstr "s&#248;skende"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:264
+#: wp-admin/edit-link-form.php:268
 msgid "spouse"
 msgstr "&#230;gtef&#230;lle"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:271
-#: wp-admin/edit-link-form.php:272
+#: wp-admin/edit-link-form.php:275
+#: wp-admin/edit-link-form.php:276
 msgid "romantic"
 msgstr "romantisk"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:275
+#: wp-admin/edit-link-form.php:279
 msgid "muse"
 msgstr "muse"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:278
+#: wp-admin/edit-link-form.php:282
 msgid "crush"
 msgstr "forelskelse"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:281
+#: wp-admin/edit-link-form.php:285
 msgid "date"
 msgstr "st&#230;vnem&#248;de"
 
 #. translators: xfn: http://gmpg.org/xfn/
-#: wp-admin/edit-link-form.php:284
+#: wp-admin/edit-link-form.php:288
 msgid "sweetheart"
 msgstr "elskling"
 
-#: wp-admin/edit-link-form.php:291
+#: wp-admin/edit-link-form.php:295
 msgid "If the link is to a person, you can specify your relationship with them using the above form. If you would like to learn more about the idea check out <a href=\"http://gmpg.org/xfn/\">XFN</a>."
 msgstr "Hvis du linker til en person, kan du specificere jeres forhold ved at bruge formularen ovenfor. Hvis du vil l&#230;re mere om id&#233;en, kan du tjekke <a href=\"http://gmpg.org/xfn/\">XFN</a> ud."
 
-#: wp-admin/edit-link-form.php:294
+#: wp-admin/edit-link-form.php:298
 msgid "Link Relationship (XFN)"
 msgstr "Linkrelationer (XFN)"
 
-#: wp-admin/edit-link-form.php:307
+#: wp-admin/edit-link-form.php:311
 msgid "Image Address"
 msgstr "Billed-adresse"
 
-#: wp-admin/edit-link-form.php:311
+#: wp-admin/edit-link-form.php:315
 msgid "RSS Address"
 msgstr "RSS-adresse"
 
-#: wp-admin/edit-link-form.php:315
+#: wp-admin/edit-link-form.php:319
 msgid "Notes"
 msgstr "Noter"
 
-#: wp-admin/edit-link-form.php:319
+#: wp-admin/edit-link-form.php:323
 #: wp-admin/includes/plugin-install.php:303
 #: wp-admin/includes/plugin-install.php:313
 #: wp-admin/includes/template.php:858
 msgid "Rating"
 msgstr "Karakter"
 
-#: wp-admin/edit-link-form.php:328
+#: wp-admin/edit-link-form.php:332
 msgid "(Leave at 0 for no rating.)"
 msgstr "(Lad blive p&#229; 0 for ingen karakter.)"
 
-#: wp-admin/edit-link-form.php:334
+#: wp-admin/edit-link-form.php:338
 #: wp-content/themes/default/functions.php:402
 #: wp-includes/js/tinymce/langs/wp-langs.php:304
 #: wp-includes/js/tinymce/wp-mce-help.php:175
 msgid "Advanced"
 msgstr "Avanceret"
 
-#: wp-admin/edit-link-form.php:348
+#: wp-admin/edit-link-form.php:352
 msgid "Link added."
 msgstr "Link tilf&#248;jet."
 
-#: wp-admin/edit-link-form.php:375
+#: wp-admin/edit-link-form.php:379
 #: wp-admin/includes/plugin-install.php:301
 #: wp-admin/includes/plugin-install.php:311
 #: wp-admin/includes/template.php:232
@@ -1989,7 +2001,7 @@ msgstr "Link tilf&#248;jet."
 #: wp-admin/includes/template.php:2370
 #: wp-admin/includes/template.php:2385
 #: wp-admin/includes/template.php:2474
-#: wp-admin/themes.php:272
+#: wp-admin/themes.php:275
 #: wp-admin/user-edit.php:183
 #: wp-content/themes/classic/comments-popup.php:71
 #: wp-content/themes/classic/comments.php:57
@@ -1997,48 +2009,48 @@ msgstr "Link tilf&#248;jet."
 msgid "Name"
 msgstr "Navn"
 
-#: wp-admin/edit-link-form.php:378
+#: wp-admin/edit-link-form.php:382
 msgid "Example: Nifty blogging software"
 msgstr "Eksempel: Nifty bloggingsoftware"
 
-#: wp-admin/edit-link-form.php:383
+#: wp-admin/edit-link-form.php:387
 msgid "Web Address"
 msgstr "Web-adresse"
 
-#: wp-admin/edit-link-form.php:386
+#: wp-admin/edit-link-form.php:390
 msgid "Example: <code>http://wordpress.org/</code> &#8212; don&#8217;t forget the <code>http://</code>"
 msgstr "Eksempel: <code>http://wordpress.org/</code> &#8212; glem ikke <code>http://</code>"
 
-#: wp-admin/edit-link-form.php:394
+#: wp-admin/edit-link-form.php:398
 msgid "This will be shown when someone hovers over the link in the blogroll, or optionally below the link."
 msgstr "Dette vises hvis en person holder musemark&#248;ren over et link i din blogroll eller eventuelt under linket."
 
-#: wp-admin/edit-page-form.php:21
+#: wp-admin/edit-page-form.php:25
 #, php-format
 msgid "Page updated. <a href=\"%s\">View page</a>"
 msgstr "Side opdateret. <a href=\"%s\">Vis side</a>"
 
-#: wp-admin/edit-page-form.php:24
+#: wp-admin/edit-page-form.php:28
 #, php-format
 msgid "Page published. <a href=\"%s\">View page</a>"
 msgstr "Side udgivet. <a href=\"%s\">Vis side</a>"
 
-#: wp-admin/edit-page-form.php:25
+#: wp-admin/edit-page-form.php:29
 #, php-format
 msgid "Page submitted. <a href=\"%s\">Preview page</a>"
 msgstr "Side sendt. <a href=\"%s\">Preview side</a>"
 
-#: wp-admin/edit-page-form.php:28
+#: wp-admin/edit-page-form.php:32
 #, php-format
 msgid "Page restored to revision from %s"
 msgstr "Side genskabt til revision fra %s"
 
-#: wp-admin/edit-page-form.php:31
+#: wp-admin/edit-page-form.php:35
 #, php-format
 msgid "There is an autosave of this page that is more recent than the version below.  <a href=\"%s\">View the autosave</a>."
 msgstr "Der er en autogemt udgave af indl&#230;gget, der er nyere end versionen nedenfor. <a href=\"%s\">Se den autogemte version</a>."
 
-#: wp-admin/edit-page-form.php:219
+#: wp-admin/edit-page-form.php:223
 #, php-format
 msgid ""
 "You are about to delete this page '%s'\n"
@@ -2047,124 +2059,124 @@ msgstr ""
 "Du er ved at slette denne side \\'%s\\'\\n"
 "  \\'Annuller\\' for at stoppe, \\'Ok\\' for at slette."
 
-#: wp-admin/edit-page-form.php:241
-#: wp-admin/edit-page-form.php:242
+#: wp-admin/edit-page-form.php:245
+#: wp-admin/edit-page-form.php:246
 #: wp-admin/includes/template.php:1259
 #: wp-includes/script-loader.php:307
 msgid "Update Page"
 msgstr "Opdater side"
 
-#: wp-admin/edit-page-form.php:262
+#: wp-admin/edit-page-form.php:266
 msgid "Keep this page private"
 msgstr "Hold denne side privat"
 
-#: wp-admin/edit-page-form.php:263
+#: wp-admin/edit-page-form.php:267
 msgid "Page Password"
 msgstr "Sidens kodeord"
 
-#: wp-admin/edit-page-form.php:264
+#: wp-admin/edit-page-form.php:268
 msgid "Password Protect This Page"
 msgstr "Kodeordsbeskyt denne side"
 
-#: wp-admin/edit-page-form.php:265
+#: wp-admin/edit-page-form.php:269
 msgid "Setting a password will require people who visit your blog to enter the above password to view this page and its comments."
 msgstr "Hvis du skriver et password, skal dem, der bes&#248;ger din blog, skrive ovenst&#229;ende kodeord for at se siden og kommentarerne til den."
 
-#: wp-admin/edit-page-form.php:279
+#: wp-admin/edit-page-form.php:283
 #: wp-admin/includes/template.php:244
 #: wp-admin/includes/template.php:1123
 msgid "Parent"
 msgstr "For&#230;lder"
 
-#: wp-admin/edit-page-form.php:280
+#: wp-admin/edit-page-form.php:284
 msgid "Page Parent"
 msgstr "Sidens for&#230;lder:"
 
-#: wp-admin/edit-page-form.php:281
+#: wp-admin/edit-page-form.php:285
 #: wp-admin/includes/template.php:1125
 msgid "Main Page (no parent)"
 msgstr "Forside (ingen for&#230;lder)"
 
-#: wp-admin/edit-page-form.php:282
+#: wp-admin/edit-page-form.php:286
 msgid "You can arrange your pages in hierarchies, for example you could have an &#8220;About&#8221; page that has &#8220;Life Story&#8221; and &#8220;My Dog&#8221; pages under it. There are no limits to how deeply nested you can make pages."
 msgstr "Du kan arrangere dine sider i hierarkier. Du kan eksempelvis have en &#8220;Om&#8221;-side der under sig har &#8220;Livshistorie&#8221; og &#8220;Min hund&#8221;. Der er ingen gr&#230;nse for, hvor mange niveauer du kan lave."
 
-#: wp-admin/edit-page-form.php:285
+#: wp-admin/edit-page-form.php:289
 #: wp-admin/includes/template.php:1143
 msgid "Template"
 msgstr "Skabelon"
 
-#: wp-admin/edit-page-form.php:286
+#: wp-admin/edit-page-form.php:290
 #: wp-admin/includes/file.php:21
 msgid "Page Template"
 msgstr "Side"
 
-#: wp-admin/edit-page-form.php:287
+#: wp-admin/edit-page-form.php:291
 #: wp-admin/includes/template.php:1148
 msgid "Default Template"
 msgstr "Standardskabelon"
 
-#: wp-admin/edit-page-form.php:290
+#: wp-admin/edit-page-form.php:294
 msgid "Some themes have custom templates you can use for certain pages that might have additional features or custom layouts. If so, you&#8217;ll see them above."
 msgstr "Nogle temaer har specielle skabeloner, som du kan bruge til at lave bestemte sider, som har flere funktioner end standardlayoutet. Hvis det er tilf&#230;ldet, kan du se dem ovenfor."
 
-#: wp-admin/edit-page-form.php:293
+#: wp-admin/edit-page-form.php:297
 #: wp-admin/includes/media.php:997
 #: wp-admin/includes/media.php:1600
 #: wp-admin/includes/template.php:1136
 msgid "Order"
 msgstr "R&#230;kkef&#248;lge"
 
-#: wp-admin/edit-page-form.php:294
+#: wp-admin/edit-page-form.php:298
 msgid "Page Order"
 msgstr "Sider&#230;kkef&#248;lge"
 
-#: wp-admin/edit-page-form.php:295
+#: wp-admin/edit-page-form.php:299
 msgid "Pages are usually ordered alphabetically, but you can put a number above to change the order pages appear in. (We know this is a little janky, it&#8217;ll be better in future releases.)"
 msgstr "Sider sorteres normalt alfabetisk, men du kan inds&#230;tte tal ovenfor for at &#230;ndre r&#230;kkef&#248;lgen (vi ved godt, at det ikke er s&#230;rlig godt; det bliver bedre i kommende udgaver)."
 
-#: wp-admin/edit-page-form.php:298
+#: wp-admin/edit-page-form.php:302
 msgid "Attributes"
 msgstr "Egenskaber"
 
-#: wp-admin/edit-page-form.php:333
+#: wp-admin/edit-page-form.php:337
 #: wp-admin/includes/template.php:1189
 msgid "Allow Comments"
 msgstr "Tillad kommentarer"
 
-#: wp-admin/edit-page-form.php:334
+#: wp-admin/edit-page-form.php:338
 #: wp-admin/includes/template.php:1194
 msgid "Allow Pings"
 msgstr "Tillad pings"
 
-#: wp-admin/edit-page-form.php:335
+#: wp-admin/edit-page-form.php:339
 msgid "These settings apply to this page only. &#8220;Pings&#8221; are <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks and pingbacks</a>."
 msgstr "Disse indstillinger g&#230;lder kun for denne side. &#8220;Pings&#8221; er <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">trackbacks og pingbacks</a>."
 
-#: wp-admin/edit-page-form.php:349
-#: wp-admin/edit-page-form.php:352
+#: wp-admin/edit-page-form.php:353
+#: wp-admin/edit-page-form.php:356
 msgid "Page Slug"
 msgstr "Kort sidetitel"
 
-#: wp-admin/edit-page-form.php:371
-#: wp-admin/edit-page-form.php:374
+#: wp-admin/edit-page-form.php:375
+#: wp-admin/edit-page-form.php:378
 msgid "Page Author"
 msgstr "Sidens forfatter"
 
-#: wp-admin/edit-page-form.php:388
+#: wp-admin/edit-page-form.php:392
 #: wp-admin/revision.php:138
 msgid "Page Revisions"
 msgstr "Siderevisioner"
 
-#: wp-admin/edit-pages.php:25
+#: wp-admin/edit-pages.php:28
 #: wp-admin/page.php:150
 msgid "You are not allowed to delete this page."
 msgstr "Du har ikke tilladelse til at slette denne side."
 
-#: wp-admin/edit-pages.php:29
 #: wp-admin/edit-pages.php:32
-#: wp-admin/edit.php:37
+#: wp-admin/edit-pages.php:35
 #: wp-admin/edit.php:40
+#: wp-admin/edit.php:43
 #: wp-admin/page.php:154
 #: wp-admin/page.php:157
 #: wp-admin/post.php:195
@@ -2173,21 +2185,21 @@ msgstr "Du har ikke tilladelse til at slette denne side."
 msgid "Error in deleting..."
 msgstr "Fejl ved sletning..."
 
-#: wp-admin/edit-pages.php:73
+#: wp-admin/edit-pages.php:76
 #: wp-admin/includes/template.php:3212
 msgid "Edit Pages"
 msgstr "Rediger sider"
 
-#: wp-admin/edit-pages.php:78
+#: wp-admin/edit-pages.php:81
 msgctxt "page"
 msgid "Published"
 msgstr "Udgivet"
 
-#: wp-admin/edit-pages.php:78
+#: wp-admin/edit-pages.php:81
 msgid "Published pages"
 msgstr "Udgivede sider"
 
-#: wp-admin/edit-pages.php:78
+#: wp-admin/edit-pages.php:81
 #, php-format
 msgctxt "page"
 msgid "Published <span class=\"count\">(%s)</span>"
@@ -2195,16 +2207,16 @@ msgid_plural "Published <span class=\"count\">(%s)</span>"
 msgstr[0] "Udgivet <span class=\"count\">(%s)</span>"
 msgstr[1] "Udgivet <span class=\"count\">(%s)</span>"
 
-#: wp-admin/edit-pages.php:79
+#: wp-admin/edit-pages.php:82
 msgctxt "page"
 msgid "Scheduled"
 msgstr "Planlagt"
 
-#: wp-admin/edit-pages.php:79
+#: wp-admin/edit-pages.php:82
 msgid "Scheduled pages"
 msgstr "Planlagte sider"
 
-#: wp-admin/edit-pages.php:79
+#: wp-admin/edit-pages.php:82
 #, php-format
 msgctxt "page"
 msgid "Scheduled <span class=\"count\">(%s)</span>"
@@ -2212,16 +2224,16 @@ msgid_plural "Scheduled <span class=\"count\">(%s)</span>"
 msgstr[0] "Planlagt <span class=\"count\">(%s)</span>"
 msgstr[1] "Planlagt <span class=\"count\">(%s)</span>"
 
-#: wp-admin/edit-pages.php:80
+#: wp-admin/edit-pages.php:83
 msgctxt "page"
 msgid "Pending Review"
 msgstr "Afventer genneml&#230;sning"
 
-#: wp-admin/edit-pages.php:80
+#: wp-admin/edit-pages.php:83
 msgid "Pending pages"
 msgstr "Ventende sider"
 
-#: wp-admin/edit-pages.php:80
+#: wp-admin/edit-pages.php:83
 #, php-format
 msgctxt "page"
 msgid "Pending Review <span class=\"count\">(%s)</span>"
@@ -2229,18 +2241,18 @@ msgid_plural "Pending Review <span class=\"count\">(%s)</span>"
 msgstr[0] "Afventer genneml&#230;sning <span class=\"count\">(%s)</span>"
 msgstr[1] "Afventer genneml&#230;sning <span class=\"count\">(%s)</span>"
 
-#: wp-admin/edit-pages.php:81
+#: wp-admin/edit-pages.php:84
 msgctxt "page"
 msgid "Draft"
 msgstr "Kladde"
 
-#: wp-admin/edit-pages.php:81
+#: wp-admin/edit-pages.php:84
 #: wp-admin/includes/post.php:796
 msgctxt "manage posts header"
 msgid "Drafts"
 msgstr "Kladder"
 
-#: wp-admin/edit-pages.php:81
+#: wp-admin/edit-pages.php:84
 #, php-format
 msgctxt "page"
 msgid "Draft <span class=\"count\">(%s)</span>"
@@ -2248,16 +2260,16 @@ msgid_plural "Drafts <span class=\"count\">(%s)</span>"
 msgstr[0] "Kladde <span class=\"count\">(%s)</span>"
 msgstr[1] "Kladder <span class=\"count\">(%s)</span>"
 
-#: wp-admin/edit-pages.php:82
+#: wp-admin/edit-pages.php:85
 msgctxt "page"
 msgid "Private"
 msgstr "Privat"
 
-#: wp-admin/edit-pages.php:82
+#: wp-admin/edit-pages.php:85
 msgid "Private pages"
 msgstr "Private sider"
 
-#: wp-admin/edit-pages.php:82
+#: wp-admin/edit-pages.php:85
 #, php-format
 msgctxt "page"
 msgid "Private <span class=\"count\">(%s)</span>"
@@ -2265,7 +2277,7 @@ msgid_plural "Private <span class=\"count\">(%s)</span>"
 msgstr[0] "Privat <span class=\"count\">(%s)</span>"
 msgstr[1] "Private <span class=\"count\">(%s)</span>"
 
-#: wp-admin/edit-pages.php:90
+#: wp-admin/edit-pages.php:93
 #: wp-admin/includes/template.php:3172
 #: wp-admin/menu.php:59
 #: wp-includes/default-widgets.php:19
@@ -2274,47 +2286,47 @@ msgstr[1] "Private <span class=\"count\">(%s)</span>"
 msgid "Pages"
 msgstr "Sider"
 
-#: wp-admin/edit-pages.php:117
+#: wp-admin/edit-pages.php:120
 #, php-format
 msgid "%s page updated."
 msgid_plural "%s pages updated."
 msgstr[0] "%s side opdateret."
 msgstr[1] "%s sider opdateret."
 
-#: wp-admin/edit-pages.php:122
+#: wp-admin/edit-pages.php:125
 #, php-format
 msgid "%s page not updated, invalid parent page specified."
 msgid_plural "%s pages not updated, invalid parent page specified."
 msgstr[0] "%s side blev ikke opdateret - ugyldig for&#230;lderside valgt."
 msgstr[1] "%s sider blev ikke opdateret - ugyldig for&#230;lderside valgt."
 
-#: wp-admin/edit-pages.php:127
+#: wp-admin/edit-pages.php:130
 #, php-format
 msgid "%s page not updated, somebody is editing it."
 msgid_plural "%s pages not updated, somebody is editing them."
 msgstr[0] "%s side blev ikke opdateret - en eller anden redigerer den."
 msgstr[1] "%s sider blev ikke opdaterede - en eller anden redigerer dem."
 
-#: wp-admin/edit-pages.php:132
+#: wp-admin/edit-pages.php:135
 #, php-format
 msgid "Page deleted."
 msgid_plural "%s pages deleted."
 msgstr[0] "Side slettet"
 msgstr[1] "%s sider slettet."
 
-#: wp-admin/edit-pages.php:141
+#: wp-admin/edit-pages.php:144
 msgid "Your page has been saved."
 msgstr "Din side er blevet gemt."
 
-#: wp-admin/edit-pages.php:141
+#: wp-admin/edit-pages.php:144
 msgid "View page"
 msgstr "Se side"
 
-#: wp-admin/edit-pages.php:141
+#: wp-admin/edit-pages.php:144
 msgid "Edit page"
 msgstr "Rediger side"
 
-#: wp-admin/edit-pages.php:155
+#: wp-admin/edit-pages.php:158
 #, php-format
 msgctxt "pages"
 msgid "All <span class=\"count\">(%s)</span>"
@@ -2322,51 +2334,55 @@ msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "Alle <span class=\"count\">(%s)</span>"
 msgstr[1] "Alle <span class=\"count\">(%s)</span>"
 
-#: wp-admin/edit-pages.php:174
-#: wp-admin/edit-pages.php:176
+#: wp-admin/edit-pages.php:177
+#: wp-admin/edit-pages.php:179
 msgid "Search Pages"
 msgstr "S&#248;g sider"
 
-#: wp-admin/edit-pages.php:267
+#: wp-admin/edit-pages.php:270
 msgid "No pages found."
 msgstr "Ingen sider fundet."
 
 #. translators: column name
-#: wp-admin/edit-pages.php:297
+#: wp-admin/edit-pages.php:300
 #: wp-admin/includes/template.php:844
 msgctxt "column name"
 msgid "Comment"
 msgstr "Kommentar"
 
-#: wp-admin/edit-pages.php:300
+#: wp-admin/edit-pages.php:303
 msgid "Submitted"
 msgstr "Sendt"
 
-#: wp-admin/edit-tag-form.php:10
+#: wp-admin/edit-tag-form.php:14
+msgid "You do not have sufficient permissions to edit tags for this blog."
+msgstr "Du har ikke tilstr&#230;kkelige rettigheder til at redigere tags p&#229; denne blog."
+
+#: wp-admin/edit-tag-form.php:17
 msgid "A tag was not selected for editing."
 msgstr "Der blev ikke valgt et tag til redigering."
 
-#: wp-admin/edit-tag-form.php:19
+#: wp-admin/edit-tag-form.php:26
 #: wp-admin/edit-tags.php:91
 msgid "Edit Tag"
 msgstr "Rediger tag"
 
-#: wp-admin/edit-tag-form.php:28
+#: wp-admin/edit-tag-form.php:35
 #: wp-admin/edit-tags.php:284
 msgid "Tag name"
 msgstr "Tagnavn"
 
-#: wp-admin/edit-tag-form.php:30
+#: wp-admin/edit-tag-form.php:37
 #: wp-admin/edit-tags.php:286
 msgid "The name is how the tag appears on your site."
 msgstr "Navnet er hvordan tagget vises p&#229; dit site."
 
-#: wp-admin/edit-tag-form.php:33
+#: wp-admin/edit-tag-form.php:40
 #: wp-admin/edit-tags.php:290
 msgid "Tag slug"
 msgstr "Kort tagtitel (til permalinks)"
 
-#: wp-admin/edit-tag-form.php:44
+#: wp-admin/edit-tag-form.php:51
 #: wp-admin/includes/template.php:266
 msgid "Update Tag"
 msgstr "Opdater tag"
@@ -2422,55 +2438,55 @@ msgstr "Tilf&#248;j ny tag"
 msgid "Add Tag"
 msgstr "Tilf&#248;j tag"
 
-#: wp-admin/edit.php:33
+#: wp-admin/edit.php:36
 #: wp-admin/post.php:191
 #: wp-admin/upload.php:79
 msgid "You are not allowed to delete this post."
 msgstr "Du har ikke tilladelse til at slette dette indl&#230;g."
 
-#: wp-admin/edit.php:81
+#: wp-admin/edit.php:84
 #: wp-admin/includes/template.php:3206
 msgid "Edit Posts"
 msgstr "Rediger indl&#230;g"
 
-#: wp-admin/edit.php:106
+#: wp-admin/edit.php:109
 #: wp-admin/press-this.php:516
 msgid "Your post has been saved."
 msgstr "Dit indl&#230;g er blevet gemt."
 
-#: wp-admin/edit.php:106
+#: wp-admin/edit.php:109
 #: wp-admin/press-this.php:516
 msgid "View post"
 msgstr "Se indl&#230;g"
 
-#: wp-admin/edit.php:106
+#: wp-admin/edit.php:109
 #: wp-admin/press-this.php:516
 #: wp-includes/link-template.php:730
 msgid "Edit post"
 msgstr "Rediger indl&#230;g"
 
-#: wp-admin/edit.php:113
+#: wp-admin/edit.php:116
 #, php-format
 msgid "%s post updated."
 msgid_plural "%s posts updated."
 msgstr[0] "%s indl&#230;g opdateret."
 msgstr[1] "%s indl&#230;g opdateret."
 
-#: wp-admin/edit.php:121
+#: wp-admin/edit.php:124
 #, php-format
 msgid "%s post not updated, somebody is editing it."
 msgid_plural "%s posts not updated, somebody is editing them."
 msgstr[0] "%s indl&#230;g blev ikke opdateret - en eller anden redigerer det."
 msgstr[1] "%s indl&#230;g blev ikke opdateret - en eller anden redigerer dem."
 
-#: wp-admin/edit.php:126
+#: wp-admin/edit.php:129
 #, php-format
 msgid "Post deleted."
 msgid_plural "%s posts deleted."
 msgstr[0] "Indl&#230;g slettet"
 msgstr[1] "%s indl&#230;g slettet."
 
-#: wp-admin/edit.php:144
+#: wp-admin/edit.php:147
 #, php-format
 msgctxt "posts"
 msgid "All <span class=\"count\">(%s)</span>"
@@ -2478,72 +2494,80 @@ msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "Alle <span class=\"count\">(%s)</span>"
 msgstr[1] "Alle <span class=\"count\">(%s)</span>"
 
-#: wp-admin/edit.php:167
-#: wp-admin/edit.php:169
+#: wp-admin/edit.php:170
+#: wp-admin/edit.php:172
 msgid "Search Posts"
 msgstr "S&#248;g indl&#230;g"
 
-#: wp-admin/edit.php:213
+#: wp-admin/edit.php:216
 #: wp-admin/includes/media.php:1798
 #: wp-admin/upload.php:263
 msgid "Show all dates"
 msgstr "Vis alle datoer"
 
-#: wp-admin/edit.php:234
+#: wp-admin/edit.php:237
 msgid "View all categories"
 msgstr "Se alle kategorier"
 
-#: wp-admin/edit.php:254
+#: wp-admin/edit.php:257
 msgid "List View"
 msgstr "Listevisning"
 
-#: wp-admin/edit.php:255
+#: wp-admin/edit.php:258
 msgid "Excerpt View"
 msgstr "Uddragsvisning"
 
-#: wp-admin/edit.php:286
+#: wp-admin/edit.php:289
 msgid "No posts found"
 msgstr "Ingen indl&#230;g fundet."
 
-#: wp-admin/export.php:14
+#: wp-admin/export.php:13
+msgid "You do not have sufficient permissions to export the content of this blog."
+msgstr "Du har ikke tilstr&#230;kkelige rettigheder til at eksportere indhold fra denne blog."
+
+#: wp-admin/export.php:17
 #: wp-admin/menu.php:104
 msgid "Export"
 msgstr "Eksporter"
 
-#: wp-admin/export.php:29
+#: wp-admin/export.php:32
 msgid "When you click the button below WordPress will create an XML file for you to save to your computer."
 msgstr "N&#229;r du klikker p&#229; knappen nedenfor, vil WordPress lave en XML-fil, du kan gemme p&#229; din computer."
 
-#: wp-admin/export.php:30
+#: wp-admin/export.php:33
 msgid "This format, which we call WordPress eXtended RSS or WXR, will contain your posts, pages, comments, custom fields, categories, and tags."
 msgstr "Dette format, som vi kalder WordPress eXtended RSS eller WXR, vil indeholde dine indl&#230;g, sider, kommentarer, egne felter, kategorier og tags."
 
-#: wp-admin/export.php:31
+#: wp-admin/export.php:34
 msgid "Once you&#8217;ve saved the download file, you can use the Import function on another WordPress blog to import this blog."
 msgstr "N&#229;r du har gemt filen, kan du bruge Import-funktionen p&#229; en anden WordPress-blog til at importere denne blog."
 
-#: wp-admin/export.php:33
+#: wp-admin/export.php:36
 #: wp-admin/includes/template.php:3662
 msgid "Options"
 msgstr "Indstillinger"
 
-#: wp-admin/export.php:37
+#: wp-admin/export.php:40
 msgid "Restrict Author"
 msgstr "Begr&#230;ns forfatter"
 
-#: wp-admin/export.php:40
+#: wp-admin/export.php:43
 msgid "All Authors"
 msgstr "Alle forfattere"
 
-#: wp-admin/export.php:52
+#: wp-admin/export.php:55
 msgid "Download Export File"
 msgstr "Download eksportfil"
 
-#: wp-admin/import.php:19
+#: wp-admin/import.php:13
+msgid "You do not have sufficient permissions to import content in this blog."
+msgstr "Du har ikke tilstr&#230;kkelige rettigheder til at importere indhold til denne blog."
+
+#: wp-admin/import.php:23
 msgid "If you have posts or comments in another system, WordPress can import those into this blog. To get started, choose a system to import from below:"
 msgstr "Hvis du har indl&#230;g eller kommentarer i et andet system, kan WordPress importere dem ind i denne blog. For at starte skal du v&#230;lge systemet, der skal importeres fra, nedenfor:"
 
-#: wp-admin/import.php:41
+#: wp-admin/import.php:45
 msgid "No importers are available."
 msgstr "Der er ingen tilg&#230;ngelige importere."
 
@@ -3504,8 +3528,8 @@ msgstr "Importeren er smart nok til ikke at importere ens indl&#230;g, s&#229; d
 #: wp-admin/import/mt.php:62
 #: wp-admin/import/wordpress.php:256
 #: wp-admin/includes/template.php:2484
-#: wp-admin/options-reading.php:41
-#: wp-admin/options-reading.php:42
+#: wp-admin/options-reading.php:44
+#: wp-admin/options-reading.php:45
 msgid "- Select -"
 msgstr "- V&#230;lg -"
 
@@ -4359,7 +4383,7 @@ msgstr "Fors&#248;ger at genaktivere pluginet"
 
 #: wp-admin/includes/class-wp-upgrader.php:829
 #: wp-admin/includes/class-wp-upgrader.php:880
-#: wp-admin/plugins.php:397
+#: wp-admin/plugins.php:415
 msgid "Activate this plugin"
 msgstr "Aktiver dette plugin"
 
@@ -4405,23 +4429,23 @@ msgstr "Installerede temaet <strong>%1$s %2$s</strong>."
 #: wp-admin/includes/template.php:1671
 #: wp-admin/includes/theme-install.php:305
 #: wp-admin/includes/theme-install.php:313
-#: wp-admin/themes.php:214
+#: wp-admin/themes.php:217
 #, php-format
 msgid "Preview &#8220;%s&#8221;"
 msgstr "Preview &#8220;%s&#8221;"
 
 #: wp-admin/includes/class-wp-upgrader.php:948
 #: wp-admin/includes/class-wp-upgrader.php:1005
-#: wp-admin/themes.php:211
+#: wp-admin/themes.php:214
 #, php-format
 msgid "Activate &#8220;%s&#8221;"
 msgstr "Aktiver &#8220;%s&#8221;"
 
 #: wp-admin/includes/class-wp-upgrader.php:948
 #: wp-admin/includes/class-wp-upgrader.php:1005
-#: wp-admin/plugins.php:397
-#: wp-admin/plugins.php:462
-#: wp-admin/themes.php:213
+#: wp-admin/plugins.php:415
+#: wp-admin/plugins.php:480
+#: wp-admin/themes.php:216
 msgid "Activate"
 msgstr "Aktiver"
 
@@ -4566,7 +4590,7 @@ msgstr[0] "Tag"
 msgstr[1] "Tags"
 
 #: wp-admin/includes/dashboard.php:306
-#: wp-content/plugins/akismet/akismet.php:889
+#: wp-content/plugins/akismet/akismet.php:893
 msgid "Spam"
 msgid_plural "Spam"
 msgstr[0] "Spam"
@@ -4620,7 +4644,7 @@ msgid "Press This"
 msgstr "Press det"
 
 #: wp-admin/includes/dashboard.php:399
-#: wp-includes/post.php:3426
+#: wp-includes/post.php:3423
 msgid "Content"
 msgstr "Indhold"
 
@@ -4646,7 +4670,7 @@ msgstr "Godkend ikke"
 
 #: wp-admin/includes/dashboard.php:541
 #: wp-admin/includes/template.php:2153
-#: wp-includes/link-template.php:780
+#: wp-includes/link-template.php:779
 msgid "Edit comment"
 msgstr "Rediger kommentar"
 
@@ -5011,7 +5035,7 @@ msgstr "Brugernavn"
 #: wp-admin/includes/file.php:760
 #: wp-admin/includes/template.php:1079
 #: wp-admin/install.php:133
-#: wp-admin/options-writing.php:97
+#: wp-admin/options-writing.php:100
 #: wp-admin/user-new.php:119
 #: wp-login.php:508
 msgid "Password"
@@ -5490,7 +5514,7 @@ msgstr "Plugins udvider funktionaliteten i WordPress. Du kan installere plugins 
 #: wp-admin/includes/theme-install.php:162
 #: wp-admin/plugin-install.php:24
 #: wp-admin/theme-install.php:29
-#: wp-content/plugins/akismet/akismet.php:700
+#: wp-content/plugins/akismet/akismet.php:704
 #: wp-content/themes/classic/sidebar.php:21
 #: wp-includes/default-widgets.php:176
 #: wp-includes/general-template.php:127
@@ -5531,8 +5555,8 @@ msgstr "Tag"
 
 #: wp-admin/includes/plugin-install.php:168
 #: wp-admin/includes/plugin-install.php:169
-#: wp-admin/plugins.php:482
-#: wp-admin/plugins.php:484
+#: wp-admin/plugins.php:500
+#: wp-admin/plugins.php:502
 msgid "Search Plugins"
 msgstr "S&#248;g plugins"
 
@@ -5574,7 +5598,7 @@ msgstr "Ingen plugins at vise"
 
 #: wp-admin/includes/plugin-install.php:346
 #: wp-admin/includes/plugin.php:130
-#: wp-admin/plugins.php:432
+#: wp-admin/plugins.php:450
 #, php-format
 msgid "By %s"
 msgstr "Af %s"
@@ -5712,7 +5736,7 @@ msgid "Visit plugin homepage"
 msgstr "Bes&#248;g plugin-hjemmeside"
 
 #: wp-admin/includes/plugin.php:126
-#: wp-admin/plugins.php:431
+#: wp-admin/plugins.php:449
 #: wp-includes/theme.php:226
 msgid "Visit author homepage"
 msgstr "Bes&#248;g forfatterens hjemmeside"
@@ -5898,7 +5922,7 @@ msgstr[0] "Video <span class=\"count\">(%s)</span>"
 msgstr[1] "Video <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:976
-#: wp-content/plugins/akismet/akismet.php:818
+#: wp-content/plugins/akismet/akismet.php:822
 msgid "View Post"
 msgstr "Vis indl&#230;g"
 
@@ -5933,13 +5957,13 @@ msgstr "Endnu en WordPress-blog"
 
 #. translators: default date format, see http://php.net/date
 #: wp-admin/includes/schema.php:216
-#: wp-admin/options-general.php:201
+#: wp-admin/options-general.php:204
 msgid "F j, Y"
 msgstr "j. F Y"
 
 #. translators: default time format, see http://php.net/date
 #: wp-admin/includes/schema.php:218
-#: wp-admin/options-general.php:234
+#: wp-admin/options-general.php:237
 msgid "g:i a"
 msgstr "H:i"
 
@@ -6366,7 +6390,7 @@ msgid "Install Plugins"
 msgstr "Installer plugins"
 
 #: wp-admin/includes/template.php:3236
-#: wp-admin/plugins.php:216
+#: wp-admin/plugins.php:234
 msgid "Manage Plugins"
 msgstr "H&#229;ndter plugins"
 
@@ -6377,7 +6401,7 @@ msgid "Install Themes"
 msgstr "Installer temaer"
 
 #: wp-admin/includes/template.php:3242
-#: wp-admin/themes.php:28
+#: wp-admin/themes.php:31
 msgid "Manage Themes"
 msgstr "H&#229;ndter temaer"
 
@@ -6649,7 +6673,7 @@ msgid "Right Sidebar"
 msgstr "H&#248;jre sidebar"
 
 #: wp-admin/includes/theme-install.php:187
-#: wp-admin/options-media.php:33
+#: wp-admin/options-media.php:36
 #: wp-includes/js/tinymce/langs/wp-langs.php:434
 msgid "Width"
 msgstr "Bredde"
@@ -6789,7 +6813,7 @@ msgstr "Opdaterer database"
 
 #: wp-admin/includes/update.php:86
 #: wp-admin/includes/update.php:111
-#: wp-admin/plugins.php:427
+#: wp-admin/plugins.php:445
 #, php-format
 msgid "Version %s"
 msgstr "Version %s"
@@ -7037,7 +7061,7 @@ msgid "<strong>ERROR</strong>: %s"
 msgstr "<strong>FEJL</strong>: %s"
 
 #: wp-admin/install.php:59
-#: wp-admin/options-general.php:62
+#: wp-admin/options-general.php:65
 #: xmlrpc.php:404
 msgid "Blog Title"
 msgstr "Blogtitel"
@@ -7109,7 +7133,11 @@ msgstr "WordPress er installeret. Regnede du med mere? Vi er kede af at m&#229;t
 msgid "Log In"
 msgstr "Log Ind"
 
-#: wp-admin/link-add.php:12
+#: wp-admin/link-add.php:13
+msgid "You do not have sufficient permissions to add links to this blog."
+msgstr "Du har ikke tilstr&#230;kkelige rettigheder til at tilf&#248;je links p&#229; denne blog."
+
+#: wp-admin/link-add.php:15
 msgid "Add New Link"
 msgstr "Tilf&#248;j nyt link"
 
@@ -7326,341 +7354,352 @@ msgstr "Diverse"
 msgid "You do not have sufficient permissions to access this page."
 msgstr "Du har ikke tilstr&#230;kkelige rettigheder til at se denne side."
 
-#: wp-admin/options-discussion.php:12
+#: wp-admin/options-discussion.php:13
+#: wp-admin/options-general.php:13
+#: wp-admin/options-media.php:13
+#: wp-admin/options-misc.php:13
+#: wp-admin/options-permalink.php:13
+#: wp-admin/options-privacy.php:13
+#: wp-admin/options-reading.php:13
+#: wp-admin/options-writing.php:13
+msgid "You do not have sufficient permissions to manage options for this blog."
+msgstr "Du har ikke tilstr&#230;kkelige rettigheder til at h&#229;ndtere indstillinger p&#229; denne blog."
+
+#: wp-admin/options-discussion.php:15
 msgid "Discussion Settings"
 msgstr "Diskussionsindstillinger"
 
-#: wp-admin/options-discussion.php:27
-#: wp-admin/options-discussion.php:28
+#: wp-admin/options-discussion.php:30
+#: wp-admin/options-discussion.php:31
 msgid "Default article settings"
 msgstr "Standardindstillinger for artikler"
 
-#: wp-admin/options-discussion.php:31
+#: wp-admin/options-discussion.php:34
 msgid "Attempt to notify any blogs linked to from the article (slows down posting.)"
 msgstr "Fors&#248;g at informere alle blogs, der linkes til fra artiklen (udgivelse tager l&#230;ngere tid)."
 
-#: wp-admin/options-discussion.php:35
+#: wp-admin/options-discussion.php:38
 msgid "Allow link notifications from other blogs (pingbacks and trackbacks.)"
 msgstr "Tillad linkmeddelelser fra andre weblogs (pingbacks og trackbacks)."
 
-#: wp-admin/options-discussion.php:39
+#: wp-admin/options-discussion.php:42
 msgid "Allow people to post comments on new articles"
 msgstr "Tillad folk at skrive kommentarer til nye indl&#230;g"
 
-#: wp-admin/options-discussion.php:41
+#: wp-admin/options-discussion.php:44
 msgid "These settings may be overridden for individual articles."
 msgstr "Indstillingerne kan &#230;ndres for de enkelte indl&#230;g."
 
-#: wp-admin/options-discussion.php:45
-#: wp-admin/options-discussion.php:46
+#: wp-admin/options-discussion.php:48
+#: wp-admin/options-discussion.php:49
 msgid "Other comment settings"
 msgstr "Andre kommentarindstillinger"
 
-#: wp-admin/options-discussion.php:47
+#: wp-admin/options-discussion.php:50
 msgid "Comment author must fill out name and e-mail"
 msgstr "Kommentarskriveren skal udfylde navn og e-mail"
 
-#: wp-admin/options-discussion.php:51
+#: wp-admin/options-discussion.php:54
 msgid "Users must be registered and logged in to comment"
 msgstr "Brugere skal v&#230;re registrerede og logget ind for at kommentere"
 
-#: wp-admin/options-discussion.php:57
+#: wp-admin/options-discussion.php:60
 #, php-format
 msgid "Automatically close comments on articles older than %s days"
 msgstr "Luk automatisk for kommentarer til indl&#230;g &#230;ldre end %s dage"
 
-#: wp-admin/options-discussion.php:73
+#: wp-admin/options-discussion.php:76
 #, php-format
 msgid "Enable threaded (nested) comments %s levels deep"
 msgstr "Sl&#229; tr&#229;dede (indlejrede) kommentarer til i %s niveauer"
 
-#: wp-admin/options-discussion.php:82
+#: wp-admin/options-discussion.php:85
 msgid "last"
 msgstr "sidste"
 
-#: wp-admin/options-discussion.php:84
+#: wp-admin/options-discussion.php:87
 msgid "first"
 msgstr "firste"
 
-#: wp-admin/options-discussion.php:86
+#: wp-admin/options-discussion.php:89
 #, php-format
 msgid "Break comments into pages with %1$s comments per page and the %2$s page displayed by default"
 msgstr "Adskil kommentarer p&#229; sider med %1$s kommentarer p&#229; hver side og med den %2$s side som standardvisning"
 
-#: wp-admin/options-discussion.php:94
+#: wp-admin/options-discussion.php:97
 msgid "older"
 msgstr "&#230;ldre"
 
-#: wp-admin/options-discussion.php:96
+#: wp-admin/options-discussion.php:99
 msgid "newer"
 msgstr "nyere"
 
-#: wp-admin/options-discussion.php:98
+#: wp-admin/options-discussion.php:101
 #, php-format
 msgid "Comments should be displayed with the %s comments at the top of each page"
 msgstr "Kommentarer skal vises med de %s kommentarer &#248;verst p&#229; siden"
 
-#: wp-admin/options-discussion.php:104
-#: wp-admin/options-discussion.php:105
+#: wp-admin/options-discussion.php:107
+#: wp-admin/options-discussion.php:108
 msgid "E-mail me whenever"
 msgstr "Send mig en e-mail n&#229;r"
 
-#: wp-admin/options-discussion.php:108
+#: wp-admin/options-discussion.php:111
 msgid "Anyone posts a comment"
 msgstr "Nogen skriver en kommentar"
 
-#: wp-admin/options-discussion.php:112
+#: wp-admin/options-discussion.php:115
 msgid "A comment is held for moderation"
 msgstr "Der er en kommentar til bed&#248;mmelse"
 
-#: wp-admin/options-discussion.php:116
-#: wp-admin/options-discussion.php:117
+#: wp-admin/options-discussion.php:119
+#: wp-admin/options-discussion.php:120
 msgid "Before a comment appears"
 msgstr "F&#248;r en kommentar vises"
 
-#: wp-admin/options-discussion.php:120
+#: wp-admin/options-discussion.php:123
 msgid "An administrator must always approve the comment"
 msgstr "En administrator skal altid godkende kommentaren"
 
-#: wp-admin/options-discussion.php:122
+#: wp-admin/options-discussion.php:125
 msgid "Comment author must have a previously approved comment"
 msgstr "Kommentarskriveren skal have en tidligere godkendt kommentar"
 
-#: wp-admin/options-discussion.php:126
-#: wp-admin/options-discussion.php:127
+#: wp-admin/options-discussion.php:129
+#: wp-admin/options-discussion.php:130
 msgid "Comment Moderation"
 msgstr "Kommentarbed&#248;mmelse"
 
-#: wp-admin/options-discussion.php:128
+#: wp-admin/options-discussion.php:131
 #, php-format
 msgid "Hold a comment in the queue if it contains %s or more links. (A common characteristic of comment spam is a large number of hyperlinks.)"
 msgstr "Gem en kommentar i k&#248;en hvis den indeholder %s eller flere links (kommentarspam kendetegnes ofte af et h&#248;jt antal links)."
 
-#: wp-admin/options-discussion.php:130
+#: wp-admin/options-discussion.php:133
 msgid "When a comment contains any of these words in its content, name, URL, e-mail, or IP, it will be held in the <a href=\"edit-comments.php?comment_status=moderated\">moderation queue</a>. One word or IP per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
 msgstr "N&#229;r en kommentar indeholder et af f&#248;lgende ord i indhold, navn, URL, e-mail eller IP, skal den tilbageholdes i <a href=\"edit-comments.php?comment_status=moderated\">bed&#248;mmelsesk&#248;en</a>. Et ord eller en IP pr. linje. Den tilbageholder ogs&#229; dele af ord, s&#229; &#8220;press&#8221; tilbageholder ogs&#229; &#8220;WordPress&#8221;."
 
-#: wp-admin/options-discussion.php:137
-#: wp-admin/options-discussion.php:138
+#: wp-admin/options-discussion.php:140
+#: wp-admin/options-discussion.php:141
 msgid "Comment Blacklist"
 msgstr "Kommentar-sortliste"
 
-#: wp-admin/options-discussion.php:139
+#: wp-admin/options-discussion.php:142
 msgid "When a comment contains any of these words in its content, name, URL, e-mail, or IP, it will be marked as spam. One word or IP per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
 msgstr "N&#229;r en kommentar indeholder et af f&#248;lgende ord i indhold, navn, URL, e-mail eller IP, bliver den markeret som spam. Et ord eller en IP pr. linje. Den vil ogs&#229; markere dele af ord, s&#229; &#8220;press&#8221; markerer ogs&#229; &#8220;WordPress&#8221;."
 
-#: wp-admin/options-discussion.php:148
+#: wp-admin/options-discussion.php:151
 msgid "Avatars"
 msgstr "Avatars"
 
-#: wp-admin/options-discussion.php:150
+#: wp-admin/options-discussion.php:153
 msgid "An avatar is an image that follows you from weblog to weblog appearing beside your name when you comment on avatar enabled sites.  Here you can enable the display of avatars for people who comment on your blog."
 msgstr "En avatar er et billede, der f&#248;lger dig fra weblog til weblog, og som vises ved dit navn, n&#229;r du kommenterer p&#229; sider, der underst&#248;tter avatars. Her kan du aktivere underst&#248;ttelse af avatars for personer, der kommenterer p&#229; din blog."
 
-#: wp-admin/options-discussion.php:156
+#: wp-admin/options-discussion.php:159
 msgid "Avatar Display"
 msgstr "Avatarvisning"
 
-#: wp-admin/options-discussion.php:157
+#: wp-admin/options-discussion.php:160
 msgid "Avatar display"
 msgstr "Avatarvisning"
 
-#: wp-admin/options-discussion.php:159
+#: wp-admin/options-discussion.php:162
 msgid "Don&#8217;t show Avatars"
 msgstr "Vis ikke Avatars"
 
-#: wp-admin/options-discussion.php:159
+#: wp-admin/options-discussion.php:162
 msgid "Show Avatars"
 msgstr "Vis Avatars"
 
-#: wp-admin/options-discussion.php:168
-#: wp-admin/options-discussion.php:169
+#: wp-admin/options-discussion.php:171
+#: wp-admin/options-discussion.php:172
 msgid "Maximum Rating"
 msgstr "Maksimiumkarakter"
 
-#: wp-admin/options-discussion.php:172
+#: wp-admin/options-discussion.php:175
 msgid "G &#8212; Suitable for all audiences"
 msgstr "G &#8212; Ok for alle"
 
-#: wp-admin/options-discussion.php:172
+#: wp-admin/options-discussion.php:175
 msgid "PG &#8212; Possibly offensive, usually for audiences 13 and above"
 msgstr "PG &#8212; Kan v&#230;re st&#248;dende - normalt for personer over 13 &#229;r"
 
-#: wp-admin/options-discussion.php:172
+#: wp-admin/options-discussion.php:175
 msgid "R &#8212; Intended for adult audiences above 17"
 msgstr "R &#8212; For voksne over 17 &#229;r"
 
-#: wp-admin/options-discussion.php:172
+#: wp-admin/options-discussion.php:175
 msgid "X &#8212; Even more mature than above"
 msgstr "X &#8212; Endnu mere voksne end ovenfor"
 
-#: wp-admin/options-discussion.php:182
-#: wp-admin/options-discussion.php:183
+#: wp-admin/options-discussion.php:185
+#: wp-admin/options-discussion.php:186
 msgid "Default Avatar"
 msgstr "Standardavatar"
 
-#: wp-admin/options-discussion.php:185
+#: wp-admin/options-discussion.php:188
 msgid "For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their e-mail address."
 msgstr "Du kan enten vise et generisk logo eller et bestemt et ud fra brugerens e-mail-adresse, n&#229;r de ikke har deres egen avatar."
 
-#: wp-admin/options-discussion.php:189
+#: wp-admin/options-discussion.php:192
 msgid "Mystery Man"
 msgstr "Mystery Man"
 
-#: wp-admin/options-discussion.php:190
+#: wp-admin/options-discussion.php:193
 msgid "Blank"
 msgstr "Blank"
 
-#: wp-admin/options-discussion.php:191
+#: wp-admin/options-discussion.php:194
 msgid "Gravatar Logo"
 msgstr "Gravatar-logo"
 
-#: wp-admin/options-discussion.php:192
+#: wp-admin/options-discussion.php:195
 msgid "Identicon (Generated)"
 msgstr "Identicon (Generated)"
 
-#: wp-admin/options-discussion.php:193
+#: wp-admin/options-discussion.php:196
 msgid "Wavatar (Generated)"
 msgstr "Wavatar (Generated)"
 
-#: wp-admin/options-discussion.php:194
+#: wp-admin/options-discussion.php:197
 msgid "MonsterID (Generated)"
 msgstr "MonsterID (Generated)"
 
-#: wp-admin/options-general.php:12
+#: wp-admin/options-general.php:15
 msgid "General Settings"
 msgstr "Generelle indstillinger"
 
 #. translators: date and time format for exact current time, mainly about timezones, see http://php.net/date
-#: wp-admin/options-general.php:15
+#: wp-admin/options-general.php:18
 msgctxt "timezone date format"
 msgid "Y-m-d G:i:s"
 msgstr "d.m.Y H:i"
 
-#: wp-admin/options-general.php:66
+#: wp-admin/options-general.php:69
 msgid "Tagline"
 msgstr "Tagline"
 
-#: wp-admin/options-general.php:68
+#: wp-admin/options-general.php:71
 msgid "In a few words, explain what this blog is about."
 msgstr "Forklar med f&#229; ord hvad bloggen handler om."
 
-#: wp-admin/options-general.php:71
+#: wp-admin/options-general.php:74
 msgid "WordPress address (URL)"
 msgstr "WordPress-adresse (URL)"
 
-#: wp-admin/options-general.php:75
+#: wp-admin/options-general.php:78
 msgid "Blog address (URL)"
 msgstr "Blogadresse (URL)"
 
-#: wp-admin/options-general.php:77
+#: wp-admin/options-general.php:80
 msgid "Enter the address here if you want your blog homepage <a href=\"http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory\">to be different from the directory</a> you installed WordPress."
 msgstr "Hvis du gerne vil have, at din blogs hjemmeside <a href=\"http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory\">ligger et andet sted end i den mappe</a>, hvor du installerede WordPress, skal du skrive adressen her."
 
-#: wp-admin/options-general.php:80
+#: wp-admin/options-general.php:83
 msgid "E-mail address"
 msgstr "E-mail-adresse"
 
-#: wp-admin/options-general.php:82
+#: wp-admin/options-general.php:85
 msgid "This address is used for admin purposes, like new user notification."
 msgstr "Denne e-mail-adresse anvendes til administrative form&#229;l som notifikation om nye brugere."
 
-#: wp-admin/options-general.php:85
-#: wp-admin/options-general.php:86
+#: wp-admin/options-general.php:88
+#: wp-admin/options-general.php:89
 msgid "Membership"
 msgstr "Medlemskab"
 
-#: wp-admin/options-general.php:88
+#: wp-admin/options-general.php:91
 msgid "Anyone can register"
 msgstr "Alle kan registrere sig"
 
-#: wp-admin/options-general.php:92
+#: wp-admin/options-general.php:95
 msgid "New User Default Role"
 msgstr "Ny brugers standardrolle"
 
-#: wp-admin/options-general.php:101
-#: wp-admin/options-general.php:145
+#: wp-admin/options-general.php:104
+#: wp-admin/options-general.php:148
 msgid "Timezone"
 msgstr "Tidszone"
 
-#: wp-admin/options-general.php:123
+#: wp-admin/options-general.php:126
 #: wp-includes/functions.php:3303
 #, php-format
 msgid "UTC %s"
 msgstr "UTC %s"
 
-#: wp-admin/options-general.php:127
+#: wp-admin/options-general.php:130
 msgid "hours"
 msgstr "timer"
 
-#: wp-admin/options-general.php:128
-#: wp-admin/options-general.php:152
+#: wp-admin/options-general.php:131
+#: wp-admin/options-general.php:155
 #, php-format
 msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is <code>%s</code>"
 msgstr "<abbr title=\"Coordinated Universal Time\">UTC</abbr>-tid er <code>%s</code>"
 
-#: wp-admin/options-general.php:130
+#: wp-admin/options-general.php:133
 #, php-format
 msgid "UTC %1$s is <code>%2$s</code>"
 msgstr "UTC %1$s er <code>%2$s</code>"
 
-#: wp-admin/options-general.php:133
+#: wp-admin/options-general.php:136
 msgid "Unfortunately, you have to manually update this for Daylight Savings Time. Lame, we know, but will be fixed in the future."
 msgstr "Du skal desv&#230;rre selv opdatere sommertid og vintertid manuelt. Det er lidt t&#229;beligt, vi ved det, men det skal nok blive fixet i fremtiden."
 
-#: wp-admin/options-general.php:154
+#: wp-admin/options-general.php:157
 #, php-format
 msgid "Local time is <code>%1$s</code>"
 msgstr "Lokal tid er <code>%1$s</code>"
 
-#: wp-admin/options-general.php:157
+#: wp-admin/options-general.php:160
 msgid "Choose a city in the same timezone as you."
 msgstr "V&#230;lg en by i samme tidszone som dig selv."
 
-#: wp-admin/options-general.php:163
+#: wp-admin/options-general.php:166
 msgid "This timezone is currently in daylight savings time."
 msgstr "Denne tidszone har i &#248;jeblikket sommertid."
 
-#: wp-admin/options-general.php:164
+#: wp-admin/options-general.php:167
 msgid "This timezone is currently in standard time."
 msgstr "Denne tidszone har i &#248;jeblikket vintertid."
 
-#: wp-admin/options-general.php:180
+#: wp-admin/options-general.php:183
 #, php-format
 msgid "Daylight savings time begins on: <code>%s</code>."
 msgstr "Sommertid begynder: <code>%s</code>."
 
-#: wp-admin/options-general.php:181
+#: wp-admin/options-general.php:184
 #, php-format
 msgid "Standard time begins  on: <code>%s</code>."
 msgstr "Vintertid begynder: <code>%s</code>."
 
-#: wp-admin/options-general.php:184
+#: wp-admin/options-general.php:187
 msgid "This timezone does not observe daylight savings time."
 msgstr "Denne tidszone benytter ikke sommertid."
 
-#: wp-admin/options-general.php:195
-#: wp-admin/options-general.php:197
+#: wp-admin/options-general.php:198
+#: wp-admin/options-general.php:200
 #: xmlrpc.php:414
 msgid "Date Format"
 msgstr "Datoformat"
 
-#: wp-admin/options-general.php:220
-#: wp-admin/options-general.php:252
+#: wp-admin/options-general.php:223
+#: wp-admin/options-general.php:255
 msgid "Custom:"
 msgstr "Eget:"
 
-#: wp-admin/options-general.php:222
+#: wp-admin/options-general.php:225
 msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>. Click &#8220;Save Changes&#8221; to update sample output."
 msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Dokumentation om datoformater</a>. Klik &#8220;Gem &#230;ndringer&#8221; for at opdatere eksemplet."
 
-#: wp-admin/options-general.php:228
-#: wp-admin/options-general.php:230
+#: wp-admin/options-general.php:231
+#: wp-admin/options-general.php:233
 #: xmlrpc.php:419
 msgid "Time Format"
 msgstr "Tidsformat"
 
-#: wp-admin/options-general.php:258
+#: wp-admin/options-general.php:261
 msgid "Week Starts On"
 msgstr "Ugen starter p&#229; en"
 
@@ -7668,344 +7707,344 @@ msgstr "Ugen starter p&#229; en"
 msgid "Settings saved."
 msgstr "Indstillinger gemt."
 
-#: wp-admin/options-media.php:12
+#: wp-admin/options-media.php:15
 msgid "Media Settings"
 msgstr "Medieindstillinger"
 
-#: wp-admin/options-media.php:26
+#: wp-admin/options-media.php:29
 msgid "Image sizes"
 msgstr "Billedst&#248;rrelser"
 
-#: wp-admin/options-media.php:27
+#: wp-admin/options-media.php:30
 msgid "The sizes listed below determine the maximum dimensions in pixels to use when inserting an image into the body of a post."
 msgstr "St&#248;rrelserne nedenfor bestemmer de maksimale dimensioner i pixels, n&#229;r du skal inds&#230;tte et billede i et indl&#230;g."
 
-#: wp-admin/options-media.php:31
+#: wp-admin/options-media.php:34
 msgid "Thumbnail size"
 msgstr "Thumbnail-st&#248;rrelse"
 
-#: wp-admin/options-media.php:35
+#: wp-admin/options-media.php:38
 #: wp-includes/js/tinymce/langs/wp-langs.php:435
 #: wp-includes/js/tinymce/langs/wp-langs.php:440
 msgid "Height"
 msgstr "H&#248;jde"
 
-#: wp-admin/options-media.php:38
+#: wp-admin/options-media.php:41
 msgid "Crop thumbnail to exact dimensions (normally thumbnails are proportional)"
 msgstr "Besk&#230;r thumbnails til bestemte st&#248;rrelser (normalt er thumbnails proportionelle)"
 
-#: wp-admin/options-media.php:43
-#: wp-admin/options-media.php:44
+#: wp-admin/options-media.php:46
+#: wp-admin/options-media.php:47
 msgid "Medium size"
 msgstr "Medium st&#248;rrelse"
 
-#: wp-admin/options-media.php:45
-#: wp-admin/options-media.php:55
+#: wp-admin/options-media.php:48
+#: wp-admin/options-media.php:58
 msgid "Max Width"
 msgstr "Maksimumbredde"
 
-#: wp-admin/options-media.php:47
-#: wp-admin/options-media.php:57
+#: wp-admin/options-media.php:50
+#: wp-admin/options-media.php:60
 msgid "Max Height"
 msgstr "Maksimumh&#248;jde"
 
-#: wp-admin/options-media.php:53
-#: wp-admin/options-media.php:54
+#: wp-admin/options-media.php:56
+#: wp-admin/options-media.php:57
 msgid "Large size"
 msgstr "Stor st&#248;rrelse"
 
-#: wp-admin/options-misc.php:12
+#: wp-admin/options-misc.php:15
 msgid "Miscellaneous Settings"
 msgstr "Diverse indstillinger"
 
-#: wp-admin/options-misc.php:26
+#: wp-admin/options-misc.php:29
 msgid "Uploading Files"
 msgstr "Uploader filer"
 
-#: wp-admin/options-misc.php:29
+#: wp-admin/options-misc.php:32
 msgid "Store uploads in this folder"
 msgstr "Gem uploads i denne mappe"
 
-#: wp-admin/options-misc.php:31
+#: wp-admin/options-misc.php:34
 msgid "Default is <code>wp-content/uploads</code>"
 msgstr "Standard er <code>wp-content/uploads</code>"
 
-#: wp-admin/options-misc.php:36
+#: wp-admin/options-misc.php:39
 msgid "Full URL path to files"
 msgstr "Fuld URL-sti til filer"
 
-#: wp-admin/options-misc.php:38
+#: wp-admin/options-misc.php:41
 msgid "Configuring this is optional. By default, it should be blank."
 msgstr "Det er valgfrit, om du vil indstille dette. Som standard skal feltet v&#230;re tomt."
 
-#: wp-admin/options-misc.php:46
+#: wp-admin/options-misc.php:49
 msgid "Organize my uploads into month- and year-based folders"
 msgstr "Organiser mine uploads i m&#229;neds- og &#229;rsbaserede mapper"
 
-#: wp-admin/options-misc.php:59
+#: wp-admin/options-misc.php:62
 msgid "Track Links&#8217; Update Times"
 msgstr "F&#248;lg links&#8217; opdateringstider"
 
-#: wp-admin/options-permalink.php:12
+#: wp-admin/options-permalink.php:15
 msgid "Permalink Settings"
 msgstr "Permalinkindstillinger"
 
-#: wp-admin/options-permalink.php:128
+#: wp-admin/options-permalink.php:131
 msgid "You should update your web.config now"
 msgstr "Du b&#248;r opdatere din web.config nu."
 
-#: wp-admin/options-permalink.php:130
+#: wp-admin/options-permalink.php:133
 msgid "Permalink structure updated. Remove write access on web.config file now!"
 msgstr "Permalinkstruktur opdateret. Fjern skriveadgang til web.config-filen nu!"
 
-#: wp-admin/options-permalink.php:132
+#: wp-admin/options-permalink.php:135
 msgid "Permalink structure updated"
 msgstr "Permalinkstruktur opdateret"
 
-#: wp-admin/options-permalink.php:135
+#: wp-admin/options-permalink.php:138
 msgid "You should update your .htaccess now."
 msgstr "Du b&#248;r opdatere din .htaccess nu."
 
-#: wp-admin/options-permalink.php:137
+#: wp-admin/options-permalink.php:140
 msgid "Permalink structure updated."
 msgstr "Permalinkstruktur opdateret."
 
-#: wp-admin/options-permalink.php:150
+#: wp-admin/options-permalink.php:153
 msgid "By default WordPress uses web <abbr title=\"Universal Resource Locator\">URL</abbr>s which have question marks and lots of numbers in them, however WordPress offers you the ability to create a custom URL structure for your permalinks and archives. This can improve the aesthetics, usability, and forward-compatibility of your links. A <a href=\"http://codex.wordpress.org/Using_Permalinks\">number of tags are available</a>, and here are some examples to get you started."
 msgstr "WordPress bruger som standard <abbr title=\"Universal Resource Locator\">URL</abbr>er med sp&#248;rgsm&#229;lstegn og en masse numre, men tilbyder dig ogs&#229; muligheden for at lave din egen URL-struktur til permalinks og arkiver. Dette kan g&#248;re dine links p&#230;nere, mere brugervenlige og mere fremtidssikrede. Et <a href=\"http://codex.wordpress.org/Using_Permalinks\">antal tags er tilg&#230;ngelige</a>, og her er et par eksempler, som kan f&#229; dig i gang."
 
-#: wp-admin/options-permalink.php:165
+#: wp-admin/options-permalink.php:168
 msgid "Common settings"
 msgstr "Basisindstillinger"
 
-#: wp-admin/options-permalink.php:168
+#: wp-admin/options-permalink.php:171
 msgid "Default"
 msgstr "Standard"
 
-#: wp-admin/options-permalink.php:172
+#: wp-admin/options-permalink.php:175
 msgid "Day and name"
 msgstr "Dag og navn"
 
-#: wp-admin/options-permalink.php:176
+#: wp-admin/options-permalink.php:179
 msgid "Month and name"
 msgstr "M&#229;ned og navn"
 
-#: wp-admin/options-permalink.php:180
+#: wp-admin/options-permalink.php:183
 msgid "Numeric"
 msgstr "Numerisk"
 
-#: wp-admin/options-permalink.php:190
+#: wp-admin/options-permalink.php:193
 msgid "Custom Structure"
 msgstr "Egen struktur"
 
-#: wp-admin/options-permalink.php:199
+#: wp-admin/options-permalink.php:202
 msgid "Optional"
 msgstr "Valgfri"
 
-#: wp-admin/options-permalink.php:201
+#: wp-admin/options-permalink.php:204
 msgid "If you like, you may enter custom structures for your category and tag <abbr title=\"Universal Resource Locator\">URL</abbr>s here. For example, using <kbd>topics</kbd> as your category base would make your category links like <code>http://example.org/topics/uncategorized/</code>. If you leave these blank the defaults will be used."
 msgstr "Hvis du vil, kan du lave din egen struktur for kategori- og tag-<abbr title=\"Universal Resource Locator\">URL</abbr>er. For eksempel ville <kbd>/emner/</kbd> lave kategori-links som <code>http://eksempel.dk/emner/ukategoriseret/</code>. Hvis du lader feltet st&#229; tomt, vil standardv&#230;rdierne blive anvendt."
 
-#: wp-admin/options-permalink.php:203
+#: wp-admin/options-permalink.php:206
 msgid "If you like, you may enter custom structures for your category and tag <abbr title=\"Universal Resource Locator\">URL</abbr>s here. For example, using <code>topics</code> as your category base would make your category links like <code>http://example.org/index.php/topics/uncategorized/</code>. If you leave these blank the defaults will be used."
 msgstr "Hvis du vil, kan du lave din egen struktur for dine kategori- og tag-<abbr title=\"Universal Resource Locator\">URL</abbr>'er. For eksempel ville <code>/emner/</code> lave kategori-links som <code>http://eksempel.dk/index.php/emner/ukategoriseret/</code>. Hvis du lader feltet st&#229; tomt, vil standardv&#230;rdien blive anvendt."
 
-#: wp-admin/options-permalink.php:208
+#: wp-admin/options-permalink.php:211
 msgid "Category base"
 msgstr "Kategoribase"
 
-#: wp-admin/options-permalink.php:212
+#: wp-admin/options-permalink.php:215
 msgid "Tag base"
 msgstr "Tagbase"
 
-#: wp-admin/options-permalink.php:226
+#: wp-admin/options-permalink.php:229
 msgid "If your <code>web.config</code> file were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so this is the url rewrite rule you should have in your <code>web.config</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all. Then insert this rule inside of the <code>/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;</code> element in <code>web.config</code> file."
 msgstr "Hvis din <code>web.config</code>-fil var <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">skrivbar</a>, kunne vi g&#248;re det automatisk, men det er den ikke, s&#229; her er den  url-rewrite-regel, du skal have i din <code>web.config</code>-fil. Klik et sted i feltet og tryk <kbd>CTRL + a</kbd> for at v&#230;lge alt. Derefter skal du inds&#230;tte denne regel i <code>/&lt;configuration&gt;/&lt;system.webServer&gt;/&lt;rewrite&gt;/&lt;rules&gt;</code>-elementet i <code>web.config</code>-filen."
 
-#: wp-admin/options-permalink.php:231
+#: wp-admin/options-permalink.php:234
 msgid "If you temporarily make your <code>web.config</code> file writable for us to generate rewrite rules automatically, do not forget to revert the permissions after rule has been saved."
 msgstr "Hvis du midlertidigt g&#248;r din <code>web.config</code>-fil skrivbar, s&#229; vi automatisk kan generere rewrite-regler, skal du huske at &#230;ndre tillladelserne igen, n&#229;r reglerne er gemt."
 
-#: wp-admin/options-permalink.php:235
+#: wp-admin/options-permalink.php:238
 msgid "If your <code>.htaccess</code> file were <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">writable</a>, we could do this automatically, but it isn&#8217;t so these are the mod_rewrite rules you should have in your <code>.htaccess</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all."
 msgstr "Hvis din <code>.htaccess</code> var <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">skrivbar</a>, kunne vi g&#248;re det automatisk, men det er den ikke, s&#229; her er de mod_rewrite- regler, du skal have i din <code>.htaccess</code>-fil. Klik et sted i feltet og klik p&#229; <kbd>CTRL + a</kbd> for at v&#230;lge alt."
 
-#: wp-admin/options-privacy.php:12
+#: wp-admin/options-privacy.php:15
 msgid "Privacy Settings"
 msgstr "Privatliv-indstillinger"
 
-#: wp-admin/options-privacy.php:27
-#: wp-admin/options-privacy.php:28
+#: wp-admin/options-privacy.php:30
+#: wp-admin/options-privacy.php:31
 msgid "Blog Visibility"
 msgstr "Blogsynlighed"
 
-#: wp-admin/options-privacy.php:30
+#: wp-admin/options-privacy.php:33
 msgid "I would like my blog to be visible to everyone, including search engines (like Google, Sphere, Technorati) and archivers"
 msgstr "Min blog skal kunne ses af alle, ogs&#229; s&#248;gemaskiner (som Google, Sphere og Technorati) og arkiver"
 
-#: wp-admin/options-privacy.php:32
+#: wp-admin/options-privacy.php:35
 msgid "I would like to block search engines, but allow normal visitors"
 msgstr "Jeg vil gerne blokere for s&#248;gemaskiner, men tillade almindelige bes&#248;gende."
 
-#: wp-admin/options-reading.php:12
+#: wp-admin/options-reading.php:15
 msgid "Reading Settings"
 msgstr "L&#230;seindstillinger"
 
-#: wp-admin/options-reading.php:28
-#: wp-admin/options-reading.php:29
+#: wp-admin/options-reading.php:31
+#: wp-admin/options-reading.php:32
 msgid "Front page displays"
 msgstr "P&#229; forsiden vises"
 
-#: wp-admin/options-reading.php:32
+#: wp-admin/options-reading.php:35
 msgid "Your latest posts"
 msgstr "Dine nyeste indl&#230;g"
 
-#: wp-admin/options-reading.php:37
+#: wp-admin/options-reading.php:40
 #, php-format
 msgid "A <a href=\"%s\">static page</a> (select below)"
 msgstr "En <a href=\"%s\">statisk side</a> (v&#230;lg nedenfor)"
 
-#: wp-admin/options-reading.php:41
+#: wp-admin/options-reading.php:44
 #, php-format
 msgid "Front page: %s"
 msgstr "Forside: %s"
 
-#: wp-admin/options-reading.php:42
+#: wp-admin/options-reading.php:45
 #, php-format
 msgid "Posts page: %s"
 msgstr "Indl&#230;gsside: %s"
 
-#: wp-admin/options-reading.php:47
+#: wp-admin/options-reading.php:50
 msgid "<strong>Warning:</strong> these pages should not be the same!"
 msgstr "<strong>Advarsel:</strong> Disse sider b&#248;r ikke v&#230;re de samme!"
 
-#: wp-admin/options-reading.php:55
+#: wp-admin/options-reading.php:58
 msgid "Blog pages show at most"
 msgstr "Blogsider viser h&#248;jst"
 
-#: wp-admin/options-reading.php:57
-#: wp-admin/options-reading.php:62
+#: wp-admin/options-reading.php:60
+#: wp-admin/options-reading.php:65
 msgid "posts"
 msgstr "indl&#230;g"
 
-#: wp-admin/options-reading.php:61
+#: wp-admin/options-reading.php:64
 msgid "Syndication feeds show the most recent"
 msgstr "Syndikeringsfeeds viser de seneste"
 
-#: wp-admin/options-reading.php:65
-#: wp-admin/options-reading.php:66
+#: wp-admin/options-reading.php:68
+#: wp-admin/options-reading.php:69
 msgid "For each article in a feed, show"
 msgstr "For hvert indl&#230;g, vis"
 
-#: wp-admin/options-reading.php:67
+#: wp-admin/options-reading.php:70
 msgid "Full text"
 msgstr "Hele teksten"
 
-#: wp-admin/options-reading.php:68
+#: wp-admin/options-reading.php:71
 msgid "Summary"
 msgstr "Resume"
 
-#: wp-admin/options-reading.php:73
+#: wp-admin/options-reading.php:76
 msgid "Encoding for pages and feeds"
 msgstr "Kodning til sider og feeds"
 
-#: wp-admin/options-reading.php:75
+#: wp-admin/options-reading.php:78
 msgid "The character encoding you write your blog in (UTF-8 is <a href=\"http://developer.apple.com/documentation/macos8/TextIntlSvcs/TextEncodingConversionManager/TEC1.5/TEC.b0.html\">recommended</a>)"
 msgstr "Tegnkoden, du skriver din weblog i (UTF-8 <a href=\"http://developer.apple.com/documentation/macos8/TextIntlSvcs/TextEncodingConversionManager/TEC1.5/TEC.b0.html\">anbefales</a>)"
 
-#: wp-admin/options-writing.php:12
+#: wp-admin/options-writing.php:15
 msgid "Writing Settings"
 msgstr "Skriveindstillinger"
 
-#: wp-admin/options-writing.php:27
+#: wp-admin/options-writing.php:30
 msgid "Size of the post box"
 msgstr "St&#248;rrelse p&#229; indl&#230;gsfeltet"
 
-#: wp-admin/options-writing.php:29
+#: wp-admin/options-writing.php:32
 msgid "lines"
 msgstr "linjer"
 
-#: wp-admin/options-writing.php:32
-#: wp-admin/options-writing.php:33
+#: wp-admin/options-writing.php:35
+#: wp-admin/options-writing.php:36
 msgid "Formatting"
 msgstr "Formatering"
 
-#: wp-admin/options-writing.php:36
+#: wp-admin/options-writing.php:39
 msgid "Convert emoticons like <code>:-)</code> and <code>:-P</code> to graphics on display"
 msgstr "Konverter smilies som <code>:-)</code> og <code>:-P</code> til grafik ved visning"
 
-#: wp-admin/options-writing.php:37
+#: wp-admin/options-writing.php:40
 msgid "WordPress should correct invalidly nested XHTML automatically"
 msgstr "WordPress skal automatisk rette ugyldigt indsat XHTML"
 
-#: wp-admin/options-writing.php:41
+#: wp-admin/options-writing.php:44
 msgid "Default Post Category"
 msgstr "Standard indl&#230;gkategori"
 
-#: wp-admin/options-writing.php:49
+#: wp-admin/options-writing.php:52
 msgid "Default Link Category"
 msgstr "Standard linkkategori:"
 
-#: wp-admin/options-writing.php:59
+#: wp-admin/options-writing.php:62
 msgid "Remote Publishing"
 msgstr "Fjernudgivelse"
 
-#: wp-admin/options-writing.php:60
+#: wp-admin/options-writing.php:63
 msgid "To post to WordPress from a desktop blogging client or remote website that uses the Atom Publishing Protocol or one of the XML-RPC publishing interfaces you must enable them below."
 msgstr "For at have mulighed for at skrive til WordPress fra et program p&#229; din computer eller fra et andet website via Atom Publishing Protocol eller en af de forskellige XML-RPC-udgivelsesgr&#230;nseflader, skal du aktivere dem nedenfor."
 
-#: wp-admin/options-writing.php:63
-#: wp-admin/options-writing.php:64
+#: wp-admin/options-writing.php:66
+#: wp-admin/options-writing.php:67
 msgid "Atom Publishing Protocol"
 msgstr "Atom Publishing Protocol"
 
-#: wp-admin/options-writing.php:67
+#: wp-admin/options-writing.php:70
 msgid "Enable the Atom Publishing Protocol."
 msgstr "Aktiver Atom Publishing Protocol."
 
-#: wp-admin/options-writing.php:71
-#: wp-admin/options-writing.php:72
+#: wp-admin/options-writing.php:74
+#: wp-admin/options-writing.php:75
 msgid "XML-RPC"
 msgstr "XML-RPC"
 
-#: wp-admin/options-writing.php:75
+#: wp-admin/options-writing.php:78
 msgid "Enable the WordPress, Movable Type, MetaWeblog and Blogger XML-RPC publishing protocols."
 msgstr "Aktiver WordPress-, Movable Type-, MetaWeblog- og Blogger-XML-RPC-udgivelsesprotokollerne."
 
-#: wp-admin/options-writing.php:81
+#: wp-admin/options-writing.php:84
 msgid "Post via e-mail"
 msgstr "Indl&#230;g via e-mail"
 
-#: wp-admin/options-writing.php:82
+#: wp-admin/options-writing.php:85
 #, php-format
 msgid "To post to WordPress by e-mail you must set up a secret e-mail account with POP3 access. Any mail received at this address will be posted, so it&#8217;s a good idea to keep this address very secret. Here are three random strings you could use: <kbd>%s</kbd>, <kbd>%s</kbd>, <kbd>%s</kbd>."
 msgstr "For at skrive indl&#230;g til WordPress via e-mail skal du oprette en hemmelig e-mail-konto med POP3-adgang. Alle e-mails sendt til denne adresse vil blive udgivet, s&#229; det er en god id&#233;, at holde adressen hemmelig. Her er tre tilf&#230;dige tekststrenge, du kan bruge: <kbd>%s</kbd>, <kbd>%s</kbd>, <kbd>%s</kbd>."
 
-#: wp-admin/options-writing.php:86
+#: wp-admin/options-writing.php:89
 msgid "Mail Server"
 msgstr "Mailserver"
 
-#: wp-admin/options-writing.php:88
+#: wp-admin/options-writing.php:91
 msgid "Port"
 msgstr "Port"
 
-#: wp-admin/options-writing.php:93
+#: wp-admin/options-writing.php:96
 msgid "Login Name"
 msgstr "Loginnavn"
 
-#: wp-admin/options-writing.php:103
+#: wp-admin/options-writing.php:106
 msgid "Default Mail Category"
 msgstr "Standardkategori til indl&#230;g via e-mail"
 
-#: wp-admin/options-writing.php:113
+#: wp-admin/options-writing.php:116
 msgid "Update Services"
 msgstr "Opdateringstjenester"
 
-#: wp-admin/options-writing.php:117
+#: wp-admin/options-writing.php:120
 msgid "When you publish a new post, WordPress automatically notifies the following site update services. For more about this, see <a href=\"http://codex.wordpress.org/Update_Services\">Update Services</a> on the Codex. Separate multiple service <abbr title=\"Universal Resource Locator\">URL</abbr>s with line breaks."
 msgstr "N&#229;r du udgiver et nyt indl&#230;g, kan WordPress automatisk give forskellige hjemmesider besked. Hvis du vil vide mere, kan du l&#230;se <a href=\"http://codex.wordpress.org/Update_Services\">Update Services</a> p&#229; Codex-siden. Adskil flere <abbr title=\"Universal Resource Locator\">URL</abbr>er med linjeskift."
 
-#: wp-admin/options-writing.php:123
+#: wp-admin/options-writing.php:126
 #, php-format
 msgid "WordPress is not notifying any <a href=\"http://codex.wordpress.org/Update_Services\">Update Services</a> because of your blog&#8217;s <a href=\"%s\">privacy settings</a>."
 msgstr "P&#229; grund af dine <a href=\"%s\">privatliv-indstillinger</a> underretter WordPress ingen <a href=\"http://codex.wordpress.org/Update_Services\">opdateringsservices</a>."
@@ -8144,124 +8183,139 @@ msgstr "Popul&#230;re"
 msgid "Newest"
 msgstr "Nyeste"
 
-#: wp-admin/plugins.php:119
+#: wp-admin/plugins.php:13
+msgid "You do not have sufficient permissions to manage plugins for this blog."
+msgstr "Du har ikke tilstr&#230;kkelige rettigheder til at h&#229;ndtere plugins p&#229; denne blog."
+
+#: wp-admin/plugins.php:44
+#: wp-admin/plugins.php:63
+#: wp-admin/plugins.php:88
+msgid "You do not have sufficient permissions to activate plugins for this blog."
+msgstr "Du har ikke tilstr&#230;kkelige rettigheder til at aktivere plugins p&#229; denne blog."
+
+#: wp-admin/plugins.php:104
+#: wp-admin/plugins.php:114
+msgid "You do not have sufficient permissions to deactivate plugins for this blog."
+msgstr "Du har ikke tilstr&#230;kkelige rettigheder til at deaktivere plugins p&#229; denne blog."
+
+#: wp-admin/plugins.php:137
 msgid "You do not have sufficient permissions to delete plugins for this blog."
 msgstr "Du har ikke rettigheder til at slette plugins p&#229; denne blog."
 
-#: wp-admin/plugins.php:139
+#: wp-admin/plugins.php:157
 msgid "Delete Plugin(s)"
 msgstr "Slet plugin(s)"
 
-#: wp-admin/plugins.php:159
+#: wp-admin/plugins.php:177
 msgid "Deleting the selected plugins will remove the following plugin(s) and their files:"
 msgstr "Hvis du sletter de valgte plugins, fjernes f&#248;lgende plugin(s) og tilh&#248;rende filer:"
 
-#: wp-admin/plugins.php:163
+#: wp-admin/plugins.php:181
 #, php-format
 msgid "<strong>%s</strong> by <em>%s</em>"
 msgstr "<strong>%s</strong> af <em>%s</em>"
 
-#: wp-admin/plugins.php:166
+#: wp-admin/plugins.php:184
 msgid "Are you sure you wish to delete these files?"
 msgstr "Er du sikker p&#229;, at du vil slette disse filer?"
 
-#: wp-admin/plugins.php:175
+#: wp-admin/plugins.php:193
 msgid "Yes, Delete these files"
 msgstr "Ja, slet disse filer"
 
-#: wp-admin/plugins.php:178
+#: wp-admin/plugins.php:196
 msgid "No, Return me to the plugin list"
 msgstr "Nej, jeg vil tilbage til plugin-listen"
 
-#: wp-admin/plugins.php:181
+#: wp-admin/plugins.php:199
 msgid "Click to view entire list of files which will be deleted"
 msgstr "Klik for at se hele listen over filer, der vil blive slettet"
 
-#: wp-admin/plugins.php:210
+#: wp-admin/plugins.php:228
 msgid "Plugins extend and expand the functionality of WordPress. Once a plugin is installed, you may activate it or deactivate it here."
 msgstr "Plugins udvider WordPress' funktionalitet.  N&#229;r et plugin er installeret, kan du aktivere eller deaktivere det her."
 
-#: wp-admin/plugins.php:211
+#: wp-admin/plugins.php:229
 #, php-format
 msgid "If something goes wrong with a plugin and you can&#8217;t use WordPress, delete or rename that file in the <code>%s</code> directory and it will be automatically deactivated."
 msgstr "Hvis noget g&#229;r galt med et plugin, og du ikke kan bruge WordPress, kan du bare slette eller omd&#248;be filen i mappen <code>%s</code>, s&#229; vil det automatisk blive deaktiveret."
 
-#: wp-admin/plugins.php:212
+#: wp-admin/plugins.php:230
 #, php-format
 msgid "You can find additional plugins for your site by using the new <a href=\"%1$s\">Plugin Browser/Installer</a> functionality or by browsing the <a href=\"http://wordpress.org/extend/plugins/\">WordPress Plugin Directory</a> directly and installing manually.  To <em>manually</em> install a plugin you generally just need to upload the plugin file into your <code>%2$s</code> directory.  Once a plugin has been installed, you may activate it here."
 msgstr "Du kan finde flere plugins til dit site ved at bruge den nye <a href=\"%1$s\">Plugin-browser/-installeringsfunktion</a> eller ved at gennemse <a href=\"http://wordpress.org/extend/plugins/\">WordPress' pluginoversigt</a> direkte og installere manuelt. For <em>manuelt</em> at installere et plugin skal du normalt bare uploade pluginet til din <code>%2$s</code>-mappe. N&#229;r et plplugin er installeret, kan du aktivere det her."
 
-#: wp-admin/plugins.php:222
+#: wp-admin/plugins.php:240
 #, php-format
 msgid "The plugin <code>%s</code> has been <strong>deactivated</strong> due to an error: %s"
 msgstr "Pluginet <code>%s</code> blev <strong>deaktiveret</strong> p&#229; grund af en fejl: %s"
 
-#: wp-admin/plugins.php:226
+#: wp-admin/plugins.php:244
 msgid "Plugin could not be activated because it triggered a <strong>fatal error</strong>."
 msgstr "Plugin kunne ikke aktiveres fordi det resulterede i en <strong>kritisk fejl</strong>."
 
-#: wp-admin/plugins.php:239
+#: wp-admin/plugins.php:257
 #, php-format
 msgid "Plugin could not be deleted due to an error: %s"
 msgstr "Plugin kunne ikke slettes, fordi det resulterede i en fejl: %s"
 
-#: wp-admin/plugins.php:241
+#: wp-admin/plugins.php:259
 msgid "The selected plugins have been <strong>deleted</strong>."
 msgstr "De valgte plugins er blevet <strong>slettet</strong>."
 
-#: wp-admin/plugins.php:244
+#: wp-admin/plugins.php:262
 msgid "Plugin <strong>activated</strong>."
 msgstr "Plugin <strong>aktiveret</strong>."
 
-#: wp-admin/plugins.php:246
+#: wp-admin/plugins.php:264
 msgid "Selected plugins <strong>activated</strong>."
 msgstr "Valgte plugins <strong>aktiveret</strong>."
 
-#: wp-admin/plugins.php:248
+#: wp-admin/plugins.php:266
 msgid "Plugin <strong>deactivated</strong>."
 msgstr "Plugin <strong>deaktiveret</strong>."
 
-#: wp-admin/plugins.php:250
+#: wp-admin/plugins.php:268
 msgid "Selected plugins <strong>deactivated</strong>."
 msgstr "Valgte plugins <strong>deaktiveret</strong>."
 
-#: wp-admin/plugins.php:369
-#: wp-admin/plugins.php:377
+#: wp-admin/plugins.php:387
+#: wp-admin/plugins.php:395
 #: wp-includes/js/tinymce/langs/wp-langs.php:255
 msgid "Plugin"
 msgstr "Plugin"
 
-#: wp-admin/plugins.php:387
+#: wp-admin/plugins.php:405
 msgid "No plugins to show"
 msgstr "Ingen plugins at vide"
 
-#: wp-admin/plugins.php:395
+#: wp-admin/plugins.php:413
 msgid "Deactivate this plugin"
 msgstr "Deaktiver dette plugin"
 
-#: wp-admin/plugins.php:395
-#: wp-admin/plugins.php:465
+#: wp-admin/plugins.php:413
+#: wp-admin/plugins.php:483
 #: wp-admin/widgets.php:339
 msgid "Deactivate"
 msgstr "Deaktiver"
 
-#: wp-admin/plugins.php:400
+#: wp-admin/plugins.php:418
 msgid "Open this file in the Plugin Editor"
 msgstr "&#229;bn filen i plugin-editoren"
 
-#: wp-admin/plugins.php:403
+#: wp-admin/plugins.php:421
 msgid "Delete this plugin"
 msgstr "Slet dette plugin"
 
-#: wp-admin/plugins.php:435
+#: wp-admin/plugins.php:453
 msgid "Visit plugin site"
 msgstr "Bes&#248;g pluginsite"
 
-#: wp-admin/plugins.php:473
+#: wp-admin/plugins.php:491
 msgid "Clear List"
 msgstr "Ryd liste"
 
-#: wp-admin/plugins.php:497
+#: wp-admin/plugins.php:515
 #, php-format
 msgctxt "plugins"
 msgid "All <span class=\"count\">(%s)</span>"
@@ -8269,42 +8323,42 @@ msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "Alle <span class=\"count\">(%s)</span>"
 msgstr[1] "Alle <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:500
+#: wp-admin/plugins.php:518
 #, php-format
 msgid "Active <span class=\"count\">(%s)</span>"
 msgid_plural "Active <span class=\"count\">(%s)</span>"
 msgstr[0] "Aktivt <span class=\"count\">(%s)</span>"
 msgstr[1] "Aktive <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:504
+#: wp-admin/plugins.php:522
 #, php-format
 msgid "Recently Active <span class=\"count\">(%s)</span>"
 msgid_plural "Recently Active <span class=\"count\">(%s)</span>"
 msgstr[0] "Aktivt for nylig <span class=\"count\">(%s)</span>"
 msgstr[1] "Aktive for nylig <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:508
+#: wp-admin/plugins.php:526
 #, php-format
 msgid "Inactive <span class=\"count\">(%s)</span>"
 msgid_plural "Inactive <span class=\"count\">(%s)</span>"
 msgstr[0] "Inaktivt <span class=\"count\">(%s)</span>"
 msgstr[1] "Inaktive <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:512
+#: wp-admin/plugins.php:530
 #, php-format
 msgid "Upgrade Available <span class=\"count\">(%s)</span>"
 msgid_plural "Upgrade Available <span class=\"count\">(%s)</span>"
 msgstr[0] "Opdatering tilg&#230;ngelig <span class=\"count\">(%s)</span>"
 msgstr[1] "Opdatering tilg&#230;ngelig <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:517
+#: wp-admin/plugins.php:535
 #, php-format
 msgid "Search Results <span class=\"count\">(%s)</span>"
 msgid_plural "Search Results <span class=\"count\">(%s)</span>"
 msgstr[0] "S&#248;geresultater <span class=\"count\">(%s)</span>"
 msgstr[1] "S&#248;geresultater <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:550
+#: wp-admin/plugins.php:568
 msgid "You do not appear to have any plugins available at this time."
 msgstr "Det ser ikke ud til, at du har tilg&#230;ngelige plugins i &#248;jeblikket."
 
@@ -8442,7 +8496,7 @@ msgid "Post published."
 msgstr "Indl&#230;g udgivet."
 
 #: wp-admin/sidebar.php:103
-#: wp-content/plugins/akismet/akismet.php:1070
+#: wp-content/plugins/akismet/akismet.php:1074
 #: wp-includes/default-widgets.php:67
 #: wp-includes/default-widgets.php:197
 #: wp-includes/default-widgets.php:263
@@ -8461,8 +8515,8 @@ msgid "Post:"
 msgstr "Indl&#230;g:"
 
 #: wp-admin/sidebar.php:113
-#: wp-admin/themes.php:144
-#: wp-admin/themes.php:238
+#: wp-admin/themes.php:147
+#: wp-admin/themes.php:241
 msgid "Tags:"
 msgstr "Tags:"
 
@@ -8513,94 +8567,94 @@ msgstr "Ups, filen findes ikke! Kontroller navnet og fors&#248;g igen."
 msgid "You do not have sufficient permissions to install themes on this blog."
 msgstr "Du har ikke rettigheder til at redigere temaer p&#229; denne blog."
 
-#: wp-admin/themes.php:31
+#: wp-admin/themes.php:34
 msgid "Themes give your WordPress style. Once a theme is installed, you may preview it, activate it or deactivate it here."
 msgstr "Temaer giver din WordPress-blog stil. N&#229;r et tema er installeret, kan du previewe det, aktivere det eller deaktivere det her."
 
-#: wp-admin/themes.php:33
+#: wp-admin/themes.php:36
 #, php-format
 msgid "You can find additional themes for your site by using the new <a href=\"%1$s\">Theme Browser/Installer</a> functionality or by browsing the <a href=\"http://wordpress.org/extend/themes/\">WordPress Theme Directory</a> directly and installing manually.  To install a theme <em>manually</em>, <a href=\"%2$s\">upload its ZIP archive with the new uploader</a> or copy its folder via FTP into your <code>wp-content/themes</code> directory."
 msgstr "Du kan finde flere temaer til dit site ved at bruge den nye <a href=\"%1$s\">Temabrowser/-installeringsfunktion</a> eller ved at gennemse <a href=\"http://wordpress.org/extend/plugins/\">WordPress' temaoversigt</a> direkte og installere manuelt. For at installere <em>manuelt</em> skal du <a href=\"%2$s\">uploade ZIP-filen med den nye uploader</a> eller kopiere zip-filens mappe til mappen <code>wp-content/themes</code> via FTP."
 
-#: wp-admin/themes.php:34
+#: wp-admin/themes.php:37
 msgid "Once a theme is uploaded, you should see it on this page."
 msgstr "N&#229;r et tema er uploadet, kan du se det p&#229; denne side."
 
-#: wp-admin/themes.php:46
+#: wp-admin/themes.php:49
 msgid "The active theme is broken.  Reverting to the default theme."
 msgstr "Det aktive tema er i stykker. Vender tilbage til standardtemaet."
 
-#: wp-admin/themes.php:49
+#: wp-admin/themes.php:52
 #, php-format
 msgid "New theme activated. This theme supports widgets, please visit the <a href=\"%s\">widgets settings page</a> to configure them."
 msgstr "Nyt tema aktiveret. Dette tema underst&#248;tter widgets. G&#229; til <a href=\"%s\">widgets-indstillingerne</a> for at indstille dem."
 
-#: wp-admin/themes.php:51
+#: wp-admin/themes.php:54
 #, php-format
 msgid "New theme activated. <a href=\"%s\">Visit site</a>"
 msgstr "Nyt tema aktiveret. <a href=\"%s\">Se siden</a>"
 
-#: wp-admin/themes.php:54
+#: wp-admin/themes.php:57
 msgid "Theme deleted."
 msgstr "Tema slettet."
 
-#: wp-admin/themes.php:112
+#: wp-admin/themes.php:115
 msgid "Upgrading this theme will lose any customizations you have made.  'Cancel' to stop, 'OK' to upgrade."
 msgstr "Hvis du opdaterer temaet, mister du alle &#230;ndringer, du har lavet i det. 'Annuller' for at stoppe, 'OK' for at opdatere."
 
-#: wp-admin/themes.php:115
+#: wp-admin/themes.php:118
 #, php-format
 msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a>."
 msgstr "En ny version af %1$s er klar. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Se detaljer for version %3$s</a>."
 
-#: wp-admin/themes.php:117
+#: wp-admin/themes.php:120
 #, php-format
 msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a> <em>automatic upgrade unavailable for this theme</em>."
 msgstr "En ny version af %1$s er klar. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Se detaljer for version %3$s</a>.</p> <em>automatisk opdatering er ikke mulig for dette tema</em>."
 
-#: wp-admin/themes.php:119
+#: wp-admin/themes.php:122
 #, php-format
 msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a> or <a href=\"%4$s\" %5$s >upgrade automatically</a>."
 msgstr "En ny version af %1$s er klar. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Se detaljer for version %3$s</a> eller <a href=\"%4$s\" %5$s >opdater automatisk</a>."
 
-#: wp-admin/themes.php:129
+#: wp-admin/themes.php:132
 msgid "Current Theme"
 msgstr "Nuv&#230;rende tema"
 
-#: wp-admin/themes.php:132
+#: wp-admin/themes.php:135
 msgid "Current theme preview"
 msgstr "Preview af nuv&#230;rende tema "
 
 #. translators: 1: theme title, 2: theme version, 3: theme author
-#: wp-admin/themes.php:136
-#: wp-admin/themes.php:228
+#: wp-admin/themes.php:139
+#: wp-admin/themes.php:231
 #, php-format
 msgid "%1$s %2$s by %3$s"
 msgstr "%1$s %2$s af %3$s"
 
 #. translators: 1: theme title, 2:  template dir, 3: stylesheet_dir, 4: theme title, 5: parent_theme
-#: wp-admin/themes.php:139
-#: wp-admin/themes.php:233
+#: wp-admin/themes.php:142
+#: wp-admin/themes.php:236
 #, php-format
 msgid "The template files are located in <code>%2$s</code>.  The stylesheet files are located in <code>%3$s</code>.  <strong>%4$s</strong> uses templates from <strong>%5$s</strong>.  Changes made to the templates will affect both themes."
 msgstr "Skabelonfilerne kan findes i <code>%2$s</code>. Stylesheet-filerne kan findes i <code>%3$s</code>. <strong>%4$s</strong> bruger skabeloner fra <strong>%5$s</strong>. Ã†ndringer i skabeloner vil p&#229;virke begge temaer."
 
-#: wp-admin/themes.php:141
-#: wp-admin/themes.php:235
+#: wp-admin/themes.php:144
+#: wp-admin/themes.php:238
 #, php-format
 msgid "All of this theme&#8217;s files are located in <code>%2$s</code>."
 msgstr "Alle filer til dette tema kan findes i <code>%2$s</code>."
 
-#: wp-admin/themes.php:151
+#: wp-admin/themes.php:154
 msgid "Available Themes"
 msgstr "Tilg&#230;ngelige temaer"
 
-#: wp-admin/themes.php:207
+#: wp-admin/themes.php:210
 #, php-format
 msgid "Preview of &#8220;%s&#8221;"
 msgstr "Preview af &#8220;%s&#8221;"
 
-#: wp-admin/themes.php:216
+#: wp-admin/themes.php:219
 #, php-format
 msgid ""
 "You are about to delete this theme '%s'\n"
@@ -8609,15 +8663,15 @@ msgstr ""
 "Du er ved at slette dette tema '%s'\n"
 "  'Annuller' for at stoppe, 'Ok' for at slette."
 
-#: wp-admin/themes.php:248
+#: wp-admin/themes.php:251
 msgid "You only have one theme installed at the moment so there is nothing to show you here.  Maybe you should download some more to try out."
 msgstr "Du har kun installeret et tema i &#248;jeblikket, s&#229; der er ikke noget at vise her. M&#229;ske du skulle downloade nogle flere, du kan pr&#248;ve."
 
-#: wp-admin/themes.php:267
+#: wp-admin/themes.php:270
 msgid "Broken Themes"
 msgstr "&#248;delagte temaer"
 
-#: wp-admin/themes.php:268
+#: wp-admin/themes.php:271
 msgid "The following themes are installed but incomplete.  Themes must have a stylesheet and a template."
 msgstr "F&#248;lgende temaer er installeret, men med mangler. Temaer skal have et stylesheet og en skabelon."
 
@@ -9483,313 +9537,313 @@ msgstr "Fejl: Udfyld venligst de p&#229;kr&#230;vede felter (navn, e-mail)."
 msgid "Error: please enter a valid email address."
 msgstr "Fejl: Skriv venligst en gyldig e-mail-adresse"
 
-#: wp-content/plugins/akismet/akismet.php:55
-#: wp-content/plugins/akismet/akismet.php:131
+#: wp-content/plugins/akismet/akismet.php:57
+#: wp-content/plugins/akismet/akismet.php:133
 msgid "Akismet Configuration"
 msgstr "Akismet-indstillinger"
 
-#: wp-content/plugins/akismet/akismet.php:118
+#: wp-content/plugins/akismet/akismet.php:120
 msgid "Your key has been cleared."
 msgstr "Din n&#248;gle blevet clearet."
 
-#: wp-content/plugins/akismet/akismet.php:119
+#: wp-content/plugins/akismet/akismet.php:121
 msgid "Your key has been verified. Happy blogging!"
 msgstr "Din n&#248;gle er blevet godkendt. God blogging!"
 
-#: wp-content/plugins/akismet/akismet.php:120
+#: wp-content/plugins/akismet/akismet.php:122
 msgid "The key you entered is invalid. Please double-check it."
 msgstr "Din n&#248;gle er ugyldig. Dobbelttjek den."
 
-#: wp-content/plugins/akismet/akismet.php:121
+#: wp-content/plugins/akismet/akismet.php:123
 msgid "The key you entered could not be verified because a connection to akismet.com could not be established. Please check your server configuration."
 msgstr "Den n&#248;gle, du indtastede, kunne ikke godkendes, fordi der ikke kunne oprettes forbindelse til akismet.com. Tjek dine server-konfigurationer."
 
-#: wp-content/plugins/akismet/akismet.php:122
+#: wp-content/plugins/akismet/akismet.php:124
 msgid "There was a problem connecting to the Akismet server. Please check your server configuration."
 msgstr "Der opstod en fejl, da vi skulle kontakte Akismet-serveren. Tjek dine server-konfigurationer."
 
-#: wp-content/plugins/akismet/akismet.php:123
+#: wp-content/plugins/akismet/akismet.php:125
 #, php-format
 msgid "Please enter an API key. (<a href=\"%s\" style=\"color:#fff\">Get your key.</a>)"
 msgstr "Skriv en API-n&#248;gle. (<a href=\"%s\" style=\"color:#fff\">F&#229; en n&#248;gle.</a>)"
 
-#: wp-content/plugins/akismet/akismet.php:124
+#: wp-content/plugins/akismet/akismet.php:126
 msgid "This key is valid."
 msgstr "N&#248;glen er gyldig."
 
-#: wp-content/plugins/akismet/akismet.php:125
+#: wp-content/plugins/akismet/akismet.php:127
 msgid "The key below was previously validated but a connection to akismet.com can not be established at this time. Please check your server configuration."
 msgstr "N&#248;glen nedenfor er tidligere blevet godkendt, men forbindelsen til akismet.com kan ikke oprettes i &#248;jeblikket. Tjek dine server-konfigurationer."
 
-#: wp-content/plugins/akismet/akismet.php:128
+#: wp-content/plugins/akismet/akismet.php:130
 #: wp-content/themes/default/functions.php:366
 msgid "Options saved."
 msgstr "Indstillinger gemt."
 
-#: wp-content/plugins/akismet/akismet.php:135
+#: wp-content/plugins/akismet/akismet.php:137
 #, php-format
 msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have a WordPress.com account yet, you can get one at <a href=\"%2$s\">WordPress.com</a>."
 msgstr "For de fleste vil <a href=\"%1$s\">Akismet</a> reducere eller m&#229;ske endda helt fjerne kommentar- og trackback-spam.  Hvis noget skulle komme gennem nettet, kan du blot markere det som \"spam\" p&#229; moderationssiden, s&#229; vil Akismet l&#230;re af sine fejl. Hvis du endnu ikke har en WordPress.com-konto, kan du f&#229; en p&#229; <a href=\"%2$s\">WordPress.com</a>."
 
-#: wp-content/plugins/akismet/akismet.php:138
+#: wp-content/plugins/akismet/akismet.php:140
 msgid "WordPress.com API Key"
 msgstr "WordPress.com API Key"
 
-#: wp-content/plugins/akismet/akismet.php:142
+#: wp-content/plugins/akismet/akismet.php:144
 msgid "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">What is this?</a>"
 msgstr "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">Hvad er det? (engelsk)</a>"
 
-#: wp-content/plugins/akismet/akismet.php:144
+#: wp-content/plugins/akismet/akismet.php:146
 msgid "Why might my key be invalid?"
 msgstr "Hvorfor er min n&#248;gle ugyldig?"
 
-#: wp-content/plugins/akismet/akismet.php:145
+#: wp-content/plugins/akismet/akismet.php:147
 msgid "This can mean one of two things, either you copied the key wrong or that the plugin is unable to reach the Akismet servers, which is most often caused by an issue with your web host around firewalls or similar."
 msgstr "Det kan betyde to ting. Enten har du kopieret den forkerte n&#248;gle, eller ogs&#229; kan pluginet ikke f&#229; fat i Akismet-serverne, hvilket oftest skyldes dit webhotels firewall eller lignende."
 
-#: wp-content/plugins/akismet/akismet.php:148
+#: wp-content/plugins/akismet/akismet.php:150
 msgid "Automatically discard spam comments on posts older than a month."
 msgstr "Slet automatisk spam-kommentarer til indl&#230;g, der er mere end en m&#229;ned gamle."
 
-#: wp-content/plugins/akismet/akismet.php:149
+#: wp-content/plugins/akismet/akismet.php:151
 msgid "Update options &raquo;"
 msgstr "Opdater indstillinger &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:154
+#: wp-content/plugins/akismet/akismet.php:156
 msgid "Server Connectivity"
 msgstr "Serverforbindelse"
 
-#: wp-content/plugins/akismet/akismet.php:161
+#: wp-content/plugins/akismet/akismet.php:163
 msgid "Unable to reach some Akismet servers."
 msgstr "Kan ikke f&#229; fat p&#229; alle Akismet-serverne."
 
-#: wp-content/plugins/akismet/akismet.php:162
+#: wp-content/plugins/akismet/akismet.php:164
 #, php-format
 msgid "A network problem or firewall is blocking some connections from your web server to Akismet.com.  Akismet is working but this may cause problems during times of network congestion.  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet and firewalls</a>."
 msgstr "Et netv&#230;rksproblem eller en firewall blokerer nogle forbindelser mellem din webserver og Akismet.com. Akismet virker, men der kan opst&#229; problemer ved stor trafik på netv&#230;rket. Kontakt dit webhotel eller din firewalladministrator og giv dem <a href=\"%s\" target=\"_blank\">disse informationer om Akismet og firewalls</a>."
 
-#: wp-content/plugins/akismet/akismet.php:166
+#: wp-content/plugins/akismet/akismet.php:168
 msgid "Unable to reach any Akismet servers."
 msgstr "Kan ikke f&#229; fat p&#229; Akismet-serverne."
 
-#: wp-content/plugins/akismet/akismet.php:167
+#: wp-content/plugins/akismet/akismet.php:169
 #, php-format
 msgid "A network problem or firewall is blocking all connections from your web server to Akismet.com.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet and firewalls</a>."
 msgstr "Et netv&#230;rksproblem eller en firewall blokerer alle forbindelser mellem din webserver og Akismet.com. Akismet virker ikke, f&#248;r det er ordnet. Kontakt dit webhotel eller din firewalladministrator og giv dem <a href=\"%s\" target=\"_blank\">disse informationer om Akismet og firewalls</a>."
 
-#: wp-content/plugins/akismet/akismet.php:171
+#: wp-content/plugins/akismet/akismet.php:173
 msgid "All Akismet servers are available."
 msgstr "Alle Akismet-servere er tilg&#230;ngelige."
 
-#: wp-content/plugins/akismet/akismet.php:172
+#: wp-content/plugins/akismet/akismet.php:174
 msgid "Akismet is working correctly.  All servers are accessible."
 msgstr "Akismet virker fint. Forbindelse til alle servere."
 
-#: wp-content/plugins/akismet/akismet.php:177
+#: wp-content/plugins/akismet/akismet.php:179
 msgid "Network functions are disabled."
 msgstr "Netv&#230;rksfunktioner sl&#229;et fra."
 
-#: wp-content/plugins/akismet/akismet.php:178
+#: wp-content/plugins/akismet/akismet.php:180
 #, php-format
 msgid "Your web host or server administrator has disabled PHP's <code>fsockopen</code> function.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet's system requirements</a>."
 msgstr "Dit webhotel eller din serveradministrator har sl&#229;et PHP's <code>fsockopen</code>-funktion fra. <strong>Akismet virker ikke ordentligt f&#248;r det er rettet.</strong> Kontakt venligst dit webhotel eller din serveradministrator og giv dem <a href=\"%s\" target=\"_blank\">disse informationer om Akismets minimumkrav</a>."
 
-#: wp-content/plugins/akismet/akismet.php:182
+#: wp-content/plugins/akismet/akismet.php:184
 msgid "Unable to find Akismet servers."
 msgstr "Kan ikke finde Akismet-serverne."
 
-#: wp-content/plugins/akismet/akismet.php:183
+#: wp-content/plugins/akismet/akismet.php:185
 #, php-format
 msgid "A DNS problem or firewall is preventing all access from your web server to Akismet.com.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet and firewalls</a>."
 msgstr "Et DNS-problem eller en firewall forhindrer adgang fra din webserver til Akismet.com. <strong>Akismet virker ikke ordentligt f&#248;r det er rettet.</strong> Kontakt venligst dit webhotel eller din firewalladministrator og giv dem <a href=\"%s\" target=\"_blank\">disse informationer om Akismets minimumkrav</a>."
 
-#: wp-content/plugins/akismet/akismet.php:190
+#: wp-content/plugins/akismet/akismet.php:192
 msgid "Akismet server"
 msgstr "Akismet-server"
 
-#: wp-content/plugins/akismet/akismet.php:190
+#: wp-content/plugins/akismet/akismet.php:192
 msgid "Network Status"
 msgstr "Netv&#230;rksstatus"
 
-#: wp-content/plugins/akismet/akismet.php:199
+#: wp-content/plugins/akismet/akismet.php:201
 msgid "No problems"
 msgstr "Ingen problemer"
 
-#: wp-content/plugins/akismet/akismet.php:199
+#: wp-content/plugins/akismet/akismet.php:201
 msgid "Obstructed"
 msgstr "Blokeret"
 
-#: wp-content/plugins/akismet/akismet.php:207
+#: wp-content/plugins/akismet/akismet.php:209
 #, php-format
 msgid "Last checked %s ago."
 msgstr "Sidst tjekket %s siden."
 
-#: wp-content/plugins/akismet/akismet.php:208
+#: wp-content/plugins/akismet/akismet.php:210
 msgid "Check network status &raquo;"
 msgstr "Tjek netv&#230;rksstatus &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:218
+#: wp-content/plugins/akismet/akismet.php:220
 msgid "Akismet Stats"
 msgstr "Akismet-statistik"
 
-#: wp-content/plugins/akismet/akismet.php:325
+#: wp-content/plugins/akismet/akismet.php:327
 msgid "Akismet is almost ready."
 msgstr "Akismet er n&#230;sten klar."
 
-#: wp-content/plugins/akismet/akismet.php:325
+#: wp-content/plugins/akismet/akismet.php:327
 #, php-format
 msgid "You must <a href=\"%1$s\">enter your WordPress.com API key</a> for it to work."
 msgstr "Du skal <a href=\"%1$s\">skrive din WordPress.com API n&#248;gle</a> for at f&#229; det til at virke."
 
-#: wp-content/plugins/akismet/akismet.php:333
+#: wp-content/plugins/akismet/akismet.php:335
 msgid "Akismet has detected a problem."
 msgstr "Akismet har fundet et problem."
 
-#: wp-content/plugins/akismet/akismet.php:333
+#: wp-content/plugins/akismet/akismet.php:335
 #, php-format
 msgid "A server or network problem is preventing Akismet from working correctly.  <a href=\"%1$s\">Click here for more information</a> about how to fix the problem."
 msgstr "Et server- eller netv&#230;rksproblem g&#248;r, at Akismet ikke virker korrekt. <a href=\"%1$s\">Klik her for flere informationer</a> om l&#248;sninger på problemet."
 
-#: wp-content/plugins/akismet/akismet.php:575
+#: wp-content/plugins/akismet/akismet.php:579
 #, php-format
 msgid "Akismet Spam (%s)"
 msgstr "Akismet spam (%s)"
 
-#: wp-content/plugins/akismet/akismet.php:577
-#: wp-content/plugins/akismet/akismet.php:579
+#: wp-content/plugins/akismet/akismet.php:581
+#: wp-content/plugins/akismet/akismet.php:583
 msgid "Akismet Spam"
 msgstr "Akismet spam"
 
-#: wp-content/plugins/akismet/akismet.php:589
-#: wp-content/plugins/akismet/akismet.php:608
+#: wp-content/plugins/akismet/akismet.php:593
+#: wp-content/plugins/akismet/akismet.php:612
 msgid "You do not have sufficient permission to moderate comments."
 msgstr "Du har ikke tilstr&#230;kkelige rettigheder til at bed&#248;mme kommentarer."
 
-#: wp-content/plugins/akismet/akismet.php:620
+#: wp-content/plugins/akismet/akismet.php:624
 #, php-format
 msgid "%1$s comments recovered."
 msgstr "%1$s kommentarer genskabt."
 
-#: wp-content/plugins/akismet/akismet.php:624
+#: wp-content/plugins/akismet/akismet.php:628
 msgid "All spam deleted."
 msgstr "Al spam slettet."
 
-#: wp-content/plugins/akismet/akismet.php:672
+#: wp-content/plugins/akismet/akismet.php:676
 msgid "Caught Spam"
 msgstr "Fundet spam"
 
-#: wp-content/plugins/akismet/akismet.php:677
+#: wp-content/plugins/akismet/akismet.php:681
 #, php-format
 msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
 msgstr "Akismet har fanget <strong>%1$s spam-kommentarer</strong> for dig, siden du installerede det."
 
-#: wp-content/plugins/akismet/akismet.php:684
+#: wp-content/plugins/akismet/akismet.php:688
 msgid "You have no spam currently in the queue. Must be your lucky day. :)"
 msgstr "Der er ikke noget spam i k&#248;en i &#248;jeblikket. Det m&#229; v&#230;re en god dag :)"
 
-#: wp-content/plugins/akismet/akismet.php:687
+#: wp-content/plugins/akismet/akismet.php:691
 msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
 msgstr "Du kan slette alt spam fra din database med et enkelt klik. Det kan ikke laves om, s&#229; du b&#248;r sikre dig, at der ikke er nogle rigtige kommentarer imellem. Spam bliver automatisk slettet efter 15 dage, s&#229; glem ikke at tjekke denne liste regelm&#230;ssigt."
 
-#: wp-content/plugins/akismet/akismet.php:693
-#: wp-content/plugins/akismet/akismet.php:871
+#: wp-content/plugins/akismet/akismet.php:697
+#: wp-content/plugins/akismet/akismet.php:875
 #, php-format
 msgid "There are currently %1$s comments identified as spam."
 msgstr "Der er i &#248;jeblikket %1$s kommentarer, der er identificeret som spam."
 
-#: wp-content/plugins/akismet/akismet.php:693
-#: wp-content/plugins/akismet/akismet.php:871
+#: wp-content/plugins/akismet/akismet.php:697
+#: wp-content/plugins/akismet/akismet.php:875
 msgid "Delete all"
 msgstr "Slet alle"
 
-#: wp-content/plugins/akismet/akismet.php:702
+#: wp-content/plugins/akismet/akismet.php:706
 msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
 msgstr "Dette er de seneste kommentarer, der er identificeret som spam af Akismet. Hvis du finder fejl, skal du bare markere kommentaren som \"Ikke spam\", s&#229; l&#230;rer Akismet af dine rettelser. Hvis du vil genskabe en kommentar fra spam, skal du markere kommentaren og klikke p&#229; Ikke Spam. Efter 15 dage rydder vi op for dig."
 
-#: wp-content/plugins/akismet/akismet.php:756
+#: wp-content/plugins/akismet/akismet.php:760
 msgid "Search Spam &raquo;"
 msgstr "S&#248;g spam &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:763
-#: wp-content/plugins/akismet/akismet.php:830
-#: wp-includes/link-template.php:1446
+#: wp-content/plugins/akismet/akismet.php:767
+#: wp-content/plugins/akismet/akismet.php:834
+#: wp-includes/link-template.php:1445
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Forrige side"
 
-#: wp-content/plugins/akismet/akismet.php:784
-#: wp-content/plugins/akismet/akismet.php:851
-#: wp-includes/link-template.php:1447
+#: wp-content/plugins/akismet/akismet.php:788
+#: wp-content/plugins/akismet/akismet.php:855
+#: wp-includes/link-template.php:1446
 msgid "Next Page &raquo;"
 msgstr "N&#230;ste side &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:806
+#: wp-content/plugins/akismet/akismet.php:810
 msgid "IP:"
 msgstr "IP:"
 
-#: wp-content/plugins/akismet/akismet.php:812
+#: wp-content/plugins/akismet/akismet.php:816
 msgid "Not Spam"
 msgstr "Ikke spam"
 
-#: wp-content/plugins/akismet/akismet.php:857
+#: wp-content/plugins/akismet/akismet.php:861
 msgid "De-spam marked comments &raquo;"
 msgstr "Af-spam kommentarer &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:859
+#: wp-content/plugins/akismet/akismet.php:863
 msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
 msgstr "Kommentarer, som du af-spammer, vil blive sendt til Akismet som fejl, s&#229; den kan l&#230;re af det og blive bedre."
 
-#: wp-content/plugins/akismet/akismet.php:895
+#: wp-content/plugins/akismet/akismet.php:899
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
 msgstr "<a href=\"%1$s\">Akismet</a> har beskyttet din side mod <a href=\"%2$s\">%3$s spam kommentarer</a>."
 
-#: wp-content/plugins/akismet/akismet.php:913
+#: wp-content/plugins/akismet/akismet.php:917
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
 msgstr[0] "<a href=\"%1$s\">Akismet</a> har allerede beskyttet din side mod %2$s spamkommentar,"
 msgstr[1] "<a href=\"%1$s\">Akismet</a> har allerede beskyttet din side mod %2$s spamkommentarer,"
 
-#: wp-content/plugins/akismet/akismet.php:918
+#: wp-content/plugins/akismet/akismet.php:922
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
 msgstr "<a href=\"%1$s\">Akismet</a> blokerer spam, s&#229; det ikke vises p&#229; din blog,"
 
-#: wp-content/plugins/akismet/akismet.php:923
+#: wp-content/plugins/akismet/akismet.php:927
 #, php-format
 msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
 msgstr[0] "og der er <a href=\"%2$s\">%1$s kommentar</a> i din spam-k&#248; lige nu."
 msgstr[1] "og der er <a href=\"%2$s\">%1$s kommentarer</a> i din spam-k&#248; lige nu."
 
-#: wp-content/plugins/akismet/akismet.php:928
+#: wp-content/plugins/akismet/akismet.php:932
 #, php-format
 msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
 msgstr "men der er ingenting i din <a href='%1$s'>spam-k&#248;</a> lige nu."
 
-#: wp-content/plugins/akismet/akismet.php:931
+#: wp-content/plugins/akismet/akismet.php:935
 #, php-format
 msgid "%1$s %2$s|akismet_rightnow"
 msgstr "%1$s %2$s"
 
-#: wp-content/plugins/akismet/akismet.php:946
+#: wp-content/plugins/akismet/akismet.php:950
 msgid "Recheck Queue for Spam"
 msgstr "Tjek k&#248; for spam"
 
-#: wp-content/plugins/akismet/akismet.php:963
+#: wp-content/plugins/akismet/akismet.php:967
 msgid "Check for Spam"
 msgstr "Tjek for spam"
 
-#: wp-content/plugins/akismet/akismet.php:1038
+#: wp-content/plugins/akismet/akismet.php:1042
 #, php-format
 msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
 msgstr "%1$s %2$sspam-kommentarer%3$s %4$sblokeret af%5$s<br />%6$sAkismet%7$s"
 
-#: wp-content/plugins/akismet/akismet.php:1100
+#: wp-content/plugins/akismet/akismet.php:1104
 msgid "spam comments"
 msgstr "spamkommentarer"
 
-#: wp-content/plugins/akismet/akismet.php:1100
+#: wp-content/plugins/akismet/akismet.php:1104
 msgid "blocked by"
 msgstr "blokeret af"
 
@@ -9896,7 +9950,7 @@ msgstr "% kommentarer"
 #: wp-content/themes/classic/comments.php:24
 #: wp-content/themes/classic/index.php:15
 #: wp-includes/link-template.php:605
-#: wp-includes/link-template.php:819
+#: wp-includes/link-template.php:818
 msgid "Edit This"
 msgstr "Rediger"
 
@@ -12643,33 +12697,33 @@ msgstr "Kommentarfeed"
 msgid "Edit tag"
 msgstr "Rediger tag"
 
-#: wp-includes/link-template.php:821
+#: wp-includes/link-template.php:820
 msgid "Edit link"
 msgstr "Rediger link"
 
-#: wp-includes/link-template.php:942
-#: wp-includes/link-template.php:1206
+#: wp-includes/link-template.php:941
+#: wp-includes/link-template.php:1205
 msgid "Previous Post"
 msgstr "Tidligere indl&#230;g"
 
-#: wp-includes/link-template.php:942
-#: wp-includes/link-template.php:1206
+#: wp-includes/link-template.php:941
+#: wp-includes/link-template.php:1205
 msgid "Next Post"
 msgstr "N&#230;ste indl&#230;g"
 
-#: wp-includes/link-template.php:1066
+#: wp-includes/link-template.php:1065
 msgid "First Post"
 msgstr "F&#248;rste indl&#230;g"
 
-#: wp-includes/link-template.php:1066
+#: wp-includes/link-template.php:1065
 msgid "Last Post"
 msgstr "Sidste indl&#230;g"
 
-#: wp-includes/link-template.php:1548
+#: wp-includes/link-template.php:1547
 msgid "Newer Comments &raquo;"
 msgstr "Nyere kommentarer &raquo;"
 
-#: wp-includes/link-template.php:1585
+#: wp-includes/link-template.php:1584
 msgid "&laquo; Older Comments"
 msgstr "&laquo; &#230;ldre kommentarer"
 
@@ -13027,11 +13081,11 @@ msgstr "Kunne ikke inds&#230;tte indl&#230;gget i databasen"
 msgid "The page template is invalid."
 msgstr "Sideskabelonen er ugyldig."
 
-#: wp-includes/post.php:3617
+#: wp-includes/post.php:3614
 msgid "Cannot create a revision of a revision"
 msgstr "Kan ikke oprette en revision af en revision"
 
-#: wp-includes/post.php:3793
+#: wp-includes/post.php:3790
 msgid "You do not have permission to preview drafts."
 msgstr "Du har ikke rettigheder til at previewe kladder."
 

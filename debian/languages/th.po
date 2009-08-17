@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Wordpress 2.8.3\n"
+"Project-Id-Version: Wordpress 2.8.4\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-08-03 16:56+0000\n"
-"PO-Revision-Date: 2009-08-05 22:13+0700\n"
+"POT-Creation-Date: 2009-08-12 04:56+0000\n"
+"PO-Revision-Date: 2009-08-12 23:34+0700\n"
 "Last-Translator: kazama <anotherkaz@gmail.com>\n"
 "Language-Team: Thai <anotherkaz@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -721,7 +721,7 @@ msgstr "ผู้เขียน"
 #: wp-admin/user-edit.php:261
 #: wp-admin/user-new.php:109
 #: wp-content/themes/classic/comments-popup.php:76
-#: wp-login.php:414
+#: wp-login.php:417
 msgid "E-mail"
 msgstr "อีเมล์"
 
@@ -4982,8 +4982,8 @@ msgstr "ชื่อโฮสท์"
 #: wp-admin/install.php:129
 #: wp-admin/user-edit.php:187
 #: wp-admin/user-new.php:96
-#: wp-login.php:410
-#: wp-login.php:504
+#: wp-login.php:413
+#: wp-login.php:507
 msgid "Username"
 msgstr "ชื่อผู้ใช้"
 
@@ -4992,7 +4992,7 @@ msgstr "ชื่อผู้ใช้"
 #: wp-admin/install.php:133
 #: wp-admin/options-writing.php:100
 #: wp-admin/user-new.php:119
-#: wp-login.php:508
+#: wp-login.php:511
 msgid "Password"
 msgstr "รหัสผ่าน"
 
@@ -6921,7 +6921,7 @@ msgid "You can&#8217;t give users that role."
 msgstr "คุณไม่สามารถแต่งตั้งตำแหน่งนั้นให้ผู้ใช้ได้"
 
 #: wp-admin/includes/user.php:138
-#: wp-login.php:236
+#: wp-login.php:239
 msgid "<strong>ERROR</strong>: Please enter a username."
 msgstr "<strong>ผิดพลาด</strong>: กรุณาใส่ชื่อผู้ใช้"
 
@@ -6963,7 +6963,7 @@ msgid "<strong>ERROR</strong>: The e-mail address isn&#8217;t correct."
 msgstr "<strong>ผิดพลาด</strong>: อีเมล์ไม่ถูกต้อง"
 
 #: wp-admin/includes/user.php:178
-#: wp-login.php:250
+#: wp-login.php:253
 msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
 msgstr "<strong>ผิดพลาด</strong>: มีการลงทะเบียนโดยใช้อีเมล์นี้แล้ว  โปรดเลือกใช้อีเมล์อื่น"
 
@@ -7073,8 +7073,8 @@ msgid "WordPress has been installed. Were you expecting more steps? Sorry to dis
 msgstr "เวิร์ดเพรสถูกติดตั้งเสร็จแล้ว  คุณคิดว่าต้องทำอะไรต่ออีกรึเปล่า  ขอโทษด้วยที่เราทำให้คุณผิดหวัง"
 
 #: wp-admin/install.php:141
-#: wp-login.php:495
-#: wp-login.php:514
+#: wp-login.php:498
+#: wp-login.php:517
 msgid "Log In"
 msgstr "เข้าสู่ระบบ"
 
@@ -10855,9 +10855,9 @@ msgid "Search for:"
 msgstr "ค้นหาสำหรับ:"
 
 #: wp-includes/general-template.php:147
-#: wp-login.php:352
 #: wp-login.php:355
-#: wp-login.php:424
+#: wp-login.php:358
+#: wp-login.php:427
 msgid "Log in"
 msgstr "เข้าสู่ระบบ"
 
@@ -10866,9 +10866,9 @@ msgid "Log out"
 msgstr "ออกจากระบบ"
 
 #: wp-includes/general-template.php:236
-#: wp-login.php:353
-#: wp-login.php:420
-#: wp-login.php:524
+#: wp-login.php:356
+#: wp-login.php:423
+#: wp-login.php:527
 msgid "Register"
 msgstr "ลงทะเบียน"
 
@@ -12891,7 +12891,7 @@ msgstr "ผู้ใช้ใหม่ลงทะเบียนบนบล็
 #: wp-includes/pluggable.php:1151
 #: wp-includes/pluggable.php:1159
 #: wp-login.php:162
-#: wp-login.php:204
+#: wp-login.php:207
 #, php-format
 msgid "Username: %s"
 msgstr "ชื่อผู้ใช้: %s"
@@ -12907,7 +12907,7 @@ msgid "[%s] New User Registration"
 msgstr "[%s] ผู้ใช้ใหม่ลงทะเบียน"
 
 #: wp-includes/pluggable.php:1160
-#: wp-login.php:205
+#: wp-login.php:208
 #, php-format
 msgid "Password: %s"
 msgstr "รหัสผ่าน: %s"
@@ -13347,128 +13347,129 @@ msgid "[%s] Password Reset"
 msgstr "[%s] รหัสผ่านใหม่ถูกตั้งขึ้น"
 
 #: wp-login.php:172
-#: wp-login.php:214
+#: wp-login.php:217
 msgid "The e-mail could not be sent."
 msgstr "อีเมล์ไม่สามารถส่งได้"
 
 #: wp-login.php:172
-#: wp-login.php:214
+#: wp-login.php:217
 msgid "Possible reason: your host may have disabled the mail() function..."
 msgstr "เหตุผลที่เป็นไปได้: โฮสท์ของคุณอาจจะไม่เปิด mail() function..."
 
 #: wp-login.php:191
-#: wp-login.php:195
+#: wp-login.php:194
+#: wp-login.php:198
 msgid "Invalid key"
 msgstr "key ใช้งานไม่ได้"
 
-#: wp-login.php:208
+#: wp-login.php:211
 #, php-format
 msgid "[%s] Your new password"
 msgstr "[%s] รหัสผ่านใหม่ของคุณ"
 
-#: wp-login.php:238
+#: wp-login.php:241
 msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
 msgstr "<strong>ผิดพลาด</strong>: ชื่อผู้ใช้นี้ไม่ถูกต้อง  กรุณาใส่ชื่อที่ใช้งานได้"
 
-#: wp-login.php:241
+#: wp-login.php:244
 msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
 msgstr "<strong>ผิดพลาด</strong>: ผู้ใช้นี้มีอยู่แล้ว  โปรดเลือกชื่ออื่น"
 
-#: wp-login.php:245
+#: wp-login.php:248
 msgid "<strong>ERROR</strong>: Please type your e-mail address."
 msgstr "<strong>ผิดพลาด</strong>: โปรดพิมพ์อีเมล์ของคุณ"
 
-#: wp-login.php:247
+#: wp-login.php:250
 msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
 msgstr "<strong>ผิดพลาด</strong>: อีเมล์ไม่ถูกต้อง"
 
-#: wp-login.php:262
+#: wp-login.php:265
 #, php-format
 msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
 msgstr "<strong>ผิดพลาด</strong>: คุณไม่สามารถลงทะเบียนได้ โปรดติดต่อ<a href=\"mailto:%s\">เว็บมาสเตอร์</a> !"
 
-#: wp-login.php:332
+#: wp-login.php:335
 msgid "Sorry, that key does not appear to be valid."
 msgstr "key นี้ดูเหมือนว่าใช้งานไม่ได้"
 
-#: wp-login.php:335
+#: wp-login.php:338
 msgid "Lost Password"
 msgstr "จำรหัสผ่านไม่ได้"
 
-#: wp-login.php:335
+#: wp-login.php:338
 msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
 msgstr "กรุณาใส่ชื่อผู้ใช้หรืออีเมล์ของคุณ  คุณจะได้รับรหัสผ่านใหม่ทางอีเมล์"
 
-#: wp-login.php:343
+#: wp-login.php:346
 msgid "Username or E-mail:"
 msgstr "ชื่อผู้ใช้ หรือ อีเมล์:"
 
-#: wp-login.php:347
+#: wp-login.php:350
 msgid "Get New Password"
 msgstr "ขอรหัสผ่านใหม่"
 
-#: wp-login.php:361
-#: wp-login.php:430
-#: wp-login.php:533
+#: wp-login.php:364
+#: wp-login.php:433
+#: wp-login.php:536
 msgid "Are you lost?"
 msgstr "คุณจำไม่ได้?"
 
-#: wp-login.php:361
-#: wp-login.php:430
-#: wp-login.php:533
+#: wp-login.php:364
+#: wp-login.php:433
+#: wp-login.php:536
 #, php-format
 msgid "&larr; Back to %s"
 msgstr "&larr; กลับไป %s"
 
-#: wp-login.php:405
+#: wp-login.php:408
 msgid "Registration Form"
 msgstr "ช่องลงทะเบียน"
 
-#: wp-login.php:405
+#: wp-login.php:408
 msgid "Register For This Site"
 msgstr "ลงทะเบียนสำหรับเว็บไซต์นี้"
 
-#: wp-login.php:418
+#: wp-login.php:421
 msgid "A password will be e-mailed to you."
 msgstr "รหัสผ่านจะถูกส่งอีเมล์ไปหาคุณ"
 
-#: wp-login.php:425
-#: wp-login.php:525
-#: wp-login.php:527
+#: wp-login.php:428
+#: wp-login.php:528
+#: wp-login.php:530
 msgid "Password Lost and Found"
 msgstr "สร้างรหัสผ่านใหม่"
 
-#: wp-login.php:425
-#: wp-login.php:525
-#: wp-login.php:527
+#: wp-login.php:428
+#: wp-login.php:528
+#: wp-login.php:530
 msgid "Lost your password?"
 msgstr "คุณจำรหัสผ่านไม่ได้?"
 
-#: wp-login.php:486
+#: wp-login.php:489
 msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
 msgstr "<strong>ผิดพลาด</strong>: Cookies ถูกห้ามใช้  หรือเบราว์เซอร์ของคุณไม่รองรับ  คุณต้อง <a href='http://www.google.com/cookies.html'>เปิดใช้งาน cookies</a> เพื่อใช้งานเวิร์ดเพรส"
 
-#: wp-login.php:489
+#: wp-login.php:492
 msgid "You are now logged out."
 msgstr "ตอนนี้คุณได้ออกจากระบบแล้ว"
 
-#: wp-login.php:490
+#: wp-login.php:493
 msgid "User registration is currently not allowed."
 msgstr "การลงทะเบียนผู้ใช้ยังไม่เปิดใช้งานในตอนนี้"
 
-#: wp-login.php:491
+#: wp-login.php:494
 msgid "Check your e-mail for the confirmation link."
 msgstr "เช็คอีเมล์ของคุณสำหรับลิงก์ยืนยัน"
 
-#: wp-login.php:492
+#: wp-login.php:495
 msgid "Check your e-mail for your new password."
 msgstr "เช็คอีเมล์ของคุณสำหรับรหัสผ่านใหม่"
 
-#: wp-login.php:493
+#: wp-login.php:496
 msgid "Registration complete. Please check your e-mail."
 msgstr "ลงทะเบียนเสร็จแล้ว  กรุณาเช็คอีเมล์ของคุณ"
 
-#: wp-login.php:512
+#: wp-login.php:515
 msgid "Remember Me"
 msgstr "บันทึกการใช้งานของฉัน"
 

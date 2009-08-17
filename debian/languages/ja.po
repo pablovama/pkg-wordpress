@@ -13,11 +13,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: wordpress 2.8.2 ja\n"
+"Project-Id-Version: wordpress 2.8.4 ja\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-08-03 00:56+0000\n"
-"PO-Revision-Date: 2009-08-04 10:12+0900\n"
-"Last-Translator: Naoko McCracken <info@nao-net.com>\n"
+"POT-Creation-Date: 2009-08-11 08:56+0000\n"
+"PO-Revision-Date: 2009-08-12 10:55+0900\n"
+"Last-Translator: Tai <tekapo@gmail.com>\n"
 "Language-Team: wp-ja <wpja.team@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -732,7 +732,7 @@ msgstr "作成者"
 #: wp-admin/user-edit.php:261
 #: wp-admin/user-new.php:109
 #: wp-content/themes/classic/comments-popup.php:76
-#: wp-login.php:414
+#: wp-login.php:417
 msgid "E-mail"
 msgstr "メールアドレス"
 
@@ -4993,8 +4993,8 @@ msgstr "ホスト名"
 #: wp-admin/install.php:129
 #: wp-admin/user-edit.php:187
 #: wp-admin/user-new.php:96
-#: wp-login.php:410
-#: wp-login.php:504
+#: wp-login.php:413
+#: wp-login.php:507
 msgid "Username"
 msgstr "ユーザー名"
 
@@ -5003,7 +5003,7 @@ msgstr "ユーザー名"
 #: wp-admin/install.php:133
 #: wp-admin/options-writing.php:100
 #: wp-admin/user-new.php:119
-#: wp-login.php:508
+#: wp-login.php:511
 msgid "Password"
 msgstr "パスワード"
 
@@ -6932,7 +6932,7 @@ msgid "You can&#8217;t give users that role."
 msgstr "ユーザーにこの権限を与えることはできません。"
 
 #: wp-admin/includes/user.php:138
-#: wp-login.php:236
+#: wp-login.php:239
 msgid "<strong>ERROR</strong>: Please enter a username."
 msgstr "<strong>エラー</strong>: ユーザー名を入力してください。"
 
@@ -6974,7 +6974,7 @@ msgid "<strong>ERROR</strong>: The e-mail address isn&#8217;t correct."
 msgstr "<strong>エラー</strong>: メールアドレスが正しくありません。"
 
 #: wp-admin/includes/user.php:178
-#: wp-login.php:250
+#: wp-login.php:253
 msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
 msgstr "<strong>エラー</strong>: このメールアドレスはすでに登録されています。別のメールアドレスを選んでください。"
 
@@ -7084,8 +7084,8 @@ msgid "WordPress has been installed. Were you expecting more steps? Sorry to dis
 msgstr "WordPress がインストールされました。もっと何か作業をしたかったですか ? がっかりさせてゴメンナサイ。これだけです !"
 
 #: wp-admin/install.php:141
-#: wp-login.php:495
-#: wp-login.php:514
+#: wp-login.php:498
+#: wp-login.php:517
 msgid "Log In"
 msgstr "ログイン"
 
@@ -10866,9 +10866,9 @@ msgid "Search for:"
 msgstr "検索:"
 
 #: wp-includes/general-template.php:147
-#: wp-login.php:352
 #: wp-login.php:355
-#: wp-login.php:424
+#: wp-login.php:358
+#: wp-login.php:427
 msgid "Log in"
 msgstr "ログイン"
 
@@ -10877,9 +10877,9 @@ msgid "Log out"
 msgstr "ログアウト"
 
 #: wp-includes/general-template.php:236
-#: wp-login.php:353
-#: wp-login.php:420
-#: wp-login.php:524
+#: wp-login.php:356
+#: wp-login.php:423
+#: wp-login.php:527
 msgid "Register"
 msgstr "登録"
 
@@ -12902,7 +12902,7 @@ msgstr "ブログ「 %s 」の新規ユーザー登録:"
 #: wp-includes/pluggable.php:1151
 #: wp-includes/pluggable.php:1159
 #: wp-login.php:162
-#: wp-login.php:204
+#: wp-login.php:207
 #, php-format
 msgid "Username: %s"
 msgstr "ユーザー名: %s"
@@ -12918,7 +12918,7 @@ msgid "[%s] New User Registration"
 msgstr "[%s] 新規ユーザー登録"
 
 #: wp-includes/pluggable.php:1160
-#: wp-login.php:205
+#: wp-login.php:208
 #, php-format
 msgid "Password: %s"
 msgstr "パスワード: %s"
@@ -13358,128 +13358,129 @@ msgid "[%s] Password Reset"
 msgstr "[%s] パスワードのリセット"
 
 #: wp-login.php:172
-#: wp-login.php:214
+#: wp-login.php:217
 msgid "The e-mail could not be sent."
 msgstr "メールを送信できませんでした。"
 
 #: wp-login.php:172
-#: wp-login.php:214
+#: wp-login.php:217
 msgid "Possible reason: your host may have disabled the mail() function..."
 msgstr "考えられる理由: あなたのサーバーでは mail() 関数が有効になっていないのかもしれません。"
 
 #: wp-login.php:191
-#: wp-login.php:195
+#: wp-login.php:194
+#: wp-login.php:198
 msgid "Invalid key"
 msgstr "無効なキー"
 
-#: wp-login.php:208
+#: wp-login.php:211
 #, php-format
 msgid "[%s] Your new password"
 msgstr "[%s] 新しいパスワード"
 
-#: wp-login.php:238
+#: wp-login.php:241
 msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
 msgstr "<strong>エラー</strong>: このユーザー名は無効です。有効なユーザー名を入力してください。"
 
-#: wp-login.php:241
+#: wp-login.php:244
 msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
 msgstr "<strong>エラー</strong>: このユーザー名はすでに登録されています。別のユーザー名を選んでください。"
 
-#: wp-login.php:245
+#: wp-login.php:248
 msgid "<strong>ERROR</strong>: Please type your e-mail address."
 msgstr "<strong>エラー</strong>: メールアドレスを入力してください。"
 
-#: wp-login.php:247
+#: wp-login.php:250
 msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
 msgstr "<strong>エラー</strong>: メールアドレスが正しくありません。"
 
-#: wp-login.php:262
+#: wp-login.php:265
 #, php-format
 msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
 msgstr "<strong>エラー</strong>: 登録できませんでした… <a href=\"mailto:%s\">管理者</a>に連絡してください !"
 
-#: wp-login.php:332
+#: wp-login.php:335
 msgid "Sorry, that key does not appear to be valid."
 msgstr "そのキーは無効なもののようです。"
 
-#: wp-login.php:335
+#: wp-login.php:338
 msgid "Lost Password"
 msgstr "パスワード紛失"
 
-#: wp-login.php:335
+#: wp-login.php:338
 msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
 msgstr "ユーザー名かメールアドレスを入力してください。新しいパスワードをメールで送信します。"
 
-#: wp-login.php:343
+#: wp-login.php:346
 msgid "Username or E-mail:"
 msgstr "ユーザー名またはメールアドレス:"
 
-#: wp-login.php:347
+#: wp-login.php:350
 msgid "Get New Password"
 msgstr "新しいパスワードを取得"
 
-#: wp-login.php:361
-#: wp-login.php:430
-#: wp-login.php:533
+#: wp-login.php:364
+#: wp-login.php:433
+#: wp-login.php:536
 msgid "Are you lost?"
 msgstr "迷子になってしまいましたか ?"
 
-#: wp-login.php:361
-#: wp-login.php:430
-#: wp-login.php:533
+#: wp-login.php:364
+#: wp-login.php:433
+#: wp-login.php:536
 #, php-format
 msgid "&larr; Back to %s"
 msgstr "&larr; %s へ戻る"
 
-#: wp-login.php:405
+#: wp-login.php:408
 msgid "Registration Form"
 msgstr "登録フォーム"
 
-#: wp-login.php:405
+#: wp-login.php:408
 msgid "Register For This Site"
 msgstr "このブログに登録"
 
-#: wp-login.php:418
+#: wp-login.php:421
 msgid "A password will be e-mailed to you."
 msgstr "パスワードをあなたのメールアドレスに送信します。"
 
-#: wp-login.php:425
-#: wp-login.php:525
-#: wp-login.php:527
+#: wp-login.php:428
+#: wp-login.php:528
+#: wp-login.php:530
 msgid "Password Lost and Found"
 msgstr "パスワード紛失取り扱い"
 
-#: wp-login.php:425
-#: wp-login.php:525
-#: wp-login.php:527
+#: wp-login.php:428
+#: wp-login.php:528
+#: wp-login.php:530
 msgid "Lost your password?"
 msgstr "パスワードをお忘れですか ?"
 
-#: wp-login.php:486
+#: wp-login.php:489
 msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
 msgstr "<strong>エラー</strong>: お使いのブラウザはクッキーをサポートしないかまたは受け付けていません。WordPress を使うには<a href='http://www.google.co.jp/cookies.html'>クッキーを有効にする</a>ことが必要です。"
 
-#: wp-login.php:489
+#: wp-login.php:492
 msgid "You are now logged out."
 msgstr "ログアウトしました。"
 
-#: wp-login.php:490
+#: wp-login.php:493
 msgid "User registration is currently not allowed."
 msgstr "現在、ユーザー登録はできません"
 
-#: wp-login.php:491
+#: wp-login.php:494
 msgid "Check your e-mail for the confirmation link."
 msgstr "確認用のリンクをメールで送信しましたので、ご確認ください。"
 
-#: wp-login.php:492
+#: wp-login.php:495
 msgid "Check your e-mail for your new password."
 msgstr "新しいパスワードをメールで送信しましたので、ご確認ください。"
 
-#: wp-login.php:493
+#: wp-login.php:496
 msgid "Registration complete. Please check your e-mail."
 msgstr "登録を完了しました。メールを確認してください。"
 
-#: wp-login.php:512
+#: wp-login.php:515
 msgid "Remember Me"
 msgstr "ログイン情報を記憶"
 

@@ -3,7 +3,7 @@
 # Vicent Cubells i Peña <vicent@vcubells.net>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 2.8.3 en Català\n"
+"Project-Id-Version: WordPress 2.8.4 en Català\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-08-03 16:56+0000\n"
 "PO-Revision-Date: 2009-08-03 23:03+0100\n"

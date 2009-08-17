@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 2.8.3\n"
+"Project-Id-Version: WordPress 2.8.4\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-08-03 16:56+0000\n"
-"PO-Revision-Date: 2009-08-06 01:37+0300\n"
-"Last-Translator: Sol <salpagarov@gmail.com>\n"
+"POT-Creation-Date: 2009-08-12 04:56+0000\n"
+"PO-Revision-Date: 2009-08-12 13:57+0300\n"
+"Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
 "Language-Team: ru.wordpress.org <npocmop@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -720,7 +720,7 @@ msgstr "Автор"
 #: wp-admin/user-edit.php:261
 #: wp-admin/user-new.php:109
 #: wp-content/themes/classic/comments-popup.php:76
-#: wp-login.php:414
+#: wp-login.php:417
 msgid "E-mail"
 msgstr "E-mail"
 
@@ -5073,8 +5073,8 @@ msgstr "Сервер"
 #: wp-admin/install.php:129
 #: wp-admin/user-edit.php:187
 #: wp-admin/user-new.php:96
-#: wp-login.php:410
-#: wp-login.php:504
+#: wp-login.php:413
+#: wp-login.php:507
 msgid "Username"
 msgstr "Логин"
 
@@ -5083,7 +5083,7 @@ msgstr "Логин"
 #: wp-admin/install.php:133
 #: wp-admin/options-writing.php:100
 #: wp-admin/user-new.php:119
-#: wp-login.php:508
+#: wp-login.php:511
 msgid "Password"
 msgstr "Пароль"
 
@@ -7032,7 +7032,7 @@ msgid "You can&#8217;t give users that role."
 msgstr "Вы не можете присваивать пользователям эту роль."
 
 #: wp-admin/includes/user.php:138
-#: wp-login.php:236
+#: wp-login.php:239
 msgid "<strong>ERROR</strong>: Please enter a username."
 msgstr "<strong>ОШИБКА</strong>: Пожалуйста, введите логин."
 
@@ -7074,7 +7074,7 @@ msgid "<strong>ERROR</strong>: The e-mail address isn&#8217;t correct."
 msgstr "<strong>ОШИБКА</strong>: Адрес e-mail введён неправильно."
 
 #: wp-admin/includes/user.php:178
-#: wp-login.php:250
+#: wp-login.php:253
 msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
 msgstr "<strong>ОШИБКА</strong>: Этот e-mail уже зарегистрирован. Пожалуйста, введите другой."
 
@@ -7184,8 +7184,8 @@ msgid "WordPress has been installed. Were you expecting more steps? Sorry to dis
 msgstr "WordPress установлен. Ожидали больше шагов? Извините, что разочаровали :)"
 
 #: wp-admin/install.php:141
-#: wp-login.php:495
-#: wp-login.php:514
+#: wp-login.php:498
+#: wp-login.php:517
 msgid "Log In"
 msgstr "Войти"
 
@@ -11006,9 +11006,9 @@ msgid "Search for:"
 msgstr "Найти:"
 
 #: wp-includes/general-template.php:147
-#: wp-login.php:352
 #: wp-login.php:355
-#: wp-login.php:424
+#: wp-login.php:358
+#: wp-login.php:427
 msgid "Log in"
 msgstr "Войти"
 
@@ -11017,9 +11017,9 @@ msgid "Log out"
 msgstr "Выйти"
 
 #: wp-includes/general-template.php:236
-#: wp-login.php:353
-#: wp-login.php:420
-#: wp-login.php:524
+#: wp-login.php:356
+#: wp-login.php:423
+#: wp-login.php:527
 msgid "Register"
 msgstr "Регистрация"
 
@@ -13044,7 +13044,7 @@ msgstr "Новый пользователь зарегистрировался �
 #: wp-includes/pluggable.php:1151
 #: wp-includes/pluggable.php:1159
 #: wp-login.php:162
-#: wp-login.php:204
+#: wp-login.php:207
 #, php-format
 msgid "Username: %s"
 msgstr "Логин: %s"
@@ -13060,7 +13060,7 @@ msgid "[%s] New User Registration"
 msgstr "[%s] Регистрация нового пользователя"
 
 #: wp-includes/pluggable.php:1160
-#: wp-login.php:205
+#: wp-login.php:208
 #, php-format
 msgid "Password: %s"
 msgstr "Пароль: %s"
@@ -13500,128 +13500,129 @@ msgid "[%s] Password Reset"
 msgstr "[%s] Новый пароль"
 
 #: wp-login.php:172
-#: wp-login.php:214
+#: wp-login.php:217
 msgid "The e-mail could not be sent."
 msgstr "Сообщение не удалось отправить."
 
 #: wp-login.php:172
-#: wp-login.php:214
+#: wp-login.php:217
 msgid "Possible reason: your host may have disabled the mail() function..."
 msgstr "Возможная причина: сервер не поддерживает функцию mail()&hellip;"
 
 #: wp-login.php:191
-#: wp-login.php:195
+#: wp-login.php:194
+#: wp-login.php:198
 msgid "Invalid key"
 msgstr "Неверный ключ"
 
-#: wp-login.php:208
+#: wp-login.php:211
 #, php-format
 msgid "[%s] Your new password"
 msgstr "[%s] Ваш новый пароль"
 
-#: wp-login.php:238
+#: wp-login.php:241
 msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
 msgstr "<strong>ОШИБКА</strong>: Неверный логин. Пожалуйста, введите корректный логин."
 
-#: wp-login.php:241
+#: wp-login.php:244
 msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
 msgstr "<strong>ОШИБКА</strong>: Пользователь с таким логином уже зарегистрирован. Пожалуйста, выберите другой."
 
-#: wp-login.php:245
+#: wp-login.php:248
 msgid "<strong>ERROR</strong>: Please type your e-mail address."
 msgstr "<strong>ОШИБКА</strong>: Пожалуйста, введите ваш адрес e-mail."
 
-#: wp-login.php:247
+#: wp-login.php:250
 msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
 msgstr "<strong>ОШИБКА</strong>: Неправильный адрес e-mail."
 
-#: wp-login.php:262
+#: wp-login.php:265
 #, php-format
 msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
 msgstr "<strong>ОШИБКА</strong>: Регистрация невозможна. Пожалуйста, свяжитесь с <a href=\"mailto:%s\">администратором</a>!"
 
-#: wp-login.php:332
+#: wp-login.php:335
 msgid "Sorry, that key does not appear to be valid."
 msgstr "Извините, этот ключ неверен."
 
-#: wp-login.php:335
+#: wp-login.php:338
 msgid "Lost Password"
 msgstr "Забыли пароль?"
 
-#: wp-login.php:335
+#: wp-login.php:338
 msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
 msgstr "Пожалуйста, введите ваш логин или e-mail. Вы получите новый пароль по почте."
 
-#: wp-login.php:343
+#: wp-login.php:346
 msgid "Username or E-mail:"
 msgstr "Логин или e-mail:"
 
-#: wp-login.php:347
+#: wp-login.php:350
 msgid "Get New Password"
 msgstr "Получить новый пароль"
 
-#: wp-login.php:361
-#: wp-login.php:430
-#: wp-login.php:533
+#: wp-login.php:364
+#: wp-login.php:433
+#: wp-login.php:536
 msgid "Are you lost?"
 msgstr "Потерялись?"
 
-#: wp-login.php:361
-#: wp-login.php:430
-#: wp-login.php:533
+#: wp-login.php:364
+#: wp-login.php:433
+#: wp-login.php:536
 #, php-format
 msgid "&larr; Back to %s"
 msgstr "&larr; Назад к %s"
 
-#: wp-login.php:405
+#: wp-login.php:408
 msgid "Registration Form"
 msgstr "Регистрационная форма"
 
-#: wp-login.php:405
+#: wp-login.php:408
 msgid "Register For This Site"
 msgstr "Зарегистрироваться на этом сайте"
 
-#: wp-login.php:418
+#: wp-login.php:421
 msgid "A password will be e-mailed to you."
 msgstr "Пароль будет отправлен вам на e-mail."
 
-#: wp-login.php:425
-#: wp-login.php:525
-#: wp-login.php:527
+#: wp-login.php:428
+#: wp-login.php:528
+#: wp-login.php:530
 msgid "Password Lost and Found"
 msgstr "Восстановление пароля"
 
-#: wp-login.php:425
-#: wp-login.php:525
-#: wp-login.php:527
+#: wp-login.php:428
+#: wp-login.php:528
+#: wp-login.php:530
 msgid "Lost your password?"
 msgstr "Забыли пароль?"
 
-#: wp-login.php:486
+#: wp-login.php:489
 msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
 msgstr "<strong>ОШИБКА</strong>: Cookies либо заблокированы, либо не поддерживаются вашим браузером. Чтобы использовать WordPress, нужно <a href='http://www.google.com/cookies.html'>разрешить cookies</a>."
 
-#: wp-login.php:489
+#: wp-login.php:492
 msgid "You are now logged out."
 msgstr "Вы вышли из системы."
 
-#: wp-login.php:490
+#: wp-login.php:493
 msgid "User registration is currently not allowed."
 msgstr "В данный момент регистрация запрещена."
 
-#: wp-login.php:491
+#: wp-login.php:494
 msgid "Check your e-mail for the confirmation link."
 msgstr "Вам отправлено письмо со ссылкой для подтверждения."
 
-#: wp-login.php:492
+#: wp-login.php:495
 msgid "Check your e-mail for your new password."
 msgstr "Вам отправлено письмо с новым паролем."
 
-#: wp-login.php:493
+#: wp-login.php:496
 msgid "Registration complete. Please check your e-mail."
 msgstr "Регистрация завершена. Проверьте вашу почту."
 
-#: wp-login.php:512
+#: wp-login.php:515
 msgid "Remember Me"
 msgstr "Запомнить меня"
 
