@@ -2,6 +2,8 @@ This package was initially debianized by Gabriel Rodríguez Alberich
 chewie@the-geek.org on Thu, 26 Feb 2004 19:37:33 +0000.  Since April 2008 this
 package has been maintained and enhanced by Andrea De Iacovo. Lionel Elie
 Mamane joined ship in January 2008 to integrate French language support.
+Since August 2009 this package has been maintained and enhanced by
+Giuseppe Iuculano <giuseppe@iuculano.it>
 
 It was downloaded from: http://wordpress.org/download/release-archive/
                         http://fr.wordpress.org/releases/
@@ -44,7 +46,7 @@ the GNU General Public License V2.
 On Debian systems, the complete text of the GNU General Public
 License V2 can be found in the file `/usr/share/common-licenses/GPL-2'.
 
-The Debian packaging is copyrighted Andrea De Iacovo <andrea.de.iacovo@gmail.com> and is licensed
+The Debian packaging is copyrighted Giuseppe Iuculano <giuseppe@iuculano.it> and is licensed
 also under the GPL.
 
 
