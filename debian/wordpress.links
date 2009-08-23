@@ -2,7 +2,6 @@
 /usr/share/php/libphp-phpmailer/class.smtp.php usr/share/wordpress/wp-includes/class-smtp.php
 etc/wordpress/htaccess usr/share/wordpress/.htaccess
 etc/wordpress/wp-config.php usr/share/wordpress/wp-config.php
-usr/share/doc/wordpress/readme.html usr/share/wordpress/readme.html
 usr/share/javascript/prototype/prototype.js usr/share/wordpress/wp-includes/js/prototype.js
 usr/share/javascript/scriptaculous/builder.js usr/share/wordpress/wp-includes/js/scriptaculous/builder.js
 usr/share/javascript/scriptaculous/controls.js usr/share/wordpress/wp-includes/js/scriptaculous/controls.js
