@@ -46,6 +46,13 @@ if [ "$1" = configure ] && dpkg --compare-versions "$2" lt-nl "2.8.4-1" ; then
         fi
 fi
 
+if [ "$1" = configure ] && dpkg --compare-versions "$2" lt-nl "2.8.4-2" ; then
+	if ! [ -h /usr/share/wordpress/wp-includes/js/tinymce/plugins/tabfocus ];then
+		rm -rf /usr/share/wordpress/wp-includes/js/tinymce/plugins/tabfocus
+		ln -s /usr/share/tinymce/www/plugins/tabfocus /usr/share/wordpress/wp-includes/js/tinymce/plugins/
+	fi
+fi
+
 #DEBHELPER#
 
 exit 0
