@@ -1,3 +1,18 @@
+wordpress (2.8.4-2) unstable; urgency=low
+
+  * [e582ddd] Removed reference about drag.gif in manifest.php, thanks
+    to Michel Meyers (Closes: #517969)
+  * [a0d70c8] Do not symlink readme.html, instead install it in
+    /usr/share/wordpress
+  * [e81e4c3] Depend on tinymce (>= 3.2.6-0.1) and added a proper
+    symlink to the tabfocus plugin
+  * [0492b02] Added a note in NEWS and README.debian about the secondary
+    consequence caused by the previous fix for a possible script
+    injection via /etc/wordpress/wp-config.php
+  * [6a3c803] Updated language files
+
+ -- Giuseppe Iuculano <giuseppe@iuculano.it>  Wed, 26 Aug 2009 14:53:43 +0200
+
 wordpress (2.8.4-1) unstable; urgency=low
 
   * [5f0812d] Imported Upstream version 2.8.4
