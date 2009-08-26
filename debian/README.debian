@@ -10,6 +10,14 @@ The default wp-config.php searches for a (mysql) configuration filename based
 on the blog's host. This allows you to host more than one blog on a Debian
 system.
 
+#### Upgrading from 2.5 and below
+
+From wordpress 2.8.4-1 to mitigate a possible script injection via 
+/etc/wordpress/wp-config.php, the config files for each site must reside in
+/etc/wordpress/ directory. If those files are symlinks, you will receive a
+fatal error: "The config file for the specified host is not under an allowed 
+path"
+
 #### Upgrading from 1.5-1 and below
 
 If you would like to use the optional default multiple blog configuration from

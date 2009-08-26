@@ -1,3 +1,13 @@
+wordpress (2.8.4-2) unstable; urgency=low
+
+  From wordpress 2.8.4-1 to mitigate a possible script injection via 
+  /etc/wordpress/wp-config.php, the config files for each site must reside in
+  /etc/wordpress/ directory. If those files are symlinks, you will receive a
+  fatal error: "The config file for the specified host is not under an allowed
+  path"
+
+ -- Giuseppe Iuculano <giuseppe@iuculano.it>  Wed, 26 Aug 2009 14:12:40 +0200
+
 wordpress (2.6.2-2) experimental; urgency=low
 
     Patch for CVE-2008-2392 (unrestricted upload capability issue) has
