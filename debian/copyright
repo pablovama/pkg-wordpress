@@ -49,6 +49,8 @@ License V2 can be found in the file `/usr/share/common-licenses/GPL-2'.
 The Debian packaging is copyrighted Giuseppe Iuculano <giuseppe@iuculano.it> and is licensed
 also under the GPL.
 
+debian/languages: all translations are licensed under the same license
+as WordPress itself: http://svn.automattic.com/wordpress-i18n/COPYING
 
 
 Wordpress includes the http://script.aculo.us/ javascript library which is
