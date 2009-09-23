@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Translate WordPress to Hungarian\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-08-03 16:56+0000\n"
+"POT-Creation-Date: 2009-08-12 04:56+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: DjZoNe <djz@djz.hu>\n"
 "Language-Team: Hungarian Translation Team <forditas@word-press.hu>\n"
@@ -721,7 +721,7 @@ msgstr "Szerző"
 #: wp-admin/user-edit.php:261
 #: wp-admin/user-new.php:109
 #: wp-content/themes/classic/comments-popup.php:76
-#: wp-login.php:414
+#: wp-login.php:417
 msgid "E-mail"
 msgstr "E-mail"
 
@@ -5028,8 +5028,8 @@ msgstr "Szervernév"
 #: wp-admin/install.php:129
 #: wp-admin/user-edit.php:187
 #: wp-admin/user-new.php:96
-#: wp-login.php:410
-#: wp-login.php:504
+#: wp-login.php:413
+#: wp-login.php:507
 msgid "Username"
 msgstr "Felhasználónév"
 
@@ -5038,7 +5038,7 @@ msgstr "Felhasználónév"
 #: wp-admin/install.php:133
 #: wp-admin/options-writing.php:100
 #: wp-admin/user-new.php:119
-#: wp-login.php:508
+#: wp-login.php:511
 msgid "Password"
 msgstr "Jelszó"
 
@@ -6977,7 +6977,7 @@ msgid "You can&#8217;t give users that role."
 msgstr "Felhasználói jogok módosítása nem engedélyezett."
 
 #: wp-admin/includes/user.php:138
-#: wp-login.php:236
+#: wp-login.php:239
 msgid "<strong>ERROR</strong>: Please enter a username."
 msgstr "<strong>HIBA</strong>: Meg kell adni a felhasználónevet!"
 
@@ -7019,7 +7019,7 @@ msgid "<strong>ERROR</strong>: The e-mail address isn&#8217;t correct."
 msgstr "<strong>HIBA</strong>: Hibás a megadott e-mail cím."
 
 #: wp-admin/includes/user.php:178
-#: wp-login.php:250
+#: wp-login.php:253
 msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
 msgstr "<strong>HIBA</strong>: Ez az e-mail cím már foglalt, másikat kell használni!"
 
@@ -7129,8 +7129,8 @@ msgid "WordPress has been installed. Were you expecting more steps? Sorry to dis
 msgstr "Wordpress telepítve. Bocsánatot kérünk attól, akinek csalódást okoztunk azzal, hogy további lépésekre számított :) :)"
 
 #: wp-admin/install.php:141
-#: wp-login.php:495
-#: wp-login.php:514
+#: wp-login.php:498
+#: wp-login.php:517
 msgid "Log In"
 msgstr "Bejelentkezés"
 
@@ -10931,9 +10931,9 @@ msgid "Search for:"
 msgstr "Keresett kifejezés:"
 
 #: wp-includes/general-template.php:147
-#: wp-login.php:352
 #: wp-login.php:355
-#: wp-login.php:424
+#: wp-login.php:358
+#: wp-login.php:427
 msgid "Log in"
 msgstr "Bejelentkezés"
 
@@ -10942,9 +10942,9 @@ msgid "Log out"
 msgstr "Kijelentkezés"
 
 #: wp-includes/general-template.php:236
-#: wp-login.php:353
-#: wp-login.php:420
-#: wp-login.php:524
+#: wp-login.php:356
+#: wp-login.php:423
+#: wp-login.php:527
 msgid "Register"
 msgstr "Regisztráció"
 
@@ -12968,7 +12968,7 @@ msgstr "Új felhasználói regisztráció a honlapon (%s):"
 #: wp-includes/pluggable.php:1151
 #: wp-includes/pluggable.php:1159
 #: wp-login.php:162
-#: wp-login.php:204
+#: wp-login.php:207
 #, php-format
 msgid "Username: %s"
 msgstr "Felhasználónév: %s"
@@ -12984,7 +12984,7 @@ msgid "[%s] New User Registration"
 msgstr "[%s] Új felhasználó regisztrációja"
 
 #: wp-includes/pluggable.php:1160
-#: wp-login.php:205
+#: wp-login.php:208
 #, php-format
 msgid "Password: %s"
 msgstr "Jelszó: %s"
@@ -13424,128 +13424,129 @@ msgid "[%s] Password Reset"
 msgstr "[%s] Jelszó újragenerálás"
 
 #: wp-login.php:172
-#: wp-login.php:214
+#: wp-login.php:217
 msgid "The e-mail could not be sent."
 msgstr "Az e-mail-t nem tudtam elküldeni."
 
 #: wp-login.php:172
-#: wp-login.php:214
+#: wp-login.php:217
 msgid "Possible reason: your host may have disabled the mail() function..."
 msgstr "Lehetséges ok: a szolgáltató (vagy saját) szerveren a mail() funkció nincs engedélyezve..."
 
 #: wp-login.php:191
-#: wp-login.php:195
+#: wp-login.php:194
+#: wp-login.php:198
 msgid "Invalid key"
 msgstr "Érvénytelen kulcs"
 
-#: wp-login.php:208
+#: wp-login.php:211
 #, php-format
 msgid "[%s] Your new password"
 msgstr "[%s] Az új jelszó: "
 
-#: wp-login.php:238
+#: wp-login.php:241
 msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
 msgstr "<strong>HIBA</strong>: A felhasználónév hibás. Próbáljunk egy másikat!"
 
-#: wp-login.php:241
+#: wp-login.php:244
 msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
 msgstr "<strong>HIBA</strong>: Ez a felhasználói név már foglalt, másikat kell megadni!"
 
-#: wp-login.php:245
+#: wp-login.php:248
 msgid "<strong>ERROR</strong>: Please type your e-mail address."
 msgstr "<strong>HIBA</strong>: Az e-mail címet meg kell adni!"
 
-#: wp-login.php:247
+#: wp-login.php:250
 msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
 msgstr "<strong>HIBA</strong>: Hibás a megadott e-mail cím."
 
-#: wp-login.php:262
+#: wp-login.php:265
 #, php-format
 msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
 msgstr "<strong>HIBA</strong>: Sikertelen regisztráció... <a href=\"mailto:%s\">Kapcsolatfelvétel az oldal adminisztrátorával</a>!"
 
-#: wp-login.php:332
+#: wp-login.php:335
 msgid "Sorry, that key does not appear to be valid."
 msgstr "Bocsánat, de hiba történt a kulcsgeneráláskor."
 
-#: wp-login.php:335
+#: wp-login.php:338
 msgid "Lost Password"
 msgstr "Elfelejtett jelszó"
 
-#: wp-login.php:335
+#: wp-login.php:338
 msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
 msgstr "A felhasználónév és e-mail cím megadását követően a rendszer új jelszót fog e-mail-ben küldeni."
 
-#: wp-login.php:343
+#: wp-login.php:346
 msgid "Username or E-mail:"
 msgstr "Felhasználónév, vagy e-mail:"
 
-#: wp-login.php:347
+#: wp-login.php:350
 msgid "Get New Password"
 msgstr "Új jelszó kérése"
 
-#: wp-login.php:361
-#: wp-login.php:430
-#: wp-login.php:533
+#: wp-login.php:364
+#: wp-login.php:433
+#: wp-login.php:536
 msgid "Are you lost?"
 msgstr "Bonyolult? Nem egyértelmű? Utat tévesztettünk?"
 
-#: wp-login.php:361
-#: wp-login.php:430
-#: wp-login.php:533
+#: wp-login.php:364
+#: wp-login.php:433
+#: wp-login.php:536
 #, php-format
 msgid "&larr; Back to %s"
 msgstr "&larr; Vissza (%s)"
 
-#: wp-login.php:405
+#: wp-login.php:408
 msgid "Registration Form"
 msgstr "Regisztrációs űrlap"
 
-#: wp-login.php:405
+#: wp-login.php:408
 msgid "Register For This Site"
 msgstr "Regisztráció a honlapra"
 
-#: wp-login.php:418
+#: wp-login.php:421
 msgid "A password will be e-mailed to you."
 msgstr "A jelszót e-mail-ben küldjük el."
 
-#: wp-login.php:425
-#: wp-login.php:525
-#: wp-login.php:527
+#: wp-login.php:428
+#: wp-login.php:528
+#: wp-login.php:530
 msgid "Password Lost and Found"
 msgstr "Új jelszó kérése"
 
-#: wp-login.php:425
-#: wp-login.php:525
-#: wp-login.php:527
+#: wp-login.php:428
+#: wp-login.php:528
+#: wp-login.php:530
 msgid "Lost your password?"
 msgstr "Elfelejtett jelszó?"
 
-#: wp-login.php:486
+#: wp-login.php:489
 msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
 msgstr "<strong>HIBA</strong>: A sütik blokkolva vannak, vagy nem támogatja őket a böngésző. A WordPress használatához <a href='http://www.google.com/cookies.html'>engedélyezni kell a sütiket</a>."
 
-#: wp-login.php:489
+#: wp-login.php:492
 msgid "You are now logged out."
 msgstr "Kijelentkezés megtörtént."
 
-#: wp-login.php:490
+#: wp-login.php:493
 msgid "User registration is currently not allowed."
 msgstr "Felhasználói regisztráció pillanatnyilag nem lehetséges."
 
-#: wp-login.php:491
+#: wp-login.php:494
 msgid "Check your e-mail for the confirmation link."
 msgstr "Ellenőrizni kell a megadott postafiókot - jóváhagyás kérése elküldve."
 
-#: wp-login.php:492
+#: wp-login.php:495
 msgid "Check your e-mail for your new password."
 msgstr "Ellenőrizni kell a megadott postafiókot - új jelszó elküldve."
 
-#: wp-login.php:493
+#: wp-login.php:496
 msgid "Registration complete. Please check your e-mail."
 msgstr "Sikeres regisztráció. Ellenőrizni kell a regisztrálás során megadott postafiókot!"
 
-#: wp-login.php:512
+#: wp-login.php:515
 msgid "Remember Me"
 msgstr "Emlékezzen rám!"
 
