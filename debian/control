@@ -13,7 +13,8 @@ DM-Upload-Allowed: yes
 Package: wordpress
 Architecture: all
 Depends: apache2 | httpd, mysql-client, libapache2-mod-php5 | php5, php5-mysql, libphp-phpmailer (>= 1.73-4), php5-gd, libjs-prototype, libjs-scriptaculous, tinymce (>= 3.2.6-0.1), libphp-snoopy, libjs-jquery (>= 1.3.3-1), php-gettext, libjs-cropper
-Suggests: mysql-server (>> 4.0.20-8), wordpress-l10n
+Recommends: wordpress-l10n
+Suggests: mysql-server (>> 4.0.20-8)
 Description: weblog manager
  WordPress is a full featured web blogging tool:
     * Instant publishing (no rebuilding)
