@@ -2,12 +2,13 @@ wordpress (2.8.4-3) unstable; urgency=low
 
   * [dc295db] Provide a more descriptive errror message if the vhost
     config file is not found. (LP: #365783)
-  * [c23192a] Depend on libjs-jquery > = 1.3.3-1 (Closes: #544473) -
+  * [c23192a] Depend on libjs-jquery >= 1.3.3-1 (Closes: #544473) -
     thanks to Arnaud Guiton
   * [fd27308] Updated debian/copyright
   * [94ad7d3] Split up the language files into a separate package
+  * [08334d7] Updated language files
 
- -- Giuseppe Iuculano <giuseppe@iuculano.it>  Wed, 23 Sep 2009 18:54:55 +0200
+ -- Giuseppe Iuculano <giuseppe@iuculano.it>  Wed, 23 Sep 2009 19:20:18 +0200
 
 wordpress (2.8.4-2) unstable; urgency=low
 
