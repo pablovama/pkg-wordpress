@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-#export DH_VERBOSE=0
+#export DH_VERBOSE=1
 include /usr/share/quilt/quilt.make
 
 all:
@@ -21,7 +21,7 @@ install: $(MOFILES) $(QUILT_STAMPFN)
         do \
 		OUT=$$(echo $$i | awk -F\/ '{ print $$3 }');\
 		OUT=$${OUT%.po}.mo; \
-		msgfmt $$i -o debian/wordpress/usr/share/wordpress/wp-content/languages/$$OUT ;\
+		msgfmt $$i -o debian/wordpress-l10n/usr/share/wordpress/wp-content/languages/$$OUT ;\
         done
 	dh_installdocs
 	dh_installchangelogs
