@@ -10,7 +10,7 @@ wordpress (2.8.4-3) unstable; urgency=low
   * [6682ab3] Updated my email address and removed DM-Upload-Allowed
     control field
 
- -- Giuseppe Iuculano <giuseppe@iuculano.it>  Wed, 23 Sep 2009 19:20:18 +0200
+ -- Giuseppe Iuculano <iuculano@debian.org>  Sat, 03 Oct 2009 10:28:16 +0200
 
 wordpress (2.8.4-2) unstable; urgency=low
 
