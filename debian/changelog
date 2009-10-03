@@ -7,6 +7,8 @@ wordpress (2.8.4-3) unstable; urgency=low
   * [fd27308] Updated debian/copyright
   * [94ad7d3] Split up the language files into a separate package
   * [08334d7] Updated language files
+  * [6682ab3] Updated my email address and removed DM-Upload-Allowed
+    control field
 
  -- Giuseppe Iuculano <giuseppe@iuculano.it>  Wed, 23 Sep 2009 19:20:18 +0200
 
