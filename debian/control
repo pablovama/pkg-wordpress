@@ -1,14 +1,13 @@
 Source: wordpress
 Section: web
 Priority: optional
-Maintainer: Giuseppe Iuculano <giuseppe@iuculano.it>
+Maintainer: Giuseppe Iuculano <iuculano@debian.org>
 Standards-Version: 3.8.3
 Build-Depends: debhelper (>= 7), quilt (>= 0.40)
 Build-Depends-Indep: gettext
 Homepage: http://wordpress.org
 Vcs-Git: git://git.debian.org/git/users/derevko-guest/wordpress.git
 Vcs-Browser: http://git.debian.org/?p=users/derevko-guest/wordpress.git
-DM-Upload-Allowed: yes
 
 Package: wordpress
 Architecture: all
