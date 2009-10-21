@@ -1,3 +1,13 @@
+wordpress (2.8.5-1) unstable; urgency=high
+
+  * [b0ebbe1] Imported Upstream version 2.8.5 (Closes: #551841)
+    - This version fixes CVE-2009-3622, Wordpress Trackback DoS
+  * [cad0da2] Updated languages files
+  * [e8438f2] Use /var/log/apache2 directory in the apache example file
+    (Closes: #551380)
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Wed, 21 Oct 2009 21:43:31 +0200
+
 wordpress (2.8.4-3) unstable; urgency=low
 
   * [dc295db] Provide a more descriptive errror message if the vhost
