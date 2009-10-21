@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PersianWordpress 2.5\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-08-03 16:56+0000\n"
-"PO-Revision-Date: 2009-08-04 16:50+0330\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2009-10-21 00:56+0000\n"
+"PO-Revision-Date: 2009-10-21 13:07+0330\n"
+"Last-Translator: gonahkar <gonahkarblog@gmail.com>\n"
 "Language-Team: Wordpress Persian (wp-persian.com) <Mazdak.AM@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -179,8 +179,8 @@ msgstr "ذخیره سازی خودکار غیرفعال است: %s در حال �
 #: wp-admin/admin-ajax.php:917
 #: wp-admin/admin-ajax.php:1059
 #: wp-admin/includes/post.php:143
-#: wp-admin/includes/post.php:1125
-#: wp-admin/page.php:113
+#: wp-admin/includes/post.php:1151
+#: wp-admin/page.php:109
 msgid "You are not allowed to edit this page."
 msgstr "نمی‌توانید این برگه را ویرایش کنید."
 
@@ -190,8 +190,8 @@ msgstr "نمی‌توانید این برگه را ویرایش کنید."
 #: wp-admin/admin-ajax.php:920
 #: wp-admin/admin-ajax.php:1062
 #: wp-admin/includes/post.php:146
-#: wp-admin/includes/post.php:1128
-#: wp-admin/post.php:150
+#: wp-admin/includes/post.php:1154
+#: wp-admin/post.php:146
 #: wp-admin/upload.php:41
 msgid "You are not allowed to edit this post."
 msgstr "نمی‌توانید این نوشته را ویرایش کنید."
@@ -484,7 +484,7 @@ msgstr "درون‌ریزی"
 #: wp-admin/media-upload.php:16
 #: wp-admin/upload.php:15
 #: wp-app.php:630
-#: wp-app.php:813
+#: wp-app.php:822
 msgid "You do not have permission to upload files."
 msgstr "نمی‌توانید پرونده را بفرستید."
 
@@ -510,7 +510,7 @@ msgstr "نمی‌توانید پرونده را بفرستید."
 #: wp-admin/includes/template.php:1102
 #: wp-admin/menu.php:46
 #: wp-admin/press-this.php:472
-#: wp-includes/category-template.php:430
+#: wp-includes/category-template.php:432
 #: wp-includes/default-widgets.php:423
 #: wp-includes/default-widgets.php:429
 #: wp-includes/taxonomy.php:18
@@ -933,7 +933,7 @@ msgstr "خیر"
 #: wp-admin/includes/template.php:1066
 #: wp-admin/includes/theme-install.php:158
 #: wp-includes/js/tinymce/langs/wp-langs.php:256
-#: wp-includes/post-template.php:1340
+#: wp-includes/post-template.php:1345
 msgid "Author"
 msgstr "نویسنده"
 
@@ -946,7 +946,7 @@ msgstr "نویسنده"
 #: wp-admin/user-edit.php:261
 #: wp-admin/user-new.php:109
 #: wp-content/themes/classic/comments-popup.php:76
-#: wp-login.php:414
+#: wp-login.php:417
 msgid "E-mail"
 msgstr "پست الکترونیک "
 
@@ -971,7 +971,7 @@ msgstr "نشانی"
 #: wp-admin/edit-form-advanced.php:475
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:647
+#: wp-includes/comment-template.php:649
 msgctxt "noun"
 msgid "Comment"
 msgstr "دیدگاه"
@@ -1352,7 +1352,7 @@ msgstr[0] "%s دیدگاه به‌عنوان جفنگ نشان‌دار شد"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/export.php:26
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/link-manager.php:81
 #: wp-admin/edit-comments.php:144
-#: wp-content/plugins/akismet/akismet.php:737
+#: wp-content/plugins/akismet/akismet.php:747
 msgid "All"
 msgid_plural "All"
 msgstr[0] "همه"
@@ -1441,7 +1441,7 @@ msgstr "نمایش همه‌ی گونه‌های دیدگاه"
 #: wp-admin/includes/template.php:1166
 #: wp-admin/includes/template.php:3138
 #: wp-admin/includes/template.php:3254
-#: wp-content/plugins/akismet/akismet.php:742
+#: wp-content/plugins/akismet/akismet.php:752
 #: wp-content/themes/classic/comments-popup.php:29
 msgid "Comments"
 msgstr "دیدگاه‌ها"
@@ -1477,7 +1477,7 @@ msgstr "هنوز دیدگاهی برای بررسی وجود ندارد."
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/edit-comments.php:190
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:500
 #: wp-admin/edit-comments.php:378
-#: wp-content/plugins/akismet/akismet.php:868
+#: wp-content/plugins/akismet/akismet.php:878
 msgid "No results found."
 msgstr "هیچی پیدا نشد."
 
@@ -1720,7 +1720,7 @@ msgstr "سنجاق کردن این نوشته در برگه‌ی نخست"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/post-template.php:488
 #: wp-admin/edit-form-advanced.php:184
 #: wp-admin/edit-page-form.php:175
-#: wp-includes/post-template.php:1142
+#: wp-includes/post-template.php:1147
 msgid "Password:"
 msgstr "رمز:"
 
@@ -2778,7 +2778,7 @@ msgstr "رونوشت‌های برگه"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/page.php:136
 #: wp-admin/edit-pages.php:28
-#: wp-admin/page.php:150
+#: wp-admin/page.php:146
 msgid "You are not allowed to delete this page."
 msgstr "نمی‌توانید ین برگه را پاک کنید."
 
@@ -2790,10 +2790,10 @@ msgstr "نمی‌توانید ین برگه را پاک کنید."
 #: wp-admin/edit-pages.php:35
 #: wp-admin/edit.php:40
 #: wp-admin/edit.php:43
-#: wp-admin/page.php:154
-#: wp-admin/page.php:157
-#: wp-admin/post.php:195
-#: wp-admin/post.php:198
+#: wp-admin/page.php:150
+#: wp-admin/page.php:153
+#: wp-admin/post.php:191
+#: wp-admin/post.php:194
 #: wp-admin/upload.php:83
 msgid "Error in deleting..."
 msgstr "خطا در هنگام پاک کردن..."
@@ -2921,7 +2921,7 @@ msgstr[0] "خصوصی <span class=\"count\">(%s)</span>"
 #: wp-admin/menu.php:59
 #: wp-includes/default-widgets.php:19
 #: wp-includes/default-widgets.php:25
-#: wp-includes/post-template.php:741
+#: wp-includes/post-template.php:746
 msgid "Pages"
 msgstr "برگه‌ها "
 
@@ -3086,7 +3086,7 @@ msgstr "برچسب افزوده نشد."
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/edit-link-categories.php:11
 #: wp-admin/edit-tags.php:145
 msgid "Tags deleted."
-msgstr "برچسب پاک نشد."
+msgstr "برچسب پاک شد."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/includes/file.php:3
 #: wp-admin/edit-tags.php:162
@@ -3111,7 +3111,7 @@ msgstr "افزودن برچسب"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/post.php:151
 #: wp-admin/edit.php:36
-#: wp-admin/post.php:191
+#: wp-admin/post.php:187
 #: wp-admin/upload.php:79
 msgid "You are not allowed to delete this post."
 msgstr "نمی‌توانید این نوشته را پاک کنید."
@@ -3569,10 +3569,10 @@ msgstr "Blogware"
 msgid "Import posts from Blogware."
 msgstr "درون‌ریزی نوشته‌ها از Blogware."
 
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:7
-#: wp-admin/import/btt.php:22
-msgid "Import Bunny&#8217;s Technorati Tags"
-msgstr "درون‌ریزی برچسب‌های  Bunny&#8217;s Technorati"
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/dotclear.php:115
+#: wp-admin/import/dotclear.php:96
+msgid "Import DotClear"
+msgstr "درون‌ریزی DotClear"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:8
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/dotclear.php:116
@@ -3580,99 +3580,12 @@ msgstr "درون‌ریزی برچسب‌های  Bunny&#8217;s Technorati"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/stp.php:6
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/textpattern.php:33
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/utw.php:8
-#: wp-admin/import/btt.php:23
 #: wp-admin/import/dotclear.php:97
-#: wp-admin/import/jkw.php:22
 #: wp-admin/import/stp.php:21
 #: wp-admin/import/textpattern.php:57
 #: wp-admin/import/utw.php:22
 msgid "Steps may take a few minutes depending on the size of your database. Please be patient."
 msgstr "بسته به اندازه‌ی پایگاه‌داده‌ی شما مراحل ممکن است چند دقیقه‌ای طول بکشد. صبور باشید."
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:17
-#: wp-admin/import/btt.php:32
-msgid "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into WordPress tags."
-msgstr "در این بخش برچسب‌های Bunny&#8217;s Technorati در برچسب‌های وردپرس درون‌ریزی می‌شوند."
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:18
-#: wp-admin/import/btt.php:33
-msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
-msgstr "خوب برای برچسب‌های   Technorati نکارش۰.۶"
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:19
-#: wp-admin/import/btt.php:34
-msgid "All existing Bunny&#8217;s Technorati Tags will be removed after import."
-msgstr "همه‌ی برچسب‌های Technorati پس از درون ریزی پاک خواهند شد."
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:20
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:20
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/stp.php:18
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/utw.php:20
-#: wp-admin/import/btt.php:35
-#: wp-admin/import/jkw.php:34
-#: wp-admin/import/stp.php:33
-#: wp-admin/import/utw.php:34
-msgid "Don&#8217;t be stupid - backup your database before proceeding!"
-msgstr "نکن این کار را - دیش از انجام این فرایند از پایگاه داد پشتیبان بگیر!"
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:23
-#: wp-admin/import/btt.php:38
-msgid "Import Tags"
-msgstr "درون‌ریزی برچسب‌ها"
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:62
-#: wp-admin/import/btt.php:77
-msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
-msgstr "خواندن برچسب‌های Bunny&#8217;s Technorati &#8230;"
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:67
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:83
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:124
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/utw.php:72
-#: wp-admin/import/btt.php:82
-#: wp-admin/import/jkw.php:97
-#: wp-admin/import/jkw.php:138
-#: wp-admin/import/utw.php:86
-msgid "No Tags Found!"
-msgstr "برچسبی پیدا نشد."
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/dotclear.php:405
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/textpattern.php:346
-#: wp-admin/import/btt.php:86
-#: wp-admin/import/jkw.php:101
-#, php-format
-msgid "Done! <strong>%s</strong> post with tags were read."
-msgid_plural "Done! <strong>%s</strong> posts with tags were read."
-msgstr[0] "<strong>%s</strong> نوشته با برچسب خوانده شد."
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:416
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:487
-#: wp-admin/import/btt.php:108
-#: wp-admin/import/jkw.php:123
-#: wp-admin/import/jkw.php:156
-msgid "Next"
-msgstr "بعد"
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:100
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:163
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/stp.php:139
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/utw.php:250
-#: wp-admin/import/btt.php:115
-#: wp-admin/import/jkw.php:177
-#: wp-admin/import/stp.php:154
-#: wp-admin/import/utw.php:264
-msgid "Import Complete!"
-msgstr "درون‌ریزی انجام شد!"
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:7
-#: wp-admin/import/btt.php:128
-msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
-msgstr "درون‌ریزی برچسب‌های  Bunny&#8217;s Technorati در برچسب‌های وردپرس."
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/dotclear.php:115
-#: wp-admin/import/dotclear.php:96
-msgid "Import DotClear"
-msgstr "درون‌ریزی DotClear"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/dotclear.php:126
 #: wp-admin/import/dotclear.php:107
@@ -4140,57 +4053,6 @@ msgstr "GreyMatter"
 msgid "Import users, posts, and comments from a Greymatter blog."
 msgstr "درون‌ریزی کاربران، نوشته‌ها و دیدگاه‌ها از یک وبلاگ Greymatter"
 
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:7
-#: wp-admin/import/jkw.php:21
-msgid "Import Jerome&#8217;s Keywords"
-msgstr "درون‌ریزی واژه‌های Jerome&#8217;"
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:17
-#: wp-admin/import/jkw.php:31
-msgid "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
-msgstr "در این بخش برچسب‌های Jerome&#8217;s Keywords در برچسب‌های وردپرس درون‌ریزی می‌شوند."
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:18
-#: wp-admin/import/jkw.php:32
-msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
-msgstr "خوب برای Jerome&#8217 نگارش‌های 1.x and 2.0a."
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:19
-#: wp-admin/import/jkw.php:33
-msgid "All existing Jerome&#8217;s Keywords will be removed after import."
-msgstr "همه‌ی برچسب‌های Jerome پس از درون‌ریزی پاک خواهند شد."
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:23
-#: wp-admin/import/jkw.php:37
-msgid "Import Version 1.x"
-msgstr "درون‌ریزی نگارش ۱.x"
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:27
-#: wp-admin/import/jkw.php:41
-msgid "Import Version 2.0a"
-msgstr "درون‌ریزی نگارش ۲.۰آ"
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:78
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:118
-#: wp-admin/import/jkw.php:92
-#: wp-admin/import/jkw.php:132
-msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
-msgstr "خواندن واژه‌های برچسب Jerome&#8217&#8230;"
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/dotclear.php:302
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/textpattern.php:252
-#: wp-admin/import/jkw.php:142
-#: wp-admin/import/utw.php:101
-#, php-format
-msgid "Done! <strong>%s</strong> tag were read."
-msgid_plural "Done! <strong>%s</strong> tags were read."
-msgstr[0] "<strong>%s</strong> برچسب خوانده شد."
-
-# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:7
-#: wp-admin/import/jkw.php:190
-msgid "Import Jerome&#8217;s Keywords into WordPress tags."
-msgstr "درون‌ریزی واژه‌های Jerome&#8217; در برچسب‌ها وردپرس"
-
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/livejournal.php:9
 #: wp-admin/import/livejournal.php:171
 msgid "Import LiveJournal"
@@ -4536,7 +4398,7 @@ msgstr "ساختن کاربر %1$s یا نگاشت با کاربران کنون�
 #: wp-admin/import/mt.php:215
 #: wp-admin/import/wordpress.php:236
 #: wp-admin/includes/dashboard.php:135
-#: wp-includes/post-template.php:1142
+#: wp-includes/post-template.php:1147
 msgid "Submit"
 msgstr "بفرست"
 
@@ -4710,6 +4572,15 @@ msgstr "این کار بر روی نگارش‌های پیشین Simple Tagging 
 msgid "To accommodate larger databases for those tag-crazy authors out there, we have made this into an easy 4-step program to help you kick that nasty Simple Tagging habit. Just keep clicking along and we will let you know when you are in the clear!"
 msgstr "برای همگن کردن پایگاه‌داده‌های بزرگتر برای نویسندگانی که در نوشته‌هایشان دیوانه‌وار برچسب به کار می‌برند٬ برنامه‌ای در ۵ گام ساخته‌ایم که به شما کمک می‌کند تا عادت بد Simple Tagging را از سر بیندازید. به کلیک کردن ادامه دهید، هنگامی که روند پایان یافت به شما می‌گوییم."
 
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:20
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:20
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/stp.php:18
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/utw.php:20
+#: wp-admin/import/stp.php:33
+#: wp-admin/import/utw.php:34
+msgid "Don&#8217;t be stupid - backup your database before proceeding!"
+msgstr "نکن این کار را - دیش از انجام این فرایند از پایگاه داد پشتیبان بگیر!"
+
 # E:\xampp\htdocs\testserver\wordpress-trunk/wp-admin/import/utw.php:22
 # E:\xampp\htdocs\testserver\wordpress-trunk/wp-admin/import/stp.php:21
 #: wp-admin/import/stp.php:36
@@ -4766,6 +4637,15 @@ msgstr[0] "<strong>%s</strong> برچسب اضافه شد!"
 #: wp-admin/import/utw.php:159
 msgid "Step 3"
 msgstr "گام سه"
+
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:100
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:163
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/stp.php:139
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/utw.php:250
+#: wp-admin/import/stp.php:154
+#: wp-admin/import/utw.php:264
+msgid "Import Complete!"
+msgstr "درون‌ریزی انجام شد!"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/stp.php:140
 #: wp-admin/import/stp.php:155
@@ -4887,6 +4767,22 @@ msgstr "برای همگن کردن پایگاه‌داده‌های بزرگتر
 #: wp-admin/import/utw.php:80
 msgid "Reading UTW Tags&#8230;"
 msgstr "خواندن برچسب‌های «UTW» &#8230;"
+
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:67
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:83
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:124
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/utw.php:72
+#: wp-admin/import/utw.php:86
+msgid "No Tags Found!"
+msgstr "برچسبی پیدا نشد."
+
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/dotclear.php:302
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/textpattern.php:252
+#: wp-admin/import/utw.php:101
+#, php-format
+msgid "Done! <strong>%s</strong> tag were read."
+msgid_plural "Done! <strong>%s</strong> tags were read."
+msgstr[0] "<strong>%s</strong> برچسب خوانده شد."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/utw.php:88
 #: wp-admin/import/utw.php:102
@@ -5814,7 +5710,7 @@ msgstr[0] "برچسب"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/includes/template.php:290
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:523
 #: wp-admin/includes/dashboard.php:306
-#: wp-content/plugins/akismet/akismet.php:893
+#: wp-content/plugins/akismet/akismet.php:903
 msgid "Spam"
 msgid_plural "Spam"
 msgstr[0] "جفنگ"
@@ -5916,7 +5812,7 @@ msgstr "پاسخ دادن به‌این دیدگاه"
 # E:\xampp\htdocs\testserver\wordpress-trunk/wp-includes/js/tinymce/langs/wp-langs.php:14
 #: wp-admin/includes/dashboard.php:543
 #: wp-admin/includes/template.php:2156
-#: wp-includes/comment-template.php:1000
+#: wp-includes/comment-template.php:1002
 msgid "Reply"
 msgstr "پاسخ دادن"
 
@@ -5956,7 +5852,7 @@ msgstr "[در انتظار بررسی]"
 #: wp-admin/includes/dashboard.php:576
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:649
+#: wp-includes/comment-template.php:651
 msgid "Pingback"
 msgstr "پینگ"
 
@@ -5965,7 +5861,7 @@ msgstr "پینگ"
 #: wp-admin/includes/dashboard.php:579
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:648
+#: wp-includes/comment-template.php:650
 msgid "Trackback"
 msgstr "بازتاب"
 
@@ -6012,8 +5908,7 @@ msgstr "این ابزارک از سرویس <a href=\"http://blogsearch.google.c
 # E:\xampp\htdocs\testserver\wordpress-trunk/wp-admin/includes/dashboard.php:332
 #: wp-admin/includes/dashboard.php:653
 #: wp-admin/includes/dashboard.php:655
-#: wp-admin/page.php:102
-#: wp-admin/post.php:137
+#: wp-admin/includes/post.php:1071
 msgid "Somebody"
 msgstr "یک نفر"
 
@@ -6354,21 +6249,21 @@ msgstr "نام میزبان"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/users.php:389
 #: wp-admin/includes/file.php:755
 #: wp-admin/includes/template.php:898
-#: wp-admin/install.php:129
+#: wp-admin/install.php:135
 #: wp-admin/user-edit.php:187
 #: wp-admin/user-new.php:96
-#: wp-login.php:410
-#: wp-login.php:504
+#: wp-login.php:413
+#: wp-login.php:507
 msgid "Username"
 msgstr "شناسه"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/install.php:89
 #: wp-admin/includes/file.php:760
 #: wp-admin/includes/template.php:1079
-#: wp-admin/install.php:133
+#: wp-admin/install.php:139
 #: wp-admin/options-writing.php:100
 #: wp-admin/user-new.php:119
-#: wp-login.php:508
+#: wp-login.php:511
 msgid "Password"
 msgstr "رمز"
 
@@ -6988,7 +6883,7 @@ msgstr "افزونه‌ها باعث توسعه‌ی کاربرد وردپرس �
 #: wp-admin/includes/theme-install.php:162
 #: wp-admin/plugin-install.php:24
 #: wp-admin/theme-install.php:29
-#: wp-content/plugins/akismet/akismet.php:704
+#: wp-content/plugins/akismet/akismet.php:714
 #: wp-content/themes/classic/sidebar.php:21
 #: wp-includes/default-widgets.php:176
 #: wp-includes/general-template.php:127
@@ -7072,7 +6967,7 @@ msgstr "نگارش"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/users.php:393
 #: wp-admin/includes/plugin-install.php:305
 #: wp-admin/includes/plugin-install.php:315
-#: wp-includes/post-template.php:1341
+#: wp-includes/post-template.php:1346
 msgid "Actions"
 msgstr "کارها"
 
@@ -7468,7 +7363,7 @@ msgstr[0] "ویدیو <span class=\"count\">(%s)</span>"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:454
 #: wp-admin/includes/post.php:976
-#: wp-content/plugins/akismet/akismet.php:822
+#: wp-content/plugins/akismet/akismet.php:832
 msgid "View Post"
 msgstr "نمایش نوشته"
 
@@ -7493,7 +7388,25 @@ msgstr "تغییر پیوند یکتا"
 msgid "Click to edit this part of the permalink"
 msgstr "برای ویرایش این بخش از پیوند پایدار کلیک کنید"
 
-#: wp-admin/includes/post.php:1109
+# E:\xampp\htdocs\testserver\wordpress-trunk/wp-admin/post.php:72
+#: wp-admin/includes/post.php:1075
+#, php-format
+msgid "Warning: %s is currently editing this post"
+msgstr "هشدار: %s در حال ویرایش این نوشته است."
+
+# E:\xampp\htdocs\testserver\wordpress-trunk/wp-admin/page.php:63
+#: wp-admin/includes/post.php:1078
+#, php-format
+msgid "Warning: %s is currently editing this page"
+msgstr "هشدار: %s در حال ویرایش این برگه است."
+
+# E:\xampp\htdocs\testserver\wordpress-trunk/wp-admin/page.php:63
+#: wp-admin/includes/post.php:1081
+#, php-format
+msgid "Warning: %s is currently editing this."
+msgstr "هشدار: %s در حال ویرایش این مورد است."
+
+#: wp-admin/includes/post.php:1135
 msgid "Preview not available. Please save as a draft first."
 msgstr "پیش‌نمایش موجود نیست٬ لطفا در ابتدا به‌عنوان پیش‌نویس ذخیره کنید."
 
@@ -8563,22 +8476,22 @@ msgstr "خطا در پیدا کردن پوشه‌ی پوسته‌های وردپ
 msgid "Could not fully remove the theme %s"
 msgstr "نمی‌توانیم پوسته را به‌صورت کامل پاک کنیم  %s"
 
-#: wp-admin/includes/update-core.php:213
+#: wp-admin/includes/update-core.php:215
 msgid "Verifying the unpacked files"
 msgstr "در حال بازبینی پرونده‌هایی که حالت فشرده خارج شده‌اند"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:124
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:195
-#: wp-admin/includes/update-core.php:217
+#: wp-admin/includes/update-core.php:219
 msgid "The update could not be unpacked"
 msgstr "بسته‌ی به‌روزرسانی نمی‌تواند گشوده شود"
 
 # E:\xampp\htdocs\testserver\wordpress-trunk/wp-admin/includes/update.php:222
-#: wp-admin/includes/update-core.php:220
+#: wp-admin/includes/update-core.php:222
 msgid "Installing the latest version"
 msgstr "راه‌اندازی تازه‌ترین نگارش"
 
-#: wp-admin/includes/update-core.php:245
+#: wp-admin/includes/update-core.php:247
 msgid "Upgrading database"
 msgstr "در حال ارتقا پایگاه‌داده"
 
@@ -8790,7 +8703,7 @@ msgstr "شما نمی‌توانید به‌کاربر آن وظیفه را مح
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:223
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/includes/user.php:80
 #: wp-admin/includes/user.php:138
-#: wp-login.php:236
+#: wp-login.php:239
 msgid "<strong>ERROR</strong>: Please enter a username."
 msgstr "<strong>خطا</strong>: یک شناسه بنویسید."
 
@@ -8844,7 +8757,7 @@ msgstr "<strong>خطا</strong>: نشانی پست الکترونیک  درست 
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:237
 #: wp-admin/includes/user.php:178
-#: wp-login.php:250
+#: wp-login.php:253
 msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
 msgstr "<strong>خطا</strong>: اینئ پست الکترونیک  وجود دارد، پست الکترونیک  دیگری بنویسید."
 
@@ -8888,92 +8801,92 @@ msgid "WordPress &rsaquo; Installation"
 msgstr "وردپرس &rsaquo; راه‌اندازی"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/link-import.php:112
-#: wp-admin/install.php:54
+#: wp-admin/install.php:60
 #, php-format
 msgid "<strong>ERROR</strong>: %s"
 msgstr "<strong>خطا:</strong> %s"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/install.php:45
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/options-general.php:17
-#: wp-admin/install.php:59
+#: wp-admin/install.php:65
 #: wp-admin/options-general.php:65
 #: xmlrpc.php:404
 msgid "Blog Title"
 msgstr "نام وبلاگ"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/install.php:49
-#: wp-admin/install.php:63
+#: wp-admin/install.php:69
 msgid "Your E-mail"
 msgstr "پست الکترونیک  شما"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/install.php:57
-#: wp-admin/install.php:65
+#: wp-admin/install.php:71
 msgid "Double-check your email address before continuing."
 msgstr "نشانی پست الکترونیک  را پیش از ادامه دادن دوباره بررسی کنید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/install.php:54
-#: wp-admin/install.php:68
+#: wp-admin/install.php:74
 msgid "Allow my blog to appear in search engines like Google and Technorati."
 msgstr "می‌خواهم وبلاگم در موتورهای جست‌وجو مانند گوگل و تکنوراتی دیده شود."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/install.php:58
-#: wp-admin/install.php:71
+#: wp-admin/install.php:77
 msgid "Install WordPress"
 msgstr "راه‌اندازی وردپرس"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/install.php:29
-#: wp-admin/install.php:77
+#: wp-admin/install.php:83
 msgid "Already Installed"
 msgstr "پیش از‌این راه‌اندازی شده است"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/install.php:29
-#: wp-admin/install.php:77
+#: wp-admin/install.php:83
 msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
 msgstr "شما پیش از‌این وردپرس را برپا کرده‌اید. برای راه‌اندازی دوباره نخست جدول‌های کهنه‌ی پایگاه‌داده را پاک کنید.."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/install.php:35
-#: wp-admin/install.php:84
+#: wp-admin/install.php:90
 msgid "Welcome"
 msgstr "خوش آمدید"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/install.php:36
-#: wp-admin/install.php:85
+#: wp-admin/install.php:91
 #, php-format
 msgid "Welcome to the famous five minute WordPress installation process! You may want to browse the <a href=\"%s\">ReadMe documentation</a> at your leisure.  Otherwise, just fill in the information below and you&#8217;ll be on your way to using the most extendable and powerful personal publishing platform in the world."
 msgstr "به روند معروف راه‌اندازی ۵ دقیقه‌ای وردپرس خوش‌آمدید! شاید بخواهید <a href=\"%s\">مستندات را بخوانید</a>. اگر نه٬ تنها اطلاعات خواسته شده‌ی زیر را بنویسید و  بهترین و پیشرفته‌ترین ابزار وبلاگ‌نویسی جهان را به کار ببرید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/install.php:37
-#: wp-admin/install.php:86
+#: wp-admin/install.php:92
 msgid "First Step"
 msgstr "گام نخست"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/install.php:39
-#: wp-admin/install.php:88
+#: wp-admin/install.php:94
 msgid "Information needed"
 msgstr "اطلاعات مورد نیاز"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/install.php:40
-#: wp-admin/install.php:89
+#: wp-admin/install.php:95
 msgid "Please provide the following information.  Don&#8217;t worry, you can always change these settings later."
 msgstr "پیش از‌ آن‌که آغاز کنیم به اطلاعاتی نیاز داریم. نگران نباشید، می‌توانید‌ بعدا تغییرشان دهید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/install.php:71
-#: wp-admin/install.php:109
+#: wp-admin/install.php:115
 msgid "you must provide an e-mail address."
 msgstr "شما باید یک نشانی پست الکترونیک بنویسید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/install.php:74
-#: wp-admin/install.php:113
+#: wp-admin/install.php:119
 msgid "that isn&#8217;t a valid e-mail address.  E-mail addresses look like: <code>username@example.com</code>"
 msgstr "ساختار نشانی پست الکترونیک نادرست است. ساختار پست الکترونیک باید این‌گونه باشد: <code>username@example.com</code>"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/install.php:81
-#: wp-admin/install.php:123
+#: wp-admin/install.php:129
 msgid "Success!"
 msgstr "انجام شد!"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/install.php:94
-#: wp-admin/install.php:125
+#: wp-admin/install.php:131
 msgid "WordPress has been installed. Were you expecting more steps? Sorry to disappoint."
 msgstr "منتظر گام‌های بیشتری بودید؟ ببخشید که نا امید شدید! !:)"
 
@@ -8983,9 +8896,9 @@ msgstr "منتظر گام‌های بیشتری بودید؟ ببخشید که �
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:349
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:365
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/general-template.php:34
-#: wp-admin/install.php:141
-#: wp-login.php:495
-#: wp-login.php:514
+#: wp-admin/install.php:147
+#: wp-login.php:498
+#: wp-login.php:517
 msgid "Log In"
 msgstr "ورود"
 
@@ -10176,12 +10089,6 @@ msgstr "ویرایش برگه"
 msgid "You attempted to edit a page that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "برگه‌ای که می‌خواهید ویرایش کنید پیدا نشد. شاید پاک شده باشد؟"
 
-# E:\xampp\htdocs\testserver\wordpress-trunk/wp-admin/page.php:63
-#: wp-admin/page.php:103
-#, php-format
-msgid "Warning: %s is currently editing this page"
-msgstr "هشدار: %s در حال ویرایش این برگه است."
-
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/plugin-editor.php:4
 #: wp-admin/plugin-editor.php:12
 msgid "Edit Plugins"
@@ -10549,14 +10456,8 @@ msgstr ""
 msgid "You attempted to edit a post that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "نوشته‌ای که می‌خواهید ویرایشش کنید پیدا نشد. شاید پاک شده باشد؟"
 
-# E:\xampp\htdocs\testserver\wordpress-trunk/wp-admin/post.php:72
-#: wp-admin/post.php:138
-#, php-format
-msgid "Warning: %s is currently editing this post"
-msgstr "هشدار: %s در حال ویرایش این نوشته است."
-
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/link-template.php:317
-#: wp-admin/post.php:147
+#: wp-admin/post.php:143
 msgid "Edit Post"
 msgstr "ویرایش نوشته"
 
@@ -10633,15 +10534,15 @@ msgstr "قراردادن ویدیو"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/js/tinymce/wp-mce-help.php:159
 #: wp-admin/press-this.php:542
-#: wp-includes/general-template.php:1661
-#: wp-includes/general-template.php:1666
+#: wp-includes/general-template.php:1662
+#: wp-includes/general-template.php:1667
 msgid "HTML"
 msgstr "ویرایش HTML"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/general-template.php:886
 #: wp-admin/press-this.php:543
-#: wp-includes/general-template.php:1662
-#: wp-includes/general-template.php:1667
+#: wp-includes/general-template.php:1663
+#: wp-includes/general-template.php:1668
 msgid "Visual"
 msgstr "دیداری"
 
@@ -10695,7 +10596,7 @@ msgstr "نوشته منتشر شد."
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/widgets.php:914
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/widgets.php:1111
 #: wp-admin/sidebar.php:103
-#: wp-content/plugins/akismet/akismet.php:1074
+#: wp-content/plugins/akismet/akismet.php:1084
 #: wp-includes/default-widgets.php:67
 #: wp-includes/default-widgets.php:197
 #: wp-includes/default-widgets.php:263
@@ -11899,9 +11800,9 @@ msgstr "ببخشید، نمی‌توانید ‌نوشته‌ای بنویسید
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1097
 #: wp-app.php:473
 #: wp-app.php:671
-#: wp-app.php:853
-#: xmlrpc.php:1877
-#: xmlrpc.php:2215
+#: wp-app.php:862
+#: xmlrpc.php:1890
+#: xmlrpc.php:2228
 msgid "Sorry, your entry could not be posted. Something wrong happened."
 msgstr "ببخشید، نوشته‌ی شما نمی‌تواند فرستاده شود. مشکلی به وجود آمده است."
 
@@ -11922,8 +11823,8 @@ msgstr "ببخشید، نمی‌توانید به این نوشته دسترسی
 #: wp-app.php:535
 #: wp-app.php:703
 #: wp-app.php:779
-#: wp-app.php:821
-#: xmlrpc.php:1919
+#: wp-app.php:830
+#: xmlrpc.php:1932
 msgid "Sorry, you do not have the right to edit this post."
 msgstr "ببخشید، نمی‌توانید این نوشته را ویرایش کنید."
 
@@ -11932,7 +11833,7 @@ msgstr "ببخشید، نمی‌توانید این نوشته را ویرایش
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:860
 #: wp-app.php:558
 #: wp-app.php:719
-#: xmlrpc.php:1935
+#: xmlrpc.php:1948
 msgid "For some strange yet very annoying reason, this post could not be edited."
 msgstr "بنا به دلایل عجیبی،‌این نوشته نمی‌تواند ویرایش شود."
 
@@ -11941,7 +11842,7 @@ msgstr "بنا به دلایل عجیبی،‌این نوشته نمی‌توا�
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:892
 #: wp-app.php:581
 #: wp-app.php:741
-#: xmlrpc.php:1971
+#: xmlrpc.php:1984
 msgid "Sorry, you do not have the right to delete this post."
 msgstr "ببخشید، نمی‌توانید‌این نوشته را پاک کنید."
 
@@ -11950,7 +11851,7 @@ msgstr "ببخشید، نمی‌توانید‌این نوشته را پاک ک�
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:897
 #: wp-app.php:590
 #: wp-app.php:757
-#: xmlrpc.php:1976
+#: xmlrpc.php:1989
 msgid "For some strange yet very annoying reason, this post could not be deleted."
 msgstr "بنا به دلایل عجیبی‌این نوشته نمی‌تواند پاک شود."
 
@@ -11964,8 +11865,8 @@ msgstr "ببخشید، نمی‌توانید پرونده بفرستید."
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-app.php:527
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-app.php:564
 #: wp-app.php:748
-#: wp-app.php:786
-#: wp-app.php:831
+#: wp-app.php:787
+#: wp-app.php:840
 msgid "Error ocurred while accessing post metadata for file location."
 msgstr "هنگام دسترسی به داده‌های جانبی مسیر پرونده مشکلی درست شده است."
 
@@ -12187,92 +12088,92 @@ msgid "A server or network problem is preventing Akismet from working correctly.
 msgstr "ایرادی در سرویس‌دهنده یا وضعیت شبکه وجود دارد که مانع کار کردن صحیح اکیسمت می‌شود. <a href=\"%1$s\">برای اطلاعات بیشتر در مورد نحوه‌ی برطرف کردن این مشکل کلیک کنید</a>."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:273
-#: wp-content/plugins/akismet/akismet.php:579
+#: wp-content/plugins/akismet/akismet.php:589
 #, php-format
 msgid "Akismet Spam (%s)"
 msgstr "جفنگ Akismet (%s)"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:275
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:277
-#: wp-content/plugins/akismet/akismet.php:581
-#: wp-content/plugins/akismet/akismet.php:583
+#: wp-content/plugins/akismet/akismet.php:591
+#: wp-content/plugins/akismet/akismet.php:593
 msgid "Akismet Spam"
 msgstr "جفنگ Akismet"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:286
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:305
-#: wp-content/plugins/akismet/akismet.php:593
-#: wp-content/plugins/akismet/akismet.php:612
+#: wp-content/plugins/akismet/akismet.php:603
+#: wp-content/plugins/akismet/akismet.php:622
 msgid "You do not have sufficient permission to moderate comments."
 msgstr "نمی‌توانید دیدگاه‌ها را مدیریت کنید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:317
-#: wp-content/plugins/akismet/akismet.php:624
+#: wp-content/plugins/akismet/akismet.php:634
 #, php-format
 msgid "%1$s comments recovered."
 msgstr "%1$s دیدگاه‌ها بازیابی شد."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:321
-#: wp-content/plugins/akismet/akismet.php:628
+#: wp-content/plugins/akismet/akismet.php:638
 msgid "All spam deleted."
 msgstr "‌همه‌ی جفنگ‌ها پاک شدند"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:329
-#: wp-content/plugins/akismet/akismet.php:676
+#: wp-content/plugins/akismet/akismet.php:686
 msgid "Caught Spam"
 msgstr "جفنگ  گیر افتاد"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:334
-#: wp-content/plugins/akismet/akismet.php:681
+#: wp-content/plugins/akismet/akismet.php:691
 #, php-format
 msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
 msgstr "Akismet از هنگامی که راه‌اندازی شده  است<strong>%1$s</strong> دیدگاه جفنگ را شناسایی کرده است."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:339
-#: wp-content/plugins/akismet/akismet.php:688
+#: wp-content/plugins/akismet/akismet.php:698
 msgid "You have no spam currently in the queue. Must be your lucky day. :)"
 msgstr "شما هم‌اکنون هیچ جفنگ‌ای در صف مدیریت ندارید. روز خوش‌شانسی شماست!:)"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:342
-#: wp-content/plugins/akismet/akismet.php:691
+#: wp-content/plugins/akismet/akismet.php:701
 msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
 msgstr "شما می‌توانید ‌همه‌ی جفنگ‌ها را از پایگاه‌داده‌ی خود با یک کلیک پاک کنید. ‌این فرآیند بازگشت‌پذیر نیست، پس شاید بخواهید بررسی کنید تا ببینید که آیا همه‌ی دیدگاه‌ها جفنگند یا نه. جفنگ‌ها پس از ۱۵ روز به خودبه‌خود پاک می‌شوند، پس شما زحمت نکشید!"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:348
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:507
-#: wp-content/plugins/akismet/akismet.php:697
-#: wp-content/plugins/akismet/akismet.php:875
+#: wp-content/plugins/akismet/akismet.php:707
+#: wp-content/plugins/akismet/akismet.php:885
 #, php-format
 msgid "There are currently %1$s comments identified as spam."
 msgstr "تا کنون %1$s دیدگاه جفنگ شناسایی شده‌اند."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:348
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:507
-#: wp-content/plugins/akismet/akismet.php:697
-#: wp-content/plugins/akismet/akismet.php:875
+#: wp-content/plugins/akismet/akismet.php:707
+#: wp-content/plugins/akismet/akismet.php:885
 msgid "Delete all"
 msgstr "پاک همه"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:358
-#: wp-content/plugins/akismet/akismet.php:706
+#: wp-content/plugins/akismet/akismet.php:716
 msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
 msgstr "این‌ها تازه‌ترین دیدگاه‌هایی هستند که با Akismet جفنگ شناخته است. اگر نادرست است، به سادگی دیدگاه را جفنگ نیست نشانه‌گذاری کنید تا Akismet‌ یاد بگیرد. اگر شما می‌خواهید یک دیدگاه را از حالت جفنگ بازگردانید، به سادگی دیدگاه را برگزینید و روی جفنگ نیست کلیک کنید. بعد از 15 روز ما دیدگاه‌های جفنگ را برای شما پاک می‌کنیم."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/users.php:341
-#: wp-content/plugins/akismet/akismet.php:760
+#: wp-content/plugins/akismet/akismet.php:770
 msgid "Search Spam &raquo;"
 msgstr "جست‌وجوی جفنگ (هرزنامه) &raquo;"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/users.php:88
-#: wp-content/plugins/akismet/akismet.php:767
-#: wp-content/plugins/akismet/akismet.php:834
+#: wp-content/plugins/akismet/akismet.php:777
+#: wp-content/plugins/akismet/akismet.php:844
 #: wp-includes/link-template.php:1445
 msgid "&laquo; Previous Page"
 msgstr "&laquo; برگه‌ی پیش"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/users.php:89
-#: wp-content/plugins/akismet/akismet.php:788
-#: wp-content/plugins/akismet/akismet.php:855
+#: wp-content/plugins/akismet/akismet.php:798
+#: wp-content/plugins/akismet/akismet.php:865
 #: wp-includes/link-template.php:1446
 msgid "Next Page &raquo;"
 msgstr "برگه‌ی بعد &raquo;"
@@ -12281,84 +12182,84 @@ msgstr "برگه‌ی بعد &raquo;"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/moderation.php:166
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/includes/template.php:277
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:442
-#: wp-content/plugins/akismet/akismet.php:810
+#: wp-content/plugins/akismet/akismet.php:820
 msgid "IP:"
 msgstr "آی‌پی:"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:448
-#: wp-content/plugins/akismet/akismet.php:816
+#: wp-content/plugins/akismet/akismet.php:826
 msgid "Not Spam"
 msgstr "جفنگ نیست"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:493
-#: wp-content/plugins/akismet/akismet.php:861
+#: wp-content/plugins/akismet/akismet.php:871
 msgid "De-spam marked comments &raquo;"
 msgstr "برگرداندن دیدگاه‌های نشانه‌گذاری شده از حالت جفنگ &raquo;"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:495
-#: wp-content/plugins/akismet/akismet.php:863
+#: wp-content/plugins/akismet/akismet.php:873
 msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
 msgstr "دیدگاه‌های که از فهرست جفنگ بیرون می‌کشید به نام اشتباه به Akismet فرستاده می‌شوند٬ تا یاد بگیرد و بهتر بشود."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:529
-#: wp-content/plugins/akismet/akismet.php:899
+#: wp-content/plugins/akismet/akismet.php:909
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
 msgstr "<a href=\"%1$s\">Akismet</a> وبلاگ شما را در برابر <a href=\"%2$s\">%3$s دیدگاه جفنگ</a> پاسداری کرده است."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:529
-#: wp-content/plugins/akismet/akismet.php:917
+#: wp-content/plugins/akismet/akismet.php:927
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
 msgstr[0] "<a href=\"%1$s\">Akismet</a> وبلاگ شما را در برابر %2$s دیدگاه جفنگ پاسداری کرده است."
 
 # E:\xampp\htdocs\testserver\wordpress-trunk/wp-content/plugins/akismet/akismet.php:665
-#: wp-content/plugins/akismet/akismet.php:922
+#: wp-content/plugins/akismet/akismet.php:932
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
 msgstr "<a href=\"%1$s\">Akismet</a> وبلاگ شما را در برابر جفنگ (هرزنامه) محافظت می‌کند."
 
-#: wp-content/plugins/akismet/akismet.php:927
+#: wp-content/plugins/akismet/akismet.php:937
 #, php-format
 msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
 msgstr[0] "هم‌اکنون <a href=\"%2$s\">%1$s دیدگاه</a> به‌عنوان جفنگ شناخته شده است."
 
 # E:\xampp\htdocs\testserver\wordpress-trunk/wp-content/plugins/akismet/akismet.php:675
-#: wp-content/plugins/akismet/akismet.php:932
+#: wp-content/plugins/akismet/akismet.php:942
 #, php-format
 msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
 msgstr "با این حال،‌ در این لحظه چیزی در <a href='%1$s'>صف جفنگ (هرزنامه)</a> وجود ندارد."
 
-#: wp-content/plugins/akismet/akismet.php:935
+#: wp-content/plugins/akismet/akismet.php:945
 #, php-format
 msgid "%1$s %2$s|akismet_rightnow"
 msgstr "%1$s %2$s|akismet_rightnow"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:542
-#: wp-content/plugins/akismet/akismet.php:950
+#: wp-content/plugins/akismet/akismet.php:960
 msgid "Recheck Queue for Spam"
 msgstr "بررسی دوباره‌ی فهرست دیدگاه‌های جفنگ"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:542
-#: wp-content/plugins/akismet/akismet.php:967
+#: wp-content/plugins/akismet/akismet.php:977
 msgid "Check for Spam"
 msgstr "بازرسی برای جفنگ (هرزنامه)"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:615
-#: wp-content/plugins/akismet/akismet.php:1042
+#: wp-content/plugins/akismet/akismet.php:1052
 #, php-format
 msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
 msgstr "%1$s %2$sدیدگاه‌های جفنگ%3$s %4$sجلوگیری شده با%5$s<br />%6$sAkismet%7$s"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:677
-#: wp-content/plugins/akismet/akismet.php:1104
+#: wp-content/plugins/akismet/akismet.php:1114
 msgid "spam comments"
 msgstr "دیدگاه‌های جفنگ"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:677
-#: wp-content/plugins/akismet/akismet.php:1104
+#: wp-content/plugins/akismet/akismet.php:1114
 msgid "blocked by"
 msgstr "بسته شده بدست"
 
@@ -12477,24 +12378,24 @@ msgstr "برای نمایش یافتنِ دیدگاه‌ها رمز را بنو�
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/themes/classic/comments.php:5
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/comment-template.php:171
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:555
-#: wp-includes/comment-template.php:935
+#: wp-includes/comment-template.php:557
+#: wp-includes/comment-template.php:937
 msgid "No Comments"
 msgstr "بدون دیدگاه"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/themes/classic/comments.php:5
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/comment-template.php:173
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:557
-#: wp-includes/comment-template.php:936
+#: wp-includes/comment-template.php:559
+#: wp-includes/comment-template.php:938
 msgid "1 Comment"
 msgstr "۱ دیدگاه"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/themes/classic/comments.php:5
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/comment-template.php:169
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:553
-#: wp-includes/comment-template.php:937
+#: wp-includes/comment-template.php:555
+#: wp-includes/comment-template.php:939
 msgid "% Comments"
 msgstr "% دیدگاه"
 
@@ -12547,7 +12448,7 @@ msgstr "دسته:"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/themes/classic/index.php:11
 #: wp-content/themes/classic/index.php:15
-#: wp-includes/category-template.php:802
+#: wp-includes/category-template.php:804
 msgid "Tags: "
 msgstr "برچسب‌ها"
 
@@ -12590,7 +12491,7 @@ msgstr "نوشته‌های کهنه &raquo;"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/themes/classic/sidebar.php:8
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/post-template.php:161
 #: wp-content/themes/classic/sidebar.php:13
-#: wp-includes/post-template.php:563
+#: wp-includes/post-template.php:567
 msgid "Pages:"
 msgstr "برگه‌ها :"
 
@@ -12798,13 +12699,13 @@ msgstr "نمایش ‌همه‌ی نوشته‌ها در %s"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/category-template.php:276
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/category-template.php:278
-#: wp-includes/category-template.php:459
 #: wp-includes/category-template.php:461
+#: wp-includes/category-template.php:463
 msgid "No categories"
 msgstr "هیچ دسته‌ای پیدا نشد"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/js/tinymce/wp-mce-help.php:157
-#: wp-includes/category-template.php:563
+#: wp-includes/category-template.php:565
 #, php-format
 msgid "%s topic"
 msgid_plural "%s topics"
@@ -12938,69 +12839,69 @@ msgstr "خوراک برای ‌همه‌ی نوشته‌های پیرامون %s
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/blogger.php:163
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/includes/file.php:3
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/themes/classic/comments-popup.php:22
-#: wp-includes/comment-template.php:938
+#: wp-includes/comment-template.php:940
 msgid "Comments Off"
 msgstr "دیدگاه‌ها خاموش"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/comment-template.php:342
-#: wp-includes/comment-template.php:948
+#: wp-includes/comment-template.php:950
 msgid "Enter your password to view comments"
 msgstr "برای نمایش دیدگاه‌ها رمز را بنویسید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/comment-template.php:367
-#: wp-includes/comment-template.php:975
+#: wp-includes/comment-template.php:977
 #, php-format
 msgid "Comment on %s"
 msgstr "دیدگاه‌ها برای %s"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/link-manager.php:87
-#: wp-includes/comment-template.php:1001
+#: wp-includes/comment-template.php:1003
 msgid "Log in to Reply"
 msgstr "برای پاسخ دادن وارد شوید"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/themes/classic/comments-popup.php:55
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/themes/classic/comments.php:7
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/themes/classic/comments.php:35
-#: wp-includes/comment-template.php:1059
+#: wp-includes/comment-template.php:1061
 msgid "Leave a Comment"
 msgstr "نوشتن دیدگاه"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/themes/classic/comments-popup.php:55
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/themes/classic/comments.php:7
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/themes/classic/comments.php:35
-#: wp-includes/comment-template.php:1060
+#: wp-includes/comment-template.php:1062
 msgid "Log in to leave a Comment"
 msgstr "برای نوشتن دیدگاه باید وارد شوید"
 
-#: wp-includes/comment-template.php:1099
+#: wp-includes/comment-template.php:1101
 msgid "Click here to cancel reply."
 msgstr "برای صرف‌نظر کردن از پاسخ‌گویی اینجا را کلیک کنید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/themes/classic/comments-popup.php:55
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/themes/classic/comments.php:7
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/themes/classic/comments.php:35
-#: wp-includes/comment-template.php:1142
+#: wp-includes/comment-template.php:1144
 msgid "Leave a Reply"
 msgstr "پاسخ دهید"
 
-#: wp-includes/comment-template.php:1143
+#: wp-includes/comment-template.php:1145
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr "پاسخ دادن به %s"
 
-#: wp-includes/comment-template.php:1261
+#: wp-includes/comment-template.php:1263
 #, php-format
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
 msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">می‌گه:</span>"
 
 # E:\xampp\htdocs\testserver\wordpress-trunk/wp-admin/edit-comments.php:224
-#: wp-includes/comment-template.php:1264
+#: wp-includes/comment-template.php:1266
 msgid "Your comment is awaiting moderation."
 msgstr "دیدگاه شما در انتظار بررسی است."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/index.php:52
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/widgets.php:887
-#: wp-includes/comment-template.php:1268
+#: wp-includes/comment-template.php:1270
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s در t %2$s"
@@ -13020,7 +12921,7 @@ msgstr "%1$s در t %2$s"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/includes/template.php:230
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/includes/template.php:284
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/script-loader.php:128
-#: wp-includes/comment-template.php:1268
+#: wp-includes/comment-template.php:1270
 msgid "(Edit)"
 msgstr "(ویرایش)"
 
@@ -13433,38 +13334,38 @@ msgid "&#8221;"
 msgstr "&#8221;"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/edit-post-rows.php:63
-#: wp-includes/formatting.php:1661
+#: wp-includes/formatting.php:1664
 #, php-format
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s دقیقه"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/options-general.php:68
-#: wp-includes/formatting.php:1667
+#: wp-includes/formatting.php:1670
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s ساعت"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/index-extra.php:39
-#: wp-includes/formatting.php:1673
+#: wp-includes/formatting.php:1676
 #, php-format
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s روز"
 
 #. translators: used between list items, there is a space after the coma
-#: wp-includes/formatting.php:2547
+#: wp-includes/formatting.php:2550
 msgid ", "
 msgstr "٬"
 
 #. translators: used between list items, there is a space after the and
-#: wp-includes/formatting.php:2549
+#: wp-includes/formatting.php:2552
 msgid ", and "
 msgstr "٬ و"
 
 #. translators: used between only two list items, there is a space after the and
-#: wp-includes/formatting.php:2551
+#: wp-includes/formatting.php:2554
 msgid " and "
 msgstr "و"
 
@@ -13771,9 +13672,9 @@ msgstr "جست‌وجو برای:"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:365
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/general-template.php:34
 #: wp-includes/general-template.php:147
-#: wp-login.php:352
 #: wp-login.php:355
-#: wp-login.php:424
+#: wp-login.php:358
+#: wp-login.php:427
 msgid "Log in"
 msgstr "ورود"
 
@@ -13786,9 +13687,9 @@ msgstr "بیرون رفتن"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:378
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/general-template.php:46
 #: wp-includes/general-template.php:236
-#: wp-login.php:353
-#: wp-login.php:420
-#: wp-login.php:524
+#: wp-login.php:356
+#: wp-login.php:423
+#: wp-login.php:527
 msgid "Register"
 msgstr "نام‌نویسی"
 
@@ -13825,8 +13726,8 @@ msgstr "%1$s %2$s"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/general-template.php:571
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/general-template.php:581
-#: wp-includes/general-template.php:1051
-#: wp-includes/general-template.php:1061
+#: wp-includes/general-template.php:1052
+#: wp-includes/general-template.php:1062
 #, php-format
 msgid "View posts for %1$s %2$s"
 msgstr "نمایش نوشته‌ها برای %1$s %2$s"
@@ -13836,15 +13737,15 @@ msgstr "نمایش نوشته‌ها برای %1$s %2$s"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:142
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/general-template.php:989
 #. translators: Separator between blog name and feed type in feed links
-#: wp-includes/general-template.php:1457
-#: wp-includes/general-template.php:1480
+#: wp-includes/general-template.php:1458
+#: wp-includes/general-template.php:1481
 msgctxt "feed link"
 msgid "&raquo;"
 msgstr "&raquo;"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/general-template.php:402
 #. translators: 1: blog title, 2: separator (raquo)
-#: wp-includes/general-template.php:1459
+#: wp-includes/general-template.php:1460
 #, php-format
 msgid "%1$s %2$s Feed"
 msgstr "%1$s %2$s خوراک"
@@ -13858,7 +13759,7 @@ msgstr "%1$s %2$s خوراک"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/includes/file.php:3
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/themes/classic/comments-popup.php:22
 #. translators: %s: blog title, 2: separator (raquo)
-#: wp-includes/general-template.php:1461
+#: wp-includes/general-template.php:1462
 #, php-format
 msgid "%1$s %2$s Comments Feed"
 msgstr "%1$s %2$s خوراک دیدگاه‌ها"
@@ -13872,38 +13773,38 @@ msgstr "%1$s %2$s خوراک دیدگاه‌ها"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/includes/file.php:3
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/themes/classic/comments-popup.php:22
 #. translators: 1: blog name, 2: separator(raquo), 3: post title
-#: wp-includes/general-template.php:1482
+#: wp-includes/general-template.php:1483
 #, php-format
 msgid "%1$s %2$s %3$s Comments Feed"
 msgstr "%1$s %2$s %3$s خوراک دیدگاه‌ها"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: category name
-#: wp-includes/general-template.php:1484
+#: wp-includes/general-template.php:1485
 #, php-format
 msgid "%1$s %2$s %3$s Category Feed"
 msgstr "%1$s %2$s %3$s خوراک دسته"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: tag name
-#: wp-includes/general-template.php:1486
+#: wp-includes/general-template.php:1487
 #, php-format
 msgid "%1$s %2$s %3$s Tag Feed"
 msgstr "%1$s %2$s %3$s خوراک برچسب"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: author name
-#: wp-includes/general-template.php:1488
+#: wp-includes/general-template.php:1489
 #, php-format
 msgid "%1$s %2$s Posts by %3$s Feed"
 msgstr "%1$s %2$s خوراک نوشته‌های %3$s"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/edit.php:90
 #. translators: 1: blog name, 2: separator(raquo), 3: search phrase
-#: wp-includes/general-template.php:1490
+#: wp-includes/general-template.php:1491
 #, php-format
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
 msgstr "%1$s %2$s نتایج جست‌وجو برای  &#8220;%3$s&#8221; خوراک"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/general-template.php:988
-#: wp-includes/general-template.php:1806
+#: wp-includes/general-template.php:1807
 msgid "&laquo; Previous"
 msgstr "&laquo; قبلی"
 
@@ -13911,7 +13812,7 @@ msgstr "&laquo; قبلی"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:109
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:142
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/general-template.php:989
-#: wp-includes/general-template.php:1807
+#: wp-includes/general-template.php:1808
 msgid "Next &raquo;"
 msgstr "بعدی &raquo;"
 
@@ -16451,7 +16352,7 @@ msgstr "نام‌نویسی کاربر تازه در وبلاگ شما %s:"
 #: wp-includes/pluggable.php:1151
 #: wp-includes/pluggable.php:1159
 #: wp-login.php:162
-#: wp-login.php:204
+#: wp-login.php:207
 #, php-format
 msgid "Username: %s"
 msgstr "Username: %s"
@@ -16471,7 +16372,7 @@ msgstr "نام‌نویسی کاربر تازه [%s]"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:191
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/pluggable.php:631
 #: wp-includes/pluggable.php:1160
-#: wp-login.php:205
+#: wp-login.php:208
 #, php-format
 msgid "Password: %s"
 msgstr "Password: %s"
@@ -16500,40 +16401,40 @@ msgid "There is no excerpt because this is a protected post."
 msgstr "هیچ چکیده‌ای موجود نمی‌باشد زیرا‌این یک نوشته حفاظت شده است."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/post-template.php:162
-#: wp-includes/post-template.php:565
+#: wp-includes/post-template.php:569
 msgid "Next page"
 msgstr "برگه بعد"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/post-template.php:163
-#: wp-includes/post-template.php:566
+#: wp-includes/post-template.php:570
 msgid "Previous page"
 msgstr "برگه قبل"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/profile.php:51
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/user-edit.php:121
-#: wp-includes/post-template.php:820
+#: wp-includes/post-template.php:825
 msgid "Home"
 msgstr "خانه"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/post-template.php:376
-#: wp-includes/post-template.php:930
-#: wp-includes/post-template.php:967
+#: wp-includes/post-template.php:935
+#: wp-includes/post-template.php:972
 msgid "Missing Attachment"
 msgstr "پیوست گم شده"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/post-template.php:487
-#: wp-includes/post-template.php:1141
+#: wp-includes/post-template.php:1146
 msgid "This post is password protected. To view it please enter your password below:"
 msgstr "این نوشته با رمز محافظت شده است. برای نمایش رمز خود را بنویسید:"
 
 #. translators: revision date format, see http://php.net/date
-#: wp-includes/post-template.php:1205
+#: wp-includes/post-template.php:1210
 msgctxt "revision date format"
 msgid "j F, Y @ G:i"
 msgstr "j F, Y @ G:i"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1207
+#: wp-includes/post-template.php:1212
 #, php-format
 msgid "%1$s [Autosave]"
 msgstr "%1$s [ذخیره خودکار]"
@@ -16541,7 +16442,7 @@ msgstr "%1$s [ذخیره خودکار]"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/mt.php:167
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/wordpress.php:201
 #. translators: 1: date
-#: wp-includes/post-template.php:1209
+#: wp-includes/post-template.php:1214
 #, php-format
 msgid "%1$s [Current Revision]"
 msgstr "%1$s [رونوشت فعلی]"
@@ -16549,23 +16450,23 @@ msgstr "%1$s [رونوشت فعلی]"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/index.php:52
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/widgets.php:887
 #. translators: post revision: 1: when, 2: author name
-#: wp-includes/post-template.php:1275
+#: wp-includes/post-template.php:1280
 #, php-format
 msgctxt "post revision"
 msgid "%1$s by %2$s"
 msgstr "%1$s توسط %2$s"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/blogger.php:788
-#: wp-includes/post-template.php:1302
+#: wp-includes/post-template.php:1307
 msgid "Restore"
 msgstr "بازیافت"
 
-#: wp-includes/post-template.php:1324
+#: wp-includes/post-template.php:1329
 msgid "Compare Revisions"
 msgstr "مقایسه‌ی رونوشت‌ها"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/options-general.php:71
-#: wp-includes/post-template.php:1339
+#: wp-includes/post-template.php:1344
 msgid "Date Created"
 msgstr "تاریخ ساخت"
 
@@ -17036,82 +16937,83 @@ msgstr "[%s] نوسازی رمز"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:124
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:195
 #: wp-login.php:172
-#: wp-login.php:214
+#: wp-login.php:217
 msgid "The e-mail could not be sent."
 msgstr "پست الکترونیک  نمی‌تواند فرستاده شود."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:124
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:195
 #: wp-login.php:172
-#: wp-login.php:214
+#: wp-login.php:217
 msgid "Possible reason: your host may have disabled the mail() function..."
 msgstr "دلیل ممکن: میزبان شما ممکن است قابلیت mail() را از کار انداخته باشد."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/functions.php:1010
 #: wp-login.php:191
-#: wp-login.php:195
+#: wp-login.php:194
+#: wp-login.php:198
 msgid "Invalid key"
 msgstr "شناسه نامعتبر"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:194
-#: wp-login.php:208
+#: wp-login.php:211
 #, php-format
 msgid "[%s] Your new password"
 msgstr "[%s] رمز تازه‌ی شما"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:225
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/includes/user.php:105
-#: wp-login.php:238
+#: wp-login.php:241
 msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
 msgstr "<strong>خطا</strong>: شناسه نادرست است. یک شناسه درست بنویسید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:228
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/includes/user.php:108
-#: wp-login.php:241
+#: wp-login.php:244
 msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
 msgstr "<strong>خطا</strong>:  شناسه وجود دارد، شناسه‌ی دیگری بنویسید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:232
-#: wp-login.php:245
+#: wp-login.php:248
 msgid "<strong>ERROR</strong>: Please type your e-mail address."
 msgstr "<strong>خطا</strong>: نشانی پست الکترونیک  خود را بنویسید"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:234
-#: wp-login.php:247
+#: wp-login.php:250
 msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
 msgstr "<strong>خطا</strong>: نشانی پست الکترونیک  درست نیست."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:248
-#: wp-login.php:262
+#: wp-login.php:265
 #, php-format
 msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
 msgstr "<strong>خطا</strong>: امکان نام‌نویسی شما نیست، به <a href=\"mailto:%s\">مدیر وبلاگ</a> نامه بنویسید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:133
-#: wp-login.php:332
+#: wp-login.php:335
 msgid "Sorry, that key does not appear to be valid."
 msgstr "ببخشید، کلید درست نیست.."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:136
-#: wp-login.php:335
+#: wp-login.php:338
 msgid "Lost Password"
 msgstr "رمز فراموش شده"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:136
-#: wp-login.php:335
+#: wp-login.php:338
 msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
 msgstr "شناسه و رمز خود را‌ این‌جا بنویسید. شما رمز تازه‌ای با پست الکترونیک  دریافت خواهید کرد."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:141
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:263
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:355
-#: wp-login.php:343
+#: wp-login.php:346
 msgid "Username or E-mail:"
 msgstr "شناسه یا نشانه پست الکترونیکی:"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/profile.php:111
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/user-edit.php:181
-#: wp-login.php:347
+#: wp-login.php:350
 msgid "Get New Password"
 msgstr "دریافت رمز تازه:"
 
@@ -17121,85 +17023,85 @@ msgstr "دریافت رمز تازه:"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:376
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:380
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:382
-#: wp-login.php:361
-#: wp-login.php:430
-#: wp-login.php:533
+#: wp-login.php:364
+#: wp-login.php:433
+#: wp-login.php:536
 msgid "Are you lost?"
 msgstr "گم شدید؟"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-includes/script-loader.php:126
-#: wp-login.php:361
-#: wp-login.php:430
-#: wp-login.php:533
+#: wp-login.php:364
+#: wp-login.php:433
+#: wp-login.php:536
 #, php-format
 msgid "&larr; Back to %s"
 msgstr "&larr; بازگشت به %s"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:258
-#: wp-login.php:405
+#: wp-login.php:408
 msgid "Registration Form"
 msgstr "فرم نام‌نویسی"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:258
-#: wp-login.php:405
+#: wp-login.php:408
 msgid "Register For This Site"
 msgstr "نام‌نویسی برای‌این وبلاگ"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:271
-#: wp-login.php:418
+#: wp-login.php:421
 msgid "A password will be e-mailed to you."
 msgstr "رمز با نامه برای شما فرستاده خواهد شد."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:278
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:379
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:383
-#: wp-login.php:425
-#: wp-login.php:525
-#: wp-login.php:527
+#: wp-login.php:428
+#: wp-login.php:528
+#: wp-login.php:530
 msgid "Password Lost and Found"
 msgstr "گم شدن و پیدا کردن رمز"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:278
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:379
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:383
-#: wp-login.php:425
-#: wp-login.php:525
-#: wp-login.php:527
+#: wp-login.php:428
+#: wp-login.php:528
+#: wp-login.php:530
 msgid "Lost your password?"
 msgstr "رمزتان را گم کرده‌اید؟"
 
 # E:\xampp\htdocs\testserver\wordpress-trunk/wp-login.php:366
-#: wp-login.php:486
+#: wp-login.php:489
 msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
 msgstr "کوکی‌ها از کار افتاده‌اند یا کاوشگر شما از کوکی‌ها پشتیبانی نمی‌کند. شما باید برای به کارگیری وردپرس <a href='http://www.google.com/cookies.html'>کوکی‌ها را فعال کنید</a> "
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/admin.php:74
-#: wp-login.php:489
+#: wp-login.php:492
 msgid "You are now logged out."
 msgstr "شما اکنون خارج شدید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:344
-#: wp-login.php:490
+#: wp-login.php:493
 msgid "User registration is currently not allowed."
 msgstr "نام‌نویسی کاربر تازه در حال حاضر مجاز نمی‌باشد."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:345
-#: wp-login.php:491
+#: wp-login.php:494
 msgid "Check your e-mail for the confirmation link."
 msgstr "پست الکترونیک  خود را برای پیوند تایید چک کنید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:346
-#: wp-login.php:492
+#: wp-login.php:495
 msgid "Check your e-mail for your new password."
 msgstr "پست الکترونیک  خود را برای رمز تازه چک کنید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:347
-#: wp-login.php:493
+#: wp-login.php:496
 msgid "Registration complete. Please check your e-mail."
 msgstr "نام‌نویسی انجام شد. پست الکترونیک  خود را ببینید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-login.php:363
-#: wp-login.php:512
+#: wp-login.php:515
 msgid "Remember Me"
 msgstr "مرا به خاطر بسپار"
 
@@ -17279,182 +17181,182 @@ msgstr "متاسفانه شما نمی‌توانید‌ این برگه را و
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:252
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:346
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:387
-#: xmlrpc.php:573
-#: xmlrpc.php:691
-#: xmlrpc.php:737
+#: xmlrpc.php:578
+#: xmlrpc.php:696
+#: xmlrpc.php:742
 msgid "Sorry, no such page."
 msgstr "ببخشید، چنین برگه‌ای پیدا نشد."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:313
-#: xmlrpc.php:598
-#: xmlrpc.php:783
+#: xmlrpc.php:603
+#: xmlrpc.php:788
 msgid "Sorry, you cannot edit pages."
 msgstr "متاسفانه شما نمی‌توانید برگه‌ها را ویرایش کنید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:313
-#: xmlrpc.php:652
+#: xmlrpc.php:657
 msgid "Sorry, you cannot add new pages."
 msgstr "متاسفانه شما نمی‌توانید برگه‌ی تازه‌ای درست کنید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:352
-#: xmlrpc.php:696
+#: xmlrpc.php:701
 msgid "Sorry, you do not have the right to delete this page."
 msgstr "اجازه پاک‌کردن ‌این برگه را ندارید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:358
-#: xmlrpc.php:702
+#: xmlrpc.php:707
 msgid "Failed to delete the page."
 msgstr "این برگه پاک نشد."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:393
-#: xmlrpc.php:742
+#: xmlrpc.php:747
 msgid "Sorry, you do not have the right to edit this page."
 msgstr "ببخشید، نمی‌توانید‌ این برگه را ویرایش کنید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:787
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:929
-#: xmlrpc.php:836
+#: xmlrpc.php:849
 msgid "Sorry, you cannot edit posts on this blog."
 msgstr "متاسفانه شما نمی‌توانید در این وبلاگ نوشته‌ای را ویرایش کنید."
 
 # E:\xampp\htdocs\testserver\wordpress-trunk/xmlrpc.php:1809
 # E:\xampp\htdocs\testserver\wordpress-trunk/xmlrpc.php:1979
-#: xmlrpc.php:873
+#: xmlrpc.php:886
 msgid "Sorry, you must be able to edit posts on this blog in order to view tags."
 msgstr "ببخشید، شما برای ویرایش برچسب‌ها باید اجازه ویرایش نوشته‌هارا داشته باشید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:497
-#: xmlrpc.php:920
+#: xmlrpc.php:933
 msgid "Sorry, you do not have the right to add a category."
 msgstr "ببخشید، نمی‌تواید دسته‌ای درست کنید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:525
-#: xmlrpc.php:948
+#: xmlrpc.php:961
 msgid "Sorry, the new category failed."
 msgstr "ببخشید، دسته‌ی تازه ساخته نشد."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:497
-#: xmlrpc.php:977
+#: xmlrpc.php:990
 msgid "Sorry, you do not have the right to delete a category."
 msgstr "ببخشید، شما اجازه پاک کردن یک دسته را ندارید."
 
 # E:\xampp\htdocs\testserver\wordpress-trunk/xmlrpc.php:665
-#: xmlrpc.php:1005
+#: xmlrpc.php:1018
 msgid "Sorry, you must be able to edit posts to this blog in order to view categories."
 msgstr "ببخشید, برای ویرایش نوشته‌هاباید وارد شوید"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/comment.php:46
-#: xmlrpc.php:1042
-#: xmlrpc.php:1165
-#: xmlrpc.php:1197
+#: xmlrpc.php:1055
+#: xmlrpc.php:1178
+#: xmlrpc.php:1210
 msgid "You are not allowed to moderate comments on this blog."
 msgstr "شما نمی‌توانید دیدگاه‌های‌ این وبلاگ را مدیریت کنید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/user-edit.php:18
-#: xmlrpc.php:1047
-#: xmlrpc.php:1170
-#: xmlrpc.php:1202
+#: xmlrpc.php:1060
+#: xmlrpc.php:1183
+#: xmlrpc.php:1215
 msgid "Invalid comment ID."
 msgstr "شناسه نادرست دیدگاه."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:313
-#: xmlrpc.php:1105
+#: xmlrpc.php:1118
 msgid "Sorry, you cannot edit comments."
 msgstr "متاسفانه شما نمی توانید دیدگاه‌ها را ویرایش کنید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/includes/file.php:119
-#: xmlrpc.php:1209
+#: xmlrpc.php:1222
 msgid "Invalid comment status."
 msgstr "وضعیت دیدگاه نادرست است"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1318
-#: xmlrpc.php:1240
+#: xmlrpc.php:1253
 msgid "Sorry, the comment could not be edited. Something wrong happened."
 msgstr "ببخشید، نمی‌توانید این نوشته را ویرایش کنید، مشکلی پیش آمده است."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/options-general.php:47
-#: xmlrpc.php:1271
+#: xmlrpc.php:1284
 msgid "You must be registered to comment"
 msgstr "کاربران باید نام‌نویسی کرده باشند و وارد شده باشند تا بتوانند دیدگاهشان را بنویسند"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1159
-#: xmlrpc.php:1284
-#: xmlrpc.php:1287
-#: xmlrpc.php:2337
+#: xmlrpc.php:1297
+#: xmlrpc.php:1300
+#: xmlrpc.php:2350
 msgid "Invalid post ID."
 msgstr "شناسه‌ی نوشته نادرست است."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/options-discussion.php:58
-#: xmlrpc.php:1313
+#: xmlrpc.php:1326
 msgid "Comment author name and email are required"
 msgstr "نویسنده‌‌ی دیدگاه باید نام و نشانی پست الکترونیک  خود را بنویسد"
 
-#: xmlrpc.php:1315
+#: xmlrpc.php:1328
 msgid "A valid email address is required"
 msgstr "یک آدرس پست‌الکترونیک معتبر نیاز است"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/includes/post.php:193
-#: xmlrpc.php:1348
-#: xmlrpc.php:1410
-#: xmlrpc.php:1438
-#: xmlrpc.php:1466
+#: xmlrpc.php:1361
+#: xmlrpc.php:1423
+#: xmlrpc.php:1451
+#: xmlrpc.php:1479
 msgid "You are not allowed access to details about this blog."
 msgstr "شما نمی توانید به اطلاعات این وبلاگ دسترسی داشته باشید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/includes/upload.php:266
-#: xmlrpc.php:1376
+#: xmlrpc.php:1389
 msgid "You are not allowed access to details about comments."
 msgstr "شما نمی توانید به جزییات یک دیدگاه دسترسی داشته باشید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/post.php:151
-#: xmlrpc.php:1550
+#: xmlrpc.php:1563
 msgid "You are not allowed to update options."
 msgstr "شما اجازه‌ی به‌روزرسانی تنظیمات را ندارید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:787
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:929
-#: xmlrpc.php:1632
+#: xmlrpc.php:1645
 msgid "Sorry, you do not have access to user data on this blog."
 msgstr "ببخشید٬ شما نمی توانید به داده‌های کاربران در این وبلاگ دسترسی پیدا کنید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1151
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1727
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1809
-#: xmlrpc.php:1668
-#: xmlrpc.php:2567
-#: xmlrpc.php:3057
-#: xmlrpc.php:3167
+#: xmlrpc.php:1681
+#: xmlrpc.php:2580
+#: xmlrpc.php:3078
+#: xmlrpc.php:3188
 msgid "Sorry, you cannot edit this post."
 msgstr "متاسفانه شما نمی‌توانید ‌این نوشته را ویرایش کنید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:667
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1423
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1622
-#: xmlrpc.php:1716
-#: xmlrpc.php:2924
+#: xmlrpc.php:1729
+#: xmlrpc.php:2940
 msgid "Either there are no posts, or something went wrong."
 msgstr "یا نوشته‌ای پیدا نشد یا مشکلی به وجود آمده است."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:714
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:749
-#: xmlrpc.php:1772
+#: xmlrpc.php:1785
 msgid "Sorry, this user can not edit the template."
 msgstr "ببخشید،‌این کاربر نمی‌تواند پوسته را ویرایش کند."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:714
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:749
-#: xmlrpc.php:1814
+#: xmlrpc.php:1827
 msgid "Sorry, this user cannot edit the template."
 msgstr "ببخشید،‌این کاربر نمی‌تواند پوسته را ویرایش کند."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:760
-#: xmlrpc.php:1825
+#: xmlrpc.php:1838
 msgid "Either the file is not writable, or something wrong happened. The file has not been updated."
 msgstr "یا امکان نوشتن بر روی‌این پرونده پیدا نشد یا مشکلی به وجود آمده است.پرونده به‌روز نشده است."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:787
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:929
-#: xmlrpc.php:1857
+#: xmlrpc.php:1870
 msgid "Sorry, you are not allowed to post on this blog."
 msgstr "ببخشید٬ نمی‌توانید در این وبلاگ نوشته‌ای بنویسید."
 
@@ -17462,87 +17364,87 @@ msgstr "ببخشید٬ نمی‌توانید در این وبلاگ نوشته�
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:887
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1401
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1768
-#: xmlrpc.php:1913
-#: xmlrpc.php:1967
-#: xmlrpc.php:2660
-#: xmlrpc.php:3119
+#: xmlrpc.php:1926
+#: xmlrpc.php:1980
+#: xmlrpc.php:2671
+#: xmlrpc.php:3140
 msgid "Sorry, no such post."
 msgstr "ببخشید، چنین نوشته‌ای پیدا نشد."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:849
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1291
-#: xmlrpc.php:1924
-#: xmlrpc.php:2489
+#: xmlrpc.php:1937
+#: xmlrpc.php:2502
 msgid "Sorry, you do not have the right to publish this post."
 msgstr "ببخشید، نمی‌توانید ‌این نوشته را منتشر کنید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:787
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:929
-#: xmlrpc.php:2010
-#: xmlrpc.php:2307
+#: xmlrpc.php:2023
+#: xmlrpc.php:2320
 msgid "Sorry, you are not allowed to publish posts on this blog."
 msgstr "متاسفانه شما اجازه‌ی انتشار نوشته در این وبلاگ را ندارید. "
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:787
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:929
-#: xmlrpc.php:2016
-#: xmlrpc.php:2313
+#: xmlrpc.php:2029
+#: xmlrpc.php:2326
 msgid "Sorry, you are not allowed to publish pages on this blog."
 msgstr "متاسفانه شما اجازه‌ی انتشار برگه در این وبلاگ را ندارید. "
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:981
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1205
-#: xmlrpc.php:2026
-#: xmlrpc.php:2075
-#: xmlrpc.php:2323
-#: xmlrpc.php:2383
+#: xmlrpc.php:2039
+#: xmlrpc.php:2088
+#: xmlrpc.php:2336
+#: xmlrpc.php:2396
 msgid "Invalid post type."
 msgstr "نوع نوشته نادرست است."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:972
-#: xmlrpc.php:2066
+#: xmlrpc.php:2079
 msgid "You are not allowed to post as this user"
 msgstr "با این شناسه نمی‌توانید نوشته را بفرستید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:977
-#: xmlrpc.php:2071
+#: xmlrpc.php:2084
 msgid "You are not allowed to create pages as this user"
 msgstr "نمی‌توانید برای این کاربر برگه‌ای بسازید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1196
-#: xmlrpc.php:2374
+#: xmlrpc.php:2387
 msgid "You are not allowed to change the post author as this user."
 msgstr "با این شناسه نمی‌توانید نوشته‌ها را ویرایش کنید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1201
-#: xmlrpc.php:2379
+#: xmlrpc.php:2392
 msgid "You are not allowed to change the page author as this user."
 msgstr "نمی‌توانید برای این کاربر برگه‌ای بسازید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1289
-#: xmlrpc.php:2487
+#: xmlrpc.php:2500
 msgid "Sorry, you do not have the right to publish this page."
 msgstr "ببخشید، نمی‌توانید ‌این برگه را منتشر کنید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1318
-#: xmlrpc.php:2522
+#: xmlrpc.php:2535
 msgid "Sorry, your entry could not be edited. Something wrong happened."
 msgstr "ببخشید، نمی‌توانید این نوشته را ویرایش کنید، مشکلی پیش آمده است."
 
 # E:\xampp\htdocs\testserver\wordpress-trunk/xmlrpc.php:1809
 # E:\xampp\htdocs\testserver\wordpress-trunk/xmlrpc.php:1979
-#: xmlrpc.php:2787
-#: xmlrpc.php:2974
+#: xmlrpc.php:2803
+#: xmlrpc.php:2995
 msgid "Sorry, you must be able to edit posts on this blog in order to view categories."
 msgstr "ببخشید، شما برای ویرایش دسته‌هاباید اجازه ویرایش نوشته‌هارا داشته باشید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1550
-#: xmlrpc.php:2844
+#: xmlrpc.php:2860
 msgid "You are not allowed to upload files to this site."
 msgstr "نمی‌توانید پرونده (پروندهی) به وبلاگ بفرستید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1577
-#: xmlrpc.php:2871
+#: xmlrpc.php:2887
 #, php-format
 msgid "Could not write file %1$s (%2$s)"
 msgstr "نمی‌توان پرونده‌ی %1$s (%2$s) را ساخت"
@@ -17550,12 +17452,12 @@ msgstr "نمی‌توان پرونده‌ی %1$s (%2$s) را ساخت"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1151
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1727
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1809
-#: xmlrpc.php:3013
+#: xmlrpc.php:3034
 msgid "Sorry, you can not edit this post."
 msgstr "ببخشید، نمی‌توانید‌این نوشته را ویرایش کنید."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1851
-#: xmlrpc.php:3214
+#: xmlrpc.php:3235
 msgid "Is there no link to us?"
 msgstr "آیا پیوندی به ما پیدا نشد؟"
 
@@ -17563,46 +17465,46 @@ msgstr "آیا پیوندی به ما پیدا نشد؟"
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1901
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1908
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:2008
-#: xmlrpc.php:3254
-#: xmlrpc.php:3264
-#: xmlrpc.php:3271
-#: xmlrpc.php:3379
+#: xmlrpc.php:3275
+#: xmlrpc.php:3285
+#: xmlrpc.php:3292
+#: xmlrpc.php:3400
 msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
 msgstr "نشانی داده شده برای فرستادن بازتاب را نمی‌توان به کار گرفت. چون یا نشانی نادرست است و یا نمی‌تواند بازتاب بپذیرد."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1904
-#: xmlrpc.php:3267
+#: xmlrpc.php:3288
 msgid "The source URL and the target URL cannot both point to the same resource."
 msgstr "نشانی سرچشمه و نشانی هدف هر دو نباید به یک منبع اشاره کنند."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1914
-#: xmlrpc.php:3277
+#: xmlrpc.php:3298
 msgid "The pingback has already been registered."
 msgstr "این پینگ پیش از‌این فرستادن شده است."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1922
-#: xmlrpc.php:3285
+#: xmlrpc.php:3306
 msgid "The source URL does not exist."
 msgstr "نشانی پیدا نشد."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1932
-#: xmlrpc.php:3297
+#: xmlrpc.php:3318
 msgid "We cannot find a title on that page."
 msgstr "نمی‌توانیم نام برگه را بیابیم"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1968
-#: xmlrpc.php:3333
+#: xmlrpc.php:3354
 msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
 msgstr "نشانی مبدا اشاره به نشانی مقصد ندارد و نمی تواند به نام مبدا به  کار رود."
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:1990
-#: xmlrpc.php:3353
+#: xmlrpc.php:3374
 #, php-format
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
 msgstr "بازتاب از %1$s به %2$s نام‌نویسی شد. گفت‌وگو کردن در وب را دنبال کنید! :-)"
 
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/xmlrpc.php:2015
-#: xmlrpc.php:3386
+#: xmlrpc.php:3407
 msgid "The specified target URL does not exist."
 msgstr "نشانی مشخص شده نیست."
 
@@ -17700,11 +17602,73 @@ msgstr "rtl"
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "پرونده <code>wp-config.php</code> یافت نشد. وردپرس برای شروع نیازمند این پرونده است. برای اطلاعات به این <a href='http://codex.wordpress.org/Editing_wp-config.php'>راهنما</a> (<a href='http://codex.wp-persian.com/ویرایش_wp-config.php'>فارسی</a>) مراجعه نمایید."
 
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:7
+#~ msgid "Import Bunny&#8217;s Technorati Tags"
+#~ msgstr "درون‌ریزی برچسب‌های  Bunny&#8217;s Technorati"
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:17
+#~ msgid ""
+#~ "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into "
+#~ "WordPress tags."
+#~ msgstr ""
+#~ "در این بخش برچسب‌های Bunny&#8217;s Technorati در برچسب‌های وردپرس درون‌ریزی "
+#~ "می‌شوند."
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:18
+#~ msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
+#~ msgstr "خوب برای برچسب‌های   Technorati نکارش۰.۶"
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:19
+#~ msgid ""
+#~ "All existing Bunny&#8217;s Technorati Tags will be removed after import."
+#~ msgstr "همه‌ی برچسب‌های Technorati پس از درون ریزی پاک خواهند شد."
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:23
+#~ msgid "Import Tags"
+#~ msgstr "درون‌ریزی برچسب‌ها"
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:62
+#~ msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
+#~ msgstr "خواندن برچسب‌های Bunny&#8217;s Technorati &#8230;"
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/dotclear.php:405
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/textpattern.php:346
+#~ msgid "Done! <strong>%s</strong> post with tags were read."
+#~ msgid_plural "Done! <strong>%s</strong> posts with tags were read."
+#~ msgstr[0] "<strong>%s</strong> نوشته با برچسب خوانده شد."
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:416
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-content/plugins/akismet/akismet.php:487
+#~ msgid "Next"
+#~ msgstr "بعد"
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/btt.php:7
+#~ msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
+#~ msgstr "درون‌ریزی برچسب‌های  Bunny&#8217;s Technorati در برچسب‌های وردپرس."
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:7
+#~ msgid "Import Jerome&#8217;s Keywords"
+#~ msgstr "درون‌ریزی واژه‌های Jerome&#8217;"
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:17
+#~ msgid ""
+#~ "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
+#~ msgstr ""
+#~ "در این بخش برچسب‌های Jerome&#8217;s Keywords در برچسب‌های وردپرس درون‌ریزی "
+#~ "می‌شوند."
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:18
+#~ msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
+#~ msgstr "خوب برای Jerome&#8217 نگارش‌های 1.x and 2.0a."
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:19
+#~ msgid "All existing Jerome&#8217;s Keywords will be removed after import."
+#~ msgstr "همه‌ی برچسب‌های Jerome پس از درون‌ریزی پاک خواهند شد."
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:23
+#~ msgid "Import Version 1.x"
+#~ msgstr "درون‌ریزی نگارش ۱.x"
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:27
+#~ msgid "Import Version 2.0a"
+#~ msgstr "درون‌ریزی نگارش ۲.۰آ"
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:78
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:118
+#~ msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
+#~ msgstr "خواندن واژه‌های برچسب Jerome&#8217&#8230;"
+# H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/import/jkw.php:7
+#~ msgid "Import Jerome&#8217;s Keywords into WordPress tags."
+#~ msgstr "درون‌ریزی واژه‌های Jerome&#8217; در برچسب‌ها وردپرس"
 #~ msgid "Enable syntax highlighting"
 #~ msgstr "فعال کردن syntax highlight"
 #~ msgid "Disable syntax highlighting"
 #~ msgstr "غیرفعال کردن syntax highlight"
-
 # H:\Maz-Web\Portal\wp-group\wp\src\wordpress/wp-admin/plugins.php:184
 #, fuzzy
 #~ msgid "Return to Theme Installer."

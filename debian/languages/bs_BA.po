@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress - Bosnian Localization v1.0\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-08-12 04:56+0000\n"
+"POT-Creation-Date: 2009-10-21 00:56+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Kenan Dervisevic <kenan3008@gmail.com>\n"
 "Language-Team: Kenan Dervisevic <kenan3008@gmail.com>\n"
@@ -145,16 +145,16 @@ msgstr "Automatsko snimanje onemogućeno: %s trenutno uređuje ovaj članak."
 #: wp-admin/admin-ajax.php:917
 #: wp-admin/admin-ajax.php:1059
 #: wp-admin/includes/post.php:143
-#: wp-admin/includes/post.php:1125
-#: wp-admin/page.php:113
+#: wp-admin/includes/post.php:1151
+#: wp-admin/page.php:109
 msgid "You are not allowed to edit this page."
 msgstr "Nije vam dozvoljeno uređivanje ove stranice."
 
 #: wp-admin/admin-ajax.php:920
 #: wp-admin/admin-ajax.php:1062
 #: wp-admin/includes/post.php:146
-#: wp-admin/includes/post.php:1128
-#: wp-admin/post.php:150
+#: wp-admin/includes/post.php:1154
+#: wp-admin/post.php:146
 #: wp-admin/upload.php:41
 msgid "You are not allowed to edit this post."
 msgstr "Nije vam dozvoljeno uređivanje ovog članka."
@@ -373,7 +373,7 @@ msgstr "Uvoz"
 #: wp-admin/media-upload.php:16
 #: wp-admin/upload.php:15
 #: wp-app.php:630
-#: wp-app.php:813
+#: wp-app.php:822
 msgid "You do not have permission to upload files."
 msgstr "Nemate dozvolu da dodajete datoteke."
 
@@ -385,7 +385,7 @@ msgstr "Nemate dozvolu da dodajete datoteke."
 #: wp-admin/includes/template.php:1102
 #: wp-admin/menu.php:46
 #: wp-admin/press-this.php:472
-#: wp-includes/category-template.php:430
+#: wp-includes/category-template.php:432
 #: wp-includes/default-widgets.php:423
 #: wp-includes/default-widgets.php:429
 #: wp-includes/taxonomy.php:18
@@ -707,7 +707,7 @@ msgstr "Ne"
 #: wp-admin/includes/template.php:1066
 #: wp-admin/includes/theme-install.php:158
 #: wp-includes/js/tinymce/langs/wp-langs.php:256
-#: wp-includes/post-template.php:1340
+#: wp-includes/post-template.php:1345
 msgid "Author"
 msgstr "Autor"
 
@@ -735,7 +735,7 @@ msgstr "URL"
 #: wp-admin/edit-form-advanced.php:475
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:647
+#: wp-includes/comment-template.php:649
 msgctxt "noun"
 msgid "Comment"
 msgstr "Komentar"
@@ -1045,7 +1045,7 @@ msgstr[0] "%s komentar označen kao spam"
 msgstr[1] "%s komentara označenih kao spam"
 
 #: wp-admin/edit-comments.php:144
-#: wp-content/plugins/akismet/akismet.php:737
+#: wp-content/plugins/akismet/akismet.php:747
 msgid "All"
 msgid_plural "All"
 msgstr[0] "Sve"
@@ -1065,6 +1065,7 @@ msgstr[0] "Odobren"
 msgstr[1] "Odobreno"
 
 #: wp-admin/edit-comments.php:147
+#, php-format
 msgid "Spam (<span class=\"spam-count\">%s</span>)"
 msgid_plural "Spam (<span class=\"spam-count\">%s</span>)"
 msgstr[0] "Spam <span class=\"count\">(%s)</span>"
@@ -1118,7 +1119,7 @@ msgstr "Prikaži sve vrste komentara"
 #: wp-admin/includes/template.php:1166
 #: wp-admin/includes/template.php:3138
 #: wp-admin/includes/template.php:3254
-#: wp-content/plugins/akismet/akismet.php:742
+#: wp-content/plugins/akismet/akismet.php:752
 #: wp-content/themes/classic/comments-popup.php:29
 msgid "Comments"
 msgstr "Komentari"
@@ -1145,7 +1146,7 @@ msgid "No comments awaiting moderation&hellip; yet."
 msgstr "Još nema komentara koji čekaju na moderaciju."
 
 #: wp-admin/edit-comments.php:378
-#: wp-content/plugins/akismet/akismet.php:868
+#: wp-content/plugins/akismet/akismet.php:878
 msgid "No results found."
 msgstr "Nema pronađenih rezultata."
 
@@ -1344,7 +1345,7 @@ msgstr "Ubaci ovaj članak na prvu stranicu"
 
 #: wp-admin/edit-form-advanced.php:184
 #: wp-admin/edit-page-form.php:175
-#: wp-includes/post-template.php:1142
+#: wp-includes/post-template.php:1147
 msgid "Password:"
 msgstr "Šifra:"
 
@@ -2165,7 +2166,7 @@ msgid "Page Revisions"
 msgstr "Revizije stranice"
 
 #: wp-admin/edit-pages.php:28
-#: wp-admin/page.php:150
+#: wp-admin/page.php:146
 msgid "You are not allowed to delete this page."
 msgstr "Nije vam dozvoljeno brisanje ove stranice."
 
@@ -2173,10 +2174,10 @@ msgstr "Nije vam dozvoljeno brisanje ove stranice."
 #: wp-admin/edit-pages.php:35
 #: wp-admin/edit.php:40
 #: wp-admin/edit.php:43
-#: wp-admin/page.php:154
-#: wp-admin/page.php:157
-#: wp-admin/post.php:195
-#: wp-admin/post.php:198
+#: wp-admin/page.php:150
+#: wp-admin/page.php:153
+#: wp-admin/post.php:191
+#: wp-admin/post.php:194
 #: wp-admin/upload.php:83
 msgid "Error in deleting..."
 msgstr "Greška pri brisanju..."
@@ -2278,7 +2279,7 @@ msgstr[1] "Privatne <span class=\"count\">(%s)</span>"
 #: wp-admin/menu.php:59
 #: wp-includes/default-widgets.php:19
 #: wp-includes/default-widgets.php:25
-#: wp-includes/post-template.php:741
+#: wp-includes/post-template.php:746
 msgid "Pages"
 msgstr "Stranice"
 
@@ -2435,7 +2436,7 @@ msgid "Add Tag"
 msgstr "Dodaj oznaku"
 
 #: wp-admin/edit.php:36
-#: wp-admin/post.php:191
+#: wp-admin/post.php:187
 #: wp-admin/upload.php:79
 msgid "You are not allowed to delete this post."
 msgstr "Nije vam dozvoljeno brisanje ovog članka."
@@ -2797,81 +2798,16 @@ msgstr "Blogware"
 msgid "Import posts from Blogware."
 msgstr "Uvezite članke iz Blogwarea."
 
-#: wp-admin/import/btt.php:22
-msgid "Import Bunny&#8217;s Technorati Tags"
-msgstr "Uvezi oznake iz Bunny&#8217;s Technorati"
+#: wp-admin/import/dotclear.php:96
+msgid "Import DotClear"
+msgstr "Uvezi iz DotCleara"
 
-#: wp-admin/import/btt.php:23
 #: wp-admin/import/dotclear.php:97
-#: wp-admin/import/jkw.php:22
 #: wp-admin/import/stp.php:21
 #: wp-admin/import/textpattern.php:57
 #: wp-admin/import/utw.php:22
 msgid "Steps may take a few minutes depending on the size of your database. Please be patient."
 msgstr "Ovo može potrajati par minuta u zavisnosti od veličine vaše baze podataka. Molimo vas da budete strpljivi."
-
-#: wp-admin/import/btt.php:32
-msgid "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into WordPress tags."
-msgstr "Zdravo! Pomoću ovog alata možete uvesti oznake iz Bunny&#8217;s Technoratia u Wordpress oznake."
-
-#: wp-admin/import/btt.php:33
-msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
-msgstr "Alat je predviđen za Bunny&#8217;s Technorati oznake verzija 0.6."
-
-#: wp-admin/import/btt.php:34
-msgid "All existing Bunny&#8217;s Technorati Tags will be removed after import."
-msgstr "Sve postojeće Bunny&#8217;s Technorati oznake će biti uklonjene nakon uvoza."
-
-#: wp-admin/import/btt.php:35
-#: wp-admin/import/jkw.php:34
-#: wp-admin/import/stp.php:33
-#: wp-admin/import/utw.php:34
-msgid "Don&#8217;t be stupid - backup your database before proceeding!"
-msgstr "Opreza nikad dosta - napravite backup vaše baze prije nastavka!"
-
-#: wp-admin/import/btt.php:38
-msgid "Import Tags"
-msgstr "Uvezi oznake"
-
-#: wp-admin/import/btt.php:77
-msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
-msgstr "Čitam Bunny&#8217;s Technorati oznake&#8230;"
-
-#: wp-admin/import/btt.php:82
-#: wp-admin/import/jkw.php:97
-#: wp-admin/import/jkw.php:138
-#: wp-admin/import/utw.php:86
-msgid "No Tags Found!"
-msgstr "Nema pronađenih oznaka!"
-
-#: wp-admin/import/btt.php:86
-#: wp-admin/import/jkw.php:101
-#, php-format
-msgid "Done! <strong>%s</strong> post with tags were read."
-msgid_plural "Done! <strong>%s</strong> posts with tags were read."
-msgstr[0] "Završeno! <strong>%s</strong> članak sa oznakama je pročitan."
-msgstr[1] "Završeno! <strong>%s</strong> članaka sa oznakama je pročitano."
-
-#: wp-admin/import/btt.php:108
-#: wp-admin/import/jkw.php:123
-#: wp-admin/import/jkw.php:156
-msgid "Next"
-msgstr "Dalje"
-
-#: wp-admin/import/btt.php:115
-#: wp-admin/import/jkw.php:177
-#: wp-admin/import/stp.php:154
-#: wp-admin/import/utw.php:264
-msgid "Import Complete!"
-msgstr "Uvoz je završen!"
-
-#: wp-admin/import/btt.php:128
-msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
-msgstr "Uvezite Bunny&#8217;s Technorati oznake u WordPress oznake."
-
-#: wp-admin/import/dotclear.php:96
-msgid "Import DotClear"
-msgstr "Uvezi iz DotCleara"
 
 #: wp-admin/import/dotclear.php:107
 msgid "Howdy! This importer allows you to extract posts from a DotClear database into your blog.  Mileage may vary."
@@ -3231,47 +3167,6 @@ msgstr "GreyMatter"
 msgid "Import users, posts, and comments from a Greymatter blog."
 msgstr "Uvezite korisnike, članke i komentare iz GreyMatter bloga."
 
-#: wp-admin/import/jkw.php:21
-msgid "Import Jerome&#8217;s Keywords"
-msgstr "Uvezi Jerome&#8217;s ključne riječi"
-
-#: wp-admin/import/jkw.php:31
-msgid "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
-msgstr "Zdravo! Ovo je uvoznik oznaka iz Jerome&#8217;s ključnih riječi u WordPress oznake."
-
-#: wp-admin/import/jkw.php:32
-msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
-msgstr "Uvozni radi za Jerome&#8217;s ključne riječi verzije 1.x i 2.0a."
-
-#: wp-admin/import/jkw.php:33
-msgid "All existing Jerome&#8217;s Keywords will be removed after import."
-msgstr "Sve postojeći Jerome&#8217;s ključne riječi će biti uklonjene nakon uvoza."
-
-#: wp-admin/import/jkw.php:37
-msgid "Import Version 1.x"
-msgstr "Uvezi iz verzije 1.x"
-
-#: wp-admin/import/jkw.php:41
-msgid "Import Version 2.0a"
-msgstr "Uvezi iz verzije 2.0a"
-
-#: wp-admin/import/jkw.php:92
-#: wp-admin/import/jkw.php:132
-msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
-msgstr "Čitam Jerome&#8217;s ključne riječi..."
-
-#: wp-admin/import/jkw.php:142
-#: wp-admin/import/utw.php:101
-#, php-format
-msgid "Done! <strong>%s</strong> tag were read."
-msgid_plural "Done! <strong>%s</strong> tags were read."
-msgstr[0] "Završeno! <strong>%s</strong> oznaka je pročitana."
-msgstr[1] "Završeno! <strong>%s</strong> oznake su pročitane."
-
-#: wp-admin/import/jkw.php:190
-msgid "Import Jerome&#8217;s Keywords into WordPress tags."
-msgstr "Uvezite Jerome&#8217;s ključne riječi u WordPress oznake."
-
 #: wp-admin/import/livejournal.php:171
 msgid "Import LiveJournal"
 msgstr "Uvezi iz LiveJournala"
@@ -3560,7 +3455,7 @@ msgstr "Napravi korisnika %1$s ili dodijeli postojećeg"
 #: wp-admin/import/mt.php:215
 #: wp-admin/import/wordpress.php:236
 #: wp-admin/includes/dashboard.php:135
-#: wp-includes/post-template.php:1142
+#: wp-includes/post-template.php:1147
 msgid "Submit"
 msgstr "Pošalji"
 
@@ -3700,6 +3595,11 @@ msgstr "Uvoznik nije testiran ni na jednoj drugoj verziji Simple Tagginga."
 msgid "To accommodate larger databases for those tag-crazy authors out there, we have made this into an easy 4-step program to help you kick that nasty Simple Tagging habit. Just keep clicking along and we will let you know when you are in the clear!"
 msgstr "Da bismo se prilagodili velikim bazama podataka zbog onih ludih autora opsjednutih oznakama :), podijelili smo ovaj program u četiri koraka da vam pomognemo u odvikavanju od loše navike Simple Tagginga. Samo pratite upute a mi ćemo se pobrinuti o vašem odvikavanju!"
 
+#: wp-admin/import/stp.php:33
+#: wp-admin/import/utw.php:34
+msgid "Don&#8217;t be stupid - backup your database before proceeding!"
+msgstr "Opreza nikad dosta - napravite backup vaše baze prije nastavka!"
+
 #: wp-admin/import/stp.php:36
 #: wp-admin/import/utw.php:36
 msgid "Step 1"
@@ -3743,6 +3643,11 @@ msgstr[1] "Završeno! <strong>%s</strong> oznaka je dodano!"
 #: wp-admin/import/utw.php:159
 msgid "Step 3"
 msgstr "Korak 3"
+
+#: wp-admin/import/stp.php:154
+#: wp-admin/import/utw.php:264
+msgid "Import Complete!"
+msgstr "Uvoz je završen!"
 
 #: wp-admin/import/stp.php:155
 msgid "OK, so we lied about this being a 4-step program! You&#8217;re done!"
@@ -3840,6 +3745,17 @@ msgstr "Da bismo se prilagodili velikim bazama podataka zbog onih ludih autora o
 #: wp-admin/import/utw.php:80
 msgid "Reading UTW Tags&#8230;"
 msgstr "Čitam UTW oznake&#8230;"
+
+#: wp-admin/import/utw.php:86
+msgid "No Tags Found!"
+msgstr "Nema pronađenih oznaka!"
+
+#: wp-admin/import/utw.php:101
+#, php-format
+msgid "Done! <strong>%s</strong> tag were read."
+msgid_plural "Done! <strong>%s</strong> tags were read."
+msgstr[0] "Završeno! <strong>%s</strong> oznaka je pročitana."
+msgstr[1] "Završeno! <strong>%s</strong> oznake su pročitane."
 
 #: wp-admin/import/utw.php:102
 msgid "The following tags were found:"
@@ -4586,7 +4502,7 @@ msgstr[0] "oznaka"
 msgstr[1] "oznaka"
 
 #: wp-admin/includes/dashboard.php:306
-#: wp-content/plugins/akismet/akismet.php:893
+#: wp-content/plugins/akismet/akismet.php:903
 msgid "Spam"
 msgid_plural "Spam"
 msgstr[0] "spam"
@@ -4637,7 +4553,7 @@ msgstr "Također možete probati %s, jednostavno bloganje bilo gdje na Webu."
 #: wp-admin/tools.php:82
 #: wp-admin/tools.php:87
 msgid "Press This"
-msgstr "Pritisni ovo"
+msgstr "Objavi ovo"
 
 #: wp-admin/includes/dashboard.php:399
 #: wp-includes/post.php:3423
@@ -4677,7 +4593,7 @@ msgstr "Odgovori na ovaj komentar"
 
 #: wp-admin/includes/dashboard.php:543
 #: wp-admin/includes/template.php:2156
-#: wp-includes/comment-template.php:1000
+#: wp-includes/comment-template.php:1002
 msgid "Reply"
 msgstr "Odgovori"
 
@@ -4705,14 +4621,14 @@ msgstr "[Na čekanju]"
 #: wp-admin/includes/dashboard.php:576
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:649
+#: wp-includes/comment-template.php:651
 msgid "Pingback"
 msgstr "Povratni ping"
 
 #: wp-admin/includes/dashboard.php:579
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:648
+#: wp-includes/comment-template.php:650
 msgid "Trackback"
 msgstr "Povratni poziv"
 
@@ -4751,8 +4667,7 @@ msgstr "Ovaj dodatak na kontrolnoj ploči koristi <a href=\"http://blogsearch.go
 
 #: wp-admin/includes/dashboard.php:653
 #: wp-admin/includes/dashboard.php:655
-#: wp-admin/page.php:102
-#: wp-admin/post.php:137
+#: wp-admin/includes/post.php:1071
 msgid "Somebody"
 msgstr "Neko"
 
@@ -5020,7 +4935,7 @@ msgstr "Poslužitelj"
 
 #: wp-admin/includes/file.php:755
 #: wp-admin/includes/template.php:898
-#: wp-admin/install.php:129
+#: wp-admin/install.php:135
 #: wp-admin/user-edit.php:187
 #: wp-admin/user-new.php:96
 #: wp-login.php:413
@@ -5030,7 +4945,7 @@ msgstr "Korisničko ime"
 
 #: wp-admin/includes/file.php:760
 #: wp-admin/includes/template.php:1079
-#: wp-admin/install.php:133
+#: wp-admin/install.php:139
 #: wp-admin/options-writing.php:100
 #: wp-admin/user-new.php:119
 #: wp-login.php:511
@@ -5510,7 +5425,7 @@ msgstr "Plugini proširuju funkcionalnost WordPressa. Automatski možete instali
 #: wp-admin/includes/theme-install.php:162
 #: wp-admin/plugin-install.php:24
 #: wp-admin/theme-install.php:29
-#: wp-content/plugins/akismet/akismet.php:704
+#: wp-content/plugins/akismet/akismet.php:714
 #: wp-content/themes/classic/sidebar.php:21
 #: wp-includes/default-widgets.php:176
 #: wp-includes/general-template.php:127
@@ -5584,7 +5499,7 @@ msgstr "Verzija"
 
 #: wp-admin/includes/plugin-install.php:305
 #: wp-admin/includes/plugin-install.php:315
-#: wp-includes/post-template.php:1341
+#: wp-includes/post-template.php:1346
 msgid "Actions"
 msgstr "Akcije"
 
@@ -5918,7 +5833,7 @@ msgstr[0] "Video <span class=\"count\">(%s)</span>"
 msgstr[1] "Video <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:976
-#: wp-content/plugins/akismet/akismet.php:822
+#: wp-content/plugins/akismet/akismet.php:832
 msgid "View Post"
 msgstr "Pregledaj članak"
 
@@ -5939,7 +5854,22 @@ msgstr "Promijeni trajni link"
 msgid "Click to edit this part of the permalink"
 msgstr "Pritisnite ovdje za uređivanje ovog dijela trajnog linka"
 
-#: wp-admin/includes/post.php:1109
+#: wp-admin/includes/post.php:1075
+#, php-format
+msgid "Warning: %s is currently editing this post"
+msgstr "Upozorenje: %s trenutno uređuje ovaj članak"
+
+#: wp-admin/includes/post.php:1078
+#, php-format
+msgid "Warning: %s is currently editing this page"
+msgstr "Upozorenje: %s trenutno uređuje ovu stranicu"
+
+#: wp-admin/includes/post.php:1081
+#, php-format
+msgid "Warning: %s is currently editing this."
+msgstr "Upozorenje: %s trenutno uređuje ovo"
+
+#: wp-admin/includes/post.php:1135
 msgid "Preview not available. Please save as a draft first."
 msgstr "Pregled nije dostupan. Prvo sačuvajte skicu."
 
@@ -6791,19 +6721,19 @@ msgstr "Nije moguće locirati direktorij za WordPress teme."
 msgid "Could not fully remove the theme %s"
 msgstr "Nije moguće u potpunosti ukloniti temu %s"
 
-#: wp-admin/includes/update-core.php:213
+#: wp-admin/includes/update-core.php:215
 msgid "Verifying the unpacked files"
 msgstr "Provjera raspakovanih datoteka"
 
-#: wp-admin/includes/update-core.php:217
+#: wp-admin/includes/update-core.php:219
 msgid "The update could not be unpacked"
 msgstr "Nadogradnja se ne može raspakovati"
 
-#: wp-admin/includes/update-core.php:220
+#: wp-admin/includes/update-core.php:222
 msgid "Installing the latest version"
 msgstr "Instaliram najnoviju verziju"
 
-#: wp-admin/includes/update-core.php:245
+#: wp-admin/includes/update-core.php:247
 msgid "Upgrading database"
 msgstr "Nadograđujem bazu podataka"
 
@@ -6827,12 +6757,12 @@ msgstr "<a href=\"%1$s\">Preuzmi verziju %2$s</a>"
 #: wp-admin/includes/update.php:129
 #, php-format
 msgid "WordPress %1$s is available! <a href=\"%2$s\">Please update now</a>."
-msgstr "WordPRess %1$s je dostupan! <a href=\"%2$s\">Molimo vas da sada izvršite nadogradnju</a>."
+msgstr "WordPress %1$s je dostupan! <a href=\"%2$s\">Molimo vas da sada izvršite nadogradnju</a>."
 
 #: wp-admin/includes/update.php:131
 #, php-format
 msgid "WordPress %1$s is available! Please notify the site administrator."
-msgstr "WordPres %1$s je dostupan! Molimo vas da obavijestite administratora stranice."
+msgstr "WordPress %1$s je dostupan! Molimo vas da obavijestite administratora stranice."
 
 #: wp-admin/includes/update.php:141
 #, php-format
@@ -7051,79 +6981,79 @@ msgstr "Kontrolna ploča"
 msgid "WordPress &rsaquo; Installation"
 msgstr "Instalacija WordPressa"
 
-#: wp-admin/install.php:54
+#: wp-admin/install.php:60
 #, php-format
 msgid "<strong>ERROR</strong>: %s"
 msgstr "<strong>GREŠKA</strong>: %s"
 
-#: wp-admin/install.php:59
+#: wp-admin/install.php:65
 #: wp-admin/options-general.php:65
 #: xmlrpc.php:404
 msgid "Blog Title"
 msgstr "Naslov bloga"
 
-#: wp-admin/install.php:63
+#: wp-admin/install.php:69
 msgid "Your E-mail"
 msgstr "Vaš email"
 
-#: wp-admin/install.php:65
+#: wp-admin/install.php:71
 msgid "Double-check your email address before continuing."
 msgstr "Dvaput provjerite vašu email adresu prije nego nastavite."
 
-#: wp-admin/install.php:68
+#: wp-admin/install.php:74
 msgid "Allow my blog to appear in search engines like Google and Technorati."
 msgstr "Dozvoli mom blogu da se pojavljuje na stranicama za pretragu kao što su Google i Technorati."
 
-#: wp-admin/install.php:71
+#: wp-admin/install.php:77
 msgid "Install WordPress"
 msgstr "Instaliraj WordPress"
 
-#: wp-admin/install.php:77
+#: wp-admin/install.php:83
 msgid "Already Installed"
 msgstr "Već instaliran"
 
-#: wp-admin/install.php:77
+#: wp-admin/install.php:83
 msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
 msgstr "Izgleda da ste već instalirali WordPress. Za reinstalaciju molimo vas da prvo očistite stare tabele u vašoj bazi podataka."
 
-#: wp-admin/install.php:84
+#: wp-admin/install.php:90
 msgid "Welcome"
 msgstr "Dobro došli"
 
-#: wp-admin/install.php:85
+#: wp-admin/install.php:91
 #, php-format
 msgid "Welcome to the famous five minute WordPress installation process! You may want to browse the <a href=\"%s\">ReadMe documentation</a> at your leisure.  Otherwise, just fill in the information below and you&#8217;ll be on your way to using the most extendable and powerful personal publishing platform in the world."
 msgstr "Dobro došli u poznatu petominutnu instalaciju WordPressa! Preporučujemo vam da pogledate <a href=\"%s\">dokumentaciju</a>. U suprotnom, samo popunite informacije ispod i bit ćete na putu ka korištenju najmoćnije i najfleksibilnije platforme za objavljivanje na svijetu."
 
-#: wp-admin/install.php:86
+#: wp-admin/install.php:92
 msgid "First Step"
 msgstr "Prvi korak"
 
-#: wp-admin/install.php:88
+#: wp-admin/install.php:94
 msgid "Information needed"
 msgstr "Potrebne informacije"
 
-#: wp-admin/install.php:89
+#: wp-admin/install.php:95
 msgid "Please provide the following information.  Don&#8217;t worry, you can always change these settings later."
 msgstr "Molimo vas da nam date sljedeće informacije. Ne brinite se, ove postavke uvijek možete izmijeniti kasnije."
 
-#: wp-admin/install.php:109
+#: wp-admin/install.php:115
 msgid "you must provide an e-mail address."
 msgstr "morate upisati email adresu."
 
-#: wp-admin/install.php:113
+#: wp-admin/install.php:119
 msgid "that isn&#8217;t a valid e-mail address.  E-mail addresses look like: <code>username@example.com</code>"
 msgstr "to nije ispravna email adresa. Email adrese izgledaju ovako: <code>bosna@sampion.ba</code>"
 
-#: wp-admin/install.php:123
+#: wp-admin/install.php:129
 msgid "Success!"
 msgstr "Uspjeh!"
 
-#: wp-admin/install.php:125
+#: wp-admin/install.php:131
 msgid "WordPress has been installed. Were you expecting more steps? Sorry to disappoint."
 msgstr "WordPress je instaliran. Očekivali ste duži proces? Morali smo vas razočarati. :)"
 
-#: wp-admin/install.php:141
+#: wp-admin/install.php:147
 #: wp-login.php:498
 #: wp-login.php:517
 msgid "Log In"
@@ -8065,11 +7995,6 @@ msgstr "Uredi stranicu"
 msgid "You attempted to edit a page that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "Pokušali ste urediti stranicu koja ne postoji. Možda je obrisana?"
 
-#: wp-admin/page.php:103
-#, php-format
-msgid "Warning: %s is currently editing this page"
-msgstr "Upozorenje: %s trenutno uređuje ovu stranicu"
-
 #: wp-admin/plugin-editor.php:12
 msgid "Edit Plugins"
 msgstr "Uredi plugine"
@@ -8377,12 +8302,7 @@ msgstr ""
 msgid "You attempted to edit a post that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "Pokušavate urediti članak koji ne postoji. Možda je obrisan?"
 
-#: wp-admin/post.php:138
-#, php-format
-msgid "Warning: %s is currently editing this post"
-msgstr "Upozorenje: %s trenutno uređuje ovaj članak"
-
-#: wp-admin/post.php:147
+#: wp-admin/post.php:143
 msgid "Edit Post"
 msgstr "Uredi članak"
 
@@ -8448,14 +8368,14 @@ msgid "Embed a Video"
 msgstr "Ugradi video"
 
 #: wp-admin/press-this.php:542
-#: wp-includes/general-template.php:1661
-#: wp-includes/general-template.php:1666
+#: wp-includes/general-template.php:1662
+#: wp-includes/general-template.php:1667
 msgid "HTML"
 msgstr "HTML"
 
 #: wp-admin/press-this.php:543
-#: wp-includes/general-template.php:1662
-#: wp-includes/general-template.php:1667
+#: wp-includes/general-template.php:1663
+#: wp-includes/general-template.php:1668
 msgid "Visual"
 msgstr "Vizuelno"
 
@@ -8492,7 +8412,7 @@ msgid "Post published."
 msgstr "Članak je objavljen."
 
 #: wp-admin/sidebar.php:103
-#: wp-content/plugins/akismet/akismet.php:1074
+#: wp-content/plugins/akismet/akismet.php:1084
 #: wp-includes/default-widgets.php:67
 #: wp-includes/default-widgets.php:197
 #: wp-includes/default-widgets.php:263
@@ -8767,11 +8687,11 @@ msgstr "Tubro nije dostupan za vaš pretraživač."
 
 #: wp-admin/tools.php:83
 msgid "Press This is a bookmarklet: a little app that runs in your browser and lets you grab bits of the web."
-msgstr "Pritisni ovo radi sa zabilješkama: to je mala aplikacija koja je pokrenuta unutar vašeg pretraživača i koja vam dopušta da uhvatite djeliće weba."
+msgstr "Objavi ovo radi sa zabilješkama: to je mala aplikacija koja je pokrenuta unutar vašeg pretraživača i koja vam dopušta da uhvatite djeliće weba."
 
 #: wp-admin/tools.php:85
 msgid "Use Press This to clip text, images and videos from any web page. Then edit and add more straight from Press This before you save or publish it in a post on your blog."
-msgstr "Koristite Pritisni ovo za isjecanje teksta, slika i videa sa bilo koje web stranice. Zatim to možete urediti i dodati još ponešto direktno iz aplikacije prije nego sačuvate odabrano ili objavite članak na vašem blogu."
+msgstr "Koristite dugme Objavi ovo za isjecanje teksta, slika i videa sa bilo koje web stranice. Zatim to možete urediti i dodati još ponešto direktno iz aplikacije prije nego sačuvate odabrano ili objavite članak na vašem blogu."
 
 #: wp-admin/tools.php:86
 msgid "Drag-and-drop the following link to your bookmarks bar or right click it and add it to your favorites for a posting shortcut."
@@ -8807,7 +8727,7 @@ msgstr "Ponovo instaliraj automatski"
 #: wp-admin/update-core.php:33
 #, php-format
 msgid "You can upgrade to version %s automatically or download the package and install it manually:"
-msgstr "MOžete nadograditi na verziju %s automatski ili preuzeti paket i instalirati ga ručno:"
+msgstr "Možete nadograditi na verziju %s automatski ili preuzeti paket i instalirati ga ručno:"
 
 #: wp-admin/update-core.php:35
 #, php-format
@@ -9471,9 +9391,9 @@ msgstr "Žao nam je, nemate pravo da uređujete/objavljujete nove članke."
 
 #: wp-app.php:473
 #: wp-app.php:671
-#: wp-app.php:853
-#: xmlrpc.php:1877
-#: xmlrpc.php:2215
+#: wp-app.php:862
+#: xmlrpc.php:1890
+#: xmlrpc.php:2228
 msgid "Sorry, your entry could not be posted. Something wrong happened."
 msgstr "Žao nam je, vaš unos nije objavljen. Nešto je pošlo naopako."
 
@@ -9484,26 +9404,26 @@ msgstr "Žao nam je, nemate pravo pristupa ovome članku."
 #: wp-app.php:535
 #: wp-app.php:703
 #: wp-app.php:779
-#: wp-app.php:821
-#: xmlrpc.php:1919
+#: wp-app.php:830
+#: xmlrpc.php:1932
 msgid "Sorry, you do not have the right to edit this post."
 msgstr "Žao nam je, nemate pravo da uređujete ovaj članak."
 
 #: wp-app.php:558
 #: wp-app.php:719
-#: xmlrpc.php:1935
+#: xmlrpc.php:1948
 msgid "For some strange yet very annoying reason, this post could not be edited."
 msgstr "Zbog nekog čudnog i nepoznatog razloga, ovaj članak ne može biti uređivan."
 
 #: wp-app.php:581
 #: wp-app.php:741
-#: xmlrpc.php:1971
+#: xmlrpc.php:1984
 msgid "Sorry, you do not have the right to delete this post."
 msgstr "Žao nam je, nemate pravo da obrišete ovaj članak."
 
 #: wp-app.php:590
 #: wp-app.php:757
-#: xmlrpc.php:1976
+#: xmlrpc.php:1989
 msgid "For some strange yet very annoying reason, this post could not be deleted."
 msgstr "Zbog nekog čudnog i nepoznatog razloga, ovaj članak nije moguće obrisati."
 
@@ -9512,8 +9432,8 @@ msgid "Sorry, you do not have permission to upload files."
 msgstr "Žao nam je, nemate dozvolu za dodavanje datoteka."
 
 #: wp-app.php:748
-#: wp-app.php:786
-#: wp-app.php:831
+#: wp-app.php:787
+#: wp-app.php:840
 msgid "Error ocurred while accessing post metadata for file location."
 msgstr "Greška prilikom pristupa meta podacima članka za ovu lokaciju datoteke."
 
@@ -9700,146 +9620,146 @@ msgstr "Akismet je otkrio problem."
 msgid "A server or network problem is preventing Akismet from working correctly.  <a href=\"%1$s\">Click here for more information</a> about how to fix the problem."
 msgstr "Server ili mrežni problem onemogućava Akismet da radi pravilno. Za više detalja o popravci ovog problema <a href=\"%1$s\">pritisnite ovdje</a>."
 
-#: wp-content/plugins/akismet/akismet.php:579
+#: wp-content/plugins/akismet/akismet.php:589
 #, php-format
 msgid "Akismet Spam (%s)"
 msgstr "Akismet spam (%s)"
 
-#: wp-content/plugins/akismet/akismet.php:581
-#: wp-content/plugins/akismet/akismet.php:583
+#: wp-content/plugins/akismet/akismet.php:591
+#: wp-content/plugins/akismet/akismet.php:593
 msgid "Akismet Spam"
 msgstr "Akismet spam"
 
-#: wp-content/plugins/akismet/akismet.php:593
-#: wp-content/plugins/akismet/akismet.php:612
+#: wp-content/plugins/akismet/akismet.php:603
+#: wp-content/plugins/akismet/akismet.php:622
 msgid "You do not have sufficient permission to moderate comments."
 msgstr "Nemate dozvolu za moderaciju komentara."
 
-#: wp-content/plugins/akismet/akismet.php:624
+#: wp-content/plugins/akismet/akismet.php:634
 #, php-format
 msgid "%1$s comments recovered."
 msgstr "%1$s vraćenih komentara."
 
-#: wp-content/plugins/akismet/akismet.php:628
+#: wp-content/plugins/akismet/akismet.php:638
 msgid "All spam deleted."
 msgstr "Sav spam je obrisan."
 
-#: wp-content/plugins/akismet/akismet.php:676
+#: wp-content/plugins/akismet/akismet.php:686
 msgid "Caught Spam"
 msgstr "Uhvaćeni spam"
 
-#: wp-content/plugins/akismet/akismet.php:681
+#: wp-content/plugins/akismet/akismet.php:691
 #, php-format
 msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
 msgstr "Akismet je uhvatio <strong>%1$s spam poruka</strong> za vas od kada je instaliran."
 
-#: wp-content/plugins/akismet/akismet.php:688
+#: wp-content/plugins/akismet/akismet.php:698
 msgid "You have no spam currently in the queue. Must be your lucky day. :)"
 msgstr "Trenutno nemate spama u redu za čekanje. Sigurno je ovo vaš sretan dan :)"
 
-#: wp-content/plugins/akismet/akismet.php:691
+#: wp-content/plugins/akismet/akismet.php:701
 msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
 msgstr "Jednim klikom možete obrisati sav spam iz vaše baze podataka. Ova operacija ne može biti poništena, pa vam zato preporučujemo da provjerite da li u spamu ima običnih komentara. Spam se automatski briše nakon 15 dana, tako da se ne morate sekirati."
 
-#: wp-content/plugins/akismet/akismet.php:697
-#: wp-content/plugins/akismet/akismet.php:875
+#: wp-content/plugins/akismet/akismet.php:707
+#: wp-content/plugins/akismet/akismet.php:885
 #, php-format
 msgid "There are currently %1$s comments identified as spam."
 msgstr "Trenutno je %1$s komentara identifikovano kao spam."
 
-#: wp-content/plugins/akismet/akismet.php:697
-#: wp-content/plugins/akismet/akismet.php:875
+#: wp-content/plugins/akismet/akismet.php:707
+#: wp-content/plugins/akismet/akismet.php:885
 msgid "Delete all"
 msgstr "Obriši sve"
 
-#: wp-content/plugins/akismet/akismet.php:706
+#: wp-content/plugins/akismet/akismet.php:716
 msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
 msgstr "Ovo su najnoviji komentari koje je Akismet označio kao spam. Ako vidite neke greške, jednostavno označite da komentar \"nije spam\" i Akismet će naučiti iz svojih grešaka. Ako želite povratiti komentar i spama, jednostavno obilježite komentar i pritisnite Nije spam. Nakon 15 dana mi čistimo smeće za vas."
 
-#: wp-content/plugins/akismet/akismet.php:760
+#: wp-content/plugins/akismet/akismet.php:770
 msgid "Search Spam &raquo;"
 msgstr "Pretraga spama &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:767
-#: wp-content/plugins/akismet/akismet.php:834
+#: wp-content/plugins/akismet/akismet.php:777
+#: wp-content/plugins/akismet/akismet.php:844
 #: wp-includes/link-template.php:1445
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Prethodna stranica"
 
-#: wp-content/plugins/akismet/akismet.php:788
-#: wp-content/plugins/akismet/akismet.php:855
+#: wp-content/plugins/akismet/akismet.php:798
+#: wp-content/plugins/akismet/akismet.php:865
 #: wp-includes/link-template.php:1446
 msgid "Next Page &raquo;"
 msgstr "Sljedeća stranica &laquo;"
 
-#: wp-content/plugins/akismet/akismet.php:810
+#: wp-content/plugins/akismet/akismet.php:820
 msgid "IP:"
 msgstr "IP:"
 
-#: wp-content/plugins/akismet/akismet.php:816
+#: wp-content/plugins/akismet/akismet.php:826
 msgid "Not Spam"
 msgstr "Nije spam"
 
-#: wp-content/plugins/akismet/akismet.php:861
+#: wp-content/plugins/akismet/akismet.php:871
 msgid "De-spam marked comments &raquo;"
 msgstr "Ukloni spam oznaku na označenim komentarima &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:863
+#: wp-content/plugins/akismet/akismet.php:873
 msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
 msgstr "Komentari na kojima uklonite spam oznaku će biti poslani Akismetu kao greške da bi ih u budućnosti mogao prepoznati i poboljšati se."
 
-#: wp-content/plugins/akismet/akismet.php:899
+#: wp-content/plugins/akismet/akismet.php:909
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
 msgstr "<a href=\"%1$s\">Akismet</a> je zaštitio vašu stranicu od <a href=\"%2$s\">%3$s spam komentara</a>."
 
-#: wp-content/plugins/akismet/akismet.php:917
+#: wp-content/plugins/akismet/akismet.php:927
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
 msgstr[0] "<a href=\"%1$s\">Akismet</a> je već zaštitio vašu stranicu od %2$s spam komentara,"
 msgstr[1] "<a href=\"%1$s\">Akismet</a> je već zaštitio vašu stranicu od %2$s spam komentara,"
 
-#: wp-content/plugins/akismet/akismet.php:922
+#: wp-content/plugins/akismet/akismet.php:932
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
 msgstr "<a href=\"%1$s\">Akismet</a> blokira spam na vašem blogu,"
 
-#: wp-content/plugins/akismet/akismet.php:927
+#: wp-content/plugins/akismet/akismet.php:937
 #, php-format
 msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
 msgstr[0] "i trenutno ima <a href=\"%2$s\">%1$s komentar</a> u vašem spam redu za čekanje."
 msgstr[1] "i trenutno ima <a href=\"%2$s\">%1$s komentara</a> u vašem spam redu za čekanje."
 
-#: wp-content/plugins/akismet/akismet.php:932
+#: wp-content/plugins/akismet/akismet.php:942
 #, php-format
 msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
 msgstr "i trenutno nema ništa u vašem <a href='%1$s'>spam redu za čekanje</a>."
 
-#: wp-content/plugins/akismet/akismet.php:935
+#: wp-content/plugins/akismet/akismet.php:945
 #, php-format
 msgid "%1$s %2$s|akismet_rightnow"
 msgstr "%1$s %2$s"
 
-#: wp-content/plugins/akismet/akismet.php:950
+#: wp-content/plugins/akismet/akismet.php:960
 msgid "Recheck Queue for Spam"
 msgstr "Ponovo provjeri red za spam"
 
-#: wp-content/plugins/akismet/akismet.php:967
+#: wp-content/plugins/akismet/akismet.php:977
 msgid "Check for Spam"
 msgstr "Provjeri ima li spama"
 
-#: wp-content/plugins/akismet/akismet.php:1042
+#: wp-content/plugins/akismet/akismet.php:1052
 #, php-format
 msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
 msgstr "%1$s %2$sspam komentara%3$s %4$sblokiranih od stranice%5$s<br />%6$sAkismeta%7$s"
 
-#: wp-content/plugins/akismet/akismet.php:1104
+#: wp-content/plugins/akismet/akismet.php:1114
 msgid "spam comments"
 msgstr "spam komentari"
 
-#: wp-content/plugins/akismet/akismet.php:1104
+#: wp-content/plugins/akismet/akismet.php:1114
 msgid "blocked by"
 msgstr "blokirano od"
 
@@ -9926,20 +9846,20 @@ msgid "Enter your password to view comments."
 msgstr "Unesite vašu šifru da biste vidjeli komentare."
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:555
-#: wp-includes/comment-template.php:935
+#: wp-includes/comment-template.php:557
+#: wp-includes/comment-template.php:937
 msgid "No Comments"
 msgstr "Nema komentara"
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:557
-#: wp-includes/comment-template.php:936
+#: wp-includes/comment-template.php:559
+#: wp-includes/comment-template.php:938
 msgid "1 Comment"
 msgstr "1 komentar"
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:553
-#: wp-includes/comment-template.php:937
+#: wp-includes/comment-template.php:555
+#: wp-includes/comment-template.php:939
 msgid "% Comments"
 msgstr "% komentara"
 
@@ -9982,7 +9902,7 @@ msgid "Filed under:"
 msgstr "Zavedeno u:"
 
 #: wp-content/themes/classic/index.php:15
-#: wp-includes/category-template.php:802
+#: wp-includes/category-template.php:804
 msgid "Tags: "
 msgstr "Oznake: "
 
@@ -10016,7 +9936,7 @@ msgid "Older Posts &raquo;"
 msgstr "Stariji članci  &raquo;"
 
 #: wp-content/themes/classic/sidebar.php:13
-#: wp-includes/post-template.php:563
+#: wp-includes/post-template.php:567
 msgid "Pages:"
 msgstr "Stranice:"
 
@@ -10177,12 +10097,12 @@ msgstr "Zabilješke"
 msgid "View all posts in %s"
 msgstr "Pregledaj sve članke u %s"
 
-#: wp-includes/category-template.php:459
 #: wp-includes/category-template.php:461
+#: wp-includes/category-template.php:463
 msgid "No categories"
 msgstr "Nema kategorija"
 
-#: wp-includes/category-template.php:563
+#: wp-includes/category-template.php:565
 #, php-format
 msgid "%s topic"
 msgid_plural "%s topics"
@@ -10285,59 +10205,59 @@ msgstr "Pregledaj sve članke pohranjene u %s"
 msgid "Feed for all posts filed under %s"
 msgstr "Novosti za sve članke pohranjene u %s"
 
-#: wp-includes/comment-template.php:938
+#: wp-includes/comment-template.php:940
 msgid "Comments Off"
 msgstr "Komentari su isključeni"
 
-#: wp-includes/comment-template.php:948
+#: wp-includes/comment-template.php:950
 msgid "Enter your password to view comments"
 msgstr "Unesite vašu šifru da biste vidjeli komentare"
 
-#: wp-includes/comment-template.php:975
+#: wp-includes/comment-template.php:977
 #, php-format
 msgid "Comment on %s"
 msgstr "Komentari na %s"
 
-#: wp-includes/comment-template.php:1001
+#: wp-includes/comment-template.php:1003
 msgid "Log in to Reply"
 msgstr "Prijavite se da biste komentarisali"
 
-#: wp-includes/comment-template.php:1059
+#: wp-includes/comment-template.php:1061
 msgid "Leave a Comment"
 msgstr "Napiši komentar"
 
-#: wp-includes/comment-template.php:1060
+#: wp-includes/comment-template.php:1062
 msgid "Log in to leave a Comment"
 msgstr "Prijavite se da napišete komentar"
 
-#: wp-includes/comment-template.php:1099
+#: wp-includes/comment-template.php:1101
 msgid "Click here to cancel reply."
 msgstr "Pritisnite ovdje da poništite odgovor."
 
-#: wp-includes/comment-template.php:1142
+#: wp-includes/comment-template.php:1144
 msgid "Leave a Reply"
 msgstr "Odgovori"
 
-#: wp-includes/comment-template.php:1143
+#: wp-includes/comment-template.php:1145
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr "Odgovori na %s"
 
-#: wp-includes/comment-template.php:1261
+#: wp-includes/comment-template.php:1263
 #, php-format
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
 msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">kaže:</span>"
 
-#: wp-includes/comment-template.php:1264
+#: wp-includes/comment-template.php:1266
 msgid "Your comment is awaiting moderation."
 msgstr "Vaše komentar čeka moderaciju."
 
-#: wp-includes/comment-template.php:1268
+#: wp-includes/comment-template.php:1270
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s u %2$s"
 
-#: wp-includes/comment-template.php:1268
+#: wp-includes/comment-template.php:1270
 msgid "(Edit)"
 msgstr "(Uredi)"
 
@@ -10647,21 +10567,21 @@ msgctxt "closing curly quote"
 msgid "&#8221;"
 msgstr "&#8221;"
 
-#: wp-includes/formatting.php:1661
+#: wp-includes/formatting.php:1664
 #, php-format
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s minuta"
 msgstr[1] "%s minuta"
 
-#: wp-includes/formatting.php:1667
+#: wp-includes/formatting.php:1670
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s sat"
 msgstr[1] "%s sati"
 
-#: wp-includes/formatting.php:1673
+#: wp-includes/formatting.php:1676
 #, php-format
 msgid "%s day"
 msgid_plural "%s days"
@@ -10669,17 +10589,17 @@ msgstr[0] "%s dan"
 msgstr[1] "%s dana"
 
 #. translators: used between list items, there is a space after the coma
-#: wp-includes/formatting.php:2547
+#: wp-includes/formatting.php:2550
 msgid ", "
 msgstr ", "
 
 #. translators: used between list items, there is a space after the and
-#: wp-includes/formatting.php:2549
+#: wp-includes/formatting.php:2552
 msgid ", and "
 msgstr " i "
 
 #. translators: used between only two list items, there is a space after the and
-#: wp-includes/formatting.php:2551
+#: wp-includes/formatting.php:2554
 msgid " and "
 msgstr " i "
 
@@ -10969,66 +10889,66 @@ msgctxt "calendar caption"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
-#: wp-includes/general-template.php:1051
-#: wp-includes/general-template.php:1061
+#: wp-includes/general-template.php:1052
+#: wp-includes/general-template.php:1062
 #, php-format
 msgid "View posts for %1$s %2$s"
 msgstr "Prikaži sve članke za %1$s %2$s"
 
 #. translators: Separator between blog name and feed type in feed links
-#: wp-includes/general-template.php:1457
-#: wp-includes/general-template.php:1480
+#: wp-includes/general-template.php:1458
+#: wp-includes/general-template.php:1481
 msgctxt "feed link"
 msgid "&raquo;"
 msgstr "&raquo;"
 
 #. translators: 1: blog title, 2: separator (raquo)
-#: wp-includes/general-template.php:1459
+#: wp-includes/general-template.php:1460
 #, php-format
 msgid "%1$s %2$s Feed"
 msgstr "%1$s %2$s novosti"
 
 #. translators: %s: blog title, 2: separator (raquo)
-#: wp-includes/general-template.php:1461
+#: wp-includes/general-template.php:1462
 #, php-format
 msgid "%1$s %2$s Comments Feed"
 msgstr "%1$s %2$s  novosti o komentarima"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: post title
-#: wp-includes/general-template.php:1482
+#: wp-includes/general-template.php:1483
 #, php-format
 msgid "%1$s %2$s %3$s Comments Feed"
 msgstr "%1$s %2$s %3$s novosti o komentarima"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: category name
-#: wp-includes/general-template.php:1484
+#: wp-includes/general-template.php:1485
 #, php-format
 msgid "%1$s %2$s %3$s Category Feed"
 msgstr "%1$s %2$s %3$s  novosti o kategoriji"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: tag name
-#: wp-includes/general-template.php:1486
+#: wp-includes/general-template.php:1487
 #, php-format
 msgid "%1$s %2$s %3$s Tag Feed"
 msgstr "%1$s %2$s %3$s  novosti o oznaci"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: author name
-#: wp-includes/general-template.php:1488
+#: wp-includes/general-template.php:1489
 #, php-format
 msgid "%1$s %2$s Posts by %3$s Feed"
 msgstr "%1$s %2$s Novosti o člancima čiji je autor%3$s"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: search phrase
-#: wp-includes/general-template.php:1490
+#: wp-includes/general-template.php:1491
 #, php-format
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
 msgstr "%1$s %2$s rezultati pretrage za &#8220;%3$s&#8221;"
 
-#: wp-includes/general-template.php:1806
+#: wp-includes/general-template.php:1807
 msgid "&laquo; Previous"
 msgstr "&laquo; Prethodna"
 
-#: wp-includes/general-template.php:1807
+#: wp-includes/general-template.php:1808
 msgid "Next &raquo;"
 msgstr "Sljedeća &raquo;"
 
@@ -13003,61 +12923,61 @@ msgstr "Privatno: %s"
 msgid "There is no excerpt because this is a protected post."
 msgstr "Nema izvatka zbog toga što je ovo zaštićen članak."
 
-#: wp-includes/post-template.php:565
+#: wp-includes/post-template.php:569
 msgid "Next page"
 msgstr "Sljedeća stranica"
 
-#: wp-includes/post-template.php:566
+#: wp-includes/post-template.php:570
 msgid "Previous page"
 msgstr "Prethodna stranica"
 
-#: wp-includes/post-template.php:820
+#: wp-includes/post-template.php:825
 msgid "Home"
 msgstr "Početna"
 
-#: wp-includes/post-template.php:930
-#: wp-includes/post-template.php:967
+#: wp-includes/post-template.php:935
+#: wp-includes/post-template.php:972
 msgid "Missing Attachment"
 msgstr "Nedostaje prilog"
 
-#: wp-includes/post-template.php:1141
+#: wp-includes/post-template.php:1146
 msgid "This post is password protected. To view it please enter your password below:"
 msgstr "Ovaj članak je zaštićen šifrom. Da biste ga pregledali molimo vas da unesete šifru ispod:"
 
 #. translators: revision date format, see http://php.net/date
-#: wp-includes/post-template.php:1205
+#: wp-includes/post-template.php:1210
 msgctxt "revision date format"
 msgid "j F, Y @ G:i"
 msgstr "j. F Y. @ H:i"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1207
+#: wp-includes/post-template.php:1212
 #, php-format
 msgid "%1$s [Autosave]"
 msgstr "%1$s [Automatski snimak]"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1209
+#: wp-includes/post-template.php:1214
 #, php-format
 msgid "%1$s [Current Revision]"
 msgstr "%1$s [Trenutna revizija]"
 
 #. translators: post revision: 1: when, 2: author name
-#: wp-includes/post-template.php:1275
+#: wp-includes/post-template.php:1280
 #, php-format
 msgctxt "post revision"
 msgid "%1$s by %2$s"
 msgstr "%1$s od %2$s"
 
-#: wp-includes/post-template.php:1302
+#: wp-includes/post-template.php:1307
 msgid "Restore"
 msgstr "Vrati"
 
-#: wp-includes/post-template.php:1324
+#: wp-includes/post-template.php:1329
 msgid "Compare Revisions"
 msgstr "Uporedi revizije"
 
-#: wp-includes/post-template.php:1339
+#: wp-includes/post-template.php:1344
 msgid "Date Created"
 msgstr "Datum pravljenja"
 
@@ -13605,254 +13525,254 @@ msgstr "Opis bloga"
 msgid "Sorry, you cannot edit this page."
 msgstr "Žao nam je, ne možete uređivati ovu stranicu."
 
-#: xmlrpc.php:573
-#: xmlrpc.php:691
-#: xmlrpc.php:737
+#: xmlrpc.php:578
+#: xmlrpc.php:696
+#: xmlrpc.php:742
 msgid "Sorry, no such page."
 msgstr "Žao nam je, nema takve stranice."
 
-#: xmlrpc.php:598
-#: xmlrpc.php:783
+#: xmlrpc.php:603
+#: xmlrpc.php:788
 msgid "Sorry, you cannot edit pages."
 msgstr "Žao nam je, ne možete uređivati stranice."
 
-#: xmlrpc.php:652
+#: xmlrpc.php:657
 msgid "Sorry, you cannot add new pages."
 msgstr "Žao nam je, ne možete dodavati nove stranice."
 
-#: xmlrpc.php:696
+#: xmlrpc.php:701
 msgid "Sorry, you do not have the right to delete this page."
 msgstr "Žao nam je, nemate privilegije za brisanje ove stranice."
 
-#: xmlrpc.php:702
+#: xmlrpc.php:707
 msgid "Failed to delete the page."
 msgstr "Brisanje stranice nije uspjelo."
 
-#: xmlrpc.php:742
+#: xmlrpc.php:747
 msgid "Sorry, you do not have the right to edit this page."
 msgstr "Žao nam je, nemate privilegije za uređivanje ove stranice."
 
-#: xmlrpc.php:836
+#: xmlrpc.php:849
 msgid "Sorry, you cannot edit posts on this blog."
 msgstr "Žao nam je, ne možete uređivati članke na ovome blogu."
 
-#: xmlrpc.php:873
+#: xmlrpc.php:886
 msgid "Sorry, you must be able to edit posts on this blog in order to view tags."
 msgstr "Žao nam je, morate biti u mogućnosti da uređujete članke na ovome blogu da biste mogli vidjeti oznake."
 
-#: xmlrpc.php:920
+#: xmlrpc.php:933
 msgid "Sorry, you do not have the right to add a category."
 msgstr "Žao nam je, nemate privilegije za dodavanje kategorije."
 
-#: xmlrpc.php:948
+#: xmlrpc.php:961
 msgid "Sorry, the new category failed."
 msgstr "Žao nam je, nova kategorija nije dodana."
 
-#: xmlrpc.php:977
+#: xmlrpc.php:990
 msgid "Sorry, you do not have the right to delete a category."
 msgstr "Žao nam je, nemate privilegije za brisanje kategorije."
 
-#: xmlrpc.php:1005
+#: xmlrpc.php:1018
 msgid "Sorry, you must be able to edit posts to this blog in order to view categories."
 msgstr "Žao nam je, morate biti u mogućnosti da uređujete članke na ovome blogu da biste mogli vidjeti kategorije."
 
-#: xmlrpc.php:1042
-#: xmlrpc.php:1165
-#: xmlrpc.php:1197
+#: xmlrpc.php:1055
+#: xmlrpc.php:1178
+#: xmlrpc.php:1210
 msgid "You are not allowed to moderate comments on this blog."
 msgstr "Nije vam dozvoljeno uređivanje komentara na ovome blogu."
 
-#: xmlrpc.php:1047
-#: xmlrpc.php:1170
-#: xmlrpc.php:1202
+#: xmlrpc.php:1060
+#: xmlrpc.php:1183
+#: xmlrpc.php:1215
 msgid "Invalid comment ID."
 msgstr "Neispravan ID komentara."
 
-#: xmlrpc.php:1105
+#: xmlrpc.php:1118
 msgid "Sorry, you cannot edit comments."
 msgstr "Žao nam je, ne možete uređivati komentare."
 
-#: xmlrpc.php:1209
+#: xmlrpc.php:1222
 msgid "Invalid comment status."
 msgstr "Neispravan status komentara."
 
-#: xmlrpc.php:1240
+#: xmlrpc.php:1253
 msgid "Sorry, the comment could not be edited. Something wrong happened."
 msgstr "Žao nam je, komentar ne može biti uređen. Desila se neka greška."
 
-#: xmlrpc.php:1271
+#: xmlrpc.php:1284
 msgid "You must be registered to comment"
 msgstr "Morate se registrovati da biste komentarisali"
 
-#: xmlrpc.php:1284
-#: xmlrpc.php:1287
-#: xmlrpc.php:2337
+#: xmlrpc.php:1297
+#: xmlrpc.php:1300
+#: xmlrpc.php:2350
 msgid "Invalid post ID."
 msgstr "Neispravan ID članka."
 
-#: xmlrpc.php:1313
+#: xmlrpc.php:1326
 msgid "Comment author name and email are required"
 msgstr "Ime autora komentara i email su neophodni"
 
-#: xmlrpc.php:1315
+#: xmlrpc.php:1328
 msgid "A valid email address is required"
 msgstr "Ispravna email adresa je neophodna"
 
-#: xmlrpc.php:1348
-#: xmlrpc.php:1410
-#: xmlrpc.php:1438
-#: xmlrpc.php:1466
+#: xmlrpc.php:1361
+#: xmlrpc.php:1423
+#: xmlrpc.php:1451
+#: xmlrpc.php:1479
 msgid "You are not allowed access to details about this blog."
 msgstr "Nije vam dozvoljen pristup detaljima o ovom blogu."
 
-#: xmlrpc.php:1376
+#: xmlrpc.php:1389
 msgid "You are not allowed access to details about comments."
 msgstr "Nije vam dozvoljen pristup detaljima o komentarima."
 
-#: xmlrpc.php:1550
+#: xmlrpc.php:1563
 msgid "You are not allowed to update options."
 msgstr "Nije vam dozvoljeno ažuriranje opcija."
 
-#: xmlrpc.php:1632
+#: xmlrpc.php:1645
 msgid "Sorry, you do not have access to user data on this blog."
 msgstr "Žao nam je, nemate pristup korisičkim podacima na ovom blogu."
 
-#: xmlrpc.php:1668
-#: xmlrpc.php:2567
-#: xmlrpc.php:3057
-#: xmlrpc.php:3167
+#: xmlrpc.php:1681
+#: xmlrpc.php:2580
+#: xmlrpc.php:3078
+#: xmlrpc.php:3188
 msgid "Sorry, you cannot edit this post."
 msgstr "Žao nam je, ne možete uređivati ovaj članak."
 
-#: xmlrpc.php:1716
-#: xmlrpc.php:2924
+#: xmlrpc.php:1729
+#: xmlrpc.php:2940
 msgid "Either there are no posts, or something went wrong."
 msgstr "Ili nema članaka, ili je nešto pošlo naopako."
 
-#: xmlrpc.php:1772
+#: xmlrpc.php:1785
 msgid "Sorry, this user can not edit the template."
 msgstr "Žao nam je, ovaj korisnik ne može uređivati predložak."
 
-#: xmlrpc.php:1814
+#: xmlrpc.php:1827
 msgid "Sorry, this user cannot edit the template."
 msgstr "Žao nam je, ovaj korisnik ne može uređivati predložak."
 
-#: xmlrpc.php:1825
+#: xmlrpc.php:1838
 msgid "Either the file is not writable, or something wrong happened. The file has not been updated."
 msgstr "Ili se ne može upisivati u datoteku, ili je nešto pošlo naopako. Datoteka nije ažurirana."
 
-#: xmlrpc.php:1857
+#: xmlrpc.php:1870
 msgid "Sorry, you are not allowed to post on this blog."
 msgstr "Žao nam je, nije vam dozvoljeno objavljivanje na ovom blogu."
 
-#: xmlrpc.php:1913
-#: xmlrpc.php:1967
-#: xmlrpc.php:2660
-#: xmlrpc.php:3119
+#: xmlrpc.php:1926
+#: xmlrpc.php:1980
+#: xmlrpc.php:2671
+#: xmlrpc.php:3140
 msgid "Sorry, no such post."
 msgstr "Žao nam je, nema takvog članka."
 
-#: xmlrpc.php:1924
-#: xmlrpc.php:2489
+#: xmlrpc.php:1937
+#: xmlrpc.php:2502
 msgid "Sorry, you do not have the right to publish this post."
 msgstr "Žao nam je, nemate dozvolu za objavljivanje ovog članka."
 
-#: xmlrpc.php:2010
-#: xmlrpc.php:2307
+#: xmlrpc.php:2023
+#: xmlrpc.php:2320
 msgid "Sorry, you are not allowed to publish posts on this blog."
 msgstr "Žao nam je, nije vam dozvoljeno objavljivanje članaka na ovom blogu."
 
-#: xmlrpc.php:2016
-#: xmlrpc.php:2313
+#: xmlrpc.php:2029
+#: xmlrpc.php:2326
 msgid "Sorry, you are not allowed to publish pages on this blog."
 msgstr "Žao nam je, nije vam dozvoljeno objavljivanje stranica na ovom blogu."
 
-#: xmlrpc.php:2026
-#: xmlrpc.php:2075
-#: xmlrpc.php:2323
-#: xmlrpc.php:2383
+#: xmlrpc.php:2039
+#: xmlrpc.php:2088
+#: xmlrpc.php:2336
+#: xmlrpc.php:2396
 msgid "Invalid post type."
 msgstr "Neispravna vrsta članka."
 
-#: xmlrpc.php:2066
+#: xmlrpc.php:2079
 msgid "You are not allowed to post as this user"
 msgstr "Ovom korisniku nije dozvoljeno objavljivanje"
 
-#: xmlrpc.php:2071
+#: xmlrpc.php:2084
 msgid "You are not allowed to create pages as this user"
 msgstr "Ovom korisniku nije dozvoljeno pravljenje stranica"
 
-#: xmlrpc.php:2374
+#: xmlrpc.php:2387
 msgid "You are not allowed to change the post author as this user."
 msgstr "Ovom korisniku nije dozvoljena promjena autora članka."
 
-#: xmlrpc.php:2379
+#: xmlrpc.php:2392
 msgid "You are not allowed to change the page author as this user."
 msgstr "Ovom korisniku nije dozvoljena promjena autora stranice."
 
-#: xmlrpc.php:2487
+#: xmlrpc.php:2500
 msgid "Sorry, you do not have the right to publish this page."
 msgstr "Žao nam je, nemate privilegije za objavljivanje ove stranice."
 
-#: xmlrpc.php:2522
+#: xmlrpc.php:2535
 msgid "Sorry, your entry could not be edited. Something wrong happened."
 msgstr "Žao nam je, vaš unos nije mogao biti uređen. Nešto je pošlo naopako."
 
-#: xmlrpc.php:2787
-#: xmlrpc.php:2974
+#: xmlrpc.php:2803
+#: xmlrpc.php:2995
 msgid "Sorry, you must be able to edit posts on this blog in order to view categories."
 msgstr "Žao nam je, morate biti u mogućnosti da uređujete članke na ovom blogu da biste mogli vidjeti kategorije."
 
-#: xmlrpc.php:2844
+#: xmlrpc.php:2860
 msgid "You are not allowed to upload files to this site."
 msgstr "Nije vam dozvoljeno dodavanje datoteka na ovu stranicu."
 
-#: xmlrpc.php:2871
+#: xmlrpc.php:2887
 #, php-format
 msgid "Could not write file %1$s (%2$s)"
 msgstr "Nije moguće zapisati datoteku %1$s (%2$s)"
 
-#: xmlrpc.php:3013
+#: xmlrpc.php:3034
 msgid "Sorry, you can not edit this post."
 msgstr "Žao nam je, ne možete urediti ovaj članak."
 
-#: xmlrpc.php:3214
+#: xmlrpc.php:3235
 msgid "Is there no link to us?"
 msgstr "Zar nema linka prema nama?"
 
-#: xmlrpc.php:3254
-#: xmlrpc.php:3264
-#: xmlrpc.php:3271
-#: xmlrpc.php:3379
+#: xmlrpc.php:3275
+#: xmlrpc.php:3285
+#: xmlrpc.php:3292
+#: xmlrpc.php:3400
 msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
 msgstr "Uneseni URL ne može biti korišten. Ili ne postoji, ili nije omogućen povratni ping."
 
-#: xmlrpc.php:3267
+#: xmlrpc.php:3288
 msgid "The source URL and the target URL cannot both point to the same resource."
 msgstr "Izvorni URL i odredišni URL ne mogu pokazivati na isti izvor."
 
-#: xmlrpc.php:3277
+#: xmlrpc.php:3298
 msgid "The pingback has already been registered."
 msgstr "Povratni ping je već registrovan."
 
-#: xmlrpc.php:3285
+#: xmlrpc.php:3306
 msgid "The source URL does not exist."
 msgstr "Izvorišni URL ne postoji."
 
-#: xmlrpc.php:3297
+#: xmlrpc.php:3318
 msgid "We cannot find a title on that page."
 msgstr "Ne možemo pronaži naslov na toj stranici."
 
-#: xmlrpc.php:3333
+#: xmlrpc.php:3354
 msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
 msgstr "Izvorišni URL ne sadrži link do odredišnog URL-a pa zato ne može biti korišten kao izvor."
 
-#: xmlrpc.php:3353
+#: xmlrpc.php:3374
 #, php-format
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
 msgstr "Povratni ping od %1$s do %2$s je registrovan. Neka web priča! :-)"
 
-#: xmlrpc.php:3386
+#: xmlrpc.php:3407
 msgid "The specified target URL does not exist."
 msgstr "Upisani URL ne postoji."
 
@@ -13947,6 +13867,53 @@ msgstr "ltr"
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "Izgleda da nema <code>wp-config.php</code> datoteke. Potrebna mi je prije nego započnemo. Trebate pomoć? <a href='http://codex.wordpress.org/Editing_wp-config.php'>Pogledajte ovdje</a>. Možete lahko i jednostavno napraviti <code>wp-config.php</code> preko web interfejsa, ali ovaj način ne funkcioniše na svim serverskim postavkama. Najsigurniji način je da datoteku napravite ručno.</p><p><a href='%ssetup-config.php' class='button'>Napravi konfiguracijsku datoteku</a>"
 
+#~ msgid "Import Bunny&#8217;s Technorati Tags"
+#~ msgstr "Uvezi oznake iz Bunny&#8217;s Technorati"
+#~ msgid ""
+#~ "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into "
+#~ "WordPress tags."
+#~ msgstr ""
+#~ "Zdravo! Pomoću ovog alata možete uvesti oznake iz Bunny&#8217;s "
+#~ "Technoratia u Wordpress oznake."
+#~ msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
+#~ msgstr "Alat je predviđen za Bunny&#8217;s Technorati oznake verzija 0.6."
+#~ msgid ""
+#~ "All existing Bunny&#8217;s Technorati Tags will be removed after import."
+#~ msgstr ""
+#~ "Sve postojeće Bunny&#8217;s Technorati oznake će biti uklonjene nakon "
+#~ "uvoza."
+#~ msgid "Import Tags"
+#~ msgstr "Uvezi oznake"
+#~ msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
+#~ msgstr "Čitam Bunny&#8217;s Technorati oznake&#8230;"
+#~ msgid "Done! <strong>%s</strong> post with tags were read."
+#~ msgid_plural "Done! <strong>%s</strong> posts with tags were read."
+#~ msgstr[0] "Završeno! <strong>%s</strong> članak sa oznakama je pročitan."
+#~ msgstr[1] "Završeno! <strong>%s</strong> članaka sa oznakama je pročitano."
+#~ msgid "Next"
+#~ msgstr "Dalje"
+#~ msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
+#~ msgstr "Uvezite Bunny&#8217;s Technorati oznake u WordPress oznake."
+#~ msgid "Import Jerome&#8217;s Keywords"
+#~ msgstr "Uvezi Jerome&#8217;s ključne riječi"
+#~ msgid ""
+#~ "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
+#~ msgstr ""
+#~ "Zdravo! Ovo je uvoznik oznaka iz Jerome&#8217;s ključnih riječi u "
+#~ "WordPress oznake."
+#~ msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
+#~ msgstr "Uvozni radi za Jerome&#8217;s ključne riječi verzije 1.x i 2.0a."
+#~ msgid "All existing Jerome&#8217;s Keywords will be removed after import."
+#~ msgstr ""
+#~ "Sve postojeći Jerome&#8217;s ključne riječi će biti uklonjene nakon uvoza."
+#~ msgid "Import Version 1.x"
+#~ msgstr "Uvezi iz verzije 1.x"
+#~ msgid "Import Version 2.0a"
+#~ msgstr "Uvezi iz verzije 2.0a"
+#~ msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
+#~ msgstr "Čitam Jerome&#8217;s ključne riječi..."
+#~ msgid "Import Jerome&#8217;s Keywords into WordPress tags."
+#~ msgstr "Uvezite Jerome&#8217;s ključne riječi u WordPress oznake."
 #~ msgid ""
 #~ "This comment is in the Trash. Please move it out of the Trash if you want "
 #~ "to edit it."
@@ -14078,8 +14045,8 @@ msgstr "Izgleda da nema <code>wp-config.php</code> datoteke. Potrebna mi je prij
 #~ "You can&#8217;t edit this attachment because it is in the Trash. Please "
 #~ "move it out of the Trash and try again."
 #~ msgstr ""
-#~ "Ne možete urediti ovaj prilog zato što je u smeću. Izvadite ga iz smeća "
-#~ "i pokušajte ponovo."
+#~ "Ne možete urediti ovaj prilog zato što je u smeću. Izvadite ga iz smeća i "
+#~ "pokušajte ponovo."
 #~ msgid ""
 #~ "You can&#8217;t edit this page because it is in the Trash. Please move it "
 #~ "out of the Trash and try again."

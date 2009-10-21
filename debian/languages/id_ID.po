@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 2.8.4\n"
+"Project-Id-Version: WordPress 2.8.5\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-08-12 04:56+0000\n"
-"PO-Revision-Date: 2009-09-23 22:14+0700\n"
-"Last-Translator: Huda Toriq <hudatoriq@gmail.com>\n"
+"POT-Creation-Date: 2009-10-21 00:56+0000\n"
+"PO-Revision-Date: 2009-10-21 22:53+0700\n"
+"Last-Translator: Huda <hudatoriq@gmail.com>\n"
 "Language-Team: Huda Toriq <hudatoriq@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -145,16 +145,16 @@ msgstr "Penyimpanan otomatis dimatikan: %s sedang menyunting tulisan ini."
 #: wp-admin/admin-ajax.php:917
 #: wp-admin/admin-ajax.php:1059
 #: wp-admin/includes/post.php:143
-#: wp-admin/includes/post.php:1125
-#: wp-admin/page.php:113
+#: wp-admin/includes/post.php:1151
+#: wp-admin/page.php:109
 msgid "You are not allowed to edit this page."
 msgstr "Anda tidak diizinkan untuk menyunting halaman ini."
 
 #: wp-admin/admin-ajax.php:920
 #: wp-admin/admin-ajax.php:1062
 #: wp-admin/includes/post.php:146
-#: wp-admin/includes/post.php:1128
-#: wp-admin/post.php:150
+#: wp-admin/includes/post.php:1154
+#: wp-admin/post.php:146
 #: wp-admin/upload.php:41
 msgid "You are not allowed to edit this post."
 msgstr "Anda tidak diizinkan untuk menyunting tulisan ini."
@@ -373,7 +373,7 @@ msgstr "Impor"
 #: wp-admin/media-upload.php:16
 #: wp-admin/upload.php:15
 #: wp-app.php:630
-#: wp-app.php:813
+#: wp-app.php:822
 msgid "You do not have permission to upload files."
 msgstr "Anda tidak punya izin untuk mengunggah berkas."
 
@@ -385,7 +385,7 @@ msgstr "Anda tidak punya izin untuk mengunggah berkas."
 #: wp-admin/includes/template.php:1102
 #: wp-admin/menu.php:46
 #: wp-admin/press-this.php:472
-#: wp-includes/category-template.php:430
+#: wp-includes/category-template.php:432
 #: wp-includes/default-widgets.php:423
 #: wp-includes/default-widgets.php:429
 #: wp-includes/taxonomy.php:18
@@ -707,7 +707,7 @@ msgstr "Tidak"
 #: wp-admin/includes/template.php:1066
 #: wp-admin/includes/theme-install.php:158
 #: wp-includes/js/tinymce/langs/wp-langs.php:256
-#: wp-includes/post-template.php:1340
+#: wp-includes/post-template.php:1345
 msgid "Author"
 msgstr "Penulis"
 
@@ -735,7 +735,7 @@ msgstr "URL"
 #: wp-admin/edit-form-advanced.php:475
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:647
+#: wp-includes/comment-template.php:649
 msgctxt "noun"
 msgid "Comment"
 msgstr "Komentar"
@@ -1045,7 +1045,7 @@ msgstr[0] "%s komentar ditandai sebagai spam"
 msgstr[1] "%s komentar ditandai sebagai spam"
 
 #: wp-admin/edit-comments.php:144
-#: wp-content/plugins/akismet/akismet.php:737
+#: wp-content/plugins/akismet/akismet.php:747
 msgid "All"
 msgid_plural "All"
 msgstr[0] "Semua"
@@ -1119,7 +1119,7 @@ msgstr "Tampilkan seluruh jenis komentar"
 #: wp-admin/includes/template.php:1166
 #: wp-admin/includes/template.php:3138
 #: wp-admin/includes/template.php:3254
-#: wp-content/plugins/akismet/akismet.php:742
+#: wp-content/plugins/akismet/akismet.php:752
 #: wp-content/themes/classic/comments-popup.php:29
 msgid "Comments"
 msgstr "Komentar"
@@ -1146,7 +1146,7 @@ msgid "No comments awaiting moderation&hellip; yet."
 msgstr "Belum ada komentar yang menunggu moderasi."
 
 #: wp-admin/edit-comments.php:378
-#: wp-content/plugins/akismet/akismet.php:868
+#: wp-content/plugins/akismet/akismet.php:878
 msgid "No results found."
 msgstr "Tidak ada hasil yang ditemukan."
 
@@ -1345,7 +1345,7 @@ msgstr "Lekatkan tulisan ini ke halaman depan"
 
 #: wp-admin/edit-form-advanced.php:184
 #: wp-admin/edit-page-form.php:175
-#: wp-includes/post-template.php:1142
+#: wp-includes/post-template.php:1147
 msgid "Password:"
 msgstr "Kata Sandi:"
 
@@ -2166,7 +2166,7 @@ msgid "Page Revisions"
 msgstr "Revisi Halaman"
 
 #: wp-admin/edit-pages.php:28
-#: wp-admin/page.php:150
+#: wp-admin/page.php:146
 msgid "You are not allowed to delete this page."
 msgstr "Anda tidak diperkenankan untuk menghapus halaman ini."
 
@@ -2174,10 +2174,10 @@ msgstr "Anda tidak diperkenankan untuk menghapus halaman ini."
 #: wp-admin/edit-pages.php:35
 #: wp-admin/edit.php:40
 #: wp-admin/edit.php:43
-#: wp-admin/page.php:154
-#: wp-admin/page.php:157
-#: wp-admin/post.php:195
-#: wp-admin/post.php:198
+#: wp-admin/page.php:150
+#: wp-admin/page.php:153
+#: wp-admin/post.php:191
+#: wp-admin/post.php:194
 #: wp-admin/upload.php:83
 msgid "Error in deleting..."
 msgstr "Galat dalam menghapus..."
@@ -2279,7 +2279,7 @@ msgstr[1] "Privat <span class=\"count\">(%s)</span>"
 #: wp-admin/menu.php:59
 #: wp-includes/default-widgets.php:19
 #: wp-includes/default-widgets.php:25
-#: wp-includes/post-template.php:741
+#: wp-includes/post-template.php:746
 msgid "Pages"
 msgstr "Halaman"
 
@@ -2436,7 +2436,7 @@ msgid "Add Tag"
 msgstr "Tambahkan Tag"
 
 #: wp-admin/edit.php:36
-#: wp-admin/post.php:191
+#: wp-admin/post.php:187
 #: wp-admin/upload.php:79
 msgid "You are not allowed to delete this post."
 msgstr "Anda tidak diperkenankan untuk menghapus tulisan ini."
@@ -2798,81 +2798,16 @@ msgstr "Blogware"
 msgid "Import posts from Blogware."
 msgstr "Mengimpor tulisan dari Blogware."
 
-#: wp-admin/import/btt.php:22
-msgid "Import Bunny&#8217;s Technorati Tags"
-msgstr "Impor Tag Technorati Bunny"
+#: wp-admin/import/dotclear.php:96
+msgid "Import DotClear"
+msgstr "Impor DotClear"
 
-#: wp-admin/import/btt.php:23
 #: wp-admin/import/dotclear.php:97
-#: wp-admin/import/jkw.php:22
 #: wp-admin/import/stp.php:21
 #: wp-admin/import/textpattern.php:57
 #: wp-admin/import/utw.php:22
 msgid "Steps may take a few minutes depending on the size of your database. Please be patient."
 msgstr "Langkah-langkah tersebut dapat memakan waktu beberapa menit tergantung dari ukuran database Anda. Harap bersabar."
-
-#: wp-admin/import/btt.php:32
-msgid "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into WordPress tags."
-msgstr "Salam! Fasilitas ini mengimpor dari \"Bunny&#8217;s Technorati Tags\" ke dalam tag WordPress."
-
-#: wp-admin/import/btt.php:33
-msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
-msgstr "Ini cocok untuk Tag Technorati Bunny versi 0.6"
-
-#: wp-admin/import/btt.php:34
-msgid "All existing Bunny&#8217;s Technorati Tags will be removed after import."
-msgstr "Seluruh Tag Technorati akan disingkirkan setelah proses impor."
-
-#: wp-admin/import/btt.php:35
-#: wp-admin/import/jkw.php:34
-#: wp-admin/import/stp.php:33
-#: wp-admin/import/utw.php:34
-msgid "Don&#8217;t be stupid - backup your database before proceeding!"
-msgstr "Jangan bersikap bodoh! Cadangkan basis data Anda sebelum melanjutkan!"
-
-#: wp-admin/import/btt.php:38
-msgid "Import Tags"
-msgstr "Impor Tag"
-
-#: wp-admin/import/btt.php:77
-msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
-msgstr "Membaca Tag Technorati Bunny&#8230;"
-
-#: wp-admin/import/btt.php:82
-#: wp-admin/import/jkw.php:97
-#: wp-admin/import/jkw.php:138
-#: wp-admin/import/utw.php:86
-msgid "No Tags Found!"
-msgstr "Tidak Ada Tag yang Ditemukan!"
-
-#: wp-admin/import/btt.php:86
-#: wp-admin/import/jkw.php:101
-#, php-format
-msgid "Done! <strong>%s</strong> post with tags were read."
-msgid_plural "Done! <strong>%s</strong> posts with tags were read."
-msgstr[0] "Selesai! <strong>%s</strong> tulisan yang memiliki tag telah terbaca."
-msgstr[1] "Selesai! <strong>%s</strong> tulisan yang memiliki tag telah terbaca."
-
-#: wp-admin/import/btt.php:108
-#: wp-admin/import/jkw.php:123
-#: wp-admin/import/jkw.php:156
-msgid "Next"
-msgstr "Berikutnya"
-
-#: wp-admin/import/btt.php:115
-#: wp-admin/import/jkw.php:177
-#: wp-admin/import/stp.php:154
-#: wp-admin/import/utw.php:264
-msgid "Import Complete!"
-msgstr "Impor Selesai!"
-
-#: wp-admin/import/btt.php:128
-msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
-msgstr "Impor Bunny&#8217;s Technorati Tags ke dalam tag WordPress."
-
-#: wp-admin/import/dotclear.php:96
-msgid "Import DotClear"
-msgstr "Impor DotClear"
 
 #: wp-admin/import/dotclear.php:107
 msgid "Howdy! This importer allows you to extract posts from a DotClear database into your blog.  Mileage may vary."
@@ -3232,47 +3167,6 @@ msgstr "GreyMatter"
 msgid "Import users, posts, and comments from a Greymatter blog."
 msgstr "Mengimpor pengguna, tulisan dan komentar dari blog Greymatter."
 
-#: wp-admin/import/jkw.php:21
-msgid "Import Jerome&#8217;s Keywords"
-msgstr "Impor Kata Kunci Jerome"
-
-#: wp-admin/import/jkw.php:31
-msgid "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
-msgstr "Salam! Fasilitas ini mengimpor tag dari instalasi \"Jerome&#8217;s Keywords\" ke tag WordPress."
-
-#: wp-admin/import/jkw.php:32
-msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
-msgstr "Ini cocok untuk \"Jerome&#8217;s Keywords\" versi 1.x dan 2.0a."
-
-#: wp-admin/import/jkw.php:33
-msgid "All existing Jerome&#8217;s Keywords will be removed after import."
-msgstr "Seluruh \"Jerome&#8217;s Keywords\" akan disingkirkan setelah mengimpor."
-
-#: wp-admin/import/jkw.php:37
-msgid "Import Version 1.x"
-msgstr "Impor Versi 1.x"
-
-#: wp-admin/import/jkw.php:41
-msgid "Import Version 2.0a"
-msgstr "Impor Versi 2.0a"
-
-#: wp-admin/import/jkw.php:92
-#: wp-admin/import/jkw.php:132
-msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
-msgstr "Membaca Tag \"Jerome&#8217;s Keywords\"&#8230;"
-
-#: wp-admin/import/jkw.php:142
-#: wp-admin/import/utw.php:101
-#, php-format
-msgid "Done! <strong>%s</strong> tag were read."
-msgid_plural "Done! <strong>%s</strong> tags were read."
-msgstr[0] "Selesai! <strong>%s</strong> tag telah dibaca."
-msgstr[1] "Done! <strong>%s</strong> tag terbaca."
-
-#: wp-admin/import/jkw.php:190
-msgid "Import Jerome&#8217;s Keywords into WordPress tags."
-msgstr "Impor \"Jerome&#8217;s Keywords\" ke dalam tag WordPress."
-
 #: wp-admin/import/livejournal.php:171
 msgid "Import LiveJournal"
 msgstr "Impor LiveJournal"
@@ -3561,7 +3455,7 @@ msgstr "Ciptakan pengguna %1$s atau petakan ke yang ada"
 #: wp-admin/import/mt.php:215
 #: wp-admin/import/wordpress.php:236
 #: wp-admin/includes/dashboard.php:135
-#: wp-includes/post-template.php:1142
+#: wp-includes/post-template.php:1147
 msgid "Submit"
 msgstr "Kirim"
 
@@ -3701,6 +3595,11 @@ msgstr "Hal ini belum pernah diuji pada versi \"Simple Tagging\" yang lain. Hasi
 msgid "To accommodate larger databases for those tag-crazy authors out there, we have made this into an easy 4-step program to help you kick that nasty Simple Tagging habit. Just keep clicking along and we will let you know when you are in the clear!"
 msgstr "Untuk mengakomodir basis data yang lebih besar bagi para penulis yang gila-tag, kami telah membuat program-4-langkah yang mudah untuk membantu Anda menyingkirkan kebiasaan buruk UTW Anda. Cukup terus mengklik dan kami akan memberitahu Anda ketika sudah selesai!"
 
+#: wp-admin/import/stp.php:33
+#: wp-admin/import/utw.php:34
+msgid "Don&#8217;t be stupid - backup your database before proceeding!"
+msgstr "Jangan bersikap bodoh! Cadangkan basis data Anda sebelum melanjutkan!"
+
 #: wp-admin/import/stp.php:36
 #: wp-admin/import/utw.php:36
 msgid "Step 1"
@@ -3744,6 +3643,11 @@ msgstr[1] "Done! <strong>%s</strong> tags were added!"
 #: wp-admin/import/utw.php:159
 msgid "Step 3"
 msgstr "Langkah 3"
+
+#: wp-admin/import/stp.php:154
+#: wp-admin/import/utw.php:264
+msgid "Import Complete!"
+msgstr "Impor Selesai!"
 
 #: wp-admin/import/stp.php:155
 msgid "OK, so we lied about this being a 4-step program! You&#8217;re done!"
@@ -3841,6 +3745,17 @@ msgstr "Untuk mengakomodir basis data yang lebih besar bagi para penulis yang gi
 #: wp-admin/import/utw.php:80
 msgid "Reading UTW Tags&#8230;"
 msgstr "Membaca Tag UTW&#8230;"
+
+#: wp-admin/import/utw.php:86
+msgid "No Tags Found!"
+msgstr "Tidak Ada Tag yang Ditemukan!"
+
+#: wp-admin/import/utw.php:101
+#, php-format
+msgid "Done! <strong>%s</strong> tag were read."
+msgid_plural "Done! <strong>%s</strong> tags were read."
+msgstr[0] "Selesai! <strong>%s</strong> tag telah dibaca."
+msgstr[1] "Done! <strong>%s</strong> tag terbaca."
 
 #: wp-admin/import/utw.php:102
 msgid "The following tags were found:"
@@ -4587,7 +4502,7 @@ msgstr[0] "Tag"
 msgstr[1] "Tag"
 
 #: wp-admin/includes/dashboard.php:306
-#: wp-content/plugins/akismet/akismet.php:893
+#: wp-content/plugins/akismet/akismet.php:903
 msgid "Spam"
 msgid_plural "Spam"
 msgstr[0] "Spam"
@@ -4678,7 +4593,7 @@ msgstr "Balas ke komentar ini"
 
 #: wp-admin/includes/dashboard.php:543
 #: wp-admin/includes/template.php:2156
-#: wp-includes/comment-template.php:1000
+#: wp-includes/comment-template.php:1002
 msgid "Reply"
 msgstr "Balas"
 
@@ -4706,14 +4621,14 @@ msgstr "[Ditangguhkan]"
 #: wp-admin/includes/dashboard.php:576
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:649
+#: wp-includes/comment-template.php:651
 msgid "Pingback"
 msgstr "Ping balik"
 
 #: wp-admin/includes/dashboard.php:579
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:648
+#: wp-includes/comment-template.php:650
 msgid "Trackback"
 msgstr "Lacak balik"
 
@@ -4752,8 +4667,7 @@ msgstr "Widget dasbor ini melakukan kueri kepada <a href=\"http://blogsearch.goo
 
 #: wp-admin/includes/dashboard.php:653
 #: wp-admin/includes/dashboard.php:655
-#: wp-admin/page.php:102
-#: wp-admin/post.php:137
+#: wp-admin/includes/post.php:1071
 msgid "Somebody"
 msgstr "Seseorang"
 
@@ -5021,7 +4935,7 @@ msgstr "Nama host"
 
 #: wp-admin/includes/file.php:755
 #: wp-admin/includes/template.php:898
-#: wp-admin/install.php:129
+#: wp-admin/install.php:135
 #: wp-admin/user-edit.php:187
 #: wp-admin/user-new.php:96
 #: wp-login.php:413
@@ -5031,7 +4945,7 @@ msgstr "Nama Pengguna"
 
 #: wp-admin/includes/file.php:760
 #: wp-admin/includes/template.php:1079
-#: wp-admin/install.php:133
+#: wp-admin/install.php:139
 #: wp-admin/options-writing.php:100
 #: wp-admin/user-new.php:119
 #: wp-login.php:511
@@ -5511,7 +5425,7 @@ msgstr "Plugin memperluas fungsionalitas WordPress. Anda bisa secara otomatis me
 #: wp-admin/includes/theme-install.php:162
 #: wp-admin/plugin-install.php:24
 #: wp-admin/theme-install.php:29
-#: wp-content/plugins/akismet/akismet.php:704
+#: wp-content/plugins/akismet/akismet.php:714
 #: wp-content/themes/classic/sidebar.php:21
 #: wp-includes/default-widgets.php:176
 #: wp-includes/general-template.php:127
@@ -5585,7 +5499,7 @@ msgstr "Versi"
 
 #: wp-admin/includes/plugin-install.php:305
 #: wp-admin/includes/plugin-install.php:315
-#: wp-includes/post-template.php:1341
+#: wp-includes/post-template.php:1346
 msgid "Actions"
 msgstr "Tindakan"
 
@@ -5919,7 +5833,7 @@ msgstr[0] "Video <span class=\"count\">(%s)</span>"
 msgstr[1] "Video <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:976
-#: wp-content/plugins/akismet/akismet.php:822
+#: wp-content/plugins/akismet/akismet.php:832
 msgid "View Post"
 msgstr "Lihat Tulisan"
 
@@ -5940,7 +5854,22 @@ msgstr "Ubah Permalink"
 msgid "Click to edit this part of the permalink"
 msgstr "Klik untuk menyunting permalink bagian ini"
 
-#: wp-admin/includes/post.php:1109
+#: wp-admin/includes/post.php:1075
+#, php-format
+msgid "Warning: %s is currently editing this post"
+msgstr "Perhatian: %s saat ini sedang menyunting tulisan ini"
+
+#: wp-admin/includes/post.php:1078
+#, php-format
+msgid "Warning: %s is currently editing this page"
+msgstr "Peringatan: %s saat ini sedang menyunting halaman ini"
+
+#: wp-admin/includes/post.php:1081
+#, php-format
+msgid "Warning: %s is currently editing this."
+msgstr "Peringatan: saat ini %s sedang menyunting halaman ini."
+
+#: wp-admin/includes/post.php:1135
 msgid "Preview not available. Please save as a draft first."
 msgstr "Pra tampil tidak tersedia. Silakan simpan sebagai naskah terlebih dahulu."
 
@@ -6792,19 +6721,19 @@ msgstr "Tidak dapat menemukan direktori tema WordPress."
 msgid "Could not fully remove the theme %s"
 msgstr "Tidak dapat menghapus tema %s secara sempurna"
 
-#: wp-admin/includes/update-core.php:213
+#: wp-admin/includes/update-core.php:215
 msgid "Verifying the unpacked files"
 msgstr "Memverifikasi berkas-berkas yang diekstrak"
 
-#: wp-admin/includes/update-core.php:217
+#: wp-admin/includes/update-core.php:219
 msgid "The update could not be unpacked"
 msgstr "Paket pemutakhiran tidak dapat dibuka"
 
-#: wp-admin/includes/update-core.php:220
+#: wp-admin/includes/update-core.php:222
 msgid "Installing the latest version"
 msgstr "Menginstal versi terakhir"
 
-#: wp-admin/includes/update-core.php:245
+#: wp-admin/includes/update-core.php:247
 msgid "Upgrading database"
 msgstr "Memutakhirkan basis data"
 
@@ -7052,79 +6981,79 @@ msgstr "Dasbor"
 msgid "WordPress &rsaquo; Installation"
 msgstr "Instalasi WordPress &rsaquo;"
 
-#: wp-admin/install.php:54
+#: wp-admin/install.php:60
 #, php-format
 msgid "<strong>ERROR</strong>: %s"
 msgstr "<strong>GALAT</strong>: %s"
 
-#: wp-admin/install.php:59
+#: wp-admin/install.php:65
 #: wp-admin/options-general.php:65
 #: xmlrpc.php:404
 msgid "Blog Title"
 msgstr "Judul Blog"
 
-#: wp-admin/install.php:63
+#: wp-admin/install.php:69
 msgid "Your E-mail"
 msgstr "E-mail Anda"
 
-#: wp-admin/install.php:65
+#: wp-admin/install.php:71
 msgid "Double-check your email address before continuing."
 msgstr "Periksa ulang alamat email Anda sebelum melanjutkan."
 
-#: wp-admin/install.php:68
+#: wp-admin/install.php:74
 msgid "Allow my blog to appear in search engines like Google and Technorati."
 msgstr "Biarkan blog saya muncul dalam mesin pencari seperti Google dan Technorati."
 
-#: wp-admin/install.php:71
+#: wp-admin/install.php:77
 msgid "Install WordPress"
 msgstr "Instal WordPress"
 
-#: wp-admin/install.php:77
+#: wp-admin/install.php:83
 msgid "Already Installed"
 msgstr "Sudah Terinstal"
 
-#: wp-admin/install.php:77
+#: wp-admin/install.php:83
 msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
 msgstr "Sepertinya Anda sudah menginstal WordPress. Untuk menginstal ulang silakan bersihkan database lama Anda terlebih dahulu."
 
-#: wp-admin/install.php:84
+#: wp-admin/install.php:90
 msgid "Welcome"
 msgstr "Selamat Datang"
 
-#: wp-admin/install.php:85
+#: wp-admin/install.php:91
 #, php-format
 msgid "Welcome to the famous five minute WordPress installation process! You may want to browse the <a href=\"%s\">ReadMe documentation</a> at your leisure.  Otherwise, just fill in the information below and you&#8217;ll be on your way to using the most extendable and powerful personal publishing platform in the world."
 msgstr "Selamat datang ke proses instalasi lima menit WordPress yang terkenal itu! Anda dapat membaca <a href=\"%s\">dokumentasi ReadMe</a> ketika senggang. Atau, langsung saja isi informasi di bawah ini dan Anda akan memulai perjalanan Anda menggunakan platform penerbitan pribadi yang paling baik dan paling mudah dikembangkan di dunia."
 
-#: wp-admin/install.php:86
+#: wp-admin/install.php:92
 msgid "First Step"
 msgstr "Langkah Pertama"
 
-#: wp-admin/install.php:88
+#: wp-admin/install.php:94
 msgid "Information needed"
 msgstr "Informasi yang dibutuhkan"
 
-#: wp-admin/install.php:89
+#: wp-admin/install.php:95
 msgid "Please provide the following information.  Don&#8217;t worry, you can always change these settings later."
 msgstr "Silakan berikan informasi berikut. Jangan khawatir. Anda dapat selalu mengubah pengaturan ini nantinya."
 
-#: wp-admin/install.php:109
+#: wp-admin/install.php:115
 msgid "you must provide an e-mail address."
 msgstr "Anda harus menyediakan sebuah alamat email."
 
-#: wp-admin/install.php:113
+#: wp-admin/install.php:119
 msgid "that isn&#8217;t a valid e-mail address.  E-mail addresses look like: <code>username@example.com</code>"
 msgstr "itu bukanlah sebuah alamat email yang benar. Alamat email formatnya seperti ini: <code>pengguna@example.com</code>"
 
-#: wp-admin/install.php:123
+#: wp-admin/install.php:129
 msgid "Success!"
 msgstr "Berhasil!"
 
-#: wp-admin/install.php:125
+#: wp-admin/install.php:131
 msgid "WordPress has been installed. Were you expecting more steps? Sorry to disappoint."
 msgstr "WordPress telah terinstal. Apakah Anda mengira masih ada langkah-langkah lagi? Maaf jika mengecewakan."
 
-#: wp-admin/install.php:141
+#: wp-admin/install.php:147
 #: wp-login.php:498
 #: wp-login.php:517
 msgid "Log In"
@@ -8066,11 +7995,6 @@ msgstr "Menyunting Halaman"
 msgid "You attempted to edit a page that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "Anda mencoba menyunting sebuah halaman yang tidak ada"
 
-#: wp-admin/page.php:103
-#, php-format
-msgid "Warning: %s is currently editing this page"
-msgstr "Peringatan: %s saat ini sedang menyunting halaman ini"
-
 #: wp-admin/plugin-editor.php:12
 msgid "Edit Plugins"
 msgstr "Sunting Plugin"
@@ -8378,12 +8302,7 @@ msgstr ""
 msgid "You attempted to edit a post that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "Anda mencoba menyunting artikel yang tidak ada. Mungkin telah terhapus?"
 
-#: wp-admin/post.php:138
-#, php-format
-msgid "Warning: %s is currently editing this post"
-msgstr "Perhatian: %s saat ini sedang menyunting tulisan ini"
-
-#: wp-admin/post.php:147
+#: wp-admin/post.php:143
 msgid "Edit Post"
 msgstr "Sunting Tulisan"
 
@@ -8449,14 +8368,14 @@ msgid "Embed a Video"
 msgstr "Sematkan Sebuah Video"
 
 #: wp-admin/press-this.php:542
-#: wp-includes/general-template.php:1661
-#: wp-includes/general-template.php:1666
+#: wp-includes/general-template.php:1662
+#: wp-includes/general-template.php:1667
 msgid "HTML"
 msgstr "HTML"
 
 #: wp-admin/press-this.php:543
-#: wp-includes/general-template.php:1662
-#: wp-includes/general-template.php:1667
+#: wp-includes/general-template.php:1663
+#: wp-includes/general-template.php:1668
 msgid "Visual"
 msgstr "Visual"
 
@@ -8493,7 +8412,7 @@ msgid "Post published."
 msgstr "Tulisan diterbitkan."
 
 #: wp-admin/sidebar.php:103
-#: wp-content/plugins/akismet/akismet.php:1074
+#: wp-content/plugins/akismet/akismet.php:1084
 #: wp-includes/default-widgets.php:67
 #: wp-includes/default-widgets.php:197
 #: wp-includes/default-widgets.php:263
@@ -9472,9 +9391,9 @@ msgstr "Maaf, Anda tidak memiliki hak untuk menyunting/menerbitkan tulisan baru.
 
 #: wp-app.php:473
 #: wp-app.php:671
-#: wp-app.php:853
-#: xmlrpc.php:1877
-#: xmlrpc.php:2215
+#: wp-app.php:862
+#: xmlrpc.php:1890
+#: xmlrpc.php:2228
 msgid "Sorry, your entry could not be posted. Something wrong happened."
 msgstr "Maaf, entri Anda tidak dapat dikirim. Terjadi suatu kesalahan."
 
@@ -9485,26 +9404,26 @@ msgstr "Maaf, Anda tidak punya hak untuk mengakses tulisan ini."
 #: wp-app.php:535
 #: wp-app.php:703
 #: wp-app.php:779
-#: wp-app.php:821
-#: xmlrpc.php:1919
+#: wp-app.php:830
+#: xmlrpc.php:1932
 msgid "Sorry, you do not have the right to edit this post."
 msgstr "Anda tidak punya hak untuk menyunting tulisan ini."
 
 #: wp-app.php:558
 #: wp-app.php:719
-#: xmlrpc.php:1935
+#: xmlrpc.php:1948
 msgid "For some strange yet very annoying reason, this post could not be edited."
 msgstr "Untuk beberapa alasan yang aneh lagi amat mengganggu, tulisan ini tidak dapat disunting."
 
 #: wp-app.php:581
 #: wp-app.php:741
-#: xmlrpc.php:1971
+#: xmlrpc.php:1984
 msgid "Sorry, you do not have the right to delete this post."
 msgstr "Maaf, Anda tidak memiliki hak untuk menghapus tulisan ini."
 
 #: wp-app.php:590
 #: wp-app.php:757
-#: xmlrpc.php:1976
+#: xmlrpc.php:1989
 msgid "For some strange yet very annoying reason, this post could not be deleted."
 msgstr "Untuk beberapa alasan yang aneh lagi amat mengganggu, tulisan ini tidak dapat dihapus."
 
@@ -9513,8 +9432,8 @@ msgid "Sorry, you do not have permission to upload files."
 msgstr "Maaf, Anda tidak memiliki izin untuk mengunggah berkas."
 
 #: wp-app.php:748
-#: wp-app.php:786
-#: wp-app.php:831
+#: wp-app.php:787
+#: wp-app.php:840
 msgid "Error ocurred while accessing post metadata for file location."
 msgstr "Terjadi kesalahan ketika mengakses metadata tulisan untuk lokasi berkas."
 
@@ -9701,146 +9620,146 @@ msgstr "Akismet telah mendeteksi sebuah masalah."
 msgid "A server or network problem is preventing Akismet from working correctly.  <a href=\"%1$s\">Click here for more information</a> about how to fix the problem."
 msgstr "Sebuah masalah server atau jaringan menghambat Akismet untuk bekerja dengan baik. <a href=\"%1$s\">Klik di sini untuk informasi lebih lanjut</a> mengenai bagaimana cara memperbaiki masalah ini."
 
-#: wp-content/plugins/akismet/akismet.php:579
+#: wp-content/plugins/akismet/akismet.php:589
 #, php-format
 msgid "Akismet Spam (%s)"
 msgstr "Akismet Spam (%s)"
 
-#: wp-content/plugins/akismet/akismet.php:581
-#: wp-content/plugins/akismet/akismet.php:583
+#: wp-content/plugins/akismet/akismet.php:591
+#: wp-content/plugins/akismet/akismet.php:593
 msgid "Akismet Spam"
 msgstr "Akismet Spam"
 
-#: wp-content/plugins/akismet/akismet.php:593
-#: wp-content/plugins/akismet/akismet.php:612
+#: wp-content/plugins/akismet/akismet.php:603
+#: wp-content/plugins/akismet/akismet.php:622
 msgid "You do not have sufficient permission to moderate comments."
 msgstr "Anda tidak punya cukup izin untuk memoderasi komentar-komentar."
 
-#: wp-content/plugins/akismet/akismet.php:624
+#: wp-content/plugins/akismet/akismet.php:634
 #, php-format
 msgid "%1$s comments recovered."
 msgstr "%1$s komentar dikembalikan."
 
-#: wp-content/plugins/akismet/akismet.php:628
+#: wp-content/plugins/akismet/akismet.php:638
 msgid "All spam deleted."
 msgstr "Seluruh spam dihapus"
 
-#: wp-content/plugins/akismet/akismet.php:676
+#: wp-content/plugins/akismet/akismet.php:686
 msgid "Caught Spam"
 msgstr "Menangkap Spam"
 
-#: wp-content/plugins/akismet/akismet.php:681
+#: wp-content/plugins/akismet/akismet.php:691
 #, php-format
 msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
 msgstr "Akismet telah menangkap <strong>%1$s spam</strong> untuk Anda sejak pertama kali Anda menginstalnya."
 
-#: wp-content/plugins/akismet/akismet.php:688
+#: wp-content/plugins/akismet/akismet.php:698
 msgid "You have no spam currently in the queue. Must be your lucky day. :)"
 msgstr "Anda tidak punya spam saat ini. Pasti hari keberuntungan Anda. :)"
 
-#: wp-content/plugins/akismet/akismet.php:691
+#: wp-content/plugins/akismet/akismet.php:701
 msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
 msgstr "Anda dapat menghapus seluruh spam dari database Anda dengan sekali klik. Operasi ini tidak dapat dikembalikan, jadi Anda sekiranya memeriksa untuk memastikan bahwa tidak ada komentar sah yang terbawa. Spam secara otomatis dihapus setelah 15 hari, jadi jangan cemas."
 
-#: wp-content/plugins/akismet/akismet.php:697
-#: wp-content/plugins/akismet/akismet.php:875
+#: wp-content/plugins/akismet/akismet.php:707
+#: wp-content/plugins/akismet/akismet.php:885
 #, php-format
 msgid "There are currently %1$s comments identified as spam."
 msgstr "Saat ini ada %1$s komentar teridentifikasi sebagai spam."
 
-#: wp-content/plugins/akismet/akismet.php:697
-#: wp-content/plugins/akismet/akismet.php:875
+#: wp-content/plugins/akismet/akismet.php:707
+#: wp-content/plugins/akismet/akismet.php:885
 msgid "Delete all"
 msgstr "Hapus semua"
 
-#: wp-content/plugins/akismet/akismet.php:706
+#: wp-content/plugins/akismet/akismet.php:716
 msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
 msgstr "Berikut adalah komentar-komentar terakhir yang teridentifikasi sebagai spam oleh Akismet. Jika Anda melihat suatu kesalahan, cukup tandai komentar tersebut sebagai \"not spam\" dan Akismet akan belajar dari pengiriman ini. Jika Anda berharap "
 
-#: wp-content/plugins/akismet/akismet.php:760
+#: wp-content/plugins/akismet/akismet.php:770
 msgid "Search Spam &raquo;"
 msgstr "Cari Spam &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:767
-#: wp-content/plugins/akismet/akismet.php:834
+#: wp-content/plugins/akismet/akismet.php:777
+#: wp-content/plugins/akismet/akismet.php:844
 #: wp-includes/link-template.php:1445
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Halaman Sebelumnya"
 
-#: wp-content/plugins/akismet/akismet.php:788
-#: wp-content/plugins/akismet/akismet.php:855
+#: wp-content/plugins/akismet/akismet.php:798
+#: wp-content/plugins/akismet/akismet.php:865
 #: wp-includes/link-template.php:1446
 msgid "Next Page &raquo;"
 msgstr "Halaman Berikutnya &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:810
+#: wp-content/plugins/akismet/akismet.php:820
 msgid "IP:"
 msgstr "IP:"
 
-#: wp-content/plugins/akismet/akismet.php:816
+#: wp-content/plugins/akismet/akismet.php:826
 msgid "Not Spam"
 msgstr "Bukan Spam"
 
-#: wp-content/plugins/akismet/akismet.php:861
+#: wp-content/plugins/akismet/akismet.php:871
 msgid "De-spam marked comments &raquo;"
 msgstr "De-spam komentar-komentar yang ditandai &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:863
+#: wp-content/plugins/akismet/akismet.php:873
 msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
 msgstr "Komentar yang Anda de-spam akan dikirimkan ke Akismet sebagai kesalahan sehingga dapat dipelajari dan lebih baik."
 
-#: wp-content/plugins/akismet/akismet.php:899
+#: wp-content/plugins/akismet/akismet.php:909
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
 msgstr "<a href=\"%1$s\">Akismet</a> telah melindungi sistem Anda dari <a href=\"%2$s\">%3$s komentar spam</a>."
 
-#: wp-content/plugins/akismet/akismet.php:917
+#: wp-content/plugins/akismet/akismet.php:927
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
 msgstr[0] "<a href=\"%1$s\">Akismet</a> telah melindungi situs Anda dari %2$s komentar spam."
 msgstr[1] "<a href=\"%1$s\">Akismet</a> telah melindungi situs Anda dari %2$s komentar spam."
 
-#: wp-content/plugins/akismet/akismet.php:922
+#: wp-content/plugins/akismet/akismet.php:932
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
 msgstr "<a href=\"%1$s\">Akismet</a> memblokir spam agar tidak masuk blog Anda,"
 
-#: wp-content/plugins/akismet/akismet.php:927
+#: wp-content/plugins/akismet/akismet.php:937
 #, php-format
 msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
 msgstr[0] "dan ada <a href=\"%2$s\">%1$s komentar</a> di dalam daftar spam Anda saat ini."
 msgstr[1] "dan ada <a href=\"%2$s\">%1$s komentar</a> di dalam daftar spam Anda saat ini."
 
-#: wp-content/plugins/akismet/akismet.php:932
+#: wp-content/plugins/akismet/akismet.php:942
 #, php-format
 msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
 msgstr "namun saat ini tidak ada apapun dalam <a href='%1$s'>antrian spam</a> Anda."
 
-#: wp-content/plugins/akismet/akismet.php:935
+#: wp-content/plugins/akismet/akismet.php:945
 #, php-format
 msgid "%1$s %2$s|akismet_rightnow"
 msgstr "%1$s %2$s"
 
-#: wp-content/plugins/akismet/akismet.php:950
+#: wp-content/plugins/akismet/akismet.php:960
 msgid "Recheck Queue for Spam"
 msgstr "Cek Ulang Antrian untuk Spam"
 
-#: wp-content/plugins/akismet/akismet.php:967
+#: wp-content/plugins/akismet/akismet.php:977
 msgid "Check for Spam"
 msgstr "Periksa akan Spam"
 
-#: wp-content/plugins/akismet/akismet.php:1042
+#: wp-content/plugins/akismet/akismet.php:1052
 #, php-format
 msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
 msgstr "%1$s %2$skomentar spam%3$s %4$sdiblok oleh%5$s<br />%6$sAkismet%7$s"
 
-#: wp-content/plugins/akismet/akismet.php:1104
+#: wp-content/plugins/akismet/akismet.php:1114
 msgid "spam comments"
 msgstr "komentar spam"
 
-#: wp-content/plugins/akismet/akismet.php:1104
+#: wp-content/plugins/akismet/akismet.php:1114
 msgid "blocked by"
 msgstr "diblokir oleh"
 
@@ -9927,20 +9846,20 @@ msgid "Enter your password to view comments."
 msgstr "Masukkan kata sandi Anda untuk melihat komentar."
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:555
-#: wp-includes/comment-template.php:935
+#: wp-includes/comment-template.php:557
+#: wp-includes/comment-template.php:937
 msgid "No Comments"
 msgstr "Tidak ada Komentar"
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:557
-#: wp-includes/comment-template.php:936
+#: wp-includes/comment-template.php:559
+#: wp-includes/comment-template.php:938
 msgid "1 Comment"
 msgstr "1 Komentar"
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:553
-#: wp-includes/comment-template.php:937
+#: wp-includes/comment-template.php:555
+#: wp-includes/comment-template.php:939
 msgid "% Comments"
 msgstr "& Komentar"
 
@@ -9983,7 +9902,7 @@ msgid "Filed under:"
 msgstr "Diarsipkan di bawah:"
 
 #: wp-content/themes/classic/index.php:15
-#: wp-includes/category-template.php:802
+#: wp-includes/category-template.php:804
 msgid "Tags: "
 msgstr "Tag:"
 
@@ -10017,7 +9936,7 @@ msgid "Older Posts &raquo;"
 msgstr "Tulisan yang Lebih Tua &raquo;"
 
 #: wp-content/themes/classic/sidebar.php:13
-#: wp-includes/post-template.php:563
+#: wp-includes/post-template.php:567
 msgid "Pages:"
 msgstr "Halaman:"
 
@@ -10178,12 +10097,12 @@ msgstr "Marka buku"
 msgid "View all posts in %s"
 msgstr "Lihat seluruh tulisan dalam %s"
 
-#: wp-includes/category-template.php:459
 #: wp-includes/category-template.php:461
+#: wp-includes/category-template.php:463
 msgid "No categories"
 msgstr "Tidak ada kategori"
 
-#: wp-includes/category-template.php:563
+#: wp-includes/category-template.php:565
 #, php-format
 msgid "%s topic"
 msgid_plural "%s topics"
@@ -10286,59 +10205,59 @@ msgstr "Lihat seluruh tulisan dalam %s"
 msgid "Feed for all posts filed under %s"
 msgstr "Umpan untuk seluruh tulisan dalam %s"
 
-#: wp-includes/comment-template.php:938
+#: wp-includes/comment-template.php:940
 msgid "Comments Off"
 msgstr "Komentar Dimatikan"
 
-#: wp-includes/comment-template.php:948
+#: wp-includes/comment-template.php:950
 msgid "Enter your password to view comments"
 msgstr "Masukkan kata sandi Anda untuk melihat komentar"
 
-#: wp-includes/comment-template.php:975
+#: wp-includes/comment-template.php:977
 #, php-format
 msgid "Comment on %s"
 msgstr "Komentar pada %s"
 
-#: wp-includes/comment-template.php:1001
+#: wp-includes/comment-template.php:1003
 msgid "Log in to Reply"
 msgstr "Masuk log untuk membalas"
 
-#: wp-includes/comment-template.php:1059
+#: wp-includes/comment-template.php:1061
 msgid "Leave a Comment"
 msgstr "Tinggalkan sebuah Komentar"
 
-#: wp-includes/comment-template.php:1060
+#: wp-includes/comment-template.php:1062
 msgid "Log in to leave a Comment"
 msgstr "Masuk log untuk meninggalkan sebuah Komentar"
 
-#: wp-includes/comment-template.php:1099
+#: wp-includes/comment-template.php:1101
 msgid "Click here to cancel reply."
 msgstr "Klik di sini untuk membatalkan balasan."
 
-#: wp-includes/comment-template.php:1142
+#: wp-includes/comment-template.php:1144
 msgid "Leave a Reply"
 msgstr "Tinggalkan Balasan"
 
-#: wp-includes/comment-template.php:1143
+#: wp-includes/comment-template.php:1145
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr "Tinggalkan Balasan ke %s"
 
-#: wp-includes/comment-template.php:1261
+#: wp-includes/comment-template.php:1263
 #, php-format
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
 msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">mengatakan:</span>"
 
-#: wp-includes/comment-template.php:1264
+#: wp-includes/comment-template.php:1266
 msgid "Your comment is awaiting moderation."
 msgstr "Komentar Anda sedang menunggu moderasi."
 
-#: wp-includes/comment-template.php:1268
+#: wp-includes/comment-template.php:1270
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s pukul %2$s"
 
-#: wp-includes/comment-template.php:1268
+#: wp-includes/comment-template.php:1270
 msgid "(Edit)"
 msgstr "(Sunting)"
 
@@ -10648,21 +10567,21 @@ msgctxt "closing curly quote"
 msgid "&#8221;"
 msgstr "&#8221;"
 
-#: wp-includes/formatting.php:1661
+#: wp-includes/formatting.php:1664
 #, php-format
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s menit"
 msgstr[1] "%s menit"
 
-#: wp-includes/formatting.php:1667
+#: wp-includes/formatting.php:1670
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s jam"
 msgstr[1] "%s jam"
 
-#: wp-includes/formatting.php:1673
+#: wp-includes/formatting.php:1676
 #, php-format
 msgid "%s day"
 msgid_plural "%s days"
@@ -10670,17 +10589,17 @@ msgstr[0] "%s hari"
 msgstr[1] "%s hari"
 
 #. translators: used between list items, there is a space after the coma
-#: wp-includes/formatting.php:2547
+#: wp-includes/formatting.php:2550
 msgid ", "
 msgstr ", "
 
 #. translators: used between list items, there is a space after the and
-#: wp-includes/formatting.php:2549
+#: wp-includes/formatting.php:2552
 msgid ", and "
 msgstr ", dan "
 
 #. translators: used between only two list items, there is a space after the and
-#: wp-includes/formatting.php:2551
+#: wp-includes/formatting.php:2554
 msgid " and "
 msgstr " dan "
 
@@ -10970,66 +10889,66 @@ msgctxt "calendar caption"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
-#: wp-includes/general-template.php:1051
-#: wp-includes/general-template.php:1061
+#: wp-includes/general-template.php:1052
+#: wp-includes/general-template.php:1062
 #, php-format
 msgid "View posts for %1$s %2$s"
 msgstr "Lihat tulisan untuk %1$s %2$s"
 
 #. translators: Separator between blog name and feed type in feed links
-#: wp-includes/general-template.php:1457
-#: wp-includes/general-template.php:1480
+#: wp-includes/general-template.php:1458
+#: wp-includes/general-template.php:1481
 msgctxt "feed link"
 msgid "&raquo;"
 msgstr "&raquo;"
 
 #. translators: 1: blog title, 2: separator (raquo)
-#: wp-includes/general-template.php:1459
+#: wp-includes/general-template.php:1460
 #, php-format
 msgid "%1$s %2$s Feed"
 msgstr "%1$s %2$s Feed"
 
 #. translators: %s: blog title, 2: separator (raquo)
-#: wp-includes/general-template.php:1461
+#: wp-includes/general-template.php:1462
 #, php-format
 msgid "%1$s %2$s Comments Feed"
 msgstr "%1$s %2$s Umpan Komentar"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: post title
-#: wp-includes/general-template.php:1482
+#: wp-includes/general-template.php:1483
 #, php-format
 msgid "%1$s %2$s %3$s Comments Feed"
 msgstr "%1$s %2$s %3$s Umpan Komentar"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: category name
-#: wp-includes/general-template.php:1484
+#: wp-includes/general-template.php:1485
 #, php-format
 msgid "%1$s %2$s %3$s Category Feed"
 msgstr "%1$s %2$s %3$s Umpan Kategori"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: tag name
-#: wp-includes/general-template.php:1486
+#: wp-includes/general-template.php:1487
 #, php-format
 msgid "%1$s %2$s %3$s Tag Feed"
 msgstr "%1$s %2$s %3$s Umpan Tag"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: author name
-#: wp-includes/general-template.php:1488
+#: wp-includes/general-template.php:1489
 #, php-format
 msgid "%1$s %2$s Posts by %3$s Feed"
 msgstr "%1$s %2$s Umpan Tulisan oleh %3$s"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: search phrase
-#: wp-includes/general-template.php:1490
+#: wp-includes/general-template.php:1491
 #, php-format
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
 msgstr "%1$s %2$s Hasil Pencarian untuk Umpan &#8220;%3$s&#8221;"
 
-#: wp-includes/general-template.php:1806
+#: wp-includes/general-template.php:1807
 msgid "&laquo; Previous"
 msgstr "&laquo; Sebelumnya"
 
-#: wp-includes/general-template.php:1807
+#: wp-includes/general-template.php:1808
 msgid "Next &raquo;"
 msgstr "Berikutnya &raquo;"
 
@@ -13004,61 +12923,61 @@ msgstr "Privat: %s"
 msgid "There is no excerpt because this is a protected post."
 msgstr "Tidak ada kutipan karena ini adalah tulisan yang dilindungi kata sandi."
 
-#: wp-includes/post-template.php:565
+#: wp-includes/post-template.php:569
 msgid "Next page"
 msgstr "Halaman berikutnya"
 
-#: wp-includes/post-template.php:566
+#: wp-includes/post-template.php:570
 msgid "Previous page"
 msgstr "Halaman sebelumnya"
 
-#: wp-includes/post-template.php:820
+#: wp-includes/post-template.php:825
 msgid "Home"
 msgstr "Beranda"
 
-#: wp-includes/post-template.php:930
-#: wp-includes/post-template.php:967
+#: wp-includes/post-template.php:935
+#: wp-includes/post-template.php:972
 msgid "Missing Attachment"
 msgstr "Lampiran Hilang"
 
-#: wp-includes/post-template.php:1141
+#: wp-includes/post-template.php:1146
 msgid "This post is password protected. To view it please enter your password below:"
 msgstr "Tulisan ini dilindungi kata sandi. Untuk melihatnya mohon masukkan sandi Anda di bawah ini:"
 
 #. translators: revision date format, see http://php.net/date
-#: wp-includes/post-template.php:1205
+#: wp-includes/post-template.php:1210
 msgctxt "revision date format"
 msgid "j F, Y @ G:i"
 msgstr "F j Y @ H:i"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1207
+#: wp-includes/post-template.php:1212
 #, php-format
 msgid "%1$s [Autosave]"
 msgstr "%1$s [Penyimpanan Otomatis]"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1209
+#: wp-includes/post-template.php:1214
 #, php-format
 msgid "%1$s [Current Revision]"
 msgstr "%1$s [Revisi Saat Ini]"
 
 #. translators: post revision: 1: when, 2: author name
-#: wp-includes/post-template.php:1275
+#: wp-includes/post-template.php:1280
 #, php-format
 msgctxt "post revision"
 msgid "%1$s by %2$s"
 msgstr "%1$s oleh %2$s"
 
-#: wp-includes/post-template.php:1302
+#: wp-includes/post-template.php:1307
 msgid "Restore"
 msgstr "Kembalikan"
 
-#: wp-includes/post-template.php:1324
+#: wp-includes/post-template.php:1329
 msgid "Compare Revisions"
 msgstr "Bandingkan Revisi"
 
-#: wp-includes/post-template.php:1339
+#: wp-includes/post-template.php:1344
 msgid "Date Created"
 msgstr "Tanggal Dibuat"
 
@@ -13606,254 +13525,254 @@ msgstr "Slogan Blog"
 msgid "Sorry, you cannot edit this page."
 msgstr "Maaf, Anda tidak dapat menyunting halaman ini."
 
-#: xmlrpc.php:573
-#: xmlrpc.php:691
-#: xmlrpc.php:737
+#: xmlrpc.php:578
+#: xmlrpc.php:696
+#: xmlrpc.php:742
 msgid "Sorry, no such page."
 msgstr "Maaf, tidak ada halaman seperti itu."
 
-#: xmlrpc.php:598
-#: xmlrpc.php:783
+#: xmlrpc.php:603
+#: xmlrpc.php:788
 msgid "Sorry, you cannot edit pages."
 msgstr "Maaf, Anda tidak dapat menyunting halaman ini."
 
-#: xmlrpc.php:652
+#: xmlrpc.php:657
 msgid "Sorry, you cannot add new pages."
 msgstr "Maaf, Anda tidak dapat menambahkan halaman baru."
 
-#: xmlrpc.php:696
+#: xmlrpc.php:701
 msgid "Sorry, you do not have the right to delete this page."
 msgstr "Maaf, Anda tidak memiliki hak untuk menghapus halaman ini."
 
-#: xmlrpc.php:702
+#: xmlrpc.php:707
 msgid "Failed to delete the page."
 msgstr "Gagal untuk menghapus halaman ini."
 
-#: xmlrpc.php:742
+#: xmlrpc.php:747
 msgid "Sorry, you do not have the right to edit this page."
 msgstr "Maaf, Anda tidak memiliki hak untuk menyunting halaman ini."
 
-#: xmlrpc.php:836
+#: xmlrpc.php:849
 msgid "Sorry, you cannot edit posts on this blog."
 msgstr "Maaf, Anda tidak dapat menyunting artikel di blog ini."
 
-#: xmlrpc.php:873
+#: xmlrpc.php:886
 msgid "Sorry, you must be able to edit posts on this blog in order to view tags."
 msgstr "Maaf. Anda harus dapat menyunting tulisan di blog ini untuk melihat label-label."
 
-#: xmlrpc.php:920
+#: xmlrpc.php:933
 msgid "Sorry, you do not have the right to add a category."
 msgstr "Maaf, Anda tidak memiliki hak untuk menambahkan kategori."
 
-#: xmlrpc.php:948
+#: xmlrpc.php:961
 msgid "Sorry, the new category failed."
 msgstr "Maaf, kategori baru gagal."
 
-#: xmlrpc.php:977
+#: xmlrpc.php:990
 msgid "Sorry, you do not have the right to delete a category."
 msgstr "Maaf, Anda tidak memiliki hak untuk menghapus sebuah kategori."
 
-#: xmlrpc.php:1005
+#: xmlrpc.php:1018
 msgid "Sorry, you must be able to edit posts to this blog in order to view categories."
 msgstr "Maaf, Anda harus memiliki wewenang penyuntingan tulisan di blog ini untuk dapat melihat kategori."
 
-#: xmlrpc.php:1042
-#: xmlrpc.php:1165
-#: xmlrpc.php:1197
+#: xmlrpc.php:1055
+#: xmlrpc.php:1178
+#: xmlrpc.php:1210
 msgid "You are not allowed to moderate comments on this blog."
 msgstr "Anda tidak diizinkan untuk memoderasi komentar di blog ini."
 
-#: xmlrpc.php:1047
-#: xmlrpc.php:1170
-#: xmlrpc.php:1202
+#: xmlrpc.php:1060
+#: xmlrpc.php:1183
+#: xmlrpc.php:1215
 msgid "Invalid comment ID."
 msgstr "ID komentar tidak sah."
 
-#: xmlrpc.php:1105
+#: xmlrpc.php:1118
 msgid "Sorry, you cannot edit comments."
 msgstr "Maaf, Anda tidak dapat menyunting komentar."
 
-#: xmlrpc.php:1209
+#: xmlrpc.php:1222
 msgid "Invalid comment status."
 msgstr "Status komentar tidak sah."
 
-#: xmlrpc.php:1240
+#: xmlrpc.php:1253
 msgid "Sorry, the comment could not be edited. Something wrong happened."
 msgstr "Maaf, komentar tidak dapat disunting. Terjadi suatu kesalahan."
 
-#: xmlrpc.php:1271
+#: xmlrpc.php:1284
 msgid "You must be registered to comment"
 msgstr "Anda harus terdaftar untuk berkomentar"
 
-#: xmlrpc.php:1284
-#: xmlrpc.php:1287
-#: xmlrpc.php:2337
+#: xmlrpc.php:1297
+#: xmlrpc.php:1300
+#: xmlrpc.php:2350
 msgid "Invalid post ID."
 msgstr "ID tulisan tidak sah."
 
-#: xmlrpc.php:1313
+#: xmlrpc.php:1326
 msgid "Comment author name and email are required"
 msgstr "Nama dan email penulis komentar wajib diisi."
 
-#: xmlrpc.php:1315
+#: xmlrpc.php:1328
 msgid "A valid email address is required"
 msgstr "Dibutuhkan alamat email yang sah"
 
-#: xmlrpc.php:1348
-#: xmlrpc.php:1410
-#: xmlrpc.php:1438
-#: xmlrpc.php:1466
+#: xmlrpc.php:1361
+#: xmlrpc.php:1423
+#: xmlrpc.php:1451
+#: xmlrpc.php:1479
 msgid "You are not allowed access to details about this blog."
 msgstr "Anda tidak diperbolehkan untuk mengakses hal-hal detail mengenai blog ini."
 
-#: xmlrpc.php:1376
+#: xmlrpc.php:1389
 msgid "You are not allowed access to details about comments."
 msgstr "Anda tidak diperbolehkan untuk mengakses hal-hal detail mengenai komentar."
 
-#: xmlrpc.php:1550
+#: xmlrpc.php:1563
 msgid "You are not allowed to update options."
 msgstr "Anda tidak diperkenankan untuk memperbarui opsi."
 
-#: xmlrpc.php:1632
+#: xmlrpc.php:1645
 msgid "Sorry, you do not have access to user data on this blog."
 msgstr "Maaf, Anda tidak memiliki akses terhadap data pengguna di blog ini."
 
-#: xmlrpc.php:1668
-#: xmlrpc.php:2567
-#: xmlrpc.php:3057
-#: xmlrpc.php:3167
+#: xmlrpc.php:1681
+#: xmlrpc.php:2580
+#: xmlrpc.php:3078
+#: xmlrpc.php:3188
 msgid "Sorry, you cannot edit this post."
 msgstr "Maaf, Anda tidak dapat menyunting artikel ini."
 
-#: xmlrpc.php:1716
-#: xmlrpc.php:2924
+#: xmlrpc.php:1729
+#: xmlrpc.php:2940
 msgid "Either there are no posts, or something went wrong."
 msgstr "Entah tidak ada tulisan, atau sesuatu yang salah telah terjadi."
 
-#: xmlrpc.php:1772
+#: xmlrpc.php:1785
 msgid "Sorry, this user can not edit the template."
 msgstr "Maaf, pengguna ini tidak dapat menyunting templat."
 
-#: xmlrpc.php:1814
+#: xmlrpc.php:1827
 msgid "Sorry, this user cannot edit the template."
 msgstr "Maaf, pengguna ini tidak dapat menyunting templat."
 
-#: xmlrpc.php:1825
+#: xmlrpc.php:1838
 msgid "Either the file is not writable, or something wrong happened. The file has not been updated."
 msgstr "Entah berkas tersebut tidak dapat ditulis, atau sesuatu yang salah terjadi. Berkas tersebut belum diperbarui."
 
-#: xmlrpc.php:1857
+#: xmlrpc.php:1870
 msgid "Sorry, you are not allowed to post on this blog."
 msgstr "Maaf, Anda tidak diperbolehkan untuk mengirim tulisan ke blog ini."
 
-#: xmlrpc.php:1913
-#: xmlrpc.php:1967
-#: xmlrpc.php:2660
-#: xmlrpc.php:3119
+#: xmlrpc.php:1926
+#: xmlrpc.php:1980
+#: xmlrpc.php:2671
+#: xmlrpc.php:3140
 msgid "Sorry, no such post."
 msgstr "Maaf, tidak ada tulisan seperti itu."
 
-#: xmlrpc.php:1924
-#: xmlrpc.php:2489
+#: xmlrpc.php:1937
+#: xmlrpc.php:2502
 msgid "Sorry, you do not have the right to publish this post."
 msgstr "Maaf, Anda tidak memiliki hak untuk mempublikasikan tulisan ini."
 
-#: xmlrpc.php:2010
-#: xmlrpc.php:2307
+#: xmlrpc.php:2023
+#: xmlrpc.php:2320
 msgid "Sorry, you are not allowed to publish posts on this blog."
 msgstr "Maaf, Anda tidak diperbolehkan untuk menerbitkan tulisan di blog ini."
 
-#: xmlrpc.php:2016
-#: xmlrpc.php:2313
+#: xmlrpc.php:2029
+#: xmlrpc.php:2326
 msgid "Sorry, you are not allowed to publish pages on this blog."
 msgstr "Maaf, Anda tidak diperbolehkan untuk menerbitkan halaman di blog ini."
 
-#: xmlrpc.php:2026
-#: xmlrpc.php:2075
-#: xmlrpc.php:2323
-#: xmlrpc.php:2383
+#: xmlrpc.php:2039
+#: xmlrpc.php:2088
+#: xmlrpc.php:2336
+#: xmlrpc.php:2396
 msgid "Invalid post type."
 msgstr "Tipe tulisan tidak valid."
 
-#: xmlrpc.php:2066
+#: xmlrpc.php:2079
 msgid "You are not allowed to post as this user"
 msgstr "Anda tidak diperbolehkan untuk mengirim tulisan sebagai pengguna ini"
 
-#: xmlrpc.php:2071
+#: xmlrpc.php:2084
 msgid "You are not allowed to create pages as this user"
 msgstr "Anda tidak diperbolehkan untuk membuat halaman sebagai pengguna ini"
 
-#: xmlrpc.php:2374
+#: xmlrpc.php:2387
 msgid "You are not allowed to change the post author as this user."
 msgstr "Anda tidak diperbolehkan untuk mengganti penulis tulisan sebagai pengguna ini."
 
-#: xmlrpc.php:2379
+#: xmlrpc.php:2392
 msgid "You are not allowed to change the page author as this user."
 msgstr "Anda tidak diperbolehkan untuk mengganti penulis halaman sebagai pengguna ini."
 
-#: xmlrpc.php:2487
+#: xmlrpc.php:2500
 msgid "Sorry, you do not have the right to publish this page."
 msgstr "Maaf, Anda tidak memiliki hak untuk mempublikasikan halaman ini."
 
-#: xmlrpc.php:2522
+#: xmlrpc.php:2535
 msgid "Sorry, your entry could not be edited. Something wrong happened."
 msgstr "Maaf, entri Anda tidak dapat disunting. Terjadi suatu kesalahan."
 
-#: xmlrpc.php:2787
-#: xmlrpc.php:2974
+#: xmlrpc.php:2803
+#: xmlrpc.php:2995
 msgid "Sorry, you must be able to edit posts on this blog in order to view categories."
 msgstr "Maaf, Anda harus memiliki wewenang penyuntingan tulisan di blog ini untuk melihat kategori."
 
-#: xmlrpc.php:2844
+#: xmlrpc.php:2860
 msgid "You are not allowed to upload files to this site."
 msgstr "Anda tidak diperkenankan mengunggah berkas."
 
-#: xmlrpc.php:2871
+#: xmlrpc.php:2887
 #, php-format
 msgid "Could not write file %1$s (%2$s)"
 msgstr "Tidak dapat menulis berkas %1$s (%2$s)"
 
-#: xmlrpc.php:3013
+#: xmlrpc.php:3034
 msgid "Sorry, you can not edit this post."
 msgstr "Maaf, Anda tidak dapat menyunting tulisan ini."
 
-#: xmlrpc.php:3214
+#: xmlrpc.php:3235
 msgid "Is there no link to us?"
 msgstr "Tidak adakah taut untuk kami?"
 
-#: xmlrpc.php:3254
-#: xmlrpc.php:3264
-#: xmlrpc.php:3271
-#: xmlrpc.php:3379
+#: xmlrpc.php:3275
+#: xmlrpc.php:3285
+#: xmlrpc.php:3292
+#: xmlrpc.php:3400
 msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
 msgstr "URL target yang diberikan tidak dapat digunakan sebagai target. Hal ini dikarenakan karena target tersebut tidak ada, atau bukan sumberdaya yang bisa menerima pingback."
 
-#: xmlrpc.php:3267
+#: xmlrpc.php:3288
 msgid "The source URL and the target URL cannot both point to the same resource."
 msgstr "URL sumber dan URL target tersebut tidak dapat menunjuk ke sumber yang sama."
 
-#: xmlrpc.php:3277
+#: xmlrpc.php:3298
 msgid "The pingback has already been registered."
 msgstr "Ping balik tersebut telah terdaftar."
 
-#: xmlrpc.php:3285
+#: xmlrpc.php:3306
 msgid "The source URL does not exist."
 msgstr "URL sumber tidak ada."
 
-#: xmlrpc.php:3297
+#: xmlrpc.php:3318
 msgid "We cannot find a title on that page."
 msgstr "Kami tidak dapat menemukan judul pada halaman tersebut."
 
-#: xmlrpc.php:3333
+#: xmlrpc.php:3354
 msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
 msgstr "URL sumber tersebut tidak mengandung sebuah taut ke URL target, sehingga tidak dapat digunakan sebagai sumber."
 
-#: xmlrpc.php:3353
+#: xmlrpc.php:3374
 #, php-format
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
 msgstr "Pingbalik dari %1$s ke %2$s telah terdaftar. Buat web terus berbicara! :-)"
 
-#: xmlrpc.php:3386
+#: xmlrpc.php:3407
 msgid "The specified target URL does not exist."
 msgstr "URL target yang diberikan tidak ada."
 
@@ -13948,6 +13867,53 @@ msgstr "ltr"
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "Sepertinya tidak ada berkas <code>wp-config.php</code>. Kami membutuhkannya agar kita dapat memulai. Butuh bantuan lebih lanjut? <a href='http://codex.wordpress.org/Editing_wp-config.php'>Kami memilikinya</a>. Anda dapat menciptakan berkas <code>wp-config.php</code> melalui antarmuka web, namun hal ini tidak dapat berjalan pada semua tatanan server. Cara paling aman ialah dengan secara manual menciptakan berkas tersebut.</p><p><a href='%ssetup-config.php' class='button'>Ciptakan Berkas Konfigurasi</a>"
 
+#~ msgid "Import Bunny&#8217;s Technorati Tags"
+#~ msgstr "Impor Tag Technorati Bunny"
+#~ msgid ""
+#~ "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into "
+#~ "WordPress tags."
+#~ msgstr ""
+#~ "Salam! Fasilitas ini mengimpor dari \"Bunny&#8217;s Technorati Tags\" ke "
+#~ "dalam tag WordPress."
+#~ msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
+#~ msgstr "Ini cocok untuk Tag Technorati Bunny versi 0.6"
+#~ msgid ""
+#~ "All existing Bunny&#8217;s Technorati Tags will be removed after import."
+#~ msgstr "Seluruh Tag Technorati akan disingkirkan setelah proses impor."
+#~ msgid "Import Tags"
+#~ msgstr "Impor Tag"
+#~ msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
+#~ msgstr "Membaca Tag Technorati Bunny&#8230;"
+#~ msgid "Done! <strong>%s</strong> post with tags were read."
+#~ msgid_plural "Done! <strong>%s</strong> posts with tags were read."
+#~ msgstr[0] ""
+#~ "Selesai! <strong>%s</strong> tulisan yang memiliki tag telah terbaca."
+#~ msgstr[1] ""
+#~ "Selesai! <strong>%s</strong> tulisan yang memiliki tag telah terbaca."
+#~ msgid "Next"
+#~ msgstr "Berikutnya"
+#~ msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
+#~ msgstr "Impor Bunny&#8217;s Technorati Tags ke dalam tag WordPress."
+#~ msgid "Import Jerome&#8217;s Keywords"
+#~ msgstr "Impor Kata Kunci Jerome"
+#~ msgid ""
+#~ "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
+#~ msgstr ""
+#~ "Salam! Fasilitas ini mengimpor tag dari instalasi \"Jerome&#8217;s "
+#~ "Keywords\" ke tag WordPress."
+#~ msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
+#~ msgstr "Ini cocok untuk \"Jerome&#8217;s Keywords\" versi 1.x dan 2.0a."
+#~ msgid "All existing Jerome&#8217;s Keywords will be removed after import."
+#~ msgstr ""
+#~ "Seluruh \"Jerome&#8217;s Keywords\" akan disingkirkan setelah mengimpor."
+#~ msgid "Import Version 1.x"
+#~ msgstr "Impor Versi 1.x"
+#~ msgid "Import Version 2.0a"
+#~ msgstr "Impor Versi 2.0a"
+#~ msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
+#~ msgstr "Membaca Tag \"Jerome&#8217;s Keywords\"&#8230;"
+#~ msgid "Import Jerome&#8217;s Keywords into WordPress tags."
+#~ msgstr "Impor \"Jerome&#8217;s Keywords\" ke dalam tag WordPress."
 #~ msgid "Enable syntax highlighting"
 #~ msgstr "Aktifkan penyorotan sintaks"
 #~ msgid "Disable syntax highlighting"
