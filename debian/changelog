@@ -1,3 +1,14 @@
+wordpress (2.8.6-1) unstable; urgency=low
+
+  * [cf87b24] Updated debian/watch (Closes: #555729) - thanks to Hideki
+    Yamane
+  * [997165e] Imported Upstream version 2.8.6
+  * [05395e1] debian/wp-config.php: sanitize $debian_server and do not
+    check if $debian_file is under /etc/wordpress (Closes: #549436)
+  * [dc016ce] Updated language files
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Sat, 14 Nov 2009 12:53:07 +0100
+
 wordpress (2.8.5-1) unstable; urgency=high
 
   * [b0ebbe1] Imported Upstream version 2.8.5 (Closes: #551841)
