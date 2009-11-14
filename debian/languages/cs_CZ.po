@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress CZ (2.8.4)\n"
+"Project-Id-Version: WordPress CZ (2.8.6)\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-08-12 04:56+0000\n"
-"PO-Revision-Date: 2009-08-13 16:39+0100\n"
+"POT-Creation-Date: 2009-11-12 08:56+0000\n"
+"PO-Revision-Date: 2009-11-12 20:53+0100\n"
 "Last-Translator: Separatista <pavelevap@separatista.net>\n"
 "Language-Team: Separatista <pavelevap@separatista.net>\n"
 "MIME-Version: 1.0\n"
@@ -136,26 +136,26 @@ msgstr "Někdo"
 #: wp-admin/admin-ajax.php:908
 #, php-format
 msgid "Autosave disabled: %s is currently editing this page."
-msgstr "Automatické ukládání vypnuto: %s právě teď upravuje tuto stránku."
+msgstr "Automatické ukládání je vypnuto: %s právě teď upravuje tuto stránku."
 
 #: wp-admin/admin-ajax.php:908
 #, php-format
 msgid "Autosave disabled: %s is currently editing this post."
-msgstr "Automatické ukládání vypnuto: %s právě teď upravuje tento příspěvek."
+msgstr "Automatické ukládání je vypnuto: %s právě teď upravuje tento příspěvek."
 
 #: wp-admin/admin-ajax.php:917
 #: wp-admin/admin-ajax.php:1059
 #: wp-admin/includes/post.php:143
-#: wp-admin/includes/post.php:1125
-#: wp-admin/page.php:113
+#: wp-admin/includes/post.php:1151
+#: wp-admin/page.php:109
 msgid "You are not allowed to edit this page."
 msgstr "Nemůžete upravovat tuto stránku."
 
 #: wp-admin/admin-ajax.php:920
 #: wp-admin/admin-ajax.php:1062
 #: wp-admin/includes/post.php:146
-#: wp-admin/includes/post.php:1128
-#: wp-admin/post.php:150
+#: wp-admin/includes/post.php:1154
+#: wp-admin/post.php:146
 #: wp-admin/upload.php:41
 msgid "You are not allowed to edit this post."
 msgstr "Nemůžete upravovat tento příspěvek."
@@ -163,12 +163,12 @@ msgstr "Nemůžete upravovat tento příspěvek."
 #: wp-admin/admin-ajax.php:1068
 #, php-format
 msgid "Saving is disabled: %s is currently editing this page."
-msgstr "Automatické ukládání je vypnuto: %s právě teď upravuje tuto stránku."
+msgstr "Ukládání je zablokováno: %s právě teď upravuje tuto stránku."
 
 #: wp-admin/admin-ajax.php:1068
 #, php-format
 msgid "Saving is disabled: %s is currently editing this post."
-msgstr "Automatické ukládání je vypnuto: %s právě teď upravuje tento příspěvek."
+msgstr "Ukládání je zablokováno: %s právě teď upravuje tento příspěvek."
 
 #: wp-admin/admin-ajax.php:1116
 #: wp-admin/categories.php:26
@@ -374,7 +374,7 @@ msgstr "Import"
 #: wp-admin/media-upload.php:16
 #: wp-admin/upload.php:15
 #: wp-app.php:630
-#: wp-app.php:813
+#: wp-app.php:822
 msgid "You do not have permission to upload files."
 msgstr "Nemáte dostatečná práva pro nahrávání souborů."
 
@@ -386,7 +386,7 @@ msgstr "Nemáte dostatečná práva pro nahrávání souborů."
 #: wp-admin/includes/template.php:1102
 #: wp-admin/menu.php:46
 #: wp-admin/press-this.php:472
-#: wp-includes/category-template.php:430
+#: wp-includes/category-template.php:432
 #: wp-includes/default-widgets.php:423
 #: wp-includes/default-widgets.php:429
 #: wp-includes/taxonomy.php:18
@@ -621,7 +621,7 @@ msgstr "Popis"
 #: wp-admin/edit-tag-form.php:47
 #: wp-admin/edit-tags.php:298
 msgid "The description is not prominent by default, however some themes may show it."
-msgstr "Popis rubriky není sice používán ve výchozí šabloně, ale některé šablony ho mohou zobrazovat."
+msgstr "Popis není sice používán ve výchozí šabloně, ale některé jiné šablony ho mohou zobrazovat."
 
 #: wp-admin/comment.php:34
 #: wp-admin/edit-form-comment.php:16
@@ -708,7 +708,7 @@ msgstr "Ne"
 #: wp-admin/includes/template.php:1066
 #: wp-admin/includes/theme-install.php:158
 #: wp-includes/js/tinymce/langs/wp-langs.php:256
-#: wp-includes/post-template.php:1340
+#: wp-includes/post-template.php:1345
 msgid "Author"
 msgstr "Autor"
 
@@ -736,7 +736,7 @@ msgstr "URL"
 #: wp-admin/edit-form-advanced.php:475
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:647
+#: wp-includes/comment-template.php:649
 msgctxt "noun"
 msgid "Comment"
 msgstr "Komentář"
@@ -1049,7 +1049,7 @@ msgstr[1] "%s komentáře označeny jako spam"
 msgstr[2] "%s komentářů označeno jako spam"
 
 #: wp-admin/edit-comments.php:144
-#: wp-content/plugins/akismet/akismet.php:737
+#: wp-content/plugins/akismet/akismet.php:753
 msgid "All"
 msgid_plural "All"
 msgstr[0] "Všechny"
@@ -1127,7 +1127,7 @@ msgstr "Zobrazit všechny typy komentářů"
 #: wp-admin/includes/template.php:1166
 #: wp-admin/includes/template.php:3138
 #: wp-admin/includes/template.php:3254
-#: wp-content/plugins/akismet/akismet.php:742
+#: wp-content/plugins/akismet/akismet.php:758
 #: wp-content/themes/classic/comments-popup.php:29
 msgid "Comments"
 msgstr "Komentáře"
@@ -1154,7 +1154,7 @@ msgid "No comments awaiting moderation&hellip; yet."
 msgstr "Žádné komentáře zatím nečekají na schválení."
 
 #: wp-admin/edit-comments.php:378
-#: wp-content/plugins/akismet/akismet.php:868
+#: wp-content/plugins/akismet/akismet.php:884
 msgid "No results found."
 msgstr "Nebyl nalezen žádný výsledek, který by odpovídal Vašemu požadavku."
 
@@ -1353,7 +1353,7 @@ msgstr "Zvýraznit příspěvek na úvodní stránce"
 
 #: wp-admin/edit-form-advanced.php:184
 #: wp-admin/edit-page-form.php:175
-#: wp-includes/post-template.php:1142
+#: wp-includes/post-template.php:1147
 msgid "Password:"
 msgstr "Heslo:"
 
@@ -2174,7 +2174,7 @@ msgid "Page Revisions"
 msgstr "Starší verze stránky"
 
 #: wp-admin/edit-pages.php:28
-#: wp-admin/page.php:150
+#: wp-admin/page.php:146
 msgid "You are not allowed to delete this page."
 msgstr "Nemáte oprávnění pro smazání této stránky."
 
@@ -2182,10 +2182,10 @@ msgstr "Nemáte oprávnění pro smazání této stránky."
 #: wp-admin/edit-pages.php:35
 #: wp-admin/edit.php:40
 #: wp-admin/edit.php:43
-#: wp-admin/page.php:154
-#: wp-admin/page.php:157
-#: wp-admin/post.php:195
-#: wp-admin/post.php:198
+#: wp-admin/page.php:150
+#: wp-admin/page.php:153
+#: wp-admin/post.php:191
+#: wp-admin/post.php:194
 #: wp-admin/upload.php:83
 msgid "Error in deleting..."
 msgstr "Chyba při mazání..."
@@ -2292,7 +2292,7 @@ msgstr[2] "Soukromých <span class=\"count\">(%s)</span>"
 #: wp-admin/menu.php:59
 #: wp-includes/default-widgets.php:19
 #: wp-includes/default-widgets.php:25
-#: wp-includes/post-template.php:741
+#: wp-includes/post-template.php:746
 msgid "Pages"
 msgstr "Stránky"
 
@@ -2454,7 +2454,7 @@ msgid "Add Tag"
 msgstr "Vytvořit štítek"
 
 #: wp-admin/edit.php:36
-#: wp-admin/post.php:191
+#: wp-admin/post.php:187
 #: wp-admin/upload.php:79
 msgid "You are not allowed to delete this post."
 msgstr "Nemáte oprávnění pro smazání tohoto příspěvku."
@@ -2821,82 +2821,16 @@ msgstr "Blogware"
 msgid "Import posts from Blogware."
 msgstr "Importovat příspěvky z Blogware."
 
-#: wp-admin/import/btt.php:22
-msgid "Import Bunny&#8217;s Technorati Tags"
-msgstr "Importovat štítky z  Bunny&#8217;s Technorati Tags"
+#: wp-admin/import/dotclear.php:96
+msgid "Import DotClear"
+msgstr "Importovat z Dotclear"
 
-#: wp-admin/import/btt.php:23
 #: wp-admin/import/dotclear.php:97
-#: wp-admin/import/jkw.php:22
 #: wp-admin/import/stp.php:21
 #: wp-admin/import/textpattern.php:57
 #: wp-admin/import/utw.php:22
 msgid "Steps may take a few minutes depending on the size of your database. Please be patient."
 msgstr "V závislosti na velikosti databáze mohou následující kroky trvat i několik minut. Chce to trochu trpělivosti."
-
-#: wp-admin/import/btt.php:32
-msgid "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into WordPress tags."
-msgstr "Tímto nástrojem můžete importovat štítky ze systému Bunny&#8217;s Technorati Tags do formátu štítků, které se používají ve WordPressu."
-
-#: wp-admin/import/btt.php:33
-msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
-msgstr "Tento převaděč je kompatibilní s Bunny&#8217;s Technorati Tags verze 0.6."
-
-#: wp-admin/import/btt.php:34
-msgid "All existing Bunny&#8217;s Technorati Tags will be removed after import."
-msgstr "Všechny existující štítky v Bunny&#8217;s Technorati Tags budou po importu smazány."
-
-#: wp-admin/import/btt.php:35
-#: wp-admin/import/jkw.php:34
-#: wp-admin/import/stp.php:33
-#: wp-admin/import/utw.php:34
-msgid "Don&#8217;t be stupid - backup your database before proceeding!"
-msgstr "Neriskujte a před tím než spustíte import, proveďte raději zálohu databáze!"
-
-#: wp-admin/import/btt.php:38
-msgid "Import Tags"
-msgstr "Importovat štítky"
-
-#: wp-admin/import/btt.php:77
-msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
-msgstr "Probíhá načítání Bunny&#8217;s Technorati Tags&#8230;"
-
-#: wp-admin/import/btt.php:82
-#: wp-admin/import/jkw.php:97
-#: wp-admin/import/jkw.php:138
-#: wp-admin/import/utw.php:86
-msgid "No Tags Found!"
-msgstr "Nebyly nalezeny žádné štítky!"
-
-#: wp-admin/import/btt.php:86
-#: wp-admin/import/jkw.php:101
-#, php-format
-msgid "Done! <strong>%s</strong> post with tags were read."
-msgid_plural "Done! <strong>%s</strong> posts with tags were read."
-msgstr[0] "Hotovo! Byl načten <strong>%s</strong> příspěvek se štítky."
-msgstr[1] "Hotovo! Byly načteny <strong>%s</strong> příspěvky se štítky."
-msgstr[2] "Hotovo! Bylo načteno <strong>%s</strong> příspěvků se štítky."
-
-#: wp-admin/import/btt.php:108
-#: wp-admin/import/jkw.php:123
-#: wp-admin/import/jkw.php:156
-msgid "Next"
-msgstr "Další"
-
-#: wp-admin/import/btt.php:115
-#: wp-admin/import/jkw.php:177
-#: wp-admin/import/stp.php:154
-#: wp-admin/import/utw.php:264
-msgid "Import Complete!"
-msgstr "Import byl dokončen!"
-
-#: wp-admin/import/btt.php:128
-msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
-msgstr "Importovat Bunny&#8217;s Technorati Tags."
-
-#: wp-admin/import/dotclear.php:96
-msgid "Import DotClear"
-msgstr "Importovat z Dotclear"
 
 #: wp-admin/import/dotclear.php:107
 msgid "Howdy! This importer allows you to extract posts from a DotClear database into your blog.  Mileage may vary."
@@ -3260,48 +3194,6 @@ msgstr "GreyMatter"
 msgid "Import users, posts, and comments from a Greymatter blog."
 msgstr "Importovat uživatele, příspěvky a komentáře z Greymatteru."
 
-#: wp-admin/import/jkw.php:21
-msgid "Import Jerome&#8217;s Keywords"
-msgstr "Importovat Jerome&#8217;s Keywords"
-
-#: wp-admin/import/jkw.php:31
-msgid "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
-msgstr "Tímto importovacím nástrojem můžete do WordPressu importovat štítky ze systému Jerome&#8217;s Keywords."
-
-#: wp-admin/import/jkw.php:32
-msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
-msgstr "Tento převaděč je kompatibilní s Jerome&#8217;s Keywords verze 1.x a 2.0a."
-
-#: wp-admin/import/jkw.php:33
-msgid "All existing Jerome&#8217;s Keywords will be removed after import."
-msgstr "Všechny existující štítky v systému Jerome&#8217;s Keywords budou po importu smazány."
-
-#: wp-admin/import/jkw.php:37
-msgid "Import Version 1.x"
-msgstr "Importovat verzi 1.x"
-
-#: wp-admin/import/jkw.php:41
-msgid "Import Version 2.0a"
-msgstr "Importovat verzi 2.0a"
-
-#: wp-admin/import/jkw.php:92
-#: wp-admin/import/jkw.php:132
-msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
-msgstr "Probíhá načítání štítků z Jerome&#8217;s Keywords&#8230;"
-
-#: wp-admin/import/jkw.php:142
-#: wp-admin/import/utw.php:101
-#, php-format
-msgid "Done! <strong>%s</strong> tag were read."
-msgid_plural "Done! <strong>%s</strong> tags were read."
-msgstr[0] "Hotovo! Načten <strong>%s</strong> štítek."
-msgstr[1] "Hotovo! Načteny <strong>%s</strong> štítky."
-msgstr[2] "Hotovo! Načteno <strong>%s</strong> štítků."
-
-#: wp-admin/import/jkw.php:190
-msgid "Import Jerome&#8217;s Keywords into WordPress tags."
-msgstr "Importuje štítky ze systému Jerome&#8217;s Keywords."
-
 #: wp-admin/import/livejournal.php:171
 msgid "Import LiveJournal"
 msgstr "Import z LiveJournalu"
@@ -3590,7 +3482,7 @@ msgstr "Vytvořit uživatele %1$s, nebo přiřadit již existujícího"
 #: wp-admin/import/mt.php:215
 #: wp-admin/import/wordpress.php:236
 #: wp-admin/includes/dashboard.php:135
-#: wp-includes/post-template.php:1142
+#: wp-includes/post-template.php:1147
 msgid "Submit"
 msgstr "Potvrdit"
 
@@ -3732,6 +3624,11 @@ msgstr "Tento nástroj nebyl testován na jiných verzích pluginu, než je vý�
 msgid "To accommodate larger databases for those tag-crazy authors out there, we have made this into an easy 4-step program to help you kick that nasty Simple Tagging habit. Just keep clicking along and we will let you know when you are in the clear!"
 msgstr "Aby nástroj bezchybně fungoval a přizpůsobil se i ne zcela šťastnému a databázově velmi náročnému řešení, které zvolili autoři pluginu Simple Tagging, proběhne převod postupně ve 4 krocích. Postupně si je společně projdeme a nakonec budou štítky určitě správně převedeny."
 
+#: wp-admin/import/stp.php:33
+#: wp-admin/import/utw.php:34
+msgid "Don&#8217;t be stupid - backup your database before proceeding!"
+msgstr "Neriskujte a před tím než spustíte import, proveďte raději zálohu databáze!"
+
 #: wp-admin/import/stp.php:36
 #: wp-admin/import/utw.php:36
 msgid "Step 1"
@@ -3777,6 +3674,11 @@ msgstr[2] "Hotovo! Bylo přidáno <strong>%s</strong> štítků."
 #: wp-admin/import/utw.php:159
 msgid "Step 3"
 msgstr "Krok č. 3"
+
+#: wp-admin/import/stp.php:154
+#: wp-admin/import/utw.php:264
+msgid "Import Complete!"
+msgstr "Import byl dokončen!"
 
 #: wp-admin/import/stp.php:155
 msgid "OK, so we lied about this being a 4-step program! You&#8217;re done!"
@@ -3875,6 +3777,18 @@ msgstr "Aby nástroj bezchybně fungoval a přizpůsobil se i ne zcela šťastn�
 #: wp-admin/import/utw.php:80
 msgid "Reading UTW Tags&#8230;"
 msgstr "Probíhá načítání UTW Tags&#8230;"
+
+#: wp-admin/import/utw.php:86
+msgid "No Tags Found!"
+msgstr "Nebyly nalezeny žádné štítky!"
+
+#: wp-admin/import/utw.php:101
+#, php-format
+msgid "Done! <strong>%s</strong> tag were read."
+msgid_plural "Done! <strong>%s</strong> tags were read."
+msgstr[0] "Hotovo! Načten <strong>%s</strong> štítek."
+msgstr[1] "Hotovo! Načteny <strong>%s</strong> štítky."
+msgstr[2] "Hotovo! Načteno <strong>%s</strong> štítků."
 
 #: wp-admin/import/utw.php:102
 msgid "The following tags were found:"
@@ -4631,7 +4545,7 @@ msgstr[1] "štítky"
 msgstr[2] "štítků"
 
 #: wp-admin/includes/dashboard.php:306
-#: wp-content/plugins/akismet/akismet.php:893
+#: wp-content/plugins/akismet/akismet.php:909
 msgid "Spam"
 msgid_plural "Spam"
 msgstr[0] "spam"
@@ -4725,7 +4639,7 @@ msgstr "Odpovědět na tento komentář"
 
 #: wp-admin/includes/dashboard.php:543
 #: wp-admin/includes/template.php:2156
-#: wp-includes/comment-template.php:1000
+#: wp-includes/comment-template.php:1002
 msgid "Reply"
 msgstr "Odpovědět"
 
@@ -4753,14 +4667,14 @@ msgstr "[Čekající na schválení]"
 #: wp-admin/includes/dashboard.php:576
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:649
+#: wp-includes/comment-template.php:651
 msgid "Pingback"
 msgstr "Pingback"
 
 #: wp-admin/includes/dashboard.php:579
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:648
+#: wp-includes/comment-template.php:650
 msgid "Trackback"
 msgstr "Trackback"
 
@@ -4799,8 +4713,7 @@ msgstr "Tento nástěnkový widget využívá funkce <a href=\"http://blogsearch
 
 #: wp-admin/includes/dashboard.php:653
 #: wp-admin/includes/dashboard.php:655
-#: wp-admin/page.php:102
-#: wp-admin/post.php:137
+#: wp-admin/includes/post.php:1071
 msgid "Somebody"
 msgstr "Někdo"
 
@@ -5068,7 +4981,7 @@ msgstr "Server"
 
 #: wp-admin/includes/file.php:755
 #: wp-admin/includes/template.php:898
-#: wp-admin/install.php:129
+#: wp-admin/install.php:135
 #: wp-admin/user-edit.php:187
 #: wp-admin/user-new.php:96
 #: wp-login.php:413
@@ -5078,7 +4991,7 @@ msgstr "Uživatelské jméno"
 
 #: wp-admin/includes/file.php:760
 #: wp-admin/includes/template.php:1079
-#: wp-admin/install.php:133
+#: wp-admin/install.php:139
 #: wp-admin/options-writing.php:100
 #: wp-admin/user-new.php:119
 #: wp-login.php:511
@@ -5558,7 +5471,7 @@ msgstr "Pluginy významně zlepšují a rozšiřují možnosti WordPressu. Můž
 #: wp-admin/includes/theme-install.php:162
 #: wp-admin/plugin-install.php:24
 #: wp-admin/theme-install.php:29
-#: wp-content/plugins/akismet/akismet.php:704
+#: wp-content/plugins/akismet/akismet.php:720
 #: wp-content/themes/classic/sidebar.php:21
 #: wp-includes/default-widgets.php:176
 #: wp-includes/general-template.php:127
@@ -5632,7 +5545,7 @@ msgstr "Verze"
 
 #: wp-admin/includes/plugin-install.php:305
 #: wp-admin/includes/plugin-install.php:315
-#: wp-includes/post-template.php:1341
+#: wp-includes/post-template.php:1346
 msgid "Actions"
 msgstr "Akce"
 
@@ -5976,7 +5889,7 @@ msgstr[1] "Video <span class=\"count\">(%s)</span>"
 msgstr[2] "Video <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:976
-#: wp-content/plugins/akismet/akismet.php:822
+#: wp-content/plugins/akismet/akismet.php:838
 msgid "View Post"
 msgstr "Zobrazit příspěvek"
 
@@ -5997,7 +5910,22 @@ msgstr "Změnit trvalé odkazy"
 msgid "Click to edit this part of the permalink"
 msgstr "Pokud chcete změnit tuto část trvalého odkazu, klikněte sem."
 
-#: wp-admin/includes/post.php:1109
+#: wp-admin/includes/post.php:1075
+#, php-format
+msgid "Warning: %s is currently editing this post"
+msgstr "Upozornění: %s právě teď upravuje tento příspěvek"
+
+#: wp-admin/includes/post.php:1078
+#, php-format
+msgid "Warning: %s is currently editing this page"
+msgstr "Upozornění: %s právě teď upravuje tuto stránku"
+
+#: wp-admin/includes/post.php:1081
+#, php-format
+msgid "Warning: %s is currently editing this."
+msgstr "Upozornění: %s to právě teď také upravuje"
+
+#: wp-admin/includes/post.php:1135
 msgid "Preview not available. Please save as a draft first."
 msgstr "Náhled není k dispozici. Příspěvek prosím nejdříve uložte jako koncept."
 
@@ -6527,7 +6455,7 @@ msgstr "Nápověda"
 
 #: wp-admin/includes/template.php:3533
 msgid "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Documentation</a>"
-msgstr "<a href=\"http://www.separatista.net/wordpress-problemy-a-jejich-reseni\" target=\"_blank\">WordPress - problémy a jejich řešení</a><br><a href=\"http://codex.wordpress.org/\" target=\"_blank\">Manuál (anglicky)</a>"
+msgstr "<a href=\"http://www.separatista.net/ceska-podpora-wordpressu-zdarma\" target=\"_blank\">Česká podpora WordPressu (zdarma)</a><br><a href=\"http://codex.wordpress.org/\" target=\"_blank\">Manuál (anglicky)</a>"
 
 #: wp-admin/includes/template.php:3535
 msgid "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
@@ -6849,19 +6777,19 @@ msgstr "Nepodařilo se najít adresář se šablonami pro WordPress."
 msgid "Could not fully remove the theme %s"
 msgstr "Nepodařilo se zcela odstranit šablonu %s"
 
-#: wp-admin/includes/update-core.php:213
+#: wp-admin/includes/update-core.php:215
 msgid "Verifying the unpacked files"
 msgstr "Ověřuji rozbalené soubory"
 
-#: wp-admin/includes/update-core.php:217
+#: wp-admin/includes/update-core.php:219
 msgid "The update could not be unpacked"
 msgstr "Aktualizace nemohla být rozbalena"
 
-#: wp-admin/includes/update-core.php:220
+#: wp-admin/includes/update-core.php:222
 msgid "Installing the latest version"
 msgstr "Instaluji nejnovější verzi pluginu"
 
-#: wp-admin/includes/update-core.php:245
+#: wp-admin/includes/update-core.php:247
 msgid "Upgrading database"
 msgstr "Aktualizuji databázi"
 
@@ -6980,7 +6908,7 @@ msgstr "Toto je první vzorová stránka, která byla vytvořena během instalac
 #: wp-includes/js/tinymce/langs/wp-langs.php:251
 #: wp-includes/js/tinymce/wp-mce-help.php:177
 msgid "About"
-msgstr "Něco o mě"
+msgstr "Něco o mně"
 
 #. translators: Default page slug
 #: wp-admin/includes/upgrade.php:200
@@ -7109,79 +7037,79 @@ msgstr "Nástěnka"
 msgid "WordPress &rsaquo; Installation"
 msgstr "Instalace &rsaquo; WordPressu"
 
-#: wp-admin/install.php:54
+#: wp-admin/install.php:60
 #, php-format
 msgid "<strong>ERROR</strong>: %s"
 msgstr "<strong>CHYBA</strong>: %s"
 
-#: wp-admin/install.php:59
+#: wp-admin/install.php:65
 #: wp-admin/options-general.php:65
 #: xmlrpc.php:404
 msgid "Blog Title"
 msgstr "Název webu"
 
-#: wp-admin/install.php:63
+#: wp-admin/install.php:69
 msgid "Your E-mail"
 msgstr "Váš email:"
 
-#: wp-admin/install.php:65
+#: wp-admin/install.php:71
 msgid "Double-check your email address before continuing."
 msgstr "Než budete pokračovat, raději si <strong>dvakrát</strong> překontrolujte zadanou emailovou adresu, protože na ni bude zasláno administrátorské heslo."
 
-#: wp-admin/install.php:68
+#: wp-admin/install.php:74
 msgid "Allow my blog to appear in search engines like Google and Technorati."
 msgstr "Povolit vyhledávačům (např. Google, Seznam, Technorati) zobrazovat tento web ve výsledcích vyhledávaní."
 
-#: wp-admin/install.php:71
+#: wp-admin/install.php:77
 msgid "Install WordPress"
 msgstr "Instalovat WordPress"
 
-#: wp-admin/install.php:77
+#: wp-admin/install.php:83
 msgid "Already Installed"
 msgstr "WordPress byl již nainstalován"
 
-#: wp-admin/install.php:77
+#: wp-admin/install.php:83
 msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
 msgstr "WordPress byl již pravděpodobně nainstalován. Pokud jej chcete přeinstalovat, vymažte nejprve stávající tabulky v databázi."
 
-#: wp-admin/install.php:84
+#: wp-admin/install.php:90
 msgid "Welcome"
 msgstr "Vítejte"
 
-#: wp-admin/install.php:85
+#: wp-admin/install.php:91
 #, php-format
 msgid "Welcome to the famous five minute WordPress installation process! You may want to browse the <a href=\"%s\">ReadMe documentation</a> at your leisure.  Otherwise, just fill in the information below and you&#8217;ll be on your way to using the most extendable and powerful personal publishing platform in the world."
 msgstr "Vítejte v jednoduché několikaminutové instalaci publikačního systému WordPress! Pokud máte chvíli času, můžete si prohlédnout <a href=\"%s\">základní dokumentaci</a> (v angličtině). Jinak stačí pouze níže vyplnit všechny potřebné informace a po velmi krátké a jednoduché instalaci budete moci plně využívat nejrozšiřitelnější a nejmodernější publikační systém na světě."
 
-#: wp-admin/install.php:86
+#: wp-admin/install.php:92
 msgid "First Step"
 msgstr "První krok"
 
-#: wp-admin/install.php:88
+#: wp-admin/install.php:94
 msgid "Information needed"
 msgstr "Potřebné informace"
 
-#: wp-admin/install.php:89
+#: wp-admin/install.php:95
 msgid "Please provide the following information.  Don&#8217;t worry, you can always change these settings later."
 msgstr "Zadejte prosím následující informace. Nebojte se, všechno lze později jednoduše v administraci vašeho webu změnit."
 
-#: wp-admin/install.php:109
+#: wp-admin/install.php:115
 msgid "you must provide an e-mail address."
 msgstr "musíte zadat platnou emailovou adresu."
 
-#: wp-admin/install.php:113
+#: wp-admin/install.php:119
 msgid "that isn&#8217;t a valid e-mail address.  E-mail addresses look like: <code>username@example.com</code>"
 msgstr "toto není platná emailová adresa.  Emailové adresy obvykle vypadají takto: <code>jan.novak@seznam.cz</code>"
 
-#: wp-admin/install.php:123
+#: wp-admin/install.php:129
 msgid "Success!"
 msgstr "Hotovo!"
 
-#: wp-admin/install.php:125
+#: wp-admin/install.php:131
 msgid "WordPress has been installed. Were you expecting more steps? Sorry to disappoint."
 msgstr "Instalace WordPress byla úspěšně dokončena. Očekávali jste něco složitějšího? Bohužel vás zklameme, můžete pokračovat přihlášením do administrace."
 
-#: wp-admin/install.php:141
+#: wp-admin/install.php:147
 #: wp-login.php:498
 #: wp-login.php:517
 msgid "Log In"
@@ -7678,7 +7606,7 @@ msgid "Timezone"
 msgstr "Časové pásmo"
 
 #: wp-admin/options-general.php:126
-#: wp-includes/functions.php:3303
+#: wp-includes/functions.php:3319
 #, php-format
 msgid "UTC %s"
 msgstr "UTC %s"
@@ -8124,11 +8052,6 @@ msgstr "Upravit stránku"
 msgid "You attempted to edit a page that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "Pokoušíte se upravovat stránku, která neexistuje. Nemohla být smazána?"
 
-#: wp-admin/page.php:103
-#, php-format
-msgid "Warning: %s is currently editing this page"
-msgstr "Upozornění: %s nyní upravuje tuto stránku."
-
 #: wp-admin/plugin-editor.php:12
 msgid "Edit Plugins"
 msgstr "Úprava pluginů"
@@ -8416,7 +8339,7 @@ msgstr[2] "Dostupných aktualizací <span class=\"count\">(%s)</span>"
 msgid "Search Results <span class=\"count\">(%s)</span>"
 msgid_plural "Search Results <span class=\"count\">(%s)</span>"
 msgstr[0] "Výsledek vyhledávání <span class=\"count\">(%s)</span>"
-msgstr[1] "Výsledky vyhledávní <span class=\"count\">(%s)</span>"
+msgstr[1] "Výsledky vyhledávání <span class=\"count\">(%s)</span>"
 msgstr[2] "Výsledků vyhledávání <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:568
@@ -8441,12 +8364,7 @@ msgstr ""
 msgid "You attempted to edit a post that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "Pokoušíte se upravit příspěvek, který neexistuje. Nemohl být smazán?"
 
-#: wp-admin/post.php:138
-#, php-format
-msgid "Warning: %s is currently editing this post"
-msgstr "Upozornění: %s právě upravuje tento příspěvek"
-
-#: wp-admin/post.php:147
+#: wp-admin/post.php:143
 msgid "Edit Post"
 msgstr "Upravit příspěvek"
 
@@ -8512,14 +8430,14 @@ msgid "Embed a Video"
 msgstr "Vložit video"
 
 #: wp-admin/press-this.php:542
-#: wp-includes/general-template.php:1661
-#: wp-includes/general-template.php:1666
+#: wp-includes/general-template.php:1662
+#: wp-includes/general-template.php:1667
 msgid "HTML"
 msgstr "HTML"
 
 #: wp-admin/press-this.php:543
-#: wp-includes/general-template.php:1662
-#: wp-includes/general-template.php:1667
+#: wp-includes/general-template.php:1663
+#: wp-includes/general-template.php:1668
 msgid "Visual"
 msgstr "Editor"
 
@@ -8556,7 +8474,7 @@ msgid "Post published."
 msgstr "Příspěvek byl publikován."
 
 #: wp-admin/sidebar.php:103
-#: wp-content/plugins/akismet/akismet.php:1074
+#: wp-content/plugins/akismet/akismet.php:1090
 #: wp-includes/default-widgets.php:67
 #: wp-includes/default-widgets.php:197
 #: wp-includes/default-widgets.php:263
@@ -9464,7 +9382,7 @@ msgid "&larr; Back to All Users"
 msgstr "&larr; Zpět na přehled všech uživatelů"
 
 #: wp-admin/widgets.php:23
-#: wp-includes/functions.php:2740
+#: wp-includes/functions.php:2756
 msgid "Widgets"
 msgstr "Widgety"
 
@@ -9542,9 +9460,9 @@ msgstr "Nemáte bohužel dostatečné oprávnění pro publikování nebo úprav
 
 #: wp-app.php:473
 #: wp-app.php:671
-#: wp-app.php:853
-#: xmlrpc.php:1877
-#: xmlrpc.php:2215
+#: wp-app.php:862
+#: xmlrpc.php:1890
+#: xmlrpc.php:2228
 msgid "Sorry, your entry could not be posted. Something wrong happened."
 msgstr "Váš příspěvek bohužel nemohl být uložen. Stalo se něco nečekaného."
 
@@ -9555,26 +9473,26 @@ msgstr "Nemáte bohužel dostatečné oprávnění pro přístup k tomuto přís
 #: wp-app.php:535
 #: wp-app.php:703
 #: wp-app.php:779
-#: wp-app.php:821
-#: xmlrpc.php:1919
+#: wp-app.php:830
+#: xmlrpc.php:1932
 msgid "Sorry, you do not have the right to edit this post."
 msgstr "Nemáte bohužel dostatečné oprávnění pro úpravu tohoto příspěvku."
 
 #: wp-app.php:558
 #: wp-app.php:719
-#: xmlrpc.php:1935
+#: xmlrpc.php:1948
 msgid "For some strange yet very annoying reason, this post could not be edited."
 msgstr "Z nějakých neznámých důvodů nelze tento příspěvek upravit."
 
 #: wp-app.php:581
 #: wp-app.php:741
-#: xmlrpc.php:1971
+#: xmlrpc.php:1984
 msgid "Sorry, you do not have the right to delete this post."
 msgstr "Nemáte bohužel dostatečné oprávnění pro smazání tohoto příspěvku."
 
 #: wp-app.php:590
 #: wp-app.php:757
-#: xmlrpc.php:1976
+#: xmlrpc.php:1989
 msgid "For some strange yet very annoying reason, this post could not be deleted."
 msgstr "Z nějakých neznámých důvodů nelze tento příspěvek smazat."
 
@@ -9583,8 +9501,8 @@ msgid "Sorry, you do not have permission to upload files."
 msgstr "Nemáte dostatečné opravnění pro nahrávání souborů."
 
 #: wp-app.php:748
-#: wp-app.php:786
-#: wp-app.php:831
+#: wp-app.php:787
+#: wp-app.php:840
 msgid "Error ocurred while accessing post metadata for file location."
 msgstr "Při přístupu k informacím týkajících se umístění souboru se objevila chyba."
 
@@ -9753,118 +9671,118 @@ msgstr "Ověřit aktuální dostupnost serverů &raquo;"
 msgid "Akismet Stats"
 msgstr "Statistika Akismet"
 
-#: wp-content/plugins/akismet/akismet.php:327
+#: wp-content/plugins/akismet/akismet.php:331
 msgid "Akismet is almost ready."
 msgstr "Akismet je téměř připraven."
 
-#: wp-content/plugins/akismet/akismet.php:327
+#: wp-content/plugins/akismet/akismet.php:331
 #, php-format
 msgid "You must <a href=\"%1$s\">enter your WordPress.com API key</a> for it to work."
 msgstr "Aby vše fungovalo, musíte ještě <a href=\"%1$s\">vložit svůj API klíč z WordPress.com</a>."
 
-#: wp-content/plugins/akismet/akismet.php:335
+#: wp-content/plugins/akismet/akismet.php:339
 msgid "Akismet has detected a problem."
 msgstr "U Akismetu se objevil nějaký problém."
 
-#: wp-content/plugins/akismet/akismet.php:335
+#: wp-content/plugins/akismet/akismet.php:339
 #, php-format
 msgid "A server or network problem is preventing Akismet from working correctly.  <a href=\"%1$s\">Click here for more information</a> about how to fix the problem."
 msgstr "Patrně jde o potíže se serverem nebo počítačovou sítí, které znemožnily správné fungování Akismetu.  <a href=\"%1$s\">Kliknutím získáte podrobnější informace</a> o tomto problému a možnostech jeho řešení."
 
-#: wp-content/plugins/akismet/akismet.php:579
+#: wp-content/plugins/akismet/akismet.php:595
 #, php-format
 msgid "Akismet Spam (%s)"
 msgstr "Akismet Spam (%s)"
 
-#: wp-content/plugins/akismet/akismet.php:581
-#: wp-content/plugins/akismet/akismet.php:583
+#: wp-content/plugins/akismet/akismet.php:597
+#: wp-content/plugins/akismet/akismet.php:599
 msgid "Akismet Spam"
 msgstr "Akismet Spam"
 
-#: wp-content/plugins/akismet/akismet.php:593
-#: wp-content/plugins/akismet/akismet.php:612
+#: wp-content/plugins/akismet/akismet.php:609
+#: wp-content/plugins/akismet/akismet.php:628
 msgid "You do not have sufficient permission to moderate comments."
 msgstr "Nemáte dostatečné oprávnění pro moderování komentářů."
 
-#: wp-content/plugins/akismet/akismet.php:624
+#: wp-content/plugins/akismet/akismet.php:640
 #, php-format
 msgid "%1$s comments recovered."
 msgstr "Obnovené komentáře: %1$s."
 
-#: wp-content/plugins/akismet/akismet.php:628
+#: wp-content/plugins/akismet/akismet.php:644
 msgid "All spam deleted."
 msgstr "Všechny spamy byly smazány."
 
-#: wp-content/plugins/akismet/akismet.php:676
+#: wp-content/plugins/akismet/akismet.php:692
 msgid "Caught Spam"
 msgstr "Antispamová kontrola"
 
-#: wp-content/plugins/akismet/akismet.php:681
+#: wp-content/plugins/akismet/akismet.php:697
 #, php-format
 msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
 msgstr "Od instalace tohoto pluginu zachytil Akismet celkem <strong>%1$s spamů</strong>."
 
-#: wp-content/plugins/akismet/akismet.php:688
+#: wp-content/plugins/akismet/akismet.php:704
 msgid "You have no spam currently in the queue. Must be your lucky day. :)"
 msgstr "Dnes na vás nečeká ve frontě ke schválení žádný spam. Šťastný den. :)"
 
-#: wp-content/plugins/akismet/akismet.php:691
+#: wp-content/plugins/akismet/akismet.php:707
 msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
 msgstr "Můžete smazat jedním kliknutím všechny spamy, které jsou uloženy ve vaší databázi. Tato operace se však nedá vrátit zpět, takže doporučujeme důkladně tyto mazané komentáře zkontrolovat. Všechny komentáře označené jako spam budou automaticky odstraněny po 15 dnech, takže se jejich mazáním nemusíte vůbec zabývat."
 
-#: wp-content/plugins/akismet/akismet.php:697
-#: wp-content/plugins/akismet/akismet.php:875
+#: wp-content/plugins/akismet/akismet.php:713
+#: wp-content/plugins/akismet/akismet.php:891
 #, php-format
 msgid "There are currently %1$s comments identified as spam."
 msgstr "Máte %1$s komentářů aktuálně označených jako spam."
 
-#: wp-content/plugins/akismet/akismet.php:697
-#: wp-content/plugins/akismet/akismet.php:875
+#: wp-content/plugins/akismet/akismet.php:713
+#: wp-content/plugins/akismet/akismet.php:891
 msgid "Delete all"
 msgstr "Smazat všechny"
 
-#: wp-content/plugins/akismet/akismet.php:706
+#: wp-content/plugins/akismet/akismet.php:722
 msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
 msgstr "Zde je přehled posledních komentářů, které Akismet označil jako spam. Pokud jsou některé komentáře označeny chybně jako spam, tak u nich zaškrtněte možnost \"Není spam\" a výběr nakonec potvrďte dole na stránce kliknutím na tlačítko \"Vybrané komentáře označit jako korektní\". Akismet si to zapamatuje a přístě již tuto chybu neudělá. Raději zachycené spamy občas zkontrolujte, protože budou vždy po 15 dnech všechny automaticky smazány."
 
-#: wp-content/plugins/akismet/akismet.php:760
+#: wp-content/plugins/akismet/akismet.php:776
 msgid "Search Spam &raquo;"
 msgstr "Hledat spam &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:767
-#: wp-content/plugins/akismet/akismet.php:834
+#: wp-content/plugins/akismet/akismet.php:783
+#: wp-content/plugins/akismet/akismet.php:850
 #: wp-includes/link-template.php:1445
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Předchozí stránka"
 
-#: wp-content/plugins/akismet/akismet.php:788
-#: wp-content/plugins/akismet/akismet.php:855
+#: wp-content/plugins/akismet/akismet.php:804
+#: wp-content/plugins/akismet/akismet.php:871
 #: wp-includes/link-template.php:1446
 msgid "Next Page &raquo;"
 msgstr "Další stránka &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:810
+#: wp-content/plugins/akismet/akismet.php:826
 msgid "IP:"
 msgstr "IP:"
 
-#: wp-content/plugins/akismet/akismet.php:816
+#: wp-content/plugins/akismet/akismet.php:832
 msgid "Not Spam"
 msgstr "Není spam"
 
-#: wp-content/plugins/akismet/akismet.php:861
+#: wp-content/plugins/akismet/akismet.php:877
 msgid "De-spam marked comments &raquo;"
 msgstr "Vybrané komentáře označit jako korektní &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:863
+#: wp-content/plugins/akismet/akismet.php:879
 msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
 msgstr "Komentáře, které označíte jako korektní, budou automaticky oznámeny autorům Akismetu a pomohou do budoucna zlepšit funkce tohoto antispamu."
 
-#: wp-content/plugins/akismet/akismet.php:899
+#: wp-content/plugins/akismet/akismet.php:915
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
 msgstr "<a href=\"%1$s\">Akismet</a> ochránil váš web před <a href=\"%2$s\">%3$s útoky komentářového spamu</a>."
 
-#: wp-content/plugins/akismet/akismet.php:917
+#: wp-content/plugins/akismet/akismet.php:933
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
@@ -9872,12 +9790,12 @@ msgstr[0] "<a href=\"%1$s\">Akismet</a> už ochránil váš web před %2$s útok
 msgstr[1] "<a href=\"%1$s\">Akismet</a> už ochránil váš web před %2$s útoky komentářového spamu,"
 msgstr[2] "<a href=\"%1$s\">Akismet</a> už ochránil váš web před %2$s útoky komentářového spamu,"
 
-#: wp-content/plugins/akismet/akismet.php:922
+#: wp-content/plugins/akismet/akismet.php:938
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
 msgstr "<a href=\"%1$s\">Akismet</a> blokuje komentářový spam, aby se nezobrazoval na vašem webu."
 
-#: wp-content/plugins/akismet/akismet.php:927
+#: wp-content/plugins/akismet/akismet.php:943
 #, php-format
 msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
@@ -9885,34 +9803,34 @@ msgstr[0] "V tuto chvíli máte ve spamovém koši <a href=\"%2$s\">%1$s koment�
 msgstr[1] "V tuto chvíli máte ve spamovém koši <a href=\"%2$s\">%1$s komentářové spamy</a>."
 msgstr[2] "V tuto chvíli máte ve spamovém koši <a href=\"%2$s\">%1$s komentářových spamů</a>."
 
-#: wp-content/plugins/akismet/akismet.php:932
+#: wp-content/plugins/akismet/akismet.php:948
 #, php-format
 msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
 msgstr "V tuto chvíli není <a href='%1$s'>ve spamovém koši</a> žádný komentářový spam."
 
-#: wp-content/plugins/akismet/akismet.php:935
+#: wp-content/plugins/akismet/akismet.php:951
 #, php-format
 msgid "%1$s %2$s|akismet_rightnow"
 msgstr "%1$s %2$s|akismet_rightnow"
 
-#: wp-content/plugins/akismet/akismet.php:950
+#: wp-content/plugins/akismet/akismet.php:966
 msgid "Recheck Queue for Spam"
 msgstr "Překontrolovat komentáře, zda neobsahují spam"
 
-#: wp-content/plugins/akismet/akismet.php:967
+#: wp-content/plugins/akismet/akismet.php:983
 msgid "Check for Spam"
 msgstr "Překontrolovat komentáře, zda neobsahují spam"
 
-#: wp-content/plugins/akismet/akismet.php:1042
+#: wp-content/plugins/akismet/akismet.php:1058
 #, php-format
 msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
 msgstr "%1$s %2$sspam komentářů%3$s %4$szablokoval%5$s<br />%6$sAkismet%7$s"
 
-#: wp-content/plugins/akismet/akismet.php:1104
+#: wp-content/plugins/akismet/akismet.php:1120
 msgid "spam comments"
 msgstr "komentářové spamy"
 
-#: wp-content/plugins/akismet/akismet.php:1104
+#: wp-content/plugins/akismet/akismet.php:1120
 msgid "blocked by"
 msgstr "blokováno"
 
@@ -9999,20 +9917,20 @@ msgid "Enter your password to view comments."
 msgstr "Pro zobrazení komentářů zadejte svoje heslo."
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:555
-#: wp-includes/comment-template.php:935
+#: wp-includes/comment-template.php:557
+#: wp-includes/comment-template.php:937
 msgid "No Comments"
 msgstr "Žádné komentáře"
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:557
-#: wp-includes/comment-template.php:936
+#: wp-includes/comment-template.php:559
+#: wp-includes/comment-template.php:938
 msgid "1 Comment"
 msgstr "1 komentář"
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:553
-#: wp-includes/comment-template.php:937
+#: wp-includes/comment-template.php:555
+#: wp-includes/comment-template.php:939
 msgid "% Comments"
 msgstr "Komentáře: %"
 
@@ -10055,7 +9973,7 @@ msgid "Filed under:"
 msgstr "Zařazen do:"
 
 #: wp-content/themes/classic/index.php:15
-#: wp-includes/category-template.php:802
+#: wp-includes/category-template.php:804
 msgid "Tags: "
 msgstr "Štítky:"
 
@@ -10089,7 +10007,7 @@ msgid "Older Posts &raquo;"
 msgstr "Starší příspěvky &raquo;"
 
 #: wp-content/themes/classic/sidebar.php:13
-#: wp-includes/post-template.php:563
+#: wp-includes/post-template.php:567
 msgid "Pages:"
 msgstr "Stránky:"
 
@@ -10250,12 +10168,12 @@ msgstr "Záložky"
 msgid "View all posts in %s"
 msgstr "Zobrazit všechny příspěvky v rubrice %s"
 
-#: wp-includes/category-template.php:459
 #: wp-includes/category-template.php:461
+#: wp-includes/category-template.php:463
 msgid "No categories"
 msgstr "Žádné rubriky"
 
-#: wp-includes/category-template.php:563
+#: wp-includes/category-template.php:565
 #, php-format
 msgid "%s topic"
 msgid_plural "%s topics"
@@ -10359,59 +10277,59 @@ msgstr "Zobrazit všechny příspěvky zařazené do rubriky %s"
 msgid "Feed for all posts filed under %s"
 msgstr "RSS zdroj pro všechny příspěvky zažazené do rubriky %s"
 
-#: wp-includes/comment-template.php:938
+#: wp-includes/comment-template.php:940
 msgid "Comments Off"
 msgstr "Komentáře nejsou povoleny"
 
-#: wp-includes/comment-template.php:948
+#: wp-includes/comment-template.php:950
 msgid "Enter your password to view comments"
 msgstr "Pro zobrazení komentářů zadejte heslo."
 
-#: wp-includes/comment-template.php:975
+#: wp-includes/comment-template.php:977
 #, php-format
 msgid "Comment on %s"
 msgstr "Komentář k příspěvku %s"
 
-#: wp-includes/comment-template.php:1001
+#: wp-includes/comment-template.php:1003
 msgid "Log in to Reply"
 msgstr "Pro vložení odpovědi na komentář se musíte přihlásit"
 
-#: wp-includes/comment-template.php:1059
+#: wp-includes/comment-template.php:1061
 msgid "Leave a Comment"
 msgstr "Napsat komentář"
 
-#: wp-includes/comment-template.php:1060
+#: wp-includes/comment-template.php:1062
 msgid "Log in to leave a Comment"
 msgstr "Pro vložení komentáře se musíte přihlásit"
 
-#: wp-includes/comment-template.php:1099
+#: wp-includes/comment-template.php:1101
 msgid "Click here to cancel reply."
 msgstr "Odpověď na komentář zrušíte zde."
 
-#: wp-includes/comment-template.php:1142
+#: wp-includes/comment-template.php:1144
 msgid "Leave a Reply"
 msgstr "Napsat komentář"
 
-#: wp-includes/comment-template.php:1143
+#: wp-includes/comment-template.php:1145
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr "Napsat komentář k %s"
 
-#: wp-includes/comment-template.php:1261
+#: wp-includes/comment-template.php:1263
 #, php-format
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
 msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">napsal:</span>"
 
-#: wp-includes/comment-template.php:1264
+#: wp-includes/comment-template.php:1266
 msgid "Your comment is awaiting moderation."
 msgstr "Váš komentář čeká na schválení."
 
-#: wp-includes/comment-template.php:1268
+#: wp-includes/comment-template.php:1270
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s v %2$s"
 
-#: wp-includes/comment-template.php:1268
+#: wp-includes/comment-template.php:1270
 msgid "(Edit)"
 msgstr "(Upravit)"
 
@@ -10721,7 +10639,7 @@ msgctxt "closing curly quote"
 msgid "&#8221;"
 msgstr "&#8220;"
 
-#: wp-includes/formatting.php:1661
+#: wp-includes/formatting.php:1697
 #, php-format
 msgid "%s min"
 msgid_plural "%s mins"
@@ -10729,7 +10647,7 @@ msgstr[0] "%s minuta"
 msgstr[1] "%s minuty"
 msgstr[2] "%s minut"
 
-#: wp-includes/formatting.php:1667
+#: wp-includes/formatting.php:1703
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
@@ -10737,7 +10655,7 @@ msgstr[0] "%s hodina"
 msgstr[1] "%s hodiny"
 msgstr[2] "%s hodin"
 
-#: wp-includes/formatting.php:1673
+#: wp-includes/formatting.php:1709
 #, php-format
 msgid "%s day"
 msgid_plural "%s days"
@@ -10746,17 +10664,17 @@ msgstr[1] "%s dny"
 msgstr[2] "%s dní"
 
 #. translators: used between list items, there is a space after the coma
-#: wp-includes/formatting.php:2547
+#: wp-includes/formatting.php:2583
 msgid ", "
 msgstr ", "
 
 #. translators: used between list items, there is a space after the and
-#: wp-includes/formatting.php:2549
+#: wp-includes/formatting.php:2585
 msgid ", and "
 msgstr ", a "
 
 #. translators: used between only two list items, there is a space after the and
-#: wp-includes/formatting.php:2551
+#: wp-includes/formatting.php:2587
 msgid " and "
 msgstr " a "
 
@@ -10785,216 +10703,216 @@ msgstr "Prázdný název souboru"
 msgid "Could not write file %s"
 msgstr "Soubor %s nelze uložit."
 
-#: wp-includes/functions.php:2323
+#: wp-includes/functions.php:2339
 #, php-format
 msgid "Your attempt to edit this attachment: &#8220;%s&#8221; has failed."
 msgstr "Pokus o úpravu této přílohy: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2325
+#: wp-includes/functions.php:2341
 msgid "Your attempt to add this category has failed."
 msgstr "Pokus o vytvoření této rubriky selhal."
 
-#: wp-includes/functions.php:2326
+#: wp-includes/functions.php:2342
 #, php-format
 msgid "Your attempt to delete this category: &#8220;%s&#8221; has failed."
 msgstr "Pokus o smazání této rubriky: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2327
+#: wp-includes/functions.php:2343
 #, php-format
 msgid "Your attempt to edit this category: &#8220;%s&#8221; has failed."
 msgstr "Pokus o úpravu této rubriky: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2329
+#: wp-includes/functions.php:2345
 #, php-format
 msgid "Your attempt to delete this comment: &#8220;%s&#8221; has failed."
 msgstr "Pokus o smazání tohoto komentáře: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2330
+#: wp-includes/functions.php:2346
 #, php-format
 msgid "Your attempt to unapprove this comment: &#8220;%s&#8221; has failed."
 msgstr "Pokus o nechválení tohoto komentáře: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2331
+#: wp-includes/functions.php:2347
 #, php-format
 msgid "Your attempt to approve this comment: &#8220;%s&#8221; has failed."
 msgstr "Pokus o schválení tohoto komentáře: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2332
+#: wp-includes/functions.php:2348
 #, php-format
 msgid "Your attempt to edit this comment: &#8220;%s&#8221; has failed."
 msgstr "Pokus o úpravu tohoto komentáře: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2333
+#: wp-includes/functions.php:2349
 msgid "Your attempt to bulk modify comments has failed."
 msgstr "Pokus o hromadnou úpravu komentářů selhal."
 
-#: wp-includes/functions.php:2334
+#: wp-includes/functions.php:2350
 msgid "Your attempt to moderate comments has failed."
 msgstr "Pokus o moderování komentářů selhal."
 
-#: wp-includes/functions.php:2336
+#: wp-includes/functions.php:2352
 msgid "Your attempt to add this link has failed."
 msgstr "Pokus o vytvoření tohoto odkazu selhal."
 
-#: wp-includes/functions.php:2337
+#: wp-includes/functions.php:2353
 #, php-format
 msgid "Your attempt to delete this link: &#8220;%s&#8221; has failed."
 msgstr "Pokus o smazání tohoto odkazu: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2338
+#: wp-includes/functions.php:2354
 #, php-format
 msgid "Your attempt to edit this link: &#8220;%s&#8221; has failed."
 msgstr "Pokus o úpravu tohoto odkazu: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2339
+#: wp-includes/functions.php:2355
 msgid "Your attempt to bulk modify links has failed."
 msgstr "Pokus o hromadnou úpravu odkazů selhal."
 
-#: wp-includes/functions.php:2341
+#: wp-includes/functions.php:2357
 msgid "Your attempt to add this page has failed."
 msgstr "Pokus o vytvoření této stránky selhal."
 
-#: wp-includes/functions.php:2342
+#: wp-includes/functions.php:2358
 #, php-format
 msgid "Your attempt to delete this page: &#8220;%s&#8221; has failed."
 msgstr "Pokus o smazání této stránky: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2343
+#: wp-includes/functions.php:2359
 #, php-format
 msgid "Your attempt to edit this page: &#8220;%s&#8221; has failed."
 msgstr "Pokus o úpravu této stránky: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2345
+#: wp-includes/functions.php:2361
 #, php-format
 msgid "Your attempt to edit this plugin file: &#8220;%s&#8221; has failed."
 msgstr "Pokus o úpravu tohoto souboru pluginu: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2346
+#: wp-includes/functions.php:2362
 #, php-format
 msgid "Your attempt to activate this plugin: &#8220;%s&#8221; has failed."
 msgstr "Pokus o aktivaci tohoto pluginu: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2347
+#: wp-includes/functions.php:2363
 #, php-format
 msgid "Your attempt to deactivate this plugin: &#8220;%s&#8221; has failed."
 msgstr "Pokus o deaktivaci tohoto pluginu: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2348
+#: wp-includes/functions.php:2364
 #, php-format
 msgid "Your attempt to upgrade this plugin: &#8220;%s&#8221; has failed."
 msgstr "Pokus o aktualizaci tohoto pluginu: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2350
+#: wp-includes/functions.php:2366
 msgid "Your attempt to add this post has failed."
 msgstr "Pokus o vytvoření tohoto příspěvku selhal."
 
-#: wp-includes/functions.php:2351
+#: wp-includes/functions.php:2367
 #, php-format
 msgid "Your attempt to delete this post: &#8220;%s&#8221; has failed."
 msgstr "Pokus o smazání tohoto příspěvku: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2352
+#: wp-includes/functions.php:2368
 #, php-format
 msgid "Your attempt to edit this post: &#8220;%s&#8221; has failed."
 msgstr "Pokus o úpravu tohoto příspěvku: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2354
+#: wp-includes/functions.php:2370
 msgid "Your attempt to add this user has failed."
 msgstr "Pokus o vytvoření tohoto uživatele selhal."
 
-#: wp-includes/functions.php:2355
+#: wp-includes/functions.php:2371
 msgid "Your attempt to delete users has failed."
 msgstr "Pokus o smazání uživatelů selhal."
 
-#: wp-includes/functions.php:2356
+#: wp-includes/functions.php:2372
 msgid "Your attempt to bulk modify users has failed."
 msgstr "Pokus o hromadnou úpravu uživatelů selhal."
 
-#: wp-includes/functions.php:2357
+#: wp-includes/functions.php:2373
 #, php-format
 msgid "Your attempt to edit this user: &#8220;%s&#8221; has failed."
 msgstr "Pokus o úpravu tohoto uživatele &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2358
+#: wp-includes/functions.php:2374
 #, php-format
 msgid "Your attempt to modify the profile for: &#8220;%s&#8221; has failed."
 msgstr "Pokus o úpravu profilu tohoto uživatele: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2360
+#: wp-includes/functions.php:2376
 msgid "Your attempt to edit your settings has failed."
 msgstr "Pokus o úpravu vašeho nastavení selhal."
 
-#: wp-includes/functions.php:2361
+#: wp-includes/functions.php:2377
 #, php-format
 msgid "Your attempt to change your permalink structure to: %s has failed."
 msgstr "Pokus o úpravu struktury trvalých odkazů na \"%s\" selhal."
 
-#: wp-includes/functions.php:2362
+#: wp-includes/functions.php:2378
 #, php-format
 msgid "Your attempt to edit this file: &#8220;%s&#8221; has failed."
 msgstr "Pokus o úpravu tohoto souboru: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2363
+#: wp-includes/functions.php:2379
 #, php-format
 msgid "Your attempt to edit this theme file: &#8220;%s&#8221; has failed."
 msgstr "Pokus o úpravu tohoto souboru šablony: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2364
+#: wp-includes/functions.php:2380
 #, php-format
 msgid "Your attempt to switch to this theme: &#8220;%s&#8221; has failed."
 msgstr "Pokus o aktivaci této šablony: &#8222;%s&#8220; selhal."
 
-#: wp-includes/functions.php:2366
+#: wp-includes/functions.php:2382
 #, php-format
 msgid "You are attempting to log out of %s"
 msgstr "Pokoušíte se odhlásit z %s"
 
-#: wp-includes/functions.php:2386
-#: wp-includes/functions.php:2388
+#: wp-includes/functions.php:2402
+#: wp-includes/functions.php:2404
 msgid "Are you sure you want to do this?"
 msgstr "Opravdu to chcete udělat?"
 
-#: wp-includes/functions.php:2405
+#: wp-includes/functions.php:2421
 msgid "WordPress Failure Notice"
 msgstr "Upozornění WordPressu na selhání"
 
-#: wp-includes/functions.php:2408
+#: wp-includes/functions.php:2424
 msgid "Please try again."
 msgstr "Zkuste to prosím znovu."
 
-#: wp-includes/functions.php:2410
+#: wp-includes/functions.php:2426
 #, php-format
 msgid "Do you really want to <a href='%s'>log out</a>?"
 msgstr "Opravdu se chcete <a href='%s'>odhlásit</a>?"
 
-#: wp-includes/functions.php:2461
+#: wp-includes/functions.php:2477
 msgid "&laquo; Back"
 msgstr "&laquo; Zpět"
 
 #. #-#-#-#-#  wordpress.pot (PACKAGE VERSION)  #-#-#-#-#
 #. Not gettexted string WP_I18N_ERROR_TITLE
-#: wp-includes/functions.php:2482
+#: wp-includes/functions.php:2498
 #: wp-load.php:50
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; Chyba"
 
-#: wp-includes/functions.php:2918
-#: wp-includes/functions.php:2955
+#: wp-includes/functions.php:2934
+#: wp-includes/functions.php:2971
 #, php-format
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s <strong>není podporováno</strong> už od verze %2$s! Použijte místo toho raději %3$s."
 
-#: wp-includes/functions.php:2920
-#: wp-includes/functions.php:2957
+#: wp-includes/functions.php:2936
+#: wp-includes/functions.php:2973
 #, php-format
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s <strong>není podporováno</strong> už od verze %2$s a v aktuální verzi nemá žádnou náhradu."
 
-#: wp-includes/functions.php:3275
+#: wp-includes/functions.php:3291
 msgid "Select a city"
 msgstr "Vyberte město"
 
-#: wp-includes/functions.php:3290
+#: wp-includes/functions.php:3306
 msgid "Manual offsets"
 msgstr "Ruční nastavení časového posunu"
 
@@ -11046,66 +10964,66 @@ msgctxt "calendar caption"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
-#: wp-includes/general-template.php:1051
-#: wp-includes/general-template.php:1061
+#: wp-includes/general-template.php:1052
+#: wp-includes/general-template.php:1062
 #, php-format
 msgid "View posts for %1$s %2$s"
 msgstr "Zobrazit příspěvky z %1$s %2$s"
 
 #. translators: Separator between blog name and feed type in feed links
-#: wp-includes/general-template.php:1457
-#: wp-includes/general-template.php:1480
+#: wp-includes/general-template.php:1458
+#: wp-includes/general-template.php:1481
 msgctxt "feed link"
 msgid "&raquo;"
 msgstr "&raquo;"
 
 #. translators: 1: blog title, 2: separator (raquo)
-#: wp-includes/general-template.php:1459
+#: wp-includes/general-template.php:1460
 #, php-format
 msgid "%1$s %2$s Feed"
 msgstr "%1$s %2$s RSS zdroj"
 
 #. translators: %s: blog title, 2: separator (raquo)
-#: wp-includes/general-template.php:1461
+#: wp-includes/general-template.php:1462
 #, php-format
 msgid "%1$s %2$s Comments Feed"
 msgstr "%1$s %2$s RSS komentářů"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: post title
-#: wp-includes/general-template.php:1482
+#: wp-includes/general-template.php:1483
 #, php-format
 msgid "%1$s %2$s %3$s Comments Feed"
 msgstr "%1$s %2$s %3$s RSS komentářů"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: category name
-#: wp-includes/general-template.php:1484
+#: wp-includes/general-template.php:1485
 #, php-format
 msgid "%1$s %2$s %3$s Category Feed"
 msgstr "%1$s %2$s %3$s RSS rubriky"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: tag name
-#: wp-includes/general-template.php:1486
+#: wp-includes/general-template.php:1487
 #, php-format
 msgid "%1$s %2$s %3$s Tag Feed"
 msgstr "%1$s %2$s %3$s RSS štítku"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: author name
-#: wp-includes/general-template.php:1488
+#: wp-includes/general-template.php:1489
 #, php-format
 msgid "%1$s %2$s Posts by %3$s Feed"
 msgstr "%1$s %2$s RSS příspěvků autora %3$s"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: search phrase
-#: wp-includes/general-template.php:1490
+#: wp-includes/general-template.php:1491
 #, php-format
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
 msgstr "%1$s %2$s RSS výsledků vyhledávání výrazu &#8222;%3$s&#8220;"
 
-#: wp-includes/general-template.php:1806
+#: wp-includes/general-template.php:1807
 msgid "&laquo; Previous"
 msgstr "&laquo; Předchozí"
 
-#: wp-includes/general-template.php:1807
+#: wp-includes/general-template.php:1808
 msgid "Next &raquo;"
 msgstr "Další &raquo;"
 
@@ -13081,61 +12999,61 @@ msgstr "Soukromý: %s"
 msgid "There is no excerpt because this is a protected post."
 msgstr "Stručný obsah příspěvku zde není uveden, protože je tento příspěvek chráněn heslem."
 
-#: wp-includes/post-template.php:565
+#: wp-includes/post-template.php:569
 msgid "Next page"
 msgstr "Následující stránka"
 
-#: wp-includes/post-template.php:566
+#: wp-includes/post-template.php:570
 msgid "Previous page"
 msgstr "Předchozí stránka"
 
-#: wp-includes/post-template.php:820
+#: wp-includes/post-template.php:825
 msgid "Home"
 msgstr "Hlavní stránka"
 
-#: wp-includes/post-template.php:930
-#: wp-includes/post-template.php:967
+#: wp-includes/post-template.php:935
+#: wp-includes/post-template.php:972
 msgid "Missing Attachment"
 msgstr "Chybějící příloha"
 
-#: wp-includes/post-template.php:1141
+#: wp-includes/post-template.php:1146
 msgid "This post is password protected. To view it please enter your password below:"
 msgstr "Tento příspěvek je chráněn heslem. Pokud ho chcete zobrazit, zadejte prosím heslo:"
 
 #. translators: revision date format, see http://php.net/date
-#: wp-includes/post-template.php:1205
+#: wp-includes/post-template.php:1210
 msgctxt "revision date format"
 msgid "j F, Y @ G:i"
 msgstr "j.n.Y, G:i"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1207
+#: wp-includes/post-template.php:1212
 #, php-format
 msgid "%1$s [Autosave]"
 msgstr "%1$s [Automaticky uloženo]"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1209
+#: wp-includes/post-template.php:1214
 #, php-format
 msgid "%1$s [Current Revision]"
 msgstr "%1$s [Aktuální verze]"
 
 #. translators: post revision: 1: when, 2: author name
-#: wp-includes/post-template.php:1275
+#: wp-includes/post-template.php:1280
 #, php-format
 msgctxt "post revision"
 msgid "%1$s by %2$s"
 msgstr "%1$s u %2$s"
 
-#: wp-includes/post-template.php:1302
+#: wp-includes/post-template.php:1307
 msgid "Restore"
 msgstr "Obnovit"
 
-#: wp-includes/post-template.php:1324
+#: wp-includes/post-template.php:1329
 msgid "Compare Revisions"
 msgstr "Porovnejte vybrané verze"
 
-#: wp-includes/post-template.php:1339
+#: wp-includes/post-template.php:1344
 msgid "Date Created"
 msgstr "Datum vytvoření"
 
@@ -13683,254 +13601,254 @@ msgstr "Zaměření webu"
 msgid "Sorry, you cannot edit this page."
 msgstr "Nemůžete bohužel upravovat tuto stránku."
 
-#: xmlrpc.php:573
-#: xmlrpc.php:691
-#: xmlrpc.php:737
+#: xmlrpc.php:578
+#: xmlrpc.php:696
+#: xmlrpc.php:742
 msgid "Sorry, no such page."
 msgstr "Žádná taková stránka tu bohužel není."
 
-#: xmlrpc.php:598
-#: xmlrpc.php:783
+#: xmlrpc.php:603
+#: xmlrpc.php:788
 msgid "Sorry, you cannot edit pages."
 msgstr "Nemůžete bohužel upravovat stránky."
 
-#: xmlrpc.php:652
+#: xmlrpc.php:657
 msgid "Sorry, you cannot add new pages."
 msgstr "Nemůžete bohužel vytvářet nové stránky."
 
-#: xmlrpc.php:696
+#: xmlrpc.php:701
 msgid "Sorry, you do not have the right to delete this page."
 msgstr "Nemáte bohužel dostatečné oprávnění pro smazání této stránky."
 
-#: xmlrpc.php:702
+#: xmlrpc.php:707
 msgid "Failed to delete the page."
 msgstr "Nepodařilo se smazat tuto stránku."
 
-#: xmlrpc.php:742
+#: xmlrpc.php:747
 msgid "Sorry, you do not have the right to edit this page."
 msgstr "Nemáte bohužel dostatečné oprávnění pro úpravu této stránky."
 
-#: xmlrpc.php:836
+#: xmlrpc.php:849
 msgid "Sorry, you cannot edit posts on this blog."
 msgstr "Nemůžete bohužel upravovat příspěvky na tomto webu."
 
-#: xmlrpc.php:873
+#: xmlrpc.php:886
 msgid "Sorry, you must be able to edit posts on this blog in order to view tags."
 msgstr "Omlouváme se, ale musíte mít právo upravovat příspěvky na tomto webu, abyste si mohli prohlížet štítky."
 
-#: xmlrpc.php:920
+#: xmlrpc.php:933
 msgid "Sorry, you do not have the right to add a category."
 msgstr "Nemáte bohužel dostatečné oprávnění pro vytvoření nové rubriky."
 
-#: xmlrpc.php:948
+#: xmlrpc.php:961
 msgid "Sorry, the new category failed."
 msgstr "Nepodařilo se vytvořit novou rubriku."
 
-#: xmlrpc.php:977
+#: xmlrpc.php:990
 msgid "Sorry, you do not have the right to delete a category."
 msgstr "Nemáte bohužel dostatečné oprávnění pro mazání rubrik."
 
-#: xmlrpc.php:1005
+#: xmlrpc.php:1018
 msgid "Sorry, you must be able to edit posts to this blog in order to view categories."
 msgstr "Musíte mít právo upravovat příspěvky na tomto webu, abyste si mohli prohlížet rubriky."
 
-#: xmlrpc.php:1042
-#: xmlrpc.php:1165
-#: xmlrpc.php:1197
+#: xmlrpc.php:1055
+#: xmlrpc.php:1178
+#: xmlrpc.php:1210
 msgid "You are not allowed to moderate comments on this blog."
 msgstr "Nemáte dostatečné oprávnění pro schvalování komentářů na tomto webu."
 
-#: xmlrpc.php:1047
-#: xmlrpc.php:1170
-#: xmlrpc.php:1202
+#: xmlrpc.php:1060
+#: xmlrpc.php:1183
+#: xmlrpc.php:1215
 msgid "Invalid comment ID."
 msgstr "Neplatné ID komentáře."
 
-#: xmlrpc.php:1105
+#: xmlrpc.php:1118
 msgid "Sorry, you cannot edit comments."
 msgstr "Nemůžete bohužel upravovat komentáře."
 
-#: xmlrpc.php:1209
+#: xmlrpc.php:1222
 msgid "Invalid comment status."
 msgstr "Neplatný stav komentáře."
 
-#: xmlrpc.php:1240
+#: xmlrpc.php:1253
 msgid "Sorry, the comment could not be edited. Something wrong happened."
 msgstr "Omlouváme se, ale komentář se bohužel nepodařilo upravit. Stalo se něco nečekaného."
 
-#: xmlrpc.php:1271
+#: xmlrpc.php:1284
 msgid "You must be registered to comment"
 msgstr "Musíte se zaregistrovat, abyste mohli přidávat komentáře."
 
-#: xmlrpc.php:1284
-#: xmlrpc.php:1287
-#: xmlrpc.php:2337
+#: xmlrpc.php:1297
+#: xmlrpc.php:1300
+#: xmlrpc.php:2350
 msgid "Invalid post ID."
 msgstr "Neplatné ID příspěvku."
 
-#: xmlrpc.php:1313
+#: xmlrpc.php:1326
 msgid "Comment author name and email are required"
 msgstr "Pro přidání komentáře musíte vyplnit své jméno a email"
 
-#: xmlrpc.php:1315
+#: xmlrpc.php:1328
 msgid "A valid email address is required"
 msgstr "Platná emailová adresa je vyžadována"
 
-#: xmlrpc.php:1348
-#: xmlrpc.php:1410
-#: xmlrpc.php:1438
-#: xmlrpc.php:1466
+#: xmlrpc.php:1361
+#: xmlrpc.php:1423
+#: xmlrpc.php:1451
+#: xmlrpc.php:1479
 msgid "You are not allowed access to details about this blog."
 msgstr "Nemáte dostatečné oprávnění pro zobrazení detailních informací o tomto webu."
 
-#: xmlrpc.php:1376
+#: xmlrpc.php:1389
 msgid "You are not allowed access to details about comments."
 msgstr "Nemáte dostatečné oprávnění pro zobrazení detailů o komentářích."
 
-#: xmlrpc.php:1550
+#: xmlrpc.php:1563
 msgid "You are not allowed to update options."
 msgstr "Nemáte dostatečné oprávnění pro aktualizaci nastavení webu."
 
-#: xmlrpc.php:1632
+#: xmlrpc.php:1645
 msgid "Sorry, you do not have access to user data on this blog."
 msgstr "Nemáte bohužel dostatečné oprávnění pro přístup k informacím o registrovaných uživatelích na tomto webu."
 
-#: xmlrpc.php:1668
-#: xmlrpc.php:2567
-#: xmlrpc.php:3057
-#: xmlrpc.php:3167
+#: xmlrpc.php:1681
+#: xmlrpc.php:2580
+#: xmlrpc.php:3078
+#: xmlrpc.php:3188
 msgid "Sorry, you cannot edit this post."
 msgstr "Nemůžete bohužel upravovat tento příspěvek."
 
-#: xmlrpc.php:1716
-#: xmlrpc.php:2924
+#: xmlrpc.php:1729
+#: xmlrpc.php:2940
 msgid "Either there are no posts, or something went wrong."
 msgstr "Nejsou tu patrně žádné příspěvky, nebo se stala nějaká chyba."
 
-#: xmlrpc.php:1772
+#: xmlrpc.php:1785
 msgid "Sorry, this user can not edit the template."
 msgstr "Tento uživatel nemůže bohužel upravovat šablonu."
 
-#: xmlrpc.php:1814
+#: xmlrpc.php:1827
 msgid "Sorry, this user cannot edit the template."
 msgstr "Tento uživatel nemůže bohužel upravovat šablonu."
 
-#: xmlrpc.php:1825
+#: xmlrpc.php:1838
 msgid "Either the file is not writable, or something wrong happened. The file has not been updated."
 msgstr "Nelze zapisovat do souboru, nebo se stala nějaká chyba. Soubor nebyl aktualizován."
 
-#: xmlrpc.php:1857
+#: xmlrpc.php:1870
 msgid "Sorry, you are not allowed to post on this blog."
 msgstr "Nemáte bohužel dostatečné oprávnění pro vytváření nových příspěvků na tomto webu."
 
-#: xmlrpc.php:1913
-#: xmlrpc.php:1967
-#: xmlrpc.php:2660
-#: xmlrpc.php:3119
+#: xmlrpc.php:1926
+#: xmlrpc.php:1980
+#: xmlrpc.php:2671
+#: xmlrpc.php:3140
 msgid "Sorry, no such post."
 msgstr "Žádný takový příspěvek tu bohužel není."
 
-#: xmlrpc.php:1924
-#: xmlrpc.php:2489
+#: xmlrpc.php:1937
+#: xmlrpc.php:2502
 msgid "Sorry, you do not have the right to publish this post."
 msgstr "Nemáte bohužel dostatečné oprávnění pro vytvoření tohoto příspěvku."
 
-#: xmlrpc.php:2010
-#: xmlrpc.php:2307
+#: xmlrpc.php:2023
+#: xmlrpc.php:2320
 msgid "Sorry, you are not allowed to publish posts on this blog."
 msgstr "Nemáte bohužel dostatečné oprávnění pro vytváření nových příspěvků na tomto webu."
 
-#: xmlrpc.php:2016
-#: xmlrpc.php:2313
+#: xmlrpc.php:2029
+#: xmlrpc.php:2326
 msgid "Sorry, you are not allowed to publish pages on this blog."
 msgstr "Nemáte bohužel dostatečné oprávnění pro vytváření nových stránek na tomto webu."
 
-#: xmlrpc.php:2026
-#: xmlrpc.php:2075
-#: xmlrpc.php:2323
-#: xmlrpc.php:2383
+#: xmlrpc.php:2039
+#: xmlrpc.php:2088
+#: xmlrpc.php:2336
+#: xmlrpc.php:2396
 msgid "Invalid post type."
 msgstr "Nesprávný způsob odeslání."
 
-#: xmlrpc.php:2066
+#: xmlrpc.php:2079
 msgid "You are not allowed to post as this user"
 msgstr "Nemáte dostatečné oprávnění pro vytváření nových příspěvků se jménem tohoto uživatele."
 
-#: xmlrpc.php:2071
+#: xmlrpc.php:2084
 msgid "You are not allowed to create pages as this user"
 msgstr "Nemáte dostatečné oprávnění pro vytváření nových stránek se jménem tohoto uživatele."
 
-#: xmlrpc.php:2374
+#: xmlrpc.php:2387
 msgid "You are not allowed to change the post author as this user."
 msgstr "Nemáte dostatečné oprávnění pro změnu autora tohoto příspěvku na tohoto uživatele."
 
-#: xmlrpc.php:2379
+#: xmlrpc.php:2392
 msgid "You are not allowed to change the page author as this user."
 msgstr "Nemáte dostatečné oprávnění pro změnu autora této stránky na tohoto uživatele."
 
-#: xmlrpc.php:2487
+#: xmlrpc.php:2500
 msgid "Sorry, you do not have the right to publish this page."
 msgstr "Nemáte bohužel dostatečné oprávnění pro publikování této stránky."
 
-#: xmlrpc.php:2522
+#: xmlrpc.php:2535
 msgid "Sorry, your entry could not be edited. Something wrong happened."
 msgstr "Váš příspěvek se bohužel nepodařilo upravit. Stalo se něco nečekaného."
 
-#: xmlrpc.php:2787
-#: xmlrpc.php:2974
+#: xmlrpc.php:2803
+#: xmlrpc.php:2995
 msgid "Sorry, you must be able to edit posts on this blog in order to view categories."
 msgstr "Musíte mít právo upravovat příspěvky na tomto webu, abyste si mohli prohlížet rubriky."
 
-#: xmlrpc.php:2844
+#: xmlrpc.php:2860
 msgid "You are not allowed to upload files to this site."
 msgstr "Nemáte dostatečné oprávnění pro nahrávání souborů na tomto web."
 
-#: xmlrpc.php:2871
+#: xmlrpc.php:2887
 #, php-format
 msgid "Could not write file %1$s (%2$s)"
 msgstr "Nepodařilo se zapisovat do souboru %1$s (%2$s)"
 
-#: xmlrpc.php:3013
+#: xmlrpc.php:3034
 msgid "Sorry, you can not edit this post."
 msgstr "Nemůžete bohužel upravovat tento příspěvek."
 
-#: xmlrpc.php:3214
+#: xmlrpc.php:3235
 msgid "Is there no link to us?"
 msgstr "Jsou tu nějaké odkazy na nás?"
 
-#: xmlrpc.php:3254
-#: xmlrpc.php:3264
-#: xmlrpc.php:3271
-#: xmlrpc.php:3379
+#: xmlrpc.php:3275
+#: xmlrpc.php:3285
+#: xmlrpc.php:3292
+#: xmlrpc.php:3400
 msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
 msgstr "Zadaná URL adresa nemůže být použita jako cíl. Buď tato adresa vůbec neexistuje, nebo nemá povolené pingbacky."
 
-#: xmlrpc.php:3267
+#: xmlrpc.php:3288
 msgid "The source URL and the target URL cannot both point to the same resource."
 msgstr "Zdrojová a cílová URL adresa nemohou odkazovat na stejný zdroj."
 
-#: xmlrpc.php:3277
+#: xmlrpc.php:3298
 msgid "The pingback has already been registered."
 msgstr "Pingback už byl zaznamenán."
 
-#: xmlrpc.php:3285
+#: xmlrpc.php:3306
 msgid "The source URL does not exist."
 msgstr "Zdrojová URL adresa neexistuje."
 
-#: xmlrpc.php:3297
+#: xmlrpc.php:3318
 msgid "We cannot find a title on that page."
 msgstr "Nepodařilo se najít název této stránky."
 
-#: xmlrpc.php:3333
+#: xmlrpc.php:3354
 msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
 msgstr "Zdrojová URL adresa neobsahuje odkaz na cílovou URL adresu, takže nemůže být použita jako zdroj."
 
-#: xmlrpc.php:3353
+#: xmlrpc.php:3374
 #, php-format
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
 msgstr "Pingback od %1$s pro %2$s byl zaznamenán. Pomáháme udržovat internetovou komunikaci a spolupráci :-)"
 
-#: xmlrpc.php:3386
+#: xmlrpc.php:3407
 msgid "The specified target URL does not exist."
 msgstr "Zadaná cílová URL adresa neexistuje."
 
@@ -14025,6 +13943,57 @@ msgstr "ltr"
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "Pravděpodobně nemáte vytvořen soubor <code>wp-config.php</code>. Než začnete s instalací WordPressu, tak musíte tento soubor vytvořit. Nevíte jak? <a href='http://codex.wordpress.org/Editing_wp-config.php'>Pomoc najdete v manuálu</a>. Můžete také zkusit vytvořit soubor <code>wp-config.php</code> prostřednictvím webového rozhraní, ale tato možnost nefunguje na všech hostingových serverech. Nejbezpečnějším způsobem je vytvoření tohoto souboru manuálně.</p><p><a href='%ssetup-config.php' class='button'>Vytvořit konfigurační soubor</a>"
 
+#~ msgid "Import Bunny&#8217;s Technorati Tags"
+#~ msgstr "Importovat štítky z  Bunny&#8217;s Technorati Tags"
+#~ msgid ""
+#~ "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into "
+#~ "WordPress tags."
+#~ msgstr ""
+#~ "Tímto nástrojem můžete importovat štítky ze systému Bunny&#8217;s "
+#~ "Technorati Tags do formátu štítků, které se používají ve WordPressu."
+#~ msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
+#~ msgstr ""
+#~ "Tento převaděč je kompatibilní s Bunny&#8217;s Technorati Tags verze 0.6."
+#~ msgid ""
+#~ "All existing Bunny&#8217;s Technorati Tags will be removed after import."
+#~ msgstr ""
+#~ "Všechny existující štítky v Bunny&#8217;s Technorati Tags budou po "
+#~ "importu smazány."
+#~ msgid "Import Tags"
+#~ msgstr "Importovat štítky"
+#~ msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
+#~ msgstr "Probíhá načítání Bunny&#8217;s Technorati Tags&#8230;"
+#~ msgid "Done! <strong>%s</strong> post with tags were read."
+#~ msgid_plural "Done! <strong>%s</strong> posts with tags were read."
+#~ msgstr[0] "Hotovo! Byl načten <strong>%s</strong> příspěvek se štítky."
+#~ msgstr[1] "Hotovo! Byly načteny <strong>%s</strong> příspěvky se štítky."
+#~ msgstr[2] "Hotovo! Bylo načteno <strong>%s</strong> příspěvků se štítky."
+#~ msgid "Next"
+#~ msgstr "Další"
+#~ msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
+#~ msgstr "Importovat Bunny&#8217;s Technorati Tags."
+#~ msgid "Import Jerome&#8217;s Keywords"
+#~ msgstr "Importovat Jerome&#8217;s Keywords"
+#~ msgid ""
+#~ "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
+#~ msgstr ""
+#~ "Tímto importovacím nástrojem můžete do WordPressu importovat štítky ze "
+#~ "systému Jerome&#8217;s Keywords."
+#~ msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
+#~ msgstr ""
+#~ "Tento převaděč je kompatibilní s Jerome&#8217;s Keywords verze 1.x a 2.0a."
+#~ msgid "All existing Jerome&#8217;s Keywords will be removed after import."
+#~ msgstr ""
+#~ "Všechny existující štítky v systému Jerome&#8217;s Keywords budou po "
+#~ "importu smazány."
+#~ msgid "Import Version 1.x"
+#~ msgstr "Importovat verzi 1.x"
+#~ msgid "Import Version 2.0a"
+#~ msgstr "Importovat verzi 2.0a"
+#~ msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
+#~ msgstr "Probíhá načítání štítků z Jerome&#8217;s Keywords&#8230;"
+#~ msgid "Import Jerome&#8217;s Keywords into WordPress tags."
+#~ msgstr "Importuje štítky ze systému Jerome&#8217;s Keywords."
 #~ msgid "Enable syntax highlighting"
 #~ msgstr "Povolit zvýrazňování zdrojového kódu"
 #~ msgid "Disable syntax highlighting"

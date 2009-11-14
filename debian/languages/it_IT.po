@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 2.8.4\n"
+"Project-Id-Version: WordPress 2.8.5\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-08-11 08:56+0000\n"
-"PO-Revision-Date: 2009-08-12 12:16+0100\n"
+"POT-Creation-Date: 2009-10-21 00:56+0000\n"
+"PO-Revision-Date: 2009-10-22 20:59+0100\n"
 "Last-Translator: SteveAgl <steagl@wordpress-it.it>\n"
 "Language-Team: Italian (www.wordpress-it.it) <info@wordpress-it.it>\n"
 "MIME-Version: 1.0\n"
@@ -148,16 +148,16 @@ msgstr "Salvataggio automatico disabilitato: %s sta attualmente modificando ques
 #: wp-admin/admin-ajax.php:917
 #: wp-admin/admin-ajax.php:1059
 #: wp-admin/includes/post.php:143
-#: wp-admin/includes/post.php:1125
-#: wp-admin/page.php:113
+#: wp-admin/includes/post.php:1151
+#: wp-admin/page.php:109
 msgid "You are not allowed to edit this page."
 msgstr "Non si dispone del permesso per modificare questa pagina."
 
 #: wp-admin/admin-ajax.php:920
 #: wp-admin/admin-ajax.php:1062
 #: wp-admin/includes/post.php:146
-#: wp-admin/includes/post.php:1128
-#: wp-admin/post.php:150
+#: wp-admin/includes/post.php:1154
+#: wp-admin/post.php:146
 #: wp-admin/upload.php:41
 msgid "You are not allowed to edit this post."
 msgstr "Non si dispone del permesso per modificare questo articolo."
@@ -376,7 +376,7 @@ msgstr "Importa"
 #: wp-admin/media-upload.php:16
 #: wp-admin/upload.php:15
 #: wp-app.php:630
-#: wp-app.php:813
+#: wp-app.php:822
 msgid "You do not have permission to upload files."
 msgstr "Non si dispone del permesso di caricare file."
 
@@ -388,7 +388,7 @@ msgstr "Non si dispone del permesso di caricare file."
 #: wp-admin/includes/template.php:1102
 #: wp-admin/menu.php:46
 #: wp-admin/press-this.php:472
-#: wp-includes/category-template.php:430
+#: wp-includes/category-template.php:432
 #: wp-includes/default-widgets.php:423
 #: wp-includes/default-widgets.php:429
 #: wp-includes/taxonomy.php:18
@@ -710,7 +710,7 @@ msgstr "No"
 #: wp-admin/includes/template.php:1066
 #: wp-admin/includes/theme-install.php:158
 #: wp-includes/js/tinymce/langs/wp-langs.php:256
-#: wp-includes/post-template.php:1340
+#: wp-includes/post-template.php:1345
 msgid "Author"
 msgstr "Autore"
 
@@ -738,7 +738,7 @@ msgstr "URL"
 #: wp-admin/edit-form-advanced.php:475
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:647
+#: wp-includes/comment-template.php:649
 msgctxt "noun"
 msgid "Comment"
 msgstr "Commento"
@@ -1048,7 +1048,7 @@ msgstr[0] "%s commento marcato come spam"
 msgstr[1] "%s commenti marcati come spam."
 
 #: wp-admin/edit-comments.php:144
-#: wp-content/plugins/akismet/akismet.php:737
+#: wp-content/plugins/akismet/akismet.php:747
 msgid "All"
 msgid_plural "All"
 msgstr[0] "Tutto"
@@ -1122,7 +1122,7 @@ msgstr "Mostra tutti i tipi di commenti"
 #: wp-admin/includes/template.php:1166
 #: wp-admin/includes/template.php:3138
 #: wp-admin/includes/template.php:3254
-#: wp-content/plugins/akismet/akismet.php:742
+#: wp-content/plugins/akismet/akismet.php:752
 #: wp-content/themes/classic/comments-popup.php:29
 msgid "Comments"
 msgstr "Commenti"
@@ -1149,7 +1149,7 @@ msgid "No comments awaiting moderation&hellip; yet."
 msgstr "No vi è ancora alcun commento in attesa di moderazione."
 
 #: wp-admin/edit-comments.php:378
-#: wp-content/plugins/akismet/akismet.php:868
+#: wp-content/plugins/akismet/akismet.php:878
 msgid "No results found."
 msgstr "Nessun risultato trovato."
 
@@ -1348,7 +1348,7 @@ msgstr "Mantieni sempre in prima pagina"
 
 #: wp-admin/edit-form-advanced.php:184
 #: wp-admin/edit-page-form.php:175
-#: wp-includes/post-template.php:1142
+#: wp-includes/post-template.php:1147
 msgid "Password:"
 msgstr "Password:"
 
@@ -2169,7 +2169,7 @@ msgid "Page Revisions"
 msgstr "Revisioni pagina"
 
 #: wp-admin/edit-pages.php:28
-#: wp-admin/page.php:150
+#: wp-admin/page.php:146
 msgid "You are not allowed to delete this page."
 msgstr "Non si dispone del permesso per cancellare questa pagina."
 
@@ -2177,10 +2177,10 @@ msgstr "Non si dispone del permesso per cancellare questa pagina."
 #: wp-admin/edit-pages.php:35
 #: wp-admin/edit.php:40
 #: wp-admin/edit.php:43
-#: wp-admin/page.php:154
-#: wp-admin/page.php:157
-#: wp-admin/post.php:195
-#: wp-admin/post.php:198
+#: wp-admin/page.php:150
+#: wp-admin/page.php:153
+#: wp-admin/post.php:191
+#: wp-admin/post.php:194
 #: wp-admin/upload.php:83
 msgid "Error in deleting..."
 msgstr "Errore durante la cancellazione..."
@@ -2282,7 +2282,7 @@ msgstr[1] "Private <span class=\"count\">(%s)</span>"
 #: wp-admin/menu.php:59
 #: wp-includes/default-widgets.php:19
 #: wp-includes/default-widgets.php:25
-#: wp-includes/post-template.php:741
+#: wp-includes/post-template.php:746
 msgid "Pages"
 msgstr "Pagine"
 
@@ -2439,7 +2439,7 @@ msgid "Add Tag"
 msgstr "Aggiungi nuovo tag"
 
 #: wp-admin/edit.php:36
-#: wp-admin/post.php:191
+#: wp-admin/post.php:187
 #: wp-admin/upload.php:79
 msgid "You are not allowed to delete this post."
 msgstr "Non si dispone del permesso per cancellare questo articolo."
@@ -2801,81 +2801,16 @@ msgstr "Blogware"
 msgid "Import posts from Blogware."
 msgstr "Importa articoli da un blog Blogware."
 
-#: wp-admin/import/btt.php:22
-msgid "Import Bunny&#8217;s Technorati Tags"
-msgstr "Importa tag di Technorati  Bunny"
+#: wp-admin/import/dotclear.php:96
+msgid "Import DotClear"
+msgstr "Importa da DotClear"
 
-#: wp-admin/import/btt.php:23
 #: wp-admin/import/dotclear.php:97
-#: wp-admin/import/jkw.php:22
 #: wp-admin/import/stp.php:21
 #: wp-admin/import/textpattern.php:57
 #: wp-admin/import/utw.php:22
 msgid "Steps may take a few minutes depending on the size of your database. Please be patient."
 msgstr "I passaggi richiederanno qualche minuto, a seconda della grandezza del tuo database. Occorre essere pazienti."
-
-#: wp-admin/import/btt.php:32
-msgid "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into WordPress tags."
-msgstr "Salve! Questo importatore, traduce i tag da Bunny&#8217;s Technorati Tags in tag WordPress."
-
-#: wp-admin/import/btt.php:33
-msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
-msgstr "Questa procedura è adatta per Bunny&#8217;s Technorati Tags versione 0.6."
-
-#: wp-admin/import/btt.php:34
-msgid "All existing Bunny&#8217;s Technorati Tags will be removed after import."
-msgstr "Dopo l&#8217;importazione verranno rimosse tutti i tag Bunny&#8217;s Technorati Tags."
-
-#: wp-admin/import/btt.php:35
-#: wp-admin/import/jkw.php:34
-#: wp-admin/import/stp.php:33
-#: wp-admin/import/utw.php:34
-msgid "Don&#8217;t be stupid - backup your database before proceeding!"
-msgstr "Non essere stupido - esegui un backup del tuo database prima di proseguire!"
-
-#: wp-admin/import/btt.php:38
-msgid "Import Tags"
-msgstr "Importa tag"
-
-#: wp-admin/import/btt.php:77
-msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
-msgstr "Lettura di Bunny&#8217;s Technorati Tags&#8230;"
-
-#: wp-admin/import/btt.php:82
-#: wp-admin/import/jkw.php:97
-#: wp-admin/import/jkw.php:138
-#: wp-admin/import/utw.php:86
-msgid "No Tags Found!"
-msgstr "Nessun tag trovato!"
-
-#: wp-admin/import/btt.php:86
-#: wp-admin/import/jkw.php:101
-#, php-format
-msgid "Done! <strong>%s</strong> post with tags were read."
-msgid_plural "Done! <strong>%s</strong> posts with tags were read."
-msgstr[0] "Fatto! &Egrave; stato letto <strong>%s</strong> articolo con tag."
-msgstr[1] "Fatto! Sono stati letti <strong>%s</strong> articoli con tag."
-
-#: wp-admin/import/btt.php:108
-#: wp-admin/import/jkw.php:123
-#: wp-admin/import/jkw.php:156
-msgid "Next"
-msgstr "Successivo"
-
-#: wp-admin/import/btt.php:115
-#: wp-admin/import/jkw.php:177
-#: wp-admin/import/stp.php:154
-#: wp-admin/import/utw.php:264
-msgid "Import Complete!"
-msgstr "Importazione completata!"
-
-#: wp-admin/import/btt.php:128
-msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
-msgstr "Importa i tag di Bunny&#8217;s Technorati Tags in tag WordPress."
-
-#: wp-admin/import/dotclear.php:96
-msgid "Import DotClear"
-msgstr "Importa da DotClear"
 
 #: wp-admin/import/dotclear.php:107
 msgid "Howdy! This importer allows you to extract posts from a DotClear database into your blog.  Mileage may vary."
@@ -3235,47 +3170,6 @@ msgstr "GrayMatter"
 msgid "Import users, posts, and comments from a Greymatter blog."
 msgstr "Importa utenti, articoli e commenti da un blog GreyMatter."
 
-#: wp-admin/import/jkw.php:21
-msgid "Import Jerome&#8217;s Keywords"
-msgstr "Importa Jerome&#8217;s Keywords"
-
-#: wp-admin/import/jkw.php:31
-msgid "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
-msgstr "Salve! Questo importatore, traduce i tag di Jerome&#8217;s Keywords in tag WordPress."
-
-#: wp-admin/import/jkw.php:32
-msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
-msgstr "Questa procedura è adatta per Jerome&#8217;s Keywords versione 1.x e 2.0a."
-
-#: wp-admin/import/jkw.php:33
-msgid "All existing Jerome&#8217;s Keywords will be removed after import."
-msgstr "Dopo l&#8217;importazione verranno rimosse tutte le Jerome&#8217;s Keywords."
-
-#: wp-admin/import/jkw.php:37
-msgid "Import Version 1.x"
-msgstr "Importa versione 1.x"
-
-#: wp-admin/import/jkw.php:41
-msgid "Import Version 2.0a"
-msgstr "Importa versione 2.0a"
-
-#: wp-admin/import/jkw.php:92
-#: wp-admin/import/jkw.php:132
-msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
-msgstr "Lettura dei tag di Jerome&#8217;s Keywords"
-
-#: wp-admin/import/jkw.php:142
-#: wp-admin/import/utw.php:101
-#, php-format
-msgid "Done! <strong>%s</strong> tag were read."
-msgid_plural "Done! <strong>%s</strong> tags were read."
-msgstr[0] "Fatto! &Egrave;i stato letto <strong>%s</strong> tag."
-msgstr[1] "Fatto! Sono stati letti <strong>%s</strong> tag."
-
-#: wp-admin/import/jkw.php:190
-msgid "Import Jerome&#8217;s Keywords into WordPress tags."
-msgstr "Importa i tag di Jerome&#8217;s Keywords in tag WordPress."
-
 #: wp-admin/import/livejournal.php:171
 msgid "Import LiveJournal"
 msgstr "Importa da LiveJournals"
@@ -3564,7 +3458,7 @@ msgstr "Creazione utente %1$s o collegamento a un utente esistente"
 #: wp-admin/import/mt.php:215
 #: wp-admin/import/wordpress.php:236
 #: wp-admin/includes/dashboard.php:135
-#: wp-includes/post-template.php:1142
+#: wp-includes/post-template.php:1147
 msgid "Submit"
 msgstr "Invia"
 
@@ -3704,6 +3598,11 @@ msgstr "Questo programma non è stato provato con altre versioni di Simple Taggi
 msgid "To accommodate larger databases for those tag-crazy authors out there, we have made this into an easy 4-step program to help you kick that nasty Simple Tagging habit. Just keep clicking along and we will let you know when you are in the clear!"
 msgstr "Per poter trasferire anche i grossi database degli autori maniaci dei tag, abbiamo realizzato un programma  in 4 passi per aiutare a trasferire queste brutte abitudini di Simple Tagging. Si dovrà semplicemente continuare a fare click ed al termine faremo sapere quando si avrà finito!"
 
+#: wp-admin/import/stp.php:33
+#: wp-admin/import/utw.php:34
+msgid "Don&#8217;t be stupid - backup your database before proceeding!"
+msgstr "Non essere stupido - esegui un backup del tuo database prima di proseguire!"
+
 #: wp-admin/import/stp.php:36
 #: wp-admin/import/utw.php:36
 msgid "Step 1"
@@ -3747,6 +3646,11 @@ msgstr[1] "Fatto! Aggiunti <strong>%s</strong> tag!"
 #: wp-admin/import/utw.php:159
 msgid "Step 3"
 msgstr "Passo 3"
+
+#: wp-admin/import/stp.php:154
+#: wp-admin/import/utw.php:264
+msgid "Import Complete!"
+msgstr "Importazione completata!"
 
 #: wp-admin/import/stp.php:155
 msgid "OK, so we lied about this being a 4-step program! You&#8217;re done!"
@@ -3844,6 +3748,17 @@ msgstr "Per poter trasferire anche i grossi database degli autori maniaci dei ta
 #: wp-admin/import/utw.php:80
 msgid "Reading UTW Tags&#8230;"
 msgstr "Lettura tag UTW"
+
+#: wp-admin/import/utw.php:86
+msgid "No Tags Found!"
+msgstr "Nessun tag trovato!"
+
+#: wp-admin/import/utw.php:101
+#, php-format
+msgid "Done! <strong>%s</strong> tag were read."
+msgid_plural "Done! <strong>%s</strong> tags were read."
+msgstr[0] "Fatto! &Egrave;i stato letto <strong>%s</strong> tag."
+msgstr[1] "Fatto! Sono stati letti <strong>%s</strong> tag."
 
 #: wp-admin/import/utw.php:102
 msgid "The following tags were found:"
@@ -4439,7 +4354,7 @@ msgstr "Anteprima &#8220;%s&#8221;"
 #: wp-admin/themes.php:214
 #, php-format
 msgid "Activate &#8220;%s&#8221;"
-msgstr "Attivato &#8220;%s&#8221;"
+msgstr "Attivare &#8220;%s&#8221;"
 
 #: wp-admin/includes/class-wp-upgrader.php:948
 #: wp-admin/includes/class-wp-upgrader.php:1005
@@ -4590,7 +4505,7 @@ msgstr[0] "Tag"
 msgstr[1] "Tag"
 
 #: wp-admin/includes/dashboard.php:306
-#: wp-content/plugins/akismet/akismet.php:893
+#: wp-content/plugins/akismet/akismet.php:903
 msgid "Spam"
 msgid_plural "Spam"
 msgstr[0] "Spam"
@@ -4681,7 +4596,7 @@ msgstr "Replica a questo commento"
 
 #: wp-admin/includes/dashboard.php:543
 #: wp-admin/includes/template.php:2156
-#: wp-includes/comment-template.php:1000
+#: wp-includes/comment-template.php:1002
 msgid "Reply"
 msgstr "Replica"
 
@@ -4709,14 +4624,14 @@ msgstr "[In sospeso]"
 #: wp-admin/includes/dashboard.php:576
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:649
+#: wp-includes/comment-template.php:651
 msgid "Pingback"
 msgstr "Pingback"
 
 #: wp-admin/includes/dashboard.php:579
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:648
+#: wp-includes/comment-template.php:650
 msgid "Trackback"
 msgstr "Trackback"
 
@@ -4755,8 +4670,7 @@ msgstr "Questo widget della bacheca interroga <a href=\"http://blogsearch.google
 
 #: wp-admin/includes/dashboard.php:653
 #: wp-admin/includes/dashboard.php:655
-#: wp-admin/page.php:102
-#: wp-admin/post.php:137
+#: wp-admin/includes/post.php:1071
 msgid "Somebody"
 msgstr "Qualcuno"
 
@@ -5024,7 +4938,7 @@ msgstr "Nome host"
 
 #: wp-admin/includes/file.php:755
 #: wp-admin/includes/template.php:898
-#: wp-admin/install.php:129
+#: wp-admin/install.php:135
 #: wp-admin/user-edit.php:187
 #: wp-admin/user-new.php:96
 #: wp-login.php:413
@@ -5034,7 +4948,7 @@ msgstr "Nome utente"
 
 #: wp-admin/includes/file.php:760
 #: wp-admin/includes/template.php:1079
-#: wp-admin/install.php:133
+#: wp-admin/install.php:139
 #: wp-admin/options-writing.php:100
 #: wp-admin/user-new.php:119
 #: wp-login.php:511
@@ -5514,7 +5428,7 @@ msgstr "I plugin estendono ed espandono le funzionalità di WordPress. Tramite q
 #: wp-admin/includes/theme-install.php:162
 #: wp-admin/plugin-install.php:24
 #: wp-admin/theme-install.php:29
-#: wp-content/plugins/akismet/akismet.php:704
+#: wp-content/plugins/akismet/akismet.php:714
 #: wp-content/themes/classic/sidebar.php:21
 #: wp-includes/default-widgets.php:176
 #: wp-includes/general-template.php:127
@@ -5588,7 +5502,7 @@ msgstr "Versione"
 
 #: wp-admin/includes/plugin-install.php:305
 #: wp-admin/includes/plugin-install.php:315
-#: wp-includes/post-template.php:1341
+#: wp-includes/post-template.php:1346
 msgid "Actions"
 msgstr "Azioni"
 
@@ -5922,7 +5836,7 @@ msgstr[0] "Video <span class=\"count\">(%s)</span>"
 msgstr[1] "Video <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:976
-#: wp-content/plugins/akismet/akismet.php:822
+#: wp-content/plugins/akismet/akismet.php:832
 msgid "View Post"
 msgstr "Visualizza articolo"
 
@@ -5943,7 +5857,22 @@ msgstr "Modifica permalink"
 msgid "Click to edit this part of the permalink"
 msgstr "Fare click per modificare questa parte del permalink"
 
-#: wp-admin/includes/post.php:1109
+#: wp-admin/includes/post.php:1075
+#, php-format
+msgid "Warning: %s is currently editing this post"
+msgstr "Attenzione: %s sta attualmente modificando questo articolo"
+
+#: wp-admin/includes/post.php:1078
+#, php-format
+msgid "Warning: %s is currently editing this page"
+msgstr "Attenzione: %s in questo momento sta modificando questa pagina"
+
+#: wp-admin/includes/post.php:1081
+#, php-format
+msgid "Warning: %s is currently editing this."
+msgstr "Attenzione: %s in questo momento sta modificando questo elemento."
+
+#: wp-admin/includes/post.php:1135
 msgid "Preview not available. Please save as a draft first."
 msgstr "Anteprima non disponibile. Salvare prima come bozza."
 
@@ -6795,19 +6724,19 @@ msgstr "Impossibile trovare la directory dei temi di WordPress."
 msgid "Could not fully remove the theme %s"
 msgstr "Impossibile rimuovere completamente il tema %s"
 
-#: wp-admin/includes/update-core.php:213
+#: wp-admin/includes/update-core.php:215
 msgid "Verifying the unpacked files"
 msgstr "Verifica dei file spacchettati"
 
-#: wp-admin/includes/update-core.php:217
+#: wp-admin/includes/update-core.php:219
 msgid "The update could not be unpacked"
 msgstr "L'aggiornamento non può venir scompattato"
 
-#: wp-admin/includes/update-core.php:220
+#: wp-admin/includes/update-core.php:222
 msgid "Installing the latest version"
 msgstr "Installazione dell&#8217;ultima versione"
 
-#: wp-admin/includes/update-core.php:245
+#: wp-admin/includes/update-core.php:247
 msgid "Upgrading database"
 msgstr "Aggiornamento database"
 
@@ -7055,79 +6984,79 @@ msgstr "Bacheca"
 msgid "WordPress &rsaquo; Installation"
 msgstr "WordPress &rsaquo; Installazione"
 
-#: wp-admin/install.php:54
+#: wp-admin/install.php:60
 #, php-format
 msgid "<strong>ERROR</strong>: %s"
 msgstr "<strong>ERRORE</strong>: %s"
 
-#: wp-admin/install.php:59
+#: wp-admin/install.php:65
 #: wp-admin/options-general.php:65
 #: xmlrpc.php:404
 msgid "Blog Title"
 msgstr "Titolo blog"
 
-#: wp-admin/install.php:63
+#: wp-admin/install.php:69
 msgid "Your E-mail"
 msgstr "Tua e-mail"
 
-#: wp-admin/install.php:65
+#: wp-admin/install.php:71
 msgid "Double-check your email address before continuing."
 msgstr "Controlla attentamente l&#8217;indirizzo e-mail prima di continuare."
 
-#: wp-admin/install.php:68
+#: wp-admin/install.php:74
 msgid "Allow my blog to appear in search engines like Google and Technorati."
 msgstr "Voglio che il mio blog appaia su motori di ricerca come Google e Technorati."
 
-#: wp-admin/install.php:71
+#: wp-admin/install.php:77
 msgid "Install WordPress"
 msgstr "Installa WordPress"
 
-#: wp-admin/install.php:77
+#: wp-admin/install.php:83
 msgid "Already Installed"
 msgstr "Già installato"
 
-#: wp-admin/install.php:77
+#: wp-admin/install.php:83
 msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
 msgstr "Sembra che WordPress sia già installato. Per poterlo reinstallare si deve prima eliminare le tabelle del database."
 
-#: wp-admin/install.php:84
+#: wp-admin/install.php:90
 msgid "Welcome"
 msgstr "Benvenuto"
 
-#: wp-admin/install.php:85
+#: wp-admin/install.php:91
 #, php-format
 msgid "Welcome to the famous five minute WordPress installation process! You may want to browse the <a href=\"%s\">ReadMe documentation</a> at your leisure.  Otherwise, just fill in the information below and you&#8217;ll be on your way to using the most extendable and powerful personal publishing platform in the world."
 msgstr "Benvenuti nella famosa procedura dei cinque minuti per l&#8217;installazione di WordPress! Potreste voler scorrere la <a href=\"%s\">documentazione in Leggimi</a>. Altrimenti, indicare le seguenti informazioni e sarete sulla strada per utilizzare la più estensibile e potente piattaforma di editoria personale del mondo."
 
-#: wp-admin/install.php:86
+#: wp-admin/install.php:92
 msgid "First Step"
 msgstr "Primo passo"
 
-#: wp-admin/install.php:88
+#: wp-admin/install.php:94
 msgid "Information needed"
 msgstr "Servono delle informazioni"
 
-#: wp-admin/install.php:89
+#: wp-admin/install.php:95
 msgid "Please provide the following information.  Don&#8217;t worry, you can always change these settings later."
 msgstr "Prima di iniziare, abbiamo bisogno di alcune informazioni. Non preoccuparsi, si potrà sempre cambiarle in seguito."
 
-#: wp-admin/install.php:109
+#: wp-admin/install.php:115
 msgid "you must provide an e-mail address."
 msgstr "occorre fornire un indirizzo e-mail."
 
-#: wp-admin/install.php:113
+#: wp-admin/install.php:119
 msgid "that isn&#8217;t a valid e-mail address.  E-mail addresses look like: <code>username@example.com</code>"
 msgstr "questo non è un indirizzo email valido. Gli indirizzi email hanno un formato del tipo: <code>nomeutente@esempio.com</code>"
 
-#: wp-admin/install.php:123
+#: wp-admin/install.php:129
 msgid "Success!"
 msgstr "Successo!"
 
-#: wp-admin/install.php:125
+#: wp-admin/install.php:131
 msgid "WordPress has been installed. Were you expecting more steps? Sorry to disappoint."
 msgstr "WordPress è stato installato. Non vi sono altri passi? Spiacenti di deludervi. :)"
 
-#: wp-admin/install.php:141
+#: wp-admin/install.php:147
 #: wp-login.php:498
 #: wp-login.php:517
 msgid "Log In"
@@ -8069,11 +7998,6 @@ msgstr "Modifica pagina"
 msgid "You attempted to edit a page that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "Si sta provando a modificare una pagina che non esiste. Forse è stata cancellata?"
 
-#: wp-admin/page.php:103
-#, php-format
-msgid "Warning: %s is currently editing this page"
-msgstr "Attenzione: %s in questo momento sta modificando questa pagina"
-
 #: wp-admin/plugin-editor.php:12
 msgid "Edit Plugins"
 msgstr "Modifica plugin"
@@ -8381,12 +8305,7 @@ msgstr ""
 msgid "You attempted to edit a post that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "Si sta provando a modificare un articolo che non esiste. Forse è stato cancellato?"
 
-#: wp-admin/post.php:138
-#, php-format
-msgid "Warning: %s is currently editing this post"
-msgstr "Attenzione: %s sta attualmente modificando questo articolo"
-
-#: wp-admin/post.php:147
+#: wp-admin/post.php:143
 msgid "Edit Post"
 msgstr "Modifica articolo"
 
@@ -8452,14 +8371,14 @@ msgid "Embed a Video"
 msgstr "Incorpora video"
 
 #: wp-admin/press-this.php:542
-#: wp-includes/general-template.php:1661
-#: wp-includes/general-template.php:1666
+#: wp-includes/general-template.php:1662
+#: wp-includes/general-template.php:1667
 msgid "HTML"
 msgstr "HTML"
 
 #: wp-admin/press-this.php:543
-#: wp-includes/general-template.php:1662
-#: wp-includes/general-template.php:1667
+#: wp-includes/general-template.php:1663
+#: wp-includes/general-template.php:1668
 msgid "Visual"
 msgstr "Visuale"
 
@@ -8496,7 +8415,7 @@ msgid "Post published."
 msgstr "Articolo pubblicato."
 
 #: wp-admin/sidebar.php:103
-#: wp-content/plugins/akismet/akismet.php:1074
+#: wp-content/plugins/akismet/akismet.php:1084
 #: wp-includes/default-widgets.php:67
 #: wp-includes/default-widgets.php:197
 #: wp-includes/default-widgets.php:263
@@ -9475,9 +9394,9 @@ msgstr "Non si dispone dei permessi per modificare/pubblicare nuovi articoli."
 
 #: wp-app.php:473
 #: wp-app.php:671
-#: wp-app.php:853
-#: xmlrpc.php:1877
-#: xmlrpc.php:2215
+#: wp-app.php:862
+#: xmlrpc.php:1890
+#: xmlrpc.php:2228
 msgid "Sorry, your entry could not be posted. Something wrong happened."
 msgstr "Non è possibile pubblicare questo intervento. &Eacute; successo qualcosa di strano ."
 
@@ -9488,26 +9407,26 @@ msgstr "Non si dispone dei permessi per accedere a questo articolo."
 #: wp-app.php:535
 #: wp-app.php:703
 #: wp-app.php:779
-#: wp-app.php:821
-#: xmlrpc.php:1919
+#: wp-app.php:830
+#: xmlrpc.php:1932
 msgid "Sorry, you do not have the right to edit this post."
 msgstr "Non si ha il permesso di modificare questo articolo."
 
 #: wp-app.php:558
 #: wp-app.php:719
-#: xmlrpc.php:1935
+#: xmlrpc.php:1948
 msgid "For some strange yet very annoying reason, this post could not be edited."
 msgstr "Per qualche strano motivo, non è possibile modificare questo articolo."
 
 #: wp-app.php:581
 #: wp-app.php:741
-#: xmlrpc.php:1971
+#: xmlrpc.php:1984
 msgid "Sorry, you do not have the right to delete this post."
 msgstr "Non si dispone dei permessi per cancellare questo articolo."
 
 #: wp-app.php:590
 #: wp-app.php:757
-#: xmlrpc.php:1976
+#: xmlrpc.php:1989
 msgid "For some strange yet very annoying reason, this post could not be deleted."
 msgstr "Per qualche strano motivo, non è possibile cancellare questo articolo."
 
@@ -9516,8 +9435,8 @@ msgid "Sorry, you do not have permission to upload files."
 msgstr "Non si dispone del permesso per caricare file."
 
 #: wp-app.php:748
-#: wp-app.php:786
-#: wp-app.php:831
+#: wp-app.php:787
+#: wp-app.php:840
 msgid "Error ocurred while accessing post metadata for file location."
 msgstr "Si è verificato un errore durante l&#8217;accesso ai metadata dell&#8217;articolo relativi alla localizzazione dei file."
 
@@ -9704,146 +9623,146 @@ msgstr "Akismet ha identificato un problema."
 msgid "A server or network problem is preventing Akismet from working correctly.  <a href=\"%1$s\">Click here for more information</a> about how to fix the problem."
 msgstr "Un problema di rete o di server impedisce ad Akismet di lavorare correttamente.  <a href=\"%1$s\">Fare clic qui per avere maggiori informazioni</a> su come risolvere il problema."
 
-#: wp-content/plugins/akismet/akismet.php:579
+#: wp-content/plugins/akismet/akismet.php:589
 #, php-format
 msgid "Akismet Spam (%s)"
 msgstr "Spam Akismet (%s)"
 
-#: wp-content/plugins/akismet/akismet.php:581
-#: wp-content/plugins/akismet/akismet.php:583
+#: wp-content/plugins/akismet/akismet.php:591
+#: wp-content/plugins/akismet/akismet.php:593
 msgid "Akismet Spam"
 msgstr "Spam Akismet"
 
-#: wp-content/plugins/akismet/akismet.php:593
-#: wp-content/plugins/akismet/akismet.php:612
+#: wp-content/plugins/akismet/akismet.php:603
+#: wp-content/plugins/akismet/akismet.php:622
 msgid "You do not have sufficient permission to moderate comments."
 msgstr "Non si dispone di permessi sufficienti per moderare i commenti."
 
-#: wp-content/plugins/akismet/akismet.php:624
+#: wp-content/plugins/akismet/akismet.php:634
 #, php-format
 msgid "%1$s comments recovered."
 msgstr "%1$s commenti recuperati."
 
-#: wp-content/plugins/akismet/akismet.php:628
+#: wp-content/plugins/akismet/akismet.php:638
 msgid "All spam deleted."
 msgstr "Tutto lo spam è stato cancellato."
 
-#: wp-content/plugins/akismet/akismet.php:676
+#: wp-content/plugins/akismet/akismet.php:686
 msgid "Caught Spam"
 msgstr "Spam bloccato"
 
-#: wp-content/plugins/akismet/akismet.php:681
+#: wp-content/plugins/akismet/akismet.php:691
 #, php-format
 msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
 msgstr "Akismet ha bloccato <strong>%1$s</strong> messaggi di spam da quando è stato installato."
 
-#: wp-content/plugins/akismet/akismet.php:688
+#: wp-content/plugins/akismet/akismet.php:698
 msgid "You have no spam currently in the queue. Must be your lucky day. :)"
 msgstr "Non c'è spam in coda di moderazione. Deve essere il tuo giorno fortunato. :)"
 
-#: wp-content/plugins/akismet/akismet.php:691
+#: wp-content/plugins/akismet/akismet.php:701
 msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
 msgstr "<p>&Egrave; possibile cancellare tutto lo spam dal proprio database con un singolo clic. Questa operazione non potrà venire annullata, quindi assicurarsi che non via siano commenti legittimi che potrebbero andare persi definitivamente. Lo spam viene automaticamente cancellato dopo 15 giorni, quindi non preoccuparsi di questo.</p>"
 
-#: wp-content/plugins/akismet/akismet.php:697
-#: wp-content/plugins/akismet/akismet.php:875
+#: wp-content/plugins/akismet/akismet.php:707
+#: wp-content/plugins/akismet/akismet.php:885
 #, php-format
 msgid "There are currently %1$s comments identified as spam."
 msgstr "Attualmente ci sono %1$s commenti identificati come spam."
 
-#: wp-content/plugins/akismet/akismet.php:697
-#: wp-content/plugins/akismet/akismet.php:875
+#: wp-content/plugins/akismet/akismet.php:707
+#: wp-content/plugins/akismet/akismet.php:885
 msgid "Delete all"
 msgstr "Cancella tutto"
 
-#: wp-content/plugins/akismet/akismet.php:706
+#: wp-content/plugins/akismet/akismet.php:716
 msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
 msgstr "<p>Questi sono gli ultimi commenti identificati da Akismet come spam. Se si nota qualche errore, è possibile semplicemente contrassegnare il commento come \"non spam\" ed Akismet imparerà da questa segnalazione. Se si desidera recuperare un commento dallo spam, fare semplicemente clic su Non Spam. Dopo 15 giorni provvederemo noi alla pulizia dei dati spazzatura.</p>"
 
-#: wp-content/plugins/akismet/akismet.php:760
+#: wp-content/plugins/akismet/akismet.php:770
 msgid "Search Spam &raquo;"
 msgstr "Ricerca spam &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:767
-#: wp-content/plugins/akismet/akismet.php:834
+#: wp-content/plugins/akismet/akismet.php:777
+#: wp-content/plugins/akismet/akismet.php:844
 #: wp-includes/link-template.php:1445
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Pagina precedente"
 
-#: wp-content/plugins/akismet/akismet.php:788
-#: wp-content/plugins/akismet/akismet.php:855
+#: wp-content/plugins/akismet/akismet.php:798
+#: wp-content/plugins/akismet/akismet.php:865
 #: wp-includes/link-template.php:1446
 msgid "Next Page &raquo;"
 msgstr "Pagina successiva &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:810
+#: wp-content/plugins/akismet/akismet.php:820
 msgid "IP:"
 msgstr "IP:"
 
-#: wp-content/plugins/akismet/akismet.php:816
+#: wp-content/plugins/akismet/akismet.php:826
 msgid "Not Spam"
 msgstr "Non è spam"
 
-#: wp-content/plugins/akismet/akismet.php:861
+#: wp-content/plugins/akismet/akismet.php:871
 msgid "De-spam marked comments &raquo;"
 msgstr "Marca i commenti come no-spam &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:863
+#: wp-content/plugins/akismet/akismet.php:873
 msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
 msgstr "I commenti marcati come no-spam verranno inviati ad Akismet e segnalati come errori in modo che possa imparare e migliorare in futuro."
 
-#: wp-content/plugins/akismet/akismet.php:899
+#: wp-content/plugins/akismet/akismet.php:909
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
 msgstr "<a href=\"%1$s\">Akismet</a> ha protetto il tuo sito da <a href=\"%2$s\">%3$s messaggi spam</a>."
 
-#: wp-content/plugins/akismet/akismet.php:917
+#: wp-content/plugins/akismet/akismet.php:927
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
 msgstr[0] "<a href=\"%1$s\">Akismet</a> ha già protetto questo sito da %2$s commento di spam,"
 msgstr[1] "<a href=\"%1$s\">Akismet</a> ha già protetto questo sito da %2$s commenti di spam,"
 
-#: wp-content/plugins/akismet/akismet.php:922
+#: wp-content/plugins/akismet/akismet.php:932
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
 msgstr "<a href=\"%1$s\">Akismet</a> blocca lo spam che raggiunge il blog,"
 
-#: wp-content/plugins/akismet/akismet.php:927
+#: wp-content/plugins/akismet/akismet.php:937
 #, php-format
 msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
 msgstr[0] "ed al momento vi è <a href=\"%2$s\">%1$s commento</a> nella coda di spam."
 msgstr[1] "ed al momento vi sono <a href=\"%2$s\">%1$s commenti</a> nella coda di spam."
 
-#: wp-content/plugins/akismet/akismet.php:932
+#: wp-content/plugins/akismet/akismet.php:942
 #, php-format
 msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
 msgstr "ma al momento non c&#8217;è nulla nella <a href='%1$s'>coda di spam</a>."
 
-#: wp-content/plugins/akismet/akismet.php:935
+#: wp-content/plugins/akismet/akismet.php:945
 #, php-format
 msgid "%1$s %2$s|akismet_rightnow"
 msgstr "%1$s %2$s|akismet_rightnow"
 
-#: wp-content/plugins/akismet/akismet.php:950
+#: wp-content/plugins/akismet/akismet.php:960
 msgid "Recheck Queue for Spam"
 msgstr "Ricontrolla la coda di Spam"
 
-#: wp-content/plugins/akismet/akismet.php:967
+#: wp-content/plugins/akismet/akismet.php:977
 msgid "Check for Spam"
 msgstr "Ricontrolla lo Spam"
 
-#: wp-content/plugins/akismet/akismet.php:1042
+#: wp-content/plugins/akismet/akismet.php:1052
 #, php-format
 msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
 msgstr "%1$s %2$scommenti di spam%3$s %4$sbloccati da%5$s<br />%6$sAkismet%7$s"
 
-#: wp-content/plugins/akismet/akismet.php:1104
+#: wp-content/plugins/akismet/akismet.php:1114
 msgid "spam comments"
 msgstr "commenti spam"
 
-#: wp-content/plugins/akismet/akismet.php:1104
+#: wp-content/plugins/akismet/akismet.php:1114
 msgid "blocked by"
 msgstr "bloccato da"
 
@@ -9930,20 +9849,20 @@ msgid "Enter your password to view comments."
 msgstr "Inserire la propria password per visualizzare i commenti"
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:555
-#: wp-includes/comment-template.php:935
+#: wp-includes/comment-template.php:557
+#: wp-includes/comment-template.php:937
 msgid "No Comments"
 msgstr "Nessun commento"
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:557
-#: wp-includes/comment-template.php:936
+#: wp-includes/comment-template.php:559
+#: wp-includes/comment-template.php:938
 msgid "1 Comment"
 msgstr "1 commento"
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:553
-#: wp-includes/comment-template.php:937
+#: wp-includes/comment-template.php:555
+#: wp-includes/comment-template.php:939
 msgid "% Comments"
 msgstr "% commenti"
 
@@ -9986,7 +9905,7 @@ msgid "Filed under:"
 msgstr "Archiviato in: "
 
 #: wp-content/themes/classic/index.php:15
-#: wp-includes/category-template.php:802
+#: wp-includes/category-template.php:804
 msgid "Tags: "
 msgstr "Tag:"
 
@@ -10020,7 +9939,7 @@ msgid "Older Posts &raquo;"
 msgstr "Articoli precedenti &raquo;"
 
 #: wp-content/themes/classic/sidebar.php:13
-#: wp-includes/post-template.php:563
+#: wp-includes/post-template.php:567
 msgid "Pages:"
 msgstr "Pagine:"
 
@@ -10181,12 +10100,12 @@ msgstr "Link"
 msgid "View all posts in %s"
 msgstr "Visualizza tutti gli articoli in %s"
 
-#: wp-includes/category-template.php:459
 #: wp-includes/category-template.php:461
+#: wp-includes/category-template.php:463
 msgid "No categories"
 msgstr "Nessuna categoria"
 
-#: wp-includes/category-template.php:563
+#: wp-includes/category-template.php:565
 #, php-format
 msgid "%s topic"
 msgid_plural "%s topics"
@@ -10289,59 +10208,59 @@ msgstr "Visualizza tutti gli articoli archiviati in %s"
 msgid "Feed for all posts filed under %s"
 msgstr "Feed per tutti gli articoli archiviati in %s"
 
-#: wp-includes/comment-template.php:938
+#: wp-includes/comment-template.php:940
 msgid "Comments Off"
 msgstr "Commenti disabilitati"
 
-#: wp-includes/comment-template.php:948
+#: wp-includes/comment-template.php:950
 msgid "Enter your password to view comments"
 msgstr "Inserire la propria password per visualizzare i commenti"
 
-#: wp-includes/comment-template.php:975
+#: wp-includes/comment-template.php:977
 #, php-format
 msgid "Comment on %s"
 msgstr "Commenti a %s"
 
-#: wp-includes/comment-template.php:1001
+#: wp-includes/comment-template.php:1003
 msgid "Log in to Reply"
 msgstr "Fare il login per replicare"
 
-#: wp-includes/comment-template.php:1059
+#: wp-includes/comment-template.php:1061
 msgid "Leave a Comment"
 msgstr "Lascia un commento"
 
-#: wp-includes/comment-template.php:1060
+#: wp-includes/comment-template.php:1062
 msgid "Log in to leave a Comment"
 msgstr "Effettuare il login per lasciare un commento"
 
-#: wp-includes/comment-template.php:1099
+#: wp-includes/comment-template.php:1101
 msgid "Click here to cancel reply."
 msgstr "Fare clic per cancellare la replica."
 
-#: wp-includes/comment-template.php:1142
+#: wp-includes/comment-template.php:1144
 msgid "Leave a Reply"
 msgstr "Lascia un Commento"
 
-#: wp-includes/comment-template.php:1143
+#: wp-includes/comment-template.php:1145
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr "Replica al commento si %s"
 
-#: wp-includes/comment-template.php:1261
+#: wp-includes/comment-template.php:1263
 #, php-format
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
 msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">scrive:</span>"
 
-#: wp-includes/comment-template.php:1264
+#: wp-includes/comment-template.php:1266
 msgid "Your comment is awaiting moderation."
 msgstr "Il tuo commento è in attesa di moderazione"
 
-#: wp-includes/comment-template.php:1268
+#: wp-includes/comment-template.php:1270
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s alle %2$s"
 
-#: wp-includes/comment-template.php:1268
+#: wp-includes/comment-template.php:1270
 msgid "(Edit)"
 msgstr "(Modifica)"
 
@@ -10651,21 +10570,21 @@ msgctxt "closing curly quote"
 msgid "&#8221;"
 msgstr "&#8221;"
 
-#: wp-includes/formatting.php:1661
+#: wp-includes/formatting.php:1664
 #, php-format
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s minuto"
 msgstr[1] "%s minuti"
 
-#: wp-includes/formatting.php:1667
+#: wp-includes/formatting.php:1670
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s ora"
 msgstr[1] "%s ore"
 
-#: wp-includes/formatting.php:1673
+#: wp-includes/formatting.php:1676
 #, php-format
 msgid "%s day"
 msgid_plural "%s days"
@@ -10673,17 +10592,17 @@ msgstr[0] "%s giorno"
 msgstr[1] "%s giorni"
 
 #. translators: used between list items, there is a space after the coma
-#: wp-includes/formatting.php:2547
+#: wp-includes/formatting.php:2550
 msgid ", "
 msgstr ", "
 
 #. translators: used between list items, there is a space after the and
-#: wp-includes/formatting.php:2549
+#: wp-includes/formatting.php:2552
 msgid ", and "
 msgstr " e "
 
 #. translators: used between only two list items, there is a space after the and
-#: wp-includes/formatting.php:2551
+#: wp-includes/formatting.php:2554
 msgid " and "
 msgstr " e "
 
@@ -10973,66 +10892,66 @@ msgctxt "calendar caption"
 msgid "%1$s %2$s"
 msgstr "%1$s: %2$s"
 
-#: wp-includes/general-template.php:1051
-#: wp-includes/general-template.php:1061
+#: wp-includes/general-template.php:1052
+#: wp-includes/general-template.php:1062
 #, php-format
 msgid "View posts for %1$s %2$s"
 msgstr "Visualizza articoli di %1$s %2$s"
 
 #. translators: Separator between blog name and feed type in feed links
-#: wp-includes/general-template.php:1457
-#: wp-includes/general-template.php:1480
+#: wp-includes/general-template.php:1458
+#: wp-includes/general-template.php:1481
 msgctxt "feed link"
 msgid "&raquo;"
 msgstr "&raquo;"
 
 #. translators: 1: blog title, 2: separator (raquo)
-#: wp-includes/general-template.php:1459
+#: wp-includes/general-template.php:1460
 #, php-format
 msgid "%1$s %2$s Feed"
 msgstr "%1$s %2$s Feed"
 
 #. translators: %s: blog title, 2: separator (raquo)
-#: wp-includes/general-template.php:1461
+#: wp-includes/general-template.php:1462
 #, php-format
 msgid "%1$s %2$s Comments Feed"
 msgstr "%1$s %2$s Feed dei commenti"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: post title
-#: wp-includes/general-template.php:1482
+#: wp-includes/general-template.php:1483
 #, php-format
 msgid "%1$s %2$s %3$s Comments Feed"
 msgstr "%1$s %2$s %3$s Feed dei commenti"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: category name
-#: wp-includes/general-template.php:1484
+#: wp-includes/general-template.php:1485
 #, php-format
 msgid "%1$s %2$s %3$s Category Feed"
 msgstr "%1$s %2$s %3$s Feed della categoria"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: tag name
-#: wp-includes/general-template.php:1486
+#: wp-includes/general-template.php:1487
 #, php-format
 msgid "%1$s %2$s %3$s Tag Feed"
 msgstr "%1$s %2$s %3$s Feed del tag"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: author name
-#: wp-includes/general-template.php:1488
+#: wp-includes/general-template.php:1489
 #, php-format
 msgid "%1$s %2$s Posts by %3$s Feed"
 msgstr "%1$s %2$s Articoli per il feed %3$s"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: search phrase
-#: wp-includes/general-template.php:1490
+#: wp-includes/general-template.php:1491
 #, php-format
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
 msgstr "%1$s %2$s Risultati della ricerca per i feed di &#8220;%3$s&#8221;"
 
-#: wp-includes/general-template.php:1806
+#: wp-includes/general-template.php:1807
 msgid "&laquo; Previous"
 msgstr "&laquo; Precedente"
 
-#: wp-includes/general-template.php:1807
+#: wp-includes/general-template.php:1808
 msgid "Next &raquo;"
 msgstr "Successivo &raquo;"
 
@@ -12721,7 +12640,7 @@ msgstr "Ultimo articolo"
 
 #: wp-includes/link-template.php:1547
 msgid "Newer Comments &raquo;"
-msgstr "Commenti precedenti &raquo;"
+msgstr "Commenti seguenti &raquo;"
 
 #: wp-includes/link-template.php:1584
 msgid "&laquo; Older Comments"
@@ -13007,61 +12926,61 @@ msgstr "Privato: %s"
 msgid "There is no excerpt because this is a protected post."
 msgstr "Non vi è alcun riassunto in quanto si tratta di un articolo protetto."
 
-#: wp-includes/post-template.php:565
+#: wp-includes/post-template.php:569
 msgid "Next page"
 msgstr "Pagina successiva"
 
-#: wp-includes/post-template.php:566
+#: wp-includes/post-template.php:570
 msgid "Previous page"
 msgstr "Pagina precedente"
 
-#: wp-includes/post-template.php:820
+#: wp-includes/post-template.php:825
 msgid "Home"
 msgstr "Home"
 
-#: wp-includes/post-template.php:930
-#: wp-includes/post-template.php:967
+#: wp-includes/post-template.php:935
+#: wp-includes/post-template.php:972
 msgid "Missing Attachment"
 msgstr "Allegato mancante"
 
-#: wp-includes/post-template.php:1141
+#: wp-includes/post-template.php:1146
 msgid "This post is password protected. To view it please enter your password below:"
 msgstr "Questo post è protetto da password. Per leggerlo inserire la password qui sotto:"
 
 #. translators: revision date format, see http://php.net/date
-#: wp-includes/post-template.php:1205
+#: wp-includes/post-template.php:1210
 msgctxt "revision date format"
 msgid "j F, Y @ G:i"
 msgstr "j F Y @ H:i"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1207
+#: wp-includes/post-template.php:1212
 #, php-format
 msgid "%1$s [Autosave]"
 msgstr "%1$s [Salvataggio automatico]"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1209
+#: wp-includes/post-template.php:1214
 #, php-format
 msgid "%1$s [Current Revision]"
 msgstr "%1$s [Revisione corrente]"
 
 #. translators: post revision: 1: when, 2: author name
-#: wp-includes/post-template.php:1275
+#: wp-includes/post-template.php:1280
 #, php-format
 msgctxt "post revision"
 msgid "%1$s by %2$s"
 msgstr "%1$s di %2$s"
 
-#: wp-includes/post-template.php:1302
+#: wp-includes/post-template.php:1307
 msgid "Restore"
 msgstr "Ripristina"
 
-#: wp-includes/post-template.php:1324
+#: wp-includes/post-template.php:1329
 msgid "Compare Revisions"
 msgstr "Compara le revisioni"
 
-#: wp-includes/post-template.php:1339
+#: wp-includes/post-template.php:1344
 msgid "Date Created"
 msgstr "Data creazione"
 
@@ -13609,254 +13528,254 @@ msgstr "Motto del blog"
 msgid "Sorry, you cannot edit this page."
 msgstr "Non è possibile modificare questa pagina."
 
-#: xmlrpc.php:573
-#: xmlrpc.php:691
-#: xmlrpc.php:737
+#: xmlrpc.php:578
+#: xmlrpc.php:696
+#: xmlrpc.php:742
 msgid "Sorry, no such page."
 msgstr "Questa pagina non esiste."
 
-#: xmlrpc.php:598
-#: xmlrpc.php:783
+#: xmlrpc.php:603
+#: xmlrpc.php:788
 msgid "Sorry, you cannot edit pages."
 msgstr "Non è possibile modificare le pagine."
 
-#: xmlrpc.php:652
+#: xmlrpc.php:657
 msgid "Sorry, you cannot add new pages."
 msgstr "Non è possibile aggiungere nuove pagine."
 
-#: xmlrpc.php:696
+#: xmlrpc.php:701
 msgid "Sorry, you do not have the right to delete this page."
 msgstr "Non non si dispone dei permessi per cancellare questa pagina."
 
-#: xmlrpc.php:702
+#: xmlrpc.php:707
 msgid "Failed to delete the page."
 msgstr "Impossibile cancellare la pagina."
 
-#: xmlrpc.php:742
+#: xmlrpc.php:747
 msgid "Sorry, you do not have the right to edit this page."
 msgstr "Non si dispone del permesso per modificare questa pagina."
 
-#: xmlrpc.php:836
+#: xmlrpc.php:849
 msgid "Sorry, you cannot edit posts on this blog."
 msgstr "Non è possibile modificare gli articoli di questo blog."
 
-#: xmlrpc.php:873
+#: xmlrpc.php:886
 msgid "Sorry, you must be able to edit posts on this blog in order to view tags."
 msgstr "Occorre avere la possibilità di modificare gli articoli di questo blog per poter visualizzare i tag."
 
-#: xmlrpc.php:920
+#: xmlrpc.php:933
 msgid "Sorry, you do not have the right to add a category."
 msgstr "Non si dispone dei permessi per aggiungere una categoria."
 
-#: xmlrpc.php:948
+#: xmlrpc.php:961
 msgid "Sorry, the new category failed."
 msgstr "L&#8217;inserimento di una nuova categoria è fallito."
 
-#: xmlrpc.php:977
+#: xmlrpc.php:990
 msgid "Sorry, you do not have the right to delete a category."
 msgstr "Non si dispone dei permessi per cancellare una categoria."
 
-#: xmlrpc.php:1005
+#: xmlrpc.php:1018
 msgid "Sorry, you must be able to edit posts to this blog in order to view categories."
 msgstr "Occorre disporre della possibilità di modificare gli articoli di questo blog per poter visualizzare le categorie."
 
-#: xmlrpc.php:1042
-#: xmlrpc.php:1165
-#: xmlrpc.php:1197
+#: xmlrpc.php:1055
+#: xmlrpc.php:1178
+#: xmlrpc.php:1210
 msgid "You are not allowed to moderate comments on this blog."
 msgstr "Non si dispone del permesso per moderare i commenti di questo blog."
 
-#: xmlrpc.php:1047
-#: xmlrpc.php:1170
-#: xmlrpc.php:1202
+#: xmlrpc.php:1060
+#: xmlrpc.php:1183
+#: xmlrpc.php:1215
 msgid "Invalid comment ID."
 msgstr "ID commento non valido."
 
-#: xmlrpc.php:1105
+#: xmlrpc.php:1118
 msgid "Sorry, you cannot edit comments."
 msgstr "Non è possibile modificare i commenti."
 
-#: xmlrpc.php:1209
+#: xmlrpc.php:1222
 msgid "Invalid comment status."
 msgstr "Stato del commento non valido."
 
-#: xmlrpc.php:1240
+#: xmlrpc.php:1253
 msgid "Sorry, the comment could not be edited. Something wrong happened."
 msgstr "Il commento non può venir modificato. &Egrave; accaduto qualche cosa di grave."
 
-#: xmlrpc.php:1271
+#: xmlrpc.php:1284
 msgid "You must be registered to comment"
 msgstr "Occorre essere registrati per poter inviare commenti"
 
-#: xmlrpc.php:1284
-#: xmlrpc.php:1287
-#: xmlrpc.php:2337
+#: xmlrpc.php:1297
+#: xmlrpc.php:1300
+#: xmlrpc.php:2350
 msgid "Invalid post ID."
 msgstr "ID articolo non valido"
 
-#: xmlrpc.php:1313
+#: xmlrpc.php:1326
 msgid "Comment author name and email are required"
 msgstr "SOno richiesti il nome e l'email dell'autore del commento"
 
-#: xmlrpc.php:1315
+#: xmlrpc.php:1328
 msgid "A valid email address is required"
 msgstr "&Egrave richiesto un indirizzo email valido"
 
-#: xmlrpc.php:1348
-#: xmlrpc.php:1410
-#: xmlrpc.php:1438
-#: xmlrpc.php:1466
+#: xmlrpc.php:1361
+#: xmlrpc.php:1423
+#: xmlrpc.php:1451
+#: xmlrpc.php:1479
 msgid "You are not allowed access to details about this blog."
 msgstr "Non si dispone del permesso per accedere ai dettagli riguardanti questo blog."
 
-#: xmlrpc.php:1376
+#: xmlrpc.php:1389
 msgid "You are not allowed access to details about comments."
 msgstr "Non si dispone del permesso per accedere ai dettagli riguardanti i commenti."
 
-#: xmlrpc.php:1550
+#: xmlrpc.php:1563
 msgid "You are not allowed to update options."
 msgstr "Non si dispone del permesso per aggiornare le Impostazioni."
 
-#: xmlrpc.php:1632
+#: xmlrpc.php:1645
 msgid "Sorry, you do not have access to user data on this blog."
 msgstr "Non si dispone del permesso per accedere ai dati utente di questo blog."
 
-#: xmlrpc.php:1668
-#: xmlrpc.php:2567
-#: xmlrpc.php:3057
-#: xmlrpc.php:3167
+#: xmlrpc.php:1681
+#: xmlrpc.php:2580
+#: xmlrpc.php:3078
+#: xmlrpc.php:3188
 msgid "Sorry, you cannot edit this post."
 msgstr "Non è possibile modificare questo articolo."
 
-#: xmlrpc.php:1716
-#: xmlrpc.php:2924
+#: xmlrpc.php:1729
+#: xmlrpc.php:2940
 msgid "Either there are no posts, or something went wrong."
 msgstr "O non vi sono articoli o qualcosa è andato storto."
 
-#: xmlrpc.php:1772
+#: xmlrpc.php:1785
 msgid "Sorry, this user can not edit the template."
 msgstr "Questo utente non può modificare i template."
 
-#: xmlrpc.php:1814
+#: xmlrpc.php:1827
 msgid "Sorry, this user cannot edit the template."
 msgstr "Questo utente non può modificare il template."
 
-#: xmlrpc.php:1825
+#: xmlrpc.php:1838
 msgid "Either the file is not writable, or something wrong happened. The file has not been updated."
 msgstr "O il file non è scrivibile,o qualcosa di sbagliato è successo. Il file non è stato modificato."
 
-#: xmlrpc.php:1857
+#: xmlrpc.php:1870
 msgid "Sorry, you are not allowed to post on this blog."
 msgstr "Non si dipsone del permesso per pubblicare articoli su questo blog."
 
-#: xmlrpc.php:1913
-#: xmlrpc.php:1967
-#: xmlrpc.php:2660
-#: xmlrpc.php:3119
+#: xmlrpc.php:1926
+#: xmlrpc.php:1980
+#: xmlrpc.php:2671
+#: xmlrpc.php:3140
 msgid "Sorry, no such post."
 msgstr "Questo articolo non esistet."
 
-#: xmlrpc.php:1924
-#: xmlrpc.php:2489
+#: xmlrpc.php:1937
+#: xmlrpc.php:2502
 msgid "Sorry, you do not have the right to publish this post."
 msgstr "Spaicente, non si dispone dei permessi per pubblicare questo articolo."
 
-#: xmlrpc.php:2010
-#: xmlrpc.php:2307
+#: xmlrpc.php:2023
+#: xmlrpc.php:2320
 msgid "Sorry, you are not allowed to publish posts on this blog."
 msgstr "non si dispone del permesso per pubblicare articoli su questo blog."
 
-#: xmlrpc.php:2016
-#: xmlrpc.php:2313
+#: xmlrpc.php:2029
+#: xmlrpc.php:2326
 msgid "Sorry, you are not allowed to publish pages on this blog."
 msgstr "Non si dispone del permesso per pubblicare pagine su questo blog."
 
-#: xmlrpc.php:2026
-#: xmlrpc.php:2075
-#: xmlrpc.php:2323
-#: xmlrpc.php:2383
+#: xmlrpc.php:2039
+#: xmlrpc.php:2088
+#: xmlrpc.php:2336
+#: xmlrpc.php:2396
 msgid "Invalid post type."
 msgstr "Tipo di articolo non valido"
 
-#: xmlrpc.php:2066
+#: xmlrpc.php:2079
 msgid "You are not allowed to post as this user"
 msgstr "Non si dispone del permesso per pubblicare articoli con questo nome utente."
 
-#: xmlrpc.php:2071
+#: xmlrpc.php:2084
 msgid "You are not allowed to create pages as this user"
 msgstr "Non si dispone del permesso per creare pagine con questo nome utente."
 
-#: xmlrpc.php:2374
+#: xmlrpc.php:2387
 msgid "You are not allowed to change the post author as this user."
 msgstr "Non si dispone del permesso permesso per cambiare l&#8217;autore dell&#8217;articolo con questo nome utente."
 
-#: xmlrpc.php:2379
+#: xmlrpc.php:2392
 msgid "You are not allowed to change the page author as this user."
 msgstr "Non si dispone del permesso per cambiare l&#8217;autore della pagina con questo nome utente."
 
-#: xmlrpc.php:2487
+#: xmlrpc.php:2500
 msgid "Sorry, you do not have the right to publish this page."
 msgstr "Non si dispone dei permessi per pubblicare questa pagina."
 
-#: xmlrpc.php:2522
+#: xmlrpc.php:2535
 msgid "Sorry, your entry could not be edited. Something wrong happened."
 msgstr "Questa voce non può essere modificata. Si è verificato un errore."
 
-#: xmlrpc.php:2787
-#: xmlrpc.php:2974
+#: xmlrpc.php:2803
+#: xmlrpc.php:2995
 msgid "Sorry, you must be able to edit posts on this blog in order to view categories."
 msgstr "Occorre avere la possibilità di modificare gli articoli di questo blog per poter visualizzare le categorie."
 
-#: xmlrpc.php:2844
+#: xmlrpc.php:2860
 msgid "You are not allowed to upload files to this site."
 msgstr "Non si dispone del permesso per caricare file su questo sito."
 
-#: xmlrpc.php:2871
+#: xmlrpc.php:2887
 #, php-format
 msgid "Could not write file %1$s (%2$s)"
 msgstr "Impossibile scrivere il file %1$s (%2$s)"
 
-#: xmlrpc.php:3013
+#: xmlrpc.php:3034
 msgid "Sorry, you can not edit this post."
 msgstr "Spaicente, non è possibile modificare questo articolo."
 
-#: xmlrpc.php:3214
+#: xmlrpc.php:3235
 msgid "Is there no link to us?"
 msgstr "Non ci sono link a noi ??"
 
-#: xmlrpc.php:3254
-#: xmlrpc.php:3264
-#: xmlrpc.php:3271
-#: xmlrpc.php:3379
+#: xmlrpc.php:3275
+#: xmlrpc.php:3285
+#: xmlrpc.php:3292
+#: xmlrpc.php:3400
 msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
 msgstr "L'URL indicata non può essere usata come destinazione. O non esiste o non è una risorsa abilitata al pingback."
 
-#: xmlrpc.php:3267
+#: xmlrpc.php:3288
 msgid "The source URL and the target URL cannot both point to the same resource."
 msgstr "L' URL di partenza e l' URL d'arrivo non possono puntare alla stessa risorsa."
 
-#: xmlrpc.php:3277
+#: xmlrpc.php:3298
 msgid "The pingback has already been registered."
 msgstr "The pingback has already been registered."
 
-#: xmlrpc.php:3285
+#: xmlrpc.php:3306
 msgid "The source URL does not exist."
 msgstr "L&#8217;URL sorgente non esiste."
 
-#: xmlrpc.php:3297
+#: xmlrpc.php:3318
 msgid "We cannot find a title on that page."
 msgstr "Non possiamo trovare un titolo in quella pagina."
 
-#: xmlrpc.php:3333
+#: xmlrpc.php:3354
 msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
 msgstr "L' URL d'origine non contiene un link all'URL di destinazionee quindi non può essere utilizzato come origine."
 
-#: xmlrpc.php:3353
+#: xmlrpc.php:3374
 #, php-format
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
 msgstr "Pingback da %1$s a %2$s registrato. Facciamo parlare il web! :-)"
 
-#: xmlrpc.php:3386
+#: xmlrpc.php:3407
 msgid "The specified target URL does not exist."
 msgstr "L'&#8217;URL di destinazione specifica non esiste"
 
@@ -13951,1225 +13870,55 @@ msgstr "ltr"
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "Sembra mancare un file <code>wp-config.php</code>. Questo file è necessario per poter iniziare. Serve aiuto? <a href='http://codex.wordpress.org/Editing_wp-config.php'>Eccolo</a>. &Egrave; possibile creare un file <code>wp-config.php</code> tramite una interfaccia web, ma non funziona con tutte le configurazioni dei server. La strada più sicura è quella di creare manualmente il file.</p><p><a href='%ssetup-config.php' class='button'>Crea un file di configurazione</a>"
 
-#~ msgid "Enable syntax highlighting"
-#~ msgstr "Abilitare l&#8217;evidenziatore di sintassi"
-#~ msgid "Disable syntax highlighting"
-#~ msgstr "Disabilitare l&#8217;evidenziatore di sintassi"
+#~ msgid "Import Bunny&#8217;s Technorati Tags"
+#~ msgstr "Importa tag di Technorati  Bunny"
 #~ msgid ""
-#~ "Enable keyboard shortcuts for comment moderation. <a href=\"http://codex."
-#~ "wordpress.org/Keyboard_Shortcuts\">More information</a>"
+#~ "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into "
+#~ "WordPress tags."
 #~ msgstr ""
-#~ "Abilitare le scorciatoie di tastiera per la moderazione dei commenti. <a "
-#~ "href=\"http://codex.wordpress.org/Keyboard_Shortcuts\">Altre "
-#~ "informazioni</a>"
-#~ msgid "Return to Theme Installer."
-#~ msgstr "Tornare all'installatore di temi"
-#~ msgid "(Password not shown)"
-#~ msgstr "(Password non visualizzata)"
+#~ "Salve! Questo importatore, traduce i tag da Bunny&#8217;s Technorati Tags "
+#~ "in tag WordPress."
+#~ msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
+#~ msgstr ""
+#~ "Questa procedura è adatta per Bunny&#8217;s Technorati Tags versione 0.6."
 #~ msgid ""
-#~ "<p>There is a new version of %1$s available. <a href=\"%2$s\" class="
-#~ "\"thickbox\" title=\"%1$s\">View version %3$s Details</a>.</p>"
+#~ "All existing Bunny&#8217;s Technorati Tags will be removed after import."
 #~ msgstr ""
-#~ "&Egrave; disponibile una nuova versione di %1$s. <a href=\"%2$s\" class="
-#~ "\"thickbox\" title=\"%1$s\">Visualizza i dettagli sulla versione %3$s</a>"
-#~ msgid "%s Feed"
-#~ msgstr "%s Feed"
-#~ msgid "%s Comments Feed"
-#~ msgstr "%s Feed dei commenti"
-#~ msgid "View Site"
-#~ msgstr "Visualizza sito"
-#~ msgid "Edit \"%s\""
-#~ msgstr "Modifica \"%s\""
-#~ msgid "View \"%s\""
-#~ msgstr "Visualizza \"%s\""
-#~ msgid "Post updated. Continue editing below or <a href=\"%s\">go back</a>."
-#~ msgstr ""
-#~ "Articolo aggiornato. Continuare la modifica o <a href=\"%s\">tornare "
-#~ "indietro</a>."
-#~ msgid "title"
-#~ msgstr "titolo"
-#~ msgid ""
-#~ "Choose the frame your link targets. Essentially this means if you choose "
-#~ "<code>_blank</code> your link will open in a new window."
-#~ msgstr ""
-#~ "Seleziona il riquadro di destinazione del link. Essenzialmente questo "
-#~ "significa che selezionando <code>_blank</code> il link verrò aperto in "
-#~ "una nuova finestra."
-#~ msgid "Page updated. Continue editing below or <a href=\"%s\">go back</a>."
-#~ msgstr ""
-#~ "Pagina aggiornata. Continuare la modifica o <a href=\"%s\">tornare "
-#~ "indietro</a>."
-#~ msgid ""
-#~ "Also, since you're coming from DotClear, you probably have been using "
-#~ "Textile to format your comments and posts.  If this is the case, we "
-#~ "recommend downloading and installing <a href=\"http://www.huddledmasses."
-#~ "org/category/development/wordpress/textile/\">Textile for WordPress</a>.  "
-#~ "Trust me... You'll want it."
-#~ msgstr ""
-#~ "Dal momento che si proviene da DotClear, probabilmente si è utilizzato il "
-#~ "formato Textile per gli articoli e i commenti. In questo caso, "
-#~ "raccomandiamo di scaricare e installare <a href=\"http://www."
-#~ "huddledmasses.org/category/development/wordpress/textile/\">Textile per "
-#~ "WordPress</a>. Credetemi... Se ne avrà davvero bisogno."
-#~ msgid "That's it! What are you waiting for? Go <a href=\"%1$s\">login</a>!"
-#~ msgstr ""
-#~ "Tutto fatto! Vi aspettavate qualcos'altro? Effettuare il <a href=\"%1$s"
-#~ "\">login</a>!"
-#~ msgid "Downloading update from %s."
-#~ msgstr "Scaricamento aggiornamento da %s."
-#~ msgid "Preview \"%s\""
-#~ msgstr "Anteprima \"%s\""
-#~ msgid "Activate \"%s\""
-#~ msgstr "Attiva \"%s\""
-#~ msgid "Back to Theme Installer"
-#~ msgstr "TOrnare all'installatore di temi"
-#~ msgid ""
-#~ "The file exceeds the <code>upload_max_filesize</code> directive in "
-#~ "<code>php.ini</code>."
-#~ msgstr ""
-#~ "Il file eccede la direttiva <code>upload_max_filesize</code> in <code>php."
-#~ "ini</code>."
-#~ msgid ""
-#~ "The file exceeds the <em>MAX_FILE_SIZE</em> directive that was specified "
-#~ "in the HTML form."
-#~ msgstr ""
-#~ "Il file eccede la direttiva <em>MAX_FILE_SIZE</em> specificata nel modulo "
-#~ "HTML."
-#~ msgid "The file was only partially uploaded."
-#~ msgstr "Il file è stato caricato solo parzialmente."
-#~ msgid "No file was sent."
-#~ msgstr "Non è stato inviato alcun file."
-#~ msgid "Get help with \"%s\""
-#~ msgstr "Ottenere aiuto su \"%s\""
-#~ msgid "Install \"%s\""
-#~ msgstr "Installa \"%s\""
-#~ msgid "<strong>ERROR</strong>: The e-mail address isn't correct."
-#~ msgstr "<strong>ERRORE</strong>: l&#8217;indirizzo e-mail non è corretto"
-#~ msgid "No matching widgets"
-#~ msgstr "Nessun widget trovato"
-#~ msgid "Delete Plugin"
-#~ msgstr "Cancella plugin"
-#~ msgid "%s by %s"
-#~ msgstr "%s di %s"
-#~ msgid ""
-#~ "Plugins extend and expand the functionality of WordPress. <a href=\"%s"
-#~ "\">Install new plugins</a> and then activate, deactivate, or delete them "
-#~ "here."
-#~ msgstr ""
-#~ "I plugin estendono ed ampliano le funzionalità di WordPress. <a href=\"%s"
-#~ "\">Installare nuovi plugin</a> e quindi attivarli, deattivarl o "
-#~ "cancellarli da qui."
-#~ msgid "Preview of \"%s\""
-#~ msgstr "Anteprima di \"%s\""
-#~ msgid "Get More Themes"
-#~ msgstr "Altri temi"
-#~ msgid ""
-#~ "You can find additional themes for your site in the <a href=\"http://"
-#~ "wordpress.org/extend/themes/\">WordPress theme directory</a>. To install "
-#~ "a theme you generally just need to upload the theme folder into your "
-#~ "<code>wp-content/themes</code> directory. Once a theme is uploaded, you "
-#~ "should see it on this page."
-#~ msgstr ""
-#~ "&Egrave; possibile trovare temi aggiuntivi per il proprio sito nella <a "
-#~ "href=\"http://wordpress.org/extend/themes/\">WordPress theme directory</"
-#~ "a>. Per installare un tema solitamente è sufficiente caricare la cartella "
-#~ "del tema nella directory <code>wp-content/themes</code>. Una volta "
-#~ "caricato un tema questo dovrebbe essere visibile su questa pagina."
-#~ msgid "Required."
-#~ msgstr "Obbligatorio."
-#~ msgid "Username (required)"
-#~ msgstr "Nome utente (obbligatorio)"
-#~ msgid "E-mail (required)"
-#~ msgstr "E-mail (obbligatoria)"
-#~ msgid "Password (twice)"
-#~ msgstr "Password (inserirla due volte)"
-#~ msgid "Error in RSS Widget: %s"
-#~ msgstr "Errore nel widget RSS: %s"
-#~ msgid "Invalid post id."
-#~ msgstr "Id articolo non valido"
-#~ msgid "Connection to the server has timeout after %s seconds."
-#~ msgstr "La connessione al server è andata in timeout dop %s secondi."
-#~ msgid "No plugin Specified"
-#~ msgstr "Non è stato specificato alcun plugin"
-#~ msgid "Successfully installed the plugin."
-#~ msgstr "Plugin installato con successo."
-#~ msgid "Unpacking the plugin package"
-#~ msgstr "Scompattamento del plugin"
-#~ msgid "No theme specified"
-#~ msgstr "Non è stato specificato alcun tema"
-#~ msgid "Successfully installed the theme."
-#~ msgstr "Tema installato con successo"
-#~ msgid "Unable to locate WordPress themes directory."
-#~ msgstr "Impossibile trovare la directory dei temi di WordPress."
-#~ msgid "Unable to locate WordPress content directory (wp-content)."
-#~ msgstr ""
-#~ "Impossibile trovare la directory dei contenuti di WordPress  (wp-content)."
-#~ msgid "Downloading theme package from %s"
-#~ msgstr "Scaricamento del tema da %s"
-#~ msgid "Theme does not exist."
-#~ msgstr "Il tema non esiste."
-#~ msgid "Unpacking the core update"
-#~ msgstr "Scompattamento dell&#8217;aggiornamento dei file di core"
-#~ msgid "Currently Active Plugins"
-#~ msgstr "Plugin attivi"
-#~ msgid "Recently Active Plugins"
-#~ msgstr "Plugin recentemente attivi"
-#~ msgid ""
-#~ "The following plugins were recently active. When a plugin has been "
-#~ "inactive for more than 7 days it will be moved to the Inactive plugin "
-#~ "list."
-#~ msgstr ""
-#~ "I seguenti plugin erano attivi recentemente. Quando un plugin rimarrà "
-#~ "inattivo per più di 7 giorni verrà spostato fra i plugin non attivi"
-#~ msgid "Inactive Plugins"
-#~ msgstr "Plugin non attivi"
-#~ msgid "Get More Plugins"
-#~ msgstr "Ottenere altri plugin"
-#~ msgid ""
-#~ "To <em>manually</em> install a plugin you generally just need to upload "
-#~ "the plugin file into your <code>%s</code> directory."
-#~ msgstr ""
-#~ "Per installare <em>manualmente</em> un plugin solitamente è sufficiente "
-#~ "caricare i file del plugin nella directory <code>%s</code>."
-#~ msgid "Once a plugin has been installed, you may activate it here."
-#~ msgstr ""
-#~ "Una volta che un plugin è stato installato, è possibile attivarlo qui."
-#~ msgid "Setting theme as Current"
-#~ msgstr "Impostare il tema come tema corrente"
-#~ msgid "Current Widgets"
-#~ msgstr "Widget correnti"
-#~ msgid "Add more from the Available Widgets section."
-#~ msgstr ""
-#~ "&Egrave; possibile aggiungerne altri dalla sezione Widget disponibili.."
-#~ msgid "Page updated."
-#~ msgstr "Pagina aggiornata."
-#~ msgctxt "widget"
-#~ msgid "%1$s: %2$s"
-#~ msgstr "%1$s: %2$s"
-#~ msgid "Use legacy <code>my-hacks.php</code> file support"
-#~ msgstr "Usa il supporto del file <code>my-hacks.php</code>"
-#~ msgid ""
-#~ "Your WordPress database is out-of-date, and must be upgraded before you "
-#~ "can continue."
-#~ msgstr ""
-#~ "Il tuo database di Wordpress non è aggiornato, e deve essere aggiornato "
-#~ "per poter continuare."
-#~ msgid "Add Widget"
-#~ msgstr "Aggiungi widget"
-#~ msgid "You are using %1$s widget in the \"%2$s\" sidebar."
-#~ msgid_plural "You are using %1$s widgets in the \"%2$s\" sidebar."
-#~ msgstr[0] "Si sta utilizzando %1$s widget nella sidebar \"%2$s\"."
-#~ msgstr[1] "Si stanno utilizzando %1$s widget nella sidebar \"%2$s\"."
-#~ msgid "You are using %1$s widget in the sidebar."
-#~ msgid_plural "You are using %1$s widgets in the sidebar."
-#~ msgstr[0] "Si sta utilizzando %1$s widget nella sidebar."
-#~ msgstr[1] "Si stanno utilizzando %1$s widget nella sidebar."
-#~ msgid "Show any widgets"
-#~ msgstr "Mostra qualsiasi widget"
-#~ msgid "Show all widgets"
-#~ msgstr "Mostra tutti i widget"
-#~ msgid "Show unused widgets"
-#~ msgstr "Mostra i widget inutilizzati"
-#~ msgid "Show used widgets"
-#~ msgstr "Mostra i widget utilizzati"
-#~ msgid ""
-#~ "Remember to click the \"Save Changes\" button at the bottom of the "
-#~ "Current Widgets column after you're all done!"
-#~ msgstr ""
-#~ "Ricordarsi di fare clic sul pulsante \"Salva modifiche\" alla base della "
-#~ "colonna Widget correnti dopo aver apportato tutte le modifiche!"
-#~ msgid "You're about to leave without having saved your changes!"
-#~ msgstr "Si sta per abbandonare senza aver salvato i cambiamenti!"
-#~ msgid "<strong>ERROR</strong>: Invalid username."
-#~ msgstr "<strong>ERRORE</strong>: nome utente non valido."
-#~ msgid "<strong>ERROR</strong>: Incorrect password."
-#~ msgstr "<strong>ERRORE</strong>: password errata."
-#~ msgid "Published|page"
-#~ msgstr "Pubblicata"
-#~ msgid "Published <span class=\"count\">(%s)</span>|page"
-#~ msgid_plural "Published <span class=\"count\">(%s)</span>"
-#~ msgstr[0] "Pubblicata <span class=\"count\">(%s)</span>"
-#~ msgstr[1] "Pubblicate <span class=\"count\">(%s)</span>"
-#~ msgid "Scheduled|page"
-#~ msgstr "Programmata"
-#~ msgid "Scheduled <span class=\"count\">(%s)</span>|page"
-#~ msgid_plural "Scheduled <span class=\"count\">(%s)</span>"
-#~ msgstr[0] "Programmata <span class=\"count\">(%s)</span>|page"
-#~ msgstr[1] "Programmate <span class=\"count\">(%s)</span>"
-#~ msgid "Pending Review|page"
-#~ msgstr "In attesa di revisione"
-#~ msgid "Pending Review <span class=\"count\">(%s)</span>|page"
-#~ msgid_plural "Pending Review <span class=\"count\">(%s)</span>"
-#~ msgstr[0] "In attesa di revisione <span class=\"count\">(%s)</span>"
-#~ msgstr[1] "In attesa di revisione <span class=\"count\">(%s)</span>"
-#~ msgid "Draft|page"
-#~ msgstr "Bozza"
-#~ msgid "Drafts|manage posts header"
-#~ msgstr "Bozze|manage posts header"
-#~ msgid "Draft <span class=\"count\">(%s)</span>|page"
-#~ msgid_plural "Drafts <span class=\"count\">(%s)</span>"
-#~ msgstr[0] "Bozza <span class=\"count\">(%s)</span>|page"
-#~ msgstr[1] "Bozze <span class=\"count\">(%s)</span>"
-#~ msgid "Private|page"
-#~ msgstr "Privata"
-#~ msgid "Private <span class=\"count\">(%s)</span>|page"
-#~ msgid_plural "Private <span class=\"count\">(%s)</span>"
-#~ msgstr[0] "Privata <span class=\"count\">(%s)</span>|page"
-#~ msgstr[1] "Private <span class=\"count\">(%s)</span>"
-#~ msgid "[need help?]"
-#~ msgstr "[serve aiuto?]"
-#~ msgid ""
-#~ "<strong>Term:</strong> Searches plugins names and descriptions for the "
-#~ "specified term"
-#~ msgstr ""
-#~ "<strong>Termine:</strong> ricerca i nomi dei plugin e le descrizioni per "
-#~ "i termini specificati"
-#~ msgid "<strong>Tag:</strong> Searches for plugins tagged as such"
-#~ msgstr "<strong>Tag:</strong> ricerca i plugin marcati con questi tag"
-#~ msgid ""
-#~ "<strong>Author:</strong> Searches for plugins created by the Author, or "
-#~ "which the Author contributed to."
-#~ msgstr ""
-#~ "<strong>Autore:</strong> ricerca i plugin creati dall'autore o per i "
-#~ "quali l'autore ha dato un contributo."
-#~ msgid "Editor|User role"
-#~ msgstr "Editore|User role"
-#~ msgid "Author|User role"
-#~ msgstr "Autore|User role"
-#~ msgid "Subscriber|User role"
-#~ msgstr "Sottoscrittore|User role"
-#~ msgid "rel"
-#~ msgstr "rel"
-#~ msgid "Advanced Search"
-#~ msgstr "Ricerca avanzata"
-#~ msgid ""
-#~ "You may also browse based on the most popular tags in the Theme Directory:"
-#~ msgstr ""
-#~ "&Egrave; possibile effettuare ricerche anche tramite i tag più popolari "
-#~ "nella directory dei temi:"
-#~ msgid "%d theme"
-#~ msgstr "%d tema"
-#~ msgid "%d themes"
-#~ msgstr "%d temi"
-#~ msgid "Uncategorized|Default category slug"
-#~ msgstr "senza-categoria|Default category slug"
-#~ msgid "Blogroll|Default link category slug"
-#~ msgstr "Blogroll|Default link category slug"
-#~ msgid "hello-world|Default post slug"
-#~ msgstr "ciao-mondo|Default post slug"
-#~ msgid "about|Default page slug"
-#~ msgstr "info|Default page slug"
-#~ msgid "ERROR"
-#~ msgstr "ERRORE"
-#~ msgid "Styles|Theme stylesheets in theme editor"
-#~ msgstr "Stili"
-#~ msgid ""
-#~ "Gears is installed and enabled on this computer. You can disable it from "
-#~ "your browser&#8217;s Options, Under the Hood menu."
-#~ msgstr ""
-#~ "Gears è installato e funzionante su questo computer. &Egrave; possibile "
-#~ "disabilitarlo tramite il menu Strumenti del proprio browser nella sezione "
-#~ "Roba da smanettoni."
-#~ msgid "%1$s <span class=\"count\">(%2$s)</span>|user role with count"
-#~ msgstr "%1$s <span class=\"count\">(%2$s)</span>|user role with count"
-#~ msgid "Comment|noun"
-#~ msgstr "Commento|noun"
-#~ msgid "Approved|adjective"
-#~ msgstr "Approvato|adjective"
-#~ msgid "Spam|adjective"
-#~ msgstr "Spam|adjective"
-#~ msgid ", |between list items"
-#~ msgstr ", |between list items"
-#~ msgid ", and |between last two list items"
-#~ msgstr " e |between last two list items"
-#~ msgid " and |between only two list items"
-#~ msgstr " e |between only two list items"
-#~ msgid "%1$s %2$s|Used as a calendar caption"
-#~ msgstr "%1$s %2$s|Used as a calendar caption"
-#~ msgid "&raquo;|Seperator character for feed titles in theme head"
-#~ msgstr "&raquo;|Seperator character feed titles in theme head"
-#~ msgid "0| Extra width for the media popup in pixels"
-#~ msgstr "0"
-#~ msgid "0| Extra height for the media popup in pixels"
-#~ msgstr "0"
-#~ msgid "0| Extra width for the link popup in pixels"
-#~ msgstr "0"
-#~ msgid "0| Extra height for the link popup in pixels"
-#~ msgstr "0"
-#~ msgid "0| Extra width for the image popup in pixels"
-#~ msgstr "0"
-#~ msgid "0| Extra height for the image popup in pixels"
-#~ msgstr "0"
-#~ msgid "0| Extra width for the colorpicker popup in pixels"
-#~ msgstr "0"
-#~ msgid "0| Extra height for the colorpicker popup in pixels"
-#~ msgstr "0"
-#~ msgid ""
-#~ "number_format_decimals|$decimals argument for http://php.net/"
-#~ "number_format, default is 0"
-#~ msgstr ""
-#~ "number_format_decimals|$decimals argument for http://php.net/"
-#~ "number_format, default is 0"
-#~ msgid ""
-#~ "number_format_decimal_point|$dec_point argument for http://php.net/"
-#~ "number_format, default is ."
-#~ msgstr ""
-#~ "number_format_decimal_point|$dec_point argument for http://php.net/"
-#~ "number_format, default is ."
-#~ msgid ""
-#~ "number_format_thousands_sep|$thousands_sep argument for http://php.net/"
-#~ "number_format, default is ,"
-#~ msgstr ""
-#~ "number_format_thousands_sep|$thousands_sep argument for http://php.net/"
-#~ "number_format, default is ,"
-#~ msgid "j F, Y @ G:i|revision date format"
-#~ msgstr "j F Y @ G:i|revision date format"
-#~ msgid "%1$s by %2$s|post revision 1:datetime, 2:name"
-#~ msgstr "%1$s di %2$s|post revision 1:datetime, 2:name"
-#~ msgid "Medium|password strength"
-#~ msgstr "Media|password strength"
-#~ msgid "Error: could not find an RSS or ATOM feed at that URL."
-#~ msgstr "Errore:non trovo un fedd RSS o ATOM a quell' URL."
-#~ msgid "Custom Image Header"
-#~ msgstr "Immagine testata personalizzata"
-#~ msgid "M j, Y @ G:i|Publish box date format"
-#~ msgstr "j F Y @ G:i|Publish box date format"
-#~ msgid "Pending|adjective"
-#~ msgstr "In sospeso|adjective"
-#~ msgid "Downloaded <strong>%s</strong>"
-#~ msgstr "Scaricati <strong>%s</strong>"
-#~ msgid "Could not access comment XML file: %s"
-#~ msgstr "Impossibile accedere al file XML dei commenti: %s"
-#~ msgid " and replies:"
-#~ msgstr " e le repliche:"
-#~ msgid "Imported reply from <strong>%s</strong> on %s"
-#~ msgstr "Repliche importate da <strong>%s</strong> in %s"
-#~ msgid ""
-#~ "LiveJournal does not appear to be responding right now. Please try again "
-#~ "later."
-#~ msgstr "LiveJournal al momento pare non risponda. Riprovare più tardi."
-#~ msgid "Process my comment files &raquo;"
-#~ msgstr "Elaborazione file commenti &raquo;"
-#~ msgid "Parsing Comments"
-#~ msgstr "Scorrimento dei commenti"
-#~ msgid "Processed comment file %d of %d"
-#~ msgstr "Elaborazione file commento %d di %d"
-#~ msgid "Threaded cache file %d of %d"
-#~ msgstr "File di cache nidificato %d di %d"
-#~ msgid "Thread the next cache file &raquo;"
-#~ msgstr "Riorganizzazione del prossimo file di cache &raquo:"
-#~ msgid ""
-#~ "Alrighty, your comments are all threaded. There's just one last step -- "
-#~ "time to actually import them all now!"
-#~ msgstr ""
-#~ "Perfetto, tutti i commenti sono stati nidificati. Manca solo un ultimo "
-#~ "passaggio -- è ora tempo di importarli tutti!"
-#~ msgid ""
-#~ "This last part in particular can take a really long time if you have a "
-#~ "lot of comments. You might want to go and do something else while you "
-#~ "wait."
-#~ msgstr ""
-#~ "Questo ultimo passaggio in particolare può impiegare molto tempo nel caso "
-#~ "vi siano molti commenti. Nell'attesa conviene andare a farsi un giro e "
-#~ "fare altro."
-#~ msgid "Import my threaded comments into WordPress &raquo;"
-#~ msgstr "Importa i commenti personali nidificati in WordPress &raquo;"
-#~ msgid "Importing Comments"
-#~ msgstr "Importazione commenti"
-#~ msgid ""
-#~ "This is the big one -- we are now inserting your comment threads into "
-#~ "WordPress..."
-#~ msgstr ""
-#~ "Questa è una cosa grossa -- stiamo per inserire i propri commenti "
-#~ "nidificati in WordPress..."
-#~ msgid "Importing cache file %d of %d"
-#~ msgstr "Importazione file di cache %d di %d"
-#~ msgid "Spam|verb"
-#~ msgstr "Spam|verb"
-#~ msgid "something"
-#~ msgstr "qualcosa"
-#~ msgid " on %4$s|feed_display"
-#~ msgstr " il %4$s|feed_display"
-#~ msgid "File|media column header"
-#~ msgstr "File|media column header"
-#~ msgid "Attached to|media column header"
-#~ msgstr "Allegato a|media column header"
-#~ msgid "Date|media column header"
-#~ msgstr "Data|media column header"
-#~ msgid ""
-#~ "&ndash;OR&ndash;|Between password field and private checkbox on post "
-#~ "quick edit interface"
-#~ msgstr ""
-#~ "&ndash; oppure &ndash;|Between password field and private checkbox on "
-#~ "post quick edit interface"
-#~ msgid ""
-#~ "%1$s%2$s, %3$s @ %4$s : %5$s|1: month input, 2: day input, 3: year input, "
-#~ "4: hour input, 5: minute input"
-#~ msgstr ""
-#~ "%2$s%1$s%3$s alle %4$s : %5$s|1: month input, 2: day input, 3: year "
-#~ "input, 4: hour input, 5: minute input"
-#~ msgid "Pending|post state"
-#~ msgstr "In attesa|post state"
-#~ msgid "%1$s: %2$s|1: widget name, 2: widget title"
-#~ msgstr "%1$s: %2$s|1: widget name, 2: widget title"
-#~ msgid "Add New|post"
-#~ msgstr "Aggiungi nuovo|post"
-#~ msgid "Add New|file"
-#~ msgstr "Aggiungi nuovo|file"
-#~ msgid "Add New|links"
-#~ msgstr "Aggiungi nuovo|links"
-#~ msgid "Add New|page"
-#~ msgstr "Aggiungi nuova|page"
-#~ msgid "Add New|plugin"
-#~ msgstr "Aggiungi nuovo|plugin"
-#~ msgid "%1$s %2$s by %3$s|1: theme title, 2: theme version, 3: theme author"
-#~ msgstr "%1$s %2$s di %3$s|1: theme title, 2: theme version, 3: theme author"
-#~ msgid "Media|media column header"
-#~ msgstr "Media"
-#~ msgid "Date Added|media column header"
-#~ msgstr "Aggiunto in data"
-#~ msgid "Header Image and Color"
-#~ msgstr "Immagine e colore della testata"
-#~ msgid ""
-#~ "Howdy! Upload your LiveJournal XML export file and we&#8217;ll import the "
-#~ "posts into this blog."
-#~ msgstr ""
-#~ "Salve! Carica il tuo fileXML di esportazione di LiveJournal e importeremo "
-#~ "gli articoli all&#8217;interno di questo blog."
-#~ msgid ""
-#~ "Choose a LiveJournal XML file to upload, then click Upload file and "
-#~ "import."
-#~ msgstr ""
-#~ "Selezionare un file XML di LiveJournal da caricare, quindi fare clic su "
-#~ "carica file ed importare."
-#~ msgid ""
-#~ "You are about to delete this category '%s'\n"
-#~ " 'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "Si sta per cancellare questa categoria '%s'\n"
-#~ " 'Annulla' per interrompere, 'OK' per cancellare."
-#~ msgid ""
-#~ "You are about to delete this tag '%s'\n"
-#~ " 'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "Si sta per cancellare questo tag '%s'\n"
-#~ " 'Annulla' per interrompere, 'OK' per cancellare."
-#~ msgid ""
-#~ "You are about to delete the selected categories.\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "Si stanno per cancellare le categorie selezionate.\n"
-#~ " 'Annulla' per interrompere, 'OK' per cancellare."
-#~ msgid ""
-#~ "You are about to delete the selected comments.\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "Si stanno per cancellare i commenti selezionati.\n"
-#~ " 'Annulla' per interrompere, 'OK' per cancellare."
-#~ msgid ""
-#~ "You are about to delete the selected link categories.\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "Si sta per cancellare le categorie di link selezionate.\n"
-#~ " 'Annulla' per interrompere, 'OK' per cancellare."
-#~ msgid ""
-#~ "You are about to delete the selected pages.\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "Si stanno per cancellare le pagine selezionate.\n"
-#~ " 'Annulla' per interrompere, 'OK' per cancellare."
-#~ msgid ""
-#~ "You are about to delete the selected posts.\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "Si stano per cancellare gli articoli selezionati.\n"
-#~ " 'Annulla' per interrompere, 'OK' per cancellare."
-#~ msgid ""
-#~ "You are about to delete the selected links.\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "Si sta per cancellare il link selezionato.'\n"
-#~ " 'Annulla' per interrompere, 'OK' per cancellare."
-#~ msgid ""
-#~ "You are about to delete the selected attachments.\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "Si stanno per cancellare glil allegati selezionati\n"
-#~ " 'Annulla' per interrompere, 'OK' per cancellare."
-#~ msgid "Does not appear to be chunked encoded or body is malformed."
-#~ msgstr "Non sembra essere codificato in sezioni o il body è malformato."
-#~ msgid "This web site is denied to use Gears."
-#~ msgstr "Questo sito web non ha il permesso di utilizzare Gears."
-#~ msgid "(%s)"
-#~ msgid_plural "(%s)"
-#~ msgstr[0] "(%s)"
-#~ msgstr[1] "(%s)"
-#~ msgid "Protected"
-#~ msgstr "Protetto"
-#~ msgid "Comment&uuml;s on: %s"
-#~ msgstr "Commento&uuml;s su: %s"
-#~ msgid ""
-#~ "The setting below determines where images, documents, and other media "
-#~ "files will be linked to when inserted into the body of a post."
-#~ msgstr ""
-#~ "L'impostazione seguente determina dove verranno linakate le immagini, i "
-#~ "documenti e gli altri file media quando vengono inseriti nel corpo di un "
-#~ "articolo."
-#~ msgid "Default media links"
-#~ msgstr "Link immagine predefinito"
-#~ msgid "Default image links"
-#~ msgstr "Link immagine predefinito"
-#~ msgid "Default image size"
-#~ msgstr "Dimensione immagine predefinita"
-#~ msgid "Auto"
-#~ msgstr "Auto"
-#~ msgid "Default image alignment"
-#~ msgstr "Allineamento immagine predefinito"
-#~ msgid "Subtle"
-#~ msgstr "Subtle"
-#~ msgid "Bulk Edit"
-#~ msgstr "Modifica di massa"
-#~ msgid "Folder allready exists."
-#~ msgstr "Cartella già esistente."
-#~ msgid "Tags|media column header"
-#~ msgstr "Tag"
-#~ msgid "&larr;"
-#~ msgstr "&larr;"
-#~ msgid "&rarr;"
-#~ msgstr "&rarr;"
-#~ msgid "View Drafts"
-#~ msgstr "Visualizza bozze"
-#~ msgid "Classic"
-#~ msgstr "Classico"
-#~ msgid "Fresh"
-#~ msgstr "Fresh"
-#~ msgid "View Draft Pages"
-#~ msgstr "Visualizza le pagine in bozza"
-#~ msgid "<a %s>Private</a> <span class=\"count\">(%s)</span>"
-#~ msgid_plural "<a %s>Private</a> <span class=\"count\">(%s)</span>"
-#~ msgstr[0] "<a %s>Privato</a> <span class=\"count\">(%s)</span>"
-#~ msgstr[1] "<a %s>Privati</a> <span class=\"count\">(%s)</span>"
-#~ msgid "Choose File"
-#~ msgstr "Seleziona file"
-#~ msgid "Upload an Image"
-#~ msgstr "Carica una immagine"
-#~ msgid "Upload Video"
-#~ msgstr "Carica video"
-#~ msgid "Upload Audio"
-#~ msgstr "Carica audio"
-#~ msgid "two"
-#~ msgstr "due"
-#~ msgid "four"
-#~ msgstr "quattro"
-#~ msgid "five"
-#~ msgstr "cinque"
-#~ msgid "six"
-#~ msgstr "sei"
-#~ msgid "seven"
-#~ msgstr "sette"
-#~ msgid "eight"
-#~ msgstr "otto"
-#~ msgid "nine"
-#~ msgstr "nove"
-#~ msgid "Limit the thumbnails width:"
-#~ msgstr "Limitare la larghezza della miniatura:"
-#~ msgid ""
-#~ "Overrides the thumbnail images width. The default can be changed from the "
-#~ "Media Settings page."
-#~ msgstr ""
-#~ "Ignora la larghezza immagine della miniatura. Il valore predefinito può "
-#~ "essere modificato nella pagina Impostazioni Media."
-#~ msgid "Write Post"
-#~ msgstr "Scrivi articolo"
-#~ msgid "Help on titles"
-#~ msgstr "Aiuto sui titoli"
-#~ msgid "Help on categories"
-#~ msgstr "Aiuto sulle categorie"
-#~ msgid "Help with post field"
-#~ msgstr "Aiuto sul campo articolo"
-#~ msgid ""
-#~ "<a href=\"%s\" title=\"Help on trackbacks\"><strong>TrackBack</strong> a "
-#~ "<abbr title=\"Universal Resource Locator\">URL</abbr></a>:</label> "
-#~ "(Separate multiple <abbr title=\"Universal Resource Locator\">URL</abbr>s "
-#~ "with spaces.)"
-#~ msgstr ""
-#~ "<a href=\"%s\" title=\"Aiuto sui trackbacks\">Invia un <strong>trackBack</"
-#~ "strong> verso un <abbr title=\"Universal Resource Locator\">URL</abbr></"
-#~ "a>:</label> (separa più <abbr title=\"Universal Resource Locator\">URL</"
-#~ "abbr> con degli spazi)<br />"
-#~ msgid "Save as Private"
-#~ msgstr "Salva come privato"
-#~ msgid "Advanced Editing"
-#~ msgstr "Modifiche avanzate"
-#~ msgid "Login"
-#~ msgstr "Login"
-#~ msgid "&raquo; Newer Comments"
-#~ msgstr "&laquo; Commenti successivi"
-#~ msgid "%i% pending"
-#~ msgstr "%i% in sospeso"
-#~ msgid "Recent Comments <a href=\"%s\">View all</a>"
-#~ msgstr "Commenti recenti <a href=\"%s\">Mostra tutti</a>"
-#~ msgid "Recent Drafts <a href=\"%s\">View all</a>"
-#~ msgstr "Bozze recenti <a href=\"%s\">Mostra tutte</a>"
-#~ msgid "Privacy Options"
-#~ msgstr "Opzioni privacy"
-#~ msgid "Trackbacks and Pings"
-#~ msgstr "Trackback e Ping"
-#~ msgid "Comments on this Post"
-#~ msgstr "Commenti a questo articolo."
-#~ msgid "Insert Media"
-#~ msgstr "Inserisci media"
-#~ msgid "Awaiting Moderation"
-#~ msgid_plural "Awaiting Moderation"
-#~ msgstr[0] "In attesa di moderazione"
-#~ msgstr[1] "In attesa di moderazione"
-#~ msgid ""
-#~ "You are about to delete this link '%s'\n"
-#~ "'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "Si sta per cancellare questo link '%s'\n"
-#~ " 'Annulla' per interrompere, 'OK' per cancellare."
-#~ msgid "Delete&nbsp;link"
-#~ msgstr "Cancella&nbsp;link"
-#~ msgid "Comments &amp; Pings"
-#~ msgstr "Commenti &amp; Ping"
-#~ msgid "[Awaiting Moderation]"
-#~ msgstr "[In attesa di moderazione]"
-#~ msgid ""
-#~ "You are about to delete the selected link.\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "Si sta per cancellare il link selezionato.\n"
-#~ " 'Annulla' per interrompere, 'OK' per cancellare."
-#~ msgid "Page saved."
-#~ msgstr "Pagina salvata."
-#~ msgid "Manage pages"
-#~ msgstr "Gestione pagine"
-#~ msgid "Add Photo"
-#~ msgstr "Aggiungi fotografia"
-#~ msgid ""
-#~ "You are about to delete the selected attachment.\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "Si sta per cancellare l'allegato selezionato'\n"
-#~ " 'Annulla' per interrompere, 'OK' per cancellare."
-#~ msgid "Browse your files"
-#~ msgstr "Scorri i tuoi file"
-#~ msgid "Direct link to file"
-#~ msgstr "Link diretto al file"
-#~ msgid "Icon"
-#~ msgstr "Icona"
-#~ msgid "Show:"
-#~ msgstr "Visualizza:"
-#~ msgid "Link to:"
-#~ msgstr "Link a:"
-#~ msgid "Send to editor &raquo;"
-#~ msgstr "Invia all&#8217;editor &raquo;"
-#~ msgid "Save &raquo;"
-#~ msgstr "Salva &raquo;"
-#~ msgid ""
-#~ "Are you sure you want to delete the file '%title%'?\n"
-#~ "Click ok to delete or cancel to go back."
-#~ msgstr ""
-#~ "Sei sicuro di voler cancellare il file '%title%'?\n"
-#~ "Fai clic su ok per cancellare o su annulla per tornare indietro."
-#~ msgid "Approved|plural"
-#~ msgstr "Approvati"
-#~ msgid "Spam (%s)"
-#~ msgid_plural "Spam (%s)"
-#~ msgstr[0] "Spam (%s)"
-#~ msgstr[1] "Spam (%s)"
-#~ msgid "Show All Comments"
-#~ msgstr "Mostra tutti i commenti"
-#~ msgid "Related"
-#~ msgstr "Correlati"
-#~ msgid "Manage All Link Categories"
-#~ msgstr "Gestione di tutte le categorie link"
-#~ msgid "Published (%s)"
-#~ msgid_plural "Published (%s)"
-#~ msgstr[0] "Pubblicati (%s)"
-#~ msgstr[1] "Pubblicati (%s)"
-#~ msgid "Scheduled (%s)"
-#~ msgid_plural "Scheduled (%s)"
-#~ msgstr[0] "Programmati (%s)"
-#~ msgstr[1] "Programmati (%s)"
-#~ msgid "Pending Review (%s)"
-#~ msgid_plural "Pending Review (%s)"
-#~ msgstr[0] "In attesa di revisione (%s)"
-#~ msgstr[1] "In attesa di revisione (%s)"
-#~ msgid "Draft (%s)"
-#~ msgid_plural "Drafts (%s)"
-#~ msgstr[0] "Bozze (%s)"
-#~ msgstr[1] "Bozze (%s)"
-#~ msgid "Private (%s)"
-#~ msgid_plural "Private (%s)"
-#~ msgstr[0] "Privati (%s)"
-#~ msgstr[1] "Privati (%s)"
-#~ msgid "All Pages"
-#~ msgstr "Tutte le pagine"
-#~ msgid "All Posts"
-#~ msgstr "Tutti gli articoli"
-#~ msgid "View All Comments"
-#~ msgstr "Mostra tutti i commenti"
-#~ msgid "Yesterday"
-#~ msgstr "Ieri"
-#~ msgid "%1$s in response to %2$s:"
-#~ msgstr "%1$s in risposta a %2$s:"
-#~ msgid "(based on %d rating)"
-#~ msgid_plural "(based on %d ratings)"
-#~ msgstr[0] "(basato su %d valutazione)"
-#~ msgstr[1] "(basato su %d valutazioni)"
-#~ msgid "Parent Category"
-#~ msgstr "Categoria madre"
-#~ msgid "Timestamp"
-#~ msgstr "Orario"
-#~ msgid "Selected pages"
-#~ msgstr "Pagine selezionate"
-#~ msgid "Selected posts"
-#~ msgstr "Articoli selezionati"
-#~ msgid "(expand)"
-#~ msgstr "(espandi)"
-#~ msgid "(fold)"
-#~ msgstr "(collassa)"
-#~ msgid "Comments and Pings"
-#~ msgstr "Commenti e ping"
-#~ msgid "Disallow Comments"
-#~ msgstr "Disabilita i commenti"
-#~ msgid "Disallow Pings"
-#~ msgstr "Disabilita i ping"
-#~ msgid "or"
-#~ msgstr "oppure"
-#~ msgid "All Users"
-#~ msgstr "Tutti gli utenti"
-#~ msgid "Change post status"
-#~ msgstr "Cambia stato articolo"
-#~ msgid "Approval Status"
-#~ msgstr "Stato approvazione"
-#~ msgid "Delete comment"
-#~ msgstr "Cancella commento"
-#~ msgid "This comment is"
-#~ msgstr "Questo commento è"
-#~ msgid "This page is"
-#~ msgstr "Questa pagine è"
-#~ msgid "Change page status"
-#~ msgstr "Cambia stato pagina"
-#~ msgid "Delete&nbsp;page"
-#~ msgstr "Cancella pagina"
-#~ msgid "Theme %1$s with %2$s Widget"
-#~ msgid_plural "Theme %1$s with %2$s Widgets"
-#~ msgstr[0] "Thema %1$s con %2$s widget"
-#~ msgstr[1] "Thema %1$s con %2$s widget"
-#~ msgid "Hide Options"
-#~ msgstr "Nascondi opzioni"
-#~ msgid "This is WordPress version %s."
-#~ msgstr "Si sta utilizzando WordPress versione %s."
-#~ msgid "Add media: %s"
-#~ msgstr "Aggiungi media: %s"
-#~ msgid "Users Matching \"%2$s\" (<a href=\"%1$s\">Add New</a>)"
-#~ msgstr ""
-#~ "Utenti corrispondenti \"%2$s\" (<a href=\"%1$s\">Aaggiungi nuovo</a>)"
-#~ msgid "Hint: double-click on a row to open Quick Edit."
-#~ msgstr ""
-#~ "Suggerimento: fare un doppio clic su una riga per aprire l'editor rapido."
-#~ msgid "Delete&nbsp;post"
-#~ msgstr "Cancella&nbsp;articolo"
-#~ msgid "View this Post"
-#~ msgstr "Visualizza articolo"
-#~ msgid ""
-#~ "A new version of WordPress is available for upgrade.  Before upgrading, "
-#~ "please backup your blog.  Pressing the Backup button below will create a "
-#~ "backup of your blog and prompt you to save that backup to your computer.  "
-#~ "This sometimes takes a few minutes, so please be patient.  After the "
-#~ "backup finishes, continue below to upgrade your blog automatically or "
-#~ "manually."
-#~ msgstr ""
-#~ "&Egrave; disponibile una nuova versione di WordPress. Prima di "
-#~ "aggiornare, effettuare un backup del proprio blog. Prememdo il pulsante "
-#~ "Backup sottostante verrà creato un backup del proprio blog ed apparirà la "
-#~ "richiesta di salvarlo sul proprio computer. Ciò richesde solitamente "
-#~ "alcuni minuti, quindi siate pazienti. Una volta terminato il backup, "
-#~ "proseguire con l'aggiornamento del proprio blog, in maniera automatica o "
-#~ "manuale."
-#~ msgid "Backup"
-#~ msgstr "Backup"
-#~ msgid "Trackbacks"
-#~ msgstr "Trackbacks"
-#~ msgid "No media."
-#~ msgstr "Nessun media."
-#~ msgid "See Comments on this Post"
-#~ msgstr "Vedi commenti a questo articolo."
-#~ msgid "Manage All Comments"
-#~ msgstr "Gestione di tutti i commenti"
-#~ msgid "Manage All Categories"
-#~ msgstr "Gestione di tutte le categorie"
-#~ msgid "Manage All Tags"
-#~ msgstr "Gestione di tutti i tag"
-#~ msgid "Publish Status"
-#~ msgstr "Stato di pubblicazione"
-#~ msgid "See Comments on this Page"
-#~ msgstr "Vedi commenti su questa pagina"
-#~ msgid "Manage All Pages"
-#~ msgstr "Gestisci tutte le pagine"
-#~ msgid "View All Pages"
-#~ msgstr "Visualizza tutte le pagine"
-#~ msgid "View All Posts"
-#~ msgstr "Visualizza tutti gli articoli"
-#~ msgid "Inbox"
-#~ msgstr "Inbox"
-#~ msgid "Messages"
-#~ msgstr "Messaggi"
-#~ msgid "Archived"
-#~ msgstr "Archiviato"
-#~ msgid "Archive"
-#~ msgstr "Archivio"
-#~ msgid "Message"
-#~ msgstr "Messaggio"
-#~ msgid "From"
-#~ msgstr "Da"
-#~ msgid "%d comment awaiting moderation"
-#~ msgid_plural "%d comments awaiting moderation"
-#~ msgstr[0] "%d commento in attesa di moderazione"
-#~ msgstr[1] "%d commenti in attesa di moderazione"
-#~ msgid "View All Drafts"
-#~ msgstr "Visualizza tutte le bozze"
-#~ msgid "Primary Feed"
-#~ msgstr "Feed principale"
-#~ msgid "Secondary Feed"
-#~ msgstr "Feed secondario"
-#~ msgid "rss icon"
-#~ msgstr "icona rss"
-#~ msgid "Save and Continue"
-#~ msgstr "Salva e continua"
-#~ msgid "(no-title)"
-#~ msgstr "(senza titolo)"
-#~ msgid "based on %d ratings"
-#~ msgstr "basato su %d valutazioni"
-#~ msgid "Plugin Install &#8212; WordPress"
-#~ msgstr "Installazione plugin &#8212; WordPress"
-#~ msgid "Dismiss Dialog"
-#~ msgstr "Rilascio la finestra di dialogo"
-#~ msgid "Appears with|media column header"
-#~ msgstr "Appare con"
-#~ msgid "Double-click to cancel"
-#~ msgstr "Doppio clic per cancellare"
-#~ msgid " &#8212; <strong>Private</strong>"
-#~ msgstr " &#8212; <strong>Privato</strong>"
-#~ msgid ""
-#~ "You are about to delete this user '%s'\n"
-#~ " 'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "Si sta per cancellare questo utente '%s'\n"
-#~ " 'Annulla' per interrompere, 'OK' per cancellare."
-#~ msgid "Comment Reply Error"
-#~ msgstr "Errore nella replica ad un commento"
-#~ msgid "Manage Links"
-#~ msgstr "Gestione link"
-#~ msgid "Moderate"
-#~ msgstr "Moderazione"
-#~ msgid "http://codex.wordpress.org/"
-#~ msgstr "http://codex.wordpress.org/"
-#~ msgid "Forums"
-#~ msgstr "Forum"
-#~ msgid "http://wordpress.org/support/"
-#~ msgstr "http://www.wordpress.it.it/forum/"
-#~ msgid "Feedback"
-#~ msgstr "Feedback"
-#~ msgid "http://wordpress.org/support/forum/4"
-#~ msgstr "http://wordpress.org/support/forum/4"
-#~ msgid "%s days"
-#~ msgstr "%s giorni"
-#~ msgid "Group replies into threads"
-#~ msgstr "Raggruppare le repliche in thread"
-#~ msgid "%s levels deep"
-#~ msgstr "%s livelli di profondità"
-#~ msgid "Output:"
-#~ msgstr "Esempio:"
-#~ msgid "Featured Plugins"
-#~ msgstr "Plugin in vetrina"
-#~ msgid "Popular Plugins"
-#~ msgstr "Plugin popolari"
-#~ msgid "Recently Updated Plugins"
-#~ msgstr "Plugin aggiornati di recente"
-#~ msgid "Theme Editor"
-#~ msgstr "Editor temi"
-#~ msgid "Double-click to edit"
-#~ msgstr "Doppio click per modificare"
-#~ msgid "<a href=\"http://codex.wordpress.org/\">Help</a>"
-#~ msgstr ""
-#~ "<a href=\"http://www.wordpress-it.it/wiki/\" title=\"Documentazione, faq "
-#~ "ed altro...\">Aiuto</a> (<a href=\"http://codex.wordpress.org/\" title="
-#~ "\"Documentazione in inglese\">En</a>)"
-#~ msgid "Advanced Options"
-#~ msgstr "Opzioni avanzate"
-#~ msgid "Categories (<a href=\"%s\">Add New</a>)"
-#~ msgstr "Categorie (<a href=\"%s\">Aggiungi nuova</a>)"
-#~ msgid "Manage Tags"
-#~ msgstr "Gestione tag"
-#~ msgid "<a href=\"%s\">Posts</a> / Write New Post"
-#~ msgstr "<a href=\"%s\">Articoli</a> / Scrivi nuovo articolo"
-#~ msgid "<a href=\"%s\">Posts</a> / Edit Post"
-#~ msgstr "<a href=\"%s\">Articoli</a> / Modifica articolo"
-#~ msgid "<a href=\"%s\">Pages</a> / Write New Page"
-#~ msgstr "<a href=\"%s\">Pagine</a> / Scrivere nuova pagina"
-#~ msgid "<a href=\"%s\">Pages</a> / Edit Page"
-#~ msgstr "<a href=\"%s\">Pagine</a> / Modifica pagina"
-#~ msgid ""
-#~ "%1$s%2$s%3$s (<a href=\"%4$s\">Add New</a>)|You can reorder these: 1: "
-#~ "Pages, 2: by {s}, 3: matching {s}"
-#~ msgstr ""
-#~ "%1$s%2$s%3$s (<a href=\"%4$s\">Aggiungi nuova</a>)|You can reorder these: "
-#~ "1: Pages, 2: by {s}, 3: matching {s}"
-#~ msgid "Tags (<a href=\"%s\">Add New</a>)"
-#~ msgstr "Tag (<a href=\"%s\">Aggiungi nuovo</a>)"
-#~ msgid "Posts|manage posts header"
-#~ msgstr "Articoli|manage posts header"
-#~ msgid "by other authors"
-#~ msgstr "di altri autori"
-#~ msgid "during %s"
-#~ msgstr "del %s"
-#~ msgid ""
-#~ "%1$s%2$s%3$s%4$s%5$s%6$s (<a href=\"%7$s\">Add New</a>)|You can reorder "
-#~ "these: 1: Posts, 2: by {s}, 3: matching {s}, 4: in {s}, 5: tagged with "
-#~ "{s}, 6: during {s}"
-#~ msgstr ""
-#~ "%1$s%2$s%3$s%4$s%5$s%6$s (<a href=\"%7$s\">Aggiungi nuovo</a>)|You can "
-#~ "reorder these: 1: Posts, 2: by {s}, 3: matching {s}, 4: in {s}, 5: tagged "
-#~ "with {s}, 6: during {s}"
-#~ msgid " item archived"
-#~ msgstr " elemento archiviato"
-#~ msgid " items archived"
-#~ msgstr " elementi archiviati"
-#~ msgid "Links (<a href=\"%s\">Add New</a>)"
-#~ msgstr "Link (<a href=\"%s\">Aggiungi nuovo</a>)"
-#~ msgid "Write New Post"
-#~ msgstr "Scrivi un nuovo articolo"
-#~ msgid "My Account"
-#~ msgstr "Il mio account"
-#~ msgid "My Dashboard"
-#~ msgstr "Bacheca"
-#~ msgid "Comments (%s)"
-#~ msgstr "Commenti (%s)"
-#~ msgid "Directory"
-#~ msgstr "Directory"
-#~ msgid "Utilities"
-#~ msgstr "Utilità"
-#~ msgid "Plugin Editor"
-#~ msgstr "Editor plugin"
-#~ msgid "Customize Permalink Structure"
-#~ msgstr "Modifica la struttura dei permalink"
-#~ msgid "Plugin Management"
-#~ msgstr "Gestione plugin"
-#~ msgid "Create New Post"
-#~ msgstr "Crea un nuovo articolo"
-#~ msgid "Added %1$s attachment to <strong>%2$s</strong>"
-#~ msgid_plural "Added %1$s attachments to <strong>%2$s</strong>"
-#~ msgstr[0] "Aggiunto %1$s allegato a <strong>%2$s</strong>"
-#~ msgstr[1] "Aggiunti %1$s allegati a <strong>%2$s</strong>"
-#~ msgid "Unattached Media"
-#~ msgstr "Media non allegato"
-#~ msgid "Media|manage media header"
-#~ msgstr "Gestione media|manage posts header"
-#~ msgid ""
-#~ "%1$s%2$s%3$s%4$s%5$s%6$s (<a href=\"%7$s\" class=\"thickbox\">Add New</"
-#~ "a>)|You can reorder these: 1: Posts, 2: by {s}, 3: matching {s}, 4: in "
-#~ "{s}, 5: tagged with {s}, 6: during {s}"
-#~ msgstr ""
-#~ "%1$s%2$s%3$s%4$s%5$s%6$s (<a href=\"%7$s\" class=\"thickbox\">Aggiungi "
-#~ "nuovo</a>)|You can reorder these: 1: Posts, 2: by {s}, 3: matching {s}, "
-#~ "4: in {s}, 5: tagged with {s}, 6: during {s}"
-#~ msgid "Your media has been saved."
-#~ msgstr "Il media è stato salvato."
-#~ msgid "Edit media"
-#~ msgstr "Modifica media"
-#~ msgid "Media updated."
-#~ msgstr "Media aggiornato."
-#~ msgid "Your Profile and Personal Options"
-#~ msgstr "Profilo ed opzioni personali"
-#~ msgid "Search Widgets"
-#~ msgstr "Cerca widget"
-#~ msgid "Media added to this Post"
-#~ msgstr "Media per questo articolo"
-#~ msgid "Visit:"
-#~ msgstr "Visita:"
-#~ msgid "Save and Continue Editing"
-#~ msgstr "Salva e continua"
-#~ msgid "Show Settings"
-#~ msgstr "Visualizza impostazioni"
-#~ msgid "Hide Settings"
-#~ msgstr "Nascondi impostazioni"
-#~ msgid ""
-#~ "To enable it, ensure this web site is not on the denied list in Gears "
-#~ "Settings under the Safari menu, then click the button below."
-#~ msgstr ""
-#~ "Per abilitarlo, assicurarsi che questo sito web non sia presente nella "
-#~ "lista di siti vietati in Gears Settings nel menu di Safari, quindi fare "
-#~ "clic sul pulsante sottostante."
-#~ msgid "Username:"
-#~ msgstr "Nome utente:"
-#~ msgid "Use SSL:"
-#~ msgstr "Utilizza SSL:"
-#~ msgid "WordPress &#8250; Posted"
-#~ msgstr "WordPress &#8250; Pubblicato"
-#~ msgid "Posted !"
-#~ msgstr "Pubblicato!"
-#~ msgid "<a href=\"%s\">Click here</a> to post again."
-#~ msgstr "<a href=\"%s\">Fare clic qui</a> per pubblicare nuovamente."
-#~ msgid "WordPress &#8250; Sidebar"
-#~ msgstr "WordPress &#8250; Barra laterale"
-#~ msgid "Previous %s"
-#~ msgstr "Precedente %s"
-#~ msgid "Latest %s"
-#~ msgstr "Ultimo %s"
-#~ msgid "See&nbsp;All"
-#~ msgstr "Visualizza&nbsp;tutto"
-#~ msgid "Too short"
-#~ msgstr "Troppo breve"
-#~ msgid ""
-#~ "Hint: Use upper and lower case characters, numbers and symbols like !\"?$%"
-#~ "^&amp;( in your password."
-#~ msgstr ""
-#~ "Suggerimento: utilizzare nella propria password caratteri maiuscoli, "
-#~ "minuscoli, numeri e simboli tipo !\"?$%^&(."
-#~ msgid "Bad"
-#~ msgstr "Cattiva"
-#~ msgid "Good"
-#~ msgstr "Buona"
-#~ msgid "Manage Categories"
-#~ msgstr "Gestione categorie"
-#~ msgid "Manage Link Categories"
-#~ msgstr "Gestione categorie link"
-#~ msgid "Write Page"
-#~ msgstr "Scrivi pagina"
-#~ msgid "Manage Pages"
-#~ msgstr "Gestione pagine"
-#~ msgid "Description|media column header"
-#~ msgstr "Descrizione"
-#~ msgid "Location|media column header"
-#~ msgstr "Posizione"
-#~ msgid "Write a New Page"
-#~ msgstr "Scrivi una nuova pagina"
-#~ msgid "%s draft"
-#~ msgid_plural "%s drafts"
-#~ msgstr[0] "%s bozza"
-#~ msgstr[1] "%s bozze"
-#~ msgid "There is <a href=\"%1$s\">%2$s post</a> pending your review."
-#~ msgid_plural ""
-#~ "There are <a href=\"%1$s\">%2$s posts</a> pending your review."
+#~ "Dopo l&#8217;importazione verranno rimosse tutti i tag Bunny&#8217;s "
+#~ "Technorati Tags."
+#~ msgid "Import Tags"
+#~ msgstr "Importa tag"
+#~ msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
+#~ msgstr "Lettura di Bunny&#8217;s Technorati Tags&#8230;"
+#~ msgid "Done! <strong>%s</strong> post with tags were read."
+#~ msgid_plural "Done! <strong>%s</strong> posts with tags were read."
 #~ msgstr[0] ""
-#~ "Inoltre <a href=\"%1$s\">%2$s articolo</a> è in attesa di revisione."
-#~ msgstr[1] ""
-#~ "Inoltre <a href=\"%1$s\">%2$s articoli</a> sono in attesa di revisione."
-#~ msgid "%s category"
-#~ msgid_plural "%s categories"
-#~ msgstr[0] "%s categoria"
-#~ msgstr[1] "%s categorie"
-#~ msgid "%s tag"
-#~ msgid_plural "%s tags"
-#~ msgstr[0] "%s tag"
-#~ msgstr[1] "%s tag"
-#~ msgid "%1$s total"
-#~ msgid_plural "%1$s total"
-#~ msgstr[0] "%1$s"
-#~ msgstr[1] "%1$s"
-#~ msgid "%1$s approved"
-#~ msgid_plural "%1$s approved"
-#~ msgstr[0] "%1$s approvato"
-#~ msgstr[1] "%1$s approvati"
-#~ msgid "%1$s spam"
-#~ msgid_plural "%1$s spam"
-#~ msgstr[0] "%1$s di spam"
-#~ msgstr[1] "%1$s di spam"
-#~ msgid "%1$s awaiting moderation"
-#~ msgid_plural "%1$s awaiting moderation"
-#~ msgstr[0] "%1$s in attesa di moderazione"
-#~ msgstr[1] "%1$s in attesa di moderazione"
-#~ msgid "You have %1$s comment, %2$s, %3$s and %4$s."
-#~ msgid_plural "You have %1$s comments, %2$s, %3$s and %4$s."
-#~ msgstr[0] "Inoltre vi è %1$s commento in totale, di cui %2$s, %3$s e %4$s."
-#~ msgstr[1] ""
-#~ "Inoltre vi sono %1$s commenti in totale, di cui %2$s, %3$s e %4$s."
-#~ msgid "You have %1$s, contained within %2$s and %3$s. %4$s %5$s"
-#~ msgstr "Vi sono %1$s, contenuti in %2$s e %3$s. %4$s %5$s"
-#~ msgid "%d widget"
-#~ msgid_plural "%d widgets"
-#~ msgstr[0] "%d widget"
-#~ msgstr[1] "%d widget"
-#~ msgid "You are using the %1$s theme with %2$s."
-#~ msgstr "Si sta utilizzando il tema %1$s con %2$s."
-#~ msgid "Design"
-#~ msgstr "Design"
-#~ msgid "Users Matching \"%s\""
-#~ msgstr "Utenti corrispondenti a \"%s\""
-#~ msgid "Manage Users"
-#~ msgstr "Gestione utenti"
-#~ msgid "By"
-#~ msgstr "Di"
-#~ msgid "Invalid plugin."
-#~ msgstr "Plugin non valido."
-#~ msgid "Available Plugins"
-#~ msgstr "Plugin disponibili"
+#~ "Fatto! &Egrave; stato letto <strong>%s</strong> articolo con tag."
+#~ msgstr[1] "Fatto! Sono stati letti <strong>%s</strong> articoli con tag."
+#~ msgid "Next"
+#~ msgstr "Successivo"
+#~ msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
+#~ msgstr "Importa i tag di Bunny&#8217;s Technorati Tags in tag WordPress."
+#~ msgid "Import Jerome&#8217;s Keywords"
+#~ msgstr "Importa Jerome&#8217;s Keywords"
 #~ msgid ""
-#~ "Enable remote publishing using the WordPress, Movable Type, MetaWeblog, "
-#~ "Blogger and Atom publishing protocols for my blog."
+#~ "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
 #~ msgstr ""
-#~ "Abilitare la pubblicazione remota per questo blog utilizzando i "
-#~ "protocolli WordPress, Movable Type, MetaWeblog, Blogger e Atom publishing."
-#~ msgid "Convert Tags"
-#~ msgstr "Canverti tag"
-#~ msgid "Category is already a tag."
-#~ msgstr "La categoria è già un tag."
-#~ msgid ""
-#~ "By default WordPress uses <a href=\"http://gravatar.com/\">Gravatars</a> "
-#~ "&#8212; short for Globally Recognized Avatars &#8212; for the pictures "
-#~ "that show up next to comments. Plugins may override this."
+#~ "Salve! Questo importatore, traduce i tag di Jerome&#8217;s Keywords in "
+#~ "tag WordPress."
+#~ msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
 #~ msgstr ""
-#~ "Di base WordPress utilizza <a href=\"http://gravatar.com/\">Gravatars</a> "
-#~ "&#8212; abbreviazione di Globally Recognized Avatars per le immagini che "
-#~ "appaiono accanto ai commenti. I plugins possono modificare questo "
-#~ "comportamento."
-#~ msgid ""
-#~ "Some plugins could not be reactivated because they triggered a "
-#~ "<strong>fatal error</strong>."
+#~ "Questa procedura è adatta per Jerome&#8217;s Keywords versione 1.x e 2.0a."
+#~ msgid "All existing Jerome&#8217;s Keywords will be removed after import."
 #~ msgstr ""
-#~ "Alcuni plugin non possono vernir riattivati perchè hanno generato un "
-#~ "<strong>errore fatale</strong>."
-#~ msgid "Plugins <strong>reactivated</strong>."
-#~ msgstr "Plugin <strong>riattivato</strong>."
-#~ msgid ""
-#~ "Couldn&#8217;t open plugins directory or there are no plugins available."
-#~ msgstr ""
-#~ "Non posso aprire la directory dei plugin o non vi sono plugin disponibili."
-#~ msgid "<span class=\"inactive\">Inactive</span>"
-#~ msgstr "<span class=\"inactive\">Inattivo</span>"
-#~ msgid "Post Revision"
-#~ msgstr "Revisone articolo"
-#~ msgid "Something strange happened.  Try refreshing the page."
-#~ msgstr ""
-#~ "&Egrave; accaduto qualche cosa di strano. Prova a ricaricare la pagina."
-#~ msgid "Slow down, I'm still sending your data!"
-#~ msgstr "Rallenta, sto ancora inviando i tuoi dati!"
-#~ msgid "Active"
-#~ msgstr "Attivo"
-#~ msgid "Inactive"
-#~ msgstr "Inattivo"
-#~ msgid "Long description"
-#~ msgstr "Descrizione estesa"
-#~ msgid "Tags: %l"
-#~ msgstr "Tag: %l"
-#~ msgid "G|rating"
-#~ msgstr "G"
-#~ msgid "PG|Rating"
-#~ msgstr "PG"
-#~ msgid "R|Rating"
-#~ msgstr "R"
-#~ msgid "X|Rating"
-#~ msgstr "X"
-#~ msgid "Crop to size"
-#~ msgstr "Ritaglia alle dimensioni"
-#~ msgid "All plugins <strong>reactivated</strong>."
-#~ msgstr "Tutti i plugin sono stati <strong>riattivati</strong>."
-#~ msgid "Draft (%s)|manage posts header"
-#~ msgstr "Bozze (%s)|manage posts header"
-#~ msgid "ignored %s"
-#~ msgstr "ignorato %s"
+#~ "Dopo l&#8217;importazione verranno rimosse tutte le Jerome&#8217;s "
+#~ "Keywords."
+#~ msgid "Import Version 1.x"
+#~ msgstr "Importa versione 1.x"
+#~ msgid "Import Version 2.0a"
+#~ msgstr "Importa versione 2.0a"
+#~ msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
+#~ msgstr "Lettura dei tag di Jerome&#8217;s Keywords"
+#~ msgid "Import Jerome&#8217;s Keywords into WordPress tags."
+#~ msgstr "Importa i tag di Jerome&#8217;s Keywords in tag WordPress."
 

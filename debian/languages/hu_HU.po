@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Translate WordPress to Hungarian\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-08-12 04:56+0000\n"
+"POT-Creation-Date: 2009-11-12 08:56+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: DjZoNe <djz@djz.hu>\n"
 "Language-Team: Hungarian Translation Team <forditas@word-press.hu>\n"
@@ -149,16 +149,16 @@ msgstr "Automatikus mentés kikapcsolva: %s éppen szerkeszti ezt a bejegyzést.
 #: wp-admin/admin-ajax.php:917
 #: wp-admin/admin-ajax.php:1059
 #: wp-admin/includes/post.php:143
-#: wp-admin/includes/post.php:1125
-#: wp-admin/page.php:113
+#: wp-admin/includes/post.php:1151
+#: wp-admin/page.php:109
 msgid "You are not allowed to edit this page."
 msgstr "Nincs jogosultság az oldal módosításához."
 
 #: wp-admin/admin-ajax.php:920
 #: wp-admin/admin-ajax.php:1062
 #: wp-admin/includes/post.php:146
-#: wp-admin/includes/post.php:1128
-#: wp-admin/post.php:150
+#: wp-admin/includes/post.php:1154
+#: wp-admin/post.php:146
 #: wp-admin/upload.php:41
 msgid "You are not allowed to edit this post."
 msgstr "Nincs jogosultság a bejegyzés módosításához."
@@ -377,7 +377,7 @@ msgstr "Import"
 #: wp-admin/media-upload.php:16
 #: wp-admin/upload.php:15
 #: wp-app.php:630
-#: wp-app.php:813
+#: wp-app.php:822
 msgid "You do not have permission to upload files."
 msgstr "Nincs engedély fájlok feltöltéséhez."
 
@@ -389,7 +389,7 @@ msgstr "Nincs engedély fájlok feltöltéséhez."
 #: wp-admin/includes/template.php:1102
 #: wp-admin/menu.php:46
 #: wp-admin/press-this.php:472
-#: wp-includes/category-template.php:430
+#: wp-includes/category-template.php:432
 #: wp-includes/default-widgets.php:423
 #: wp-includes/default-widgets.php:429
 #: wp-includes/taxonomy.php:18
@@ -711,7 +711,7 @@ msgstr "Nem"
 #: wp-admin/includes/template.php:1066
 #: wp-admin/includes/theme-install.php:158
 #: wp-includes/js/tinymce/langs/wp-langs.php:256
-#: wp-includes/post-template.php:1340
+#: wp-includes/post-template.php:1345
 msgid "Author"
 msgstr "Szerző"
 
@@ -739,7 +739,7 @@ msgstr "URL"
 #: wp-admin/edit-form-advanced.php:475
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:647
+#: wp-includes/comment-template.php:649
 msgctxt "noun"
 msgid "Comment"
 msgstr "Hozzászólás"
@@ -1038,8 +1038,8 @@ msgstr[1] "%s hozzászólás elfogadva"
 #, php-format
 msgid "%s comment deleted"
 msgid_plural "%s comments deleted"
-msgstr[0] "%s hozzászólás törölve"
-msgstr[1] "%s hozzászólás törölve"
+msgstr[0] "%s megjegyzés törölve"
+msgstr[1] "%s megjegyzés törölve"
 
 #: wp-admin/edit-comments.php:127
 #, php-format
@@ -1049,7 +1049,7 @@ msgstr[0] "%s hozzászólás spamnek minősítve"
 msgstr[1] "%s hozzászólás spamnek minősítve"
 
 #: wp-admin/edit-comments.php:144
-#: wp-content/plugins/akismet/akismet.php:737
+#: wp-content/plugins/akismet/akismet.php:753
 msgid "All"
 msgid_plural "All"
 msgstr[0] "Összes"
@@ -1059,8 +1059,8 @@ msgstr[1] "Összes"
 #, php-format
 msgid "Pending (<span class=\"pending-count\">%s</span>)"
 msgid_plural "Pending (<span class=\"pending-count\">%s</span>)"
-msgstr[0] "Függőben (<span class=\"pending-count\">%s</span>)"
-msgstr[1] "Függőben (<span class=\"pending-count\">%s</span>)"
+msgstr[0] "Függőben <span class=\"pending-count\">(%s)</span>"
+msgstr[1] "Függőben <span class=\"pending-count\">(%s)</span>"
 
 #: wp-admin/edit-comments.php:146
 msgid "Approved"
@@ -1072,8 +1072,8 @@ msgstr[1] "Elfogadva"
 #, php-format
 msgid "Spam (<span class=\"spam-count\">%s</span>)"
 msgid_plural "Spam (<span class=\"spam-count\">%s</span>)"
-msgstr[0] "Spam (<span class=\"spam-count\">%s</span>)"
-msgstr[1] "Spam (<span class=\"spam-count\">%s</span>)"
+msgstr[0] "Spam <span class=\"spam-count\">(%s)</span>"
+msgstr[1] "Span <span class=\"spam-count\">(%s)</span>"
 
 #: wp-admin/edit-comments.php:181
 #: wp-admin/edit-comments.php:183
@@ -1123,7 +1123,7 @@ msgstr "Valamennyi hozzászólás megtekintése"
 #: wp-admin/includes/template.php:1166
 #: wp-admin/includes/template.php:3138
 #: wp-admin/includes/template.php:3254
-#: wp-content/plugins/akismet/akismet.php:742
+#: wp-content/plugins/akismet/akismet.php:758
 #: wp-content/themes/classic/comments-popup.php:29
 msgid "Comments"
 msgstr "Hozzászólások"
@@ -1150,14 +1150,14 @@ msgid "No comments awaiting moderation&hellip; yet."
 msgstr "Nincs moderációra várakozó hozzászólás&hellip; még."
 
 #: wp-admin/edit-comments.php:378
-#: wp-content/plugins/akismet/akismet.php:868
+#: wp-content/plugins/akismet/akismet.php:884
 msgid "No results found."
 msgstr "Nincs ilyen adat."
 
 #: wp-admin/edit-form-advanced.php:23
 #, php-format
 msgid "Post updated. <a href=\"%s\">View post</a>"
-msgstr "Bejegyzés módosítva. <a href=\"%s\">Bejegyzés megtekintése</a>"
+msgstr "Bejegyzés frissítve. <a href=\"%s\">Bejegyzés megtekintése</a>"
 
 #: wp-admin/edit-form-advanced.php:24
 #: wp-admin/edit-page-form.php:26
@@ -1349,7 +1349,7 @@ msgstr "Legyen folyamatosan a kezdőoldalon"
 
 #: wp-admin/edit-form-advanced.php:184
 #: wp-admin/edit-page-form.php:175
-#: wp-includes/post-template.php:1142
+#: wp-includes/post-template.php:1147
 msgid "Password:"
 msgstr "Jelszó:"
 
@@ -1588,7 +1588,7 @@ msgstr "Interakció"
 #: wp-content/themes/classic/comments-popup.php:58
 #: wp-content/themes/classic/comments.php:32
 msgid "No comments yet."
-msgstr "Nincs hozzászólás"
+msgstr "Szóljon hozzá elsőként!"
 
 #: wp-admin/edit-form-advanced.php:479
 msgid "Show comments"
@@ -2029,17 +2029,17 @@ msgstr "Ez akkor jeleník meg, amikor valaki egy link fölé megy a blogtáron, 
 #: wp-admin/edit-page-form.php:25
 #, php-format
 msgid "Page updated. <a href=\"%s\">View page</a>"
-msgstr "Oldal frissítve. <a href=\"%s\">Oldal megtekintése</a>"
+msgstr "Oldal módosítva. <a href=\"%s\">Oldal megtekintése</a>"
 
 #: wp-admin/edit-page-form.php:28
 #, php-format
 msgid "Page published. <a href=\"%s\">View page</a>"
-msgstr "Oldal közzétéve. <a href=\"%s\">Oldal megtekintése</a>"
+msgstr "Oldal közzétéve. <a href=\"%s\">megtekintése</a>"
 
 #: wp-admin/edit-page-form.php:29
 #, php-format
 msgid "Page submitted. <a href=\"%s\">Preview page</a>"
-msgstr "Oldal elküldve. <a href=\"%s\">Oldal előnézet</a>"
+msgstr "Oldal elküldve. <a href=\"%s\">Oldal előnézete</a>"
 
 #: wp-admin/edit-page-form.php:32
 #, php-format
@@ -2069,7 +2069,7 @@ msgstr "Oldal frissítése"
 
 #: wp-admin/edit-page-form.php:266
 msgid "Keep this page private"
-msgstr "Legyen magánjellegű ez az oldal."
+msgstr "Legyen magánjellegű"
 
 #: wp-admin/edit-page-form.php:267
 msgid "Page Password"
@@ -2170,7 +2170,7 @@ msgid "Page Revisions"
 msgstr "Oldal korábbi állapotai"
 
 #: wp-admin/edit-pages.php:28
-#: wp-admin/page.php:150
+#: wp-admin/page.php:146
 msgid "You are not allowed to delete this page."
 msgstr "Nincs jogosultság az oldal törléséhez."
 
@@ -2178,10 +2178,10 @@ msgstr "Nincs jogosultság az oldal törléséhez."
 #: wp-admin/edit-pages.php:35
 #: wp-admin/edit.php:40
 #: wp-admin/edit.php:43
-#: wp-admin/page.php:154
-#: wp-admin/page.php:157
-#: wp-admin/post.php:195
-#: wp-admin/post.php:198
+#: wp-admin/page.php:150
+#: wp-admin/page.php:153
+#: wp-admin/post.php:191
+#: wp-admin/post.php:194
 #: wp-admin/upload.php:83
 msgid "Error in deleting..."
 msgstr "Hiba törlés közben..."
@@ -2283,7 +2283,7 @@ msgstr[1] "Magán <span class=\"count\">(%s)</span>"
 #: wp-admin/menu.php:59
 #: wp-includes/default-widgets.php:19
 #: wp-includes/default-widgets.php:25
-#: wp-includes/post-template.php:741
+#: wp-includes/post-template.php:746
 msgid "Pages"
 msgstr "Oldalak"
 
@@ -2312,7 +2312,7 @@ msgstr[1] " %s oldal nem lett frissítve, mert valaki éppen szerkeszti."
 #, php-format
 msgid "Page deleted."
 msgid_plural "%s pages deleted."
-msgstr[0] "Oldal törölve."
+msgstr[0] "%s oldal törölve."
 msgstr[1] "%s oldal törölve."
 
 #: wp-admin/edit-pages.php:144
@@ -2440,7 +2440,7 @@ msgid "Add Tag"
 msgstr "Címke hozzáadás"
 
 #: wp-admin/edit.php:36
-#: wp-admin/post.php:191
+#: wp-admin/post.php:187
 #: wp-admin/upload.php:79
 msgid "You are not allowed to delete this post."
 msgstr "Nincs jogosultság a bejegyzés törléséhez."
@@ -2484,7 +2484,7 @@ msgstr[1] " %s bejegyzés nem lett frissítve, mert valaki éppen szerkeszti."
 #, php-format
 msgid "Post deleted."
 msgid_plural "%s posts deleted."
-msgstr[0] "Bejegyzés törölve."
+msgstr[0] "%s bejegyzés törölve."
 msgstr[1] "%s bejegyzés törölve."
 
 #: wp-admin/edit.php:147
@@ -2802,81 +2802,16 @@ msgstr "Blogware"
 msgid "Import posts from Blogware."
 msgstr "Bejegyzések importálása Blogware blogból"
 
-#: wp-admin/import/btt.php:22
-msgid "Import Bunny&#8217;s Technorati Tags"
-msgstr "Bunny&#8217;s Technorati Tags importálás"
+#: wp-admin/import/dotclear.php:96
+msgid "Import DotClear"
+msgstr "Dotclear import"
 
-#: wp-admin/import/btt.php:23
 #: wp-admin/import/dotclear.php:97
-#: wp-admin/import/jkw.php:22
 #: wp-admin/import/stp.php:21
 #: wp-admin/import/textpattern.php:57
 #: wp-admin/import/utw.php:22
 msgid "Steps may take a few minutes depending on the size of your database. Please be patient."
 msgstr "Az adatbázis méretétől függően ez pár percig is eltarthat - köszönjük a türelmet!"
-
-#: wp-admin/import/btt.php:32
-msgid "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into WordPress tags."
-msgstr "Bunny&#8217;s Technorati Tags címkék importálása a WordPress saját címkegyűjteményébe."
-
-#: wp-admin/import/btt.php:33
-msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
-msgstr "Ez a Bunny&#8217;s Technorati Tags 0.6-os verziójával kompatibilis."
-
-#: wp-admin/import/btt.php:34
-msgid "All existing Bunny&#8217;s Technorati Tags will be removed after import."
-msgstr "Az import után törlődnek a Bunny&#8217;s Technorati Tags címkéi."
-
-#: wp-admin/import/btt.php:35
-#: wp-admin/import/jkw.php:34
-#: wp-admin/import/stp.php:33
-#: wp-admin/import/utw.php:34
-msgid "Don&#8217;t be stupid - backup your database before proceeding!"
-msgstr "Semmi kockáztatás! - az adatbázis mentése az indítás előtt KÖTELEZŐ!"
-
-#: wp-admin/import/btt.php:38
-msgid "Import Tags"
-msgstr "Címkék importálása"
-
-#: wp-admin/import/btt.php:77
-msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
-msgstr "Bunny&#8217;s Technorati Tags olvasása&#8230;"
-
-#: wp-admin/import/btt.php:82
-#: wp-admin/import/jkw.php:97
-#: wp-admin/import/jkw.php:138
-#: wp-admin/import/utw.php:86
-msgid "No Tags Found!"
-msgstr "Nincsenek címkék!"
-
-#: wp-admin/import/btt.php:86
-#: wp-admin/import/jkw.php:101
-#, php-format
-msgid "Done! <strong>%s</strong> post with tags were read."
-msgid_plural "Done! <strong>%s</strong> posts with tags were read."
-msgstr[0] "Kész! <strong>%s</strong> bejegyzés feldolgozva."
-msgstr[1] "Kész! <strong>%s</strong> bejegyzés feldolgozva."
-
-#: wp-admin/import/btt.php:108
-#: wp-admin/import/jkw.php:123
-#: wp-admin/import/jkw.php:156
-msgid "Next"
-msgstr "Következő bejegyzés"
-
-#: wp-admin/import/btt.php:115
-#: wp-admin/import/jkw.php:177
-#: wp-admin/import/stp.php:154
-#: wp-admin/import/utw.php:264
-msgid "Import Complete!"
-msgstr "Importálás kész!"
-
-#: wp-admin/import/btt.php:128
-msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
-msgstr "Bunny&#8217;s Technorati Tags importálás a WordPress címkékbe"
-
-#: wp-admin/import/dotclear.php:96
-msgid "Import DotClear"
-msgstr "Dotclear import"
 
 #: wp-admin/import/dotclear.php:107
 msgid "Howdy! This importer allows you to extract posts from a DotClear database into your blog.  Mileage may vary."
@@ -3236,47 +3171,6 @@ msgstr "Greymatter"
 msgid "Import users, posts, and comments from a Greymatter blog."
 msgstr "Bejegyzések, hozzászólások és felhasználók importálása Greymatter blogból"
 
-#: wp-admin/import/jkw.php:21
-msgid "Import Jerome&#8217;s Keywords"
-msgstr "Jerome&#8217;s Keywords importálása"
-
-#: wp-admin/import/jkw.php:31
-msgid "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
-msgstr "Jerome&#8217;s Keywords címkék importálása"
-
-#: wp-admin/import/jkw.php:32
-msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
-msgstr "Ez a Jerome&#8217;s Keywords 1.x és 2.0a verziójával kompatibilis."
-
-#: wp-admin/import/jkw.php:33
-msgid "All existing Jerome&#8217;s Keywords will be removed after import."
-msgstr "Az import után törlődnek a Jerome&#8217;s Keywords címkéi."
-
-#: wp-admin/import/jkw.php:37
-msgid "Import Version 1.x"
-msgstr "v 1.x importálása"
-
-#: wp-admin/import/jkw.php:41
-msgid "Import Version 2.0a"
-msgstr "v2.0a importálása"
-
-#: wp-admin/import/jkw.php:92
-#: wp-admin/import/jkw.php:132
-msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
-msgstr "Jerome&#8217;s Keywords Tags olvasás&#8230;"
-
-#: wp-admin/import/jkw.php:142
-#: wp-admin/import/utw.php:101
-#, php-format
-msgid "Done! <strong>%s</strong> tag were read."
-msgid_plural "Done! <strong>%s</strong> tags were read."
-msgstr[0] "Kész! <strong>%s</strong> címke feldolgozva."
-msgstr[1] "Kész! <strong>%s</strong> címke feldolgozva."
-
-#: wp-admin/import/jkw.php:190
-msgid "Import Jerome&#8217;s Keywords into WordPress tags."
-msgstr "Jerome&#8217;s Keywords címkék importálva"
-
 #: wp-admin/import/livejournal.php:171
 msgid "Import LiveJournal"
 msgstr "LiveJournal import"
@@ -3512,7 +3406,7 @@ msgstr "Movable Type és Typepad import"
 
 #: wp-admin/import/mt.php:39
 msgid "Howdy! We&#8217;re about to begin importing all of your Movable Type or Typepad entries into WordPress. To begin, either choose a file to upload and click &#8220;Upload file and import&#8221;, or use FTP to upload your MT export file as <code>mt-export.txt</code> in your <code>/wp-content/</code> directory and then click \"Import mt-export.txt\""
-msgstr "Movable Type, vagy TypePad bejegyzések importálásához ki kell választani és fel kell tölteni a fájlt, vagy ftp-n feltölteni a MovableType export fájlt <code>mt-export.txt</code> néven a blog <code>/wp-content/</code> könyvtárába, majd klikk az \"Import mt-export.txt\"-re!"
+msgstr "Üdvözlet! Készen állunk arra, hogy valamennyi Movable Type, vagy TypePad bejegyzést importáljuk a Wordpress-be. A kezdéshez ki kell választani a feltöltendő fájlt és kattintani kell a click &#8220;Fájl feltöltése és importálása&#8221; feliratra, vagy az FTP használatával fel kell tölteni az  MT export fájlt, mint  <code>mt-export.txt</code> a honlap <code>/wp-content/</code> könyvtárába aztán az \" mt-export.txt importálás\"ra kattintani."
 
 #: wp-admin/import/mt.php:47
 msgid "Or use <code>mt-export.txt</code> in your <code>/wp-content/</code> directory"
@@ -3565,7 +3459,7 @@ msgstr "%1$s felhasználó létrehozása, vagy létezőhöz rendelése"
 #: wp-admin/import/mt.php:215
 #: wp-admin/import/wordpress.php:236
 #: wp-admin/includes/dashboard.php:135
-#: wp-includes/post-template.php:1142
+#: wp-includes/post-template.php:1147
 msgid "Submit"
 msgstr "Küldés"
 
@@ -3603,7 +3497,7 @@ msgstr "Movable Type és Typepad"
 
 #: wp-admin/import/mt.php:513
 msgid "Import posts and comments from a Movable Type or Typepad blog."
-msgstr "Bejegyzések és hozzászólások importálása Movable Type, vagy Typepad blogból"
+msgstr "Bejegyzések és hozzászólások importálása Movable Type, vagy Typepad blogból."
 
 #: wp-admin/import/opml.php:14
 msgid "Import Blogroll"
@@ -3705,6 +3599,11 @@ msgstr "Ez nincs tesztelve a Simple Tagging más verzióira. A verziók különb
 msgid "To accommodate larger databases for those tag-crazy authors out there, we have made this into an easy 4-step program to help you kick that nasty Simple Tagging habit. Just keep clicking along and we will let you know when you are in the clear!"
 msgstr "Alkalmazkodva a nagyobb címke adatbázisokhoz, létrehoztuk ezt a 4 lépésből álló kis programot. Csak klikk tovább, és értesítés fog érkezni, ha minden a helyére került."
 
+#: wp-admin/import/stp.php:33
+#: wp-admin/import/utw.php:34
+msgid "Don&#8217;t be stupid - backup your database before proceeding!"
+msgstr "Semmi kockáztatás! - az adatbázis mentése az indítás előtt KÖTELEZŐ!"
+
 #: wp-admin/import/stp.php:36
 #: wp-admin/import/utw.php:36
 msgid "Step 1"
@@ -3748,6 +3647,11 @@ msgstr[1] "Kész! <strong>%s</strong> címke hozzáadva."
 #: wp-admin/import/utw.php:159
 msgid "Step 3"
 msgstr "3. lépés"
+
+#: wp-admin/import/stp.php:154
+#: wp-admin/import/utw.php:264
+msgid "Import Complete!"
+msgstr "Importálás kész!"
 
 #: wp-admin/import/stp.php:155
 msgid "OK, so we lied about this being a 4-step program! You&#8217;re done!"
@@ -3845,6 +3749,17 @@ msgstr "Alkalmazkodva a nagyobb címke adatbázisokhoz, létrehoztuk ezt az 5 l�
 #: wp-admin/import/utw.php:80
 msgid "Reading UTW Tags&#8230;"
 msgstr "UTW Tags olvasása&#8230;"
+
+#: wp-admin/import/utw.php:86
+msgid "No Tags Found!"
+msgstr "Nincsenek címkék!"
+
+#: wp-admin/import/utw.php:101
+#, php-format
+msgid "Done! <strong>%s</strong> tag were read."
+msgid_plural "Done! <strong>%s</strong> tags were read."
+msgstr[0] "Kész! <strong>%s</strong> címke feldolgozva."
+msgstr[1] "Kész! <strong>%s</strong> címke feldolgozva."
 
 #: wp-admin/import/utw.php:102
 msgid "The following tags were found:"
@@ -3965,7 +3880,7 @@ msgstr "Távoli fájl túl nagy, a maximális fájlméret %s"
 
 #: wp-admin/import/wordpress.php:756
 msgid "Sorry, there has been an error."
-msgstr "Bocsánat, de valami hiba történt."
+msgstr "Elnézést, de valami hiba történt."
 
 #: wp-admin/import/wordpress.php:805
 msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
@@ -4277,7 +4192,7 @@ msgstr "Nem áll rendelékezésre frissítési csomag."
 #: wp-admin/includes/class-wp-upgrader.php:664
 #, php-format
 msgid "Downloading update from <span class=\"code\">%s</span>."
-msgstr "Frissítés letöltése innen: <span class=\"count\">(%s)</span>"
+msgstr "Frissítés letöltése innen: <span class=\"code\">(%s)</span>"
 
 #: wp-admin/includes/class-wp-upgrader.php:352
 #: wp-admin/includes/class-wp-upgrader.php:508
@@ -4416,7 +4331,7 @@ msgstr "Sikeres bővítmény-telepítés: <strong>%s %s</strong>."
 
 #: wp-admin/includes/class-wp-upgrader.php:884
 msgid "Return to Plugin Installer"
-msgstr "Vissza a sablon telepítőhöz"
+msgstr "Vissza a bővítmény-telepítőhöz"
 
 #. translators: 1: theme name, 2: version
 #: wp-admin/includes/class-wp-upgrader.php:928
@@ -4591,7 +4506,7 @@ msgstr[0] "Címke"
 msgstr[1] "Címke"
 
 #: wp-admin/includes/dashboard.php:306
-#: wp-content/plugins/akismet/akismet.php:893
+#: wp-content/plugins/akismet/akismet.php:909
 msgid "Spam"
 msgid_plural "Spam"
 msgstr[0] "Spam"
@@ -4682,7 +4597,7 @@ msgstr "Válasz ehhez a hozzászóláshoz"
 
 #: wp-admin/includes/dashboard.php:543
 #: wp-admin/includes/template.php:2156
-#: wp-includes/comment-template.php:1000
+#: wp-includes/comment-template.php:1002
 msgid "Reply"
 msgstr "Válasz"
 
@@ -4710,14 +4625,14 @@ msgstr "[Függőben]"
 #: wp-admin/includes/dashboard.php:576
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:649
+#: wp-includes/comment-template.php:651
 msgid "Pingback"
 msgstr "Visszajelzés"
 
 #: wp-admin/includes/dashboard.php:579
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-#: wp-includes/comment-template.php:648
+#: wp-includes/comment-template.php:650
 msgid "Trackback"
 msgstr "Visszakövetés"
 
@@ -4756,8 +4671,7 @@ msgstr "A vezérlőpult ezen widget-je a <a href=\"http://blogsearch.google.com/
 
 #: wp-admin/includes/dashboard.php:653
 #: wp-admin/includes/dashboard.php:655
-#: wp-admin/page.php:102
-#: wp-admin/post.php:137
+#: wp-admin/includes/post.php:1071
 msgid "Somebody"
 msgstr "Valaki"
 
@@ -4911,15 +4825,15 @@ msgstr "Felugróablakos hozzászólások sablon"
 
 #: wp-admin/includes/file.php:198
 msgid "Sorry, can&#8217;t edit files with &#8220;..&#8221; in the name. If you are trying to edit a file in your WordPress home directory, you can just type the name of the file in."
-msgstr "Bocsánat, de nem szerkeszthető olyan fájl, aminek a nevében &#8220;..&#8221; szerepel. Ha olyan fájlt kellene módosítani, ami a WordPress főkönyvtárában van, akkor csak az állomány nevét kell beírni."
+msgstr "Elnézést, de nem szerkeszthető olyan fájl, aminek a nevében &#8220;..&#8221; szerepel. Ha olyan fájlt kellene módosítani, ami a WordPress főkönyvtárában van, akkor csak az állomány nevét kell beírni."
 
 #: wp-admin/includes/file.php:201
 msgid "Sorry, can&#8217;t call files with their real path."
-msgstr "Bocsánat, de nem lehet a fájlok valódi útvonalára hivatkozni."
+msgstr "Elnézést, de nem lehet a fájlok valódi útvonalára hivatkozni."
 
 #: wp-admin/includes/file.php:204
 msgid "Sorry, that file cannot be edited."
-msgstr "Bocsánat, a fájl nem szerkeszthető."
+msgstr "Elnézést, a fájl nem szerkeszthető."
 
 #: wp-admin/includes/file.php:236
 #: wp-admin/includes/file.php:344
@@ -5025,7 +4939,7 @@ msgstr "Szervernév"
 
 #: wp-admin/includes/file.php:755
 #: wp-admin/includes/template.php:898
-#: wp-admin/install.php:129
+#: wp-admin/install.php:135
 #: wp-admin/user-edit.php:187
 #: wp-admin/user-new.php:96
 #: wp-login.php:413
@@ -5035,7 +4949,7 @@ msgstr "Felhasználónév"
 
 #: wp-admin/includes/file.php:760
 #: wp-admin/includes/template.php:1079
-#: wp-admin/install.php:133
+#: wp-admin/install.php:139
 #: wp-admin/options-writing.php:100
 #: wp-admin/user-new.php:119
 #: wp-login.php:511
@@ -5477,7 +5391,7 @@ msgstr "Videó URL"
 
 #: wp-admin/includes/media.php:1997
 msgid "Link text, e.g. &#8220;Lucy on YouTube&#8220;"
-msgstr "Hivatkozás szövege, pl. \"Kiss Ádám YouTube-on\""
+msgstr "Hivatkozás szövege, pl.&#8220;adótippek a You Tube-on#8221;"
 
 #: wp-admin/includes/media.php:2032
 msgid "Link text, e.g. &#8220;Ransom Demands (PDF)&#8221;"
@@ -5515,7 +5429,7 @@ msgstr "A bővítmények kibővítik és kiterjesztik a WordPress működését.
 #: wp-admin/includes/theme-install.php:162
 #: wp-admin/plugin-install.php:24
 #: wp-admin/theme-install.php:29
-#: wp-content/plugins/akismet/akismet.php:704
+#: wp-content/plugins/akismet/akismet.php:720
 #: wp-content/themes/classic/sidebar.php:21
 #: wp-includes/default-widgets.php:176
 #: wp-includes/general-template.php:127
@@ -5589,7 +5503,7 @@ msgstr "Verzió"
 
 #: wp-admin/includes/plugin-install.php:305
 #: wp-admin/includes/plugin-install.php:315
-#: wp-includes/post-template.php:1341
+#: wp-includes/post-template.php:1346
 msgid "Actions"
 msgstr "Műveletek"
 
@@ -5923,7 +5837,7 @@ msgstr[0] "Videó <span class=\"count\">(%s)</span>"
 msgstr[1] "Videó <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:976
-#: wp-content/plugins/akismet/akismet.php:822
+#: wp-content/plugins/akismet/akismet.php:838
 msgid "View Post"
 msgstr "Bejegyzés megtekintése"
 
@@ -5944,7 +5858,22 @@ msgstr "Közvetlen linkek csere"
 msgid "Click to edit this part of the permalink"
 msgstr "Kattintás ide a közvetlen link ezen részének szerkesztéséhez"
 
-#: wp-admin/includes/post.php:1109
+#: wp-admin/includes/post.php:1075
+#, php-format
+msgid "Warning: %s is currently editing this post"
+msgstr "Figyelmeztetés: %s éppen ezt a bejegyzést szerkeszti"
+
+#: wp-admin/includes/post.php:1078
+#, php-format
+msgid "Warning: %s is currently editing this page"
+msgstr "Figyelmezetés: %s éppen szerkeszti ezt az oldalt"
+
+#: wp-admin/includes/post.php:1081
+#, php-format
+msgid "Warning: %s is currently editing this."
+msgstr "Figyelmezetés: %s éppen szerkeszti ezt a bejegyzés!"
+
+#: wp-admin/includes/post.php:1135
 msgid "Preview not available. Please save as a draft first."
 msgstr "Az előnézet nem érhető el. Először vázlatként kell menteni."
 
@@ -6796,19 +6725,19 @@ msgstr "Nem sikerült megtalálni a WordPress sablon könyvtárát."
 msgid "Could not fully remove the theme %s"
 msgstr "%s sablon eltávolítása nem történt meg teljesen"
 
-#: wp-admin/includes/update-core.php:213
+#: wp-admin/includes/update-core.php:215
 msgid "Verifying the unpacked files"
 msgstr "Kicsomagolt fájlok ellenőrzése..."
 
-#: wp-admin/includes/update-core.php:217
+#: wp-admin/includes/update-core.php:219
 msgid "The update could not be unpacked"
 msgstr "A frissítést nem lehet kicsomagolni"
 
-#: wp-admin/includes/update-core.php:220
+#: wp-admin/includes/update-core.php:222
 msgid "Installing the latest version"
 msgstr "Legfrissebb verzió telepítése..."
 
-#: wp-admin/includes/update-core.php:245
+#: wp-admin/includes/update-core.php:247
 msgid "Upgrading database"
 msgstr "Adatbázis frissítése..."
 
@@ -7056,79 +6985,79 @@ msgstr "Vezérlőpult"
 msgid "WordPress &rsaquo; Installation"
 msgstr "WordPress &rsaquo; telepítés"
 
-#: wp-admin/install.php:54
+#: wp-admin/install.php:60
 #, php-format
 msgid "<strong>ERROR</strong>: %s"
 msgstr "<strong>HIBA</strong>: %s"
 
-#: wp-admin/install.php:59
+#: wp-admin/install.php:65
 #: wp-admin/options-general.php:65
 #: xmlrpc.php:404
 msgid "Blog Title"
 msgstr "A honlap címe"
 
-#: wp-admin/install.php:63
+#: wp-admin/install.php:69
 msgid "Your E-mail"
 msgstr "E-mail cím"
 
-#: wp-admin/install.php:65
+#: wp-admin/install.php:71
 msgid "Double-check your email address before continuing."
 msgstr "Mielőtt folytatnánk, figyelmesen ellenőrizni kell mégegyszer az e-mail címet!"
 
-#: wp-admin/install.php:68
+#: wp-admin/install.php:74
 msgid "Allow my blog to appear in search engines like Google and Technorati."
 msgstr "Engedélyezem, hogy a honlap megjelenjen az olyan keresőkben, mint amilyen pl. a Google, vagy a Technorati."
 
-#: wp-admin/install.php:71
+#: wp-admin/install.php:77
 msgid "Install WordPress"
 msgstr "WordPress telepítése"
 
-#: wp-admin/install.php:77
+#: wp-admin/install.php:83
 msgid "Already Installed"
 msgstr "Már telepítve van"
 
-#: wp-admin/install.php:77
+#: wp-admin/install.php:83
 msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
 msgstr "Úgy tűnik, a WordPress már telepítve van. Új telepítéshez először törölni kell a táblákat a régi adatbázisból."
 
-#: wp-admin/install.php:84
+#: wp-admin/install.php:90
 msgid "Welcome"
 msgstr "Telepítés"
 
-#: wp-admin/install.php:85
+#: wp-admin/install.php:91
 #, php-format
 msgid "Welcome to the famous five minute WordPress installation process! You may want to browse the <a href=\"%s\">ReadMe documentation</a> at your leisure.  Otherwise, just fill in the information below and you&#8217;ll be on your way to using the most extendable and powerful personal publishing platform in the world."
 msgstr "Üdvözlet! Ez itt a WordPress híres, 5-perces telepítőprogramja! Érdemes átolvasni az ilyenkor szokásos <a href=\"%s\">ReadMe oldalt</a>, de akár bele is vághatunk rögtön a telepítésbe. Egyébként, csak ki kell tölteni alul az információt, és lehetővé válik a világ legrugalmasabb és legjelentősebb személyes közzétételi platformjának használata."
 
-#: wp-admin/install.php:86
+#: wp-admin/install.php:92
 msgid "First Step"
 msgstr "1. lépés"
 
-#: wp-admin/install.php:88
+#: wp-admin/install.php:94
 msgid "Information needed"
 msgstr "Alapadatok"
 
-#: wp-admin/install.php:89
+#: wp-admin/install.php:95
 msgid "Please provide the following information.  Don&#8217;t worry, you can always change these settings later."
 msgstr "Meg kell adni a következő információkat! Nem kell aggódni, ezek később bármikor megváltoztathatóak."
 
-#: wp-admin/install.php:109
+#: wp-admin/install.php:115
 msgid "you must provide an e-mail address."
 msgstr "meg kell adni egy e-mail címet."
 
-#: wp-admin/install.php:113
+#: wp-admin/install.php:119
 msgid "that isn&#8217;t a valid e-mail address.  E-mail addresses look like: <code>username@example.com</code>"
 msgstr "<strong>HIBA</strong>: hibás e-mail cím. A címnek valahogy így kell kinéznie: <code>felhasználó@domain.hu</code>"
 
-#: wp-admin/install.php:123
+#: wp-admin/install.php:129
 msgid "Success!"
 msgstr "Sikerült!"
 
-#: wp-admin/install.php:125
+#: wp-admin/install.php:131
 msgid "WordPress has been installed. Were you expecting more steps? Sorry to disappoint."
-msgstr "Wordpress telepítve. Bocsánatot kérünk attól, akinek csalódást okoztunk azzal, hogy további lépésekre számított :) :)"
+msgstr "Wordpress telepítve. Elnézéstot kérünk attól, akinek csalódást okoztunk azzal, hogy további lépésekre számított :) :)"
 
-#: wp-admin/install.php:141
+#: wp-admin/install.php:147
 #: wp-login.php:498
 #: wp-login.php:517
 msgid "Log In"
@@ -7425,7 +7354,7 @@ msgstr "első"
 #: wp-admin/options-discussion.php:89
 #, php-format
 msgid "Break comments into pages with %1$s comments per page and the %2$s page displayed by default"
-msgstr "Hozzászólások oldalakra bontása, úgy hogy %1$s hozzászólás kerül egy oldalra és %2$s oldal jelenik meg egyszerre"
+msgstr "Hozzászólások tördelése, úgy hogy %1$s hozzászólás látszik oldalanként, és %2$s oldal látszik alapból"
 
 #: wp-admin/options-discussion.php:97
 msgid "older"
@@ -7624,7 +7553,7 @@ msgid "Timezone"
 msgstr "Időzóna"
 
 #: wp-admin/options-general.php:126
-#: wp-includes/functions.php:3303
+#: wp-includes/functions.php:3319
 #, php-format
 msgid "UTC %s"
 msgstr "UTC %s"
@@ -7881,7 +7810,7 @@ msgstr "A blog láthatósága"
 
 #: wp-admin/options-privacy.php:33
 msgid "I would like my blog to be visible to everyone, including search engines (like Google, Sphere, Technorati) and archivers"
-msgstr "A blogom látható mindenki számára (keresőrobotoknak is, pl. Google, Technorati)"
+msgstr "Szeretném a honlapot mindenki számára elérhetővé tenni, beleértve a keresőket (Google, Sphere, Technorati, stb.) és archiválókat is."
 
 #: wp-admin/options-privacy.php:35
 msgid "I would like to block search engines, but allow normal visitors"
@@ -8069,11 +7998,6 @@ msgstr "Oldal szerkesztése"
 #: wp-admin/page.php:85
 msgid "You attempted to edit a page that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "Egy olyan oldalt lett szerkesztésre kiválasztva, amely nem létezik. Talán valaki törölte?"
-
-#: wp-admin/page.php:103
-#, php-format
-msgid "Warning: %s is currently editing this page"
-msgstr "Figyelmezetés: %s éppen szerkeszti ezt az oldalt"
 
 #: wp-admin/plugin-editor.php:12
 msgid "Edit Plugins"
@@ -8382,12 +8306,7 @@ msgstr ""
 msgid "You attempted to edit a post that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "Nem létező bejegyzés módosítása nem igazán lehetséges. Talán valaki törölte?"
 
-#: wp-admin/post.php:138
-#, php-format
-msgid "Warning: %s is currently editing this post"
-msgstr "Figyelmeztetés: %s éppen ezt a bejegyzést szerkeszti"
-
-#: wp-admin/post.php:147
+#: wp-admin/post.php:143
 msgid "Edit Post"
 msgstr "Bejegyzés szerkesztése"
 
@@ -8453,14 +8372,14 @@ msgid "Embed a Video"
 msgstr "Videó beillesztése"
 
 #: wp-admin/press-this.php:542
-#: wp-includes/general-template.php:1661
-#: wp-includes/general-template.php:1666
+#: wp-includes/general-template.php:1662
+#: wp-includes/general-template.php:1667
 msgid "HTML"
 msgstr "HTML"
 
 #: wp-admin/press-this.php:543
-#: wp-includes/general-template.php:1662
-#: wp-includes/general-template.php:1667
+#: wp-includes/general-template.php:1663
+#: wp-includes/general-template.php:1668
 msgid "Visual"
 msgstr "Vizuális"
 
@@ -8497,7 +8416,7 @@ msgid "Post published."
 msgstr "Bejegyzés közzétéve"
 
 #: wp-admin/sidebar.php:103
-#: wp-content/plugins/akismet/akismet.php:1074
+#: wp-content/plugins/akismet/akismet.php:1090
 #: wp-includes/default-widgets.php:67
 #: wp-includes/default-widgets.php:197
 #: wp-includes/default-widgets.php:263
@@ -9398,7 +9317,7 @@ msgid "&larr; Back to All Users"
 msgstr "&laquo; Vissza a Felhasználókhoz"
 
 #: wp-admin/widgets.php:23
-#: wp-includes/functions.php:2740
+#: wp-includes/functions.php:2756
 msgid "Widgets"
 msgstr "Widgetek"
 
@@ -9468,47 +9387,47 @@ msgstr "Az AtomPub szolgáltatások ki vannak kapcsolva ezen a blogon. Egy admin
 #: wp-app.php:353
 #: wp-app.php:393
 msgid "Sorry, you do not have the right to access this blog."
-msgstr "Bocsánat, de ehhez a bloghoz nincs hozzáférési jogosultság."
+msgstr "Elnézést, de ehhez a bloghoz nincs hozzáférési jogosultság."
 
 #: wp-app.php:448
 msgid "Sorry, you do not have the right to edit/publish new posts."
-msgstr "Bocsánat, de nincs jogosultság új bejegyzés írásához/közzétételéhez."
+msgstr "Elnézést, de nincs jogosultság új bejegyzés írásához/közzétételéhez."
 
 #: wp-app.php:473
 #: wp-app.php:671
-#: wp-app.php:853
-#: xmlrpc.php:1877
-#: xmlrpc.php:2215
+#: wp-app.php:862
+#: xmlrpc.php:1890
+#: xmlrpc.php:2228
 msgid "Sorry, your entry could not be posted. Something wrong happened."
-msgstr "Bocsánat, a bejegyzés nem került közzétételre. Valami hiba történt."
+msgstr "Elnézést, a bejegyzés nem került közzétételre. Valami hiba történt."
 
 #: wp-app.php:500
 msgid "Sorry, you do not have the right to access this post."
-msgstr "Bocsánat, de ehhez a bejegyzéshez nincs hozzáférési jogosultság."
+msgstr "Elnézést, de ehhez a bejegyzéshez nincs hozzáférési jogosultság."
 
 #: wp-app.php:535
 #: wp-app.php:703
 #: wp-app.php:779
-#: wp-app.php:821
-#: xmlrpc.php:1919
+#: wp-app.php:830
+#: xmlrpc.php:1932
 msgid "Sorry, you do not have the right to edit this post."
-msgstr "Bocsánat, de nincs jogosultság módosítani a bejegyzést."
+msgstr "Elnézést, de nincs jogosultság módosítani a bejegyzést."
 
 #: wp-app.php:558
 #: wp-app.php:719
-#: xmlrpc.php:1935
+#: xmlrpc.php:1948
 msgid "For some strange yet very annoying reason, this post could not be edited."
 msgstr "Valami furcsa, és nagyon idegesítő hiba miatt a bejegyzés nem módosítható."
 
 #: wp-app.php:581
 #: wp-app.php:741
-#: xmlrpc.php:1971
+#: xmlrpc.php:1984
 msgid "Sorry, you do not have the right to delete this post."
-msgstr "Bocsánat, de nincs jogosultság törölni a bejegyzést."
+msgstr "Elnézést, de nincs jogosultság törölni a bejegyzést."
 
 #: wp-app.php:590
 #: wp-app.php:757
-#: xmlrpc.php:1976
+#: xmlrpc.php:1989
 msgid "For some strange yet very annoying reason, this post could not be deleted."
 msgstr "Valami furcsa, és nagyon idegesítő hiba miatt a bejegyzés nem törölhető."
 
@@ -9517,18 +9436,18 @@ msgid "Sorry, you do not have permission to upload files."
 msgstr "Nincs jogosultság a fájlok feltöltéséhez."
 
 #: wp-app.php:748
-#: wp-app.php:786
-#: wp-app.php:831
+#: wp-app.php:787
+#: wp-app.php:840
 msgid "Error ocurred while accessing post metadata for file location."
 msgstr "Hiba történt a bejegyzés metaadatainak olvasása közben."
 
 #: wp-comments-post.php:29
 msgid "Sorry, comments are closed for this item."
-msgstr "Bocsánat, de ehhez a bejegyzéshez nem tehető hozzászólás."
+msgstr "Elnézést, de ehhez a bejegyzéshez nem tehető hozzászólás."
 
 #: wp-comments-post.php:58
 msgid "Sorry, you must be logged in to post a comment."
-msgstr "Bocsánat, de hozzászólás írásához bejelentkezés szükséges."
+msgstr "Elnézést, de hozzászólás írásához bejelentkezés szükséges."
 
 #: wp-comments-post.php:65
 msgid "Error: please fill the required fields (name, email)."
@@ -9687,164 +9606,164 @@ msgstr "Hálózat állapotának ellenőrzése &raquo;"
 msgid "Akismet Stats"
 msgstr "Akismet statisztikák"
 
-#: wp-content/plugins/akismet/akismet.php:327
+#: wp-content/plugins/akismet/akismet.php:331
 msgid "Akismet is almost ready."
 msgstr "Az Akismet majdnem kész."
 
-#: wp-content/plugins/akismet/akismet.php:327
+#: wp-content/plugins/akismet/akismet.php:331
 #, php-format
 msgid "You must <a href=\"%1$s\">enter your WordPress.com API key</a> for it to work."
 msgstr "A működéshez <a href=\"%1$s\">meg kell adni a WordPress.com API kulcsot</a>!"
 
-#: wp-content/plugins/akismet/akismet.php:335
+#: wp-content/plugins/akismet/akismet.php:339
 msgid "Akismet has detected a problem."
 msgstr "Az Akismet szolgáltatás hibát észlelt."
 
-#: wp-content/plugins/akismet/akismet.php:335
+#: wp-content/plugins/akismet/akismet.php:339
 #, php-format
 msgid "A server or network problem is preventing Akismet from working correctly.  <a href=\"%1$s\">Click here for more information</a> about how to fix the problem."
 msgstr "Kiszolgáló, vagy hálózati probléma miatt az Akismet nem működik helyesen. <a href=\"%1$s\">További információk</a> a hiba javításáról."
 
-#: wp-content/plugins/akismet/akismet.php:579
+#: wp-content/plugins/akismet/akismet.php:595
 #, php-format
 msgid "Akismet Spam (%s)"
 msgstr "Akismet spam (%s)"
 
-#: wp-content/plugins/akismet/akismet.php:581
-#: wp-content/plugins/akismet/akismet.php:583
+#: wp-content/plugins/akismet/akismet.php:597
+#: wp-content/plugins/akismet/akismet.php:599
 msgid "Akismet Spam"
 msgstr "Akismet spam"
 
-#: wp-content/plugins/akismet/akismet.php:593
-#: wp-content/plugins/akismet/akismet.php:612
+#: wp-content/plugins/akismet/akismet.php:609
+#: wp-content/plugins/akismet/akismet.php:628
 msgid "You do not have sufficient permission to moderate comments."
 msgstr "Nincs megfelelő jogosultság a hozzászólások moderálásához."
 
-#: wp-content/plugins/akismet/akismet.php:624
+#: wp-content/plugins/akismet/akismet.php:640
 #, php-format
 msgid "%1$s comments recovered."
 msgstr "%1$s hozzászólás visszaállítva."
 
-#: wp-content/plugins/akismet/akismet.php:628
+#: wp-content/plugins/akismet/akismet.php:644
 msgid "All spam deleted."
 msgstr "Minden spam törölve."
 
-#: wp-content/plugins/akismet/akismet.php:676
+#: wp-content/plugins/akismet/akismet.php:692
 msgid "Caught Spam"
 msgstr "Blokkolt spam"
 
-#: wp-content/plugins/akismet/akismet.php:681
+#: wp-content/plugins/akismet/akismet.php:697
 #, php-format
 msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
 msgstr "Akismet a telepítés óta <strong>%1$s spam</strong>-et blokkolt."
 
-#: wp-content/plugins/akismet/akismet.php:688
+#: wp-content/plugins/akismet/akismet.php:704
 msgid "You have no spam currently in the queue. Must be your lucky day. :)"
 msgstr "Nincs spam! Micsoda szerencsés nap! :)"
 
-#: wp-content/plugins/akismet/akismet.php:691
+#: wp-content/plugins/akismet/akismet.php:707
 msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
 msgstr "Egy kattintással az összes spam törölhető. Ezt a műveletet viszont nem lehet visszavonni, szóval nagyon alaposan kell ellenőrizni ! De igazán nem is nagyon kell velük foglalkozni, hiszen 15 nap múlva úgyis automatikusan törlődnek a spam-nek minősítettek."
 
-#: wp-content/plugins/akismet/akismet.php:697
-#: wp-content/plugins/akismet/akismet.php:875
+#: wp-content/plugins/akismet/akismet.php:713
+#: wp-content/plugins/akismet/akismet.php:891
 #, php-format
 msgid "There are currently %1$s comments identified as spam."
 msgstr "Pillanatnyilag %1$s hozzászólás van spam-nek minősítve."
 
-#: wp-content/plugins/akismet/akismet.php:697
-#: wp-content/plugins/akismet/akismet.php:875
+#: wp-content/plugins/akismet/akismet.php:713
+#: wp-content/plugins/akismet/akismet.php:891
 msgid "Delete all"
 msgstr "Mindent töröl"
 
-#: wp-content/plugins/akismet/akismet.php:706
+#: wp-content/plugins/akismet/akismet.php:722
 msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
 msgstr "Ezek a legutóbbi hozzászólások, amelyeket az Akismet spam-nek minősített. Ha ahozzászólás mégsem spam lenne, akkor egyszerűen klikk a \"Nem spam\"-re. 15 nap múlva a spam-nek minősített hozzászólások automatikusan törlődnek."
 
-#: wp-content/plugins/akismet/akismet.php:760
+#: wp-content/plugins/akismet/akismet.php:776
 msgid "Search Spam &raquo;"
 msgstr "Spam keresés &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:767
-#: wp-content/plugins/akismet/akismet.php:834
+#: wp-content/plugins/akismet/akismet.php:783
+#: wp-content/plugins/akismet/akismet.php:850
 #: wp-includes/link-template.php:1445
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Előző oldal"
 
-#: wp-content/plugins/akismet/akismet.php:788
-#: wp-content/plugins/akismet/akismet.php:855
+#: wp-content/plugins/akismet/akismet.php:804
+#: wp-content/plugins/akismet/akismet.php:871
 #: wp-includes/link-template.php:1446
 msgid "Next Page &raquo;"
 msgstr "Következő oldal &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:810
+#: wp-content/plugins/akismet/akismet.php:826
 msgid "IP:"
 msgstr "IP:"
 
-#: wp-content/plugins/akismet/akismet.php:816
+#: wp-content/plugins/akismet/akismet.php:832
 msgid "Not Spam"
 msgstr "Nem spam"
 
-#: wp-content/plugins/akismet/akismet.php:861
+#: wp-content/plugins/akismet/akismet.php:877
 msgid "De-spam marked comments &raquo;"
 msgstr "Jelölt hozzászólások nem spam-ek &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:863
+#: wp-content/plugins/akismet/akismet.php:879
 msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
 msgstr "Azokat a hozzászólások, amelyek mégsem spam-ek, elküldjük az Akismet-nek, mint hibajelzés. Ezekből az Akismet képes tanulni, és így egyre jobb lesz."
 
-#: wp-content/plugins/akismet/akismet.php:899
+#: wp-content/plugins/akismet/akismet.php:915
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
 msgstr "<a href=\"%1$s\">Akismet</a> teszi a dolgát és blokkolt <a href=\"%2$s\">%3$s spam-et tartalmazó hozzászólást</a>."
 
-#: wp-content/plugins/akismet/akismet.php:917
+#: wp-content/plugins/akismet/akismet.php:933
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
 msgstr[0] "Az <a href=\"%1$s\">Akismet</a> már %2$s spamtől óvta meg az oldalt,"
 msgstr[1] "Az <a href=\"%1$s\">Akismet</a> már %2$s spamtől óvta meg az oldalt,"
 
-#: wp-content/plugins/akismet/akismet.php:922
+#: wp-content/plugins/akismet/akismet.php:938
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
 msgstr "Az <a href=\"%1$s\">Akismet</a> megakadályozza, hogy spamek érjék el az oldalt,"
 
-#: wp-content/plugins/akismet/akismet.php:927
+#: wp-content/plugins/akismet/akismet.php:943
 #, php-format
 msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
 msgstr[0] "és <a href=\"%2$s\">%1$s hozzászólás</a> van spamnek minősítve."
 msgstr[1] "és <a href=\"%2$s\">%1$s hozzászólás</a> van spamnek minősítve."
 
-#: wp-content/plugins/akismet/akismet.php:932
+#: wp-content/plugins/akismet/akismet.php:948
 #, php-format
 msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
 msgstr "de jelenleg üres a <a href='%1$s'>spam tároló</a>. Micsoda szerencse! :)"
 
-#: wp-content/plugins/akismet/akismet.php:935
+#: wp-content/plugins/akismet/akismet.php:951
 #, php-format
 msgid "%1$s %2$s|akismet_rightnow"
 msgstr "%1$s %2$s|akismet_rightnow"
 
-#: wp-content/plugins/akismet/akismet.php:950
+#: wp-content/plugins/akismet/akismet.php:966
 msgid "Recheck Queue for Spam"
 msgstr "Spamek újraellenőrzése"
 
-#: wp-content/plugins/akismet/akismet.php:967
+#: wp-content/plugins/akismet/akismet.php:983
 msgid "Check for Spam"
 msgstr "Spam keresése"
 
-#: wp-content/plugins/akismet/akismet.php:1042
+#: wp-content/plugins/akismet/akismet.php:1058
 #, php-format
 msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
 msgstr "%1$s %2$s spamet %3$s %4$sblokkolt az%5$s<br />%6$sAkismet%7$s"
 
-#: wp-content/plugins/akismet/akismet.php:1104
+#: wp-content/plugins/akismet/akismet.php:1120
 msgid "spam comments"
 msgstr "spam hozzászólás"
 
-#: wp-content/plugins/akismet/akismet.php:1104
+#: wp-content/plugins/akismet/akismet.php:1120
 msgid "blocked by"
 msgstr "blokkolt"
 
@@ -9908,7 +9827,7 @@ msgstr "Beküldöm a véleményem!"
 #: wp-content/themes/classic/comments-popup.php:99
 #: wp-content/themes/classic/comments.php:81
 msgid "Sorry, the comment form is closed at this time."
-msgstr "Bocsánat, de a bejegyzéshez egyelőre nem lehet hozzászólni."
+msgstr "Elnézést, de a bejegyzéshez egyelőre nem lehet hozzászólni."
 
 #: wp-content/themes/classic/comments-popup.php:104
 msgid "Close this window."
@@ -9931,20 +9850,20 @@ msgid "Enter your password to view comments."
 msgstr "A hozzászólások megtekintéséhez meg kell adni a  jelszót!"
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:555
-#: wp-includes/comment-template.php:935
+#: wp-includes/comment-template.php:557
+#: wp-includes/comment-template.php:937
 msgid "No Comments"
-msgstr "Nincs hozzászólás"
+msgstr "Szóljon hozzá!"
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:557
-#: wp-includes/comment-template.php:936
+#: wp-includes/comment-template.php:559
+#: wp-includes/comment-template.php:938
 msgid "1 Comment"
 msgstr "1 hozzászólás"
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:553
-#: wp-includes/comment-template.php:937
+#: wp-includes/comment-template.php:555
+#: wp-includes/comment-template.php:939
 msgid "% Comments"
 msgstr "% hozzászólás"
 
@@ -9987,7 +9906,7 @@ msgid "Filed under:"
 msgstr "Kategória:"
 
 #: wp-content/themes/classic/index.php:15
-#: wp-includes/category-template.php:802
+#: wp-includes/category-template.php:804
 msgid "Tags: "
 msgstr "Címke:"
 
@@ -9998,7 +9917,7 @@ msgstr "(tovább...)"
 
 #: wp-content/themes/classic/index.php:23
 msgid "Comments (0)"
-msgstr "Nincs hozzászólás"
+msgstr "Szóljon hozzá!"
 
 #: wp-content/themes/classic/index.php:23
 msgid "Comments (1)"
@@ -10010,7 +9929,7 @@ msgstr "% hozzászólás"
 
 #: wp-content/themes/classic/index.php:31
 msgid "Sorry, no posts matched your criteria."
-msgstr "Bocsánat, de nincs ilyen bejegyzés."
+msgstr "Elnézést, nincs a keresett feltételeknek megfelelő bejegyzés!"
 
 #: wp-content/themes/classic/index.php:34
 msgid "&laquo; Newer Posts"
@@ -10021,7 +9940,7 @@ msgid "Older Posts &raquo;"
 msgstr "Régebbi bejegyzések &raquo;"
 
 #: wp-content/themes/classic/sidebar.php:13
-#: wp-includes/post-template.php:563
+#: wp-includes/post-template.php:567
 msgid "Pages:"
 msgstr "Oldalak:"
 
@@ -10182,12 +10101,12 @@ msgstr "Könyvjelzők"
 msgid "View all posts in %s"
 msgstr "Összes bejegyzés a(z) %s kategóriában"
 
-#: wp-includes/category-template.php:459
 #: wp-includes/category-template.php:461
+#: wp-includes/category-template.php:463
 msgid "No categories"
 msgstr "Nincsenek kategóriák"
 
-#: wp-includes/category-template.php:563
+#: wp-includes/category-template.php:565
 #, php-format
 msgid "%s topic"
 msgid_plural "%s topics"
@@ -10290,59 +10209,59 @@ msgstr "Összes bejegyzés a(z) %s kategóriában"
 msgid "Feed for all posts filed under %s"
 msgstr "Hírcsatorna a(z) %s kategória összes bejegyzéséhez"
 
-#: wp-includes/comment-template.php:938
+#: wp-includes/comment-template.php:940
 msgid "Comments Off"
 msgstr "Hozzászólások kikapcsolva"
 
-#: wp-includes/comment-template.php:948
+#: wp-includes/comment-template.php:950
 msgid "Enter your password to view comments"
 msgstr "A hozzászólások megtekintéséhez meg kell adni a jelszót!"
 
-#: wp-includes/comment-template.php:975
+#: wp-includes/comment-template.php:977
 #, php-format
 msgid "Comment on %s"
 msgstr "%s: hozzászólás"
 
-#: wp-includes/comment-template.php:1001
+#: wp-includes/comment-template.php:1003
 msgid "Log in to Reply"
 msgstr "Be kell jelentkezni a válaszadáshoz"
 
-#: wp-includes/comment-template.php:1059
+#: wp-includes/comment-template.php:1061
 msgid "Leave a Comment"
 msgstr "ITT és MOST! IDE A HOZZÁSZÓLÁST!"
 
-#: wp-includes/comment-template.php:1060
+#: wp-includes/comment-template.php:1062
 msgid "Log in to leave a Comment"
 msgstr "Be kell jelentkezni a hozzászólás beküldéséhez"
 
-#: wp-includes/comment-template.php:1099
+#: wp-includes/comment-template.php:1101
 msgid "Click here to cancel reply."
 msgstr "Kattintás a válasz elvetéséhez"
 
-#: wp-includes/comment-template.php:1142
+#: wp-includes/comment-template.php:1144
 msgid "Leave a Reply"
 msgstr "Ide kérjük a választ!"
 
-#: wp-includes/comment-template.php:1143
+#: wp-includes/comment-template.php:1145
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr "Válasz a(z) %s hozzászóláshoz"
 
-#: wp-includes/comment-template.php:1261
+#: wp-includes/comment-template.php:1263
 #, php-format
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
 msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">szerint:</span>"
 
-#: wp-includes/comment-template.php:1264
+#: wp-includes/comment-template.php:1266
 msgid "Your comment is awaiting moderation."
 msgstr "A hozzászólás rendszer-moderációra várakozik."
 
-#: wp-includes/comment-template.php:1268
+#: wp-includes/comment-template.php:1270
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s  %2$s-kor"
 
-#: wp-includes/comment-template.php:1268
+#: wp-includes/comment-template.php:1270
 msgid "(Edit)"
 msgstr "(Szerkeszt)"
 
@@ -10652,21 +10571,21 @@ msgctxt "closing curly quote"
 msgid "&#8221;"
 msgstr "&#8221;"
 
-#: wp-includes/formatting.php:1661
+#: wp-includes/formatting.php:1697
 #, php-format
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s perc"
 msgstr[1] "%s perc"
 
-#: wp-includes/formatting.php:1667
+#: wp-includes/formatting.php:1703
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s óra"
 msgstr[1] "%s óra"
 
-#: wp-includes/formatting.php:1673
+#: wp-includes/formatting.php:1709
 #, php-format
 msgid "%s day"
 msgid_plural "%s days"
@@ -10674,17 +10593,17 @@ msgstr[0] "%s nap"
 msgstr[1] "%s nap"
 
 #. translators: used between list items, there is a space after the coma
-#: wp-includes/formatting.php:2547
+#: wp-includes/formatting.php:2583
 msgid ", "
 msgstr ", "
 
 #. translators: used between list items, there is a space after the and
-#: wp-includes/formatting.php:2549
+#: wp-includes/formatting.php:2585
 msgid ", and "
 msgstr ". és"
 
 #. translators: used between only two list items, there is a space after the and
-#: wp-includes/formatting.php:2551
+#: wp-includes/formatting.php:2587
 msgid " and "
 msgstr "  és"
 
@@ -10713,216 +10632,216 @@ msgstr "Üres fájlnév"
 msgid "Could not write file %s"
 msgstr "Nem írható fájl: %s"
 
-#: wp-includes/functions.php:2323
+#: wp-includes/functions.php:2339
 #, php-format
 msgid "Your attempt to edit this attachment: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; mellékletet nem sikerült szerkeszteni"
 
-#: wp-includes/functions.php:2325
+#: wp-includes/functions.php:2341
 msgid "Your attempt to add this category has failed."
 msgstr "Kategória hozzáadása sikertelen."
 
-#: wp-includes/functions.php:2326
+#: wp-includes/functions.php:2342
 #, php-format
 msgid "Your attempt to delete this category: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; kategória törlése sikertelen"
 
-#: wp-includes/functions.php:2327
+#: wp-includes/functions.php:2343
 #, php-format
 msgid "Your attempt to edit this category: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; szerkesztése sikertelen"
 
-#: wp-includes/functions.php:2329
+#: wp-includes/functions.php:2345
 #, php-format
 msgid "Your attempt to delete this comment: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; hozzászólás törlése sikertelen"
 
-#: wp-includes/functions.php:2330
+#: wp-includes/functions.php:2346
 #, php-format
 msgid "Your attempt to unapprove this comment: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; hozzászólás moderálása sikertelen"
 
-#: wp-includes/functions.php:2331
+#: wp-includes/functions.php:2347
 #, php-format
 msgid "Your attempt to approve this comment: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; hozzászólás jóváhagyása sikertelen."
 
-#: wp-includes/functions.php:2332
+#: wp-includes/functions.php:2348
 #, php-format
 msgid "Your attempt to edit this comment: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; hozzászólás szerkesztése sikertelen."
 
-#: wp-includes/functions.php:2333
+#: wp-includes/functions.php:2349
 msgid "Your attempt to bulk modify comments has failed."
 msgstr "Hozzászólások csoportos módosítása sikertelen."
 
-#: wp-includes/functions.php:2334
+#: wp-includes/functions.php:2350
 msgid "Your attempt to moderate comments has failed."
 msgstr "Hozzászólás moderálása sikertelen."
 
-#: wp-includes/functions.php:2336
+#: wp-includes/functions.php:2352
 msgid "Your attempt to add this link has failed."
 msgstr "Link hozzáadása sikertelen."
 
-#: wp-includes/functions.php:2337
+#: wp-includes/functions.php:2353
 #, php-format
 msgid "Your attempt to delete this link: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; link törlése sikertelen."
 
-#: wp-includes/functions.php:2338
+#: wp-includes/functions.php:2354
 #, php-format
 msgid "Your attempt to edit this link: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; link szerkesztése sikertelen."
 
-#: wp-includes/functions.php:2339
+#: wp-includes/functions.php:2355
 msgid "Your attempt to bulk modify links has failed."
 msgstr "Linkek csoportos módosítása sikertelen."
 
-#: wp-includes/functions.php:2341
+#: wp-includes/functions.php:2357
 msgid "Your attempt to add this page has failed."
 msgstr "Oldal hozzáadása sikertelen."
 
-#: wp-includes/functions.php:2342
+#: wp-includes/functions.php:2358
 #, php-format
 msgid "Your attempt to delete this page: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; oldal törlése sikertelen."
 
-#: wp-includes/functions.php:2343
+#: wp-includes/functions.php:2359
 #, php-format
 msgid "Your attempt to edit this page: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; oldal szerkesztése sikertelen."
 
-#: wp-includes/functions.php:2345
+#: wp-includes/functions.php:2361
 #, php-format
 msgid "Your attempt to edit this plugin file: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; bővítmény szerkesztése sikertelen."
 
-#: wp-includes/functions.php:2346
+#: wp-includes/functions.php:2362
 #, php-format
 msgid "Your attempt to activate this plugin: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; bővítmény bekapcsolása sikertelen."
 
-#: wp-includes/functions.php:2347
+#: wp-includes/functions.php:2363
 #, php-format
 msgid "Your attempt to deactivate this plugin: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; bővítmény kikapcsolása sikertelen."
 
-#: wp-includes/functions.php:2348
+#: wp-includes/functions.php:2364
 #, php-format
 msgid "Your attempt to upgrade this plugin: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; bővítmény frissítése sikertelen."
 
-#: wp-includes/functions.php:2350
+#: wp-includes/functions.php:2366
 msgid "Your attempt to add this post has failed."
 msgstr "Új bejegyzés hozzáadása sikertelen."
 
-#: wp-includes/functions.php:2351
+#: wp-includes/functions.php:2367
 #, php-format
 msgid "Your attempt to delete this post: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; bejegyzés törlése sikertelen."
 
-#: wp-includes/functions.php:2352
+#: wp-includes/functions.php:2368
 #, php-format
 msgid "Your attempt to edit this post: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; bejegyzés szerkesztése sikertelen."
 
-#: wp-includes/functions.php:2354
+#: wp-includes/functions.php:2370
 msgid "Your attempt to add this user has failed."
 msgstr "Felhasználó hozzáadása sikertelen."
 
-#: wp-includes/functions.php:2355
+#: wp-includes/functions.php:2371
 msgid "Your attempt to delete users has failed."
 msgstr "Felhasználó törlése sikertelen."
 
-#: wp-includes/functions.php:2356
+#: wp-includes/functions.php:2372
 msgid "Your attempt to bulk modify users has failed."
 msgstr "Felhasználói adatok csoportos módosítása sikertelen."
 
-#: wp-includes/functions.php:2357
+#: wp-includes/functions.php:2373
 #, php-format
 msgid "Your attempt to edit this user: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; felhasználói adatainak módosítása sikertelen."
 
-#: wp-includes/functions.php:2358
+#: wp-includes/functions.php:2374
 #, php-format
 msgid "Your attempt to modify the profile for: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; profiljának szerkesztése sikertelen."
 
-#: wp-includes/functions.php:2360
+#: wp-includes/functions.php:2376
 msgid "Your attempt to edit your settings has failed."
 msgstr "Beállítások mentése sikertelen."
 
-#: wp-includes/functions.php:2361
+#: wp-includes/functions.php:2377
 #, php-format
 msgid "Your attempt to change your permalink structure to: %s has failed."
 msgstr "Nem sikerült a közvetlen link sturktúrát erre cserélni: %s."
 
-#: wp-includes/functions.php:2362
+#: wp-includes/functions.php:2378
 #, php-format
 msgid "Your attempt to edit this file: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; fájl szerkesztése sikertelen"
 
-#: wp-includes/functions.php:2363
+#: wp-includes/functions.php:2379
 #, php-format
 msgid "Your attempt to edit this theme file: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; sablonfájl szerkesztése sikertelen."
 
-#: wp-includes/functions.php:2364
+#: wp-includes/functions.php:2380
 #, php-format
 msgid "Your attempt to switch to this theme: &#8220;%s&#8221; has failed."
 msgstr "&#8220;%s&#8221; sablonra váltás nem sikerült."
 
-#: wp-includes/functions.php:2366
+#: wp-includes/functions.php:2382
 #, php-format
 msgid "You are attempting to log out of %s"
 msgstr "Kísérlet a %s-ből történő kijelentkezésre"
 
-#: wp-includes/functions.php:2386
-#: wp-includes/functions.php:2388
+#: wp-includes/functions.php:2402
+#: wp-includes/functions.php:2404
 msgid "Are you sure you want to do this?"
 msgstr "Biztos, hogy ezt akarjuk tenni?"
 
-#: wp-includes/functions.php:2405
+#: wp-includes/functions.php:2421
 msgid "WordPress Failure Notice"
 msgstr "WordPress hibajelentés"
 
-#: wp-includes/functions.php:2408
+#: wp-includes/functions.php:2424
 msgid "Please try again."
 msgstr "Újra kellene próbálkozni!"
 
-#: wp-includes/functions.php:2410
+#: wp-includes/functions.php:2426
 #, php-format
 msgid "Do you really want to <a href='%s'>log out</a>?"
 msgstr "Biztos, hogy megfontolt a <a href='%s'>kijelentkezés</a>?"
 
-#: wp-includes/functions.php:2461
+#: wp-includes/functions.php:2477
 msgid "&laquo; Back"
 msgstr "&laquo; Vissza"
 
 #. #-#-#-#-#  wordpress.pot (PACKAGE VERSION)  #-#-#-#-#
 #. Not gettexted string WP_I18N_ERROR_TITLE
-#: wp-includes/functions.php:2482
+#: wp-includes/functions.php:2498
 #: wp-load.php:50
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; hiba"
 
-#: wp-includes/functions.php:2918
-#: wp-includes/functions.php:2955
+#: wp-includes/functions.php:2934
+#: wp-includes/functions.php:2971
 #, php-format
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s már <strong>elavult</strong> a %2$s verzió óta! Ezt kell használni: %3$s."
 
-#: wp-includes/functions.php:2920
-#: wp-includes/functions.php:2957
+#: wp-includes/functions.php:2936
+#: wp-includes/functions.php:2973
 #, php-format
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s már <strong>elavult</strong> %2$s verzió óta, és nincs elérhető alternatívája."
 
-#: wp-includes/functions.php:3275
+#: wp-includes/functions.php:3291
 msgid "Select a city"
 msgstr "Város kiválasztása"
 
-#: wp-includes/functions.php:3290
+#: wp-includes/functions.php:3306
 msgid "Manual offsets"
 msgstr "Kézi eltérés beállítás"
 
@@ -10974,66 +10893,66 @@ msgctxt "calendar caption"
 msgid "%1$s %2$s"
 msgstr "%1$s  %2$s"
 
-#: wp-includes/general-template.php:1051
-#: wp-includes/general-template.php:1061
+#: wp-includes/general-template.php:1052
+#: wp-includes/general-template.php:1062
 #, php-format
 msgid "View posts for %1$s %2$s"
 msgstr "Bejegyzések %2$s %1$s"
 
 #. translators: Separator between blog name and feed type in feed links
-#: wp-includes/general-template.php:1457
-#: wp-includes/general-template.php:1480
+#: wp-includes/general-template.php:1458
+#: wp-includes/general-template.php:1481
 msgctxt "feed link"
 msgid "&raquo;"
 msgstr "&raquo;"
 
 #. translators: 1: blog title, 2: separator (raquo)
-#: wp-includes/general-template.php:1459
+#: wp-includes/general-template.php:1460
 #, php-format
 msgid "%1$s %2$s Feed"
 msgstr "%1$s %2$s hírcsatorna"
 
 #. translators: %s: blog title, 2: separator (raquo)
-#: wp-includes/general-template.php:1461
+#: wp-includes/general-template.php:1462
 #, php-format
 msgid "%1$s %2$s Comments Feed"
 msgstr "%1$s %2$s hozzászólás hírcsatorna"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: post title
-#: wp-includes/general-template.php:1482
+#: wp-includes/general-template.php:1483
 #, php-format
 msgid "%1$s %2$s %3$s Comments Feed"
 msgstr "%1$s %2$s %3$s hozzászólás hírcsatorna"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: category name
-#: wp-includes/general-template.php:1484
+#: wp-includes/general-template.php:1485
 #, php-format
 msgid "%1$s %2$s %3$s Category Feed"
 msgstr "%1$s %2$s %3$s kategória feed"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: tag name
-#: wp-includes/general-template.php:1486
+#: wp-includes/general-template.php:1487
 #, php-format
 msgid "%1$s %2$s %3$s Tag Feed"
 msgstr "%1$s %2$s %3$s címke feed"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: author name
-#: wp-includes/general-template.php:1488
+#: wp-includes/general-template.php:1489
 #, php-format
 msgid "%1$s %2$s Posts by %3$s Feed"
 msgstr "%1$s %2$s Szerző: %3$s feed"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: search phrase
-#: wp-includes/general-template.php:1490
+#: wp-includes/general-template.php:1491
 #, php-format
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
 msgstr "%1$s %2$s Keresés eredménye a(z) &quot;%3$s&quot; feed-ben"
 
-#: wp-includes/general-template.php:1806
+#: wp-includes/general-template.php:1807
 msgid "&laquo; Previous"
 msgstr "&laquo; Előző"
 
-#: wp-includes/general-template.php:1807
+#: wp-includes/general-template.php:1808
 msgid "Next &raquo;"
 msgstr "Következő &raquo;"
 
@@ -13008,61 +12927,61 @@ msgstr "Magán: %s"
 msgid "There is no excerpt because this is a protected post."
 msgstr "Nincs kivonat, mert ez egy magánbejegyzés."
 
-#: wp-includes/post-template.php:565
+#: wp-includes/post-template.php:569
 msgid "Next page"
 msgstr "Következő oldal"
 
-#: wp-includes/post-template.php:566
+#: wp-includes/post-template.php:570
 msgid "Previous page"
 msgstr "Előző oldal"
 
-#: wp-includes/post-template.php:820
+#: wp-includes/post-template.php:825
 msgid "Home"
 msgstr "Kezdőlap"
 
-#: wp-includes/post-template.php:930
-#: wp-includes/post-template.php:967
+#: wp-includes/post-template.php:935
+#: wp-includes/post-template.php:972
 msgid "Missing Attachment"
 msgstr "Hiányzó melléklet"
 
-#: wp-includes/post-template.php:1141
+#: wp-includes/post-template.php:1146
 msgid "This post is password protected. To view it please enter your password below:"
 msgstr "Ez a bejegyzés jelszóval védett. Megtekintéséhez meg kell adni a jelszót:"
 
 #. translators: revision date format, see http://php.net/date
-#: wp-includes/post-template.php:1205
+#: wp-includes/post-template.php:1210
 msgctxt "revision date format"
 msgid "j F, Y @ G:i"
 msgstr "Y. F j. - H:i"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1207
+#: wp-includes/post-template.php:1212
 #, php-format
 msgid "%1$s [Autosave]"
 msgstr "%1$s [Automatikus mentés]"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1209
+#: wp-includes/post-template.php:1214
 #, php-format
 msgid "%1$s [Current Revision]"
 msgstr "%1$s  [Jelenlegi állapot]"
 
 #. translators: post revision: 1: when, 2: author name
-#: wp-includes/post-template.php:1275
+#: wp-includes/post-template.php:1280
 #, php-format
 msgctxt "post revision"
 msgid "%1$s by %2$s"
 msgstr "%1$s  Szerző: %2$s"
 
-#: wp-includes/post-template.php:1302
+#: wp-includes/post-template.php:1307
 msgid "Restore"
 msgstr "Visszaállítva"
 
-#: wp-includes/post-template.php:1324
+#: wp-includes/post-template.php:1329
 msgid "Compare Revisions"
 msgstr "Állapotok összehasonlítása"
 
-#: wp-includes/post-template.php:1339
+#: wp-includes/post-template.php:1344
 msgid "Date Created"
 msgstr "Létrehozás dátuma"
 
@@ -13099,8 +13018,8 @@ msgid ""
 "You are about to delete the selected items.\n"
 "  'Cancel' to stop, 'OK' to delete."
 msgstr ""
-"Biztosan törölhetők a kiválasztottak?\n"
-" 'Megszakítás', ha nem, vagy 'OK', ha törölhetőek"
+"Biztosan törölhetők a kiválasztott elemek?\n"
+" 'Megszakítás', ha nem, vagy 'OK', ha törölhető"
 
 #: wp-includes/script-loader.php:75
 msgid "(Quick Links)"
@@ -13153,7 +13072,7 @@ msgstr "Túl sok fájl sorbaállítására történt kísérlet."
 #: wp-includes/script-loader.php:190
 #, php-format
 msgid "This file is too big. Your php.ini upload_max_filesize is %s."
-msgstr "A fájlméret túl nagy. A php.ini upload_max_filesize értéke %s."
+msgstr "A fájl mérete túl nagy. A szerveren engedélyezett feltölthető maximális fájlméret: %s."
 
 #: wp-includes/script-loader.php:191
 msgid "This file is empty. Please try another."
@@ -13205,7 +13124,7 @@ msgstr "Elutasít"
 
 #: wp-includes/script-loader.php:203
 msgid "Crunching&hellip;"
-msgstr "Feldolgozás&hellip;"
+msgstr "Feldolgozás...&hellip;"
 
 #: wp-includes/script-loader.php:204
 msgid "Deleted"
@@ -13245,7 +13164,7 @@ msgstr "Közzététel:"
 #: wp-includes/script-loader.php:277
 #: wp-includes/script-loader.php:301
 msgid "Schedule for:"
-msgstr "Időzítve:"
+msgstr "Időzítés:"
 
 #: wp-includes/script-loader.php:278
 #: wp-includes/script-loader.php:302
@@ -13347,7 +13266,7 @@ msgstr "Hibás objektum ID"
 
 #: wp-includes/theme.php:302
 msgid "Stylesheet is missing."
-msgstr "Hiányzó stíluslap."
+msgstr "Hiányzó, vagy hibás stíluslap."
 
 #: wp-includes/theme.php:316
 msgid "File not readable."
@@ -13355,7 +13274,7 @@ msgstr "A fájl nem olvasható."
 
 #: wp-includes/theme.php:357
 msgid "Template is missing."
-msgstr "Hiányzó sablon."
+msgstr "Hiányzó, vagy hibás sablon."
 
 #: wp-includes/user.php:78
 msgid "<strong>ERROR</strong>: The username field is empty."
@@ -13416,7 +13335,7 @@ msgstr "Valaki új jelszó generálását kérte az alábbi oldalra, és felhasz
 
 #: wp-login.php:163
 msgid "To reset your password visit the following address, otherwise just ignore this email and nothing will happen."
-msgstr "Új jelszó generálásához klikk a következő linkre !"
+msgstr "Új jelszó generálásához kattintás a következő linkre! Másik lehetőség, hogy figyelmen kívül hagyjuk az email-t, és akkor semmi nem fog történni."
 
 #: wp-login.php:166
 #, php-format
@@ -13426,7 +13345,7 @@ msgstr "[%s] Jelszó újragenerálás"
 #: wp-login.php:172
 #: wp-login.php:217
 msgid "The e-mail could not be sent."
-msgstr "Az e-mail-t nem tudtam elküldeni."
+msgstr "Az email-t nem tudtam elküldeni."
 
 #: wp-login.php:172
 #: wp-login.php:217
@@ -13454,11 +13373,11 @@ msgstr "<strong>HIBA</strong>: Ez a felhasználói név már foglalt, másikat k
 
 #: wp-login.php:248
 msgid "<strong>ERROR</strong>: Please type your e-mail address."
-msgstr "<strong>HIBA</strong>: Az e-mail címet meg kell adni!"
+msgstr "<strong>HIBA</strong>: Az email címet meg kell adni!"
 
 #: wp-login.php:250
 msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
-msgstr "<strong>HIBA</strong>: Hibás a megadott e-mail cím."
+msgstr "<strong>HIBA</strong>: Hibás a megadott email cím."
 
 #: wp-login.php:265
 #, php-format
@@ -13467,7 +13386,7 @@ msgstr "<strong>HIBA</strong>: Sikertelen regisztráció... <a href=\"mailto:%s\
 
 #: wp-login.php:335
 msgid "Sorry, that key does not appear to be valid."
-msgstr "Bocsánat, de hiba történt a kulcsgeneráláskor."
+msgstr "Elnézést, de hiba történt a kulcs generáláskor."
 
 #: wp-login.php:338
 msgid "Lost Password"
@@ -13475,11 +13394,11 @@ msgstr "Elfelejtett jelszó"
 
 #: wp-login.php:338
 msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
-msgstr "A felhasználónév és e-mail cím megadását követően a rendszer új jelszót fog e-mail-ben küldeni."
+msgstr "A felhasználónév és email cím megadását követően a rendszer új jelszót fog email-ben küldeni."
 
 #: wp-login.php:346
 msgid "Username or E-mail:"
-msgstr "Felhasználónév, vagy e-mail:"
+msgstr "Felhasználónév, vagy E-mail:"
 
 #: wp-login.php:350
 msgid "Get New Password"
@@ -13508,7 +13427,7 @@ msgstr "Regisztráció a honlapra"
 
 #: wp-login.php:421
 msgid "A password will be e-mailed to you."
-msgstr "A jelszót e-mail-ben küldjük el."
+msgstr "A jelszót email-ben küldjük el."
 
 #: wp-login.php:428
 #: wp-login.php:528
@@ -13557,7 +13476,7 @@ msgstr "Úgy tűnik nincs új email."
 #: wp-mail.php:92
 #, php-format
 msgid "Author is %s"
-msgstr "Szerző %s"
+msgstr "Szerző: %s"
 
 #: wp-mail.php:198
 #, php-format
@@ -13583,7 +13502,7 @@ msgstr "Feladat elvégezve. <strong>%s</strong> üzenet törölve."
 #: xmlrpc.php:268
 #, php-format
 msgid "XML-RPC services are disabled on this blog.  An admin user can enable them at %s"
-msgstr "XML-RPC szolgáltatások ezen a blogon ki vannak kapcsolva. Az adminisztrátor itt kapcsolhatja vissza %s"
+msgstr "XML-RPC szolgáltatások ezen a blogon ki vannak kapcsolva. Az adminisztrátor itt kapcsolhatja vissza: %s"
 
 #: xmlrpc.php:251
 #: xmlrpc.php:275
@@ -13610,254 +13529,254 @@ msgstr "Blog címsora"
 msgid "Sorry, you cannot edit this page."
 msgstr "Elnézést, de ez az oldal nem  szerkeszthető."
 
-#: xmlrpc.php:573
-#: xmlrpc.php:691
-#: xmlrpc.php:737
+#: xmlrpc.php:578
+#: xmlrpc.php:696
+#: xmlrpc.php:742
 msgid "Sorry, no such page."
-msgstr "Bocsánat, de nincs ilyen oldal."
+msgstr "Elnézést, de nincs ilyen oldal."
 
-#: xmlrpc.php:598
-#: xmlrpc.php:783
+#: xmlrpc.php:603
+#: xmlrpc.php:788
 msgid "Sorry, you cannot edit pages."
 msgstr "Elnézést, de az oldalak szerkesztése nem lehetséges."
 
-#: xmlrpc.php:652
+#: xmlrpc.php:657
 msgid "Sorry, you cannot add new pages."
 msgstr "Elnézést, de új oldal nem hozható létre."
 
-#: xmlrpc.php:696
+#: xmlrpc.php:701
 msgid "Sorry, you do not have the right to delete this page."
-msgstr "Bocsánat, de nincs jogosultság az oldal törléséhez."
+msgstr "Elnézést, de nincs jogosultság az oldal törléséhez."
 
-#: xmlrpc.php:702
+#: xmlrpc.php:707
 msgid "Failed to delete the page."
 msgstr "Az oldal törlése nem sikerült."
 
-#: xmlrpc.php:742
+#: xmlrpc.php:747
 msgid "Sorry, you do not have the right to edit this page."
-msgstr "Bocsánat, de nincs jogosultság az oldal szerkesztéséhez."
+msgstr "Elnézést, de nincs jogosultság az oldal szerkesztéséhez."
 
-#: xmlrpc.php:836
+#: xmlrpc.php:849
 msgid "Sorry, you cannot edit posts on this blog."
 msgstr "Elnézést, de a bejegyzések nem szerkeszthetőek."
 
-#: xmlrpc.php:873
+#: xmlrpc.php:886
 msgid "Sorry, you must be able to edit posts on this blog in order to view tags."
-msgstr "Bocsánat, de a kategóriák csak akkor láthatók, ha van jogosulság bejegyzés szerkesztéséhez."
+msgstr "Elnézést, de a kategóriák csak akkor láthatók, ha van jogosulság bejegyzés szerkesztéséhez."
 
-#: xmlrpc.php:920
+#: xmlrpc.php:933
 msgid "Sorry, you do not have the right to add a category."
-msgstr "Bocsánat, de nincs jogosultság új kategória felvételére."
+msgstr "Elnézést, de nincs jogosultság új kategória felvételére."
 
-#: xmlrpc.php:948
+#: xmlrpc.php:961
 msgid "Sorry, the new category failed."
-msgstr "Bocsánat, az új kategória hibás."
+msgstr "Elnézést, az új kategória hibás."
 
-#: xmlrpc.php:977
+#: xmlrpc.php:990
 msgid "Sorry, you do not have the right to delete a category."
 msgstr "Sajnálom, nincs jogosultság kategóriát törölni."
 
-#: xmlrpc.php:1005
+#: xmlrpc.php:1018
 msgid "Sorry, you must be able to edit posts to this blog in order to view categories."
-msgstr "Bocsánat, de a kategóriák tartalma csak akkor látható, ha van jogosulság bejegyzések szerkesztéséhez."
+msgstr "Elnézést, de a kategóriák tartalma csak akkor látható, ha van jogosulság bejegyzések szerkesztéséhez."
 
-#: xmlrpc.php:1042
-#: xmlrpc.php:1165
-#: xmlrpc.php:1197
+#: xmlrpc.php:1055
+#: xmlrpc.php:1178
+#: xmlrpc.php:1210
 msgid "You are not allowed to moderate comments on this blog."
 msgstr "Nincs jogosultság a hozzászólások moderálásához."
 
-#: xmlrpc.php:1047
-#: xmlrpc.php:1170
-#: xmlrpc.php:1202
+#: xmlrpc.php:1060
+#: xmlrpc.php:1183
+#: xmlrpc.php:1215
 msgid "Invalid comment ID."
 msgstr "Érvénytelen hozzászólás azonosító."
 
-#: xmlrpc.php:1105
+#: xmlrpc.php:1118
 msgid "Sorry, you cannot edit comments."
 msgstr "Elnézést, de a hozzászólások szerkesztése nem lehetséges."
 
-#: xmlrpc.php:1209
+#: xmlrpc.php:1222
 msgid "Invalid comment status."
 msgstr "Hibás hozzászólás-állapot."
 
-#: xmlrpc.php:1240
+#: xmlrpc.php:1253
 msgid "Sorry, the comment could not be edited. Something wrong happened."
-msgstr "Bocsánat, de a bejegyzés nem szerkeszthető. Valami hiba történt."
+msgstr "Elnézést, de a bejegyzés nem szerkeszthető. Valami hiba történt."
 
-#: xmlrpc.php:1271
+#: xmlrpc.php:1284
 msgid "You must be registered to comment"
 msgstr "Hozzászólás írásához regisztráció szükséges"
 
-#: xmlrpc.php:1284
-#: xmlrpc.php:1287
-#: xmlrpc.php:2337
+#: xmlrpc.php:1297
+#: xmlrpc.php:1300
+#: xmlrpc.php:2350
 msgid "Invalid post ID."
 msgstr "Hibás bejegyzés ID."
 
-#: xmlrpc.php:1313
+#: xmlrpc.php:1326
 msgid "Comment author name and email are required"
-msgstr "A hozzászólás írójának meg kell adnia a nevét és e-mail címét"
+msgstr "A hozzászólás írójának meg kell adnia a nevét és email címét"
 
-#: xmlrpc.php:1315
+#: xmlrpc.php:1328
 msgid "A valid email address is required"
-msgstr "Valós e-mail megadása szükséges!"
+msgstr "Valós és szabványos email cím megadása szükséges!"
 
-#: xmlrpc.php:1348
-#: xmlrpc.php:1410
-#: xmlrpc.php:1438
-#: xmlrpc.php:1466
+#: xmlrpc.php:1361
+#: xmlrpc.php:1423
+#: xmlrpc.php:1451
+#: xmlrpc.php:1479
 msgid "You are not allowed access to details about this blog."
 msgstr "Nincs hozzáférési jogosultság a blog adataihoz."
 
-#: xmlrpc.php:1376
+#: xmlrpc.php:1389
 msgid "You are not allowed access to details about comments."
 msgstr "Nincs hozzáférési jogosultság a hozzászólások adataihoz."
 
-#: xmlrpc.php:1550
+#: xmlrpc.php:1563
 msgid "You are not allowed to update options."
 msgstr "Nincs jogosultság az opciók frissítéséhez."
 
-#: xmlrpc.php:1632
+#: xmlrpc.php:1645
 msgid "Sorry, you do not have access to user data on this blog."
-msgstr "Bocsánat, de nincs jogosultság a felhasználó adataihoz történő hozzáférésre."
+msgstr "Elnézést, de nincs jogosultság a felhasználó adataihoz történő hozzáférésre."
 
-#: xmlrpc.php:1668
-#: xmlrpc.php:2567
-#: xmlrpc.php:3057
-#: xmlrpc.php:3167
+#: xmlrpc.php:1681
+#: xmlrpc.php:2580
+#: xmlrpc.php:3078
+#: xmlrpc.php:3188
 msgid "Sorry, you cannot edit this post."
 msgstr "Elnézést, de ezt a bejegyzés nem szerkeszthető."
 
-#: xmlrpc.php:1716
-#: xmlrpc.php:2924
+#: xmlrpc.php:1729
+#: xmlrpc.php:2940
 msgid "Either there are no posts, or something went wrong."
 msgstr "Nincsenek bejegyzések, vagy valami hiba történt."
 
-#: xmlrpc.php:1772
+#: xmlrpc.php:1785
 msgid "Sorry, this user can not edit the template."
-msgstr "Bocsánat, ez a felhasználó nem módoíthat sablont."
+msgstr "Elnézést, ez a felhasználó nem módoíthat sablont."
 
-#: xmlrpc.php:1814
+#: xmlrpc.php:1827
 msgid "Sorry, this user cannot edit the template."
 msgstr "Elnézést, ez a felhasználó nem módoíthat sablont."
 
-#: xmlrpc.php:1825
+#: xmlrpc.php:1838
 msgid "Either the file is not writable, or something wrong happened. The file has not been updated."
 msgstr "A fájl nem írható, vagy valami hiba történt. Mindenesetre, a fájl nem változott."
 
-#: xmlrpc.php:1857
+#: xmlrpc.php:1870
 msgid "Sorry, you are not allowed to post on this blog."
-msgstr "Bocsánat, de nincs jogosultság bejegyzés írásához."
+msgstr "Elnézést, de nincs jogosultság bejegyzés írásához."
 
-#: xmlrpc.php:1913
-#: xmlrpc.php:1967
-#: xmlrpc.php:2660
-#: xmlrpc.php:3119
+#: xmlrpc.php:1926
+#: xmlrpc.php:1980
+#: xmlrpc.php:2671
+#: xmlrpc.php:3140
 msgid "Sorry, no such post."
-msgstr "Bocsánat, de nincs ilyen bejegyzés."
+msgstr "Elnézést, de nincs ilyen bejegyzés."
 
-#: xmlrpc.php:1924
-#: xmlrpc.php:2489
+#: xmlrpc.php:1937
+#: xmlrpc.php:2502
 msgid "Sorry, you do not have the right to publish this post."
-msgstr "Bocsánat, de nincs jogosultság a bejegyzés közzétételéhez."
+msgstr "Elnézést, de nincs jogosultság a bejegyzés közzétételéhez."
 
-#: xmlrpc.php:2010
-#: xmlrpc.php:2307
+#: xmlrpc.php:2023
+#: xmlrpc.php:2320
 msgid "Sorry, you are not allowed to publish posts on this blog."
-msgstr "Bocsánat, de nincs jogosultság bejegyzések közzétételéhez."
+msgstr "Elnézést, de nincs jogosultság bejegyzések közzétételéhez."
 
-#: xmlrpc.php:2016
-#: xmlrpc.php:2313
+#: xmlrpc.php:2029
+#: xmlrpc.php:2326
 msgid "Sorry, you are not allowed to publish pages on this blog."
-msgstr "Bocsánat, de nincs jogosultság oldalak közzétételéhez."
+msgstr "Elnézést, de nincs jogosultság oldalak közzétételéhez."
 
-#: xmlrpc.php:2026
-#: xmlrpc.php:2075
-#: xmlrpc.php:2323
-#: xmlrpc.php:2383
+#: xmlrpc.php:2039
+#: xmlrpc.php:2088
+#: xmlrpc.php:2336
+#: xmlrpc.php:2396
 msgid "Invalid post type."
 msgstr "Hibás bejegyzés típus."
 
-#: xmlrpc.php:2066
+#: xmlrpc.php:2079
 msgid "You are not allowed to post as this user"
 msgstr "Bejegyzés írásához nincs jogosultság."
 
-#: xmlrpc.php:2071
+#: xmlrpc.php:2084
 msgid "You are not allowed to create pages as this user"
 msgstr "Oldal létrehozásához nincs jogosultság."
 
-#: xmlrpc.php:2374
+#: xmlrpc.php:2387
 msgid "You are not allowed to change the post author as this user."
 msgstr "A bejegyzés szerzőjének módosításához nincs jogosultság."
 
-#: xmlrpc.php:2379
+#: xmlrpc.php:2392
 msgid "You are not allowed to change the page author as this user."
 msgstr "Az oldal szerzőjének módosításához nincs jogosultság."
 
-#: xmlrpc.php:2487
+#: xmlrpc.php:2500
 msgid "Sorry, you do not have the right to publish this page."
-msgstr "Bocsánat, de nincs jog az oldal közzétételéhez."
+msgstr "Elnézést, de nincs jog az oldal közzétételéhez."
 
-#: xmlrpc.php:2522
+#: xmlrpc.php:2535
 msgid "Sorry, your entry could not be edited. Something wrong happened."
-msgstr "Bocsánat, de a bejegyzés nem szerkeszthető. Valami hiba történt."
+msgstr "Elnézést, de a bejegyzés nem szerkeszthető. Valami hiba történt."
 
-#: xmlrpc.php:2787
-#: xmlrpc.php:2974
+#: xmlrpc.php:2803
+#: xmlrpc.php:2995
 msgid "Sorry, you must be able to edit posts on this blog in order to view categories."
-msgstr "Bocsánat, de a kategóriákat csak akkor láthatók, ha van jogosulság bejegyzés szerkesztéséhez."
+msgstr "Elnézést, de a kategóriákat csak akkor láthatók, ha van jogosulság bejegyzés szerkesztéséhez."
 
-#: xmlrpc.php:2844
+#: xmlrpc.php:2860
 msgid "You are not allowed to upload files to this site."
 msgstr "Nincs jogosultság fájlok feltöltéséhez."
 
-#: xmlrpc.php:2871
+#: xmlrpc.php:2887
 #, php-format
 msgid "Could not write file %1$s (%2$s)"
 msgstr "%1$s -  a fájl nem írható (%2$s)"
 
-#: xmlrpc.php:3013
+#: xmlrpc.php:3034
 msgid "Sorry, you can not edit this post."
-msgstr "Bocsánat, de ezt a bejegyzés nem szerkeszthető."
+msgstr "Elnézést, de ez a bejegyzés nem szerkeszthető."
 
-#: xmlrpc.php:3214
+#: xmlrpc.php:3235
 msgid "Is there no link to us?"
 msgstr "Nincs link hozzánk?"
 
-#: xmlrpc.php:3254
-#: xmlrpc.php:3264
-#: xmlrpc.php:3271
-#: xmlrpc.php:3379
+#: xmlrpc.php:3275
+#: xmlrpc.php:3285
+#: xmlrpc.php:3292
+#: xmlrpc.php:3400
 msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
 msgstr "A megadott URL nem használható. Nem létezik, vagy nem kezeli a visszajelzéseket."
 
-#: xmlrpc.php:3267
+#: xmlrpc.php:3288
 msgid "The source URL and the target URL cannot both point to the same resource."
 msgstr "A forrás- és a cél URL nem lehet ugyanaz."
 
-#: xmlrpc.php:3277
+#: xmlrpc.php:3298
 msgid "The pingback has already been registered."
 msgstr "A visszajelzés már regisztrálva van."
 
-#: xmlrpc.php:3285
+#: xmlrpc.php:3306
 msgid "The source URL does not exist."
 msgstr "A megadott URL nem létezik."
 
-#: xmlrpc.php:3297
+#: xmlrpc.php:3318
 msgid "We cannot find a title on that page."
 msgstr "Az oldalon nem található cím."
 
-#: xmlrpc.php:3333
+#: xmlrpc.php:3354
 msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
 msgstr "A forrás URL nem tartalmazza a cél URL-re mutató linket, így nem használható forrásnak."
 
-#: xmlrpc.php:3353
+#: xmlrpc.php:3374
 #, php-format
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
 msgstr "A visszajelzés %1$s -> %2$s viszonylatban regisztrálva. Hagyni kell beszélni a webet! :-)"
 
-#: xmlrpc.php:3386
+#: xmlrpc.php:3407
 msgid "The specified target URL does not exist."
 msgstr "A megadott URL nem létezik."
 
@@ -13951,6 +13870,397 @@ msgstr "LTR"
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "Úgy tűnik, hogy nincs <code>wp-config.php</code> fájl. A telepítőnek szüksége van rá mielőtt nekilátunk. További segítségre van szükség? <a href='http://dokumentacio.word-press.hu/' target='_blank'>Itt megtalálható</a>. Létre kell hozni egy <code>wp-config.php</code> fájlt webes felületen keresztül, bár ez nem működik minden szerverbeállítással. A legbiztosabb megoldás, ha kézzel történik a fájl létrehozása.</p><p><a href='setup-config.php' class='button'>Konfigurációs fájl létrehozása</a>\""
 
+#~ msgid ""
+#~ "This comment is in the Trash. Please move it out of the Trash if you want "
+#~ "to edit it."
+#~ msgstr ""
+#~ "Ez a bejegyzés a lomtárban van. Szerkesztése csak a lomtárból történő "
+#~ "visszahelyezés után lehetséges."
+#~ msgid "Delete Permanently"
+#~ msgstr "Végleges törlés"
+#~ msgid "Trash"
+#~ msgstr "Lomtár"
+#~ msgid "%s comment moved to the trash."
+#~ msgid_plural "%s comments moved to the trash."
+#~ msgstr[0] "%s hozzászólás a lomtárba helyezve"
+#~ msgstr[1] "%s hozzászólás a lomtárba helyezve"
+#~ msgid "Undo?"
+#~ msgstr "Visszavonás?"
+#~ msgid "%s comment restored from the trash"
+#~ msgid_plural "%s comments restored from the trash"
+#~ msgstr[0] "%s hozzászólás visszaállítva a lomtárból"
+#~ msgstr[1] "%s hozzászólás visszaállítva a lomtárból"
+#~ msgid "%s comment permanently deleted"
+#~ msgid_plural "%s comments permanently deleted"
+#~ msgstr[0] "%s hozzászólás végleges törlése"
+#~ msgstr[1] "%s hozzászólás végleges törlése"
+#~ msgid ""
+#~ "Pending <span class=\"count\">(<span class=\"pending-count\">%s</span>)</"
+#~ "span>"
+#~ msgid_plural ""
+#~ "Pending <span class=\"count\">(<span class=\"pending-count\">%s</span>)</"
+#~ "span>"
+#~ msgstr[0] ""
+#~ "Függőben <span class=\"count\">(<span class=\"pending-count\">%s</span>)</"
+#~ "span>"
+#~ msgstr[1] ""
+#~ "Függőben <span class=\"count\">(<span class=\"pending-count\">%s</span>)</"
+#~ "span>"
+#~ msgid ""
+#~ "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+#~ msgid_plural ""
+#~ "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+#~ msgstr[0] ""
+#~ "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+#~ msgstr[1] ""
+#~ "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+#~ msgid ""
+#~ "Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+#~ msgid_plural ""
+#~ "Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+#~ msgstr[0] ""
+#~ "Lomtár <span class=\"count\">(<span class=\"trash-count\">%s</span>)</"
+#~ "span>"
+#~ msgstr[1] ""
+#~ "Lomtár <span class=\"count\">(<span class=\"trash-count\">%s</span>)</"
+#~ "span>"
+#~ msgid "Move to Trash"
+#~ msgstr "Lomtárba helyezés"
+#~ msgid "Empty Spam"
+#~ msgstr "Üres spam-tároló"
+#~ msgid "Empty Trash"
+#~ msgstr "Üres lomtárÜres kifejezés"
+#~ msgid ""
+#~ "Post scheduled for: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s"
+#~ "\">Preview post</a>"
+#~ msgstr ""
+#~ "Bejegyzés előjegyezve: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s"
+#~ "\">Bejegyzés előnézete</a>"
+#~ msgid ""
+#~ "Post draft updated. <a target=\"_blank\" href=\"%s\">Preview post</a>"
+#~ msgstr ""
+#~ "Bejegyzés vázlata módosítva. <a target=\"_blank\" href=\"%s\">Bejegyzés "
+#~ "előnézete</a>"
+#~ msgid "Post Thumbnail"
+#~ msgstr "Nézőkép küldése"
+#~ msgid ""
+#~ "Page scheduled for: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s"
+#~ "\">Preview page</a>"
+#~ msgstr ""
+#~ "Oldal közzététel előjegyezve: <b>%1$s</b>. <a target=\"_blank\" href=\"%2"
+#~ "$s\">Oldal előnézet</a>"
+#~ msgid ""
+#~ "Page draft updated. <a target=\"_blank\" href=\"%s\">Preview page</a>"
+#~ msgstr ""
+#~ "Oldal vázlat frissítve. <a target=\"_blank\" href=\"%s\">Oldal előnézete</"
+#~ "a>"
+#~ msgid "You are not allowed to move this page to the trash."
+#~ msgstr "Az oldal lomtárba helyezéséhez nincs jogosultság."
+#~ msgid "Error in moving to trash..."
+#~ msgstr "Hiba a lomtárba helyezés közben..."
+#~ msgid "You are not allowed to restore this page from the trash."
+#~ msgstr "Az oldal visszahelyezéséhez nincs jogosultság."
+#~ msgid "Error in restoring from trash..."
+#~ msgstr "Hiba a lomtárból történő visszahelyezés közben..."
+#~ msgctxt "page"
+#~ msgid "Trash"
+#~ msgstr "Lomtár"
+#~ msgid "Trash pages"
+#~ msgstr "Lomtár oldalak"
+#~ msgctxt "page"
+#~ msgid "Trash <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Trash <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Lomtár <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "Lomtár <span class=\"count\">(%s)</span>"
+#~ msgid "Page permanently deleted."
+#~ msgid_plural "%s pages permanently deleted."
+#~ msgstr[0] "oldal véglegesen törölve"
+#~ msgstr[1] "%s oldal véglegesen törölve"
+#~ msgid "Page moved to the trash."
+#~ msgid_plural "%s pages moved to the trash."
+#~ msgstr[0] "oldal a lomtárba helyezve"
+#~ msgstr[1] "%s oldal a lomtárba helyezve"
+#~ msgid "View trash"
+#~ msgstr "Lomtár megtekintése"
+#~ msgid "Page restored from the trash."
+#~ msgid_plural "%s pages restored from the trash."
+#~ msgstr[0] "oldal visszaállítása a lomtárból."
+#~ msgstr[1] "%s oldal visszaállítása a lomtárból."
+#~ msgid "You are not allowed to move this post to the trash."
+#~ msgstr "A bejegyzés lomtárba helyezéséhez nincs jogosultság."
+#~ msgid "You are not allowed to restore this post from the trash."
+#~ msgstr "A bejegyzés lomtárból történő visszaállításához nincs jogosultság."
+#~ msgid "Post permanently deleted."
+#~ msgid_plural "%s posts permanently deleted."
+#~ msgstr[0] "bejegyzés véglegesen törölve."
+#~ msgstr[1] "%s bejegyzés véglegesen törölve."
+#~ msgid "Post moved to the trash."
+#~ msgid_plural "%s posts moved to the trash."
+#~ msgstr[0] "bejegyzés a lomtárba helyezve"
+#~ msgstr[1] "%s bejegyzés a lomtárba helyezve"
+#~ msgid "Post restored from the trash."
+#~ msgid_plural "%s posts restored from the trash."
+#~ msgstr[0] "bejegyzés visszaállítva a lomtárból."
+#~ msgstr[1] "%s bejegyzés visszaállítva a lomtárból."
+#~ msgctxt "posts"
+#~ msgid "My Posts <span class=\"count\">(%s)</span>"
+#~ msgid_plural "My Posts <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Bejegyzéseim <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "Bejegyzéseim <span class=\"count\">(%s)</span>"
+#~ msgid "No posts found in the trash"
+#~ msgstr "A lomtárban nincsenek bejegyzések"
+#~ msgid "Theme <span class=\"b\"><a href=\"themes.php\">%1$s</a></span>"
+#~ msgstr "Sablon: <span class=\"b\"><a href=\"themes.php\">%1$s</a></span>"
+#~ msgid "Theme <span class=\"b\">%1$s</span>"
+#~ msgstr "Sablon: <span class=\"b\">%1$s</span>"
+#~ msgid "Move this comment to the trash"
+#~ msgstr "A hozzászólás lomtárba helyezése"
+#~ msgctxt "verb"
+#~ msgid "Trash"
+#~ msgstr "Lomtár"
+
+#, fuzzy
+#~ msgid ""
+#~ "File is empty. Please upload something more substantial. This error could "
+#~ "also be caused by uploads being disabled in your php.ini or by "
+#~ "post_max_size being defined as smaller than upload_max_filesize in php."
+#~ "ini."
+#~ msgstr ""
+#~ "A fájl üres. Kicsit több tartalommal kellene ellátni. :).  This error "
+#~ "could also be caused by uploads being disabled in your php.ini or by "
+#~ "post_max_size being defined as smaller than upload_max_filesize in php."
+#~ "ini."
+#~ msgid "Image data does not exist. Please re-upload the image."
+#~ msgstr "Képadatok nem állnak rendelkezésre. A képet újból fel kell tölteni."
+#~ msgid "Crop"
+#~ msgstr "Körbevágás"
+#~ msgid "Rotate couter-clockwise"
+#~ msgstr "Elforgatás az órajárással megegyező irányba"
+#~ msgid "Rotate clockwise"
+#~ msgstr "Elforgatás az órajárással egyezően"
+#~ msgid "Flip horizontally"
+#~ msgstr "Vízszintes felcserélés"
+#~ msgid "Flip vertically"
+#~ msgstr "Függőleges irányú csere"
+#~ msgid "Scale Image"
+#~ msgstr "Képméretezés"
+#~ msgid "Original dimensions %s"
+#~ msgstr "Eredeti méret: %s"
+#~ msgid "Restore Original Image"
+#~ msgstr "Eredeti méret visszaállítása"
+#~ msgid "Restore image"
+#~ msgstr "Kép visszaállítása"
+#~ msgid "Image Crop"
+#~ msgstr "Képkivágás"
+#~ msgid "(help)"
+#~ msgstr " (segítség)"
+#~ msgid "Keyboard shortcuts"
+#~ msgstr "Gyorsbillentyűk"
+#~ msgid "Arrow: move by 10px"
+#~ msgstr "Nyíl: 10 px mozdítás"
+#~ msgid "Shift + arrow: move by 1px"
+#~ msgstr "Shift + nyíl: 1 px mozdítás"
+#~ msgid "Ctrl + arrow: resize by 10px"
+#~ msgstr "Ctrl + nyíl: 10 px átméretezés"
+#~ msgid "Ctrl + Shift + arrow: resize by 1px"
+#~ msgstr "Ctrl + Shift + nyíl: 1 px átméretezés"
+#~ msgid "Crop Selection"
+#~ msgstr "Kivágás választása"
+#~ msgid "Selection:"
+#~ msgstr "Választás:"
+#~ msgid "Thumbnail Settings"
+#~ msgstr "Bélyegkép beállítások"
+#~ msgid "Current thumbnail"
+#~ msgstr "Jelenlegi bélyegkép"
+#~ msgid "All image sizes"
+#~ msgstr "Összes kép mérete"
+#~ msgid ""
+#~ "There are unsaved changes that will be lost.  'OK' to continue, 'Cancel' "
+#~ "to return to the Image Editor."
+#~ msgstr ""
+#~ "Az el nem mentett változások el fognak veszni. 'OK' a folytatáshoz, "
+#~ "'Megszakítás' vissza a képszerkesztőhöz"
+#~ msgid "Cannot load image metadata."
+#~ msgstr "A kép metaadata nem olvasható be."
+#~ msgid "Cannot save image metadata."
+#~ msgstr "A kép metaadatát nem lehet elmenteni."
+#~ msgid "Image metadata is inconsistent."
+#~ msgstr "A kép metaadata ellentmondásos."
+#~ msgid "Image restored successfully."
+#~ msgstr "Kép viszzaállítása sikeres."
+#~ msgid "Unable to create new image."
+#~ msgstr "Új kép létrehozása ne lehetséges."
+#~ msgid ""
+#~ "Error while saving the scaled image. Please reload the page and try again."
+#~ msgstr ""
+#~ "Hiba történt a kép méretezése közben. Frissíteni kell a böngészőben az "
+#~ "oldalt, majd újra megpróbálni."
+#~ msgid "Nothing to save, the image has not changed."
+#~ msgstr "Semmi nem került mentésre, a kép nem lett változtatva"
+#~ msgid "Unable to save the image."
+#~ msgstr "A képet nem lehet elmenteni."
+#~ msgid "Image saved"
+#~ msgstr "Kép elmentve"
+#~ msgid "Alternate text"
+#~ msgstr "Helyettesítő szöveg"
+#~ msgid "Use for thumbnail"
+#~ msgstr "Felhasználás a bélyegképhez"
+#~ msgid "Edit image"
+#~ msgstr "Kép szerkesztése"
+#~ msgctxt "post"
+#~ msgid "Trash"
+#~ msgstr "Lomtár"
+#~ msgid "Trash posts"
+#~ msgstr "Bejegyzések a lomtárban"
+#~ msgid "Trash <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Trash <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Lomtárban <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "Lomtárban <span class=\"count\">(%s)</span>"
+#~ msgid "Set thumbnail"
+#~ msgstr "Bélyegkép beállítása"
+#~ msgid "Remove thumbnail"
+#~ msgstr "Bélyegkép eltávolítása"
+#~ msgid "Restore this post from the Trash"
+#~ msgstr "A bejegyzés visszaállítása a lomtárból"
+#~ msgid "Delete this post permanently"
+#~ msgstr "Bejegyzés végleges törlése"
+#~ msgid "Move this post to the Trash"
+#~ msgstr "A bejegyzés lomtárba helyezése"
+#~ msgid "Remove this page from the Trash"
+#~ msgstr "Az oldal végleges törlése a lomtárból"
+#~ msgid "Delete this page permanently"
+#~ msgstr "Oldal végleges törlése"
+#~ msgid "Move this page to the Trash"
+#~ msgstr "Az oldal lomtárba helyezése"
+#~ msgid "Comment by"
+#~ msgstr "Hozzászólás szerzője:"
+#~ msgid "moved to the trash."
+#~ msgstr " lomtárba helyezve."
+#~ msgid "WordPress &rsaquo; Database Repair"
+#~ msgstr "WordPress &rsaquo; adatbázis-javítás"
+#~ msgid "Repair Database"
+#~ msgstr "Adatbázis javítása"
+#~ msgid ""
+#~ "You attempted to edit an attachment that doesn&#8217;t exist. Perhaps it "
+#~ "was deleted?"
+#~ msgstr ""
+#~ "Egy nem létező csatolmány szerkesztésére történt kísérlet. Talán valaki "
+#~ "törölte?"
+#~ msgid "Embeds"
+#~ msgstr "Beágyazások"
+#~ msgid "oEmbed"
+#~ msgstr "oEmbed"
+#~ msgid "Use <a href=\"%s\">oEmbed</a> to assist in rich content embedding"
+#~ msgstr ""
+#~ "Az <a href=\"%s\">oEmbed</a> használata a gazdag tartalmak beágyazásának "
+#~ "elősegítésére"
+#~ msgid "Auto-embeds"
+#~ msgstr "Automatikus beágyazások"
+#~ msgid "Embed size"
+#~ msgstr "Beágyazás mérete"
+#~ msgid ""
+#~ "You can&#8217;t edit this page because it is in the Trash. Please move it "
+#~ "out of the Trash and try again."
+#~ msgstr ""
+#~ "Az oldal nem szerkeszthető, mert a lomtárban van. A szerkesztéshez előbb "
+#~ "a lomtárból vissza kell helyezni."
+#~ msgid "You are not allowed to move this page out of the trash."
+#~ msgstr "Nincs jogosultság az oldal lomtárból történő elmozgatásához."
+#~ msgid ""
+#~ "You can&#8217;t edit this post because it is in the Trash. Please restore "
+#~ "it and try again."
+#~ msgstr ""
+#~ "A bejegyzés nem szerkeszthető, mert a lomtárban van. A szerkesztéshez "
+#~ "előbb a lomtárból vissza kell helyezni."
+#~ msgid "You are not allowed to move this post out of the trash."
+#~ msgstr "Nincs jogosultság a bejegyzés lomtárból történő elmozgatásához."
+#~ msgid "Media permanently deleted."
+#~ msgstr "Média véglegesen törölve."
+#~ msgid "Media moved to the trash."
+#~ msgstr "Médiafájl a lomtárba helyezve"
+#~ msgid "Media restored from the trash."
+#~ msgstr "Médiafájl visszahelyezve a lomtárból"
+#~ msgctxt "uploaded files"
+#~ msgid "Trash <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Trash <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Lomtár <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "Lomtár <span class=\"count\">(%s)</span>"
+#~ msgid ""
+#~ "One or more database tables are unavailable.  The database may need to be "
+#~ "<a href=\"maint/repair.php?referrer=is_blog_installed\">repaired</a>."
+#~ msgstr ""
+#~ "Egy vagy több adattábla nem található az adatbázisban. Szükséges az <a "
+#~ "href=\"maint/repair.php?referrer=is_blog_installed\">adatbázis javítása</"
+#~ "a>."
+#~ msgid "Could not read image size"
+#~ msgstr "Nem olvasható képméret"
+#~ msgid ""
+#~ "You are about to permanently delete the selected items.\n"
+#~ "  'Cancel' to stop, 'OK' to delete."
+#~ msgstr ""
+#~ "Biztosan véglegesen törölhetők a kiválasztottak?\n"
+#~ " 'Megszakítás', ha nem, vagy 'OK', ha törölhetőek"
+#~ msgid "not configured"
+#~ msgstr "nincs konfigurálva"
+#~ msgid "Moved to Trash"
+#~ msgstr "Lomtárba helyezve"
+#~ msgid "Saving..."
+#~ msgstr "Mentés folyamatban..."
+#~ msgid ""
+#~ "Could not set that as the thumbnail image. Try a different attachment."
+#~ msgstr "A bélyegkép nem állítható be. Egy másikkal kellene próbálkozni."
+#~ msgid "You have logged in successfully."
+#~ msgstr "Sikeres bejelentkezés."
+#~ msgid "Your session has expired. Please log-in again."
+#~ msgstr "A munkamenet ideje lejárt. Újból be kell jelentkezni."
+#~ msgid "Slow down cowboy, no need to check for new mails so often!"
+#~ msgstr ""
+#~ "Lassíts Polgártárs! Nem szükséges az új emaileket ilyen gyakran "
+#~ "ellenőrizni."
+#~ msgid "Allow new users to sign up"
+#~ msgstr "Új felhasználók felirakozásának engedélyezése"
+#~ msgid "Import Bunny&#8217;s Technorati Tags"
+#~ msgstr "Bunny&#8217;s Technorati Tags importálás"
+#~ msgid ""
+#~ "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into "
+#~ "WordPress tags."
+#~ msgstr ""
+#~ "Bunny&#8217;s Technorati Tags címkék importálása a WordPress saját "
+#~ "címkegyűjteményébe."
+#~ msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
+#~ msgstr "Ez a Bunny&#8217;s Technorati Tags 0.6-os verziójával kompatibilis."
+#~ msgid ""
+#~ "All existing Bunny&#8217;s Technorati Tags will be removed after import."
+#~ msgstr "Az import után törlődnek a Bunny&#8217;s Technorati Tags címkéi."
+#~ msgid "Import Tags"
+#~ msgstr "Címkék importálása"
+#~ msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
+#~ msgstr "Bunny&#8217;s Technorati Tags olvasása&#8230;"
+#~ msgid "Done! <strong>%s</strong> post with tags were read."
+#~ msgid_plural "Done! <strong>%s</strong> posts with tags were read."
+#~ msgstr[0] "Kész! <strong>%s</strong> bejegyzés feldolgozva."
+#~ msgstr[1] "Kész! <strong>%s</strong> bejegyzés feldolgozva."
+#~ msgid "Next"
+#~ msgstr "Következő bejegyzés"
+#~ msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
+#~ msgstr "Bunny&#8217;s Technorati Tags importálás a WordPress címkékbe"
+#~ msgid "Import Jerome&#8217;s Keywords"
+#~ msgstr "Jerome&#8217;s Keywords importálása"
+#~ msgid ""
+#~ "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
+#~ msgstr "Jerome&#8217;s Keywords címkék importálása"
+#~ msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
+#~ msgstr "Ez a Jerome&#8217;s Keywords 1.x és 2.0a verziójával kompatibilis."
+#~ msgid "All existing Jerome&#8217;s Keywords will be removed after import."
+#~ msgstr "Az import után törlődnek a Jerome&#8217;s Keywords címkéi."
+#~ msgid "Import Version 1.x"
+#~ msgstr "v 1.x importálása"
+#~ msgid "Import Version 2.0a"
+#~ msgstr "v2.0a importálása"
+#~ msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
+#~ msgstr "Jerome&#8217;s Keywords Tags olvasás&#8230;"
+#~ msgid "Import Jerome&#8217;s Keywords into WordPress tags."
+#~ msgstr "Jerome&#8217;s Keywords címkék importálva"
 #~ msgid "Enable syntax highlighting"
 #~ msgstr "Szintakszis kiemelés bekapcsolása"
 #~ msgid "Disable syntax highlighting"
@@ -15140,12 +15450,6 @@ msgstr "Úgy tűnik, hogy nincs <code>wp-config.php</code> fájl. A telepítőne
 #~ "Biztosan törölhetők a kiválasztott oldalak?\n"
 #~ " 'Megszakítás', ha nem, vagy 'OK', ha törölhető"
 #~ msgid ""
-#~ "You are about to delete the selected tags.\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "Biztosan törölhetők a kiválasztott címkék?\n"
-#~ " 'Megszakítás', ha nem, vagy 'OK', ha törölhető"
-#~ msgid ""
 #~ "You are about to delete the selected posts.\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
@@ -15464,8 +15768,6 @@ msgstr "Úgy tűnik, hogy nincs <code>wp-config.php</code> fájl. A telepítőne
 #~ msgid_plural "<a %s>Private</a> <span class=\"count\">(%s)</span>"
 #~ msgstr[0] "<a %s>Magánjellegű</a> <span class=\"count\">(%s)</span>"
 #~ msgstr[1] "<a %s>Magán</a> <span class=\"count\">(%s)</span>"
-#~ msgid "View Drafts"
-#~ msgstr "Vázlat megtekintése"
 #~ msgid "Choose File"
 #~ msgstr "Fájl választás"
 #~ msgid "Upload an Image"
@@ -15637,8 +15939,6 @@ msgstr "Úgy tűnik, hogy nincs <code>wp-config.php</code> fájl. A telepítőne
 #~ msgstr "Visszajelzések tiltása"
 #~ msgid "or"
 #~ msgstr "vagy"
-#~ msgid "Page saved."
-#~ msgstr "Oldal elmentve."
 #~ msgid "Add Photo"
 #~ msgstr "Fénykép hozzáadása"
 #~ msgid "All Users"
@@ -15679,8 +15979,6 @@ msgstr "Úgy tűnik, hogy nincs <code>wp-config.php</code> fájl. A telepítőne
 #~ msgstr "Hozzászólás törlése"
 #~ msgid "This comment is"
 #~ msgstr "Ez a hozzászólás"
-#~ msgid "This page is"
-#~ msgstr "Ez az oldal"
 #~ msgid "Change page status"
 #~ msgstr "Oldal státuszának megváltoztatása"
 #~ msgid "Delete&nbsp;page"
@@ -15868,8 +16166,6 @@ msgstr "Úgy tűnik, hogy nincs <code>wp-config.php</code> fájl. A telepítőne
 #~ msgstr "Médiafájl mentve"
 #~ msgid "Edit media"
 #~ msgstr "Média szerkesztése"
-#~ msgid "Media updated."
-#~ msgstr "Média frissítve."
 #~ msgid "Your Profile and Personal Options"
 #~ msgstr "Profil és személyes beállítások"
 #~ msgid "Too short"
@@ -15959,14 +16255,6 @@ msgstr "Úgy tűnik, hogy nincs <code>wp-config.php</code> fájl. A telepítőne
 #~ msgstr "Betekintő nézet"
 #~ msgid "Mass Edit Mode"
 #~ msgstr "Tömeges módosítás"
-
-#, fuzzy
-#~ msgid "%s comment marked as spam."
-#~ msgid_plural "%s comments marked as spam."
-#~ msgstr[0] "%s megjegyzés spam-nek minősítve"
-#~ msgid "%s comment deleted."
-#~ msgid_plural "%s comments deleted."
-#~ msgstr[0] "%s megjegyzés törölve."
 #~ msgid "IP"
 #~ msgstr "IP"
 #~ msgid "Comment Excerpt"
@@ -16154,8 +16442,6 @@ msgstr "Úgy tűnik, hogy nincs <code>wp-config.php</code> fájl. A telepítőne
 #~ msgstr "Új elemre ugrás"
 #~ msgid "Are you sure you want to delete this %thing%?"
 #~ msgstr "%thing% törlése. Rendben?"
-#~ msgid "Your session has expired."
-#~ msgstr "A kapcsolat megszakadt (session expired)."
 #~ msgid ""
 #~ "You are about to delete the '%s' custom field on this post.\n"
 #~ "'OK' to delete, 'Cancel' to stop."

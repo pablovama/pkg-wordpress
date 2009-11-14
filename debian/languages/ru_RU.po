@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 2.8.4\n"
+"Project-Id-Version: WordPress 2.8.6\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-10-21 00:56+0000\n"
-"PO-Revision-Date: 2009-10-21 17:56+0300\n"
+"POT-Creation-Date: 2009-11-12 08:56+0000\n"
+"PO-Revision-Date: 2009-11-14 05:41+0300\n"
 "Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
 "Language-Team: ru.wordpress.org <npocmop@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -1051,7 +1051,7 @@ msgstr[1] "%s комментария помечены как спам"
 msgstr[2] "%s комментариев помечены как спам"
 
 #: wp-admin/edit-comments.php:144
-#: wp-content/plugins/akismet/akismet.php:747
+#: wp-content/plugins/akismet/akismet.php:753
 msgid "All"
 msgid_plural "All"
 msgstr[0] "Все"
@@ -1129,7 +1129,7 @@ msgstr "Показать все типы"
 #: wp-admin/includes/template.php:1166
 #: wp-admin/includes/template.php:3138
 #: wp-admin/includes/template.php:3254
-#: wp-content/plugins/akismet/akismet.php:752
+#: wp-content/plugins/akismet/akismet.php:758
 #: wp-content/themes/classic/comments-popup.php:29
 msgid "Comments"
 msgstr "Комментарии"
@@ -1156,7 +1156,7 @@ msgid "No comments awaiting moderation&hellip; yet."
 msgstr "Комментариев, ожидающих проверки, нет&hellip; пока."
 
 #: wp-admin/edit-comments.php:378
-#: wp-content/plugins/akismet/akismet.php:878
+#: wp-content/plugins/akismet/akismet.php:884
 msgid "No results found."
 msgstr "Ничего не найдено."
 
@@ -4547,7 +4547,7 @@ msgstr[1] "Метки"
 msgstr[2] "Меток"
 
 #: wp-admin/includes/dashboard.php:306
-#: wp-content/plugins/akismet/akismet.php:903
+#: wp-content/plugins/akismet/akismet.php:909
 msgid "Spam"
 msgid_plural "Spam"
 msgstr[0] "Спам-комментарий"
@@ -5473,7 +5473,7 @@ msgstr "Плагины расширяют и дополняют функцион
 #: wp-admin/includes/theme-install.php:162
 #: wp-admin/plugin-install.php:24
 #: wp-admin/theme-install.php:29
-#: wp-content/plugins/akismet/akismet.php:714
+#: wp-content/plugins/akismet/akismet.php:720
 #: wp-content/themes/classic/sidebar.php:21
 #: wp-includes/default-widgets.php:176
 #: wp-includes/general-template.php:127
@@ -5891,7 +5891,7 @@ msgstr[1] "Видеофайлы <span class=\"count\">(%s)</span>"
 msgstr[2] "Видеофайлы <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:976
-#: wp-content/plugins/akismet/akismet.php:832
+#: wp-content/plugins/akismet/akismet.php:838
 msgid "View Post"
 msgstr "Просмотреть запись"
 
@@ -7608,7 +7608,7 @@ msgid "Timezone"
 msgstr "Часовой пояс"
 
 #: wp-admin/options-general.php:126
-#: wp-includes/functions.php:3303
+#: wp-includes/functions.php:3319
 #, php-format
 msgid "UTC %s"
 msgstr "UTC %s"
@@ -8477,7 +8477,7 @@ msgid "Post published."
 msgstr "Запись опубликована."
 
 #: wp-admin/sidebar.php:103
-#: wp-content/plugins/akismet/akismet.php:1084
+#: wp-content/plugins/akismet/akismet.php:1090
 #: wp-includes/default-widgets.php:67
 #: wp-includes/default-widgets.php:197
 #: wp-includes/default-widgets.php:263
@@ -9385,7 +9385,7 @@ msgid "&larr; Back to All Users"
 msgstr "&larr; Назад к списку пользователей"
 
 #: wp-admin/widgets.php:23
-#: wp-includes/functions.php:2740
+#: wp-includes/functions.php:2756
 msgid "Widgets"
 msgstr "Виджеты"
 
@@ -9674,118 +9674,118 @@ msgstr "Проверьте состояние сети &raquo;"
 msgid "Akismet Stats"
 msgstr "Статистика Akismet"
 
-#: wp-content/plugins/akismet/akismet.php:327
+#: wp-content/plugins/akismet/akismet.php:331
 msgid "Akismet is almost ready."
 msgstr "Akismet почти включён."
 
-#: wp-content/plugins/akismet/akismet.php:327
+#: wp-content/plugins/akismet/akismet.php:331
 #, php-format
 msgid "You must <a href=\"%1$s\">enter your WordPress.com API key</a> for it to work."
 msgstr "Чтобы работать с ним, вы должны <a href=\"%1$s\">ввести API-ключ WordPress.com</a>."
 
-#: wp-content/plugins/akismet/akismet.php:335
+#: wp-content/plugins/akismet/akismet.php:339
 msgid "Akismet has detected a problem."
 msgstr "Akismet обнаружил проблему."
 
-#: wp-content/plugins/akismet/akismet.php:335
+#: wp-content/plugins/akismet/akismet.php:339
 #, php-format
 msgid "A server or network problem is preventing Akismet from working correctly.  <a href=\"%1$s\">Click here for more information</a> about how to fix the problem."
 msgstr "Проблема сервера или сети мешает Akismet корректно работать. <a href=\"%1$s\">Здесь информация</a> о том, как её исправить."
 
-#: wp-content/plugins/akismet/akismet.php:589
+#: wp-content/plugins/akismet/akismet.php:595
 #, php-format
 msgid "Akismet Spam (%s)"
 msgstr "Фильтр Akismet (%s)"
 
-#: wp-content/plugins/akismet/akismet.php:591
-#: wp-content/plugins/akismet/akismet.php:593
+#: wp-content/plugins/akismet/akismet.php:597
+#: wp-content/plugins/akismet/akismet.php:599
 msgid "Akismet Spam"
 msgstr "Фильтр Akismet"
 
-#: wp-content/plugins/akismet/akismet.php:603
-#: wp-content/plugins/akismet/akismet.php:622
+#: wp-content/plugins/akismet/akismet.php:609
+#: wp-content/plugins/akismet/akismet.php:628
 msgid "You do not have sufficient permission to moderate comments."
 msgstr "У вас недостаточно полномочий, чтобы модерировать комментарии."
 
-#: wp-content/plugins/akismet/akismet.php:634
+#: wp-content/plugins/akismet/akismet.php:640
 #, php-format
 msgid "%1$s comments recovered."
 msgstr "Комментарии (%1$s) восстановлены. "
 
-#: wp-content/plugins/akismet/akismet.php:638
+#: wp-content/plugins/akismet/akismet.php:644
 msgid "All spam deleted."
 msgstr "Весь спам удалён."
 
-#: wp-content/plugins/akismet/akismet.php:686
+#: wp-content/plugins/akismet/akismet.php:692
 msgid "Caught Spam"
 msgstr "Возможный спам"
 
-#: wp-content/plugins/akismet/akismet.php:691
+#: wp-content/plugins/akismet/akismet.php:697
 #, php-format
 msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
 msgstr "Akismet отловил уже кучу спама (<strong>%1$s</strong>) со времени установки."
 
-#: wp-content/plugins/akismet/akismet.php:698
+#: wp-content/plugins/akismet/akismet.php:704
 msgid "You have no spam currently in the queue. Must be your lucky day. :)"
 msgstr "У вас нет спама. Удачный день :)"
 
-#: wp-content/plugins/akismet/akismet.php:701
+#: wp-content/plugins/akismet/akismet.php:707
 msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
 msgstr "Вы можете удалить весь спам из базы данных одним нажатием кнопки. Это действие необратимо, поэтому сначала убедитесь, что в список не попали полезные комментарии. Спам автоматически удаляется по истечении 15 дней, об этом не стоит беспокоиться."
 
-#: wp-content/plugins/akismet/akismet.php:707
-#: wp-content/plugins/akismet/akismet.php:885
+#: wp-content/plugins/akismet/akismet.php:713
+#: wp-content/plugins/akismet/akismet.php:891
 #, php-format
 msgid "There are currently %1$s comments identified as spam."
 msgstr "Комментарии (%1$s) определены как спам."
 
-#: wp-content/plugins/akismet/akismet.php:707
-#: wp-content/plugins/akismet/akismet.php:885
+#: wp-content/plugins/akismet/akismet.php:713
+#: wp-content/plugins/akismet/akismet.php:891
 msgid "Delete all"
 msgstr "Удалить все"
 
-#: wp-content/plugins/akismet/akismet.php:716
+#: wp-content/plugins/akismet/akismet.php:722
 msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
 msgstr "Это последние комментарии, которые фильтр Akismet определил как спам. Если вы увидели, что по ошибке в них были зачислены нормальные комментарии, просто пометьте их как &laquo;не спам&raquo;, и Akismet будет уведомлён. Чтобы восстановить комментарий из спама, просто выберите его и нажмите &laquo;Не спам&raquo;. По истечении 15 дней произойдёт очистка."
 
-#: wp-content/plugins/akismet/akismet.php:770
+#: wp-content/plugins/akismet/akismet.php:776
 msgid "Search Spam &raquo;"
 msgstr "Искать спам &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:777
-#: wp-content/plugins/akismet/akismet.php:844
+#: wp-content/plugins/akismet/akismet.php:783
+#: wp-content/plugins/akismet/akismet.php:850
 #: wp-includes/link-template.php:1445
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Предыдущая страница"
 
-#: wp-content/plugins/akismet/akismet.php:798
-#: wp-content/plugins/akismet/akismet.php:865
+#: wp-content/plugins/akismet/akismet.php:804
+#: wp-content/plugins/akismet/akismet.php:871
 #: wp-includes/link-template.php:1446
 msgid "Next Page &raquo;"
 msgstr "Следующая страница &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:820
+#: wp-content/plugins/akismet/akismet.php:826
 msgid "IP:"
 msgstr "IP:"
 
-#: wp-content/plugins/akismet/akismet.php:826
+#: wp-content/plugins/akismet/akismet.php:832
 msgid "Not Spam"
 msgstr "Не спам"
 
-#: wp-content/plugins/akismet/akismet.php:871
+#: wp-content/plugins/akismet/akismet.php:877
 msgid "De-spam marked comments &raquo;"
 msgstr "Пометить выделенные комментарии как НЕ спам &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:873
+#: wp-content/plugins/akismet/akismet.php:879
 msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
 msgstr "Комментарии, помеченные как не-спам, будут отправлены в Akismet, чтобы система обучалась и становилась лучше."
 
-#: wp-content/plugins/akismet/akismet.php:909
+#: wp-content/plugins/akismet/akismet.php:915
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
 msgstr "<a href=\"%1$s\">Akismet</a> защищает ваш сайт от <a href=\"%2$s\">спама в комментариях (%3$s)</a>."
 
-#: wp-content/plugins/akismet/akismet.php:927
+#: wp-content/plugins/akismet/akismet.php:933
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
@@ -9793,12 +9793,12 @@ msgstr[0] "<a href=\"%1$s\">Akismet</a> уже защитил ваш сайт о
 msgstr[1] "<a href=\"%1$s\">Akismet</a> уже защитил ваш сайт от %2$s спам-комментариев,"
 msgstr[2] "<a href=\"%1$s\">Akismet</a> уже защитил ваш сайт от %2$s спам-комментариев,"
 
-#: wp-content/plugins/akismet/akismet.php:932
+#: wp-content/plugins/akismet/akismet.php:938
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
 msgstr "<a href=\"%1$s\">Akismet</a> защищает ваш блог от спама,"
 
-#: wp-content/plugins/akismet/akismet.php:937
+#: wp-content/plugins/akismet/akismet.php:943
 #, php-format
 msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
@@ -9806,34 +9806,34 @@ msgstr[0] "и на текущий момент в очереди спама <a h
 msgstr[1] "и на текущий момент в очереди спама <a href=\"%2$s\">%1$s комментария</a>."
 msgstr[2] "и на текущий момент в очереди спама <a href=\"%2$s\">%1$s комментариев</a>."
 
-#: wp-content/plugins/akismet/akismet.php:942
+#: wp-content/plugins/akismet/akismet.php:948
 #, php-format
 msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
 msgstr "но в настоящий момент <a href='%1$s'>очередь спама</a> пуста."
 
-#: wp-content/plugins/akismet/akismet.php:945
+#: wp-content/plugins/akismet/akismet.php:951
 #, php-format
 msgid "%1$s %2$s|akismet_rightnow"
 msgstr "%1$s %2$s|akismet_сейчас"
 
-#: wp-content/plugins/akismet/akismet.php:960
+#: wp-content/plugins/akismet/akismet.php:966
 msgid "Recheck Queue for Spam"
 msgstr "Заново проверить комментарии на спам"
 
-#: wp-content/plugins/akismet/akismet.php:977
+#: wp-content/plugins/akismet/akismet.php:983
 msgid "Check for Spam"
 msgstr "Проверить на спам"
 
-#: wp-content/plugins/akismet/akismet.php:1052
+#: wp-content/plugins/akismet/akismet.php:1058
 #, php-format
 msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
 msgstr "%1$s %2$sспам-комментариев%3$s %4$sзаблокировал%5$s<br />%6$sAkismet%7$s"
 
-#: wp-content/plugins/akismet/akismet.php:1114
+#: wp-content/plugins/akismet/akismet.php:1120
 msgid "spam comments"
 msgstr "спам-комментарии"
 
-#: wp-content/plugins/akismet/akismet.php:1114
+#: wp-content/plugins/akismet/akismet.php:1120
 msgid "blocked by"
 msgstr "блокировано"
 
@@ -10321,7 +10321,7 @@ msgstr "Добавить комментарий для %s"
 #: wp-includes/comment-template.php:1263
 #, php-format
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
-msgstr "<cite class=\"fn\">%s</cite>:"
+msgstr "<cite class=\"fn\">%s</cite><span class=\"says\">:</span>"
 
 #: wp-includes/comment-template.php:1266
 msgid "Your comment is awaiting moderation."
@@ -10642,7 +10642,7 @@ msgctxt "closing curly quote"
 msgid "&#8221;"
 msgstr "&raquo;"
 
-#: wp-includes/formatting.php:1664
+#: wp-includes/formatting.php:1697
 #, php-format
 msgid "%s min"
 msgid_plural "%s mins"
@@ -10650,7 +10650,7 @@ msgstr[0] "%s минута"
 msgstr[1] "%s минуты"
 msgstr[2] "%s минут"
 
-#: wp-includes/formatting.php:1670
+#: wp-includes/formatting.php:1703
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
@@ -10658,7 +10658,7 @@ msgstr[0] "%s час"
 msgstr[1] "%s часа"
 msgstr[2] "%s часов"
 
-#: wp-includes/formatting.php:1676
+#: wp-includes/formatting.php:1709
 #, php-format
 msgid "%s day"
 msgid_plural "%s days"
@@ -10667,17 +10667,17 @@ msgstr[1] "%s дня"
 msgstr[2] "%s дней"
 
 #. translators: used between list items, there is a space after the coma
-#: wp-includes/formatting.php:2550
+#: wp-includes/formatting.php:2583
 msgid ", "
 msgstr ", "
 
 #. translators: used between list items, there is a space after the and
-#: wp-includes/formatting.php:2552
+#: wp-includes/formatting.php:2585
 msgid ", and "
 msgstr ", и"
 
 #. translators: used between only two list items, there is a space after the and
-#: wp-includes/formatting.php:2554
+#: wp-includes/formatting.php:2587
 msgid " and "
 msgstr " и "
 
@@ -10706,216 +10706,216 @@ msgstr "Пустое имя файла"
 msgid "Could not write file %s"
 msgstr "Невозможно сохранить файл %s"
 
-#: wp-includes/functions.php:2323
+#: wp-includes/functions.php:2339
 #, php-format
 msgid "Your attempt to edit this attachment: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить это вложение: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2325
+#: wp-includes/functions.php:2341
 msgid "Your attempt to add this category has failed."
 msgstr "Попытка добавить эту рубрику не удалась."
 
-#: wp-includes/functions.php:2326
+#: wp-includes/functions.php:2342
 #, php-format
 msgid "Your attempt to delete this category: &#8220;%s&#8221; has failed."
 msgstr "Попытка удалить эту рубрику: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2327
+#: wp-includes/functions.php:2343
 #, php-format
 msgid "Your attempt to edit this category: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить эту рубрику: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2329
+#: wp-includes/functions.php:2345
 #, php-format
 msgid "Your attempt to delete this comment: &#8220;%s&#8221; has failed."
 msgstr "Попытка удалить этот комментарий: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2330
+#: wp-includes/functions.php:2346
 #, php-format
 msgid "Your attempt to unapprove this comment: &#8220;%s&#8221; has failed."
 msgstr "Попытка отклонить этот комментарий: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2331
+#: wp-includes/functions.php:2347
 #, php-format
 msgid "Your attempt to approve this comment: &#8220;%s&#8221; has failed."
 msgstr "Попытка одобрить этот комментарий: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2332
+#: wp-includes/functions.php:2348
 #, php-format
 msgid "Your attempt to edit this comment: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить этот комментарий: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2333
+#: wp-includes/functions.php:2349
 msgid "Your attempt to bulk modify comments has failed."
 msgstr "Попытка массово изменить комментарии не удалась."
 
-#: wp-includes/functions.php:2334
+#: wp-includes/functions.php:2350
 msgid "Your attempt to moderate comments has failed."
 msgstr "Попытка проверить эти комментарии не удалась."
 
-#: wp-includes/functions.php:2336
+#: wp-includes/functions.php:2352
 msgid "Your attempt to add this link has failed."
 msgstr "Попытка добавить эту ссылку не удалась."
 
-#: wp-includes/functions.php:2337
+#: wp-includes/functions.php:2353
 #, php-format
 msgid "Your attempt to delete this link: &#8220;%s&#8221; has failed."
 msgstr "Попытка удалить эту ссылку: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2338
+#: wp-includes/functions.php:2354
 #, php-format
 msgid "Your attempt to edit this link: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить эту ссылку: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2339
+#: wp-includes/functions.php:2355
 msgid "Your attempt to bulk modify links has failed."
 msgstr "Попытка массово изменить ссылки не удалась."
 
-#: wp-includes/functions.php:2341
+#: wp-includes/functions.php:2357
 msgid "Your attempt to add this page has failed."
 msgstr "Попытка добавить эту страницу не удалась."
 
-#: wp-includes/functions.php:2342
+#: wp-includes/functions.php:2358
 #, php-format
 msgid "Your attempt to delete this page: &#8220;%s&#8221; has failed."
 msgstr "Попытка удалить эту страницу: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2343
+#: wp-includes/functions.php:2359
 #, php-format
 msgid "Your attempt to edit this page: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить эту страницу: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2345
+#: wp-includes/functions.php:2361
 #, php-format
 msgid "Your attempt to edit this plugin file: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить файл плагина: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2346
+#: wp-includes/functions.php:2362
 #, php-format
 msgid "Your attempt to activate this plugin: &#8220;%s&#8221; has failed."
 msgstr "Попытка активировать этот плагин: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2347
+#: wp-includes/functions.php:2363
 #, php-format
 msgid "Your attempt to deactivate this plugin: &#8220;%s&#8221; has failed."
 msgstr "Попытка деактивировать этот плагин: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2348
+#: wp-includes/functions.php:2364
 #, php-format
 msgid "Your attempt to upgrade this plugin: &#8220;%s&#8221; has failed."
 msgstr "Попытка обновить этот плагин: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2350
+#: wp-includes/functions.php:2366
 msgid "Your attempt to add this post has failed."
 msgstr "Попытка добавить эту запись не удалась."
 
-#: wp-includes/functions.php:2351
+#: wp-includes/functions.php:2367
 #, php-format
 msgid "Your attempt to delete this post: &#8220;%s&#8221; has failed."
 msgstr "Попытка удалить эту запись: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2352
+#: wp-includes/functions.php:2368
 #, php-format
 msgid "Your attempt to edit this post: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить эту запись: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2354
+#: wp-includes/functions.php:2370
 msgid "Your attempt to add this user has failed."
 msgstr "Попытка добавить этого пользователя не удалась."
 
-#: wp-includes/functions.php:2355
+#: wp-includes/functions.php:2371
 msgid "Your attempt to delete users has failed."
 msgstr "Попытка удалить пользователей не удалась."
 
-#: wp-includes/functions.php:2356
+#: wp-includes/functions.php:2372
 msgid "Your attempt to bulk modify users has failed."
 msgstr "Попытка изменить данные пользователей не удалась."
 
-#: wp-includes/functions.php:2357
+#: wp-includes/functions.php:2373
 #, php-format
 msgid "Your attempt to edit this user: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить данные этого пользователя: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2358
+#: wp-includes/functions.php:2374
 #, php-format
 msgid "Your attempt to modify the profile for: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить профиль для &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2360
+#: wp-includes/functions.php:2376
 msgid "Your attempt to edit your settings has failed."
 msgstr "Попытка изменить настройки не удалась."
 
-#: wp-includes/functions.php:2361
+#: wp-includes/functions.php:2377
 #, php-format
 msgid "Your attempt to change your permalink structure to: %s has failed."
 msgstr "Попытка изменить структуру постоянных ссылок на %s не удалась."
 
-#: wp-includes/functions.php:2362
+#: wp-includes/functions.php:2378
 #, php-format
 msgid "Your attempt to edit this file: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить этот файл: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2363
+#: wp-includes/functions.php:2379
 #, php-format
 msgid "Your attempt to edit this theme file: &#8220;%s&#8221; has failed."
 msgstr "Попытка изменить этот файл темы: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2364
+#: wp-includes/functions.php:2380
 #, php-format
 msgid "Your attempt to switch to this theme: &#8220;%s&#8221; has failed."
 msgstr "Попытка переключиться на эту тему: &laquo;%s&raquo; не удалась."
 
-#: wp-includes/functions.php:2366
+#: wp-includes/functions.php:2382
 #, php-format
 msgid "You are attempting to log out of %s"
 msgstr "Вы пытаетесь выйти с %s"
 
-#: wp-includes/functions.php:2386
-#: wp-includes/functions.php:2388
+#: wp-includes/functions.php:2402
+#: wp-includes/functions.php:2404
 msgid "Are you sure you want to do this?"
 msgstr "Вы уверены, что хотите это сделать?"
 
-#: wp-includes/functions.php:2405
+#: wp-includes/functions.php:2421
 msgid "WordPress Failure Notice"
 msgstr "Сообщение об ошибке"
 
-#: wp-includes/functions.php:2408
+#: wp-includes/functions.php:2424
 msgid "Please try again."
 msgstr "Пожалуйста, попробуйте ещё раз."
 
-#: wp-includes/functions.php:2410
+#: wp-includes/functions.php:2426
 #, php-format
 msgid "Do you really want to <a href='%s'>log out</a>?"
 msgstr "Вы действительно хотите <a href='%s'>выйти</a>?"
 
-#: wp-includes/functions.php:2461
+#: wp-includes/functions.php:2477
 msgid "&laquo; Back"
 msgstr "&laquo; Назад"
 
 #. #-#-#-#-#  wordpress.pot (PACKAGE VERSION)  #-#-#-#-#
 #. Not gettexted string WP_I18N_ERROR_TITLE
-#: wp-includes/functions.php:2482
+#: wp-includes/functions.php:2498
 #: wp-load.php:50
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; Ошибка"
 
-#: wp-includes/functions.php:2918
-#: wp-includes/functions.php:2955
+#: wp-includes/functions.php:2934
+#: wp-includes/functions.php:2971
 #, php-format
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "Функция %1$s с версии %2$s <strong>считается устаревшей</strong>! Используйте %3$s."
 
-#: wp-includes/functions.php:2920
-#: wp-includes/functions.php:2957
+#: wp-includes/functions.php:2936
+#: wp-includes/functions.php:2973
 #, php-format
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "Функция %1$s с версии %2$s <strong>считается устаревшей</strong>. Альтернативы не предусмотрено."
 
-#: wp-includes/functions.php:3275
+#: wp-includes/functions.php:3291
 msgid "Select a city"
 msgstr "Выберите город"
 
-#: wp-includes/functions.php:3290
+#: wp-includes/functions.php:3306
 msgid "Manual offsets"
 msgstr "Ручные смещения"
 

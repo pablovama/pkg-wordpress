@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-10-21 00:56+0000\n"
-"PO-Revision-Date: 2009-10-21 11:53+0100\n"
+"POT-Creation-Date: 2009-11-12 08:56+0000\n"
+"PO-Revision-Date: 2009-11-13 01:45+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WP-Support Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -764,7 +764,7 @@ msgstr "Okänd åtgärd."
 #: wp-admin/includes/theme-install.php:188
 #: wp-content/themes/default/functions.php:156
 msgid "Custom Header"
-msgstr "Anpassat sidhuvudet"
+msgstr "Anpassa sidhuvudet"
 
 #: wp-admin/custom-header.php:196
 #: wp-admin/custom-header.php:287
@@ -1056,7 +1056,7 @@ msgstr[0] "%s kommentar markerad som skräp "
 msgstr[1] "%s kommentarer markerade som skräp"
 
 #: wp-admin/edit-comments.php:144
-#: wp-content/plugins/akismet/akismet.php:747
+#: wp-content/plugins/akismet/akismet.php:753
 msgid "All"
 msgid_plural "All"
 msgstr[0] "Alla"
@@ -1130,7 +1130,7 @@ msgstr "Visa alla kommentarstyper"
 #: wp-admin/includes/template.php:1166
 #: wp-admin/includes/template.php:3138
 #: wp-admin/includes/template.php:3254
-#: wp-content/plugins/akismet/akismet.php:752
+#: wp-content/plugins/akismet/akismet.php:758
 #: wp-content/themes/classic/comments-popup.php:29
 msgid "Comments"
 msgstr "Kommentarer"
@@ -1157,7 +1157,7 @@ msgid "No comments awaiting moderation&hellip; yet."
 msgstr "Inga kommentarer väntar på granskning&hellip; än."
 
 #: wp-admin/edit-comments.php:378
-#: wp-content/plugins/akismet/akismet.php:878
+#: wp-content/plugins/akismet/akismet.php:884
 msgid "No results found."
 msgstr "Hittade inga resultat."
 
@@ -1169,12 +1169,12 @@ msgstr "Inlägg uppdaterat. <a href=\"%s\">Visa inlägg</a>"
 #: wp-admin/edit-form-advanced.php:24
 #: wp-admin/edit-page-form.php:26
 msgid "Custom field updated."
-msgstr "Anpassat fält uppdaterat."
+msgstr "Eget fält uppdaterat."
 
 #: wp-admin/edit-form-advanced.php:25
 #: wp-admin/edit-page-form.php:27
 msgid "Custom field deleted."
-msgstr "Anpassat fält raderat."
+msgstr "Eget fält raderat."
 
 #: wp-admin/edit-form-advanced.php:26
 msgid "Post updated."
@@ -4513,7 +4513,7 @@ msgstr[0] "Etikett"
 msgstr[1] "Etiketter"
 
 #: wp-admin/includes/dashboard.php:306
-#: wp-content/plugins/akismet/akismet.php:903
+#: wp-content/plugins/akismet/akismet.php:909
 msgid "Spam"
 msgid_plural "Spam"
 msgstr[0] "Skräppost"
@@ -5252,7 +5252,7 @@ msgstr "Fallande"
 
 #: wp-admin/includes/media.php:1592
 msgid "Clear"
-msgstr "Kontaktbar"
+msgstr "Rensa"
 
 #: wp-admin/includes/media.php:1599
 #: wp-admin/menu.php:48
@@ -5436,7 +5436,7 @@ msgstr "Tillägg utvidgar och utvecklar WordPress funktioner. Du kan automatiskt
 #: wp-admin/includes/theme-install.php:162
 #: wp-admin/plugin-install.php:24
 #: wp-admin/theme-install.php:29
-#: wp-content/plugins/akismet/akismet.php:714
+#: wp-content/plugins/akismet/akismet.php:720
 #: wp-content/themes/classic/sidebar.php:21
 #: wp-includes/default-widgets.php:176
 #: wp-includes/general-template.php:127
@@ -5844,7 +5844,7 @@ msgstr[0] "Video <span class=\"count\">(%s)</span>"
 msgstr[1] "Videos <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:976
-#: wp-content/plugins/akismet/akismet.php:832
+#: wp-content/plugins/akismet/akismet.php:838
 msgid "View Post"
 msgstr "Visa inlägg"
 
@@ -6207,7 +6207,7 @@ msgstr "Nyckel"
 
 #: wp-admin/includes/template.php:2470
 msgid "Add new custom field:"
-msgstr "Lägg till nytt anpassat fält:"
+msgstr "Lägg till nytt eget fält:"
 
 #: wp-admin/includes/template.php:2495
 msgid "Enter new"
@@ -7560,7 +7560,7 @@ msgid "Timezone"
 msgstr "Tidszon"
 
 #: wp-admin/options-general.php:126
-#: wp-includes/functions.php:3303
+#: wp-includes/functions.php:3319
 #, php-format
 msgid "UTC %s"
 msgstr "UTC %s"
@@ -8397,7 +8397,7 @@ msgstr "via"
 #: wp-admin/revision.php:96
 #, php-format
 msgid "Compare Revisions of &#8220;%1$s&#8221;"
-msgstr "Jämnför versioner av &#8221;%1$s&#8221;"
+msgstr "Jämför versioner av &#8221;%1$s&#8221;"
 
 #: wp-admin/revision.php:118
 #, php-format
@@ -8423,7 +8423,7 @@ msgid "Post published."
 msgstr "Inlägg publicerat."
 
 #: wp-admin/sidebar.php:103
-#: wp-content/plugins/akismet/akismet.php:1084
+#: wp-content/plugins/akismet/akismet.php:1090
 #: wp-includes/default-widgets.php:67
 #: wp-includes/default-widgets.php:197
 #: wp-includes/default-widgets.php:263
@@ -9324,7 +9324,7 @@ msgid "&larr; Back to All Users"
 msgstr "&larr; Tillbaka till alla användare"
 
 #: wp-admin/widgets.php:23
-#: wp-includes/functions.php:2740
+#: wp-includes/functions.php:2756
 msgid "Widgets"
 msgstr "Widgets"
 
@@ -9613,164 +9613,164 @@ msgstr "Kontrollera nätverksstatus &raquo;"
 msgid "Akismet Stats"
 msgstr "Akismet statistik"
 
-#: wp-content/plugins/akismet/akismet.php:327
+#: wp-content/plugins/akismet/akismet.php:331
 msgid "Akismet is almost ready."
 msgstr "Akismet är nästan redo."
 
-#: wp-content/plugins/akismet/akismet.php:327
+#: wp-content/plugins/akismet/akismet.php:331
 #, php-format
 msgid "You must <a href=\"%1$s\">enter your WordPress.com API key</a> for it to work."
 msgstr "Du måste <a href=\"%1$s\">ange din WordPress.com API-nyckel</a> innan det kan fungera."
 
-#: wp-content/plugins/akismet/akismet.php:335
+#: wp-content/plugins/akismet/akismet.php:339
 msgid "Akismet has detected a problem."
 msgstr "Akismet har upptäckt ett problem."
 
-#: wp-content/plugins/akismet/akismet.php:335
+#: wp-content/plugins/akismet/akismet.php:339
 #, php-format
 msgid "A server or network problem is preventing Akismet from working correctly.  <a href=\"%1$s\">Click here for more information</a> about how to fix the problem."
 msgstr "Ett server eller nätverksproblem förhindrar Akismet från att fungera korrekt. <a href=\"%1$s\">Klicka här för mer information</a> om hur man åtgärdar detta problem."
 
-#: wp-content/plugins/akismet/akismet.php:589
+#: wp-content/plugins/akismet/akismet.php:595
 #, php-format
 msgid "Akismet Spam (%s)"
 msgstr "Akismet skräp (%s)"
 
-#: wp-content/plugins/akismet/akismet.php:591
-#: wp-content/plugins/akismet/akismet.php:593
+#: wp-content/plugins/akismet/akismet.php:597
+#: wp-content/plugins/akismet/akismet.php:599
 msgid "Akismet Spam"
 msgstr "Akismet skräp"
 
-#: wp-content/plugins/akismet/akismet.php:603
-#: wp-content/plugins/akismet/akismet.php:622
+#: wp-content/plugins/akismet/akismet.php:609
+#: wp-content/plugins/akismet/akismet.php:628
 msgid "You do not have sufficient permission to moderate comments."
 msgstr "Du saknar rättigheter att moderera kommentarer."
 
-#: wp-content/plugins/akismet/akismet.php:634
+#: wp-content/plugins/akismet/akismet.php:640
 #, php-format
 msgid "%1$s comments recovered."
 msgstr "%1$s kommentarer återställda."
 
-#: wp-content/plugins/akismet/akismet.php:638
+#: wp-content/plugins/akismet/akismet.php:644
 msgid "All spam deleted."
 msgstr "All skräp har raderats."
 
-#: wp-content/plugins/akismet/akismet.php:686
+#: wp-content/plugins/akismet/akismet.php:692
 msgid "Caught Spam"
 msgstr "Fångad skräppost"
 
-#: wp-content/plugins/akismet/akismet.php:691
+#: wp-content/plugins/akismet/akismet.php:697
 #, php-format
 msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
 msgstr "Akismet har fångat <strong>%1$s</strong> skräpposter sedan installationen."
 
-#: wp-content/plugins/akismet/akismet.php:698
+#: wp-content/plugins/akismet/akismet.php:704
 msgid "You have no spam currently in the queue. Must be your lucky day. :)"
 msgstr "Du har inga skräpposter i kön. Du har tydligen tur idag. :)"
 
-#: wp-content/plugins/akismet/akismet.php:701
+#: wp-content/plugins/akismet/akismet.php:707
 msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
 msgstr "Du kan radera alla skräpposter från din databas med ett enda knapptryck. Den här operationen kan inte återhämtas så kontrollera noggrant att inga riktiga kommentarer har fastnat i filtret. Skräpposterna raderas automatiskt efter 15 dagar så du kan ta det lugnt."
 
-#: wp-content/plugins/akismet/akismet.php:707
-#: wp-content/plugins/akismet/akismet.php:885
+#: wp-content/plugins/akismet/akismet.php:713
+#: wp-content/plugins/akismet/akismet.php:891
 #, php-format
 msgid "There are currently %1$s comments identified as spam."
 msgstr "För närvarande är %1$s kommentarer markerade som skräp."
 
-#: wp-content/plugins/akismet/akismet.php:707
-#: wp-content/plugins/akismet/akismet.php:885
+#: wp-content/plugins/akismet/akismet.php:713
+#: wp-content/plugins/akismet/akismet.php:891
 msgid "Delete all"
 msgstr "Radera alla"
 
-#: wp-content/plugins/akismet/akismet.php:716
+#: wp-content/plugins/akismet/akismet.php:722
 msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
 msgstr "Detta är de senaste kommentarer som Akismet har identifierat som skräp. Om du lägger märke till några misstag kan du enkelt markera kommentaren som \"inte skräp\". Akismet kommer att lära sig av sitt misstag. Om du vill rädda en kommentar ur skräpposterna kan du välja kommentaren och klicka på Inte skräp. Efter 15 dagar rensar vi automatiskt bort skräpet."
 
-#: wp-content/plugins/akismet/akismet.php:770
+#: wp-content/plugins/akismet/akismet.php:776
 msgid "Search Spam &raquo;"
 msgstr "Sök bland skräpposter &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:777
-#: wp-content/plugins/akismet/akismet.php:844
+#: wp-content/plugins/akismet/akismet.php:783
+#: wp-content/plugins/akismet/akismet.php:850
 #: wp-includes/link-template.php:1445
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Föregående sida"
 
-#: wp-content/plugins/akismet/akismet.php:798
-#: wp-content/plugins/akismet/akismet.php:865
+#: wp-content/plugins/akismet/akismet.php:804
+#: wp-content/plugins/akismet/akismet.php:871
 #: wp-includes/link-template.php:1446
 msgid "Next Page &raquo;"
 msgstr "Nästa sida &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:820
+#: wp-content/plugins/akismet/akismet.php:826
 msgid "IP:"
 msgstr "IP:"
 
-#: wp-content/plugins/akismet/akismet.php:826
+#: wp-content/plugins/akismet/akismet.php:832
 msgid "Not Spam"
 msgstr "Inte skräp"
 
-#: wp-content/plugins/akismet/akismet.php:871
+#: wp-content/plugins/akismet/akismet.php:877
 msgid "De-spam marked comments &raquo;"
 msgstr "Ta bort skräppostmarkering för valda kommentarer &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:873
+#: wp-content/plugins/akismet/akismet.php:879
 msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
 msgstr "De kommentarer du markerar som inte skräp skickas till Akismet så att systemet kan lära sig och bli bättre."
 
-#: wp-content/plugins/akismet/akismet.php:909
+#: wp-content/plugins/akismet/akismet.php:915
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
 msgstr "<a href=\"%1$s\">Akismet</a> har skyddat din webbplats mot <a href=\"%2$s\">%3$s skräpkommentarer</a>."
 
-#: wp-content/plugins/akismet/akismet.php:927
+#: wp-content/plugins/akismet/akismet.php:933
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
 msgstr[0] "<a href=\"%1$s\">Akismet</a> har redan skyddat din webbplats mot %2$s skräpkommentar,"
 msgstr[1] "<a href=\"%1$s\">Akismet</a> har redan skyddat din webbplats mot %2$s skräpkommentarer,"
 
-#: wp-content/plugins/akismet/akismet.php:932
+#: wp-content/plugins/akismet/akismet.php:938
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
 msgstr "<a href=\"%1$s\">Akismet</a> blockerar skräpinlägg från att hamna i din blogg,"
 
-#: wp-content/plugins/akismet/akismet.php:937
+#: wp-content/plugins/akismet/akismet.php:943
 #, php-format
 msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
 msgstr[0] "och det finns <a href=\"%2$s\">%1$s kommentar</a> i din skräppost-kö just nu."
 msgstr[1] "och det finns <a href=\"%2$s\">%1$s kommentarer</a> i din skräppost-kö just nu."
 
-#: wp-content/plugins/akismet/akismet.php:942
+#: wp-content/plugins/akismet/akismet.php:948
 #, php-format
 msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
 msgstr "men det finns inget i din <a href='%1$s'>skräppost-kö</a> för tillfället."
 
-#: wp-content/plugins/akismet/akismet.php:945
+#: wp-content/plugins/akismet/akismet.php:951
 #, php-format
 msgid "%1$s %2$s|akismet_rightnow"
 msgstr "%1$s %2$s"
 
-#: wp-content/plugins/akismet/akismet.php:960
+#: wp-content/plugins/akismet/akismet.php:966
 msgid "Recheck Queue for Spam"
 msgstr "Ladda om skräppost-kön"
 
-#: wp-content/plugins/akismet/akismet.php:977
+#: wp-content/plugins/akismet/akismet.php:983
 msgid "Check for Spam"
 msgstr "Kolla efter skräppost"
 
-#: wp-content/plugins/akismet/akismet.php:1052
+#: wp-content/plugins/akismet/akismet.php:1058
 #, php-format
 msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
 msgstr "%1$s %2$sskräpkommentarer%3$s %4$sblockerade av%5$s<br />%6$sAkismet%7$s"
 
-#: wp-content/plugins/akismet/akismet.php:1114
+#: wp-content/plugins/akismet/akismet.php:1120
 msgid "spam comments"
 msgstr "skräpkommentarer"
 
-#: wp-content/plugins/akismet/akismet.php:1114
+#: wp-content/plugins/akismet/akismet.php:1120
 msgid "blocked by"
 msgstr "blockerad av"
 
@@ -10003,7 +10003,7 @@ msgstr "Anpassa sidhuvudet"
 
 #: wp-content/themes/default/functions.php:384
 msgid "Font Color:"
-msgstr "Fontfärg:"
+msgstr "Textfärg:"
 
 #: wp-content/themes/default/functions.php:384
 #, php-format
@@ -10034,7 +10034,7 @@ msgstr "Använd förvalda"
 
 #: wp-content/themes/default/functions.php:398
 msgid "Font Color"
-msgstr "Fontfärg"
+msgstr "Textfärg"
 
 #: wp-content/themes/default/functions.php:399
 msgid "Upper Color"
@@ -10054,7 +10054,7 @@ msgstr "Uppdatera sidhuvudet"
 
 #: wp-content/themes/default/functions.php:415
 msgid "Font Color (CSS):"
-msgstr "Fontfärg (CSS):"
+msgstr "Textfärg (CSS):"
 
 #: wp-content/themes/default/functions.php:416
 msgid "Upper Color (HEX):"
@@ -10066,7 +10066,7 @@ msgstr "Nedre färg (HEX):"
 
 #: wp-content/themes/default/functions.php:418
 msgid "Select Default Colors"
-msgstr "Välj förvalda färger"
+msgstr "Välj standardfärger"
 
 #: wp-content/themes/default/functions.php:419
 msgid "Toggle Text Display"
@@ -10578,21 +10578,21 @@ msgctxt "closing curly quote"
 msgid "&#8221;"
 msgstr "&#8221;"
 
-#: wp-includes/formatting.php:1664
+#: wp-includes/formatting.php:1697
 #, php-format
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s minut"
 msgstr[1] "%s minuter"
 
-#: wp-includes/formatting.php:1670
+#: wp-includes/formatting.php:1703
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s timme"
 msgstr[1] "%s timmar"
 
-#: wp-includes/formatting.php:1676
+#: wp-includes/formatting.php:1709
 #, php-format
 msgid "%s day"
 msgid_plural "%s days"
@@ -10600,17 +10600,17 @@ msgstr[0] "%s dag"
 msgstr[1] "%s dagar"
 
 #. translators: used between list items, there is a space after the coma
-#: wp-includes/formatting.php:2550
+#: wp-includes/formatting.php:2583
 msgid ", "
 msgstr ", "
 
 #. translators: used between list items, there is a space after the and
-#: wp-includes/formatting.php:2552
+#: wp-includes/formatting.php:2585
 msgid ", and "
 msgstr " och "
 
 #. translators: used between only two list items, there is a space after the and
-#: wp-includes/formatting.php:2554
+#: wp-includes/formatting.php:2587
 msgid " and "
 msgstr " och "
 
@@ -10639,216 +10639,216 @@ msgstr "Tomt filnamn"
 msgid "Could not write file %s"
 msgstr "Kunde inte skriva till filen %s"
 
-#: wp-includes/functions.php:2323
+#: wp-includes/functions.php:2339
 #, php-format
 msgid "Your attempt to edit this attachment: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera den här bilagan: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2325
+#: wp-includes/functions.php:2341
 msgid "Your attempt to add this category has failed."
 msgstr "Ditt försök att lägga till den här kategorin misslyckades."
 
-#: wp-includes/functions.php:2326
+#: wp-includes/functions.php:2342
 #, php-format
 msgid "Your attempt to delete this category: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att radera den här kategorin: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2327
+#: wp-includes/functions.php:2343
 #, php-format
 msgid "Your attempt to edit this category: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera den här kategorin: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2329
+#: wp-includes/functions.php:2345
 #, php-format
 msgid "Your attempt to delete this comment: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att radera den här kommentaren: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2330
+#: wp-includes/functions.php:2346
 #, php-format
 msgid "Your attempt to unapprove this comment: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att förkasta den här kommentaren: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2331
+#: wp-includes/functions.php:2347
 #, php-format
 msgid "Your attempt to approve this comment: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att godkänna den här kommentaren: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2332
+#: wp-includes/functions.php:2348
 #, php-format
 msgid "Your attempt to edit this comment: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera den här kommentaren: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2333
+#: wp-includes/functions.php:2349
 msgid "Your attempt to bulk modify comments has failed."
 msgstr "Ditt försök att massredigera kommentarerna misslyckades."
 
-#: wp-includes/functions.php:2334
+#: wp-includes/functions.php:2350
 msgid "Your attempt to moderate comments has failed."
 msgstr "Ditt försök att moderera kommentarerna misslyckades."
 
-#: wp-includes/functions.php:2336
+#: wp-includes/functions.php:2352
 msgid "Your attempt to add this link has failed."
 msgstr "Ditt försök att lägga till denna länk misslyckades."
 
-#: wp-includes/functions.php:2337
+#: wp-includes/functions.php:2353
 #, php-format
 msgid "Your attempt to delete this link: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att radera den här länken: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2338
+#: wp-includes/functions.php:2354
 #, php-format
 msgid "Your attempt to edit this link: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera den här länken: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2339
+#: wp-includes/functions.php:2355
 msgid "Your attempt to bulk modify links has failed."
 msgstr "Ditt försök att massredigera länkarna misslyckades."
 
-#: wp-includes/functions.php:2341
+#: wp-includes/functions.php:2357
 msgid "Your attempt to add this page has failed."
 msgstr "Ditt försök att lägga till denna sida misslyckades."
 
-#: wp-includes/functions.php:2342
+#: wp-includes/functions.php:2358
 #, php-format
 msgid "Your attempt to delete this page: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att radera den här sidan: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2343
+#: wp-includes/functions.php:2359
 #, php-format
 msgid "Your attempt to edit this page: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera den här sidan: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2345
+#: wp-includes/functions.php:2361
 #, php-format
 msgid "Your attempt to edit this plugin file: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera den här tilläggsfilen: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2346
+#: wp-includes/functions.php:2362
 #, php-format
 msgid "Your attempt to activate this plugin: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att aktivera det här tillägget: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2347
+#: wp-includes/functions.php:2363
 #, php-format
 msgid "Your attempt to deactivate this plugin: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att inaktivera det här tillägget: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2348
+#: wp-includes/functions.php:2364
 #, php-format
 msgid "Your attempt to upgrade this plugin: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att uppgradera detta tillägg: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2350
+#: wp-includes/functions.php:2366
 msgid "Your attempt to add this post has failed."
 msgstr "Ditt försök att skriva inlägg misslyckades."
 
-#: wp-includes/functions.php:2351
+#: wp-includes/functions.php:2367
 #, php-format
 msgid "Your attempt to delete this post: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att radera det här inlägget: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2352
+#: wp-includes/functions.php:2368
 #, php-format
 msgid "Your attempt to edit this post: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera det här inlägget: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2354
+#: wp-includes/functions.php:2370
 msgid "Your attempt to add this user has failed."
 msgstr "Ditt försök att lägga till denna användare misslyckades."
 
-#: wp-includes/functions.php:2355
+#: wp-includes/functions.php:2371
 msgid "Your attempt to delete users has failed."
 msgstr "Ditt försök att radera de här användarna misslyckades."
 
-#: wp-includes/functions.php:2356
+#: wp-includes/functions.php:2372
 msgid "Your attempt to bulk modify users has failed."
 msgstr "Ditt försök att massredigera användarna misslyckades."
 
-#: wp-includes/functions.php:2357
+#: wp-includes/functions.php:2373
 #, php-format
 msgid "Your attempt to edit this user: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera den här användaren: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2358
+#: wp-includes/functions.php:2374
 #, php-format
 msgid "Your attempt to modify the profile for: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att modifiera profilen för: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2360
+#: wp-includes/functions.php:2376
 msgid "Your attempt to edit your settings has failed."
 msgstr "Ditt försök att redigera inställningarna misslyckades."
 
-#: wp-includes/functions.php:2361
+#: wp-includes/functions.php:2377
 #, php-format
 msgid "Your attempt to change your permalink structure to: %s has failed."
 msgstr "Ditt försök att ändra din permalänkstruktur till: %s misslyckades."
 
-#: wp-includes/functions.php:2362
+#: wp-includes/functions.php:2378
 #, php-format
 msgid "Your attempt to edit this file: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera den här filen: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2363
+#: wp-includes/functions.php:2379
 #, php-format
 msgid "Your attempt to edit this theme file: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera den här temafilen: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2364
+#: wp-includes/functions.php:2380
 #, php-format
 msgid "Your attempt to switch to this theme: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att byta till temat: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2366
+#: wp-includes/functions.php:2382
 #, php-format
 msgid "You are attempting to log out of %s"
 msgstr "Du försöker att logga ut ifrån %s"
 
-#: wp-includes/functions.php:2386
-#: wp-includes/functions.php:2388
+#: wp-includes/functions.php:2402
+#: wp-includes/functions.php:2404
 msgid "Are you sure you want to do this?"
 msgstr "Är du säker på att du vill göra det här?"
 
-#: wp-includes/functions.php:2405
+#: wp-includes/functions.php:2421
 msgid "WordPress Failure Notice"
 msgstr "WordPress felmeddelande"
 
-#: wp-includes/functions.php:2408
+#: wp-includes/functions.php:2424
 msgid "Please try again."
 msgstr "Var vänlig försök igen."
 
-#: wp-includes/functions.php:2410
+#: wp-includes/functions.php:2426
 #, php-format
 msgid "Do you really want to <a href='%s'>log out</a>?"
 msgstr "Vill du verkligen <a href='%s'>logga ut</a>?"
 
-#: wp-includes/functions.php:2461
+#: wp-includes/functions.php:2477
 msgid "&laquo; Back"
 msgstr "&laquo; Tillbaka"
 
 #. #-#-#-#-#  wordpress.pot (PACKAGE VERSION)  #-#-#-#-#
 #. Not gettexted string WP_I18N_ERROR_TITLE
-#: wp-includes/functions.php:2482
+#: wp-includes/functions.php:2498
 #: wp-load.php:50
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; Fel"
 
-#: wp-includes/functions.php:2918
-#: wp-includes/functions.php:2955
+#: wp-includes/functions.php:2934
+#: wp-includes/functions.php:2971
 #, php-format
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s har <strong>upphört</strong> sedan version %2$s! Använd %3$s istället."
 
-#: wp-includes/functions.php:2920
-#: wp-includes/functions.php:2957
+#: wp-includes/functions.php:2936
+#: wp-includes/functions.php:2973
 #, php-format
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s har <strong>upphört</strong> sedan version %2$s utan alternativ tillgängliga."
 
-#: wp-includes/functions.php:3275
+#: wp-includes/functions.php:3291
 msgid "Select a city"
 msgstr "Välj en stad"
 
-#: wp-includes/functions.php:3290
+#: wp-includes/functions.php:3306
 msgid "Manual offsets"
 msgstr "Manuella kompensationer"
 
@@ -12986,7 +12986,7 @@ msgstr "Återställ"
 
 #: wp-includes/post-template.php:1329
 msgid "Compare Revisions"
-msgstr "Jämnför version"
+msgstr "Jämför versioner"
 
 #: wp-includes/post-template.php:1344
 msgid "Date Created"

@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-10-21 00:56+0000\n"
-"PO-Revision-Date: 2009-10-21 09:08+0100\n"
+"POT-Creation-Date: 2009-11-12 08:56+0000\n"
+"PO-Revision-Date: 2009-11-13 08:32+0100\n"
 "Last-Translator: René Clausen Nielsen <rcn@shevy.dk>\n"
 "Language-Team: Danish <rcn@shevy.dk>\n"
 "MIME-Version: 1.0\n"
@@ -1048,7 +1048,7 @@ msgstr[0] "%s kommentar markeret som spam"
 msgstr[1] "%s kommentarer markeret som spam"
 
 #: wp-admin/edit-comments.php:144
-#: wp-content/plugins/akismet/akismet.php:747
+#: wp-content/plugins/akismet/akismet.php:753
 msgid "All"
 msgid_plural "All"
 msgstr[0] "Alle"
@@ -1122,7 +1122,7 @@ msgstr "Vis alle kommentartyper"
 #: wp-admin/includes/template.php:1166
 #: wp-admin/includes/template.php:3138
 #: wp-admin/includes/template.php:3254
-#: wp-content/plugins/akismet/akismet.php:752
+#: wp-content/plugins/akismet/akismet.php:758
 #: wp-content/themes/classic/comments-popup.php:29
 msgid "Comments"
 msgstr "Kommentarer"
@@ -1149,7 +1149,7 @@ msgid "No comments awaiting moderation&hellip; yet."
 msgstr "Ingen kommentarer til bed&#248;mmelse&hellip; endnu."
 
 #: wp-admin/edit-comments.php:378
-#: wp-content/plugins/akismet/akismet.php:878
+#: wp-content/plugins/akismet/akismet.php:884
 msgid "No results found."
 msgstr "Ingen resultater fundet."
 
@@ -4505,7 +4505,7 @@ msgstr[0] "Tag"
 msgstr[1] "Tags"
 
 #: wp-admin/includes/dashboard.php:306
-#: wp-content/plugins/akismet/akismet.php:903
+#: wp-content/plugins/akismet/akismet.php:909
 msgid "Spam"
 msgid_plural "Spam"
 msgstr[0] "Spam"
@@ -5428,7 +5428,7 @@ msgstr "Plugins udvider funktionaliteten i WordPress. Du kan installere plugins 
 #: wp-admin/includes/theme-install.php:162
 #: wp-admin/plugin-install.php:24
 #: wp-admin/theme-install.php:29
-#: wp-content/plugins/akismet/akismet.php:714
+#: wp-content/plugins/akismet/akismet.php:720
 #: wp-content/themes/classic/sidebar.php:21
 #: wp-includes/default-widgets.php:176
 #: wp-includes/general-template.php:127
@@ -5836,7 +5836,7 @@ msgstr[0] "Video <span class=\"count\">(%s)</span>"
 msgstr[1] "Video <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:976
-#: wp-content/plugins/akismet/akismet.php:832
+#: wp-content/plugins/akismet/akismet.php:838
 msgid "View Post"
 msgstr "Vis indl&#230;g"
 
@@ -7552,7 +7552,7 @@ msgid "Timezone"
 msgstr "Tidszone"
 
 #: wp-admin/options-general.php:126
-#: wp-includes/functions.php:3303
+#: wp-includes/functions.php:3319
 #, php-format
 msgid "UTC %s"
 msgstr "UTC %s"
@@ -8415,7 +8415,7 @@ msgid "Post published."
 msgstr "Indl&#230;g udgivet."
 
 #: wp-admin/sidebar.php:103
-#: wp-content/plugins/akismet/akismet.php:1084
+#: wp-content/plugins/akismet/akismet.php:1090
 #: wp-includes/default-widgets.php:67
 #: wp-includes/default-widgets.php:197
 #: wp-includes/default-widgets.php:263
@@ -9316,7 +9316,7 @@ msgid "&larr; Back to All Users"
 msgstr "&larr; Tilbage til alle brugere"
 
 #: wp-admin/widgets.php:23
-#: wp-includes/functions.php:2740
+#: wp-includes/functions.php:2756
 msgid "Widgets"
 msgstr "Widgets"
 
@@ -9605,164 +9605,164 @@ msgstr "Tjek netv&#230;rksstatus &raquo;"
 msgid "Akismet Stats"
 msgstr "Akismet-statistik"
 
-#: wp-content/plugins/akismet/akismet.php:327
+#: wp-content/plugins/akismet/akismet.php:331
 msgid "Akismet is almost ready."
 msgstr "Akismet er n&#230;sten klar."
 
-#: wp-content/plugins/akismet/akismet.php:327
+#: wp-content/plugins/akismet/akismet.php:331
 #, php-format
 msgid "You must <a href=\"%1$s\">enter your WordPress.com API key</a> for it to work."
 msgstr "Du skal <a href=\"%1$s\">skrive din WordPress.com API n&#248;gle</a> for at f&#229; det til at virke."
 
-#: wp-content/plugins/akismet/akismet.php:335
+#: wp-content/plugins/akismet/akismet.php:339
 msgid "Akismet has detected a problem."
 msgstr "Akismet har fundet et problem."
 
-#: wp-content/plugins/akismet/akismet.php:335
+#: wp-content/plugins/akismet/akismet.php:339
 #, php-format
 msgid "A server or network problem is preventing Akismet from working correctly.  <a href=\"%1$s\">Click here for more information</a> about how to fix the problem."
 msgstr "Et server- eller netv&#230;rksproblem g&#248;r, at Akismet ikke virker korrekt. <a href=\"%1$s\">Klik her for flere informationer</a> om l&#248;sninger på problemet."
 
-#: wp-content/plugins/akismet/akismet.php:589
+#: wp-content/plugins/akismet/akismet.php:595
 #, php-format
 msgid "Akismet Spam (%s)"
 msgstr "Akismet spam (%s)"
 
-#: wp-content/plugins/akismet/akismet.php:591
-#: wp-content/plugins/akismet/akismet.php:593
+#: wp-content/plugins/akismet/akismet.php:597
+#: wp-content/plugins/akismet/akismet.php:599
 msgid "Akismet Spam"
 msgstr "Akismet spam"
 
-#: wp-content/plugins/akismet/akismet.php:603
-#: wp-content/plugins/akismet/akismet.php:622
+#: wp-content/plugins/akismet/akismet.php:609
+#: wp-content/plugins/akismet/akismet.php:628
 msgid "You do not have sufficient permission to moderate comments."
 msgstr "Du har ikke tilstr&#230;kkelige rettigheder til at bed&#248;mme kommentarer."
 
-#: wp-content/plugins/akismet/akismet.php:634
+#: wp-content/plugins/akismet/akismet.php:640
 #, php-format
 msgid "%1$s comments recovered."
 msgstr "%1$s kommentarer genskabt."
 
-#: wp-content/plugins/akismet/akismet.php:638
+#: wp-content/plugins/akismet/akismet.php:644
 msgid "All spam deleted."
 msgstr "Al spam slettet."
 
-#: wp-content/plugins/akismet/akismet.php:686
+#: wp-content/plugins/akismet/akismet.php:692
 msgid "Caught Spam"
 msgstr "Fundet spam"
 
-#: wp-content/plugins/akismet/akismet.php:691
+#: wp-content/plugins/akismet/akismet.php:697
 #, php-format
 msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
 msgstr "Akismet har fanget <strong>%1$s spam-kommentarer</strong> for dig, siden du installerede det."
 
-#: wp-content/plugins/akismet/akismet.php:698
+#: wp-content/plugins/akismet/akismet.php:704
 msgid "You have no spam currently in the queue. Must be your lucky day. :)"
 msgstr "Der er ikke noget spam i k&#248;en i &#248;jeblikket. Det m&#229; v&#230;re en god dag :)"
 
-#: wp-content/plugins/akismet/akismet.php:701
+#: wp-content/plugins/akismet/akismet.php:707
 msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
 msgstr "Du kan slette alt spam fra din database med et enkelt klik. Det kan ikke laves om, s&#229; du b&#248;r sikre dig, at der ikke er nogle rigtige kommentarer imellem. Spam bliver automatisk slettet efter 15 dage, s&#229; glem ikke at tjekke denne liste regelm&#230;ssigt."
 
-#: wp-content/plugins/akismet/akismet.php:707
-#: wp-content/plugins/akismet/akismet.php:885
+#: wp-content/plugins/akismet/akismet.php:713
+#: wp-content/plugins/akismet/akismet.php:891
 #, php-format
 msgid "There are currently %1$s comments identified as spam."
 msgstr "Der er i &#248;jeblikket %1$s kommentarer, der er identificeret som spam."
 
-#: wp-content/plugins/akismet/akismet.php:707
-#: wp-content/plugins/akismet/akismet.php:885
+#: wp-content/plugins/akismet/akismet.php:713
+#: wp-content/plugins/akismet/akismet.php:891
 msgid "Delete all"
 msgstr "Slet alle"
 
-#: wp-content/plugins/akismet/akismet.php:716
+#: wp-content/plugins/akismet/akismet.php:722
 msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
 msgstr "Dette er de seneste kommentarer, der er identificeret som spam af Akismet. Hvis du finder fejl, skal du bare markere kommentaren som \"Ikke spam\", s&#229; l&#230;rer Akismet af dine rettelser. Hvis du vil genskabe en kommentar fra spam, skal du markere kommentaren og klikke p&#229; Ikke Spam. Efter 15 dage rydder vi op for dig."
 
-#: wp-content/plugins/akismet/akismet.php:770
+#: wp-content/plugins/akismet/akismet.php:776
 msgid "Search Spam &raquo;"
 msgstr "S&#248;g spam &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:777
-#: wp-content/plugins/akismet/akismet.php:844
+#: wp-content/plugins/akismet/akismet.php:783
+#: wp-content/plugins/akismet/akismet.php:850
 #: wp-includes/link-template.php:1445
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Forrige side"
 
-#: wp-content/plugins/akismet/akismet.php:798
-#: wp-content/plugins/akismet/akismet.php:865
+#: wp-content/plugins/akismet/akismet.php:804
+#: wp-content/plugins/akismet/akismet.php:871
 #: wp-includes/link-template.php:1446
 msgid "Next Page &raquo;"
 msgstr "N&#230;ste side &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:820
+#: wp-content/plugins/akismet/akismet.php:826
 msgid "IP:"
 msgstr "IP:"
 
-#: wp-content/plugins/akismet/akismet.php:826
+#: wp-content/plugins/akismet/akismet.php:832
 msgid "Not Spam"
 msgstr "Ikke spam"
 
-#: wp-content/plugins/akismet/akismet.php:871
+#: wp-content/plugins/akismet/akismet.php:877
 msgid "De-spam marked comments &raquo;"
 msgstr "Af-spam kommentarer &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:873
+#: wp-content/plugins/akismet/akismet.php:879
 msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
 msgstr "Kommentarer, som du af-spammer, vil blive sendt til Akismet som fejl, s&#229; den kan l&#230;re af det og blive bedre."
 
-#: wp-content/plugins/akismet/akismet.php:909
+#: wp-content/plugins/akismet/akismet.php:915
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
 msgstr "<a href=\"%1$s\">Akismet</a> har beskyttet din side mod <a href=\"%2$s\">%3$s spam kommentarer</a>."
 
-#: wp-content/plugins/akismet/akismet.php:927
+#: wp-content/plugins/akismet/akismet.php:933
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
 msgstr[0] "<a href=\"%1$s\">Akismet</a> har allerede beskyttet din side mod %2$s spamkommentar,"
 msgstr[1] "<a href=\"%1$s\">Akismet</a> har allerede beskyttet din side mod %2$s spamkommentarer,"
 
-#: wp-content/plugins/akismet/akismet.php:932
+#: wp-content/plugins/akismet/akismet.php:938
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
 msgstr "<a href=\"%1$s\">Akismet</a> blokerer spam, s&#229; det ikke vises p&#229; din blog,"
 
-#: wp-content/plugins/akismet/akismet.php:937
+#: wp-content/plugins/akismet/akismet.php:943
 #, php-format
 msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
 msgstr[0] "og der er <a href=\"%2$s\">%1$s kommentar</a> i din spam-k&#248; lige nu."
 msgstr[1] "og der er <a href=\"%2$s\">%1$s kommentarer</a> i din spam-k&#248; lige nu."
 
-#: wp-content/plugins/akismet/akismet.php:942
+#: wp-content/plugins/akismet/akismet.php:948
 #, php-format
 msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
 msgstr "men der er ingenting i din <a href='%1$s'>spam-k&#248;</a> lige nu."
 
-#: wp-content/plugins/akismet/akismet.php:945
+#: wp-content/plugins/akismet/akismet.php:951
 #, php-format
 msgid "%1$s %2$s|akismet_rightnow"
 msgstr "%1$s %2$s"
 
-#: wp-content/plugins/akismet/akismet.php:960
+#: wp-content/plugins/akismet/akismet.php:966
 msgid "Recheck Queue for Spam"
 msgstr "Tjek k&#248; for spam"
 
-#: wp-content/plugins/akismet/akismet.php:977
+#: wp-content/plugins/akismet/akismet.php:983
 msgid "Check for Spam"
 msgstr "Tjek for spam"
 
-#: wp-content/plugins/akismet/akismet.php:1052
+#: wp-content/plugins/akismet/akismet.php:1058
 #, php-format
 msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
 msgstr "%1$s %2$sspam-kommentarer%3$s %4$sblokeret af%5$s<br />%6$sAkismet%7$s"
 
-#: wp-content/plugins/akismet/akismet.php:1114
+#: wp-content/plugins/akismet/akismet.php:1120
 msgid "spam comments"
 msgstr "spamkommentarer"
 
-#: wp-content/plugins/akismet/akismet.php:1114
+#: wp-content/plugins/akismet/akismet.php:1120
 msgid "blocked by"
 msgstr "blokeret af"
 
@@ -10570,21 +10570,21 @@ msgctxt "closing curly quote"
 msgid "&#8221;"
 msgstr "&#8221;"
 
-#: wp-includes/formatting.php:1664
+#: wp-includes/formatting.php:1697
 #, php-format
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s minut"
 msgstr[1] "%s minutter"
 
-#: wp-includes/formatting.php:1670
+#: wp-includes/formatting.php:1703
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s time"
 msgstr[1] "%s timer"
 
-#: wp-includes/formatting.php:1676
+#: wp-includes/formatting.php:1709
 #, php-format
 msgid "%s day"
 msgid_plural "%s days"
@@ -10592,17 +10592,17 @@ msgstr[0] "%s dag"
 msgstr[1] "%s dage"
 
 #. translators: used between list items, there is a space after the coma
-#: wp-includes/formatting.php:2550
+#: wp-includes/formatting.php:2583
 msgid ", "
 msgstr ", "
 
 #. translators: used between list items, there is a space after the and
-#: wp-includes/formatting.php:2552
+#: wp-includes/formatting.php:2585
 msgid ", and "
 msgstr "og "
 
 #. translators: used between only two list items, there is a space after the and
-#: wp-includes/formatting.php:2554
+#: wp-includes/formatting.php:2587
 msgid " and "
 msgstr " og "
 
@@ -10631,216 +10631,216 @@ msgstr "Intet filnavn"
 msgid "Could not write file %s"
 msgstr "Kunne ikke gemme filen %s"
 
-#: wp-includes/functions.php:2323
+#: wp-includes/functions.php:2339
 #, php-format
 msgid "Your attempt to edit this attachment: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at &#230;ndre denne vedh&#230;ftede fil: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2325
+#: wp-includes/functions.php:2341
 msgid "Your attempt to add this category has failed."
 msgstr "Dit fors&#248;g p&#229; at tilf&#248;je denne kategori mislykkedes."
 
-#: wp-includes/functions.php:2326
+#: wp-includes/functions.php:2342
 #, php-format
 msgid "Your attempt to delete this category: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at slette denne kategori: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2327
+#: wp-includes/functions.php:2343
 #, php-format
 msgid "Your attempt to edit this category: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at redigere denne kategori: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2329
+#: wp-includes/functions.php:2345
 #, php-format
 msgid "Your attempt to delete this comment: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at slette denne kommentar: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2330
+#: wp-includes/functions.php:2346
 #, php-format
 msgid "Your attempt to unapprove this comment: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at af-godkende denne kommentar: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2331
+#: wp-includes/functions.php:2347
 #, php-format
 msgid "Your attempt to approve this comment: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at godkende denne kommentar: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2332
+#: wp-includes/functions.php:2348
 #, php-format
 msgid "Your attempt to edit this comment: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at redigere denne kommentar: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2333
+#: wp-includes/functions.php:2349
 msgid "Your attempt to bulk modify comments has failed."
 msgstr "Dit fors&#248;g p&#229; at masseredigere kommentar mislykkedes."
 
-#: wp-includes/functions.php:2334
+#: wp-includes/functions.php:2350
 msgid "Your attempt to moderate comments has failed."
 msgstr "Dit fors&#248;g p&#229; at moderere kommentarer mislykkedes."
 
-#: wp-includes/functions.php:2336
+#: wp-includes/functions.php:2352
 msgid "Your attempt to add this link has failed."
 msgstr "Dit fors&#248;g p&#229; at tilf&#248;je dette link fejlede"
 
-#: wp-includes/functions.php:2337
+#: wp-includes/functions.php:2353
 #, php-format
 msgid "Your attempt to delete this link: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at slette dette link: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2338
+#: wp-includes/functions.php:2354
 #, php-format
 msgid "Your attempt to edit this link: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at redigere dette link: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2339
+#: wp-includes/functions.php:2355
 msgid "Your attempt to bulk modify links has failed."
 msgstr "Dit fors&#248;g p&#229; at masseredigere links mislykkedes."
 
-#: wp-includes/functions.php:2341
+#: wp-includes/functions.php:2357
 msgid "Your attempt to add this page has failed."
 msgstr "Dit fors&#248;g p&#229; at tilf&#248;je denne side fejlede"
 
-#: wp-includes/functions.php:2342
+#: wp-includes/functions.php:2358
 #, php-format
 msgid "Your attempt to delete this page: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at slette denne side: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2343
+#: wp-includes/functions.php:2359
 #, php-format
 msgid "Your attempt to edit this page: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at redigere denne side: &#8220;%s&#8221; mislykkedes"
 
-#: wp-includes/functions.php:2345
+#: wp-includes/functions.php:2361
 #, php-format
 msgid "Your attempt to edit this plugin file: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at redigere denne plugin-fil: &#8220;%s&#8221; mislykkedes"
 
-#: wp-includes/functions.php:2346
+#: wp-includes/functions.php:2362
 #, php-format
 msgid "Your attempt to activate this plugin: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at aktivere dette plugin: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2347
+#: wp-includes/functions.php:2363
 #, php-format
 msgid "Your attempt to deactivate this plugin: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at deaktivere dette plugin: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2348
+#: wp-includes/functions.php:2364
 #, php-format
 msgid "Your attempt to upgrade this plugin: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at opdatere dette plugin: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2350
+#: wp-includes/functions.php:2366
 msgid "Your attempt to add this post has failed."
 msgstr "Dit fors&#248;g p&#229; at fil&#248;je dette indl&#230;g mislykkedes."
 
-#: wp-includes/functions.php:2351
+#: wp-includes/functions.php:2367
 #, php-format
 msgid "Your attempt to delete this post: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at slette dette indl&#230;g: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2352
+#: wp-includes/functions.php:2368
 #, php-format
 msgid "Your attempt to edit this post: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at redigere dette indl&#230;g: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2354
+#: wp-includes/functions.php:2370
 msgid "Your attempt to add this user has failed."
 msgstr "Dit fors&#248;g p&#229; at tilf&#248;je denne bruger fejlede"
 
-#: wp-includes/functions.php:2355
+#: wp-includes/functions.php:2371
 msgid "Your attempt to delete users has failed."
 msgstr "Dit fors&#248;g p&#229; at slette brugere mislykkedes."
 
-#: wp-includes/functions.php:2356
+#: wp-includes/functions.php:2372
 msgid "Your attempt to bulk modify users has failed."
 msgstr "Dit fors&#248;g p&#229; at masse&#230;ndre brugere mislykkedes."
 
-#: wp-includes/functions.php:2357
+#: wp-includes/functions.php:2373
 #, php-format
 msgid "Your attempt to edit this user: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at redigere denne bruger: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2358
+#: wp-includes/functions.php:2374
 #, php-format
 msgid "Your attempt to modify the profile for: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at &#230;ndre profilen for &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2360
+#: wp-includes/functions.php:2376
 msgid "Your attempt to edit your settings has failed."
 msgstr "Dit fors&#248;g p&#229; at &#230;ndre dine indstillinger mislykkedes."
 
-#: wp-includes/functions.php:2361
+#: wp-includes/functions.php:2377
 #, php-format
 msgid "Your attempt to change your permalink structure to: %s has failed."
 msgstr "Dit fors&#248;g p&#229; at &#230;ndre permalinkstruktur til %s mislykkedes."
 
-#: wp-includes/functions.php:2362
+#: wp-includes/functions.php:2378
 #, php-format
 msgid "Your attempt to edit this file: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at redigere denne fil: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2363
+#: wp-includes/functions.php:2379
 #, php-format
 msgid "Your attempt to edit this theme file: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at redigere denne temafil: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2364
+#: wp-includes/functions.php:2380
 #, php-format
 msgid "Your attempt to switch to this theme: &#8220;%s&#8221; has failed."
 msgstr "Dit fors&#248;g p&#229; at skifte til dette tema: &#8220;%s&#8221; mislykkedes."
 
-#: wp-includes/functions.php:2366
+#: wp-includes/functions.php:2382
 #, php-format
 msgid "You are attempting to log out of %s"
 msgstr "Du pr&#248;ver at logge ud af %s"
 
-#: wp-includes/functions.php:2386
-#: wp-includes/functions.php:2388
+#: wp-includes/functions.php:2402
+#: wp-includes/functions.php:2404
 msgid "Are you sure you want to do this?"
 msgstr "Er du sikker p&#229;, at du vil g&#248;re det?"
 
-#: wp-includes/functions.php:2405
+#: wp-includes/functions.php:2421
 msgid "WordPress Failure Notice"
 msgstr "WordPress fejlbesked"
 
-#: wp-includes/functions.php:2408
+#: wp-includes/functions.php:2424
 msgid "Please try again."
 msgstr "Pr&#248;v venligst igen."
 
-#: wp-includes/functions.php:2410
+#: wp-includes/functions.php:2426
 #, php-format
 msgid "Do you really want to <a href='%s'>log out</a>?"
 msgstr "Vil du virkelig <a href='%s'>logge ud</a>?"
 
-#: wp-includes/functions.php:2461
+#: wp-includes/functions.php:2477
 msgid "&laquo; Back"
 msgstr "&laquo; Tilbage"
 
 #. #-#-#-#-#  wordpress.pot (PACKAGE VERSION)  #-#-#-#-#
 #. Not gettexted string WP_I18N_ERROR_TITLE
-#: wp-includes/functions.php:2482
+#: wp-includes/functions.php:2498
 #: wp-load.php:50
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; Fejl"
 
-#: wp-includes/functions.php:2918
-#: wp-includes/functions.php:2955
+#: wp-includes/functions.php:2934
+#: wp-includes/functions.php:2971
 #, php-format
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s har v&#230;ret <strong>for&#230;ldet</strong> siden version %2$s! Brug %3$s i stedet."
 
-#: wp-includes/functions.php:2920
-#: wp-includes/functions.php:2957
+#: wp-includes/functions.php:2936
+#: wp-includes/functions.php:2973
 #, php-format
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s har v&#230;ret <strong>for&#230;ldet</strong> siden version %2$s, og der er ingen alternativer."
 
-#: wp-includes/functions.php:3275
+#: wp-includes/functions.php:3291
 msgid "Select a city"
 msgstr "V&#230;lg en by"
 
-#: wp-includes/functions.php:3290
+#: wp-includes/functions.php:3306
 msgid "Manual offsets"
 msgstr "Manuelle offsets"
 
@@ -12281,7 +12281,7 @@ msgstr "JS Callback"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:406
 msgid "Show/Hide Kitchen Sink"
-msgstr "Vis/Gem ekstra værktøslinje"
+msgstr "Vis/Gem ekstra værktøjslinje"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:407
 msgid "Insert More tag"
