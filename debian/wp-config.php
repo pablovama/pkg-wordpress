@@ -6,6 +6,7 @@ Please do NOT edit and read about how the configuration works in the README.Debi
     #http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=435289
     #http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=440572 (underscores, not dashes)
     $debian_server = preg_replace('/:.*/', "", $_SERVER['HTTP_HOST']);
+    $debian_server = preg_replace("/[^a-zA-Z0-9.]/", "", $debian_server);
     $debian_file = '/etc/wordpress/config-'.strtolower($debian_server).'.php';
 
     if (!file_exists($debian_file)) {
@@ -14,10 +15,6 @@ Please do NOT edit and read about how the configuration works in the README.Debi
 		Please check if <b>$debian_file</b> exists and contains the right password/username.";
         exit(1);
     }
-    $allowed_paths = array('/etc/wordpress');
-    if (!in_array(dirname(realpath($debian_file)), $allowed_paths))
-	    die("The config file for the specified host is not under an allowed path");
-
 
     require_once($debian_file);
 
