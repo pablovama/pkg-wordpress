@@ -23,6 +23,7 @@ Description: weblog manager
     * Plugin support
 
 Package: wordpress-l10n
+Section: localization
 Architecture: all
 Depends: wordpress (>> 2.8.4-2)
 Description: weblog manager - language files
