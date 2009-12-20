@@ -2,7 +2,7 @@ Author: <andrea.de.iacovo@gmail.com>
 Description: Disables unfiltered upload capability for administrators.
 --- a/wp-admin/includes/schema.php
 +++ b/wp-admin/includes/schema.php
-@@ -517,11 +517,11 @@ function populate_roles_210() {
+@@ -529,11 +529,11 @@ function populate_roles_210() {
   * @since 2.3.0
   */
  function populate_roles_230() {

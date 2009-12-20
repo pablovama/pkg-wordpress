@@ -2,7 +2,7 @@ Author: <andrea.de.iacovo@gmail.com>
 Description: Patching install.php to permit a valid upload path
 --- a/wp-admin/install.php
 +++ b/wp-admin/install.php
-@@ -118,6 +118,10 @@ switch($step) {
+@@ -124,6 +124,10 @@ switch($step) {
  			$wpdb->show_errors();
  			$result = wp_install($weblog_title, 'admin', $admin_email, $public);
  			extract($result, EXTR_SKIP);
