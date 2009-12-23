@@ -1,3 +1,13 @@
+wordpress (2.9-1) unstable; urgency=low
+
+  * [fdd001e] Change wordpress-l10n section (localization)
+  * [625fa21] Imported Upstream version 2.9
+  * [dd9b536] Refreshed patches
+  * [1ce2a9d] Do not remove anymore plugins/wordpress/js direcotry
+  * [3287ec5] Updated language files (Closes: #556902)
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Wed, 23 Dec 2009 14:31:36 +0100
+
 wordpress (2.8.6-1) unstable; urgency=low
 
   * [cf87b24] Updated debian/watch (Closes: #555729) - thanks to Hideki
