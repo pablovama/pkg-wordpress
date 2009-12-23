@@ -40,7 +40,7 @@ install: $(MOFILES) $(QUILT_STAMPFN)
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/spellchecker/img
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/spellchecker/editor_plugin.js
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/tabfocus/
-	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/wordpress/js
+	#rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/wordpress/js
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/crop
 	rm debian/wordpress/usr/share/wordpress/wp-includes/gettext.php \
 		debian/wordpress/usr/share/wordpress/wp-includes/streams.php \
