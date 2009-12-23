@@ -42,9 +42,7 @@ install: $(MOFILES) $(QUILT_STAMPFN)
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/tabfocus/
 	#rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/wordpress/js
 	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/crop
-	rm debian/wordpress/usr/share/wordpress/wp-includes/gettext.php \
-		debian/wordpress/usr/share/wordpress/wp-includes/streams.php \
-		debian/wordpress/usr/share/wordpress/wp-includes/class-snoopy.php \
+	rm debian/wordpress/usr/share/wordpress/wp-includes/class-snoopy.php \
 		debian/wordpress/usr/share/wordpress/wp-includes/js/prototype.js \
 		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/builder.js \
 		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/controls.js \
