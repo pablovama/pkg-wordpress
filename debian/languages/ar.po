@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress 2.8.5\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-12-18 18:23+0000\n"
-"PO-Revision-Date: 2009-12-22 02:41+0200\n"
+"PO-Revision-Date: 2010-01-05 04:54+0200\n"
 "Last-Translator: Rasheed Bydousi <rashe18@gmail.com>\n"
 "Language-Team: ar-wp.com translation team. <rashe18@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -1381,7 +1381,7 @@ msgstr "هناك نسخة محفوظة تلقائياً من هذا الموضو
 #: wp-admin/sidebar.php:121
 #: wp-includes/script-loader.php:293
 msgid "Publish"
-msgstr "نشر التدوينة"
+msgstr "نشر"
 
 #: wp-admin/edit-form-advanced.php:102
 msgid "Post Thumbnail"
@@ -4205,7 +4205,7 @@ msgstr "لا يسمح لك بتحرير التعليقات في هذه التد�
 
 #: wp-admin/includes/dashboard.php:28
 msgid "Right Now"
-msgstr "احصائيات"
+msgstr "إحصائيات"
 
 #: wp-admin/includes/dashboard.php:31
 #: wp-includes/default-widgets.php:605
@@ -4215,7 +4215,7 @@ msgstr "أحدث التعليقات"
 
 #: wp-admin/includes/dashboard.php:46
 msgid "Incoming Links"
-msgstr "التعقيبات القادمة"
+msgstr "التعقيبات الواردة"
 
 #: wp-admin/includes/dashboard.php:50
 #: wp-admin/update-core.php:161
@@ -7455,7 +7455,7 @@ msgstr "<a href=\"%1$s\">الحصول على الإصدار %2$s</a>"
 #: wp-admin/includes/update.php:129
 #, php-format
 msgid "WordPress %1$s is available! <a href=\"%2$s\">Please update now</a>."
-msgstr "WordPress %1$s متاح! <a href=\"%2$s\">الرجاء التحديث الآن</a>."
+msgstr "ووردبريس %1$s متاح! <a href=\"%2$s\">الرجاء التحديث الآن</a>."
 
 #: wp-admin/includes/update.php:131
 #, php-format
@@ -9225,7 +9225,7 @@ msgstr "هذه المراجعات متطابقة"
 
 #: wp-admin/sidebar.php:98
 msgid "Post published."
-msgstr "تم نشر التدوينة"
+msgstr "تم نشر التدوينة."
 
 #: wp-admin/sidebar.php:103
 #: wp-content/plugins/akismet/akismet.php:1090
@@ -9616,7 +9616,7 @@ msgstr "<strong>مهم:</strong> قبل الترقية, يرجى زيارة <a h
 
 #: wp-admin/update-core.php:122
 msgid "There is a new version of WordPress available for upgrade"
-msgstr "يوجد إصدار جديد من WordPress متاح للترقية"
+msgstr "يوجد إصدار جديد من ووردبريس متاح للترقية!"
 
 #: wp-admin/update-core.php:162
 msgid "The following plugins have new versions available.  Check the ones you want to upgrade and then click \"Upgrade Plugins\"."
@@ -10053,7 +10053,7 @@ msgstr "اسم عائلتك :"
 
 #: wp-admin/user-new.php:119
 msgid "(twice, required)"
-msgstr "(مطلوب)"
+msgstr "(أكتبها مرتين, مطلوب)"
 
 #: wp-admin/user-new.php:129
 msgid "Send Password?"
@@ -10476,7 +10476,7 @@ msgstr "فحص حالة الشبكة &raquo;"
 
 #: wp-content/plugins/akismet/akismet.php:220
 msgid "Akismet Stats"
-msgstr "احصائيات أكيسميت"
+msgstr "إحصائيات  أكيسميت"
 
 #: wp-content/plugins/akismet/akismet.php:331
 msgid "Akismet is almost ready."

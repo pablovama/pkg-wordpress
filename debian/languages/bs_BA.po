@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress - Bosnian Localization v1.0\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-12-18 23:46+0000\n"
+"POT-Creation-Date: 2010-01-05 04:57+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Kenan Dervisevic <kenan3008@gmail.com>\n"
 "Language-Team: Kenan Dervisevic <kenan3008@gmail.com>\n"
@@ -231,7 +231,7 @@ msgstr "Nema pronađenih članaka."
 #: wp-admin/includes/template.php:807
 #: wp-admin/includes/template.php:1040
 #: wp-includes/js/tinymce/langs/wp-langs.php:295
-#: wp-includes/post.php:3662
+#: wp-includes/post.php:3664
 msgid "Title"
 msgstr "Naslov"
 
@@ -281,7 +281,7 @@ msgstr "Čeka na recenziju"
 #: wp-admin/includes/meta-boxes.php:72
 #: wp-admin/includes/meta-boxes.php:91
 #: wp-admin/includes/template.php:1217
-#: wp-admin/includes/template.php:3454
+#: wp-admin/includes/template.php:3455
 #: wp-includes/post.php:390
 #: wp-includes/post.php:411
 msgid "Draft"
@@ -289,12 +289,12 @@ msgstr "Skica"
 
 #. translators: date format in table columns, see http://php.net/date
 #: wp-admin/admin-ajax.php:1255
-#: wp-admin/edit-attachment-rows.php:159
-#: wp-admin/edit-attachment-rows.php:173
+#: wp-admin/edit-attachment-rows.php:161
+#: wp-admin/edit-attachment-rows.php:175
 #: wp-admin/includes/template.php:1416
 #: wp-admin/includes/template.php:1643
-#: wp-admin/includes/template.php:2148
-#: wp-admin/upload.php:424
+#: wp-admin/includes/template.php:2149
+#: wp-admin/upload.php:426
 msgid "Y/m/d"
 msgstr "d/m/Y"
 
@@ -455,7 +455,7 @@ msgstr "Pretraga kategorija"
 #: wp-admin/link-manager.php:262
 #: wp-admin/plugins.php:483
 #: wp-admin/upload.php:288
-#: wp-admin/upload.php:454
+#: wp-admin/upload.php:456
 #: wp-admin/users.php:308
 #: wp-admin/users.php:374
 msgid "Bulk Actions"
@@ -474,7 +474,7 @@ msgstr "Grupne akcije"
 #: wp-admin/includes/template.php:671
 #: wp-admin/includes/template.php:1549
 #: wp-admin/includes/template.php:1924
-#: wp-admin/includes/template.php:2511
+#: wp-admin/includes/template.php:2512
 #: wp-admin/includes/widgets.php:201
 #: wp-admin/link-manager.php:105
 #: wp-admin/link-manager.php:201
@@ -500,12 +500,12 @@ msgstr "Obriši"
 #: wp-admin/edit-tags.php:254
 #: wp-admin/edit.php:265
 #: wp-admin/edit.php:355
-#: wp-admin/includes/template.php:3738
+#: wp-admin/includes/template.php:3739
 #: wp-admin/link-manager.php:107
 #: wp-admin/link-manager.php:265
 #: wp-admin/plugins.php:494
 #: wp-admin/upload.php:299
-#: wp-admin/upload.php:465
+#: wp-admin/upload.php:467
 #: wp-admin/users.php:311
 #: wp-admin/users.php:377
 #: wp-includes/js/tinymce/langs/wp-langs.php:27
@@ -695,7 +695,7 @@ msgstr "Autor"
 
 #: wp-admin/comment.php:119
 #: wp-admin/includes/template.php:904
-#: wp-admin/includes/template.php:2333
+#: wp-admin/includes/template.php:2334
 #: wp-admin/user-edit.php:261
 #: wp-admin/user-new.php:109
 #: wp-content/themes/classic/comments-popup.php:76
@@ -706,8 +706,8 @@ msgstr "Email"
 #: wp-admin/comment.php:125
 #: wp-admin/includes/media.php:2116
 #: wp-admin/includes/template.php:858
-#: wp-admin/includes/template.php:2338
-#: wp-admin/includes/template.php:2747
+#: wp-admin/includes/template.php:2339
+#: wp-admin/includes/template.php:2748
 #: wp-admin/press-this.php:170
 msgid "URL"
 msgstr "URL"
@@ -778,14 +778,14 @@ msgstr "Koristi originalnu boju"
 #: wp-admin/custom-header.php:290
 #: wp-admin/import/blogger.php:667
 #: wp-admin/options-discussion.php:226
-#: wp-admin/options-general.php:277
+#: wp-admin/options-general.php:289
 #: wp-admin/options-media.php:96
 #: wp-admin/options-misc.php:72
 #: wp-admin/options-permalink.php:224
 #: wp-admin/options-privacy.php:45
 #: wp-admin/options-reading.php:86
 #: wp-admin/options-writing.php:133
-#: wp-admin/options.php:133
+#: wp-admin/options.php:139
 msgid "Save Changes"
 msgstr "Sačuvaj promjene"
 
@@ -809,7 +809,7 @@ msgstr "Izaberi sliku sa računara:"
 #: wp-admin/custom-header.php:304
 #: wp-admin/includes/media.php:1454
 #: wp-admin/includes/media.php:1455
-#: wp-admin/includes/template.php:3319
+#: wp-admin/includes/template.php:3320
 #: wp-admin/plugin-install.php:27
 #: wp-admin/theme-install.php:32
 msgid "Upload"
@@ -845,7 +845,7 @@ msgstr "Posjetite vašu stranicu i trebali biste vidjeti novu zaglavlje."
 
 #: wp-admin/edit-attachment-rows.php:74
 #: wp-admin/edit-attachment-rows.php:87
-#: wp-admin/edit-attachment-rows.php:204
+#: wp-admin/edit-attachment-rows.php:206
 #: wp-admin/includes/dashboard.php:451
 #: wp-admin/includes/template.php:128
 #: wp-admin/includes/template.php:299
@@ -860,7 +860,7 @@ msgid "Edit &#8220;%s&#8221;"
 msgstr "Uredi &#8220;%s&#8221;"
 
 #: wp-admin/edit-attachment-rows.php:93
-#: wp-admin/edit-attachment-rows.php:204
+#: wp-admin/edit-attachment-rows.php:206
 #: wp-admin/edit-form-comment.php:62
 #: wp-admin/edit-pages.php:263
 #: wp-admin/edit-pages.php:312
@@ -878,7 +878,7 @@ msgstr "Uredi &#8220;%s&#8221;"
 #: wp-admin/includes/template.php:1543
 #: wp-admin/includes/template.php:1668
 #: wp-admin/includes/template.php:1922
-#: wp-admin/includes/template.php:2198
+#: wp-admin/includes/template.php:2199
 #: wp-admin/includes/widgets.php:177
 #: wp-admin/link-manager.php:200
 #: wp-admin/menu.php:33
@@ -900,9 +900,9 @@ msgstr "Uredi"
 #: wp-admin/edit.php:346
 #: wp-admin/includes/template.php:1453
 #: wp-admin/includes/template.php:1673
-#: wp-admin/includes/template.php:2188
+#: wp-admin/includes/template.php:2189
 #: wp-admin/upload.php:290
-#: wp-admin/upload.php:456
+#: wp-admin/upload.php:458
 #: wp-includes/post-template.php:1297
 msgid "Restore"
 msgstr "Vrati"
@@ -914,7 +914,7 @@ msgstr "Vrati"
 msgid "Trash"
 msgstr "Smeće"
 
-#: wp-admin/edit-attachment-rows.php:100
+#: wp-admin/edit-attachment-rows.php:101
 #: wp-admin/edit-comments.php:316
 #: wp-admin/edit-comments.php:412
 #: wp-admin/edit-form-comment.php:71
@@ -927,116 +927,116 @@ msgstr "Smeće"
 #: wp-admin/includes/meta-boxes.php:190
 #: wp-admin/includes/template.php:1457
 #: wp-admin/includes/template.php:1677
-#: wp-admin/includes/template.php:2192
+#: wp-admin/includes/template.php:2193
 #: wp-admin/upload.php:292
-#: wp-admin/upload.php:398
-#: wp-admin/upload.php:458
+#: wp-admin/upload.php:399
+#: wp-admin/upload.php:460
 msgid "Delete Permanently"
 msgstr "Trajno obriši"
 
-#: wp-admin/edit-attachment-rows.php:103
+#: wp-admin/edit-attachment-rows.php:105
 #: wp-admin/includes/template.php:1463
 #: wp-admin/includes/template.php:1683
-#: wp-admin/upload.php:399
+#: wp-admin/upload.php:401
 #, php-format
 msgid "View &#8220;%s&#8221;"
 msgstr "Pregledaj &#8220;%s&#8221;"
 
-#: wp-admin/edit-attachment-rows.php:103
+#: wp-admin/edit-attachment-rows.php:105
 #: wp-admin/includes/template.php:1463
 #: wp-admin/includes/template.php:1537
 #: wp-admin/includes/template.php:1683
-#: wp-admin/upload.php:399
+#: wp-admin/upload.php:401
 msgid "View"
 msgstr "Pregledaj"
 
-#: wp-admin/edit-attachment-rows.php:134
+#: wp-admin/edit-attachment-rows.php:136
 #: wp-admin/includes/template.php:1508
 msgid "No Tags"
 msgstr "Nema oznaka"
 
-#: wp-admin/edit-attachment-rows.php:148
+#: wp-admin/edit-attachment-rows.php:150
 #: wp-admin/includes/template.php:1404
 #: wp-admin/includes/template.php:1631
-#: wp-admin/upload.php:413
+#: wp-admin/upload.php:415
 msgid "Unpublished"
 msgstr "Neobjavljeno"
 
-#: wp-admin/edit-attachment-rows.php:150
+#: wp-admin/edit-attachment-rows.php:152
 #: wp-admin/includes/dashboard.php:451
 #: wp-admin/includes/template.php:1407
 #: wp-admin/includes/template.php:1634
-#: wp-admin/upload.php:415
+#: wp-admin/upload.php:417
 msgid "Y/m/d g:i:s A"
 msgstr "d/m/Y H:i:s"
 
-#: wp-admin/edit-attachment-rows.php:155
-#: wp-admin/upload.php:420
+#: wp-admin/edit-attachment-rows.php:157
+#: wp-admin/upload.php:422
 #, php-format
 msgid "%s from now"
 msgstr "%s od ovog trenutka"
 
-#: wp-admin/edit-attachment-rows.php:157
+#: wp-admin/edit-attachment-rows.php:159
 #: wp-admin/includes/plugin-install.php:507
 #: wp-admin/includes/template.php:1414
 #: wp-admin/includes/template.php:1641
 #: wp-admin/includes/template.php:2109
 #: wp-admin/includes/theme-install.php:325
-#: wp-admin/upload.php:422
+#: wp-admin/upload.php:424
 #, php-format
 msgid "%s ago"
 msgstr "prije %s"
 
-#: wp-admin/edit-attachment-rows.php:177
+#: wp-admin/edit-attachment-rows.php:179
 msgid "(Unattached)"
 msgstr "(Nije dodano)"
 
-#: wp-admin/edit-attachment-rows.php:178
-#: wp-admin/upload.php:401
+#: wp-admin/edit-attachment-rows.php:180
+#: wp-admin/upload.php:403
 msgid "Attach"
 msgstr "Dodaj"
 
-#: wp-admin/edit-attachment-rows.php:190
+#: wp-admin/edit-attachment-rows.php:192
 #: wp-admin/includes/template.php:1518
 #: wp-admin/includes/template.php:1706
-#: wp-admin/includes/template.php:2269
+#: wp-admin/includes/template.php:2270
 #, php-format
 msgid "%s pending"
 msgstr "%s na čekanju"
 
 #. translators: comment count link
-#: wp-admin/edit-attachment-rows.php:193
+#: wp-admin/edit-attachment-rows.php:195
 #: wp-admin/includes/template.php:1521
 #: wp-admin/includes/template.php:1709
-#: wp-admin/includes/template.php:2272
+#: wp-admin/includes/template.php:2273
 msgctxt "comment count"
 msgid "0"
 msgstr "0"
 
 #. translators: comment count link
-#: wp-admin/edit-attachment-rows.php:193
+#: wp-admin/edit-attachment-rows.php:195
 #: wp-admin/includes/template.php:1521
 #: wp-admin/includes/template.php:1709
-#: wp-admin/includes/template.php:2272
+#: wp-admin/includes/template.php:2273
 msgctxt "comment count"
 msgid "1"
 msgstr "1"
 
 #. translators: comment count link: % will be substituted by comment count
-#: wp-admin/edit-attachment-rows.php:193
+#: wp-admin/edit-attachment-rows.php:195
 #: wp-admin/includes/template.php:1521
 #: wp-admin/includes/template.php:1709
-#: wp-admin/includes/template.php:2272
+#: wp-admin/includes/template.php:2273
 msgctxt "comment count"
 msgid "%"
 msgstr "%"
 
-#: wp-admin/edit-attachment-rows.php:205
+#: wp-admin/edit-attachment-rows.php:207
 msgid "Get permalink"
 msgstr "Dobavi trajni link"
 
-#: wp-admin/edit-attachment-rows.php:224
-#: wp-admin/upload.php:432
+#: wp-admin/edit-attachment-rows.php:226
+#: wp-admin/upload.php:434
 msgid "No media attachments found."
 msgstr "Multimedijalni prilozi nisu pronađeni."
 
@@ -1077,10 +1077,10 @@ msgstr[1] "%s komentara označenih kao spam."
 #: wp-admin/edit-comments.php:166
 #: wp-admin/edit-pages.php:170
 #: wp-admin/edit.php:171
-#: wp-admin/includes/image-edit.php:52
+#: wp-admin/includes/image-edit.php:56
 #: wp-admin/includes/media.php:1243
-#: wp-admin/includes/template.php:2383
-#: wp-admin/includes/template.php:2386
+#: wp-admin/includes/template.php:2384
+#: wp-admin/includes/template.php:2387
 #: wp-admin/upload.php:210
 #: wp-includes/js/tinymce/langs/wp-langs.php:213
 #: wp-includes/js/tinymce/wp-mce-help.php:209
@@ -1168,16 +1168,16 @@ msgstr "Prikazujem %s&#8211;%s od %s"
 #: wp-admin/edit-comments.php:302
 #: wp-admin/edit-comments.php:400
 #: wp-admin/includes/dashboard.php:553
-#: wp-admin/includes/template.php:2175
-#: wp-admin/includes/template.php:2180
+#: wp-admin/includes/template.php:2176
+#: wp-admin/includes/template.php:2181
 msgid "Unapprove"
 msgstr "Ne odobravaj"
 
 #: wp-admin/edit-comments.php:305
 #: wp-admin/edit-comments.php:403
 #: wp-admin/includes/dashboard.php:552
-#: wp-admin/includes/template.php:2177
-#: wp-admin/includes/template.php:2179
+#: wp-admin/includes/template.php:2178
+#: wp-admin/includes/template.php:2180
 msgid "Approve"
 msgstr "Odobri"
 
@@ -1188,7 +1188,7 @@ msgstr "Označi kao spam"
 
 #: wp-admin/edit-comments.php:313
 #: wp-admin/edit-comments.php:414
-#: wp-admin/includes/template.php:2186
+#: wp-admin/includes/template.php:2187
 #: wp-content/plugins/akismet/akismet.php:832
 msgid "Not Spam"
 msgstr "Nije spam"
@@ -1203,7 +1203,7 @@ msgstr "Nije spam"
 #: wp-admin/includes/media.php:1243
 #: wp-admin/includes/meta-boxes.php:193
 #: wp-admin/upload.php:294
-#: wp-admin/upload.php:460
+#: wp-admin/upload.php:462
 msgid "Move to Trash"
 msgstr "Prebaci u smeće"
 
@@ -1216,8 +1216,8 @@ msgstr "Prikaži sve vrste komentara"
 #: wp-admin/import/blogger.php:206
 #: wp-admin/includes/file.php:14
 #: wp-admin/includes/template.php:1167
-#: wp-admin/includes/template.php:3204
-#: wp-admin/includes/template.php:3320
+#: wp-admin/includes/template.php:3205
+#: wp-admin/includes/template.php:3321
 #: wp-content/plugins/akismet/akismet.php:758
 #: wp-content/themes/classic/comments-popup.php:29
 msgid "Comments"
@@ -1247,7 +1247,7 @@ msgstr "Očisti spam"
 #: wp-admin/edit.php:310
 #: wp-admin/edit.php:357
 #: wp-admin/upload.php:339
-#: wp-admin/upload.php:468
+#: wp-admin/upload.php:470
 msgid "Empty Trash"
 msgstr "Očisti smeće"
 
@@ -1341,7 +1341,7 @@ msgstr "Umanjena slika"
 
 #: wp-admin/edit-form-advanced.php:103
 #: wp-admin/includes/meta-boxes.php:313
-#: wp-includes/post.php:3664
+#: wp-includes/post.php:3666
 msgid "Excerpt"
 msgstr "Izvadak"
 
@@ -1422,7 +1422,7 @@ msgid "Submitted on: <b>%1$s</b>"
 msgstr "Poslano u: <b>%1$s</b>"
 
 #: wp-admin/edit-form-comment.php:74
-#: wp-admin/includes/template.php:2349
+#: wp-admin/includes/template.php:2350
 msgid "Update Comment"
 msgstr "Ažuriraj komentar"
 
@@ -1520,7 +1520,7 @@ msgid "Add Link"
 msgstr "Dodaj link"
 
 #: wp-admin/edit-link-form.php:27
-#: wp-admin/includes/image-edit.php:71
+#: wp-admin/includes/image-edit.php:75
 #: wp-admin/includes/meta-boxes.php:24
 #: wp-admin/includes/meta-boxes.php:517
 #: wp-admin/includes/widgets.php:206
@@ -1561,10 +1561,10 @@ msgstr "Link je dodan."
 #: wp-admin/includes/template.php:882
 #: wp-admin/includes/template.php:892
 #: wp-admin/includes/template.php:903
-#: wp-admin/includes/template.php:2328
-#: wp-admin/includes/template.php:2438
-#: wp-admin/includes/template.php:2453
-#: wp-admin/includes/template.php:2542
+#: wp-admin/includes/template.php:2329
+#: wp-admin/includes/template.php:2439
+#: wp-admin/includes/template.php:2454
+#: wp-admin/includes/template.php:2543
 #: wp-admin/themes.php:277
 #: wp-admin/update-core.php:232
 #: wp-admin/update-core.php:239
@@ -1691,7 +1691,7 @@ msgid "Error in deleting..."
 msgstr "Greška pri brisanju..."
 
 #: wp-admin/edit-pages.php:104
-#: wp-admin/includes/template.php:3278
+#: wp-admin/includes/template.php:3279
 msgid "Edit Pages"
 msgstr "Uredi stranice"
 
@@ -1800,7 +1800,7 @@ msgstr[0] "Smeće <span class=\"count\">(%s)</span>"
 msgstr[1] "Smeće <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:125
-#: wp-admin/includes/template.php:3238
+#: wp-admin/includes/template.php:3239
 #: wp-admin/menu.php:59
 #: wp-includes/default-widgets.php:19
 #: wp-includes/default-widgets.php:25
@@ -1933,7 +1933,7 @@ msgstr "Ažuriraj oznaku"
 #: wp-admin/includes/dashboard.php:407
 #: wp-admin/includes/template.php:760
 #: wp-admin/includes/template.php:1157
-#: wp-includes/default-widgets.php:977
+#: wp-includes/default-widgets.php:979
 msgid "Tags"
 msgstr "Oznake"
 
@@ -2001,7 +2001,7 @@ msgid "You are not allowed to delete this post."
 msgstr "Nije vam dozvoljeno brisanje ovog članka."
 
 #: wp-admin/edit.php:111
-#: wp-admin/includes/template.php:3272
+#: wp-admin/includes/template.php:3273
 msgid "Edit Posts"
 msgstr "Uredi članke"
 
@@ -2132,7 +2132,7 @@ msgid "Once you&#8217;ve saved the download file, you can use the Import functio
 msgstr "Nakon što sačuvate i preuzmete datoteku, možete koristiti fukciju Uvoz ili neki drugi WordPressov blog za uvoz sadržaja ovog bloga."
 
 #: wp-admin/export.php:36
-#: wp-admin/includes/template.php:3734
+#: wp-admin/includes/template.php:3735
 msgid "Options"
 msgstr "Opcije"
 
@@ -2206,8 +2206,8 @@ msgstr "Uspjeli smo se prijaviti ali nismo pronašli blogove. Sljedeći put poku
 
 #: wp-admin/import/blogger.php:194
 #: wp-admin/includes/media.php:1241
-#: wp-admin/upgrade.php:54
-#: wp-admin/upgrade.php:79
+#: wp-admin/upgrade.php:59
+#: wp-admin/upgrade.php:92
 msgid "Continue"
 msgstr "Nastavi"
 
@@ -2253,7 +2253,7 @@ msgstr "Magično dugme"
 #: wp-admin/includes/template.php:875
 #: wp-admin/includes/template.php:895
 #: wp-admin/includes/template.php:906
-#: wp-admin/includes/template.php:3236
+#: wp-admin/includes/template.php:3237
 #: wp-admin/menu.php:32
 msgid "Posts"
 msgstr "Članci"
@@ -3011,7 +3011,7 @@ msgstr "Ovaj uvoznik je dovoljno pametan da ne ubacuje duplikate pa ga možete p
 
 #: wp-admin/import/mt.php:62
 #: wp-admin/import/wordpress.php:262
-#: wp-admin/includes/template.php:2552
+#: wp-admin/includes/template.php:2553
 #: wp-admin/options-reading.php:44
 #: wp-admin/options-reading.php:45
 msgid "- Select -"
@@ -4063,16 +4063,16 @@ msgid "View all"
 msgstr "Pregledaj sve"
 
 #: wp-admin/includes/dashboard.php:119
-#: wp-admin/includes/image-edit.php:70
+#: wp-admin/includes/image-edit.php:74
 #: wp-admin/includes/media.php:1241
 #: wp-admin/includes/media.php:1455
 #: wp-admin/includes/meta-boxes.php:94
 #: wp-admin/includes/meta-boxes.php:140
 #: wp-admin/includes/template.php:265
 #: wp-admin/includes/template.php:1257
-#: wp-admin/includes/template.php:2347
-#: wp-admin/includes/template.php:2564
-#: wp-admin/includes/template.php:2651
+#: wp-admin/includes/template.php:2348
+#: wp-admin/includes/template.php:2565
+#: wp-admin/includes/template.php:2652
 #: wp-admin/includes/theme-install.php:511
 #: wp-admin/press-this.php:125
 #: wp-admin/press-this.php:155
@@ -4200,7 +4200,7 @@ msgid "Press This"
 msgstr "Objavi ovo"
 
 #: wp-admin/includes/dashboard.php:400
-#: wp-includes/post.php:3663
+#: wp-includes/post.php:3665
 msgid "Content"
 msgstr "Sadržaj"
 
@@ -4234,53 +4234,53 @@ msgid "No comments yet."
 msgstr "Još nema komentara."
 
 #: wp-admin/includes/dashboard.php:552
-#: wp-admin/includes/template.php:2177
-#: wp-admin/includes/template.php:2179
+#: wp-admin/includes/template.php:2178
+#: wp-admin/includes/template.php:2180
 msgid "Approve this comment"
 msgstr "Odobri ovaj komentar"
 
 #: wp-admin/includes/dashboard.php:553
-#: wp-admin/includes/template.php:2175
-#: wp-admin/includes/template.php:2180
+#: wp-admin/includes/template.php:2176
+#: wp-admin/includes/template.php:2181
 msgid "Unapprove this comment"
 msgstr "Ne odobravaj ovaj komentar"
 
 #: wp-admin/includes/dashboard.php:554
-#: wp-admin/includes/template.php:2198
+#: wp-admin/includes/template.php:2199
 #: wp-includes/link-template.php:837
 msgid "Edit comment"
 msgstr "Uredi komentar"
 
 #: wp-admin/includes/dashboard.php:555
-#: wp-admin/includes/template.php:2201
+#: wp-admin/includes/template.php:2202
 msgid "Reply to this comment"
 msgstr "Odgovori na ovaj komentar"
 
 #: wp-admin/includes/dashboard.php:555
-#: wp-admin/includes/template.php:2201
+#: wp-admin/includes/template.php:2202
 #: wp-includes/comment-template.php:1002
 msgid "Reply"
 msgstr "Odgovori"
 
 #: wp-admin/includes/dashboard.php:556
-#: wp-admin/includes/template.php:2184
+#: wp-admin/includes/template.php:2185
 msgid "Mark this comment as spam"
 msgstr "Označi ovaj komentar kao spam"
 
 #. translators: mark as spam link
 #: wp-admin/includes/dashboard.php:556
-#: wp-admin/includes/template.php:2184
+#: wp-admin/includes/template.php:2185
 msgctxt "verb"
 msgid "Spam"
 msgstr "Spam"
 
 #: wp-admin/includes/dashboard.php:560
-#: wp-admin/includes/template.php:2194
+#: wp-admin/includes/template.php:2195
 msgid "Move this comment to the trash"
 msgstr "Pomjeri ovaj komentar u smeće"
 
 #: wp-admin/includes/dashboard.php:560
-#: wp-admin/includes/template.php:2194
+#: wp-admin/includes/template.php:2195
 msgctxt "verb"
 msgid "Trash"
 msgstr "Smeće"
@@ -4332,7 +4332,7 @@ msgstr "Za ovaj dodatak je potreban JavaScript."
 
 #: wp-admin/includes/dashboard.php:631
 #: wp-admin/includes/dashboard.php:747
-#: wp-includes/default-widgets.php:774
+#: wp-includes/default-widgets.php:776
 #, php-format
 msgid "<strong>RSS Error</strong>: %s"
 msgstr "<strong>RSS greška</strong>: %s"
@@ -4626,7 +4626,7 @@ msgstr "Poslužitelj"
 
 #: wp-admin/includes/file.php:811
 #: wp-admin/includes/template.php:902
-#: wp-admin/install.php:135
+#: wp-admin/install.php:152
 #: wp-admin/user-edit.php:187
 #: wp-admin/user-new.php:96
 #: wp-login.php:425
@@ -4636,7 +4636,7 @@ msgstr "Korisničko ime"
 
 #: wp-admin/includes/file.php:816
 #: wp-admin/includes/template.php:1080
-#: wp-admin/install.php:139
+#: wp-admin/install.php:156
 #: wp-admin/options-writing.php:100
 #: wp-admin/user-new.php:119
 #: wp-login.php:540
@@ -4669,7 +4669,7 @@ msgid "Proceed"
 msgstr "Nastavi"
 
 #: wp-admin/includes/image-edit.php:19
-#: wp-admin/includes/image-edit.php:540
+#: wp-admin/includes/image-edit.php:544
 msgid "Image data does not exist. Please re-upload the image."
 msgstr "Podaci o slici ne postoje. Molimo vas da ponovo dodate sliku."
 
@@ -4678,189 +4678,193 @@ msgid "Crop"
 msgstr "Izreži"
 
 #: wp-admin/includes/image-edit.php:44
-msgid "Rotate couter-clockwise"
+msgid "Rotate counter-clockwise"
 msgstr "Rotiraj lijevo"
 
 #: wp-admin/includes/image-edit.php:45
 msgid "Rotate clockwise"
 msgstr "Rotiraj desno"
 
-#: wp-admin/includes/image-edit.php:49
+#: wp-admin/includes/image-edit.php:47
+msgid "Image rotation is not supported by your web host (function imagerotate() is missing)"
+msgstr "Rotacija slike nije podržana od vašeg web hosta (funkcija imagerotate() nedostaje)"
+
+#: wp-admin/includes/image-edit.php:53
 msgid "Flip vertically"
 msgstr "Rotiraj po vertikali"
 
-#: wp-admin/includes/image-edit.php:50
+#: wp-admin/includes/image-edit.php:54
 msgid "Flip horizontally"
 msgstr "Okreni po horizontali"
 
-#: wp-admin/includes/image-edit.php:53
+#: wp-admin/includes/image-edit.php:57
 #: wp-includes/js/tinymce/langs/wp-langs.php:214
 #: wp-includes/js/tinymce/wp-mce-help.php:209
 msgid "Redo"
 msgstr "Naprijed"
 
-#: wp-admin/includes/image-edit.php:78
+#: wp-admin/includes/image-edit.php:82
 msgid "Scale Image"
 msgstr "Skaliranje slike"
 
-#: wp-admin/includes/image-edit.php:80
+#: wp-admin/includes/image-edit.php:84
 msgid "You can proportionally scale the original image. For best results the scaling should be done before performing any other operations on it like crop, rotate, etc. Note that if you make the image larger it may become fuzzy."
 msgstr "Originalnu sliku je moguće proporcionalno skalirati. Za najbolje rezultate skaliranje treba raditi prije bilo koje druge operacije kao što su rezanje, rotiranje itd. Napominjemo da ako sliku uvećate mogla bi da postane nejasna."
 
-#: wp-admin/includes/image-edit.php:81
+#: wp-admin/includes/image-edit.php:85
 #, php-format
 msgid "Original dimensions %s"
 msgstr "Originalna veličina %s"
 
-#: wp-admin/includes/image-edit.php:85
+#: wp-admin/includes/image-edit.php:89
 #: wp-includes/js/tinymce/langs/wp-langs.php:320
 msgid "Scale"
 msgstr "Skaliranje"
 
-#: wp-admin/includes/image-edit.php:93
+#: wp-admin/includes/image-edit.php:97
 msgid "Restore Original Image"
 msgstr "Vrati originalnu sliku"
 
-#: wp-admin/includes/image-edit.php:95
+#: wp-admin/includes/image-edit.php:99
 msgid "Discard any changes and restore the original image."
 msgstr "Odbaci sve izmjene i vrati originalnu sliku."
 
-#: wp-admin/includes/image-edit.php:98
+#: wp-admin/includes/image-edit.php:102
 msgid " Previously edited copies of the image will not be deleted."
 msgstr "Prethodno uređivane kopije slike neće biti obrisane."
 
-#: wp-admin/includes/image-edit.php:102
+#: wp-admin/includes/image-edit.php:106
 msgid "Restore image"
 msgstr "Vrati sliku"
 
-#: wp-admin/includes/image-edit.php:113
+#: wp-admin/includes/image-edit.php:117
 msgid "Image Crop"
 msgstr "Izrezivanje slike"
 
-#: wp-admin/includes/image-edit.php:114
-#: wp-admin/includes/image-edit.php:160
+#: wp-admin/includes/image-edit.php:118
+#: wp-admin/includes/image-edit.php:164
 msgid "(help)"
 msgstr "(pomoć)"
 
-#: wp-admin/includes/image-edit.php:116
+#: wp-admin/includes/image-edit.php:120
 msgid "The image can be cropped by clicking on it and dragging to select the desired part. While dragging the dimensions of the selection are displayed below."
 msgstr "Sliku je moguće izrezati pritiskom na nju i povlačenjem da biste odabrali željeni dio. Prilikom povlačenja dimenzije selekcije su prikazane ispod."
 
-#: wp-admin/includes/image-edit.php:117
+#: wp-admin/includes/image-edit.php:121
 msgid "Keyboard shortcuts"
 msgstr "Prečice na tastaturi"
 
-#: wp-admin/includes/image-edit.php:119
+#: wp-admin/includes/image-edit.php:123
 msgid "Arrow: move by 10px"
 msgstr "Strelica: pomakni za 10px"
 
-#: wp-admin/includes/image-edit.php:120
+#: wp-admin/includes/image-edit.php:124
 msgid "Shift + arrow: move by 1px"
 msgstr "Shift + strelica: pomakni za 1px"
 
-#: wp-admin/includes/image-edit.php:121
+#: wp-admin/includes/image-edit.php:125
 msgid "Ctrl + arrow: resize by 10px"
 msgstr "Ctrl + strelica: promijeni veličini za 10px"
 
-#: wp-admin/includes/image-edit.php:122
+#: wp-admin/includes/image-edit.php:126
 msgid "Ctrl + Shift + arrow: resize by 1px"
 msgstr "Ctrl + Shift + strelica: promijeni veličinu za 1 px"
 
-#: wp-admin/includes/image-edit.php:123
+#: wp-admin/includes/image-edit.php:127
 msgid "Shift + drag: lock aspect ratio"
 msgstr "Shift + povlačenje: zaključaj omjer"
 
-#: wp-admin/includes/image-edit.php:126
+#: wp-admin/includes/image-edit.php:130
 msgid "Crop Aspect Ratio"
 msgstr "Izreži omjer"
 
-#: wp-admin/includes/image-edit.php:127
+#: wp-admin/includes/image-edit.php:131
 msgid "You can specify the crop selection aspect ratio then hold down the Shift key while dragging to lock it. The values can be 1:1 (square), 4:3, 16:9, etc. If there is a selection, specifying aspect ratio will set it immediately."
 msgstr "Možete odabrati omjer izrezane selekcije a zatim pritisnuti dugme Shift prilikom povlačenja da biste omjer zaključali. Vrijednosti mogu biti 1:1 (kvadrat), 4:3, 16:9 itd. Ako postoji selekcija, postavljanje omjera će je automatski uključiti."
 
-#: wp-admin/includes/image-edit.php:129
+#: wp-admin/includes/image-edit.php:133
 msgid "Crop Selection"
 msgstr "Izreži selekciju"
 
-#: wp-admin/includes/image-edit.php:130
+#: wp-admin/includes/image-edit.php:134
 msgid "Once started, the selection can be adjusted by entering new values (in pixels). Note that these values are scaled to approximately match the original image dimensions. The minimum selection size equals the thumbnail size as set in the Media settings."
 msgstr "Jednom pokrenuta, selekcija se može prilagoditi unosom novih vrijednosti (u pikselima). Napominemo da su ove vrijednosti skalirane da bi se približno poklopile sa dimenzijama originalne slike. Minimalna veličina selekcije je jednaka veličini umanjene slike koja je postavljena u multimedijalnim postavkama."
 
-#: wp-admin/includes/image-edit.php:135
+#: wp-admin/includes/image-edit.php:139
 msgid "Aspect ratio:"
 msgstr "Omjer:"
 
-#: wp-admin/includes/image-edit.php:144
+#: wp-admin/includes/image-edit.php:148
 msgid "Selection:"
 msgstr "Selekcija:"
 
-#: wp-admin/includes/image-edit.php:159
+#: wp-admin/includes/image-edit.php:163
 msgid "Thumbnail Settings"
 msgstr "Postavke umanjene slike"
 
-#: wp-admin/includes/image-edit.php:161
+#: wp-admin/includes/image-edit.php:165
 msgid "The thumbnail image can be cropped differently. For example it can be square or contain only a portion of the original image to showcase it better. Here you can select whether to apply changes to all image sizes or make the thumbnail different."
 msgstr "Umanjena slika se može izrezati na više načina. Na primjer, može biti kvadrat ili može sadržavati samo djelić originalne slike koji želite posebno istaknuti. Ovdje možete odabrati primjenu promjena na sve slike ili samo na određenu umanjenu sliku."
 
-#: wp-admin/includes/image-edit.php:165
+#: wp-admin/includes/image-edit.php:169
 msgid "Current thumbnail"
 msgstr "Trenutna umanjena slika"
 
-#: wp-admin/includes/image-edit.php:169
+#: wp-admin/includes/image-edit.php:173
 msgid "Apply changes to:"
 msgstr "Primijeni promjene na:"
 
-#: wp-admin/includes/image-edit.php:173
+#: wp-admin/includes/image-edit.php:177
 msgid "All image sizes"
 msgstr "Sve veličine slika"
 
-#: wp-admin/includes/image-edit.php:177
+#: wp-admin/includes/image-edit.php:181
 #: wp-admin/includes/media.php:822
 #: wp-includes/js/tinymce/langs/wp-langs.php:426
 msgid "Thumbnail"
 msgstr "Umanjena slika"
 
-#: wp-admin/includes/image-edit.php:181
+#: wp-admin/includes/image-edit.php:185
 msgid "All sizes except thumbnail"
 msgstr "Sve veličine osim umanjenih slika"
 
-#: wp-admin/includes/image-edit.php:191
+#: wp-admin/includes/image-edit.php:195
 msgid "There are unsaved changes that will be lost.  'OK' to continue, 'Cancel' to return to the Image Editor."
 msgstr "Postoje nesačuvane izmjene koje će biti izgubljene. 'U redu' za nastavak, 'Poništi' za povratak u uređivač slika."
 
-#: wp-admin/includes/image-edit.php:423
+#: wp-admin/includes/image-edit.php:427
 msgid "Cannot load image metadata."
 msgstr "Nije moguće učitati meta podatke."
 
-#: wp-admin/includes/image-edit.php:478
+#: wp-admin/includes/image-edit.php:482
 msgid "Cannot save image metadata."
 msgstr "Nije moguću sačuvati meta podatke slike."
 
-#: wp-admin/includes/image-edit.php:483
+#: wp-admin/includes/image-edit.php:487
 msgid "Image metadata is inconsistent."
 msgstr "Meta podaci slike su nesaglasni."
 
-#: wp-admin/includes/image-edit.php:485
+#: wp-admin/includes/image-edit.php:489
 msgid "Image restored successfully."
 msgstr "Slika je uspješno vraćena."
 
-#: wp-admin/includes/image-edit.php:498
+#: wp-admin/includes/image-edit.php:502
 msgid "Unable to create new image."
 msgstr "Nije moguće napraviti novu sliku."
 
-#: wp-admin/includes/image-edit.php:524
+#: wp-admin/includes/image-edit.php:528
 msgid "Error while saving the scaled image. Please reload the page and try again."
 msgstr "Došlo je do greške prilikom snimanja skalirane slike. Molimo vas da ponovo učitate stranicu."
 
-#: wp-admin/includes/image-edit.php:532
+#: wp-admin/includes/image-edit.php:536
 msgid "Nothing to save, the image has not changed."
 msgstr "Ništa za sačuvati, slika nije promijenjena."
 
-#: wp-admin/includes/image-edit.php:575
+#: wp-admin/includes/image-edit.php:579
 msgid "Unable to save the image."
 msgstr "Nije moguće sačuvati sliku."
 
-#: wp-admin/includes/image-edit.php:660
+#: wp-admin/includes/image-edit.php:664
 msgid "Image saved"
 msgstr "Slika je sačuvana"
 
@@ -4905,7 +4909,7 @@ msgid "Uploads"
 msgstr "Dodavanja"
 
 #: wp-admin/includes/media.php:304
-#: wp-admin/includes/template.php:3400
+#: wp-admin/includes/template.php:3401
 msgid "WordPress"
 msgstr "WordPress"
 
@@ -5341,7 +5345,7 @@ msgstr "Privatno objavljeno"
 
 #: wp-admin/includes/meta-boxes.php:93
 #: wp-admin/includes/meta-boxes.php:139
-#: wp-admin/includes/template.php:2650
+#: wp-admin/includes/template.php:2651
 #: wp-includes/script-loader.php:285
 msgid "OK"
 msgstr "U redu"
@@ -5353,7 +5357,7 @@ msgstr "Vidljivost:"
 #: wp-admin/includes/meta-boxes.php:106
 #: wp-admin/includes/meta-boxes.php:136
 #: wp-admin/includes/template.php:1213
-#: wp-admin/includes/template.php:3452
+#: wp-admin/includes/template.php:3453
 #: wp-includes/post.php:392
 #: wp-includes/post.php:412
 #: wp-includes/script-loader.php:299
@@ -5362,7 +5366,7 @@ msgstr "Privatno"
 
 #: wp-admin/includes/meta-boxes.php:109
 #: wp-admin/includes/meta-boxes.php:134
-#: wp-admin/includes/template.php:3450
+#: wp-admin/includes/template.php:3451
 msgid "Password protected"
 msgstr "Zaštićeno šifrom"
 
@@ -5420,7 +5424,7 @@ msgstr "Zakaži"
 #: wp-admin/includes/meta-boxes.php:217
 #: wp-admin/includes/meta-boxes.php:218
 #: wp-admin/includes/template.php:1262
-#: wp-admin/includes/template.php:2512
+#: wp-admin/includes/template.php:2513
 #: wp-includes/js/tinymce/langs/wp-langs.php:29
 msgid "Update"
 msgstr "Ažuriraj"
@@ -5791,8 +5795,8 @@ msgid "Plugins extend and expand the functionality of WordPress. You may automat
 msgstr "Plugini proširuju funkcionalnost WordPressa. Automatski možete instalirati plugine iz <a href=\"http://wordpress.org/extend/plugins/\">WordPressovog plugin direktorija</a> ili možete dodati plugin u .zip formatu putem ove stranice."
 
 #: wp-admin/includes/plugin-install.php:129
-#: wp-admin/includes/template.php:3231
-#: wp-admin/includes/template.php:3233
+#: wp-admin/includes/template.php:3232
+#: wp-admin/includes/template.php:3234
 #: wp-admin/includes/theme-install.php:162
 #: wp-admin/plugin-install.php:24
 #: wp-admin/theme-install.php:29
@@ -6270,13 +6274,13 @@ msgstr "Još jedan WordPressov blog"
 
 #. translators: default date format, see http://php.net/date
 #: wp-admin/includes/schema.php:220
-#: wp-admin/options-general.php:204
+#: wp-admin/options-general.php:216
 msgid "F j, Y"
 msgstr "j. F Y."
 
 #. translators: default time format, see http://php.net/date
 #: wp-admin/includes/schema.php:222
-#: wp-admin/options-general.php:237
+#: wp-admin/options-general.php:249
 msgid "g:i a"
 msgstr "H:i"
 
@@ -6320,13 +6324,13 @@ msgstr "Pretplatnik"
 #: wp-admin/includes/template.php:670
 #: wp-admin/includes/template.php:1449
 #: wp-admin/includes/template.php:1669
-#: wp-admin/includes/template.php:2199
+#: wp-admin/includes/template.php:2200
 msgid "Quick&nbsp;Edit"
 msgstr "Brzo uređivanje"
 
 #: wp-admin/includes/template.php:229
 #: wp-admin/includes/template.php:1029
-#: wp-admin/includes/template.php:2199
+#: wp-admin/includes/template.php:2200
 msgid "Quick Edit"
 msgstr "Brzo uređivanje"
 
@@ -6436,7 +6440,7 @@ msgstr "Dozvoli pingove"
 
 #: wp-admin/includes/template.php:1226
 #: wp-admin/includes/template.php:1229
-#: wp-admin/includes/template.php:3459
+#: wp-admin/includes/template.php:3460
 msgid "Sticky"
 msgstr "Važno"
 
@@ -6535,123 +6539,123 @@ msgstr "Pregledaj članke od ovog autora"
 msgid "Y/m/d \\a\\t g:i A"
 msgstr "d/m/Y H:i:s"
 
-#: wp-admin/includes/template.php:2148
+#: wp-admin/includes/template.php:2149
 #, php-format
 msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
 msgstr "Poslano <a href=\"%1$s\">%2$s u %3$s</a>"
 
-#: wp-admin/includes/template.php:2148
+#: wp-admin/includes/template.php:2149
 msgid "g:ia"
 msgstr "H:i"
 
-#: wp-admin/includes/template.php:2250
+#: wp-admin/includes/template.php:2251
 msgid "Y/m/d \\a\\t g:ia"
 msgstr "d/m/Y H:i"
 
-#: wp-admin/includes/template.php:2324
+#: wp-admin/includes/template.php:2325
 msgid "Reply to Comment"
 msgstr "Odgovori na komentar"
 
-#: wp-admin/includes/template.php:2350
+#: wp-admin/includes/template.php:2351
 msgid "Submit Reply"
 msgstr "Pošalji odgovor"
 
-#: wp-admin/includes/template.php:2383
+#: wp-admin/includes/template.php:2384
 #, php-format
 msgid "Comment by %s moved to the trash."
 msgstr "%s komentar prebačen u smeće."
 
-#: wp-admin/includes/template.php:2386
+#: wp-admin/includes/template.php:2387
 #, php-format
 msgid "Comment by %s marked as spam."
 msgstr "%s komentar označen kao spam."
 
-#: wp-admin/includes/template.php:2439
-#: wp-admin/includes/template.php:2454
-#: wp-admin/includes/template.php:2516
-#: wp-admin/includes/template.php:2543
+#: wp-admin/includes/template.php:2440
+#: wp-admin/includes/template.php:2455
+#: wp-admin/includes/template.php:2517
+#: wp-admin/includes/template.php:2544
 msgid "Value"
 msgstr "Vrijednost"
 
-#: wp-admin/includes/template.php:2508
+#: wp-admin/includes/template.php:2509
 msgid "Key"
 msgstr "Ključ"
 
-#: wp-admin/includes/template.php:2538
+#: wp-admin/includes/template.php:2539
 msgid "Add new custom field:"
 msgstr "Dodaj novo korisničko polje:"
 
-#: wp-admin/includes/template.php:2563
+#: wp-admin/includes/template.php:2564
 msgid "Enter new"
 msgstr "Dodaj novo"
 
-#: wp-admin/includes/template.php:2573
+#: wp-admin/includes/template.php:2574
 msgid "Add Custom Field"
 msgstr "Dodaj korisničko polje"
 
 #. translators: 1: month input, 2: day input, 3: year input, 4: hour input, 5: minute input
-#: wp-admin/includes/template.php:2635
+#: wp-admin/includes/template.php:2636
 #, php-format
 msgid "%1$s%2$s, %3$s @ %4$s : %5$s"
 msgstr "%2$s. %1$s, %3$s u %4$s : %5$s"
 
-#: wp-admin/includes/template.php:2717
+#: wp-admin/includes/template.php:2718
 msgid "WordPress recommends a better browser"
 msgstr "WordPress vam preporučuje bolji pretraživač"
 
-#: wp-admin/includes/template.php:2752
+#: wp-admin/includes/template.php:2753
 msgid "Thumbnail linked to file"
 msgstr "Umanjena slika povezana sa datotekom"
 
-#: wp-admin/includes/template.php:2752
+#: wp-admin/includes/template.php:2753
 msgid "Image linked to file"
 msgstr "Slika povezana sa datotekom"
 
-#: wp-admin/includes/template.php:2756
+#: wp-admin/includes/template.php:2757
 msgid "Thumbnail linked to page"
 msgstr "Umanjena slika povezana sa stranicom"
 
-#: wp-admin/includes/template.php:2756
+#: wp-admin/includes/template.php:2757
 msgid "Image linked to page"
 msgstr "Slika povezana sa stranicom"
 
-#: wp-admin/includes/template.php:2761
+#: wp-admin/includes/template.php:2762
 msgid "Link to file"
 msgstr "Link do datoteke"
 
-#: wp-admin/includes/template.php:2765
+#: wp-admin/includes/template.php:2766
 msgid "Link to page"
 msgstr "Link do stranice"
 
-#: wp-admin/includes/template.php:2864
+#: wp-admin/includes/template.php:2865
 msgid "Before you can upload your import file, you will need to fix the following error:"
 msgstr "Prije nego mognete dodati vašu uvoznu datoteku, morat ćete popraviti sljedeću grešku:"
 
-#: wp-admin/includes/template.php:2870
+#: wp-admin/includes/template.php:2871
 msgid "Choose a file from your computer:"
 msgstr "Izaberite datoteku sa vašeg računara:"
 
-#: wp-admin/includes/template.php:2870
+#: wp-admin/includes/template.php:2871
 #, php-format
 msgid "Maximum size: %s"
 msgstr "Maksimalna veličina: %s"
 
-#: wp-admin/includes/template.php:2876
+#: wp-admin/includes/template.php:2877
 msgid "Upload file and import"
 msgstr "Dodaj i uvezi datoteku"
 
-#: wp-admin/includes/template.php:3002
+#: wp-admin/includes/template.php:3003
 #: wp-admin/press-this.php:477
 #: wp-admin/press-this.php:495
 #: wp-admin/press-this.php:522
 msgid "Click to toggle"
 msgstr "Pritisni za pokretanje"
 
-#: wp-admin/includes/template.php:3222
+#: wp-admin/includes/template.php:3223
 msgid "Find Posts or Pages"
 msgstr "Pronađite članke ili stranice"
 
-#: wp-admin/includes/template.php:3243
+#: wp-admin/includes/template.php:3244
 #: wp-admin/includes/widgets.php:202
 #: wp-includes/js/tinymce/langs/wp-langs.php:31
 #: wp-includes/js/tinymce/wp-mce-help.php:258
@@ -6660,124 +6664,124 @@ msgstr "Pronađite članke ili stranice"
 msgid "Close"
 msgstr "Zatvori"
 
-#: wp-admin/includes/template.php:3244
+#: wp-admin/includes/template.php:3245
 #: wp-admin/plugin-editor.php:172
 #: wp-admin/theme-editor.php:138
 msgid "Select"
 msgstr "Odaberi"
 
-#: wp-admin/includes/template.php:3275
-#: wp-admin/includes/template.php:3318
+#: wp-admin/includes/template.php:3276
+#: wp-admin/includes/template.php:3319
 msgid "New Page"
 msgstr "Nova stranica"
 
-#: wp-admin/includes/template.php:3281
+#: wp-admin/includes/template.php:3282
 msgid "New Media"
 msgstr "Nova multimedija"
 
-#: wp-admin/includes/template.php:3284
+#: wp-admin/includes/template.php:3285
 #: wp-admin/media.php:45
 #: wp-admin/media.php:90
 msgid "Edit Media"
 msgstr "Uredi multimediju"
 
-#: wp-admin/includes/template.php:3287
+#: wp-admin/includes/template.php:3288
 msgid "New Link"
 msgstr "Novi link"
 
-#: wp-admin/includes/template.php:3290
+#: wp-admin/includes/template.php:3291
 #: wp-admin/link-manager.php:44
 msgid "Edit Links"
 msgstr "Uredi linkove"
 
-#: wp-admin/includes/template.php:3293
+#: wp-admin/includes/template.php:3294
 msgid "New User"
 msgstr "Novi korisnik"
 
-#: wp-admin/includes/template.php:3296
+#: wp-admin/includes/template.php:3297
 msgid "Edit Users"
 msgstr "Uredi korisnike"
 
-#: wp-admin/includes/template.php:3299
+#: wp-admin/includes/template.php:3300
 #: wp-admin/plugin-install.php:17
 msgid "Install Plugins"
 msgstr "Instaliraj plugine"
 
-#: wp-admin/includes/template.php:3302
+#: wp-admin/includes/template.php:3303
 #: wp-admin/plugins.php:239
 msgid "Manage Plugins"
 msgstr "Upravljanje pluginima"
 
-#: wp-admin/includes/template.php:3305
+#: wp-admin/includes/template.php:3306
 #: wp-admin/theme-install.php:17
 #: wp-admin/update.php:154
 msgid "Install Themes"
 msgstr "Instaliraj teme"
 
-#: wp-admin/includes/template.php:3308
+#: wp-admin/includes/template.php:3309
 #: wp-admin/themes.php:31
 msgid "Manage Themes"
 msgstr "Upravljanje temama"
 
-#: wp-admin/includes/template.php:3311
-#: wp-admin/includes/template.php:3316
+#: wp-admin/includes/template.php:3312
+#: wp-admin/includes/template.php:3317
 msgid "New Post"
 msgstr "Novi članak"
 
-#: wp-admin/includes/template.php:3317
+#: wp-admin/includes/template.php:3318
 msgid "Drafts"
 msgstr "Skice"
 
-#: wp-admin/includes/template.php:3369
+#: wp-admin/includes/template.php:3370
 #: wp-includes/script-loader.php:350
 msgid "(no title)"
 msgstr "(bez naslova)"
 
 #. translators: post state
-#: wp-admin/includes/template.php:3457
+#: wp-admin/includes/template.php:3458
 msgctxt "post state"
 msgid "Pending"
 msgstr "Na čekanju"
 
-#: wp-admin/includes/template.php:3508
+#: wp-admin/includes/template.php:3509
 msgid "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">Writing Posts</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">Pisanje članaka</a>"
 
-#: wp-admin/includes/template.php:3520
+#: wp-admin/includes/template.php:3521
 msgid "The modules on this screen can be arranged in several columns. You can select the number of columns from the Screen Options tab."
 msgstr "Moduli na ovoj stranici mogu biti poredani u nekoliko kolona. Broj kolona možete izabrati u postavkama prikaza."
 
-#: wp-admin/includes/template.php:3533
+#: wp-admin/includes/template.php:3534
 msgid "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=\"_blank\">General Settings</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=\"_blank\">Opće postavke</a>"
 
-#: wp-admin/includes/template.php:3547
+#: wp-admin/includes/template.php:3548
 msgid "Enable accessibility mode"
 msgstr "Omogući mod pristupačnosti"
 
-#: wp-admin/includes/template.php:3547
+#: wp-admin/includes/template.php:3548
 msgid "Disable accessibility mode"
 msgstr "Onemogući mod pristupačnosti"
 
-#: wp-admin/includes/template.php:3559
+#: wp-admin/includes/template.php:3560
 msgid "Show on screen"
 msgstr "Prikaži na ekranu"
 
-#: wp-admin/includes/template.php:3588
+#: wp-admin/includes/template.php:3589
 #, php-format
 msgid "Get help with &#8220;%s&#8221;"
 msgstr "Pomoć oko &#8220;%s&#8221;"
 
-#: wp-admin/includes/template.php:3590
+#: wp-admin/includes/template.php:3591
 msgid "Get help with this page"
 msgstr "Pomoć oko ove stranice"
 
-#: wp-admin/includes/template.php:3593
+#: wp-admin/includes/template.php:3594
 msgid "Other Help"
 msgstr "Ostala pomoć"
 
-#: wp-admin/includes/template.php:3595
-#: wp-admin/includes/template.php:3610
+#: wp-admin/includes/template.php:3596
+#: wp-admin/includes/template.php:3611
 #: wp-includes/js/tinymce/langs/wp-langs.php:238
 #: wp-includes/js/tinymce/langs/wp-langs.php:252
 #: wp-includes/js/tinymce/langs/wp-langs.php:409
@@ -6785,95 +6789,95 @@ msgstr "Ostala pomoć"
 msgid "Help"
 msgstr "Pomoć"
 
-#: wp-admin/includes/template.php:3599
+#: wp-admin/includes/template.php:3600
 msgid "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Documentation</a>"
 msgstr "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Dokumentacija</a>"
 
-#: wp-admin/includes/template.php:3601
+#: wp-admin/includes/template.php:3602
 msgid "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
 msgstr "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Forumi za podršku</a>"
 
-#: wp-admin/includes/template.php:3614
+#: wp-admin/includes/template.php:3615
 msgid "Screen Options"
 msgstr "Postavke prikaza"
 
-#: wp-admin/includes/template.php:3641
+#: wp-admin/includes/template.php:3642
 msgid "Most of the modules on this screen can be moved. If you hover your mouse over the title bar of a module you&rsquo;ll notice the 4 arrow cursor appears to let you know it is movable. Click on it, hold down the mouse button and start dragging the module to a new location. As you drag the module, notice the dotted gray box that also moves. This box indicates where the module will be placed when you release the mouse button."
 msgstr "Većina modula na ovom ekranu može se pomjerati. Ako postavite miš iznad trake sa naslovom modula primjetit ćete kursor sa četiri strelice koji vam daje do znanja da modul možete pomjeriti. Pritsnite i držite tipku miša da biste pomjerili modul na drugu lokaciju. Kako pomjerate modul, primjetit ćete iscrtane sive crtice koje se također pomjeraju. Ove crtice označavaju mjesto gdje će modul biti pozicioniran kada pustite tipku miša."
 
-#: wp-admin/includes/template.php:3642
+#: wp-admin/includes/template.php:3643
 msgid "The same modules can be expanded and collapsed by clicking once on their title bar and also completely hidden from the Screen Options tab."
 msgstr "Isti moduli mogu biti prošireni ili suženi pritiskom na njihovu naslovnu traku, a mogu biti i kompletno sakriveni u postavkama prikaza."
 
-#: wp-admin/includes/template.php:3648
+#: wp-admin/includes/template.php:3649
 msgid "Search help"
 msgstr "Pomoć oko pretrage"
 
-#: wp-admin/includes/template.php:3649
+#: wp-admin/includes/template.php:3650
 msgid "You may search based on 3 criteria:"
 msgstr "Pretraživati možete na osnovu tri kriterija:"
 
-#: wp-admin/includes/template.php:3650
+#: wp-admin/includes/template.php:3651
 msgid "<strong>Term:</strong> Searches theme names and descriptions for the specified term."
 msgstr "<strong>Uslov:</strong> Traži imena i opise tema koje sadrže traženi uslov."
 
-#: wp-admin/includes/template.php:3651
+#: wp-admin/includes/template.php:3652
 msgid "<strong>Tag:</strong> Searches for themes tagged as such."
 msgstr "<strong>Oznaka:</strong> Traži teme koje sadrže upisanu oznaku."
 
-#: wp-admin/includes/template.php:3652
+#: wp-admin/includes/template.php:3653
 msgid "<strong>Author:</strong> Searches for themes created by the Author, or which the Author contributed to."
 msgstr "<strong>Autor:</strong> Traži teme upisanog autora ili one u kojima je autor učestvovao."
 
-#: wp-admin/includes/template.php:3658
+#: wp-admin/includes/template.php:3659
 msgid "Widgets are added and arranged by simple drag &#8217;n&#8217; drop. If you hover your mouse over the titlebar of a widget, you&#8217;ll see a 4-arrow cursor which indicates that the widget is movable.  Click on the titlebar, hold down the mouse button and drag the widget to a sidebar. As you drag, you&#8217;ll see a dotted box that also moves. This box shows where the widget will go once you drop it."
 msgstr "Dodaci se mogu redati i mijenjati jednostavnim prevlačenjem. Ako pozicionirate vašeg miša iznad naslovne trake dodatka, vidjet ćete kursor sa strelicama koje ukazuju na to da se dodatak može pomjerati. Pritisnite na naslovnu traku, držite tipku miša pritisnutom i povucite dodatak na traku sa strane. Kako vučete, vidjet ćete iscrtani kvadrat koji se također pomjera. Ovaj kvadrat vam pokazuje gdje će se dodatak pozicionirati kada ga pustite."
 
-#: wp-admin/includes/template.php:3659
+#: wp-admin/includes/template.php:3660
 msgid "To remove a widget from a sidebar, drag it back to Available Widgets or click on the arrow on its titlebar to reveal its settings, and then click Remove."
 msgstr "Za uklanjanje dodatka sa trake sa strane, vratite ga nazad na dostupne dodatke ili pritisnite strelicu na njegovoj naslovnoj traci da biste vidjeli postavke, a zatim pritisnite Ukloni."
 
-#: wp-admin/includes/template.php:3660
+#: wp-admin/includes/template.php:3661
 msgid "To remove a widget from a sidebar <em>and keep its configuration</em>, drag it to Inactive Widgets."
 msgstr "Da uklonite dodatak sa trake sa strane <em>i zadržite njegovu konfiguraciju</em>, odvucite ga među neaktivne dodatke."
 
-#: wp-admin/includes/template.php:3661
+#: wp-admin/includes/template.php:3662
 msgid "The Inactive Widgets area stores widgets that are configured but not curently used. If you change themes and the new theme has fewer sidebars than the old, all extra widgets will be stored to Inactive Widgets automatically."
 msgstr "Neaktivni dodaci su oni koji su konfigurisani ali se trenutno ne koriste. Ako promijenite temu i nova tema ima manje traka nego stara, svi suvišni dodaci će automatski biti pohranjeni u neaktivne dodatke."
 
-#: wp-admin/includes/template.php:3683
+#: wp-admin/includes/template.php:3684
 msgid "Screen Layout"
 msgstr "Postavke prikaza"
 
-#: wp-admin/includes/template.php:3683
+#: wp-admin/includes/template.php:3684
 msgid "Number of Columns:"
 msgstr "Broj kolona:"
 
-#: wp-admin/includes/template.php:3695
+#: wp-admin/includes/template.php:3696
 msgid "Posts per page:"
 msgstr "Članci po stranici:"
 
-#: wp-admin/includes/template.php:3698
+#: wp-admin/includes/template.php:3699
 msgid "Pages per page:"
 msgstr "Stranice po stranici:"
 
-#: wp-admin/includes/template.php:3701
+#: wp-admin/includes/template.php:3702
 msgid "Comments per page:"
 msgstr "Komentari po stranici:"
 
-#: wp-admin/includes/template.php:3704
+#: wp-admin/includes/template.php:3705
 msgid "Media items per page:"
 msgstr "Multimedijalne stavke po stranici:"
 
-#: wp-admin/includes/template.php:3707
+#: wp-admin/includes/template.php:3708
 msgid "Categories per page:"
 msgstr "Kategorije po stranici:"
 
-#: wp-admin/includes/template.php:3710
+#: wp-admin/includes/template.php:3711
 msgid "Tags per page:"
 msgstr "Oznake po stranici:"
 
-#: wp-admin/includes/template.php:3713
+#: wp-admin/includes/template.php:3714
 msgid "Plugins per page:"
 msgstr "Plugini po stranici:"
 
@@ -7110,34 +7114,34 @@ msgstr "Nije moguće locirati direktorij za WordPress teme."
 msgid "Could not fully remove the theme %s"
 msgstr "Nije moguće u potpunosti ukloniti temu %s"
 
-#: wp-admin/includes/update-core.php:231
+#: wp-admin/includes/update-core.php:234
 #, php-format
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
 msgstr "Nadogradnju nije moguće instalirati jer WordPress %1$s zahtijeva PHP verziju %2$s ili veću i MySQL verziju %3$s ili veću. VI trenutno koristite PHP verziju %4$s i MySQL verziju %5$s."
 
-#: wp-admin/includes/update-core.php:233
+#: wp-admin/includes/update-core.php:236
 #, php-format
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
 msgstr "Nadogradnju nije moguće instalirati jer WordPress %1$s zahtijeva PHP verziju %2$s ili veću. VI trenutno koristite verziju %3$s."
 
-#: wp-admin/includes/update-core.php:235
+#: wp-admin/includes/update-core.php:238
 #, php-format
 msgid "The update cannot be installed because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
 msgstr "Nadogradnju nije moguće instalirati jer WordPress %1$s zahtijeva MySQL verziju %2$s ili veću. VI trenutno koristite verziju %3$s."
 
-#: wp-admin/includes/update-core.php:238
+#: wp-admin/includes/update-core.php:241
 msgid "Verifying the unpacked files"
 msgstr "Provjera raspakovanih datoteka"
 
-#: wp-admin/includes/update-core.php:242
+#: wp-admin/includes/update-core.php:245
 msgid "The update could not be unpacked"
 msgstr "Nadogradnja se ne može raspakovati"
 
-#: wp-admin/includes/update-core.php:245
+#: wp-admin/includes/update-core.php:248
 msgid "Installing the latest version"
 msgstr "Instaliram najnoviju verziju"
 
-#: wp-admin/includes/update-core.php:270
+#: wp-admin/includes/update-core.php:273
 msgid "Upgrading database"
 msgstr "Nadograđujem bazu podataka"
 
@@ -7415,44 +7419,63 @@ msgstr "Već instaliran"
 msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
 msgstr "Izgleda da ste već instalirali WordPress. Za reinstalaciju molimo vas da prvo očistite stare tabele u vašoj bazi podataka."
 
-#: wp-admin/install.php:90
+#: wp-admin/install.php:91
+#, php-format
+msgid "You cannot install because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
+msgstr "Nadogradnju nije moguće instalirati jer WordPress %1$s zahtijeva PHP verziju %2$s ili veću i MySQL verziju %3$s ili veću. VI trenutno koristite PHP verziju %4$s i MySQL verziju %5$s."
+
+#: wp-admin/install.php:93
+#, php-format
+msgid "You cannot install because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
+msgstr "Nadogradnju nije moguće instalirati jer WordPress %1$s zahtijeva PHP verziju %2$s ili veću. Vi trenutno koristite verziju %3$s."
+
+#: wp-admin/install.php:95
+#, php-format
+msgid "You cannot install because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
+msgstr "Nadogradnju nije moguće instalirati jer WordPress %1$s zahtijeva MySQL verziju %2$s ili veću. VI trenutno koristite verziju %3$s."
+
+#: wp-admin/install.php:99
+msgid "Insufficient Requirements"
+msgstr "Zahtjevi nisu zadovoljeni"
+
+#: wp-admin/install.php:107
 msgid "Welcome"
 msgstr "Dobro došli"
 
-#: wp-admin/install.php:91
+#: wp-admin/install.php:108
 #, php-format
 msgid "Welcome to the famous five minute WordPress installation process! You may want to browse the <a href=\"%s\">ReadMe documentation</a> at your leisure.  Otherwise, just fill in the information below and you&#8217;ll be on your way to using the most extendable and powerful personal publishing platform in the world."
 msgstr "Dobro došli u poznatu petominutnu instalaciju WordPressa! Preporučujemo vam da pogledate <a href=\"%s\">dokumentaciju</a>. U suprotnom, samo popunite informacije ispod i bit ćete na putu ka korištenju najmoćnije i najfleksibilnije platforme za objavljivanje na svijetu."
 
-#: wp-admin/install.php:92
+#: wp-admin/install.php:109
 msgid "First Step"
 msgstr "Prvi korak"
 
-#: wp-admin/install.php:94
+#: wp-admin/install.php:111
 msgid "Information needed"
 msgstr "Potrebne informacije"
 
-#: wp-admin/install.php:95
+#: wp-admin/install.php:112
 msgid "Please provide the following information.  Don&#8217;t worry, you can always change these settings later."
 msgstr "Molimo vas da nam date sljedeće informacije. Ne brinite se, ove postavke uvijek možete izmijeniti kasnije."
 
-#: wp-admin/install.php:115
+#: wp-admin/install.php:132
 msgid "you must provide an e-mail address."
 msgstr "morate upisati email adresu."
 
-#: wp-admin/install.php:119
+#: wp-admin/install.php:136
 msgid "that isn&#8217;t a valid e-mail address.  E-mail addresses look like: <code>username@example.com</code>"
 msgstr "to nije ispravna email adresa. Email adrese izgledaju ovako: <code>bosna@sampion.ba</code>"
 
-#: wp-admin/install.php:129
+#: wp-admin/install.php:146
 msgid "Success!"
 msgstr "Uspjeh!"
 
-#: wp-admin/install.php:131
+#: wp-admin/install.php:148
 msgid "WordPress has been installed. Were you expecting more steps? Sorry to disappoint."
 msgstr "WordPress je instaliran. Očekivali ste duži proces? Morali smo vas razočarati. :)"
 
-#: wp-admin/install.php:147
+#: wp-admin/install.php:164
 #: wp-login.php:527
 #: wp-login.php:546
 msgid "Log In"
@@ -7985,12 +8008,11 @@ msgid "New User Default Role"
 msgstr "Uloga novog korisnika"
 
 #: wp-admin/options-general.php:104
-#: wp-admin/options-general.php:148
+#: wp-admin/options-general.php:160
 msgid "Timezone"
 msgstr "Vremenska zona"
 
 #: wp-admin/options-general.php:126
-#: wp-includes/functions.php:3468
 #, php-format
 msgid "UTC %s"
 msgstr "UTC %s"
@@ -8000,7 +8022,7 @@ msgid "hours"
 msgstr "sati"
 
 #: wp-admin/options-general.php:131
-#: wp-admin/options-general.php:155
+#: wp-admin/options-general.php:167
 #, php-format
 msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is <code>%s</code>"
 msgstr "<abbr title=\"Coordinated Universal Time\">UTC</abbr> vrijeme je <code>%s</code>"
@@ -8014,59 +8036,59 @@ msgstr "UTC %1$s je <code>%2$s</code>"
 msgid "Unfortunately, you have to manually update this for Daylight Savings Time. Lame, we know, but will be fixed in the future."
 msgstr "Nažalost, morat ćete ručno ažurirati ljetno/zimsko računanje vremena. Znamo da je ovo zamorno pa ćemo se potruditi da to ispravimo u budućnosti."
 
-#: wp-admin/options-general.php:157
+#: wp-admin/options-general.php:169
 #, php-format
 msgid "Local time is <code>%1$s</code>"
 msgstr "Lokalno vrijeme je <code>%1$s</code>"
 
-#: wp-admin/options-general.php:160
+#: wp-admin/options-general.php:172
 msgid "Choose a city in the same timezone as you."
 msgstr "Izaberite grad koji je u istoj vremenskoj zoni kao i vi."
 
-#: wp-admin/options-general.php:166
+#: wp-admin/options-general.php:178
 msgid "This timezone is currently in daylight savings time."
 msgstr "Ova vremenska zona je trenutno u ljetnom računanju vremena."
 
-#: wp-admin/options-general.php:167
+#: wp-admin/options-general.php:179
 msgid "This timezone is currently in standard time."
 msgstr "Ova vremenska zona je trenutno u običnom računanju vremena."
 
-#: wp-admin/options-general.php:183
+#: wp-admin/options-general.php:195
 #, php-format
 msgid "Daylight savings time begins on: <code>%s</code>."
 msgstr "Ljetno računanje vremena počinje: <code>%s</code>."
 
-#: wp-admin/options-general.php:184
+#: wp-admin/options-general.php:196
 #, php-format
 msgid "Standard time begins  on: <code>%s</code>."
 msgstr "Obično računanje vremena počinje: <code>%s</code>."
 
-#: wp-admin/options-general.php:187
+#: wp-admin/options-general.php:199
 msgid "This timezone does not observe daylight savings time."
 msgstr "Ova vremenska zona ne potpada u ljetno računanje vremena."
 
-#: wp-admin/options-general.php:198
-#: wp-admin/options-general.php:200
+#: wp-admin/options-general.php:210
+#: wp-admin/options-general.php:212
 #: xmlrpc.php:417
 msgid "Date Format"
 msgstr "Format datuma"
 
-#: wp-admin/options-general.php:223
-#: wp-admin/options-general.php:255
+#: wp-admin/options-general.php:235
+#: wp-admin/options-general.php:267
 msgid "Custom:"
 msgstr "Korisnički:"
 
-#: wp-admin/options-general.php:225
+#: wp-admin/options-general.php:237
 msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>. Click &#8220;Save Changes&#8221; to update sample output."
 msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Dokumentacija o formatiranju datuma</a>. Pritisnite &#8220;Sačuvaj promjene&#8221; za ažuriranje primjera prikaza."
 
-#: wp-admin/options-general.php:231
-#: wp-admin/options-general.php:233
+#: wp-admin/options-general.php:243
+#: wp-admin/options-general.php:245
 #: xmlrpc.php:422
 msgid "Time Format"
 msgstr "Format vremena"
 
-#: wp-admin/options-general.php:261
+#: wp-admin/options-general.php:273
 msgid "Week Starts On"
 msgstr "Sedmica počinje u"
 
@@ -8450,7 +8472,7 @@ msgstr "WordPress ne obavještava nijedan <a href=\"http://codex.wordpress.org/U
 msgid "Error! Options page not found."
 msgstr "Greška! Stranica sa opcijama nije pronađena."
 
-#: wp-admin/options.php:91
+#: wp-admin/options.php:97
 msgid "All Settings"
 msgstr "Sve postavke"
 
@@ -8533,12 +8555,12 @@ msgid "Plugin Files"
 msgstr "Datoteke plugina"
 
 #: wp-admin/plugin-editor.php:208
-#: wp-admin/theme-editor.php:208
+#: wp-admin/theme-editor.php:207
 msgid "Documentation:"
 msgstr "Dokumentacija:"
 
 #: wp-admin/plugin-editor.php:208
-#: wp-admin/theme-editor.php:210
+#: wp-admin/theme-editor.php:209
 msgid "Lookup"
 msgstr "Pretraga"
 
@@ -8551,12 +8573,12 @@ msgid "Update File and Attempt to Reactivate"
 msgstr "Ažuriraj datoteku i pokušaj reaktivirati"
 
 #: wp-admin/plugin-editor.php:219
-#: wp-admin/theme-editor.php:218
+#: wp-admin/theme-editor.php:217
 msgid "Update File"
 msgstr "Ažuriraj datoteku"
 
 #: wp-admin/plugin-editor.php:223
-#: wp-admin/theme-editor.php:222
+#: wp-admin/theme-editor.php:221
 msgid "You need to make this file writable before you can save your changes. See <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">the Codex</a> for more information."
 msgstr "U ovu datoteku se mora moći zapisivati prije nego budete mogli sačuvati promjene. Za više informacija pogledajte <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">Kodeks</a>."
 
@@ -8911,7 +8933,7 @@ msgstr "Članak je objavljen."
 #: wp-includes/default-widgets.php:490
 #: wp-includes/default-widgets.php:586
 #: wp-includes/default-widgets.php:670
-#: wp-includes/default-widgets.php:995
+#: wp-includes/default-widgets.php:997
 msgid "Title:"
 msgstr "Naslov:"
 
@@ -8950,21 +8972,21 @@ msgstr "Zahtjevana tema ne postoji."
 msgid "Select theme to edit:"
 msgstr "Odaberite temu za uređivanje:"
 
-#: wp-admin/theme-editor.php:145
+#: wp-admin/theme-editor.php:144
 msgid "Theme Files"
 msgstr "Datoteke teme"
 
-#: wp-admin/theme-editor.php:150
+#: wp-admin/theme-editor.php:149
 msgid "Templates"
 msgstr "Predlošci"
 
 #. translators: Theme stylesheets in theme editor
-#: wp-admin/theme-editor.php:177
+#: wp-admin/theme-editor.php:176
 msgctxt "Theme stylesheets in theme editor"
 msgid "Styles"
 msgstr "Stilovi"
 
-#: wp-admin/theme-editor.php:228
+#: wp-admin/theme-editor.php:227
 msgid "Oops, no such file exists! Double check the name and try again, merci."
 msgstr "Takva datoteka ne postoji! Dva puta provjerite ime i pokušajte opet."
 
@@ -9404,48 +9426,63 @@ msgstr "Dodaj temu"
 msgid "Installing Theme from uploaded file: %s"
 msgstr "Instaliram temu iz dodane datoteke: %s"
 
-#: wp-admin/upgrade.php:44
+#: wp-admin/upgrade.php:49
 msgid "WordPress &rsaquo; Upgrade"
 msgstr "Nadogradnja WordPressa"
 
-#: wp-admin/upgrade.php:52
+#: wp-admin/upgrade.php:57
 msgid "No Upgrade Required"
 msgstr "Nadogradnja nije neophodna"
 
-#: wp-admin/upgrade.php:53
+#: wp-admin/upgrade.php:58
 msgid "Your WordPress database is already up-to-date!"
 msgstr "Vaša WordPress baza podataka je već ažurirana!"
 
 #: wp-admin/upgrade.php:63
+#, php-format
+msgid "You cannot upgrade because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
+msgstr "Nadogradnju nije moguće instalirati jer WordPress %1$s zahtijeva PHP verziju %2$s ili veću i MySQL verziju %3$s ili veću. Vi trenutno koristite PHP verziju %4$s i MySQL verziju %5$s."
+
+#: wp-admin/upgrade.php:65
+#, php-format
+msgid "You cannot upgrade because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
+msgstr "Nadogradnju nije moguće instalirati jer WordPress %1$s zahtijeva PHP verziju %2$s ili veću. Vi trenutno koristite verziju %3$s."
+
+#: wp-admin/upgrade.php:67
+#, php-format
+msgid "You cannot upgrade because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
+msgstr "Nadogradnju nije moguće instalirati jer WordPress %1$s zahtijeva MySQL verziju %2$s ili veću. Vi trenutno koristite verziju %3$s."
+
+#: wp-admin/upgrade.php:76
 msgid "Database Upgrade Required"
 msgstr "Nadogradnja baze podataka je neophodna"
 
-#: wp-admin/upgrade.php:64
+#: wp-admin/upgrade.php:77
 msgid "WordPress has been updated! Before we send you on your way, we have to upgrade your database to the newest version."
 msgstr "WordPress je nadograđen! Prije nego krenete svojim putem, treba nadograditi vašu bazu podataka na najnoviju verziju."
 
-#: wp-admin/upgrade.php:65
+#: wp-admin/upgrade.php:78
 msgid "The upgrade process may take a little while, so please be patient."
 msgstr "Proces nadogradnje može potrajati, pa vas molimo da budete strpljivi."
 
-#: wp-admin/upgrade.php:66
+#: wp-admin/upgrade.php:79
 msgid "Upgrade WordPress Database"
 msgstr "Nadogradi WordPressovu bazu podataka"
 
-#: wp-admin/upgrade.php:77
+#: wp-admin/upgrade.php:90
 msgid "Upgrade Complete"
 msgstr "Nadogradnje je završena"
 
-#: wp-admin/upgrade.php:78
+#: wp-admin/upgrade.php:91
 msgid "Your WordPress database has been successfully upgraded!"
 msgstr "Vaša WordPress baza podataka je uspješno nadograđena!"
 
-#: wp-admin/upgrade.php:83
+#: wp-admin/upgrade.php:96
 #, php-format
 msgid "%s queries"
 msgstr "%s upita"
 
-#: wp-admin/upgrade.php:85
+#: wp-admin/upgrade.php:98
 #, php-format
 msgid "%s seconds"
 msgstr "%s sekundi"
@@ -9498,7 +9535,7 @@ msgstr[0] "Smeće <span class=\"count\">(%s)</span>"
 msgstr[1] "Smeće <span class=\"count\">(%s)</span>"
 
 #: wp-admin/upload.php:296
-#: wp-admin/upload.php:462
+#: wp-admin/upload.php:464
 msgid "Attach to a post"
 msgstr "Dodaj u članak"
 
@@ -10027,8 +10064,8 @@ msgstr "Opcije su sačuvane."
 
 #: wp-content/plugins/akismet/akismet.php:137
 #, php-format
-msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have a WordPress.com account yet, you can get one at <a href=\"%2$s\">WordPress.com</a>."
-msgstr "Za većinu ljudi, <a href=\"%1$s\">Akismet</a> će umanjiti ili čak skroz eliminsati spam komentare i povratne pozive koje dobijate na vašoj stranici. Ako mu nešto promakne, jednostavno to označite kao \"spam\" i Akismet neće ponoviti istu grešku. Ako još nemate WordPress.com korisnički račun, možete ga napraviti na <a href=\"%2$s\">WordPress.com</a>."
+msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have a WordPress.com account yet, you can get one at <a href=\"%2$s\">Akismet.com</a>."
+msgstr "Za većinu ljudi, <a href=\"%1$s\">Akismet</a> će umanjiti ili čak skroz eliminsati spam komentare i povratne pozive koje dobijate na vašoj stranici. Ako mu nešto promakne, jednostavno to označite kao \"spam\" u moderacijskom dijelu i Akismet neće ponoviti istu grešku. Ako još nemate WordPress.com korisnički račun, možete ga napraviti na <a href=\"%2$s\">WordPress.com</a>."
 
 #: wp-content/plugins/akismet/akismet.php:140
 msgid "WordPress.com API Key"
@@ -10991,48 +11028,48 @@ msgstr "Unosi sa bilo kojeg RSS-a ili Atoma"
 msgid "Syndicate this content"
 msgstr "Sindikacija ovog sadržaja"
 
-#: wp-includes/default-widgets.php:790
+#: wp-includes/default-widgets.php:792
 msgid "An error has occurred; the feed is probably down. Try again later."
 msgstr "Došlo je do greške; novosti najvjerovatnije ne rade. Pokušajte ponovo kasnije."
 
-#: wp-includes/default-widgets.php:804
+#: wp-includes/default-widgets.php:806
 msgid "Untitled"
 msgstr "Bez naziva"
 
-#: wp-includes/default-widgets.php:880
+#: wp-includes/default-widgets.php:882
 #, php-format
 msgid "RSS Error: %s"
 msgstr "RSS greška: %s"
 
-#: wp-includes/default-widgets.php:884
+#: wp-includes/default-widgets.php:886
 msgid "Enter the RSS feed URL here:"
 msgstr "Ovdje unesite URL RSS-a:"
 
-#: wp-includes/default-widgets.php:887
+#: wp-includes/default-widgets.php:889
 msgid "Give the feed a title (optional):"
 msgstr "Dajte naziv novostima (neobavezno):"
 
-#: wp-includes/default-widgets.php:890
+#: wp-includes/default-widgets.php:892
 msgid "How many items would you like to display?"
 msgstr "Koliko stavki želite prikazati?"
 
-#: wp-includes/default-widgets.php:899
+#: wp-includes/default-widgets.php:901
 msgid "Display item content?"
 msgstr "Prikazati sadržaj stavke?"
 
-#: wp-includes/default-widgets.php:902
+#: wp-includes/default-widgets.php:904
 msgid "Display item author if available?"
 msgstr "Prikazati autora stavke ako je dostupan?"
 
-#: wp-includes/default-widgets.php:905
+#: wp-includes/default-widgets.php:907
 msgid "Display item date?"
 msgstr "Prikazati datum stavke?"
 
-#: wp-includes/default-widgets.php:971
+#: wp-includes/default-widgets.php:973
 msgid "Your most used tags in cloud format"
 msgstr "Vaše najkorištenije oznake u obliku oblaka"
 
-#: wp-includes/default-widgets.php:972
+#: wp-includes/default-widgets.php:974
 msgid "Tag Cloud"
 msgstr "Oblak za oznake"
 
@@ -11345,7 +11382,7 @@ msgstr "Molimo vas da pokušate ponovo."
 msgid "&laquo; Back"
 msgstr "&laquo; Nazad"
 
-#. #-#-#-#-#  wordpress.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  wordpress.pot (WordPress 2.9.1)  #-#-#-#-#
 #. Not gettexted string WP_I18N_ERROR_TITLE
 #: wp-includes/functions.php:2521
 #: wp-load.php:50
@@ -11364,12 +11401,17 @@ msgstr "%1$s nije <strong>preporučen</strong> od verzije %2$s! Koristite %3$s u
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s nije <strong>preporučen</strong> od verzije %2$s i nema dostupnih alternativa."
 
-#: wp-includes/functions.php:3440
+#: wp-includes/functions.php:3437
 msgid "Select a city"
 msgstr "Izaberite grad"
 
-#: wp-includes/functions.php:3455
-msgid "Manual offsets"
+#: wp-includes/functions.php:3482
+#: wp-includes/functions.php:3486
+msgid "UTC"
+msgstr "UTC"
+
+#: wp-includes/functions.php:3490
+msgid "Manual Offsets"
 msgstr "Ručno odstupanje"
 
 #: wp-includes/general-template.php:125
@@ -11489,7 +11531,7 @@ msgid "User has blocked requests through HTTP."
 msgstr "Korisnik je blokirao zahtjeve preko HTTP-a."
 
 #: wp-includes/http.php:746
-#: wp-includes/http.php:1380
+#: wp-includes/http.php:1373
 msgid "Too many redirects."
 msgstr "Previše preusmjeravanja."
 
@@ -13517,11 +13559,11 @@ msgstr "Nije moguće ubaciti članak u bazu podataka"
 msgid "The page template is invalid."
 msgstr "Predložak stranice je neispravan."
 
-#: wp-includes/post.php:3854
+#: wp-includes/post.php:3856
 msgid "Cannot create a revision of a revision"
 msgstr "Nije moguće napraviti reviziju revizije"
 
-#: wp-includes/post.php:4030
+#: wp-includes/post.php:4032
 msgid "You do not have permission to preview drafts."
 msgstr "Nemate dozovolu za pregled skica."
 
