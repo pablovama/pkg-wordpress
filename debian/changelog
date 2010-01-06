@@ -1,3 +1,9 @@
+wordpress (2.9.1-1) unstable; urgency=low
+
+  * [a83b8fd] Imported Upstream version 2.9.1
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Wed, 06 Jan 2010 12:56:22 +0100
+
 wordpress (2.9-1) unstable; urgency=low
 
   * [fdd001e] Change wordpress-l10n section (localization)
