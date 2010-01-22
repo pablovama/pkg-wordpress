@@ -1,3 +1,13 @@
+wordpress (2.9.1-2) unstable; urgency=low
+
+  * [4a7279a] Fixed the security id in wp-admin/menu.php (Closes: #561832) -
+    thanks to Franck Nouyrigat
+  * [aa0f3a0] Allow site names with dash character. (Closes: #566224) -
+    thanks to Mikko Visa
+  * [ee0a44e] Updated language files
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Fri, 22 Jan 2010 19:07:14 +0100
+
 wordpress (2.9.1-1) unstable; urgency=low
 
   * [a83b8fd] Imported Upstream version 2.9.1
