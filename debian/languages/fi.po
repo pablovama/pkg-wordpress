@@ -1,20 +1,9 @@
-# Translation of WordPress into Finnish.
-# This file is distributed under the same license as the WordPress package.
-# Copyright (c) 2005, 2006, 2009
-#   Minna Maunula
-#   Kimmo Suominen
-#   Mikko Virkkilä
-#   Erno Vuori
-# 	Mikko Virenius
-# 	Daniel Koskinen
-# 	Jyri Väätäinen
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 2.9\n"
+"Project-Id-Version: WordPress 2.9.1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-12-18 23:46+0000\n"
-"PO-Revision-Date: 2009-12-19 11:21+0200\n"
+"POT-Creation-Date: 2010-01-05 04:57+0000\n"
+"PO-Revision-Date: 2010-01-07 16:28+0200\n"
 "Last-Translator: Daniel Koskinen <daniel.koskinen@gmail.com>\n"
 "Language-Team: Suomi - Mikko Virenius, Daniel Koskinen, Jyri Väätäinen <info@arkimedia.fi, info@danwebdesign.fi, jyri.vaatainen@hpguru.net>\n"
 "MIME-Version: 1.0\n"
@@ -246,7 +235,7 @@ msgstr "Ei artikkeleita."
 #: wp-admin/includes/template.php:807
 #: wp-admin/includes/template.php:1040
 #: wp-includes/js/tinymce/langs/wp-langs.php:295
-#: wp-includes/post.php:3662
+#: wp-includes/post.php:3664
 msgid "Title"
 msgstr "Otsikko"
 
@@ -296,7 +285,7 @@ msgstr "Tarkastettavana"
 #: wp-admin/includes/meta-boxes.php:72
 #: wp-admin/includes/meta-boxes.php:91
 #: wp-admin/includes/template.php:1217
-#: wp-admin/includes/template.php:3454
+#: wp-admin/includes/template.php:3455
 #: wp-includes/post.php:390
 #: wp-includes/post.php:411
 msgid "Draft"
@@ -304,12 +293,12 @@ msgstr "Luonnos"
 
 #. translators: date format in table columns, see http://php.net/date
 #: wp-admin/admin-ajax.php:1255
-#: wp-admin/edit-attachment-rows.php:159
-#: wp-admin/edit-attachment-rows.php:173
+#: wp-admin/edit-attachment-rows.php:161
+#: wp-admin/edit-attachment-rows.php:175
 #: wp-admin/includes/template.php:1416
 #: wp-admin/includes/template.php:1643
-#: wp-admin/includes/template.php:2148
-#: wp-admin/upload.php:424
+#: wp-admin/includes/template.php:2149
+#: wp-admin/upload.php:426
 msgid "Y/m/d"
 msgstr "d/m/Y"
 
@@ -470,7 +459,7 @@ msgstr "Etsi aiheita"
 #: wp-admin/link-manager.php:262
 #: wp-admin/plugins.php:483
 #: wp-admin/upload.php:288
-#: wp-admin/upload.php:454
+#: wp-admin/upload.php:456
 #: wp-admin/users.php:308
 #: wp-admin/users.php:374
 msgid "Bulk Actions"
@@ -489,7 +478,7 @@ msgstr "Massatoiminnot"
 #: wp-admin/includes/template.php:671
 #: wp-admin/includes/template.php:1549
 #: wp-admin/includes/template.php:1924
-#: wp-admin/includes/template.php:2511
+#: wp-admin/includes/template.php:2512
 #: wp-admin/includes/widgets.php:201
 #: wp-admin/link-manager.php:105
 #: wp-admin/link-manager.php:201
@@ -515,12 +504,12 @@ msgstr "Poista"
 #: wp-admin/edit-tags.php:254
 #: wp-admin/edit.php:265
 #: wp-admin/edit.php:355
-#: wp-admin/includes/template.php:3738
+#: wp-admin/includes/template.php:3739
 #: wp-admin/link-manager.php:107
 #: wp-admin/link-manager.php:265
 #: wp-admin/plugins.php:494
 #: wp-admin/upload.php:299
-#: wp-admin/upload.php:465
+#: wp-admin/upload.php:467
 #: wp-admin/users.php:311
 #: wp-admin/users.php:377
 #: wp-includes/js/tinymce/langs/wp-langs.php:27
@@ -661,7 +650,7 @@ msgstr "Olet merkitsemässä roskaksi tämän kommentin:"
 
 #: wp-admin/comment.php:93
 msgid "Spam Comment"
-msgstr "Merkitse roskaksi"
+msgstr "Merkitse roskaviestiksi"
 
 #: wp-admin/comment.php:96
 msgid "You are about to move the following comment to the Trash:"
@@ -710,7 +699,7 @@ msgstr "Kirjoittaja"
 
 #: wp-admin/comment.php:119
 #: wp-admin/includes/template.php:904
-#: wp-admin/includes/template.php:2333
+#: wp-admin/includes/template.php:2334
 #: wp-admin/user-edit.php:261
 #: wp-admin/user-new.php:109
 #: wp-content/themes/classic/comments-popup.php:76
@@ -721,8 +710,8 @@ msgstr "Sähköposti"
 #: wp-admin/comment.php:125
 #: wp-admin/includes/media.php:2116
 #: wp-admin/includes/template.php:858
-#: wp-admin/includes/template.php:2338
-#: wp-admin/includes/template.php:2747
+#: wp-admin/includes/template.php:2339
+#: wp-admin/includes/template.php:2748
 #: wp-admin/press-this.php:170
 msgid "URL"
 msgstr "URL"
@@ -793,14 +782,14 @@ msgstr "Käytä alkuperäistä väriä"
 #: wp-admin/custom-header.php:290
 #: wp-admin/import/blogger.php:667
 #: wp-admin/options-discussion.php:226
-#: wp-admin/options-general.php:277
+#: wp-admin/options-general.php:289
 #: wp-admin/options-media.php:96
 #: wp-admin/options-misc.php:72
 #: wp-admin/options-permalink.php:224
 #: wp-admin/options-privacy.php:45
 #: wp-admin/options-reading.php:86
 #: wp-admin/options-writing.php:133
-#: wp-admin/options.php:133
+#: wp-admin/options.php:139
 msgid "Save Changes"
 msgstr "Tallenna muutokset"
 
@@ -824,7 +813,7 @@ msgstr "Valitse kuva omalta tietokoneeltasi:"
 #: wp-admin/custom-header.php:304
 #: wp-admin/includes/media.php:1454
 #: wp-admin/includes/media.php:1455
-#: wp-admin/includes/template.php:3319
+#: wp-admin/includes/template.php:3320
 #: wp-admin/plugin-install.php:27
 #: wp-admin/theme-install.php:32
 msgid "Upload"
@@ -860,7 +849,7 @@ msgstr "Voit nyt siirtyä sivuston julkisille sivuille nähdäksesi uuden otsiko
 
 #: wp-admin/edit-attachment-rows.php:74
 #: wp-admin/edit-attachment-rows.php:87
-#: wp-admin/edit-attachment-rows.php:204
+#: wp-admin/edit-attachment-rows.php:206
 #: wp-admin/includes/dashboard.php:451
 #: wp-admin/includes/template.php:128
 #: wp-admin/includes/template.php:299
@@ -875,7 +864,7 @@ msgid "Edit &#8220;%s&#8221;"
 msgstr "Muokkaa &#8220;%s&#8221;"
 
 #: wp-admin/edit-attachment-rows.php:93
-#: wp-admin/edit-attachment-rows.php:204
+#: wp-admin/edit-attachment-rows.php:206
 #: wp-admin/edit-form-comment.php:62
 #: wp-admin/edit-pages.php:263
 #: wp-admin/edit-pages.php:312
@@ -893,7 +882,7 @@ msgstr "Muokkaa &#8220;%s&#8221;"
 #: wp-admin/includes/template.php:1543
 #: wp-admin/includes/template.php:1668
 #: wp-admin/includes/template.php:1922
-#: wp-admin/includes/template.php:2198
+#: wp-admin/includes/template.php:2199
 #: wp-admin/includes/widgets.php:177
 #: wp-admin/link-manager.php:200
 #: wp-admin/menu.php:33
@@ -915,9 +904,9 @@ msgstr "Muokkaa"
 #: wp-admin/edit.php:346
 #: wp-admin/includes/template.php:1453
 #: wp-admin/includes/template.php:1673
-#: wp-admin/includes/template.php:2188
+#: wp-admin/includes/template.php:2189
 #: wp-admin/upload.php:290
-#: wp-admin/upload.php:456
+#: wp-admin/upload.php:458
 #: wp-includes/post-template.php:1297
 msgid "Restore"
 msgstr "Palauta"
@@ -929,7 +918,7 @@ msgstr "Palauta"
 msgid "Trash"
 msgstr "Roskakoriin"
 
-#: wp-admin/edit-attachment-rows.php:100
+#: wp-admin/edit-attachment-rows.php:101
 #: wp-admin/edit-comments.php:316
 #: wp-admin/edit-comments.php:412
 #: wp-admin/edit-form-comment.php:71
@@ -942,116 +931,116 @@ msgstr "Roskakoriin"
 #: wp-admin/includes/meta-boxes.php:190
 #: wp-admin/includes/template.php:1457
 #: wp-admin/includes/template.php:1677
-#: wp-admin/includes/template.php:2192
+#: wp-admin/includes/template.php:2193
 #: wp-admin/upload.php:292
-#: wp-admin/upload.php:398
-#: wp-admin/upload.php:458
+#: wp-admin/upload.php:399
+#: wp-admin/upload.php:460
 msgid "Delete Permanently"
 msgstr "Poista pysyvästi"
 
-#: wp-admin/edit-attachment-rows.php:103
+#: wp-admin/edit-attachment-rows.php:105
 #: wp-admin/includes/template.php:1463
 #: wp-admin/includes/template.php:1683
-#: wp-admin/upload.php:399
+#: wp-admin/upload.php:401
 #, php-format
 msgid "View &#8220;%s&#8221;"
 msgstr "Näytä &#8220;%s&#8221;"
 
-#: wp-admin/edit-attachment-rows.php:103
+#: wp-admin/edit-attachment-rows.php:105
 #: wp-admin/includes/template.php:1463
 #: wp-admin/includes/template.php:1537
 #: wp-admin/includes/template.php:1683
-#: wp-admin/upload.php:399
+#: wp-admin/upload.php:401
 msgid "View"
 msgstr "Näytä"
 
-#: wp-admin/edit-attachment-rows.php:134
+#: wp-admin/edit-attachment-rows.php:136
 #: wp-admin/includes/template.php:1508
 msgid "No Tags"
 msgstr "Ei avainsanoja"
 
-#: wp-admin/edit-attachment-rows.php:148
+#: wp-admin/edit-attachment-rows.php:150
 #: wp-admin/includes/template.php:1404
 #: wp-admin/includes/template.php:1631
-#: wp-admin/upload.php:413
+#: wp-admin/upload.php:415
 msgid "Unpublished"
 msgstr "Julkaisematon"
 
-#: wp-admin/edit-attachment-rows.php:150
+#: wp-admin/edit-attachment-rows.php:152
 #: wp-admin/includes/dashboard.php:451
 #: wp-admin/includes/template.php:1407
 #: wp-admin/includes/template.php:1634
-#: wp-admin/upload.php:415
+#: wp-admin/upload.php:417
 msgid "Y/m/d g:i:s A"
 msgstr "d/m/Y G.i"
 
-#: wp-admin/edit-attachment-rows.php:155
-#: wp-admin/upload.php:420
+#: wp-admin/edit-attachment-rows.php:157
+#: wp-admin/upload.php:422
 #, php-format
 msgid "%s from now"
 msgstr "%s tästä hetkestä"
 
-#: wp-admin/edit-attachment-rows.php:157
+#: wp-admin/edit-attachment-rows.php:159
 #: wp-admin/includes/plugin-install.php:507
 #: wp-admin/includes/template.php:1414
 #: wp-admin/includes/template.php:1641
 #: wp-admin/includes/template.php:2109
 #: wp-admin/includes/theme-install.php:325
-#: wp-admin/upload.php:422
+#: wp-admin/upload.php:424
 #, php-format
 msgid "%s ago"
 msgstr "%s sitten"
 
-#: wp-admin/edit-attachment-rows.php:177
+#: wp-admin/edit-attachment-rows.php:179
 msgid "(Unattached)"
 msgstr "(ei liitetty)"
 
-#: wp-admin/edit-attachment-rows.php:178
-#: wp-admin/upload.php:401
+#: wp-admin/edit-attachment-rows.php:180
+#: wp-admin/upload.php:403
 msgid "Attach"
 msgstr "Liitä"
 
-#: wp-admin/edit-attachment-rows.php:190
+#: wp-admin/edit-attachment-rows.php:192
 #: wp-admin/includes/template.php:1518
 #: wp-admin/includes/template.php:1706
-#: wp-admin/includes/template.php:2269
+#: wp-admin/includes/template.php:2270
 #, php-format
 msgid "%s pending"
 msgstr "%s vireillä"
 
 #. translators: comment count link
-#: wp-admin/edit-attachment-rows.php:193
+#: wp-admin/edit-attachment-rows.php:195
 #: wp-admin/includes/template.php:1521
 #: wp-admin/includes/template.php:1709
-#: wp-admin/includes/template.php:2272
+#: wp-admin/includes/template.php:2273
 msgctxt "comment count"
 msgid "0"
 msgstr "0"
 
 #. translators: comment count link
-#: wp-admin/edit-attachment-rows.php:193
+#: wp-admin/edit-attachment-rows.php:195
 #: wp-admin/includes/template.php:1521
 #: wp-admin/includes/template.php:1709
-#: wp-admin/includes/template.php:2272
+#: wp-admin/includes/template.php:2273
 msgctxt "comment count"
 msgid "1"
 msgstr "1"
 
 #. translators: comment count link: % will be substituted by comment count
-#: wp-admin/edit-attachment-rows.php:193
+#: wp-admin/edit-attachment-rows.php:195
 #: wp-admin/includes/template.php:1521
 #: wp-admin/includes/template.php:1709
-#: wp-admin/includes/template.php:2272
+#: wp-admin/includes/template.php:2273
 msgctxt "comment count"
 msgid "%"
 msgstr "%"
 
-#: wp-admin/edit-attachment-rows.php:205
+#: wp-admin/edit-attachment-rows.php:207
 msgid "Get permalink"
 msgstr "Kopioi kestolinkki"
 
-#: wp-admin/edit-attachment-rows.php:224
-#: wp-admin/upload.php:432
+#: wp-admin/edit-attachment-rows.php:226
+#: wp-admin/upload.php:434
 msgid "No media attachments found."
 msgstr "Liitettyä mediaa ei löytynyt."
 
@@ -1085,17 +1074,17 @@ msgstr[1] "%s kommenttia hyväksytty"
 #, php-format
 msgid "%s comment marked as spam."
 msgid_plural "%s comments marked as spam."
-msgstr[0] "%s kommentti merkitty roskapostiksi."
-msgstr[1] "%s kommenttia merkitty roskapostiksi."
+msgstr[0] "%s kommentti merkitty roskaviestiksi."
+msgstr[1] "%s kommenttia merkitty roskaviesteiksi."
 
 #: wp-admin/edit-comments.php:157
 #: wp-admin/edit-comments.php:166
 #: wp-admin/edit-pages.php:170
 #: wp-admin/edit.php:171
-#: wp-admin/includes/image-edit.php:52
+#: wp-admin/includes/image-edit.php:56
 #: wp-admin/includes/media.php:1243
-#: wp-admin/includes/template.php:2383
-#: wp-admin/includes/template.php:2386
+#: wp-admin/includes/template.php:2384
+#: wp-admin/includes/template.php:2387
 #: wp-admin/upload.php:210
 #: wp-includes/js/tinymce/langs/wp-langs.php:213
 #: wp-includes/js/tinymce/wp-mce-help.php:209
@@ -1106,8 +1095,8 @@ msgstr "Kumoa"
 #, php-format
 msgid "%s comment restored from the spam"
 msgid_plural "%s comments restored from the spam"
-msgstr[0] "%s kommentti palautettu roskapostista."
-msgstr[1] "%s kommenttia palautettu roskapostista."
+msgstr[0] "%s kommentti palautettu roskaviesteistä."
+msgstr[1] "%s kommenttia palautettu roskaviesteistä."
 
 #: wp-admin/edit-comments.php:164
 #, php-format
@@ -1154,8 +1143,8 @@ msgstr[1] "Hyväksytty"
 #, php-format
 msgid "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
 msgid_plural "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
-msgstr[0] "Roskapostia <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
-msgstr[1] "Roskapostia <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgstr[0] "Roskaviestejä <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgstr[1] "Roskaviestejä <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
 
 #: wp-admin/edit-comments.php:194
 #, php-format
@@ -1183,27 +1172,27 @@ msgstr "Esillä %s&#8211;%s / %s"
 #: wp-admin/edit-comments.php:302
 #: wp-admin/edit-comments.php:400
 #: wp-admin/includes/dashboard.php:553
-#: wp-admin/includes/template.php:2175
-#: wp-admin/includes/template.php:2180
+#: wp-admin/includes/template.php:2176
+#: wp-admin/includes/template.php:2181
 msgid "Unapprove"
 msgstr "Hylkää"
 
 #: wp-admin/edit-comments.php:305
 #: wp-admin/edit-comments.php:403
 #: wp-admin/includes/dashboard.php:552
-#: wp-admin/includes/template.php:2177
-#: wp-admin/includes/template.php:2179
+#: wp-admin/includes/template.php:2178
+#: wp-admin/includes/template.php:2180
 msgid "Approve"
 msgstr "Hyväksy"
 
 #: wp-admin/edit-comments.php:308
 #: wp-admin/edit-comments.php:406
 msgid "Mark as Spam"
-msgstr "Merkitse roskaksi"
+msgstr "Merkitse roskaviestiksi"
 
 #: wp-admin/edit-comments.php:313
 #: wp-admin/edit-comments.php:414
-#: wp-admin/includes/template.php:2186
+#: wp-admin/includes/template.php:2187
 #: wp-content/plugins/akismet/akismet.php:832
 msgid "Not Spam"
 msgstr "Ei roskaa"
@@ -1218,7 +1207,7 @@ msgstr "Ei roskaa"
 #: wp-admin/includes/media.php:1243
 #: wp-admin/includes/meta-boxes.php:193
 #: wp-admin/upload.php:294
-#: wp-admin/upload.php:460
+#: wp-admin/upload.php:462
 msgid "Move to Trash"
 msgstr "Siirrä roskakoriin"
 
@@ -1231,8 +1220,8 @@ msgstr "Näytä kaikki kommenttityypit"
 #: wp-admin/import/blogger.php:206
 #: wp-admin/includes/file.php:14
 #: wp-admin/includes/template.php:1167
-#: wp-admin/includes/template.php:3204
-#: wp-admin/includes/template.php:3320
+#: wp-admin/includes/template.php:3205
+#: wp-admin/includes/template.php:3321
 #: wp-content/plugins/akismet/akismet.php:758
 #: wp-content/themes/classic/comments-popup.php:29
 msgid "Comments"
@@ -1253,7 +1242,7 @@ msgstr "Suodata"
 #: wp-admin/edit-comments.php:348
 #: wp-admin/edit-comments.php:422
 msgid "Empty Spam"
-msgstr "Poista roskapostit"
+msgstr "Poista roskaviestit"
 
 #: wp-admin/edit-comments.php:350
 #: wp-admin/edit-comments.php:424
@@ -1262,7 +1251,7 @@ msgstr "Poista roskapostit"
 #: wp-admin/edit.php:310
 #: wp-admin/edit.php:357
 #: wp-admin/upload.php:339
-#: wp-admin/upload.php:468
+#: wp-admin/upload.php:470
 msgid "Empty Trash"
 msgstr "Tyhjennä roskakori"
 
@@ -1356,7 +1345,7 @@ msgstr "Artikkelin kuva"
 
 #: wp-admin/edit-form-advanced.php:103
 #: wp-admin/includes/meta-boxes.php:313
-#: wp-includes/post.php:3664
+#: wp-includes/post.php:3666
 msgid "Excerpt"
 msgstr "Ote"
 
@@ -1429,7 +1418,7 @@ msgstr "Vireillä"
 #: wp-includes/comment.php:265
 msgctxt "adjective"
 msgid "Spam"
-msgstr "Roskapostia"
+msgstr "Roskaviesti"
 
 #: wp-admin/edit-form-comment.php:59
 #, php-format
@@ -1437,7 +1426,7 @@ msgid "Submitted on: <b>%1$s</b>"
 msgstr "Lähetetty: <b>%1$s</b>"
 
 #: wp-admin/edit-form-comment.php:74
-#: wp-admin/includes/template.php:2349
+#: wp-admin/includes/template.php:2350
 msgid "Update Comment"
 msgstr "Päivitä kommentti"
 
@@ -1535,7 +1524,7 @@ msgid "Add Link"
 msgstr "Lisää linkki"
 
 #: wp-admin/edit-link-form.php:27
-#: wp-admin/includes/image-edit.php:71
+#: wp-admin/includes/image-edit.php:75
 #: wp-admin/includes/meta-boxes.php:24
 #: wp-admin/includes/meta-boxes.php:517
 #: wp-admin/includes/widgets.php:206
@@ -1576,10 +1565,10 @@ msgstr "Linkki lisätty."
 #: wp-admin/includes/template.php:882
 #: wp-admin/includes/template.php:892
 #: wp-admin/includes/template.php:903
-#: wp-admin/includes/template.php:2328
-#: wp-admin/includes/template.php:2438
-#: wp-admin/includes/template.php:2453
-#: wp-admin/includes/template.php:2542
+#: wp-admin/includes/template.php:2329
+#: wp-admin/includes/template.php:2439
+#: wp-admin/includes/template.php:2454
+#: wp-admin/includes/template.php:2543
 #: wp-admin/themes.php:277
 #: wp-admin/update-core.php:232
 #: wp-admin/update-core.php:239
@@ -1706,7 +1695,7 @@ msgid "Error in deleting..."
 msgstr "Virhe poistettaessa sivua..."
 
 #: wp-admin/edit-pages.php:104
-#: wp-admin/includes/template.php:3278
+#: wp-admin/includes/template.php:3279
 msgid "Edit Pages"
 msgstr "Muokkaa sivuja"
 
@@ -1815,7 +1804,7 @@ msgstr[0] "Roskakorissa <span class=\"count\">(%s)</span>"
 msgstr[1] "Roskakorissa <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:125
-#: wp-admin/includes/template.php:3238
+#: wp-admin/includes/template.php:3239
 #: wp-admin/menu.php:59
 #: wp-includes/default-widgets.php:19
 #: wp-includes/default-widgets.php:25
@@ -1948,7 +1937,7 @@ msgstr "Päivitä avainsana"
 #: wp-admin/includes/dashboard.php:407
 #: wp-admin/includes/template.php:760
 #: wp-admin/includes/template.php:1157
-#: wp-includes/default-widgets.php:977
+#: wp-includes/default-widgets.php:979
 msgid "Tags"
 msgstr "Avainsanat"
 
@@ -2016,7 +2005,7 @@ msgid "You are not allowed to delete this post."
 msgstr "Sinulla ei ole tämän artikkelin poistamiseen tarvittavaa oikeutta."
 
 #: wp-admin/edit.php:111
-#: wp-admin/includes/template.php:3272
+#: wp-admin/includes/template.php:3273
 msgid "Edit Posts"
 msgstr "Muokkaa artikkeleita"
 
@@ -2147,7 +2136,7 @@ msgid "Once you&#8217;ve saved the download file, you can use the Import functio
 msgstr "Kun olet tallentanut ladatun tiedoston, voit käyttää Tuo-toimintoa toisella WordPress-sivustolla tuodaksesi sinne tämän sivuston tiedot."
 
 #: wp-admin/export.php:36
-#: wp-admin/includes/template.php:3734
+#: wp-admin/includes/template.php:3735
 msgid "Options"
 msgstr "Asetukset"
 
@@ -2221,8 +2210,8 @@ msgstr "Sisäänkirjautuminen onnistui, mutta yhtään blogia ei löytynyt. Käy
 
 #: wp-admin/import/blogger.php:194
 #: wp-admin/includes/media.php:1241
-#: wp-admin/upgrade.php:54
-#: wp-admin/upgrade.php:79
+#: wp-admin/upgrade.php:59
+#: wp-admin/upgrade.php:92
 msgid "Continue"
 msgstr "Jatka"
 
@@ -2268,7 +2257,7 @@ msgstr "Taikanappi"
 #: wp-admin/includes/template.php:875
 #: wp-admin/includes/template.php:895
 #: wp-admin/includes/template.php:906
-#: wp-admin/includes/template.php:3236
+#: wp-admin/includes/template.php:3237
 #: wp-admin/menu.php:32
 msgid "Posts"
 msgstr "Artikkelit"
@@ -3026,7 +3015,7 @@ msgstr "Tämä tuontiohjelma osaa olla tuomatta duplikaatteja, joten voit suorit
 
 #: wp-admin/import/mt.php:62
 #: wp-admin/import/wordpress.php:262
-#: wp-admin/includes/template.php:2552
+#: wp-admin/includes/template.php:2553
 #: wp-admin/options-reading.php:44
 #: wp-admin/options-reading.php:45
 msgid "- Select -"
@@ -4078,16 +4067,16 @@ msgid "View all"
 msgstr "Näytä kaikki"
 
 #: wp-admin/includes/dashboard.php:119
-#: wp-admin/includes/image-edit.php:70
+#: wp-admin/includes/image-edit.php:74
 #: wp-admin/includes/media.php:1241
 #: wp-admin/includes/media.php:1455
 #: wp-admin/includes/meta-boxes.php:94
 #: wp-admin/includes/meta-boxes.php:140
 #: wp-admin/includes/template.php:265
 #: wp-admin/includes/template.php:1257
-#: wp-admin/includes/template.php:2347
-#: wp-admin/includes/template.php:2564
-#: wp-admin/includes/template.php:2651
+#: wp-admin/includes/template.php:2348
+#: wp-admin/includes/template.php:2565
+#: wp-admin/includes/template.php:2652
 #: wp-admin/includes/theme-install.php:511
 #: wp-admin/press-this.php:125
 #: wp-admin/press-this.php:155
@@ -4154,8 +4143,8 @@ msgstr[1] "Avainsanaa"
 #: wp-content/plugins/akismet/akismet.php:909
 msgid "Spam"
 msgid_plural "Spam"
-msgstr[0] "Roskapostia"
-msgstr[1] "Roskapostia"
+msgstr[0] "Roskaviestit"
+msgstr[1] "Roskaviestit"
 
 #: wp-admin/includes/dashboard.php:335
 #: wp-admin/includes/dashboard.php:342
@@ -4215,7 +4204,7 @@ msgid "Press This"
 msgstr "Julkaise tämä"
 
 #: wp-admin/includes/dashboard.php:400
-#: wp-includes/post.php:3663
+#: wp-includes/post.php:3665
 msgid "Content"
 msgstr "Sisältö"
 
@@ -4249,53 +4238,53 @@ msgid "No comments yet."
 msgstr "Ei kommentteja."
 
 #: wp-admin/includes/dashboard.php:552
-#: wp-admin/includes/template.php:2177
-#: wp-admin/includes/template.php:2179
+#: wp-admin/includes/template.php:2178
+#: wp-admin/includes/template.php:2180
 msgid "Approve this comment"
 msgstr "Hyväksy tämä kommentti"
 
 #: wp-admin/includes/dashboard.php:553
-#: wp-admin/includes/template.php:2175
-#: wp-admin/includes/template.php:2180
+#: wp-admin/includes/template.php:2176
+#: wp-admin/includes/template.php:2181
 msgid "Unapprove this comment"
 msgstr "Hylkää tämä kommentti"
 
 #: wp-admin/includes/dashboard.php:554
-#: wp-admin/includes/template.php:2198
+#: wp-admin/includes/template.php:2199
 #: wp-includes/link-template.php:837
 msgid "Edit comment"
 msgstr "Muokkaa kommenttia"
 
 #: wp-admin/includes/dashboard.php:555
-#: wp-admin/includes/template.php:2201
+#: wp-admin/includes/template.php:2202
 msgid "Reply to this comment"
 msgstr "Vastaa tähän kommenttiin"
 
 #: wp-admin/includes/dashboard.php:555
-#: wp-admin/includes/template.php:2201
+#: wp-admin/includes/template.php:2202
 #: wp-includes/comment-template.php:1002
 msgid "Reply"
 msgstr "Vastaa"
 
 #: wp-admin/includes/dashboard.php:556
-#: wp-admin/includes/template.php:2184
+#: wp-admin/includes/template.php:2185
 msgid "Mark this comment as spam"
 msgstr "Merkitse tämä kommentti roskaksi"
 
 #. translators: mark as spam link
 #: wp-admin/includes/dashboard.php:556
-#: wp-admin/includes/template.php:2184
+#: wp-admin/includes/template.php:2185
 msgctxt "verb"
 msgid "Spam"
-msgstr "Roskaposti"
+msgstr "Roskaviesti"
 
 #: wp-admin/includes/dashboard.php:560
-#: wp-admin/includes/template.php:2194
+#: wp-admin/includes/template.php:2195
 msgid "Move this comment to the trash"
 msgstr "Siirrä tämä kommentti roskakoriin"
 
 #: wp-admin/includes/dashboard.php:560
-#: wp-admin/includes/template.php:2194
+#: wp-admin/includes/template.php:2195
 msgctxt "verb"
 msgid "Trash"
 msgstr "Roskakori"
@@ -4347,7 +4336,7 @@ msgstr "Tämä vimpain vaatii JavaScript-tuen toimiakseen."
 
 #: wp-admin/includes/dashboard.php:631
 #: wp-admin/includes/dashboard.php:747
-#: wp-includes/default-widgets.php:774
+#: wp-includes/default-widgets.php:776
 #, php-format
 msgid "<strong>RSS Error</strong>: %s"
 msgstr "<strong>Virhe RSS-syötteessä:</strong> %s"
@@ -4641,7 +4630,7 @@ msgstr "Palvelin"
 
 #: wp-admin/includes/file.php:811
 #: wp-admin/includes/template.php:902
-#: wp-admin/install.php:135
+#: wp-admin/install.php:152
 #: wp-admin/user-edit.php:187
 #: wp-admin/user-new.php:96
 #: wp-login.php:425
@@ -4651,7 +4640,7 @@ msgstr "Käyttäjänimi"
 
 #: wp-admin/includes/file.php:816
 #: wp-admin/includes/template.php:1080
-#: wp-admin/install.php:139
+#: wp-admin/install.php:156
 #: wp-admin/options-writing.php:100
 #: wp-admin/user-new.php:119
 #: wp-login.php:540
@@ -4684,7 +4673,7 @@ msgid "Proceed"
 msgstr "Jatka"
 
 #: wp-admin/includes/image-edit.php:19
-#: wp-admin/includes/image-edit.php:540
+#: wp-admin/includes/image-edit.php:544
 msgid "Image data does not exist. Please re-upload the image."
 msgstr "Kuvan tietoja ei ole olemassa. Lataa kuva uudelleen."
 
@@ -4693,189 +4682,193 @@ msgid "Crop"
 msgstr "Rajaa"
 
 #: wp-admin/includes/image-edit.php:44
-msgid "Rotate couter-clockwise"
+msgid "Rotate counter-clockwise"
 msgstr "Kierrä vastapäivään"
 
 #: wp-admin/includes/image-edit.php:45
 msgid "Rotate clockwise"
 msgstr "Kierrä myötäpäivään"
 
-#: wp-admin/includes/image-edit.php:49
+#: wp-admin/includes/image-edit.php:47
+msgid "Image rotation is not supported by your web host (function imagerotate() is missing)"
+msgstr "Web-palvelimesi ei tue kuvan kiertämistä (funktio imagerotate() puuttuu)"
+
+#: wp-admin/includes/image-edit.php:53
 msgid "Flip vertically"
 msgstr "Käännä pystysuunnassa"
 
-#: wp-admin/includes/image-edit.php:50
+#: wp-admin/includes/image-edit.php:54
 msgid "Flip horizontally"
 msgstr "Käännä vaakasuunnassa"
 
-#: wp-admin/includes/image-edit.php:53
+#: wp-admin/includes/image-edit.php:57
 #: wp-includes/js/tinymce/langs/wp-langs.php:214
 #: wp-includes/js/tinymce/wp-mce-help.php:209
 msgid "Redo"
 msgstr "Tee uudelleen"
 
-#: wp-admin/includes/image-edit.php:78
+#: wp-admin/includes/image-edit.php:82
 msgid "Scale Image"
 msgstr "Skaalaa kuvaa"
 
-#: wp-admin/includes/image-edit.php:80
+#: wp-admin/includes/image-edit.php:84
 msgid "You can proportionally scale the original image. For best results the scaling should be done before performing any other operations on it like crop, rotate, etc. Note that if you make the image larger it may become fuzzy."
 msgstr "Voit muuttaa kuvan kokoa alkuperäisessä kuvasuhteessa. Parhaan lopputuloksen saamiseksi skaalaus kannattaa tehdä ennen muita toimenpiteitä kuten rajaus, kierto jne. Huomaa että kuvan suurentaminen voi tehdä siitä sumean."
 
-#: wp-admin/includes/image-edit.php:81
+#: wp-admin/includes/image-edit.php:85
 #, php-format
 msgid "Original dimensions %s"
 msgstr "Alkuperäinen koko %s"
 
-#: wp-admin/includes/image-edit.php:85
+#: wp-admin/includes/image-edit.php:89
 #: wp-includes/js/tinymce/langs/wp-langs.php:320
 msgid "Scale"
 msgstr "Skaala"
 
-#: wp-admin/includes/image-edit.php:93
+#: wp-admin/includes/image-edit.php:97
 msgid "Restore Original Image"
 msgstr "Palauta alkuperäinen kuva"
 
-#: wp-admin/includes/image-edit.php:95
+#: wp-admin/includes/image-edit.php:99
 msgid "Discard any changes and restore the original image."
 msgstr "Kumoa kaikki muutokset ja palauta alkuperäinen kuva."
 
-#: wp-admin/includes/image-edit.php:98
+#: wp-admin/includes/image-edit.php:102
 msgid " Previously edited copies of the image will not be deleted."
 msgstr " Aikaisemmin muokattuja kuvan kopioita ei poisteta."
 
-#: wp-admin/includes/image-edit.php:102
+#: wp-admin/includes/image-edit.php:106
 msgid "Restore image"
 msgstr "Palauta kuva"
 
-#: wp-admin/includes/image-edit.php:113
+#: wp-admin/includes/image-edit.php:117
 msgid "Image Crop"
 msgstr "Kuvan rajaus"
 
-#: wp-admin/includes/image-edit.php:114
-#: wp-admin/includes/image-edit.php:160
+#: wp-admin/includes/image-edit.php:118
+#: wp-admin/includes/image-edit.php:164
 msgid "(help)"
 msgstr "(ohje)"
 
-#: wp-admin/includes/image-edit.php:116
+#: wp-admin/includes/image-edit.php:120
 msgid "The image can be cropped by clicking on it and dragging to select the desired part. While dragging the dimensions of the selection are displayed below."
 msgstr "Kuva voidaan rajata napsauttamalla sitä hiirellä ja raahaamalla halutun alueen yli. Raahaamisen aikana vainnan koko näkyy alapuolella."
 
-#: wp-admin/includes/image-edit.php:117
+#: wp-admin/includes/image-edit.php:121
 msgid "Keyboard shortcuts"
 msgstr "Näppäinoikotiet"
 
-#: wp-admin/includes/image-edit.php:119
+#: wp-admin/includes/image-edit.php:123
 msgid "Arrow: move by 10px"
 msgstr "Nuolinäppäin: siirrä 10px"
 
-#: wp-admin/includes/image-edit.php:120
+#: wp-admin/includes/image-edit.php:124
 msgid "Shift + arrow: move by 1px"
 msgstr "Vaihto + nuolinäppäin: siirrä 1px"
 
-#: wp-admin/includes/image-edit.php:121
+#: wp-admin/includes/image-edit.php:125
 msgid "Ctrl + arrow: resize by 10px"
 msgstr "Ctrl + nuolinäppäin: skaalaa 10px"
 
-#: wp-admin/includes/image-edit.php:122
+#: wp-admin/includes/image-edit.php:126
 msgid "Ctrl + Shift + arrow: resize by 1px"
 msgstr "Ctrl + Vaihto + nuolinäppäin: skaalaa 1px"
 
-#: wp-admin/includes/image-edit.php:123
+#: wp-admin/includes/image-edit.php:127
 msgid "Shift + drag: lock aspect ratio"
 msgstr "Vaihto + raahaus: säilytä kuvasuhde"
 
-#: wp-admin/includes/image-edit.php:126
+#: wp-admin/includes/image-edit.php:130
 msgid "Crop Aspect Ratio"
 msgstr "Rajauksen kuvasuhde"
 
-#: wp-admin/includes/image-edit.php:127
+#: wp-admin/includes/image-edit.php:131
 msgid "You can specify the crop selection aspect ratio then hold down the Shift key while dragging to lock it. The values can be 1:1 (square), 4:3, 16:9, etc. If there is a selection, specifying aspect ratio will set it immediately."
 msgstr "Voit määritellä rajattavan alueen kuvasuhteen ja pitää Vaihto-näppäintä pohjassa sen lukitsemiseksi. Mahdolliset arvot ovat 1:1 (neliö), 4:3, 16:9 jne. Jos kuvasta on jo valittu jokin alue, kuvasuhteen määritteleminen muuttaa sen välittömästi."
 
-#: wp-admin/includes/image-edit.php:129
+#: wp-admin/includes/image-edit.php:133
 msgid "Crop Selection"
 msgstr "Rajaa valittu alue"
 
-#: wp-admin/includes/image-edit.php:130
+#: wp-admin/includes/image-edit.php:134
 msgid "Once started, the selection can be adjusted by entering new values (in pixels). Note that these values are scaled to approximately match the original image dimensions. The minimum selection size equals the thumbnail size as set in the Media settings."
 msgstr "Kun valinta on aloitettu, sitä voidaan muokata antamalla uudet arvot (pikseleinä). Nämä arvot on skaalattu likimain vastaamaan alkuperäistä kuvasuhdetta. Valinnan pienin koko vastaa Pieni-kuvalle asetettuja arvoja Media-asetuksissa."
 
-#: wp-admin/includes/image-edit.php:135
+#: wp-admin/includes/image-edit.php:139
 msgid "Aspect ratio:"
 msgstr "Kuvasuhde:"
 
-#: wp-admin/includes/image-edit.php:144
+#: wp-admin/includes/image-edit.php:148
 msgid "Selection:"
 msgstr "Valinta:"
 
-#: wp-admin/includes/image-edit.php:159
+#: wp-admin/includes/image-edit.php:163
 msgid "Thumbnail Settings"
 msgstr "Pienoiskuvan asetukset"
 
-#: wp-admin/includes/image-edit.php:161
+#: wp-admin/includes/image-edit.php:165
 msgid "The thumbnail image can be cropped differently. For example it can be square or contain only a portion of the original image to showcase it better. Here you can select whether to apply changes to all image sizes or make the thumbnail different."
 msgstr "Pienoiskuva voidaan rajata erikseen. Se voi olla esimerkiksi neliö tai sisältää vain osan alkuperäisestä kuvasta. Tästä voit valita vaikuttavatko muutokset kaikkiin kuvakokoihin vai ainoastaan pienoiskuvaan."
 
-#: wp-admin/includes/image-edit.php:165
+#: wp-admin/includes/image-edit.php:169
 msgid "Current thumbnail"
 msgstr "Nykyinen pienoiskuva"
 
-#: wp-admin/includes/image-edit.php:169
+#: wp-admin/includes/image-edit.php:173
 msgid "Apply changes to:"
 msgstr "Kohdista muutokset näihin:"
 
-#: wp-admin/includes/image-edit.php:173
+#: wp-admin/includes/image-edit.php:177
 msgid "All image sizes"
 msgstr "Kaikki kuvakoot"
 
-#: wp-admin/includes/image-edit.php:177
+#: wp-admin/includes/image-edit.php:181
 #: wp-admin/includes/media.php:822
 #: wp-includes/js/tinymce/langs/wp-langs.php:426
 msgid "Thumbnail"
 msgstr "Pienoiskuva"
 
-#: wp-admin/includes/image-edit.php:181
+#: wp-admin/includes/image-edit.php:185
 msgid "All sizes except thumbnail"
 msgstr "Kaikki kuvakoot paitsi pienoiskuva"
 
-#: wp-admin/includes/image-edit.php:191
+#: wp-admin/includes/image-edit.php:195
 msgid "There are unsaved changes that will be lost.  'OK' to continue, 'Cancel' to return to the Image Editor."
 msgstr "Tallentamattomat muutokset menetetään. Valitse 'OK' jatkaaksesi, 'Peruuta' palataksesi kuvamuokkaimeen."
 
-#: wp-admin/includes/image-edit.php:423
+#: wp-admin/includes/image-edit.php:427
 msgid "Cannot load image metadata."
 msgstr "Kuvan metadataa ei voitu ladata."
 
-#: wp-admin/includes/image-edit.php:478
+#: wp-admin/includes/image-edit.php:482
 msgid "Cannot save image metadata."
 msgstr "Kuvan metadataa ei voitu tallentaa."
 
-#: wp-admin/includes/image-edit.php:483
+#: wp-admin/includes/image-edit.php:487
 msgid "Image metadata is inconsistent."
 msgstr "Kuvan metadatassa on ristiriitaisuuksia."
 
-#: wp-admin/includes/image-edit.php:485
+#: wp-admin/includes/image-edit.php:489
 msgid "Image restored successfully."
 msgstr "Kuva palautettiin onnistuneesti."
 
-#: wp-admin/includes/image-edit.php:498
+#: wp-admin/includes/image-edit.php:502
 msgid "Unable to create new image."
 msgstr "Uuden kuvan luominen ei onnistunut."
 
-#: wp-admin/includes/image-edit.php:524
+#: wp-admin/includes/image-edit.php:528
 msgid "Error while saving the scaled image. Please reload the page and try again."
 msgstr "Skaalatun kuvan tallentaminen ei onnistunut. Lataa sivu uudelleen ja kokeile uudelleen."
 
-#: wp-admin/includes/image-edit.php:532
+#: wp-admin/includes/image-edit.php:536
 msgid "Nothing to save, the image has not changed."
 msgstr "Ei mitään tallennettavaa, kuva ei ole muuttunut."
 
-#: wp-admin/includes/image-edit.php:575
+#: wp-admin/includes/image-edit.php:579
 msgid "Unable to save the image."
 msgstr "Kuvan tallentaminen ei onnistunut."
 
-#: wp-admin/includes/image-edit.php:660
+#: wp-admin/includes/image-edit.php:664
 msgid "Image saved"
 msgstr "Kuva tallennettu"
 
@@ -4920,7 +4913,7 @@ msgid "Uploads"
 msgstr "Lataukset"
 
 #: wp-admin/includes/media.php:304
-#: wp-admin/includes/template.php:3400
+#: wp-admin/includes/template.php:3401
 msgid "WordPress"
 msgstr "WordPress"
 
@@ -5357,7 +5350,7 @@ msgstr "Yksityisesti julkaistu"
 
 #: wp-admin/includes/meta-boxes.php:93
 #: wp-admin/includes/meta-boxes.php:139
-#: wp-admin/includes/template.php:2650
+#: wp-admin/includes/template.php:2651
 #: wp-includes/script-loader.php:285
 msgid "OK"
 msgstr "OK"
@@ -5369,7 +5362,7 @@ msgstr "Näkyvyys:"
 #: wp-admin/includes/meta-boxes.php:106
 #: wp-admin/includes/meta-boxes.php:136
 #: wp-admin/includes/template.php:1213
-#: wp-admin/includes/template.php:3452
+#: wp-admin/includes/template.php:3453
 #: wp-includes/post.php:392
 #: wp-includes/post.php:412
 #: wp-includes/script-loader.php:299
@@ -5378,7 +5371,7 @@ msgstr "Yksityinen"
 
 #: wp-admin/includes/meta-boxes.php:109
 #: wp-admin/includes/meta-boxes.php:134
-#: wp-admin/includes/template.php:3450
+#: wp-admin/includes/template.php:3451
 msgid "Password protected"
 msgstr "Salasanasuojattu"
 
@@ -5436,7 +5429,7 @@ msgstr "Ajasta"
 #: wp-admin/includes/meta-boxes.php:217
 #: wp-admin/includes/meta-boxes.php:218
 #: wp-admin/includes/template.php:1262
-#: wp-admin/includes/template.php:2512
+#: wp-admin/includes/template.php:2513
 #: wp-includes/js/tinymce/langs/wp-langs.php:29
 msgid "Update"
 msgstr "Päivitä"
@@ -5805,8 +5798,8 @@ msgid "Plugins extend and expand the functionality of WordPress. You may automat
 msgstr "Lisäosat laajentavat WordPressin ominaisuuksia tai lisäävät siihen uusia toimintoja. Voit asentaa lisäosia automaattisesti <a href=\"http://wordpress.org/extend/plugins/\">WordPressin lisäosahakemistosta</a> tai asentaa lisäosia manuaalisesti."
 
 #: wp-admin/includes/plugin-install.php:129
-#: wp-admin/includes/template.php:3231
-#: wp-admin/includes/template.php:3233
+#: wp-admin/includes/template.php:3232
+#: wp-admin/includes/template.php:3234
 #: wp-admin/includes/theme-install.php:162
 #: wp-admin/plugin-install.php:24
 #: wp-admin/theme-install.php:29
@@ -6284,13 +6277,13 @@ msgstr "Ihan uusi WordPress-sivusto"
 
 #. translators: default date format, see http://php.net/date
 #: wp-admin/includes/schema.php:220
-#: wp-admin/options-general.php:204
+#: wp-admin/options-general.php:216
 msgid "F j, Y"
 msgstr "j.n.Y"
 
 #. translators: default time format, see http://php.net/date
 #: wp-admin/includes/schema.php:222
-#: wp-admin/options-general.php:237
+#: wp-admin/options-general.php:249
 msgid "g:i a"
 msgstr "G.i"
 
@@ -6334,13 +6327,13 @@ msgstr "Tilaaja"
 #: wp-admin/includes/template.php:670
 #: wp-admin/includes/template.php:1449
 #: wp-admin/includes/template.php:1669
-#: wp-admin/includes/template.php:2199
+#: wp-admin/includes/template.php:2200
 msgid "Quick&nbsp;Edit"
 msgstr "Pikamuokkaus"
 
 #: wp-admin/includes/template.php:229
 #: wp-admin/includes/template.php:1029
-#: wp-admin/includes/template.php:2199
+#: wp-admin/includes/template.php:2200
 msgid "Quick Edit"
 msgstr "Pikamuokkaus"
 
@@ -6450,7 +6443,7 @@ msgstr "Salli päivitysilmoitukset"
 
 #: wp-admin/includes/template.php:1226
 #: wp-admin/includes/template.php:1229
-#: wp-admin/includes/template.php:3459
+#: wp-admin/includes/template.php:3460
 msgid "Sticky"
 msgstr "Kiinnitetty"
 
@@ -6549,123 +6542,123 @@ msgstr "Näytä tämän kirjoittajan artikkelit"
 msgid "Y/m/d \\a\\t g:i A"
 msgstr "d/m/Y G.i"
 
-#: wp-admin/includes/template.php:2148
+#: wp-admin/includes/template.php:2149
 #, php-format
 msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
 msgstr "Lähetetty <a href=\"%1$s\">%2$s kello %3$s</a>"
 
-#: wp-admin/includes/template.php:2148
+#: wp-admin/includes/template.php:2149
 msgid "g:ia"
 msgstr "G.i"
 
-#: wp-admin/includes/template.php:2250
+#: wp-admin/includes/template.php:2251
 msgid "Y/m/d \\a\\t g:ia"
 msgstr "d/m/Y G.i"
 
-#: wp-admin/includes/template.php:2324
+#: wp-admin/includes/template.php:2325
 msgid "Reply to Comment"
 msgstr "Vastaa kommenttiin"
 
-#: wp-admin/includes/template.php:2350
+#: wp-admin/includes/template.php:2351
 msgid "Submit Reply"
 msgstr "Lähetä vastaus"
 
-#: wp-admin/includes/template.php:2383
+#: wp-admin/includes/template.php:2384
 #, php-format
 msgid "Comment by %s moved to the trash."
 msgstr "Kirjoittajan %s kommentti siirrettiin roskakoriin."
 
-#: wp-admin/includes/template.php:2386
+#: wp-admin/includes/template.php:2387
 #, php-format
 msgid "Comment by %s marked as spam."
-msgstr "Kirjoittajan %s kommentti merkittiin roskapostiksi."
+msgstr "Kirjoittajan %s kommentti merkittiin roskaviestiksi."
 
-#: wp-admin/includes/template.php:2439
-#: wp-admin/includes/template.php:2454
-#: wp-admin/includes/template.php:2516
-#: wp-admin/includes/template.php:2543
+#: wp-admin/includes/template.php:2440
+#: wp-admin/includes/template.php:2455
+#: wp-admin/includes/template.php:2517
+#: wp-admin/includes/template.php:2544
 msgid "Value"
 msgstr "Arvo"
 
-#: wp-admin/includes/template.php:2508
+#: wp-admin/includes/template.php:2509
 msgid "Key"
 msgstr "Avain"
 
-#: wp-admin/includes/template.php:2538
+#: wp-admin/includes/template.php:2539
 msgid "Add new custom field:"
 msgstr "Lisää uusi avainkenttä:"
 
-#: wp-admin/includes/template.php:2563
+#: wp-admin/includes/template.php:2564
 msgid "Enter new"
 msgstr "Syötä uusi"
 
-#: wp-admin/includes/template.php:2573
+#: wp-admin/includes/template.php:2574
 msgid "Add Custom Field"
 msgstr "Lisää avainkenttä"
 
 #. translators: 1: month input, 2: day input, 3: year input, 4: hour input, 5: minute input
-#: wp-admin/includes/template.php:2635
+#: wp-admin/includes/template.php:2636
 #, php-format
 msgid "%1$s%2$s, %3$s @ %4$s : %5$s"
 msgstr "%1$s%2$s, %3$s @ %4$s : %5$s"
 
-#: wp-admin/includes/template.php:2717
+#: wp-admin/includes/template.php:2718
 msgid "WordPress recommends a better browser"
 msgstr "WordPress suosittelee parempaa selainta"
 
-#: wp-admin/includes/template.php:2752
+#: wp-admin/includes/template.php:2753
 msgid "Thumbnail linked to file"
 msgstr "Pienoiskuva linkitetty tiedostoon"
 
-#: wp-admin/includes/template.php:2752
+#: wp-admin/includes/template.php:2753
 msgid "Image linked to file"
 msgstr "Image linked to file"
 
-#: wp-admin/includes/template.php:2756
+#: wp-admin/includes/template.php:2757
 msgid "Thumbnail linked to page"
 msgstr "Pienoiskuvalinkki tiedostoon"
 
-#: wp-admin/includes/template.php:2756
+#: wp-admin/includes/template.php:2757
 msgid "Image linked to page"
 msgstr "Kuvalinkki sivuun"
 
-#: wp-admin/includes/template.php:2761
+#: wp-admin/includes/template.php:2762
 msgid "Link to file"
 msgstr "Linkki tiedostoon"
 
-#: wp-admin/includes/template.php:2765
+#: wp-admin/includes/template.php:2766
 msgid "Link to page"
 msgstr "Linkki sivuun"
 
-#: wp-admin/includes/template.php:2864
+#: wp-admin/includes/template.php:2865
 msgid "Before you can upload your import file, you will need to fix the following error:"
 msgstr "Ennen kuin voit tuoda tiedoston, seuraava virhe on korjattava:"
 
-#: wp-admin/includes/template.php:2870
+#: wp-admin/includes/template.php:2871
 msgid "Choose a file from your computer:"
 msgstr "Valitse tiedosto omalta tietokoneeltasi:"
 
-#: wp-admin/includes/template.php:2870
+#: wp-admin/includes/template.php:2871
 #, php-format
 msgid "Maximum size: %s"
 msgstr "Suurin sallittu koko: %s"
 
-#: wp-admin/includes/template.php:2876
+#: wp-admin/includes/template.php:2877
 msgid "Upload file and import"
 msgstr "Tuo tiedosto"
 
-#: wp-admin/includes/template.php:3002
+#: wp-admin/includes/template.php:3003
 #: wp-admin/press-this.php:477
 #: wp-admin/press-this.php:495
 #: wp-admin/press-this.php:522
 msgid "Click to toggle"
 msgstr "Napsauta vaihtaaksesi"
 
-#: wp-admin/includes/template.php:3222
+#: wp-admin/includes/template.php:3223
 msgid "Find Posts or Pages"
 msgstr "Etsi artikkeleita tai sivuja"
 
-#: wp-admin/includes/template.php:3243
+#: wp-admin/includes/template.php:3244
 #: wp-admin/includes/widgets.php:202
 #: wp-includes/js/tinymce/langs/wp-langs.php:31
 #: wp-includes/js/tinymce/wp-mce-help.php:258
@@ -6674,124 +6667,124 @@ msgstr "Etsi artikkeleita tai sivuja"
 msgid "Close"
 msgstr "Sulje"
 
-#: wp-admin/includes/template.php:3244
+#: wp-admin/includes/template.php:3245
 #: wp-admin/plugin-editor.php:172
 #: wp-admin/theme-editor.php:138
 msgid "Select"
 msgstr "Valitse"
 
-#: wp-admin/includes/template.php:3275
-#: wp-admin/includes/template.php:3318
+#: wp-admin/includes/template.php:3276
+#: wp-admin/includes/template.php:3319
 msgid "New Page"
 msgstr "Uusi sivu"
 
-#: wp-admin/includes/template.php:3281
+#: wp-admin/includes/template.php:3282
 msgid "New Media"
 msgstr "Uusi mediatiedosto"
 
-#: wp-admin/includes/template.php:3284
+#: wp-admin/includes/template.php:3285
 #: wp-admin/media.php:45
 #: wp-admin/media.php:90
 msgid "Edit Media"
 msgstr "Muokkaa mediatiedostoja"
 
-#: wp-admin/includes/template.php:3287
+#: wp-admin/includes/template.php:3288
 msgid "New Link"
 msgstr "Lisää linkki"
 
-#: wp-admin/includes/template.php:3290
+#: wp-admin/includes/template.php:3291
 #: wp-admin/link-manager.php:44
 msgid "Edit Links"
 msgstr "Muokkaa linkkejä"
 
-#: wp-admin/includes/template.php:3293
+#: wp-admin/includes/template.php:3294
 msgid "New User"
 msgstr "Lisää uusi käyttäjä"
 
-#: wp-admin/includes/template.php:3296
+#: wp-admin/includes/template.php:3297
 msgid "Edit Users"
 msgstr "Muokkaa käyttäjää"
 
-#: wp-admin/includes/template.php:3299
+#: wp-admin/includes/template.php:3300
 #: wp-admin/plugin-install.php:17
 msgid "Install Plugins"
 msgstr "Asenna lisäosia"
 
-#: wp-admin/includes/template.php:3302
+#: wp-admin/includes/template.php:3303
 #: wp-admin/plugins.php:239
 msgid "Manage Plugins"
 msgstr "Lisäosat"
 
-#: wp-admin/includes/template.php:3305
+#: wp-admin/includes/template.php:3306
 #: wp-admin/theme-install.php:17
 #: wp-admin/update.php:154
 msgid "Install Themes"
 msgstr "Asenna teemoja"
 
-#: wp-admin/includes/template.php:3308
+#: wp-admin/includes/template.php:3309
 #: wp-admin/themes.php:31
 msgid "Manage Themes"
 msgstr "Teemat"
 
-#: wp-admin/includes/template.php:3311
-#: wp-admin/includes/template.php:3316
+#: wp-admin/includes/template.php:3312
+#: wp-admin/includes/template.php:3317
 msgid "New Post"
 msgstr "Uusi artikkeli"
 
-#: wp-admin/includes/template.php:3317
+#: wp-admin/includes/template.php:3318
 msgid "Drafts"
 msgstr "Luonnokset"
 
-#: wp-admin/includes/template.php:3369
+#: wp-admin/includes/template.php:3370
 #: wp-includes/script-loader.php:350
 msgid "(no title)"
 msgstr "(ei otsikkoa)"
 
 #. translators: post state
-#: wp-admin/includes/template.php:3457
+#: wp-admin/includes/template.php:3458
 msgctxt "post state"
 msgid "Pending"
 msgstr "Vireillä"
 
-#: wp-admin/includes/template.php:3508
+#: wp-admin/includes/template.php:3509
 msgid "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">Writing Posts</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">Artikkelin kirjoittaminen</a>"
 
-#: wp-admin/includes/template.php:3520
+#: wp-admin/includes/template.php:3521
 msgid "The modules on this screen can be arranged in several columns. You can select the number of columns from the Screen Options tab."
 msgstr "Tämän sivun moduulit voidaan järjestää useampaan sarakkeeseen. Voit valita sarakkeiden lukumäärän Näyttöasetukset-välilehdeltä."
 
-#: wp-admin/includes/template.php:3533
+#: wp-admin/includes/template.php:3534
 msgid "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=\"_blank\">General Settings</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=\"_blank\">Yleisasetukset</a>"
 
-#: wp-admin/includes/template.php:3547
+#: wp-admin/includes/template.php:3548
 msgid "Enable accessibility mode"
 msgstr "Ota saavutettavuusmoodi käyttöön"
 
-#: wp-admin/includes/template.php:3547
+#: wp-admin/includes/template.php:3548
 msgid "Disable accessibility mode"
 msgstr "Poista saavutettavuusmoodi käytöstä"
 
-#: wp-admin/includes/template.php:3559
+#: wp-admin/includes/template.php:3560
 msgid "Show on screen"
 msgstr "Näytä"
 
-#: wp-admin/includes/template.php:3588
+#: wp-admin/includes/template.php:3589
 #, php-format
 msgid "Get help with &#8220;%s&#8221;"
 msgstr "Etsi apua tähän: &#8220;%s&#8221;"
 
-#: wp-admin/includes/template.php:3590
+#: wp-admin/includes/template.php:3591
 msgid "Get help with this page"
 msgstr "Etsi apua tähän"
 
-#: wp-admin/includes/template.php:3593
+#: wp-admin/includes/template.php:3594
 msgid "Other Help"
 msgstr "Muuta apua"
 
-#: wp-admin/includes/template.php:3595
-#: wp-admin/includes/template.php:3610
+#: wp-admin/includes/template.php:3596
+#: wp-admin/includes/template.php:3611
 #: wp-includes/js/tinymce/langs/wp-langs.php:238
 #: wp-includes/js/tinymce/langs/wp-langs.php:252
 #: wp-includes/js/tinymce/langs/wp-langs.php:409
@@ -6799,95 +6792,95 @@ msgstr "Muuta apua"
 msgid "Help"
 msgstr "Ohje"
 
-#: wp-admin/includes/template.php:3599
+#: wp-admin/includes/template.php:3600
 msgid "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Documentation</a>"
 msgstr "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Dokumentaatio</a>"
 
-#: wp-admin/includes/template.php:3601
+#: wp-admin/includes/template.php:3602
 msgid "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
 msgstr "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Tukifoorumi (eng)</a><br/><a href=\"http://www.arkimedia.fi/wordpress-tuki/\" target=\"_blank\">Tukifoorumi (suomi)</a>"
 
-#: wp-admin/includes/template.php:3614
+#: wp-admin/includes/template.php:3615
 msgid "Screen Options"
 msgstr "Näyttöasetukset"
 
-#: wp-admin/includes/template.php:3641
+#: wp-admin/includes/template.php:3642
 msgid "Most of the modules on this screen can be moved. If you hover your mouse over the title bar of a module you&rsquo;ll notice the 4 arrow cursor appears to let you know it is movable. Click on it, hold down the mouse button and start dragging the module to a new location. As you drag the module, notice the dotted gray box that also moves. This box indicates where the module will be placed when you release the mouse button."
 msgstr "Useimpia tämän näkymän moduuleista voi liikuttaa. Kun laitat hiiren moduulin otsikkopalkin päälle, näet neljä nuolta sisältävän osoittimen, joka kertoo, että moduuli on siirrettävissä. Napsauta ja pidä hiiren painike pohjassa ja aloita vetämään moduulia uuteen paikkaan. Kun vedät moduulia, huomaa harmaa laatikko, joka liikkuu myös. Tämä laatikko kertoo mihin moduuli asettuu, kun päästät irti hiiren painikkeesta."
 
-#: wp-admin/includes/template.php:3642
+#: wp-admin/includes/template.php:3643
 msgid "The same modules can be expanded and collapsed by clicking once on their title bar and also completely hidden from the Screen Options tab."
 msgstr "Moduuleita voi myös laajentaa ja pienentää klikkaamalla otsikkopalkkia tai poistaa kokonaan näkymästä Näyttöasetukset-välilehdeltä."
 
-#: wp-admin/includes/template.php:3648
+#: wp-admin/includes/template.php:3649
 msgid "Search help"
 msgstr "Hakuohjeet"
 
-#: wp-admin/includes/template.php:3649
+#: wp-admin/includes/template.php:3650
 msgid "You may search based on 3 criteria:"
 msgstr "Voit etsiä kolmella hakuehdolla:"
 
-#: wp-admin/includes/template.php:3650
+#: wp-admin/includes/template.php:3651
 msgid "<strong>Term:</strong> Searches theme names and descriptions for the specified term."
 msgstr "<strong>Hakusana:</strong> Etsii teemojen nimistä ja kuvauksista tietyllä hakusanalla"
 
-#: wp-admin/includes/template.php:3651
+#: wp-admin/includes/template.php:3652
 msgid "<strong>Tag:</strong> Searches for themes tagged as such."
 msgstr "<strong>Avainsana:</strong> Selaa teemoja, joihin liittyy avainsana, kuten"
 
-#: wp-admin/includes/template.php:3652
+#: wp-admin/includes/template.php:3653
 msgid "<strong>Author:</strong> Searches for themes created by the Author, or which the Author contributed to."
 msgstr "<strong>Tekijä:</strong> Etsii tietyn tekijän tekemiä teemoja."
 
-#: wp-admin/includes/template.php:3658
+#: wp-admin/includes/template.php:3659
 msgid "Widgets are added and arranged by simple drag &#8217;n&#8217; drop. If you hover your mouse over the titlebar of a widget, you&#8217;ll see a 4-arrow cursor which indicates that the widget is movable.  Click on the titlebar, hold down the mouse button and drag the widget to a sidebar. As you drag, you&#8217;ll see a dotted box that also moves. This box shows where the widget will go once you drop it."
 msgstr "Useimpia tämän näkymän moduuleista voi liikuttaa. Kun laitat hiiren moduulin otsikkopalkin päälle, näet neljä nuolta sisältävän osoittimen, joka kertaa, että moduuli on siirrettävissä . Napsauta ja pidä hiiren painike pohjassa ja aloita vetämään moduulia uuteen paikkaan. Kun vedät moduulia, huomaa harmaa laatikko, joka liikkuu myös. Tämä laatikko kertoo mihin moduuli asettuu, kun päästät hiiren painikkeen."
 
-#: wp-admin/includes/template.php:3659
+#: wp-admin/includes/template.php:3660
 msgid "To remove a widget from a sidebar, drag it back to Available Widgets or click on the arrow on its titlebar to reveal its settings, and then click Remove."
 msgstr "Poista moduuli sivupalkista pitämällä hiiren nappia pohjassa sen päällä ja raahaamalla se saatavilla olevien vimpainten joukkoon. Voit myös napauttaa sen otsikkopalkissa olevaa nuolta asetusten näyttämiseksi ja valita Poista."
 
-#: wp-admin/includes/template.php:3660
+#: wp-admin/includes/template.php:3661
 msgid "To remove a widget from a sidebar <em>and keep its configuration</em>, drag it to Inactive Widgets."
 msgstr "Jos haluat poistaa vimpaimen sivupalkista ja <em>ja säilyttää sen asetukset</em>, raahaa se poissa käytöstä olevien vimpainten alueelle."
 
-#: wp-admin/includes/template.php:3661
+#: wp-admin/includes/template.php:3662
 msgid "The Inactive Widgets area stores widgets that are configured but not curently used. If you change themes and the new theme has fewer sidebars than the old, all extra widgets will be stored to Inactive Widgets automatically."
 msgstr "Poissa käytöstä olevien vimpainten alue säilyttää vimpaimia, joiden asetuksia on muokattu mutta jotka eivät ole juuri nyt käytössä. Jos vaihdat sivuston teemaa sellaiseen, jossa on vähemmän sivupalkkeja kuin vanhassa teemassa, kaikki ylimääräiset vimpaimet siirretään tälle alueelle automaattisesti."
 
-#: wp-admin/includes/template.php:3683
+#: wp-admin/includes/template.php:3684
 msgid "Screen Layout"
 msgstr "Ruudun asettelu"
 
-#: wp-admin/includes/template.php:3683
+#: wp-admin/includes/template.php:3684
 msgid "Number of Columns:"
 msgstr "Sarakkeiden lukumäärä:"
 
-#: wp-admin/includes/template.php:3695
+#: wp-admin/includes/template.php:3696
 msgid "Posts per page:"
 msgstr "Artikkeleita per sivu:"
 
-#: wp-admin/includes/template.php:3698
+#: wp-admin/includes/template.php:3699
 msgid "Pages per page:"
 msgstr "Sivuja per sivu:"
 
-#: wp-admin/includes/template.php:3701
+#: wp-admin/includes/template.php:3702
 msgid "Comments per page:"
 msgstr "Kommentteja per sivu:"
 
-#: wp-admin/includes/template.php:3704
+#: wp-admin/includes/template.php:3705
 msgid "Media items per page:"
 msgstr "Mediatiedostoja per sivu:"
 
-#: wp-admin/includes/template.php:3707
+#: wp-admin/includes/template.php:3708
 msgid "Categories per page:"
 msgstr "Aiheita per sivu:"
 
-#: wp-admin/includes/template.php:3710
+#: wp-admin/includes/template.php:3711
 msgid "Tags per page:"
 msgstr "Avainsanoja per sivu:"
 
-#: wp-admin/includes/template.php:3713
+#: wp-admin/includes/template.php:3714
 msgid "Plugins per page:"
 msgstr "Lisäosia per sivu:"
 
@@ -7124,34 +7117,34 @@ msgstr "WordPressin teemahakemistoa (wp-content/themes) ei löydy."
 msgid "Could not fully remove the theme %s"
 msgstr "Seuraavaa teemaa ei voitu poistaa kokonaan: %s"
 
-#: wp-admin/includes/update-core.php:231
+#: wp-admin/includes/update-core.php:234
 #, php-format
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
 msgstr "Päivitystä ei voida tehdä koska WordPress %1$s edellyttää vähintään PHP-version %2$s ja vähintään MySQL-version %3$s. Sinulla on käytössä  PHP:n versio %4$s and MySQL:n versio %5$s."
 
-#: wp-admin/includes/update-core.php:233
+#: wp-admin/includes/update-core.php:236
 #, php-format
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
 msgstr "Päivitystä ei voida tehdä koska WordPress %1$s edellyttää vähintään PHP-version %2$s. Sinulla on käytössä PHP:n versio %3$s."
 
-#: wp-admin/includes/update-core.php:235
+#: wp-admin/includes/update-core.php:238
 #, php-format
 msgid "The update cannot be installed because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
 msgstr "Päivitystä ei voida tehdä koska WordPress %1$s edellyttää vähintään MySQL-version %2$s. Sinulla on käytössä  MySQL:n versio %3$s."
 
-#: wp-admin/includes/update-core.php:238
+#: wp-admin/includes/update-core.php:241
 msgid "Verifying the unpacked files"
 msgstr "Todennetaan pakkaamattomia tiedostoja"
 
-#: wp-admin/includes/update-core.php:242
+#: wp-admin/includes/update-core.php:245
 msgid "The update could not be unpacked"
 msgstr "Päivitystä ei voitu purkaa"
 
-#: wp-admin/includes/update-core.php:245
+#: wp-admin/includes/update-core.php:248
 msgid "Installing the latest version"
 msgstr "Asentaa viimeisintä versiota"
 
-#: wp-admin/includes/update-core.php:270
+#: wp-admin/includes/update-core.php:273
 msgid "Upgrading database"
 msgstr "Päivitetään tietokantaa"
 
@@ -7429,44 +7422,63 @@ msgstr "Aikaisempi asennus havaittu"
 msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
 msgstr "Näytät jo asentaneen WordPressin. Asentaaksesi uudestaan, tyhjää ensin tietokannan taulut."
 
-#: wp-admin/install.php:90
+#: wp-admin/install.php:91
+#, php-format
+msgid "You cannot install because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
+msgstr "Et voi suorittaa WordPress %1$s asennusta loppuun koska se vaatii vähintään PHP-version %2$s ja MySQL-version %3$s. Sinulla on käytössä PHP:n versio %4$s ja MySQL:n versio %5$s."
+
+#: wp-admin/install.php:93
+#, php-format
+msgid "You cannot install because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
+msgstr "Et voi tehdä asennusta loppuun koska WordPress %1$s vaatii vähintään PHP-version %2$s. Sinulla on käytössä versio %3$s."
+
+#: wp-admin/install.php:95
+#, php-format
+msgid "You cannot install because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
+msgstr "Et voi tehdä asennusta loppuun koska WordPress %1$s vaatii vähintään MySQL-version %2$s. Sinulla on käytössä versio %3$s."
+
+#: wp-admin/install.php:99
+msgid "Insufficient Requirements"
+msgstr "Vähimmäisvaatimukset eivät täyty"
+
+#: wp-admin/install.php:107
 msgid "Welcome"
 msgstr "Tervetuloa"
 
-#: wp-admin/install.php:91
+#: wp-admin/install.php:108
 #, php-format
 msgid "Welcome to the famous five minute WordPress installation process! You may want to browse the <a href=\"%s\">ReadMe documentation</a> at your leisure.  Otherwise, just fill in the information below and you&#8217;ll be on your way to using the most extendable and powerful personal publishing platform in the world."
 msgstr "Tervetuloa asentamaan WordPress-ohjelmaa. Muutaman vaiheen suoritettuamme pääset käyttämään henkilökohtaisten julkaisualustojen uusimpia ominaisuuksia. Ennättäessäsi voit haluta lukaista <a href=\"%s\">ReadMe-tiedoston</a>."
 
-#: wp-admin/install.php:92
+#: wp-admin/install.php:109
 msgid "First Step"
 msgstr "Ensimmäinen vaihe"
 
-#: wp-admin/install.php:94
+#: wp-admin/install.php:111
 msgid "Information needed"
 msgstr "Tarvittavat tiedot"
 
-#: wp-admin/install.php:95
+#: wp-admin/install.php:112
 msgid "Please provide the following information.  Don&#8217;t worry, you can always change these settings later."
 msgstr "Anna aluksi seuraavat tiedot. Älä huolehdi, voit kyllä muuttaa niitä myöhemmin."
 
-#: wp-admin/install.php:115
+#: wp-admin/install.php:132
 msgid "you must provide an e-mail address."
 msgstr "<strong>VIRHE</strong>: et antanut sähköpostiosoitettasi."
 
-#: wp-admin/install.php:119
+#: wp-admin/install.php:136
 msgid "that isn&#8217;t a valid e-mail address.  E-mail addresses look like: <code>username@example.com</code>"
 msgstr "<strong>VIRHE</strong>: antamasi sähköpostiosoite ei kelpaa.  Anna sähköpostiosoitteesi muodossa: <code>käyttäjänimi@esimerkki.com</code>"
 
-#: wp-admin/install.php:129
+#: wp-admin/install.php:146
 msgid "Success!"
 msgstr "Onnistui!"
 
-#: wp-admin/install.php:131
+#: wp-admin/install.php:148
 msgid "WordPress has been installed. Were you expecting more steps? Sorry to disappoint."
 msgstr "WordPress on nyt asennettu. Odotitko lisävaiheita? Pahoittelen pettymystä. Kaikki on valmista! :)"
 
-#: wp-admin/install.php:147
+#: wp-admin/install.php:164
 #: wp-login.php:527
 #: wp-login.php:546
 msgid "Log In"
@@ -7999,12 +8011,11 @@ msgid "New User Default Role"
 msgstr "Uusien käyttäjien oletusrooli"
 
 #: wp-admin/options-general.php:104
-#: wp-admin/options-general.php:148
+#: wp-admin/options-general.php:160
 msgid "Timezone"
 msgstr "Päivämäärä ja kellonaika"
 
 #: wp-admin/options-general.php:126
-#: wp-includes/functions.php:3468
 #, php-format
 msgid "UTC %s"
 msgstr "UTC-aika: %s"
@@ -8014,7 +8025,7 @@ msgid "hours"
 msgstr "tuntia"
 
 #: wp-admin/options-general.php:131
-#: wp-admin/options-general.php:155
+#: wp-admin/options-general.php:167
 #, php-format
 msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is <code>%s</code>"
 msgstr "<abbr title=\"Coordinated Universal Time\">UTC</abbr>-aika on <code>%s</code>"
@@ -8028,59 +8039,59 @@ msgstr "UTC-aika %1$s on <code>%2$s</code>"
 msgid "Unfortunately, you have to manually update this for Daylight Savings Time. Lame, we know, but will be fixed in the future."
 msgstr "Valitettavasti joudut siirtämään sivustosi kesäaikaan manuaalisesti. "
 
-#: wp-admin/options-general.php:157
+#: wp-admin/options-general.php:169
 #, php-format
 msgid "Local time is <code>%1$s</code>"
 msgstr "Paikallinen aika on <code>%1$s</code>"
 
-#: wp-admin/options-general.php:160
+#: wp-admin/options-general.php:172
 msgid "Choose a city in the same timezone as you."
 msgstr "Valitse kaupunki, joka on samalla aikavyöhykkeellä kuin sinäkin."
 
-#: wp-admin/options-general.php:166
+#: wp-admin/options-general.php:178
 msgid "This timezone is currently in daylight savings time."
 msgstr "Tämä aikavyöhyke noudattaa tällä hetkellä kesäaikaa."
 
-#: wp-admin/options-general.php:167
+#: wp-admin/options-general.php:179
 msgid "This timezone is currently in standard time."
 msgstr "Tämä aikavyöhyke noudattaa tällä hetkellä talviaikaa."
 
-#: wp-admin/options-general.php:183
+#: wp-admin/options-general.php:195
 #, php-format
 msgid "Daylight savings time begins on: <code>%s</code>."
 msgstr "Kesäaika alkaa: <code>%s</code>."
 
-#: wp-admin/options-general.php:184
+#: wp-admin/options-general.php:196
 #, php-format
 msgid "Standard time begins  on: <code>%s</code>."
 msgstr "Talviaika alkaa: <code>%s</code>."
 
-#: wp-admin/options-general.php:187
+#: wp-admin/options-general.php:199
 msgid "This timezone does not observe daylight savings time."
 msgstr "Tällä aikavyöhykkeellä ei käytetä kesäaikaa."
 
-#: wp-admin/options-general.php:198
-#: wp-admin/options-general.php:200
+#: wp-admin/options-general.php:210
+#: wp-admin/options-general.php:212
 #: xmlrpc.php:417
 msgid "Date Format"
 msgstr "Päivämäärän oletusmuoto"
 
-#: wp-admin/options-general.php:223
-#: wp-admin/options-general.php:255
+#: wp-admin/options-general.php:235
+#: wp-admin/options-general.php:267
 msgid "Custom:"
 msgstr "Muokattu:"
 
-#: wp-admin/options-general.php:225
+#: wp-admin/options-general.php:237
 msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>. Click &#8220;Save Changes&#8221; to update sample output."
 msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Päivämäärän ja kellonajan muotoilun ohje</a>. Tulokset päivittyvät, kun napsautat \"Päivität asetukset\"."
 
-#: wp-admin/options-general.php:231
-#: wp-admin/options-general.php:233
+#: wp-admin/options-general.php:243
+#: wp-admin/options-general.php:245
 #: xmlrpc.php:422
 msgid "Time Format"
 msgstr "Kellonajan oletusmuoto:"
 
-#: wp-admin/options-general.php:261
+#: wp-admin/options-general.php:273
 msgid "Week Starts On"
 msgstr "Kalenteriviikon ensimmäinen päivä:"
 
@@ -8464,7 +8475,7 @@ msgstr "WordPress ei huomioi <a href=\"http://codex.wordpress.org/Update_Service
 msgid "Error! Options page not found."
 msgstr "Virhe! Asetussivua ei löydy."
 
-#: wp-admin/options.php:91
+#: wp-admin/options.php:97
 msgid "All Settings"
 msgstr "Kaikki asetukset"
 
@@ -8547,12 +8558,12 @@ msgid "Plugin Files"
 msgstr "Lisäosan tiedostot"
 
 #: wp-admin/plugin-editor.php:208
-#: wp-admin/theme-editor.php:208
+#: wp-admin/theme-editor.php:207
 msgid "Documentation:"
 msgstr "Dokumentaatio:"
 
 #: wp-admin/plugin-editor.php:208
-#: wp-admin/theme-editor.php:210
+#: wp-admin/theme-editor.php:209
 msgid "Lookup"
 msgstr "Hae"
 
@@ -8565,12 +8576,12 @@ msgid "Update File and Attempt to Reactivate"
 msgstr "Päivitä tiedosto ja yritä uudelleenaktivointia"
 
 #: wp-admin/plugin-editor.php:219
-#: wp-admin/theme-editor.php:218
+#: wp-admin/theme-editor.php:217
 msgid "Update File"
 msgstr "Päivitä tiedosto"
 
 #: wp-admin/plugin-editor.php:223
-#: wp-admin/theme-editor.php:222
+#: wp-admin/theme-editor.php:221
 msgid "You need to make this file writable before you can save your changes. See <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">the Codex</a> for more information."
 msgstr "Poista tiedoston kirjoitussuojaus tallentaaksesi asetukset. Lisätietoa löydät <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">Codexista</a>."
 
@@ -8925,7 +8936,7 @@ msgstr "Artikkeli julkaistu."
 #: wp-includes/default-widgets.php:490
 #: wp-includes/default-widgets.php:586
 #: wp-includes/default-widgets.php:670
-#: wp-includes/default-widgets.php:995
+#: wp-includes/default-widgets.php:997
 msgid "Title:"
 msgstr "Otsikko:"
 
@@ -8964,21 +8975,21 @@ msgstr "Pyydettyä teemaa ei ole olemassa."
 msgid "Select theme to edit:"
 msgstr "Valitse muokattava teema:"
 
-#: wp-admin/theme-editor.php:145
+#: wp-admin/theme-editor.php:144
 msgid "Theme Files"
 msgstr "Teeman tiedostot"
 
-#: wp-admin/theme-editor.php:150
+#: wp-admin/theme-editor.php:149
 msgid "Templates"
 msgstr "Mallit"
 
 #. translators: Theme stylesheets in theme editor
-#: wp-admin/theme-editor.php:177
+#: wp-admin/theme-editor.php:176
 msgctxt "Theme stylesheets in theme editor"
 msgid "Styles"
 msgstr "Tyylit"
 
-#: wp-admin/theme-editor.php:228
+#: wp-admin/theme-editor.php:227
 msgid "Oops, no such file exists! Double check the name and try again, merci."
 msgstr "Ohhoh, tiedostoa ei ole olemassa! Tarkista tiedoston nimi ja yritä uudestaan, tack."
 
@@ -9416,48 +9427,63 @@ msgstr "Lataa teema"
 msgid "Installing Theme from uploaded file: %s"
 msgstr "Asennetaan teemaa tiedostosta: %s"
 
-#: wp-admin/upgrade.php:44
+#: wp-admin/upgrade.php:49
 msgid "WordPress &rsaquo; Upgrade"
 msgstr "WordPress &rsaquo; Päivitys"
 
-#: wp-admin/upgrade.php:52
+#: wp-admin/upgrade.php:57
 msgid "No Upgrade Required"
 msgstr "Ei vaadittuja päivityksiä"
 
-#: wp-admin/upgrade.php:53
+#: wp-admin/upgrade.php:58
 msgid "Your WordPress database is already up-to-date!"
 msgstr "WordPressin tietokanta on jo ajan tasalla!"
 
 #: wp-admin/upgrade.php:63
+#, php-format
+msgid "You cannot upgrade because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
+msgstr "Et voi päivittää koska WordPress %1$s  vaatii vähintään PHP-version %2$s ja MySQL-version %3$s. Sinulla on käytössä PHP:n versio %4$s ja MySQL:n versio %5$s."
+
+#: wp-admin/upgrade.php:65
+#, php-format
+msgid "You cannot upgrade because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
+msgstr "Et voi päivittää koska WordPress %1$s vaatii vähintään PHP-version %2$s. Sinulla on käytössä versio %3$s."
+
+#: wp-admin/upgrade.php:67
+#, php-format
+msgid "You cannot upgrade because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
+msgstr "Et voi päivittää koska WordPress %1$s vaatii vähintään MySQL-version %2$s. Sinulla on käytössä versio %3$s."
+
+#: wp-admin/upgrade.php:76
 msgid "Database Upgrade Required"
 msgstr "Tietokanta on päivitettävä"
 
-#: wp-admin/upgrade.php:64
+#: wp-admin/upgrade.php:77
 msgid "WordPress has been updated! Before we send you on your way, we have to upgrade your database to the newest version."
 msgstr "WordPress on päivitetty! Ennen kuin voit jatkaa, WordPressin tietokanta pitää vielä päivittää uusimpaan versioon."
 
-#: wp-admin/upgrade.php:65
+#: wp-admin/upgrade.php:78
 msgid "The upgrade process may take a little while, so please be patient."
 msgstr "Päivitys voi viedä jonkin aikaa, joten ole kärsivällinen."
 
-#: wp-admin/upgrade.php:66
+#: wp-admin/upgrade.php:79
 msgid "Upgrade WordPress Database"
 msgstr "Päivitä WordPressin tietokanta"
 
-#: wp-admin/upgrade.php:77
+#: wp-admin/upgrade.php:90
 msgid "Upgrade Complete"
 msgstr "Päivitys valmis!"
 
-#: wp-admin/upgrade.php:78
+#: wp-admin/upgrade.php:91
 msgid "Your WordPress database has been successfully upgraded!"
 msgstr "WordPressin tietokanta on onnistuneesti päivitetty!"
 
-#: wp-admin/upgrade.php:83
+#: wp-admin/upgrade.php:96
 #, php-format
 msgid "%s queries"
 msgstr "%s kyselyä"
 
-#: wp-admin/upgrade.php:85
+#: wp-admin/upgrade.php:98
 #, php-format
 msgid "%s seconds"
 msgstr "%s sekunnissa"
@@ -9510,7 +9536,7 @@ msgstr[0] "Roskakori <span class=\"count\">(%s)</span>"
 msgstr[1] "Roskakori <span class=\"count\">(%s)</span>"
 
 #: wp-admin/upload.php:296
-#: wp-admin/upload.php:462
+#: wp-admin/upload.php:464
 msgid "Attach to a post"
 msgstr "Liitä artikkeliin"
 
@@ -10039,7 +10065,7 @@ msgstr "Asetukset tallennettu."
 
 #: wp-content/plugins/akismet/akismet.php:137
 #, php-format
-msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have a WordPress.com account yet, you can get one at <a href=\"%2$s\">WordPress.com</a>."
+msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have a WordPress.com account yet, you can get one at <a href=\"%2$s\">Akismet.com</a>."
 msgstr "<a href=\"%1$s\">Akismet</a> pystyy huomattavasti vähentämään tai jopa kokonaan estämään kommenttien ja paluuviitteiden kautta tulevat roskaviestit. Jos roskaviestejä sattuu pääsemään sivuille, valitse niille asetus \"roskaa\" ja Akismet oppii virheistä. Jos sinulla ei ole vielä WordPress.com-tunnusta, voit luoda sen <a href=\"%2$s\">WordPress.com</a>-sivustolla."
 
 #: wp-content/plugins/akismet/akismet.php:140
@@ -10206,7 +10232,7 @@ msgstr "Voit poistaa kaikki roskaviestit tietokannasta yhdellä napsautuksella. 
 #: wp-content/plugins/akismet/akismet.php:891
 #, php-format
 msgid "There are currently %1$s comments identified as spam."
-msgstr "Roskaksi merkittyjä kommentteja on %1$s."
+msgstr "Roskaviesteiksi merkittyjä kommentteja on %1$s."
 
 #: wp-content/plugins/akismet/akismet.php:713
 #: wp-content/plugins/akismet/akismet.php:891
@@ -10219,7 +10245,7 @@ msgstr "Tässä ovat uusimmat Akismetin roskaksi merkitsemät kommentit. Jos nä
 
 #: wp-content/plugins/akismet/akismet.php:776
 msgid "Search Spam &raquo;"
-msgstr "Etsi roskaposteista &raquo;"
+msgstr "Etsi roskaviesteistä &raquo;"
 
 #: wp-content/plugins/akismet/akismet.php:783
 #: wp-content/plugins/akismet/akismet.php:850
@@ -10285,7 +10311,7 @@ msgstr "Tarkista roskaviestit jonosta uudestaan"
 
 #: wp-content/plugins/akismet/akismet.php:983
 msgid "Check for Spam"
-msgstr "Merkitse roskaksi"
+msgstr "Tarkista uudelleen"
 
 #: wp-content/plugins/akismet/akismet.php:1058
 #, php-format
@@ -11003,48 +11029,48 @@ msgstr "Näyttää kaikki syötteet"
 msgid "Syndicate this content"
 msgstr "Seuraa syötteen avulla"
 
-#: wp-includes/default-widgets.php:790
+#: wp-includes/default-widgets.php:792
 msgid "An error has occurred; the feed is probably down. Try again later."
 msgstr "On tapahtunut virhe; syötteen palvelin ei luultavasti vastaa. Yritä myöhemmin uudestaan."
 
-#: wp-includes/default-widgets.php:804
+#: wp-includes/default-widgets.php:806
 msgid "Untitled"
 msgstr "Nimetön"
 
-#: wp-includes/default-widgets.php:880
+#: wp-includes/default-widgets.php:882
 #, php-format
 msgid "RSS Error: %s"
 msgstr "Virhe RSS-syötteessä: %s"
 
-#: wp-includes/default-widgets.php:884
+#: wp-includes/default-widgets.php:886
 msgid "Enter the RSS feed URL here:"
 msgstr "Syötä RSS-syötteen osoite (URL):"
 
-#: wp-includes/default-widgets.php:887
+#: wp-includes/default-widgets.php:889
 msgid "Give the feed a title (optional):"
 msgstr "Anna syötteelle otsikko (valinnainen):"
 
-#: wp-includes/default-widgets.php:890
+#: wp-includes/default-widgets.php:892
 msgid "How many items would you like to display?"
 msgstr "Montako syötteen elementeistä näytetään?"
 
-#: wp-includes/default-widgets.php:899
+#: wp-includes/default-widgets.php:901
 msgid "Display item content?"
 msgstr "Näytä artikkelin sisältö?"
 
-#: wp-includes/default-widgets.php:902
+#: wp-includes/default-widgets.php:904
 msgid "Display item author if available?"
 msgstr "Näytä artikkelin kirjoittaja?"
 
-#: wp-includes/default-widgets.php:905
+#: wp-includes/default-widgets.php:907
 msgid "Display item date?"
 msgstr "Näytä artikkelipäivämäärä?"
 
-#: wp-includes/default-widgets.php:971
+#: wp-includes/default-widgets.php:973
 msgid "Your most used tags in cloud format"
 msgstr "Näyttää käytetyimmät avainsanat pilvenä"
 
-#: wp-includes/default-widgets.php:972
+#: wp-includes/default-widgets.php:974
 msgid "Tag Cloud"
 msgstr "Avainsanapilvi"
 
@@ -11357,7 +11383,7 @@ msgstr "Yritä uudelleen."
 msgid "&laquo; Back"
 msgstr "&laquo; Takaisin"
 
-#. #-#-#-#-#  wordpress.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  wordpress.pot (WordPress 2.9.1)  #-#-#-#-#
 #. Not gettexted string WP_I18N_ERROR_TITLE
 #: wp-includes/functions.php:2521
 #: wp-load.php:50
@@ -11376,12 +11402,18 @@ msgstr "%1$s on <strong>kehotettu välttämään</strong> versiosta %2$s asti! K
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s on <strong>kehotettu välttämään</strong> versiosta %2$s asti! Vaihtoehtoja ei saatavilla."
 
-#: wp-includes/functions.php:3440
+#: wp-includes/functions.php:3437
 msgid "Select a city"
 msgstr "Valitse kaupunki"
 
-#: wp-includes/functions.php:3455
-msgid "Manual offsets"
+# @ continents-cities
+#: wp-includes/functions.php:3482
+#: wp-includes/functions.php:3486
+msgid "UTC"
+msgstr "UTC"
+
+#: wp-includes/functions.php:3490
+msgid "Manual Offsets"
 msgstr "Manuaaliset siirtymät"
 
 #: wp-includes/general-template.php:125
@@ -11501,7 +11533,7 @@ msgid "User has blocked requests through HTTP."
 msgstr "Käyttäjä on estänyt HTTP-pyynnöt."
 
 #: wp-includes/http.php:746
-#: wp-includes/http.php:1380
+#: wp-includes/http.php:1373
 msgid "Too many redirects."
 msgstr "Liian monta uudelleenohjausta."
 
@@ -13353,7 +13385,7 @@ msgstr "Poista: %s"
 #: wp-includes/pluggable.php:1112
 #, php-format
 msgid "Spam it: %s"
-msgstr "Merkitse roskaksi: %s"
+msgstr "Merkitse roskaviestiksi: %s"
 
 #: wp-includes/pluggable.php:1083
 #, php-format
@@ -13529,11 +13561,11 @@ msgstr "Artikkelia ei voitu lisätä tietokantaan."
 msgid "The page template is invalid."
 msgstr "Sivumalli ei kelpaa"
 
-#: wp-includes/post.php:3854
+#: wp-includes/post.php:3856
 msgid "Cannot create a revision of a revision"
 msgstr "Ei voida luoda revisiota revisiosta."
 
-#: wp-includes/post.php:4030
+#: wp-includes/post.php:4032
 msgid "You do not have permission to preview drafts."
 msgstr "Sinulla ei ole oikeutta esikatsella luonnoksia."
 
@@ -14453,6 +14485,6 @@ msgstr "ltr"
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "Vaadittua <code>wp-config.php</code>-tiedostoa ei löydy. Tarvitsen sen päästäkseni alkuun. Tarvitsetko lisäapua? <a href='http://codex.wordpress.org/Editing_wp-config.php'>Löydät sitä täältä</a>. Voit luoda <code>wp-config.php</code>-tiedoston selaimen kautta, mutta se ei välttämättä toimi kaikilla palvelimilla. Turvallisin tapa on luoda tiedosto manuaalisesti.</p><p><a href='%ssetup-config.php' class='button'>Luo wp-config-tiedosto</a>"
 
-#~ msgid "Compatibility with WordPress %1$s: Unknown)"
-#~ msgstr "Yhteensopivuus WordPress-version %1$s kanssa: tuntematon)"
+#~ msgid "Rotate couter-clockwise"
+#~ msgstr "Kierrä vastapäivään"
 

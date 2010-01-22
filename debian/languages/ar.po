@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress 2.8.5\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-12-18 18:23+0000\n"
-"PO-Revision-Date: 2010-01-05 04:54+0200\n"
+"PO-Revision-Date: 2010-01-14 14:58+0200\n"
 "Last-Translator: Rasheed Bydousi <rashe18@gmail.com>\n"
 "Language-Team: ar-wp.com translation team. <rashe18@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -4075,7 +4075,7 @@ msgstr "تم تثبيت القالب بنجاح."
 
 #: wp-admin/includes/class-wp-upgrader.php:750
 msgid "WordPress is at the latest version."
-msgstr "هذا آخر إصدار من WordPress."
+msgstr "أنت تستعمل أحدث إصدار من ووردبريس."
 
 #: wp-admin/includes/class-wp-upgrader.php:754
 msgid "Could not copy files."
@@ -5628,7 +5628,7 @@ msgstr "كلمة المرور:"
 #: wp-admin/includes/meta-boxes.php:153
 #, php-format
 msgid "Scheduled for: <b>%1$s</b>"
-msgstr "مجدول عند: <b>%1$s</b>"
+msgstr "مجدول ليوم: <b>%1$s</b>"
 
 #: wp-admin/includes/meta-boxes.php:155
 #, php-format
@@ -5643,7 +5643,7 @@ msgstr "النشر <b>فوراً</b>"
 #: wp-admin/includes/meta-boxes.php:159
 #, php-format
 msgid "Schedule for: <b>%1$s</b>"
-msgstr "جدّول عند: <b>%1$s</b>"
+msgstr "مجدول ليوم: <b>%1$s</b>"
 
 #: wp-admin/includes/meta-boxes.php:161
 #, php-format
@@ -5654,7 +5654,7 @@ msgstr "ينشر في: <b>%1$s</b>"
 #: wp-admin/includes/meta-boxes.php:206
 #: wp-includes/script-loader.php:294
 msgid "Schedule"
-msgstr "مجـدول"
+msgstr "جدولة"
 
 #: wp-admin/includes/meta-boxes.php:217
 #: wp-admin/includes/meta-boxes.php:218
@@ -9911,7 +9911,7 @@ msgstr "تعطيل المحرر المتطور عن الكتابة"
 #: wp-admin/user-edit.php:146
 #: wp-admin/user-edit.php:147
 msgid "Admin Color Scheme"
-msgstr "ألوان المدير"
+msgstr "ألوان لوحة التحكم"
 
 #: wp-admin/user-edit.php:169
 msgid "Keyboard Shortcuts"
@@ -14380,7 +14380,7 @@ msgstr "<strong>خطأ</strong>: الكوكيز محجوبة أو غير مدع�
 
 #: wp-login.php:515
 msgid "You are now logged out."
-msgstr "أنت الآن مسجل الخروج"
+msgstr "تم تسجيل الخروج."
 
 #: wp-login.php:517
 msgid "User registration is currently not allowed."

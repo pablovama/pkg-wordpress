@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: WordPress 2.9 Uyghur\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-12-17 00:56+0000\n"
-"PO-Revision-Date: 2010-01-06 12:31+0900\n"
-"Last-Translator: Oyamadauyghur <oyamadauyghur@gmail.com>\n"
+"PO-Revision-Date: 2010-01-18 18:44+0900\n"
+"Last-Translator: Yidayet Z. Begzad <begzad0826@yahoo.co.jp>\n"
 "Language-Team: Uyghur Language Team <uyghur.translation@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,7 +65,7 @@ msgstr "<strong>%s</strong> كۆڭۈلدىكى كاتېگورىيە بولغاچ
 #: wp-admin/admin-ajax.php:382
 #, php-format
 msgid "Comment %d does not exist"
-msgstr "ئىنكاس %d مەۋجۇت ئەمەس."
+msgstr "ئىنكاس %d مەۋجۇت ئەمەس"
 
 #: wp-admin/admin-ajax.php:468
 #: wp-admin/includes/meta-boxes.php:293
@@ -517,12 +517,12 @@ msgstr "قوللىنىش"
 #: wp-admin/categories.php:247
 #, php-format
 msgid "<strong>Note:</strong><br />Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the category <strong>%s</strong>."
-msgstr "<strong>كۆرسەتمە:</strong><br />كاتېگورىيە ئۆچۈرۈلسىمۇ، ئۇنىڭدىكى يازمىلار ئۆچۈرۈلمەيدۇ. بەلكى ئۆچۈرۈلگەن كاتېگورىيىدىكى يازمىلار <strong>%s</strong> كاتېگورىيىسىگە يۆتكىۋېتىلىدۇ."
+msgstr " <strong>كۆرسەتمە:</strong><br />كاتېگورىيە ئۆچۈرۈلسىمۇ، ئۇنىڭدىكى يازمىلار ئۆچۈرۈلمەيدۇ. بەلكى ئۆچۈرۈلگەن كاتېگورىيىدىكى يازمىلار <strong>%s</strong> كاتېگورىيىسىگە يۆتكىۋېتىلىدۇ."
 
 #: wp-admin/categories.php:248
 #, php-format
 msgid "Categories can be selectively converted to tags using the <a href=\"%s\">category to tag converter</a>."
-msgstr "كاتېگورىيىلەرنى <a href=\"%s\">كاتېگورىيىنى خەتكۈچكە ئايلاندۇرۇش</a> تىن پايدىلىنىپ تاللاپ تۇرۇپ خەتكۈچكە ئايلاندۇرۇشقا بولىدۇ."
+msgstr " كاتېگورىيىلەرنى <a href=\"%s\">كاتېگورىيىنى خەتكۈچكە ئايلاندۇرۇش</a> تىن پايدىلىنىپ تاللاپ تۇرۇپ خەتكۈچكە ئايلاندۇرۇشقا بولىدۇ."
 
 #: wp-admin/categories.php:261
 #: wp-admin/categories.php:291
@@ -1548,7 +1548,7 @@ msgstr "ئۇلانما مۇناسىۋىتى (XFN)"
 #: wp-includes/js/tinymce/langs/wp-langs.php:304
 #: wp-includes/js/tinymce/wp-mce-help.php:175
 msgid "Advanced"
-msgstr "يۇقىرى دەرىجىلىك"
+msgstr "تەپسىلىي"
 
 #: wp-admin/edit-link-form.php:45
 msgid "Link added."
@@ -1587,7 +1587,7 @@ msgstr "تور ئادرېسى"
 
 #: wp-admin/edit-link-form.php:83
 msgid "Example: <code>http://wordpress.org/</code> &#8212; don&#8217;t forget the <code>http://</code>"
-msgstr "مەسىلەن: <code>http://wordpress.org/</code> دېگەندەك. دىققەت: <code>http://</code> نى ئۇنتۇپ قالماڭ"
+msgstr "مەسىلەن: <code>/http://wordpress.org</code> دېگەندەك. دىققەت: <code>//:http</code> نى ئۇنتۇپ قالماڭ"
 
 #: wp-admin/edit-link-form.php:91
 msgid "This will be shown when someone hovers over the link in the blogroll, or optionally below the link."
@@ -4301,7 +4301,7 @@ msgstr "[تەستىق كۈتۈۋاتقان]"
 #: wp-content/themes/classic/comments.php:24
 #: wp-includes/comment-template.php:651
 msgid "Pingback"
-msgstr "Pingback"
+msgstr "قايتما"
 
 #: wp-admin/includes/dashboard.php:594
 #: wp-content/themes/classic/comments-popup.php:52
@@ -5346,7 +5346,7 @@ msgstr "شەخسىي ئېلان قىلىنغان"
 #: wp-admin/includes/template.php:2650
 #: wp-includes/script-loader.php:285
 msgid "OK"
-msgstr "ھەئە"
+msgstr "جەزملەش"
 
 #: wp-admin/includes/meta-boxes.php:101
 msgid "Visibility:"
@@ -5381,7 +5381,7 @@ msgstr "ھەممىگە"
 
 #: wp-admin/includes/meta-boxes.php:132
 msgid "Stick this post to the front page"
-msgstr "بۇ يازمىنى باش بەتكە چوققىلاش"
+msgstr "بۇ يازما باش بەتكە چوققىلانسۇن"
 
 #: wp-admin/includes/meta-boxes.php:135
 #: wp-includes/post-template.php:1137
@@ -5502,7 +5502,7 @@ msgstr "ئادرېس كۆپ بولسا بوش ئورۇن بىلەن ئايرىڭ
 
 #: wp-admin/includes/meta-boxes.php:339
 msgid "Trackbacks are a way to notify legacy blog systems that you&#8217;ve linked to them. If you link other WordPress blogs they&#8217;ll be notified automatically using <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">pingbacks</a>, no other action necessary."
-msgstr "ئۇلانما ئۇقتۇرۇشى (Trackback) بولسا ئۇلانما قىلىنغانلىق خەۋىرىنى ئەسلى ئادرېسقا ئۇقتۇرۇش قىلىشتا قوللىنىلغان بىر خىل ئۇسۇل بولۇپ، كونا نەشردىكى بلوگلاردا ئىشلىتىلگەن. بىرەر ۋوردپرەس بلوگىنى ئۇلانما قىلغاندا، ئۇلانما قىلىنغان بلوگ ئاپتوماتىك ھالدا <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">قايتما</a> تاپشۇرۇپ ئالىدىغان بولغاچقا، يەنە ئۇقتۇرۇش ئەۋەتىشنىڭ ھاجىتى يوق."
+msgstr "ئىزچى (Trackback) بولسا ئۇلانما قىلىنغانلىق خەۋىرىنى ئەسلى ئادرېسقا ئۇقتۇرۇش قىلىشتا قوللىنىلغان بىر خىل ئۇسۇل بولۇپ، كونا نەشردىكى بلوگلاردا ئىشلىتىلگەن. بىرەر ۋوردپرەس بلوگىنى ئۇلانما قىلغاندا، ئۇلانما قىلىنغان بلوگ ئاپتوماتىك ھالدا <a href=\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">قايتما</a> تاپشۇرۇپ ئالىدىغان بولغاچقا، يەنە ئۇقتۇرۇش ئەۋەتىشنىڭ ھاجىتى يوق."
 
 #: wp-admin/includes/meta-boxes.php:362
 msgid "Custom fields can be used to add extra metadata to a post that you can <a href=\"http://codex.wordpress.org/Using_Custom_Fields\" target=\"_blank\">use in your theme</a>."
@@ -5539,7 +5539,7 @@ msgstr "باشقا نام"
 #: wp-admin/includes/template.php:244
 #: wp-admin/includes/template.php:1124
 msgid "Parent"
-msgstr "ئاتا"
+msgstr "تەۋەلىكى"
 
 #: wp-admin/includes/meta-boxes.php:480
 msgid "Page Parent"
@@ -5715,7 +5715,7 @@ msgstr "تۇغقان"
 #. translators: xfn: http://gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:740
 msgid "parent"
-msgstr "ئاتا- ئانا"
+msgstr "تەۋەلىكى"
 
 #. translators: xfn: http://gmpg.org/xfn/
 #: wp-admin/includes/meta-boxes.php:743
@@ -5774,7 +5774,7 @@ msgstr "كۆرسەتمە"
 #: wp-admin/includes/plugin-install.php:313
 #: wp-admin/includes/template.php:862
 msgid "Rating"
-msgstr "دەرىجە"
+msgstr "باھا"
 
 #: wp-admin/includes/meta-boxes.php:810
 msgid "(Leave at 0 for no rating.)"
@@ -5888,8 +5888,8 @@ msgstr "ئاپتورى: %s"
 #, php-format
 msgid "(based on %s rating)"
 msgid_plural "(based on %s ratings)"
-msgstr[0] "%s دەرىجىگە ئاساسەن"
-msgstr[1] "%s دەرىجىگە ئاساسەن"
+msgstr[0] "%s باھاغا ئاساسەن"
+msgstr[1] "%s باھاغا ئاساسەن"
 
 #: wp-admin/includes/plugin-install.php:366
 #: wp-admin/includes/plugin-install.php:524
@@ -5999,7 +5999,7 @@ msgstr "قىستۇرما باش بېتى »"
 
 #: wp-admin/includes/plugin-install.php:521
 msgid "Average Rating"
-msgstr "ئوتتۇرىچە دەرىجە"
+msgstr "ئوتتۇرىچە باھا"
 
 #: wp-admin/includes/plugin-install.php:536
 msgid "<strong>Warning:</strong> This plugin has <strong>not been tested</strong> with your current version of WordPress."
@@ -6354,7 +6354,7 @@ msgstr "يۈكلىنىش ئورنى"
 #: wp-admin/includes/template.php:791
 msgctxt "column name"
 msgid "Date"
-msgstr "چېسلا"
+msgstr "ۋاقىت"
 
 #: wp-admin/includes/template.php:850
 msgid "In Response To"
@@ -6540,7 +6540,7 @@ msgstr "Y/m/d \\a\\t g:i A"
 #: wp-admin/includes/template.php:2148
 #, php-format
 msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
-msgstr "<a href=\"%1$s\">%3$s دىكى %2$s</a> گە يوللانغان"
+msgstr "يوللانغان ۋاقتى: <a href=\"%1$s\">%3$s  سائەت %2$s</a>"
 
 #: wp-admin/includes/template.php:2148
 msgid "g:ia"
@@ -6581,7 +6581,7 @@ msgstr "ئاچقۇچ"
 
 #: wp-admin/includes/template.php:2538
 msgid "Add new custom field:"
-msgstr "ئۆزى بەلگىلەيدىغان يېڭى بۆلەك قوشۇش:"
+msgstr "يېڭىدىن ئۆزى بەلگىلەش بۆلىكى قوشۇش:"
 
 #: wp-admin/includes/template.php:2563
 msgid "Enter new"
@@ -7001,7 +7001,7 @@ msgstr "مۇقىم كەڭلىكتە"
 
 #: wp-admin/includes/theme-install.php:187
 msgid "Flexible Width"
-msgstr "ماسلاشما كەڭلىكى"
+msgstr "ماسلاشما كەڭلىكتە"
 
 #: wp-admin/includes/theme-install.php:188
 msgid "Features"
@@ -7493,7 +7493,7 @@ msgstr "ئادرېس بويىچە تىزىش"
 
 #: wp-admin/link-manager.php:121
 msgid "Order by Rating"
-msgstr "دەرىجىسى بويىچە تىزىش"
+msgstr "باھا بويىچە تىزىش"
 
 #: wp-admin/link-manager.php:177
 msgid "Yes"
@@ -7612,7 +7612,7 @@ msgstr "%s ئىنكاسلار"
 
 #: wp-admin/menu.php:70
 msgid "Appearance"
-msgstr "كۆرۈنۈشى"
+msgstr "كۆرۈنۈش"
 
 #: wp-admin/menu.php:71
 #: wp-admin/update-core.php:219
@@ -7734,7 +7734,7 @@ msgstr "خاتىرىدىكى ھەر بىر ئۇلانمىغا ئۇلانغانل
 
 #: wp-admin/options-discussion.php:38
 msgid "Allow link notifications from other blogs (pingbacks and trackbacks.)"
-msgstr "باشقا بلوگلاردىن ئۇلانغانلىق ئۇقتۇرۇشى تاپشۇرۇۋېلىشقا رۇخسەت قىلىنسۇن (pingback ۋە «ئىزچى» trackback لەرنى ئۆز ئىچىگە ئالىدۇ)."
+msgstr "باشقا بلوگلاردىن ئۇلانغانلىق ئۇقتۇرۇشى تاپشۇرۇۋېلىشقا رۇخسەت قىلىنسۇن ( قايتما ۋە ئىزچىلارنى ئۆز ئىچىگە ئالىدۇ)."
 
 #: wp-admin/options-discussion.php:42
 msgid "Allow people to post comments on new articles"
@@ -7831,7 +7831,7 @@ msgstr "يېزىلغان ئىنكاس %s ياكى ئۇنىڭدىن كۆپ ئۇل
 
 #: wp-admin/options-discussion.php:133
 msgid "When a comment contains any of these words in its content, name, URL, e-mail, or IP, it will be held in the <a href=\"edit-comments.php?comment_status=moderated\">moderation queue</a>. One word or IP per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
-msgstr "يېزىلغان ئىنكاستىكى نام، ئېلخەت، ئادرېس ياكى IP ئادرېس تۆۋەندىكى سۆزلەردىن خالىغان بىرىنى ئۆز ئىچىگە ئالسا، ئۇ ھالدا ئۇ ھەر قۇردا بىردىن سۆز ياكى IP ئادرېس يېزىلغان ھالەتتە <a href=\"edit-comments.php?comment_status=moderated\">تەستىق كۈتۈش قاتارى</a> غا قوشۇلىدۇ. ئۇ سۆز تەركىبى بويىچە سېلىشتۇرۇلىدۇ. شۇڭا \"press\" نى ئىزدىگەندە \"WordPress\" مۇ كۆرسىتىلىدۇ."
+msgstr "يېزىلغان ئىنكاستىكى ئىسىم، ئېلخەت، ئادرېس ياكى IP ئادرېس تۆۋەندىكى سۆزلەردىن خالىغان بىرىنى ئۆز ئىچىگە ئالسا، ئۇ ھالدا ئۇ ھەر قۇردا بىردىن سۆز ياكى IP ئادرېس يېزىلغان ھالەتتە <a href=\"edit-comments.php?comment_status=moderated\">تەستىق كۈتۈش قاتارى</a> غا قوشۇلىدۇ. ئۇ سۆز تەركىبى بويىچە سېلىشتۇرۇلىدۇ. شۇڭا \"press\" نى ئىزدىگەندە \"WordPress\" مۇ كۆرسىتىلىدۇ."
 
 #: wp-admin/options-discussion.php:140
 #: wp-admin/options-discussion.php:141
@@ -7840,7 +7840,7 @@ msgstr "ئىنكاس قارا تىزىملىكى"
 
 #: wp-admin/options-discussion.php:142
 msgid "When a comment contains any of these words in its content, name, URL, e-mail, or IP, it will be marked as spam. One word or IP per line. It will match inside words, so &#8220;press&#8221; will match &#8220;WordPress&#8221;."
-msgstr "يېزىلغان ئىنكاستىكى نام، ئېلخەت، ئادرېس ياكى IP ئادرېس تۆۋەندىكى سۆزلەردىن خالىغان بىرىنى ئۆز ئىچىگە ئالسا، ئۇ ھالدا ئۇ ھەر قۇردا بىردىن سۆز ياكى IP ئادرېس يېزىلغان ھالەتتە سپەملىنىدۇ. بۇ يەردە پۈتۈن سۆز بويىچە سېلىشتۇرۇلىدۇ. شۇڭا &#8220;press&#8221; بىلەن &#8220;WordPress&#8221; ئوخشاش بولۇپ چىقىدۇ."
+msgstr "يېزىلغان ئىنكاستىكى ئىسىم، ئېلخەت، ئادرېس ياكى IP ئادرېس تۆۋەندىكى سۆزلەردىن خالىغان بىرىنى ئۆز ئىچىگە ئالسا، ئۇ ھالدا ئۇ ھەر قۇردا بىردىن سۆز ياكى IP ئادرېس يېزىلغان ھالەتتە سپەملىنىدۇ. بۇ يەردە پۈتۈن سۆز بويىچە سېلىشتۇرۇلىدۇ. شۇڭا &#8221;press&#8220; بىلەن &#8221;WordPress&#8220; ئوخشاش بولۇپ چىقىدۇ."
 
 #: wp-admin/options-discussion.php:151
 msgid "Avatars"
@@ -7848,7 +7848,7 @@ msgstr "باش سۈرەتلەر"
 
 #: wp-admin/options-discussion.php:153
 msgid "An avatar is an image that follows you from weblog to weblog appearing beside your name when you comment on avatar enabled sites.  Here you can enable the display of avatars for people who comment on your blog."
-msgstr "Avatar (باش سۈرەت) بولسا باش سۈرەتنى كۆرسىتىش ئىقتىدارى ئېچىلغان بلوگلاردا ئىنكاس يازغىنىڭىزدا ئىسمىڭىزنىڭ يان تەرىپىدە چىقىپ تۇرىدىغان سۈرەت بولۇپ، بۇ يەردە ئۆز بلوگىڭىزنىڭ باش سۈرەت كۆرسىتىش ئىقتىدارىنى ئاچالايسىز."
+msgstr "ئاۋاتار (باش سۈرەت) بولسا باش سۈرەتنى كۆرسىتىش ئىقتىدارى ئېچىلغان بلوگلاردا ئىنكاس يازغىنىڭىزدا ئىسمىڭىزنىڭ يان تەرىپىدە چىقىپ تۇرىدىغان سۈرەت بولۇپ، بۇ يەردە ئۆز بلوگىڭىزنىڭ باش سۈرەت كۆرسىتىش ئىقتىدارىنى ئاچالايسىز."
 
 #: wp-admin/options-discussion.php:159
 msgid "Avatar Display"
@@ -7869,7 +7869,7 @@ msgstr "باش سۈرەت كۆرسىتىلسۇن"
 #: wp-admin/options-discussion.php:171
 #: wp-admin/options-discussion.php:172
 msgid "Maximum Rating"
-msgstr "دەرىجىسى"
+msgstr "ئەڭ يۇقىرى باھا"
 
 #: wp-admin/options-discussion.php:175
 msgid "G &#8212; Suitable for all audiences"
@@ -7881,7 +7881,7 @@ msgstr "PG &#8212; كىشىنى بىئارام قىلىدىغان سۈرەت، 1
 
 #: wp-admin/options-discussion.php:175
 msgid "R &#8212; Intended for adult audiences above 17"
-msgstr "R &#8212;18 ياشتىن ئاشقان قۇرامىغا يەتكەنلەرگە ماس كېلىدۇ"
+msgstr "R &#8212;ئون سەككىز ياشتىن ئاشقان قۇرامىغا يەتكەنلەرگە ماس كېلىدۇ"
 
 #: wp-admin/options-discussion.php:175
 msgid "X &#8212; Even more mature than above"
@@ -8045,7 +8045,7 @@ msgstr "ئۆزى بەلگىلەش:"
 
 #: wp-admin/options-general.php:225
 msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>. Click &#8220;Save Changes&#8221; to update sample output."
-msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">چېسلا ئىپادىلەشكە مۇناسىۋەتلىك ماتېرىياللار</a>. &#8220;ئۆزگەرتىشلەرنى ساقلاش&#8221; كۇنۇپكىسىنى بېسىپ مىسالىنى كۆرەلەيسىز."
+msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">چېسلا ئىپادىلەشكە مۇناسىۋەتلىك ماتېرىياللار</a>. &#8221;ئۆزگەرتىشلەرنى ساقلاش&#8220; كۇنۇپكىسىنى بېسىپ مىسالىنى كۆرەلەيسىز."
 
 #: wp-admin/options-general.php:231
 #: wp-admin/options-general.php:233
@@ -8135,7 +8135,7 @@ msgstr "باشقا تەڭشەكلەر"
 
 #: wp-admin/options-misc.php:29
 msgid "Uploading Files"
-msgstr "ھۆججەت يۈكلەنگەندە"
+msgstr "ھۆججەت يۈكلەش"
 
 #: wp-admin/options-misc.php:32
 msgid "Store uploads in this folder"
@@ -8313,12 +8313,12 @@ msgstr "يازما"
 
 #: wp-admin/options-reading.php:64
 msgid "Syndication feeds show the most recent"
-msgstr "بىرلەشمە Feeds تا كۆرسىتىلىدىغان ئەڭ يېڭى"
+msgstr "RSS/ئاتوم تەرمىلىرىدە كۆرسىتىلىدىغان ئەڭ يېڭى يازما سانى"
 
 #: wp-admin/options-reading.php:68
 #: wp-admin/options-reading.php:69
 msgid "For each article in a feed, show"
-msgstr "Feed تىكى ھەر بىر يازما ئۈچۈن كۆرسىتىلىدىغىنى"
+msgstr "تەرمىلەردىكى ھەر بىر يازما ئۈچۈن كۆرسىتىلىدىغىنى"
 
 #: wp-admin/options-reading.php:70
 msgid "Full text"
@@ -8334,7 +8334,7 @@ msgstr "بەت ۋە قايتمىلارنىڭ كودلىنىشى"
 
 #: wp-admin/options-reading.php:78
 msgid "The <a href=\"http://codex.wordpress.org/Glossary#Character_set\">character encoding</a> of your blog (UTF-8 is recommended, if you are adventurous there are some <a href=\"http://en.wikipedia.org/wiki/Character_set\">other encodings</a>)"
-msgstr "بلوگىڭىزنىڭ <a href=\"http://codex.wordpress.org/Glossary#Character_set\">كودلىنىش شەكلى</a> (UTF-8 تەۋسىيە قىلىنىدۇ، قىزىقسىڭىز <a href=\"http://en.wikipedia.org/wiki/Character_set\">باشقا كودلىنىش شەكىللىرىمۇ</a> بار)"
+msgstr "<br>بلوگىڭىزنىڭ <a href=\"http://codex.wordpress.org/Glossary#Character_set\">كودلىنىش شەكلى</a> (UTF-8 تەۋسىيە قىلىنىدۇ، قىزىقسىڭىز <a href=\"http://en.wikipedia.org/wiki/Character_set\">باشقا كودلىنىش شەكىللىرىمۇ</a> بار)"
 
 #: wp-admin/options-writing.php:15
 msgid "Writing Settings"
@@ -9604,7 +9604,7 @@ msgstr "تەخەللۇس"
 #: wp-content/themes/classic/comments.php:57
 #: wp-content/themes/classic/comments.php:60
 msgid "(required)"
-msgstr "(زۆرۈر)"
+msgstr "(تەلەپ قىلىنىدۇ)"
 
 #: wp-admin/user-edit.php:228
 msgid "Display name publicly as"
@@ -9700,7 +9700,7 @@ msgstr "فامىلە"
 
 #: wp-admin/user-new.php:119
 msgid "(twice, required)"
-msgstr "(ئىككى قېتىم، زۆرۈر)"
+msgstr "(ئىككى قېتىم، تەلەپ قىلىنىدۇ)"
 
 #: wp-admin/user-new.php:129
 msgid "Send Password?"
@@ -9971,7 +9971,7 @@ msgstr "خاتالىق: ئىناۋەتلىك ئېلخەت ئادرېسىنى ك�
 #: wp-content/plugins/akismet/akismet.php:57
 #: wp-content/plugins/akismet/akismet.php:133
 msgid "Akismet Configuration"
-msgstr "Akismet سەپلىمىلىرى"
+msgstr "ئاكىزمېت سەپلىمىلىرى"
 
 #: wp-content/plugins/akismet/akismet.php:120
 msgid "Your key has been cleared."
@@ -9987,11 +9987,11 @@ msgstr "كىرگۈزگەن ئاچقۇچىڭىز ئىناۋەتسىز. قايتا
 
 #: wp-content/plugins/akismet/akismet.php:123
 msgid "The key you entered could not be verified because a connection to akismet.com could not be established. Please check your server configuration."
-msgstr "akismet.com نى زىيارەت قىلىش مۇمكىن بولمىغاچقا كىرگۈزگەن ئاچقۇچىڭىزنى تەكشۈرۈشكە مۇمكىن بولمىدى. مۇلازىمېتىر سەپلىمىلىرىڭىزنى تەكشۈرۈپ بېقىڭ."
+msgstr "ئاكىزمېت.كومنى زىيارەت قىلىش مۇمكىن بولمىغاچقا كىرگۈزگەن ئاچقۇچىڭىزنى تەكشۈرۈشكە مۇمكىن بولمىدى. مۇلازىمېتىر سەپلىمىلىرىڭىزنى تەكشۈرۈپ بېقىڭ."
 
 #: wp-content/plugins/akismet/akismet.php:124
 msgid "There was a problem connecting to the Akismet server. Please check your server configuration."
-msgstr "Akismet مۇلازىمېتىرىغا ئۇلاشتا خاتالىق كۆرۈلدى. مۇلازىمېتىر سەپلىمىلىرىڭىزنى تەكشۈرۈپ بېقىڭ."
+msgstr "ئاكىزمېت مۇلازىمېتىرىغا ئۇلاشتا خاتالىق كۆرۈلدى. مۇلازىمېتىر سەپلىمىلىرىڭىزنى تەكشۈرۈپ بېقىڭ."
 
 #: wp-content/plugins/akismet/akismet.php:125
 #, php-format
@@ -10004,7 +10004,7 @@ msgstr "بۇ ئاچقۇچ ئىناۋەتسىز."
 
 #: wp-content/plugins/akismet/akismet.php:127
 msgid "The key below was previously validated but a connection to akismet.com can not be established at this time. Please check your server configuration."
-msgstr "بۇ ئاچقۇچ بۇرۇن تەكشۈرۈلگەن، لېكىن ھازىر akismet.com غا ئۇلاشقا مۇمكىن بولمىدى. مۇلازىمېتىر سەپلىمىلىرىڭىزنى تەكشۈرۈپ بېقىڭ."
+msgstr "بۇ ئاچقۇچ بۇرۇن تەكشۈرۈلگەن، لېكىن ھازىر ئاكىزمېت.كومغا ئۇلاشقا مۇمكىن بولمىدى. مۇلازىمېتىر سەپلىمىلىرىڭىزنى تەكشۈرۈپ بېقىڭ."
 
 #: wp-content/plugins/akismet/akismet.php:130
 #: wp-content/themes/default/functions.php:374
@@ -10014,7 +10014,7 @@ msgstr "تاللاشلار ساقلاندى."
 #: wp-content/plugins/akismet/akismet.php:137
 #, php-format
 msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have a WordPress.com account yet, you can get one at <a href=\"%2$s\">WordPress.com</a>."
-msgstr "<a href=\"%1$s\">Akismet</a> تور بېتىڭىزگە كېلىدىغان زور مىقداردىكى سپەملەرنى ئازايتىدۇ ياكى پۈتۈنلەي ئۆچۈرۈپ تاشلايدۇ. ناۋادا سپەملەر تور بېتىڭىزگە كىرىپ قالغان بولسا، تەستىقلاش بېتىدە ئۇلارغا «سپەم» دەپ بەلگە ئۇرۇپ قويسىڭىز، Akismet بۇ خاتالىقنى ئېسىدە تۇتۇۋالىدۇ. WordPress API ئاچقۇچى ئېلىش ئۈچۈن WordPress.com دا ھېساباتىڭىز بولۇشى كېرەك. بولمىسا <a href=\"%2$s\">WordPress.com</a> غا بېرىپ بىرنى ئىلتىماس قىلىڭ."
+msgstr "<a href=\"%1$s\">ئاكىزمېت</a> تور بېتىڭىزگە كېلىدىغان زور مىقداردىكى سپەملەرنى ئازايتىدۇ ياكى پۈتۈنلەي ئۆچۈرۈپ تاشلايدۇ. ناۋادا سپەملەر تور بېتىڭىزگە كىرىپ قالغان بولسا، تەستىقلاش بېتىدە ئۇلارغا «سپەم» دەپ بەلگە ئۇرۇپ قويسىڭىز، ئاكىزمېت بۇ خاتالىقنى ئېسىدە تۇتۇۋالىدۇ. ۋوردپرەس API ئاچقۇچى ئېلىش ئۈچۈن ۋوردپرەس.كومدا ھېساباتىڭىز بولۇشى كېرەك. بولمىسا <a href=\"%2$s\">ۋوردپرەس.كومدا</a> بىرنى ئىلتىماس قىلىڭ."
 
 #: wp-content/plugins/akismet/akismet.php:140
 msgid "WordPress.com API Key"
@@ -10030,7 +10030,7 @@ msgstr "نېمىشقا ئاچقۇچ ئىناۋەتسىز دەپ ئۇچۇر چى�
 
 #: wp-content/plugins/akismet/akismet.php:147
 msgid "This can mean one of two things, either you copied the key wrong or that the plugin is unable to reach the Akismet servers, which is most often caused by an issue with your web host around firewalls or similar."
-msgstr "بۇ يەردە ئىككى خىل ئېھتىماللىق بار: بىر بولسا سىز ئاچقۇچنى خاتا كۆچۈردىڭىز، بىر بولسا بۇ قىستۇرما  Akismet مۇلازىمېتىرىغا ئۇلىنالمىدى. تور بەت مۇلازىمېتىرىڭىزدىكى ياكى باشقا يېقىن يەردىكى ۋىرۇس مۇداپىئە توسۇقلىرىنى تەكشۈرۈپ بېقىڭ."
+msgstr "بۇ يەردە ئىككى خىل ئېھتىماللىق بار: بىر بولسا سىز ئاچقۇچنى خاتا كۆچۈردىڭىز، بىر بولسا بۇ قىستۇرما ئاكىزمېت مۇلازىمېتىرىغا ئۇلىنالمىدى. تور بەت مۇلازىمېتىرىڭىزدىكى ياكى باشقا يېقىن يەردىكى ۋىرۇس مۇداپىئە توسۇقلىرىنى تەكشۈرۈپ بېقىڭ."
 
 #: wp-content/plugins/akismet/akismet.php:150
 msgid "Automatically discard spam comments on posts older than a month."
@@ -10046,29 +10046,29 @@ msgstr "مۇلازىمېتىر ئۇلىنىشى"
 
 #: wp-content/plugins/akismet/akismet.php:163
 msgid "Unable to reach some Akismet servers."
-msgstr "بەزىبىر Akismet مۇلازىمېتىرى تېپىلمىدى."
+msgstr "بىر قىسىم ئاكىزمېت مۇلازىمېتىرى تېپىلمىدى."
 
 #: wp-content/plugins/akismet/akismet.php:164
 #, php-format
 msgid "A network problem or firewall is blocking some connections from your web server to Akismet.com.  Akismet is working but this may cause problems during times of network congestion.  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet and firewalls</a>."
-msgstr "تورنىڭ كاشىلىسى ياكى ۋىرۇسخور تور مۇلازىمېتىرىڭىزدىن Akismet.com غا قارىتىلغان ئۇلىنىشلارنىڭ ھەممىنى چەكلىۋەتكەن. Akismet ھازىر ئىشلەۋاتقان بولسىمۇ، لېكىن تور ئالدىراش ۋاقىتتا مەسىلە كۆرۈلۈشى مۇمكىن.</strong> تور مۇلازىمېتىرىڭىزنىڭ باشقۇرغۇچىسى ياكى ۋىرۇسخور باشقۇرغۇچىسى بىلەن ئالاقىلىشىپ، ئۇلارغا <a href=\"%s\" target=\"_blank\">Akismet ۋە ۋىرۇسخور ھەققىدىكى ئۇچۇرلارنى</a> ئېيتىپ بېرىڭ."
+msgstr "تورنىڭ كاشىلىسى ياكى ۋىرۇسخور تور مۇلازىمېتىرىڭىزدىن ئاكىزمېت.كومغا قارىتىلغان ئۇلىنىشلارنىڭ ھەممىنى چەكلىۋەتكەن. ئاكىزمېت ھازىر ئىشلەۋاتقان بولسىمۇ، لېكىن تور ئالدىراش ۋاقىتتا مەسىلە كۆرۈلۈشى مۇمكىن.</strong> تور مۇلازىمېتىرىڭىزنىڭ باشقۇرغۇچىسى ياكى ۋىرۇسخور باشقۇرغۇچىسى بىلەن ئالاقىلىشىپ، ئۇلارغا <a href=\"%s\" target=\"_blank\">ئاكىزمېت ۋە ۋىرۇسخور ھەققىدىكى ئۇچۇرلارنى</a> ئېيتىپ بېرىڭ."
 
 #: wp-content/plugins/akismet/akismet.php:168
 msgid "Unable to reach any Akismet servers."
-msgstr "ھېچقانداق بىر Akismet مۇلازىمېتىرى تېپىلمىدى."
+msgstr "ھېچقانداق بىر ئاكىزمېت مۇلازىمېتىرى تېپىلمىدى."
 
 #: wp-content/plugins/akismet/akismet.php:169
 #, php-format
 msgid "A network problem or firewall is blocking all connections from your web server to Akismet.com.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet and firewalls</a>."
-msgstr "تورنىڭ كاشىلىسى ياكى ۋىرۇسخور تور مۇلازىمېتىرىڭىزدىن Akismet.com غا قارىتىلغان ئۇلىنىشلارنىڭ ھەممىنى چەكلىۋەتكەن.<strong>بۇ مەسىلە ھەل بولمىغۇچە Akismet  نورمال ئىشلىيەلمەيدۇ.</strong> تور مۇلازىمېتىرىڭىزنىڭ باشقۇرغۇچىسى ياكى ۋىرۇسخور باشقۇرغۇچىسى بىلەن ئالاقىلىشىپ، ئۇلارغا <a href=\"%s\" target=\"_blank\">Akismet ۋە ۋىرۇسخور ھەققىدىكى ئۇچۇرلارنى</a> ئېيتىپ بېرىڭ."
+msgstr "تورنىڭ كاشىلىسى ياكى ۋىرۇسخور تور مۇلازىمېتىرىڭىزدىن ئاكىزمېت.كومغا قارىتىلغان ئۇلىنىشلارنىڭ ھەممىنى چەكلىۋەتكەن.<strong>بۇ مەسىلە ھەل بولمىغۇچە ئاكىزمېت نورمال ئىشلىيەلمەيدۇ.</strong> تور مۇلازىمېتىرىڭىزنىڭ باشقۇرغۇچىسى ياكى ۋىرۇسخور باشقۇرغۇچىسى بىلەن ئالاقىلىشىپ، ئۇلارغا <a href=\"%s\" target=\"_blank\">ئاكىزمېت ۋە ۋىرۇسخور ھەققىدىكى ئۇچۇرلارنى</a> ئېيتىپ بېرىڭ."
 
 #: wp-content/plugins/akismet/akismet.php:173
 msgid "All Akismet servers are available."
-msgstr "بارلىق Akismet  مۇلازىمېتىرلىرى تەييار ھالەتتە."
+msgstr "بارلىق ئاكىزمېت مۇلازىمېتىرلىرى تەييار ھالەتتە."
 
 #: wp-content/plugins/akismet/akismet.php:174
 msgid "Akismet is working correctly.  All servers are accessible."
-msgstr "Akismet نورمال ئىشلەۋاتىدۇ. بارلىق مۇلازىمىتىنى ئىشلىتىشكە بولىدۇ."
+msgstr "ئاكىزمېت نورمال ئىشلەۋاتىدۇ. بارلىق مۇلازىمىتىنى ئىشلىتىشكە بولىدۇ."
 
 #: wp-content/plugins/akismet/akismet.php:179
 msgid "Network functions are disabled."
@@ -10077,20 +10077,20 @@ msgstr "تور ئىقتىدارى چەكلەنگەن."
 #: wp-content/plugins/akismet/akismet.php:180
 #, php-format
 msgid "Your web host or server administrator has disabled PHP's <code>fsockopen</code> function.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet's system requirements</a>."
-msgstr "تور مۇلازىمېتىرىڭىز ياكى مۇلازىمېتىر باشقۇرغۇچىڭىز PHP نىڭ <code>fsockopen</code> فۇنكىسىيىسىنى چەكلىۋەتكەن.<strong>بۇ مەسىلە ھەل بولمىغۇچە Akismet  نورمال ئىشلىيەلمەيدۇ.</strong> تور مۇلازىمېتىرىڭىزنىڭ باشقۇرغۇچىسى ياكى ۋىرۇسخور باشقۇرغۇچىسى بىلەن ئالاقىلىشىپ، ئۇلارغا <a href=\"%s\" target=\"_blank\">Akismet نىڭ سىستېمىغا بولغان تەلىپى ھەققىدىكى ئۇچۇرلارنى</a> ئېيتىپ بېرىڭ."
+msgstr "تور مۇلازىمېتىرىڭىز ياكى مۇلازىمېتىر باشقۇرغۇچىڭىز PHP نىڭ <code>fsockopen</code> فۇنكىسىيىسىنى چەكلىۋەتكەن.<strong>بۇ مەسىلە ھەل بولمىغۇچە ئاكىزمېت نورمال ئىشلىيەلمەيدۇ.</strong> تور مۇلازىمېتىرىڭىزنىڭ باشقۇرغۇچىسى ياكى ۋىرۇسخور باشقۇرغۇچىسى بىلەن ئالاقىلىشىپ، ئۇلارغا <a href=\"%s\" target=\"_blank\">ئاكىزمېت نىڭ سىستېمىغا بولغان تەلىپى ھەققىدىكى ئۇچۇرلارنى</a> ئېيتىپ بېرىڭ."
 
 #: wp-content/plugins/akismet/akismet.php:184
 msgid "Unable to find Akismet servers."
-msgstr "Akismet مۇلازىمېتىرى تېپىلمىدى."
+msgstr "ئاكىزمېت مۇلازىمېتىرى تېپىلمىدى."
 
 #: wp-content/plugins/akismet/akismet.php:185
 #, php-format
 msgid "A DNS problem or firewall is preventing all access from your web server to Akismet.com.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet and firewalls</a>."
-msgstr "DNS نىڭ كاشىلىسى ياكى ۋىرۇسخور سەۋەبىدىن تور مۇلازىمېتىرىڭىزدىن Akismet.com غا ئۇلاشقا مۇمكىن بولمىدى. <strong>بۇ مەسىلە ھەل بولمىغۇچە Akismet  نورمال ئىشلىيەلمەيدۇ.</strong> تور مۇلازىمېتىرىڭىزنىڭ باشقۇرغۇچىسى ياكى ۋىرۇسخور باشقۇرغۇچىسى بىلەن ئالاقىلىشىپ، ئۇلارغا <a href=\"%s\" target=\"_blank\">Akismet ۋە ۋىرۇسخور ھەققىدىكى ئۇچۇرلارنى</a> ئېيتىپ بېرىڭ."
+msgstr "DNS نىڭ كاشىلىسى ياكى ۋىرۇسخور سەۋەبىدىن تور مۇلازىمېتىرىڭىزدىن ئاكىزمېت.كومغا ئۇلاشقا مۇمكىن بولمىدى. <strong>بۇ مەسىلە ھەل بولمىغۇچە ئاكىزمېت نورمال ئىشلىيەلمەيدۇ.</strong> تور مۇلازىمېتىرىڭىزنىڭ باشقۇرغۇچىسى ياكى ۋىرۇسخور باشقۇرغۇچىسى بىلەن ئالاقىلىشىپ، ئۇلارغا <a href=\"%s\" target=\"_blank\">ئاكىزمېت ۋە ۋىرۇسخور ھەققىدىكى ئۇچۇرلارنى</a> ئېيتىپ بېرىڭ."
 
 #: wp-content/plugins/akismet/akismet.php:192
 msgid "Akismet server"
-msgstr "Akismet مۇلازىمېتىرى"
+msgstr "ئاكىزمېت مۇلازىمېتىرى"
 
 #: wp-content/plugins/akismet/akismet.php:192
 msgid "Network Status"
@@ -10115,11 +10115,11 @@ msgstr "تور ھالىتىنى تەكشۈرۈش  &raquo;"
 
 #: wp-content/plugins/akismet/akismet.php:220
 msgid "Akismet Stats"
-msgstr "Akismet ستاتىستىكىسى"
+msgstr "ئاكىزمېت ستاتىستىكىسى"
 
 #: wp-content/plugins/akismet/akismet.php:331
 msgid "Akismet is almost ready."
-msgstr "Akismet ئاساسەن تەييار ھالەتتە."
+msgstr "ئاكىزمېت ئاساسەن تەييار ھالەتتە."
 
 #: wp-content/plugins/akismet/akismet.php:331
 #, php-format
@@ -10128,22 +10128,22 @@ msgstr "بۇنى قوزغىتىش ئۈچۈن چوقۇم <a href=\"%1$s\">WordPre
 
 #: wp-content/plugins/akismet/akismet.php:339
 msgid "Akismet has detected a problem."
-msgstr "Akismet بىر مەسىلىنى بايقىدى."
+msgstr "ئاكىزمېت بىر مەسىلىنى بايقىدى."
 
 #: wp-content/plugins/akismet/akismet.php:339
 #, php-format
 msgid "A server or network problem is preventing Akismet from working correctly.  <a href=\"%1$s\">Click here for more information</a> about how to fix the problem."
-msgstr "مۇلازىمېتىر ياكى توردىكى خاتالىق سەۋەبىدىن Akismet نورمال ئىشلىيەلمىدى. بۇ مەسىلىنى ھەل قىلىشنىڭ <a href=\"%1$s\">تەپسىلاتى ئۈچۈن بۇ يەرنى چېكىڭ</a>."
+msgstr "مۇلازىمېتىر ياكى توردىكى خاتالىق سەۋەبىدىن ئاكىزمېت نورمال ئىشلىيەلمىدى. بۇ مەسىلىنى ھەل قىلىشنىڭ <a href=\"%1$s\">تەپسىلاتى ئۈچۈن بۇ يەرنى چېكىڭ</a>."
 
 #: wp-content/plugins/akismet/akismet.php:595
 #, php-format
 msgid "Akismet Spam (%s)"
-msgstr "Akismet سپەملىرى (%s)"
+msgstr "ئاكىزمېت سپەملىرى (%s)"
 
 #: wp-content/plugins/akismet/akismet.php:597
 #: wp-content/plugins/akismet/akismet.php:599
 msgid "Akismet Spam"
-msgstr "Akismet سپەملىرى"
+msgstr "ئاكىزمېت سپەملىرى"
 
 #: wp-content/plugins/akismet/akismet.php:609
 #: wp-content/plugins/akismet/akismet.php:628
@@ -10166,7 +10166,7 @@ msgstr "تۇتۇۋېلىنغان سپەملەر"
 #: wp-content/plugins/akismet/akismet.php:697
 #, php-format
 msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
-msgstr "سىز Akismet نى تۇنجى قاچىلىغاندىن بۇيان ئۇ سىزگە <strong>%1$s سپەم</strong> تۇتۇپ بەردى."
+msgstr "سىز ئاكىزمېتنى تۇنجى قاچىلىغاندىن بۇيان ئۇ سىزگە <strong>%1$s سپەم</strong> تۇتۇپ بەردى."
 
 #: wp-content/plugins/akismet/akismet.php:704
 msgid "You have no spam currently in the queue. Must be your lucky day. :)"
@@ -10189,7 +10189,7 @@ msgstr "ھەممىنى ئۆچۈرۈش"
 
 #: wp-content/plugins/akismet/akismet.php:722
 msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
-msgstr "بۇلار Akismet تەرىپىدىن سپەم دەپ تونۇلغان ئاخىرقى ئىنكاسلار بولۇپ، ئۇنىڭدا بىرەر خاتالىق بايقىسىڭىز، ئۇ ئىنكاسىغا «سپەم ئەمەس» دەپ بەلگە قويۇپ قويسىڭىز، Akismet بۇنى ئېسىدە تۇتۇۋالىدۇ. ئەگەر بىرەر ئىنكاسنى سپەم ھالەتتىن ئەسلىگە كەلتۈرمەكچى بولسىڭىز ئۇ ئىنكاسنى تاللاپ، ئاندىن «سپەم ئەمەس» دېگەن كۇنۇپكىنى چەكسىڭىز بولىدۇ. 15 كۈندىن كېيىن بىز ئەخلەتلەرنى تازىلىۋېتىمىز."
+msgstr "بۇلار ئاكىزمېت تەرىپىدىن سپەم دەپ تونۇلغان ئاخىرقى ئىنكاسلار بولۇپ، ئۇنىڭدا بىرەر خاتالىق بايقىسىڭىز، ئۇ ئىنكاسىغا «سپەم ئەمەس» دەپ بەلگە قويۇپ قويسىڭىز، ئاكىزمېت بۇنى ئېسىدە تۇتۇۋالىدۇ. ئەگەر بىرەر ئىنكاسنى سپەم ھالەتتىن ئەسلىگە كەلتۈرمەكچى بولسىڭىز ئۇ ئىنكاسنى تاللاپ، ئاندىن «سپەم ئەمەس» دېگەن كۇنۇپكىنى چەكسىڭىز بولىدۇ. 15 كۈندىن كېيىن بىز ئەخلەتلەرنى تازىلىۋېتىمىز."
 
 #: wp-content/plugins/akismet/akismet.php:776
 msgid "Search Spam &raquo;"
@@ -10217,24 +10217,24 @@ msgstr "سپەم ئەمەس دەپ بەلگە قويۇلغان ئىنكاسلا�
 
 #: wp-content/plugins/akismet/akismet.php:879
 msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
-msgstr "ئەگەر Akismet نورمال ئىنكاسلارنىمۇ سپەم دەپ تونۇۋالسا، خاتا تونۇلغان ئىنكاسلارنى تاللاپ «سپەم ئەمەس» كۇنۇپكىسىنى بېسىپ Akismet قا يوللاپ بەرسىڭىز، ئۇ ئاپتوماتىك ھالدا كېيىن تېخىمۇ ياخشى ئىشلەش ئۈچۈن ئۆگىنىۋالىدۇ."
+msgstr "ئەگەر ئاكىزمېت نورمال ئىنكاسلارنىمۇ سپەم دەپ تونۇۋالسا، خاتا تونۇلغان ئىنكاسلارنى تاللاپ «سپەم ئەمەس» كۇنۇپكىسىنى بېسىپ ئاكىزمېت قا يوللاپ بەرسىڭىز، ئۇ ئاپتوماتىك ھالدا كېيىن تېخىمۇ ياخشى ئىشلەش ئۈچۈن ئۆگىنىۋالىدۇ."
 
 #: wp-content/plugins/akismet/akismet.php:915
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
-msgstr "<a href=\"%1$s\">Akismet</a> تور بېتىڭىزنى <a href=\"%2$s\">%3$s سپەم ئىنكاس</a> دىن ساقلاپ قالدى."
+msgstr "<a href=\"%1$s\">ئاكىزمېت</a> تور بېتىڭىزنى <a href=\"%2$s\">%3$s سپەم ئىنكاس</a> دىن ساقلاپ قالدى."
 
 #: wp-content/plugins/akismet/akismet.php:933
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
-msgstr[0] "<a href=\"%1$s\">Akismet</a> تور بېتىڭىزنى %2$s سپەم ئىنكاسىدىن ساقلاپ قالدى."
-msgstr[1] "<a href=\"%1$s\">Akismet</a> تور بېتىڭىزنى %2$s سپەم ئىنكاسىدىن ساقلاپ قالدى."
+msgstr[0] "<a href=\"%1$s\">ئاكىزمېت</a> تور بېتىڭىزنى %2$s سپەم ئىنكاسىدىن ساقلاپ قالدى."
+msgstr[1] "<a href=\"%1$s\">ئاكىزمېت</a> تور بېتىڭىزنى %2$s سپەم ئىنكاسىدىن ساقلاپ قالدى."
 
 #: wp-content/plugins/akismet/akismet.php:938
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
-msgstr "<a href=\"%1$s\">Akismet</a> بلوگىڭىزنى سپەملەردىن قوغداۋاتىدۇ."
+msgstr "<a href=\"%1$s\">ئاكىزمېت</a> بلوگىڭىزنى سپەملەردىن قوغداۋاتىدۇ."
 
 #: wp-content/plugins/akismet/akismet.php:943
 #, php-format
@@ -10264,7 +10264,7 @@ msgstr "سپەم تەكشۈرۈش"
 #: wp-content/plugins/akismet/akismet.php:1058
 #, php-format
 msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
-msgstr "%1$s %2$sسپەم ئىنكاس%3$s %4$s %5$s<br />%6$sAkismet%7$s تەرىپىدىن توسۇپ قېلىندى."
+msgstr "%1$s %2$sسپەم ئىنكاس%3$s %4$s %5$s<br />%6$sئاكىزمېت%7$s تەرىپىدىن توسۇپ قېلىندى."
 
 #: wp-content/plugins/akismet/akismet.php:1120
 msgid "spam comments"
@@ -10286,7 +10286,7 @@ msgstr "بۇ بەتتىكى ئىنكاسلار ئۈچۈن <abbr title=\"Really S
 
 #: wp-content/themes/classic/comments-popup.php:34
 msgid "The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this entry is:"
-msgstr "بۇ خاتىرىنىڭ ئىزچى <abbr title=\"ئۇنىۋېرسال مەنبە ئورۇن بەلگىلىگۈچ\">ئادرېسى</abbr>:"
+msgstr "بۇ يازمىنىڭ ئىزچى <abbr title=\"ئۇنىۋېرسال مەنبە ئورۇن بەلگىلىگۈچ\">ئادرېسى</abbr>:"
 
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
@@ -10859,7 +10859,7 @@ msgstr "ئۇلانما چۈشەندۈرۈشى كۆرسىتىلسۇن"
 
 #: wp-includes/default-widgets.php:161
 msgid "Show Link Rating"
-msgstr "ئۇلانما دەرىجىسىنى كۆرسىتىش"
+msgstr "ئۇلانما باھاسىنى كۆرسىتىش"
 
 #: wp-includes/default-widgets.php:175
 msgid "A search form for your blog"
@@ -11424,43 +11424,43 @@ msgstr "&raquo;"
 #: wp-includes/general-template.php:1460
 #, php-format
 msgid "%1$s %2$s Feed"
-msgstr "%1$s %2$s Feed"
+msgstr "%1$s %2$s تەرمىلەر"
 
 #. translators: %s: blog title, 2: separator (raquo)
 #: wp-includes/general-template.php:1462
 #, php-format
 msgid "%1$s %2$s Comments Feed"
-msgstr "%1$s %2$s ئىنكاسلار قايتمىسى"
+msgstr "%1$s %2$s ئىنكاس تەرمىلىرى"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: post title
 #: wp-includes/general-template.php:1483
 #, php-format
 msgid "%1$s %2$s %3$s Comments Feed"
-msgstr "%1$s %2$s %3$s ئۈچۈن ئىنكاسلار قايتمىسى"
+msgstr "%1$s %2$s %3$s نىڭ ئىنكاس تەرمىلىرى"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: category name
 #: wp-includes/general-template.php:1485
 #, php-format
 msgid "%1$s %2$s %3$s Category Feed"
-msgstr "%1$s %2$s %3$s كاتېگورىيىسىنىڭ Feed لىرى"
+msgstr "%1$s %2$s %3$s كاتېگورىيىسىنىڭ تەرمىلىرى"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: tag name
 #: wp-includes/general-template.php:1487
 #, php-format
 msgid "%1$s %2$s %3$s Tag Feed"
-msgstr "%1$s %2$s %3$s خەتكۈچ Feed لىرى"
+msgstr "%1$s %2$s %3$s خەتكۈچ تەرمىلىرى"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: author name
 #: wp-includes/general-template.php:1489
 #, php-format
 msgid "%1$s %2$s Posts by %3$s Feed"
-msgstr "%1$s %2$s %3$s ئاپتورلۇقىدىكى Feed"
+msgstr "%1$s %2$s %3$s ئاپتورلۇقىدىكى تەرمىلەر"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: search phrase
 #: wp-includes/general-template.php:1491
 #, php-format
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
-msgstr "%1$s %2$s &#8220;%3$s&#8221; Feed ئۈچۈن ئىزدەش نەتىجىسى"
+msgstr "%1$s %2$s &#8220;%3$s&#8221; تەرمىلىرى ئۈچۈن ئىزدەش نەتىجىسى"
 
 #: wp-includes/general-template.php:1807
 msgid "&laquo; Previous"
@@ -12630,7 +12630,7 @@ msgstr "قويۇش قېتىم سانى"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:357
 msgid "Rate"
-msgstr "دەرىجە"
+msgstr "باھا"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:358
 msgid "UI Mode"
@@ -12722,7 +12722,7 @@ msgstr "QuickTime مەنبەسى"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:381
 msgid "Streamed rtsp resources should be added to the QT Src field under the advanced tab."
-msgstr "يۇقۇرى دەرىجىلىك كارتىدىكى QT Src رامكىسىغا rtsp ئېقىم مەنبەسى قوشۇلۇشى كېرەك."
+msgstr "يۇقىرى دەرىجىلىك كارتىدىكى QT Src رامكىسىغا rtsp ئېقىم مەنبەسى قوشۇلۇشى كېرەك."
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:387
 msgid "Top left"
@@ -13299,17 +13299,17 @@ msgstr "[%1$s] ئىزچى: \"%2$s\""
 #: wp-includes/pluggable.php:1010
 #, php-format
 msgid "New pingback on your post #%1$s \"%2$s\""
-msgstr "يازمىڭىز #%1$s \"%2$s\" دىكى يېڭى pingback"
+msgstr "يازمىڭىز #%1$s \"%2$s\" دىكى يېڭى قايتما"
 
 #: wp-includes/pluggable.php:1015
 msgid "You can see all pingbacks on this post here: "
-msgstr "يازمىڭىزدىكى بارلىق pingback لەرنى بۇ يەردىن كۆرەلەيسىز:"
+msgstr "يازمىڭىزدىكى بارلىق قايتمىلارنى بۇ يەردىن كۆرەلەيسىز:"
 
 #. translators: 1: blog name, 2: post title
 #: wp-includes/pluggable.php:1017
 #, php-format
 msgid "[%1$s] Pingback: \"%2$s\""
-msgstr "[%1$s] Pingback: \"%2$s\""
+msgstr "[%1$s] قايتما / Pingback: \"%2$s\""
 
 #: wp-includes/pluggable.php:1021
 #: wp-includes/pluggable.php:1109
@@ -13332,7 +13332,7 @@ msgstr "سپەملەڭ: %s"
 #: wp-includes/pluggable.php:1083
 #, php-format
 msgid "A new trackback on the post #%1$s \"%2$s\" is waiting for your approval"
-msgstr "يازما #%1$s \"%2$s\" دا يېڭى trackback تەستىقىڭىزنى كۈتۈۋاتىدۇ."
+msgstr "يازما #%1$s \"%2$s\" دا يېڭى ئىزچى تەستىقىڭىزنى كۈتۈۋاتىدۇ."
 
 #: wp-includes/pluggable.php:1085
 #: wp-includes/pluggable.php:1092
@@ -13347,11 +13347,11 @@ msgstr "ئىزچى ئۈزۈندىسى: "
 #: wp-includes/pluggable.php:1090
 #, php-format
 msgid "A new pingback on the post #%1$s \"%2$s\" is waiting for your approval"
-msgstr "يازما #%1$s \"%2$s\" دا يېڭى pingback تەستىقىڭىزنى كۈتۈۋاتىدۇ."
+msgstr "يازما #%1$s \"%2$s\" دا يېڭى قايتما تەستىقىڭىزنى كۈتۈۋاتىدۇ."
 
 #: wp-includes/pluggable.php:1094
 msgid "Pingback excerpt: "
-msgstr "Pingback ئۈزۈندىسى: "
+msgstr "قايتما ئۈزۈندىسى: "
 
 #: wp-includes/pluggable.php:1097
 #, php-format
@@ -13714,7 +13714,7 @@ msgstr "ھېچقانداق ئىنكاس تېپىلمىدى."
 
 #: wp-includes/script-loader.php:302
 msgid "Password Protected"
-msgstr "پارولدا قوغدالغان"
+msgstr "پارولدا قوغدالسۇن"
 
 #: wp-includes/script-loader.php:316
 msgid "Submitted on:"
@@ -14303,7 +14303,7 @@ msgstr "بىزگە ئۇلانما يوقمۇ؟"
 #: xmlrpc.php:3292
 #: xmlrpc.php:3400
 msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
-msgstr "بەلگىلەنگەن نىشان ئادرېسى مەۋجۇت ئەمەس ياكى pingback ئىجازىتى يوق. شۇڭا ئۇنى نىشان قىلغىلى بولمايدۇ."
+msgstr "بەلگىلەنگەن نىشان ئادرېسى مەۋجۇت ئەمەس ياكى قايتما ئىجازىتى يوق. شۇڭا ئۇنى نىشان قىلغىلى بولمايدۇ."
 
 #: xmlrpc.php:3288
 msgid "The source URL and the target URL cannot both point to the same resource."
@@ -14311,7 +14311,7 @@ msgstr "مەنبە ۋە نىشان ئادرېسىنىڭ ھەر ئىككىسىن�
 
 #: xmlrpc.php:3298
 msgid "The pingback has already been registered."
-msgstr "pingback تىزىملىتىپ بولۇنغان."
+msgstr "قايتما تىزىملىتىپ بولۇنغان."
 
 #: xmlrpc.php:3306
 msgid "The source URL does not exist."
@@ -14328,7 +14328,7 @@ msgstr "مەنبە ئادرېس نىشان ئادرېسىنىڭ ئۇلانمىس
 #: xmlrpc.php:3374
 #, php-format
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
-msgstr "%2$s دىن %1$s غا بولغان Pingback تىزىملىتىلدى. توردا پاراڭلىشىۋېرىڭ! :-)"
+msgstr "%2$s دىن %1$s غا بولغان قايتما تىزىملىتىلدى. توردا پاراڭلىشىۋېرىڭ! :-)"
 
 #: xmlrpc.php:3407
 msgid "The specified target URL does not exist."

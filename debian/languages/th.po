@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Wordpress 2.9\n"
+"Project-Id-Version: Wordpress 2.9.1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-12-18 23:46+0000\n"
-"PO-Revision-Date: 2009-12-23 13:10+0700\n"
+"POT-Creation-Date: 2010-01-05 04:57+0000\n"
+"PO-Revision-Date: 2010-01-11 22:19+0700\n"
 "Last-Translator: kazama <anotherkaz@gmail.com>\n"
 "Language-Team: Thai <anotherkaz@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -235,7 +235,7 @@ msgstr "ไม่พบเรื่อง"
 #: wp-admin/includes/template.php:807
 #: wp-admin/includes/template.php:1040
 #: wp-includes/js/tinymce/langs/wp-langs.php:295
-#: wp-includes/post.php:3662
+#: wp-includes/post.php:3664
 msgid "Title"
 msgstr "หัวข้อ"
 
@@ -285,7 +285,7 @@ msgstr "รอคอยการตรวจสอบ"
 #: wp-admin/includes/meta-boxes.php:72
 #: wp-admin/includes/meta-boxes.php:91
 #: wp-admin/includes/template.php:1217
-#: wp-admin/includes/template.php:3454
+#: wp-admin/includes/template.php:3455
 #: wp-includes/post.php:390
 #: wp-includes/post.php:411
 msgid "Draft"
@@ -293,12 +293,12 @@ msgstr "ฉบับร่าง"
 
 #. translators: date format in table columns, see http://php.net/date
 #: wp-admin/admin-ajax.php:1255
-#: wp-admin/edit-attachment-rows.php:159
-#: wp-admin/edit-attachment-rows.php:173
+#: wp-admin/edit-attachment-rows.php:161
+#: wp-admin/edit-attachment-rows.php:175
 #: wp-admin/includes/template.php:1416
 #: wp-admin/includes/template.php:1643
-#: wp-admin/includes/template.php:2148
-#: wp-admin/upload.php:424
+#: wp-admin/includes/template.php:2149
+#: wp-admin/upload.php:426
 msgid "Y/m/d"
 msgstr "Y/m/d"
 
@@ -459,7 +459,7 @@ msgstr "ค้นหาหมวดหมู่"
 #: wp-admin/link-manager.php:262
 #: wp-admin/plugins.php:483
 #: wp-admin/upload.php:288
-#: wp-admin/upload.php:454
+#: wp-admin/upload.php:456
 #: wp-admin/users.php:308
 #: wp-admin/users.php:374
 msgid "Bulk Actions"
@@ -478,7 +478,7 @@ msgstr "คำสั่งจำนวนมาก"
 #: wp-admin/includes/template.php:671
 #: wp-admin/includes/template.php:1549
 #: wp-admin/includes/template.php:1924
-#: wp-admin/includes/template.php:2511
+#: wp-admin/includes/template.php:2512
 #: wp-admin/includes/widgets.php:201
 #: wp-admin/link-manager.php:105
 #: wp-admin/link-manager.php:201
@@ -504,12 +504,12 @@ msgstr "ลบ"
 #: wp-admin/edit-tags.php:254
 #: wp-admin/edit.php:265
 #: wp-admin/edit.php:355
-#: wp-admin/includes/template.php:3738
+#: wp-admin/includes/template.php:3739
 #: wp-admin/link-manager.php:107
 #: wp-admin/link-manager.php:265
 #: wp-admin/plugins.php:494
 #: wp-admin/upload.php:299
-#: wp-admin/upload.php:465
+#: wp-admin/upload.php:467
 #: wp-admin/users.php:311
 #: wp-admin/users.php:377
 #: wp-includes/js/tinymce/langs/wp-langs.php:27
@@ -699,7 +699,7 @@ msgstr "ผู้เขียน"
 
 #: wp-admin/comment.php:119
 #: wp-admin/includes/template.php:904
-#: wp-admin/includes/template.php:2333
+#: wp-admin/includes/template.php:2334
 #: wp-admin/user-edit.php:261
 #: wp-admin/user-new.php:109
 #: wp-content/themes/classic/comments-popup.php:76
@@ -710,8 +710,8 @@ msgstr "อีเมล์"
 #: wp-admin/comment.php:125
 #: wp-admin/includes/media.php:2116
 #: wp-admin/includes/template.php:858
-#: wp-admin/includes/template.php:2338
-#: wp-admin/includes/template.php:2747
+#: wp-admin/includes/template.php:2339
+#: wp-admin/includes/template.php:2748
 #: wp-admin/press-this.php:170
 msgid "URL"
 msgstr "URL"
@@ -782,14 +782,14 @@ msgstr "ใช้สีดั้งเดิม"
 #: wp-admin/custom-header.php:290
 #: wp-admin/import/blogger.php:667
 #: wp-admin/options-discussion.php:226
-#: wp-admin/options-general.php:277
+#: wp-admin/options-general.php:289
 #: wp-admin/options-media.php:96
 #: wp-admin/options-misc.php:72
 #: wp-admin/options-permalink.php:224
 #: wp-admin/options-privacy.php:45
 #: wp-admin/options-reading.php:86
 #: wp-admin/options-writing.php:133
-#: wp-admin/options.php:133
+#: wp-admin/options.php:139
 msgid "Save Changes"
 msgstr "บันทึกการเปลี่ยนแปลง"
 
@@ -813,7 +813,7 @@ msgstr "เลือกรูปจากเครื่องคอมพิว
 #: wp-admin/custom-header.php:304
 #: wp-admin/includes/media.php:1454
 #: wp-admin/includes/media.php:1455
-#: wp-admin/includes/template.php:3319
+#: wp-admin/includes/template.php:3320
 #: wp-admin/plugin-install.php:27
 #: wp-admin/theme-install.php:32
 msgid "Upload"
@@ -849,7 +849,7 @@ msgstr "เข้าไปดูเว็บไซต์ของคุณ  แ�
 
 #: wp-admin/edit-attachment-rows.php:74
 #: wp-admin/edit-attachment-rows.php:87
-#: wp-admin/edit-attachment-rows.php:204
+#: wp-admin/edit-attachment-rows.php:206
 #: wp-admin/includes/dashboard.php:451
 #: wp-admin/includes/template.php:128
 #: wp-admin/includes/template.php:299
@@ -864,7 +864,7 @@ msgid "Edit &#8220;%s&#8221;"
 msgstr "แก้ไข &#8220;%s&#8221;"
 
 #: wp-admin/edit-attachment-rows.php:93
-#: wp-admin/edit-attachment-rows.php:204
+#: wp-admin/edit-attachment-rows.php:206
 #: wp-admin/edit-form-comment.php:62
 #: wp-admin/edit-pages.php:263
 #: wp-admin/edit-pages.php:312
@@ -882,7 +882,7 @@ msgstr "แก้ไข &#8220;%s&#8221;"
 #: wp-admin/includes/template.php:1543
 #: wp-admin/includes/template.php:1668
 #: wp-admin/includes/template.php:1922
-#: wp-admin/includes/template.php:2198
+#: wp-admin/includes/template.php:2199
 #: wp-admin/includes/widgets.php:177
 #: wp-admin/link-manager.php:200
 #: wp-admin/menu.php:33
@@ -904,9 +904,9 @@ msgstr "แก้ไข"
 #: wp-admin/edit.php:346
 #: wp-admin/includes/template.php:1453
 #: wp-admin/includes/template.php:1673
-#: wp-admin/includes/template.php:2188
+#: wp-admin/includes/template.php:2189
 #: wp-admin/upload.php:290
-#: wp-admin/upload.php:456
+#: wp-admin/upload.php:458
 #: wp-includes/post-template.php:1297
 msgid "Restore"
 msgstr "ย้อนกลับ"
@@ -918,7 +918,7 @@ msgstr "ย้อนกลับ"
 msgid "Trash"
 msgstr "ถังขยะ"
 
-#: wp-admin/edit-attachment-rows.php:100
+#: wp-admin/edit-attachment-rows.php:101
 #: wp-admin/edit-comments.php:316
 #: wp-admin/edit-comments.php:412
 #: wp-admin/edit-form-comment.php:71
@@ -931,116 +931,116 @@ msgstr "ถังขยะ"
 #: wp-admin/includes/meta-boxes.php:190
 #: wp-admin/includes/template.php:1457
 #: wp-admin/includes/template.php:1677
-#: wp-admin/includes/template.php:2192
+#: wp-admin/includes/template.php:2193
 #: wp-admin/upload.php:292
-#: wp-admin/upload.php:398
-#: wp-admin/upload.php:458
+#: wp-admin/upload.php:399
+#: wp-admin/upload.php:460
 msgid "Delete Permanently"
 msgstr "ลบถาวร"
 
-#: wp-admin/edit-attachment-rows.php:103
+#: wp-admin/edit-attachment-rows.php:105
 #: wp-admin/includes/template.php:1463
 #: wp-admin/includes/template.php:1683
-#: wp-admin/upload.php:399
+#: wp-admin/upload.php:401
 #, php-format
 msgid "View &#8220;%s&#8221;"
 msgstr "ดู &#8220;%s&#8221;"
 
-#: wp-admin/edit-attachment-rows.php:103
+#: wp-admin/edit-attachment-rows.php:105
 #: wp-admin/includes/template.php:1463
 #: wp-admin/includes/template.php:1537
 #: wp-admin/includes/template.php:1683
-#: wp-admin/upload.php:399
+#: wp-admin/upload.php:401
 msgid "View"
 msgstr "มุมมอง"
 
-#: wp-admin/edit-attachment-rows.php:134
+#: wp-admin/edit-attachment-rows.php:136
 #: wp-admin/includes/template.php:1508
 msgid "No Tags"
 msgstr "ไม่มีป้ายกำกับ"
 
-#: wp-admin/edit-attachment-rows.php:148
+#: wp-admin/edit-attachment-rows.php:150
 #: wp-admin/includes/template.php:1404
 #: wp-admin/includes/template.php:1631
-#: wp-admin/upload.php:413
+#: wp-admin/upload.php:415
 msgid "Unpublished"
 msgstr "ยังไม่เผยแพร่"
 
-#: wp-admin/edit-attachment-rows.php:150
+#: wp-admin/edit-attachment-rows.php:152
 #: wp-admin/includes/dashboard.php:451
 #: wp-admin/includes/template.php:1407
 #: wp-admin/includes/template.php:1634
-#: wp-admin/upload.php:415
+#: wp-admin/upload.php:417
 msgid "Y/m/d g:i:s A"
 msgstr "Y/m/d g:i:s A"
 
-#: wp-admin/edit-attachment-rows.php:155
-#: wp-admin/upload.php:420
+#: wp-admin/edit-attachment-rows.php:157
+#: wp-admin/upload.php:422
 #, php-format
 msgid "%s from now"
 msgstr "%s จากตอนนี้"
 
-#: wp-admin/edit-attachment-rows.php:157
+#: wp-admin/edit-attachment-rows.php:159
 #: wp-admin/includes/plugin-install.php:507
 #: wp-admin/includes/template.php:1414
 #: wp-admin/includes/template.php:1641
 #: wp-admin/includes/template.php:2109
 #: wp-admin/includes/theme-install.php:325
-#: wp-admin/upload.php:422
+#: wp-admin/upload.php:424
 #, php-format
 msgid "%s ago"
 msgstr "%s มาแล้ว"
 
-#: wp-admin/edit-attachment-rows.php:177
+#: wp-admin/edit-attachment-rows.php:179
 msgid "(Unattached)"
 msgstr "(ไม่แนบ)"
 
-#: wp-admin/edit-attachment-rows.php:178
-#: wp-admin/upload.php:401
+#: wp-admin/edit-attachment-rows.php:180
+#: wp-admin/upload.php:403
 msgid "Attach"
 msgstr "แนบ"
 
-#: wp-admin/edit-attachment-rows.php:190
+#: wp-admin/edit-attachment-rows.php:192
 #: wp-admin/includes/template.php:1518
 #: wp-admin/includes/template.php:1706
-#: wp-admin/includes/template.php:2269
+#: wp-admin/includes/template.php:2270
 #, php-format
 msgid "%s pending"
 msgstr "%s รอตรวจสอบ"
 
 #. translators: comment count link
-#: wp-admin/edit-attachment-rows.php:193
+#: wp-admin/edit-attachment-rows.php:195
 #: wp-admin/includes/template.php:1521
 #: wp-admin/includes/template.php:1709
-#: wp-admin/includes/template.php:2272
+#: wp-admin/includes/template.php:2273
 msgctxt "comment count"
 msgid "0"
 msgstr "0"
 
 #. translators: comment count link
-#: wp-admin/edit-attachment-rows.php:193
+#: wp-admin/edit-attachment-rows.php:195
 #: wp-admin/includes/template.php:1521
 #: wp-admin/includes/template.php:1709
-#: wp-admin/includes/template.php:2272
+#: wp-admin/includes/template.php:2273
 msgctxt "comment count"
 msgid "1"
 msgstr "1"
 
 #. translators: comment count link: % will be substituted by comment count
-#: wp-admin/edit-attachment-rows.php:193
+#: wp-admin/edit-attachment-rows.php:195
 #: wp-admin/includes/template.php:1521
 #: wp-admin/includes/template.php:1709
-#: wp-admin/includes/template.php:2272
+#: wp-admin/includes/template.php:2273
 msgctxt "comment count"
 msgid "%"
 msgstr "%"
 
-#: wp-admin/edit-attachment-rows.php:205
+#: wp-admin/edit-attachment-rows.php:207
 msgid "Get permalink"
 msgstr "Get permalink"
 
-#: wp-admin/edit-attachment-rows.php:224
-#: wp-admin/upload.php:432
+#: wp-admin/edit-attachment-rows.php:226
+#: wp-admin/upload.php:434
 msgid "No media attachments found."
 msgstr "ไม่พบไฟล์สื่อที่แนบ"
 
@@ -1079,10 +1079,10 @@ msgstr[0] "%s ความเห็นถูกบันทึกเป็นส
 #: wp-admin/edit-comments.php:166
 #: wp-admin/edit-pages.php:170
 #: wp-admin/edit.php:171
-#: wp-admin/includes/image-edit.php:52
+#: wp-admin/includes/image-edit.php:56
 #: wp-admin/includes/media.php:1243
-#: wp-admin/includes/template.php:2383
-#: wp-admin/includes/template.php:2386
+#: wp-admin/includes/template.php:2384
+#: wp-admin/includes/template.php:2387
 #: wp-admin/upload.php:210
 #: wp-includes/js/tinymce/langs/wp-langs.php:213
 #: wp-includes/js/tinymce/wp-mce-help.php:209
@@ -1161,16 +1161,16 @@ msgstr "กำลังแสดง %s&#8211;%s of %s"
 #: wp-admin/edit-comments.php:302
 #: wp-admin/edit-comments.php:400
 #: wp-admin/includes/dashboard.php:553
-#: wp-admin/includes/template.php:2175
-#: wp-admin/includes/template.php:2180
+#: wp-admin/includes/template.php:2176
+#: wp-admin/includes/template.php:2181
 msgid "Unapprove"
 msgstr "ไม่อนุมัติ"
 
 #: wp-admin/edit-comments.php:305
 #: wp-admin/edit-comments.php:403
 #: wp-admin/includes/dashboard.php:552
-#: wp-admin/includes/template.php:2177
-#: wp-admin/includes/template.php:2179
+#: wp-admin/includes/template.php:2178
+#: wp-admin/includes/template.php:2180
 msgid "Approve"
 msgstr "อนุมติ"
 
@@ -1181,7 +1181,7 @@ msgstr "เปลี่ยนเป็นความเห็นสแปม"
 
 #: wp-admin/edit-comments.php:313
 #: wp-admin/edit-comments.php:414
-#: wp-admin/includes/template.php:2186
+#: wp-admin/includes/template.php:2187
 #: wp-content/plugins/akismet/akismet.php:832
 msgid "Not Spam"
 msgstr "ความเห็นนี้ไม่ใช่สแปม"
@@ -1196,7 +1196,7 @@ msgstr "ความเห็นนี้ไม่ใช่สแปม"
 #: wp-admin/includes/media.php:1243
 #: wp-admin/includes/meta-boxes.php:193
 #: wp-admin/upload.php:294
-#: wp-admin/upload.php:460
+#: wp-admin/upload.php:462
 msgid "Move to Trash"
 msgstr "ย้ายไปถังขยะ"
 
@@ -1209,8 +1209,8 @@ msgstr "แสดงประเภทความเห็นทั้งหม
 #: wp-admin/import/blogger.php:206
 #: wp-admin/includes/file.php:14
 #: wp-admin/includes/template.php:1167
-#: wp-admin/includes/template.php:3204
-#: wp-admin/includes/template.php:3320
+#: wp-admin/includes/template.php:3205
+#: wp-admin/includes/template.php:3321
 #: wp-content/plugins/akismet/akismet.php:758
 #: wp-content/themes/classic/comments-popup.php:29
 msgid "Comments"
@@ -1240,7 +1240,7 @@ msgstr "ลบสแปมทั้งหมด"
 #: wp-admin/edit.php:310
 #: wp-admin/edit.php:357
 #: wp-admin/upload.php:339
-#: wp-admin/upload.php:468
+#: wp-admin/upload.php:470
 msgid "Empty Trash"
 msgstr "ล้างถังขยะ"
 
@@ -1334,7 +1334,7 @@ msgstr "รูปขนาดเล็กเรื่อง"
 
 #: wp-admin/edit-form-advanced.php:103
 #: wp-admin/includes/meta-boxes.php:313
-#: wp-includes/post.php:3664
+#: wp-includes/post.php:3666
 msgid "Excerpt"
 msgstr "ตัดทอน"
 
@@ -1415,7 +1415,7 @@ msgid "Submitted on: <b>%1$s</b>"
 msgstr "ส่งบน: <b>%1$s</b>"
 
 #: wp-admin/edit-form-comment.php:74
-#: wp-admin/includes/template.php:2349
+#: wp-admin/includes/template.php:2350
 msgid "Update Comment"
 msgstr "อัปเดตความเห็น"
 
@@ -1513,7 +1513,7 @@ msgid "Add Link"
 msgstr "เพิ่มลิงก์"
 
 #: wp-admin/edit-link-form.php:27
-#: wp-admin/includes/image-edit.php:71
+#: wp-admin/includes/image-edit.php:75
 #: wp-admin/includes/meta-boxes.php:24
 #: wp-admin/includes/meta-boxes.php:517
 #: wp-admin/includes/widgets.php:206
@@ -1554,10 +1554,10 @@ msgstr "ลิงก์ถูกเพิ่มแล้ว"
 #: wp-admin/includes/template.php:882
 #: wp-admin/includes/template.php:892
 #: wp-admin/includes/template.php:903
-#: wp-admin/includes/template.php:2328
-#: wp-admin/includes/template.php:2438
-#: wp-admin/includes/template.php:2453
-#: wp-admin/includes/template.php:2542
+#: wp-admin/includes/template.php:2329
+#: wp-admin/includes/template.php:2439
+#: wp-admin/includes/template.php:2454
+#: wp-admin/includes/template.php:2543
 #: wp-admin/themes.php:277
 #: wp-admin/update-core.php:232
 #: wp-admin/update-core.php:239
@@ -1684,7 +1684,7 @@ msgid "Error in deleting..."
 msgstr "ผิดพลาดระหว่างการลบ"
 
 #: wp-admin/edit-pages.php:104
-#: wp-admin/includes/template.php:3278
+#: wp-admin/includes/template.php:3279
 msgid "Edit Pages"
 msgstr "แก้ไขหน้า"
 
@@ -1787,7 +1787,7 @@ msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "ถังขยะ <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:125
-#: wp-admin/includes/template.php:3238
+#: wp-admin/includes/template.php:3239
 #: wp-admin/menu.php:59
 #: wp-includes/default-widgets.php:19
 #: wp-includes/default-widgets.php:25
@@ -1913,7 +1913,7 @@ msgstr "อัปเดตหน้า"
 #: wp-admin/includes/dashboard.php:407
 #: wp-admin/includes/template.php:760
 #: wp-admin/includes/template.php:1157
-#: wp-includes/default-widgets.php:977
+#: wp-includes/default-widgets.php:979
 msgid "Tags"
 msgstr "ป้ายกำกับ"
 
@@ -1981,7 +1981,7 @@ msgid "You are not allowed to delete this post."
 msgstr "คุณไม่มีสิทธิ์ลบเรื่องนี้"
 
 #: wp-admin/edit.php:111
-#: wp-admin/includes/template.php:3272
+#: wp-admin/includes/template.php:3273
 msgid "Edit Posts"
 msgstr "แก้ไขเรื่อง"
 
@@ -2105,7 +2105,7 @@ msgid "Once you&#8217;ve saved the download file, you can use the Import functio
 msgstr "เมื่อคุณบันทึกไฟล์ดาวน์โหลดแล้ว  คุณสามารถใช้คำสั่งนำเข้าในบล็อกเวิร์ดเพรสอื่นเพื่อนำเข้าบล็อกนี้"
 
 #: wp-admin/export.php:36
-#: wp-admin/includes/template.php:3734
+#: wp-admin/includes/template.php:3735
 msgid "Options"
 msgstr "ทางเลือก"
 
@@ -2179,8 +2179,8 @@ msgstr "เราสามารถเข้าระบบได้  แต่�
 
 #: wp-admin/import/blogger.php:194
 #: wp-admin/includes/media.php:1241
-#: wp-admin/upgrade.php:54
-#: wp-admin/upgrade.php:79
+#: wp-admin/upgrade.php:59
+#: wp-admin/upgrade.php:92
 msgid "Continue"
 msgstr "ต่อไป"
 
@@ -2226,7 +2226,7 @@ msgstr "ปุ่มวิเศษ"
 #: wp-admin/includes/template.php:875
 #: wp-admin/includes/template.php:895
 #: wp-admin/includes/template.php:906
-#: wp-admin/includes/template.php:3236
+#: wp-admin/includes/template.php:3237
 #: wp-admin/menu.php:32
 msgid "Posts"
 msgstr "เรื่อง"
@@ -2979,7 +2979,7 @@ msgstr "ตัวนำเข้านั้นฉลาดพอที่จะ
 
 #: wp-admin/import/mt.php:62
 #: wp-admin/import/wordpress.php:262
-#: wp-admin/includes/template.php:2552
+#: wp-admin/includes/template.php:2553
 #: wp-admin/options-reading.php:44
 #: wp-admin/options-reading.php:45
 msgid "- Select -"
@@ -4022,16 +4022,16 @@ msgid "View all"
 msgstr "ดูทั้งหมด"
 
 #: wp-admin/includes/dashboard.php:119
-#: wp-admin/includes/image-edit.php:70
+#: wp-admin/includes/image-edit.php:74
 #: wp-admin/includes/media.php:1241
 #: wp-admin/includes/media.php:1455
 #: wp-admin/includes/meta-boxes.php:94
 #: wp-admin/includes/meta-boxes.php:140
 #: wp-admin/includes/template.php:265
 #: wp-admin/includes/template.php:1257
-#: wp-admin/includes/template.php:2347
-#: wp-admin/includes/template.php:2564
-#: wp-admin/includes/template.php:2651
+#: wp-admin/includes/template.php:2348
+#: wp-admin/includes/template.php:2565
+#: wp-admin/includes/template.php:2652
 #: wp-admin/includes/theme-install.php:511
 #: wp-admin/press-this.php:125
 #: wp-admin/press-this.php:155
@@ -4149,7 +4149,7 @@ msgid "Press This"
 msgstr "Press This"
 
 #: wp-admin/includes/dashboard.php:400
-#: wp-includes/post.php:3663
+#: wp-includes/post.php:3665
 msgid "Content"
 msgstr "เนื้อเรื่อง"
 
@@ -4183,53 +4183,53 @@ msgid "No comments yet."
 msgstr "ยังไม่มีความเห็น"
 
 #: wp-admin/includes/dashboard.php:552
-#: wp-admin/includes/template.php:2177
-#: wp-admin/includes/template.php:2179
+#: wp-admin/includes/template.php:2178
+#: wp-admin/includes/template.php:2180
 msgid "Approve this comment"
 msgstr "อนุมัติความเห็นนี้"
 
 #: wp-admin/includes/dashboard.php:553
-#: wp-admin/includes/template.php:2175
-#: wp-admin/includes/template.php:2180
+#: wp-admin/includes/template.php:2176
+#: wp-admin/includes/template.php:2181
 msgid "Unapprove this comment"
 msgstr "ไม่อนุมัติความเห็นนี้"
 
 #: wp-admin/includes/dashboard.php:554
-#: wp-admin/includes/template.php:2198
+#: wp-admin/includes/template.php:2199
 #: wp-includes/link-template.php:837
 msgid "Edit comment"
 msgstr "แก้ไขความเห็น"
 
 #: wp-admin/includes/dashboard.php:555
-#: wp-admin/includes/template.php:2201
+#: wp-admin/includes/template.php:2202
 msgid "Reply to this comment"
 msgstr "ตอบกลับความเห็นนี้"
 
 #: wp-admin/includes/dashboard.php:555
-#: wp-admin/includes/template.php:2201
+#: wp-admin/includes/template.php:2202
 #: wp-includes/comment-template.php:1002
 msgid "Reply"
 msgstr "ตอบกลับ"
 
 #: wp-admin/includes/dashboard.php:556
-#: wp-admin/includes/template.php:2184
+#: wp-admin/includes/template.php:2185
 msgid "Mark this comment as spam"
 msgstr "เปลี่ยนความเห็นเป็นสแปม"
 
 #. translators: mark as spam link
 #: wp-admin/includes/dashboard.php:556
-#: wp-admin/includes/template.php:2184
+#: wp-admin/includes/template.php:2185
 msgctxt "verb"
 msgid "Spam"
 msgstr "ความเห็นสแปม"
 
 #: wp-admin/includes/dashboard.php:560
-#: wp-admin/includes/template.php:2194
+#: wp-admin/includes/template.php:2195
 msgid "Move this comment to the trash"
 msgstr "ย้ายความเห็นนี้ไปถังขยะ"
 
 #: wp-admin/includes/dashboard.php:560
-#: wp-admin/includes/template.php:2194
+#: wp-admin/includes/template.php:2195
 msgctxt "verb"
 msgid "Trash"
 msgstr "ถังขยะ"
@@ -4281,7 +4281,7 @@ msgstr "widget นี้ต้องการ JavaScript."
 
 #: wp-admin/includes/dashboard.php:631
 #: wp-admin/includes/dashboard.php:747
-#: wp-includes/default-widgets.php:774
+#: wp-includes/default-widgets.php:776
 #, php-format
 msgid "<strong>RSS Error</strong>: %s"
 msgstr "<strong>RSS ผิดพลาด</strong>: %s"
@@ -4575,7 +4575,7 @@ msgstr "ชื่อโฮสท์"
 
 #: wp-admin/includes/file.php:811
 #: wp-admin/includes/template.php:902
-#: wp-admin/install.php:135
+#: wp-admin/install.php:152
 #: wp-admin/user-edit.php:187
 #: wp-admin/user-new.php:96
 #: wp-login.php:425
@@ -4585,7 +4585,7 @@ msgstr "ชื่อผู้ใช้"
 
 #: wp-admin/includes/file.php:816
 #: wp-admin/includes/template.php:1080
-#: wp-admin/install.php:139
+#: wp-admin/install.php:156
 #: wp-admin/options-writing.php:100
 #: wp-admin/user-new.php:119
 #: wp-login.php:540
@@ -4618,7 +4618,7 @@ msgid "Proceed"
 msgstr "ดำเนินการ"
 
 #: wp-admin/includes/image-edit.php:19
-#: wp-admin/includes/image-edit.php:540
+#: wp-admin/includes/image-edit.php:544
 msgid "Image data does not exist. Please re-upload the image."
 msgstr "ไม่มีข้อมูลภาพ  โปรดลองโหลดรูปใหม่อีกครั้ง"
 
@@ -4627,189 +4627,193 @@ msgid "Crop"
 msgstr "ตัด"
 
 #: wp-admin/includes/image-edit.php:44
-msgid "Rotate couter-clockwise"
+msgid "Rotate counter-clockwise"
 msgstr "หมุนทวนเข็มนาฬิกา"
 
 #: wp-admin/includes/image-edit.php:45
 msgid "Rotate clockwise"
 msgstr "หมุนตามเข็มนาฬิกา"
 
-#: wp-admin/includes/image-edit.php:49
+#: wp-admin/includes/image-edit.php:47
+msgid "Image rotation is not supported by your web host (function imagerotate() is missing)"
+msgstr "โฮสท์ของคุณไม่สนับสนุนการหมุนรูปภาพ (function imagerotate() is missing)"
+
+#: wp-admin/includes/image-edit.php:53
 msgid "Flip vertically"
 msgstr "พลิกแนวตั้ง"
 
-#: wp-admin/includes/image-edit.php:50
+#: wp-admin/includes/image-edit.php:54
 msgid "Flip horizontally"
 msgstr "พลิกตามแนวนอน"
 
-#: wp-admin/includes/image-edit.php:53
+#: wp-admin/includes/image-edit.php:57
 #: wp-includes/js/tinymce/langs/wp-langs.php:214
 #: wp-includes/js/tinymce/wp-mce-help.php:209
 msgid "Redo"
 msgstr "กลับไปทำใหม่"
 
-#: wp-admin/includes/image-edit.php:78
+#: wp-admin/includes/image-edit.php:82
 msgid "Scale Image"
 msgstr "ขนาดรูปภาพ"
 
-#: wp-admin/includes/image-edit.php:80
+#: wp-admin/includes/image-edit.php:84
 msgid "You can proportionally scale the original image. For best results the scaling should be done before performing any other operations on it like crop, rotate, etc. Note that if you make the image larger it may become fuzzy."
 msgstr "คุณสามารถตั้งขนาดที่เหมาะสมสำหรับรูปดั้งเดิม  สำหรับผลลัพท์ที่ดีที่สุด  ขนาดควรจะจัดการก่อนที่จะทำการแก้ไขอื่น ๆ อย่างการตัดรูป  การหมุน และอื่น ๆ  หมายเหตุ ถ้าคุณขยายรูปอาจทำให้รูปเบลอหรือไม่ชัด"
 
-#: wp-admin/includes/image-edit.php:81
+#: wp-admin/includes/image-edit.php:85
 #, php-format
 msgid "Original dimensions %s"
 msgstr "ขนาดดั้งเดิม %s"
 
-#: wp-admin/includes/image-edit.php:85
+#: wp-admin/includes/image-edit.php:89
 #: wp-includes/js/tinymce/langs/wp-langs.php:320
 msgid "Scale"
 msgstr "อัตราส่วน"
 
-#: wp-admin/includes/image-edit.php:93
+#: wp-admin/includes/image-edit.php:97
 msgid "Restore Original Image"
 msgstr "กลับสภาพรูปดังเดิม"
 
-#: wp-admin/includes/image-edit.php:95
+#: wp-admin/includes/image-edit.php:99
 msgid "Discard any changes and restore the original image."
 msgstr "ไม่สนใจการเปลี่ยนแปลงของรูปและกู้รูปดั้งเดิม"
 
-#: wp-admin/includes/image-edit.php:98
+#: wp-admin/includes/image-edit.php:102
 msgid " Previously edited copies of the image will not be deleted."
 msgstr "รูปที่แก้ไขล่าสุดจะไม่ถูกลับ"
 
-#: wp-admin/includes/image-edit.php:102
+#: wp-admin/includes/image-edit.php:106
 msgid "Restore image"
 msgstr "กู้คืนรูปภาพ"
 
-#: wp-admin/includes/image-edit.php:113
+#: wp-admin/includes/image-edit.php:117
 msgid "Image Crop"
 msgstr "รูปภาพตัด"
 
-#: wp-admin/includes/image-edit.php:114
-#: wp-admin/includes/image-edit.php:160
+#: wp-admin/includes/image-edit.php:118
+#: wp-admin/includes/image-edit.php:164
 msgid "(help)"
 msgstr "(ช่วยเหลือ)"
 
-#: wp-admin/includes/image-edit.php:116
+#: wp-admin/includes/image-edit.php:120
 msgid "The image can be cropped by clicking on it and dragging to select the desired part. While dragging the dimensions of the selection are displayed below."
 msgstr "รูปจะถูกตัดโดยกดที่รูปแล้วลากเพื่อเลือกส่วนที่ต้องการ  ขณะที่ลากขนาดรูปที่เลือกจะแสดงด้านล่าง"
 
-#: wp-admin/includes/image-edit.php:117
+#: wp-admin/includes/image-edit.php:121
 msgid "Keyboard shortcuts"
 msgstr "ปุ่มลัด"
 
-#: wp-admin/includes/image-edit.php:119
+#: wp-admin/includes/image-edit.php:123
 msgid "Arrow: move by 10px"
 msgstr "Arrow: เคลื่อนที่ทีละ 10px"
 
-#: wp-admin/includes/image-edit.php:120
+#: wp-admin/includes/image-edit.php:124
 msgid "Shift + arrow: move by 1px"
 msgstr "Shift + arrow: เคลื่อนที่ทีละ 1px"
 
-#: wp-admin/includes/image-edit.php:121
+#: wp-admin/includes/image-edit.php:125
 msgid "Ctrl + arrow: resize by 10px"
 msgstr "Ctrl + arrow:ย่อขยายทีละ  10px"
 
-#: wp-admin/includes/image-edit.php:122
+#: wp-admin/includes/image-edit.php:126
 msgid "Ctrl + Shift + arrow: resize by 1px"
 msgstr "Ctrl + Shift + arrow: ย่อขยายทีละ 1px"
 
-#: wp-admin/includes/image-edit.php:123
+#: wp-admin/includes/image-edit.php:127
 msgid "Shift + drag: lock aspect ratio"
 msgstr "Shift + drag: ล็อคขนาดสัมพันธ์รูป"
 
-#: wp-admin/includes/image-edit.php:126
+#: wp-admin/includes/image-edit.php:130
 msgid "Crop Aspect Ratio"
 msgstr "ตัดขนาดสัมพันธ์"
 
-#: wp-admin/includes/image-edit.php:127
+#: wp-admin/includes/image-edit.php:131
 msgid "You can specify the crop selection aspect ratio then hold down the Shift key while dragging to lock it. The values can be 1:1 (square), 4:3, 16:9, etc. If there is a selection, specifying aspect ratio will set it immediately."
 msgstr "คุณสามารถระบุตัดขนาดสัมพันธ์ที่เลือกแล้วกดปุ่ม shift ค้างไว้แล้วลากเพื่อล็อคมัน  ค่าสามารถเป็น 1:1 (สี่เหลี่ยม), 4:3, 16:9, และอื่น ๆ ถ้ามีการเลือกแล้ว ขนาดสัมพันธ์ของรูปจะตั้งค่าอัตโนมัติ"
 
-#: wp-admin/includes/image-edit.php:129
+#: wp-admin/includes/image-edit.php:133
 msgid "Crop Selection"
 msgstr "ตัดส่วนที่เลือก"
 
-#: wp-admin/includes/image-edit.php:130
+#: wp-admin/includes/image-edit.php:134
 msgid "Once started, the selection can be adjusted by entering new values (in pixels). Note that these values are scaled to approximately match the original image dimensions. The minimum selection size equals the thumbnail size as set in the Media settings."
 msgstr "เมื่อเริ่มแล้ว  ขนาดที่เลือกจะถูกแก้ไขโดยค่าใหม่ (เป็น pixel) หมายเหตุ ค่าเหล่านั้นจะถูกตั้งค่าให้เหมาะสมกับขนาดรูปดั้งเดิม ขนาดเลือกเล็กที่สุดจะท่ากับรูปขนาดเล็กที่ตั้งค่าในการตั้งค่าสื่อ"
 
-#: wp-admin/includes/image-edit.php:135
+#: wp-admin/includes/image-edit.php:139
 msgid "Aspect ratio:"
 msgstr "ขนาดสัมพันธ์รูป:"
 
-#: wp-admin/includes/image-edit.php:144
+#: wp-admin/includes/image-edit.php:148
 msgid "Selection:"
 msgstr "การเลือก:"
 
-#: wp-admin/includes/image-edit.php:159
+#: wp-admin/includes/image-edit.php:163
 msgid "Thumbnail Settings"
 msgstr "ตั้งค่ารูปขนาดเล็ก"
 
-#: wp-admin/includes/image-edit.php:161
+#: wp-admin/includes/image-edit.php:165
 msgid "The thumbnail image can be cropped differently. For example it can be square or contain only a portion of the original image to showcase it better. Here you can select whether to apply changes to all image sizes or make the thumbnail different."
 msgstr "รูปขนาดเล็กสามารถตัดแตกต่างกัน ตัวอย่าง มันสามารถเป็นรูปสี่เหลี่ยมหรือขนาดเฉพาะของรูปดั้งเดิมเพื่อให้มันดีขึ้น  คุณสามารถเลือกใช้การเปลี่ยนแปลงกับทุกขนาดรูปหรือทำให้รูปขนาดเล้กต่างออกไป"
 
-#: wp-admin/includes/image-edit.php:165
+#: wp-admin/includes/image-edit.php:169
 msgid "Current thumbnail"
 msgstr "รูปขนาดเล็กปัจจุบัน"
 
-#: wp-admin/includes/image-edit.php:169
+#: wp-admin/includes/image-edit.php:173
 msgid "Apply changes to:"
 msgstr "ใช้งานการเปลี่ยนแปลงไปที่:"
 
-#: wp-admin/includes/image-edit.php:173
+#: wp-admin/includes/image-edit.php:177
 msgid "All image sizes"
 msgstr "ทุกขนาดรูปภาพ"
 
-#: wp-admin/includes/image-edit.php:177
+#: wp-admin/includes/image-edit.php:181
 #: wp-admin/includes/media.php:822
 #: wp-includes/js/tinymce/langs/wp-langs.php:426
 msgid "Thumbnail"
 msgstr "รูปขนาดเล็ก"
 
-#: wp-admin/includes/image-edit.php:181
+#: wp-admin/includes/image-edit.php:185
 msgid "All sizes except thumbnail"
 msgstr "ทุกขนาดยกเว้นรูปขนาดเล็ก"
 
-#: wp-admin/includes/image-edit.php:191
+#: wp-admin/includes/image-edit.php:195
 msgid "There are unsaved changes that will be lost.  'OK' to continue, 'Cancel' to return to the Image Editor."
 msgstr "มีการเปลี่ยนแปลงที่ไม่ได้บันทึกจะถูกลบ 'OK' เพื่อทำต่อ  'Cancel' เพื่อกลับไปยังตัวแก้ไขรูปภาพ"
 
-#: wp-admin/includes/image-edit.php:423
+#: wp-admin/includes/image-edit.php:427
 msgid "Cannot load image metadata."
 msgstr "ไม่สามารถโหลด metadata ของรูปภาพ"
 
-#: wp-admin/includes/image-edit.php:478
+#: wp-admin/includes/image-edit.php:482
 msgid "Cannot save image metadata."
 msgstr "ไม่สามารถบันทึก metadata รูปภาพ"
 
-#: wp-admin/includes/image-edit.php:483
+#: wp-admin/includes/image-edit.php:487
 msgid "Image metadata is inconsistent."
 msgstr "metadata รูปภาพไม่สอดคล้องกัน"
 
-#: wp-admin/includes/image-edit.php:485
+#: wp-admin/includes/image-edit.php:489
 msgid "Image restored successfully."
 msgstr "รูปภาพถูกกู้คืนแล้ว"
 
-#: wp-admin/includes/image-edit.php:498
+#: wp-admin/includes/image-edit.php:502
 msgid "Unable to create new image."
 msgstr "ไม่สามารถสร้างรูปใหม่"
 
-#: wp-admin/includes/image-edit.php:524
+#: wp-admin/includes/image-edit.php:528
 msgid "Error while saving the scaled image. Please reload the page and try again."
 msgstr "มีความผิดพลาดเกิดขึ้นระหว่างบันทึกขนาดรูป โปรดโหลดหน้าใหม่และลองทำอีกครั้ง"
 
-#: wp-admin/includes/image-edit.php:532
+#: wp-admin/includes/image-edit.php:536
 msgid "Nothing to save, the image has not changed."
 msgstr "ไม่มีสิ่งใดให้บันทึก  รูปไม่มีการเปลี่ยนแปลง"
 
-#: wp-admin/includes/image-edit.php:575
+#: wp-admin/includes/image-edit.php:579
 msgid "Unable to save the image."
 msgstr "ไม่สามารถบันทึกรูป"
 
-#: wp-admin/includes/image-edit.php:660
+#: wp-admin/includes/image-edit.php:664
 msgid "Image saved"
 msgstr "บันทึกรูปภาพแล้ว"
 
@@ -4854,7 +4858,7 @@ msgid "Uploads"
 msgstr "อัปโหลด"
 
 #: wp-admin/includes/media.php:304
-#: wp-admin/includes/template.php:3400
+#: wp-admin/includes/template.php:3401
 msgid "WordPress"
 msgstr "เวิร์ดเพรส"
 
@@ -5290,7 +5294,7 @@ msgstr "เผยแพร่แบบส่วนตัว"
 
 #: wp-admin/includes/meta-boxes.php:93
 #: wp-admin/includes/meta-boxes.php:139
-#: wp-admin/includes/template.php:2650
+#: wp-admin/includes/template.php:2651
 #: wp-includes/script-loader.php:285
 msgid "OK"
 msgstr "ตกลง"
@@ -5302,7 +5306,7 @@ msgstr "เห็นได้:"
 #: wp-admin/includes/meta-boxes.php:106
 #: wp-admin/includes/meta-boxes.php:136
 #: wp-admin/includes/template.php:1213
-#: wp-admin/includes/template.php:3452
+#: wp-admin/includes/template.php:3453
 #: wp-includes/post.php:392
 #: wp-includes/post.php:412
 #: wp-includes/script-loader.php:299
@@ -5311,7 +5315,7 @@ msgstr "ส่วนตัว"
 
 #: wp-admin/includes/meta-boxes.php:109
 #: wp-admin/includes/meta-boxes.php:134
-#: wp-admin/includes/template.php:3450
+#: wp-admin/includes/template.php:3451
 msgid "Password protected"
 msgstr "รหัสผ่านป้องกัน"
 
@@ -5369,7 +5373,7 @@ msgstr "ตารางเวลา"
 #: wp-admin/includes/meta-boxes.php:217
 #: wp-admin/includes/meta-boxes.php:218
 #: wp-admin/includes/template.php:1262
-#: wp-admin/includes/template.php:2512
+#: wp-admin/includes/template.php:2513
 #: wp-includes/js/tinymce/langs/wp-langs.php:29
 msgid "Update"
 msgstr "อัปเดต"
@@ -5740,8 +5744,8 @@ msgid "Plugins extend and expand the functionality of WordPress. You may automat
 msgstr "ปลั๊กอินนั้นเพิ่มความสามารถในการทำงานของเวิร์ดเพรส  คุณสามารถติดตั้งปลั๊กอินโดยอัตโนมัติจาก <a href=\"http://wordpress.org/extend/plugins/\">ไดเรคทอรีเวิร์ดเพรสปลั๊กอิน</a>หรืออัปโหลดไฟล์ปลั๊กอินในรูปแบบ .zip ผ่านทางหน้านี้"
 
 #: wp-admin/includes/plugin-install.php:129
-#: wp-admin/includes/template.php:3231
-#: wp-admin/includes/template.php:3233
+#: wp-admin/includes/template.php:3232
+#: wp-admin/includes/template.php:3234
 #: wp-admin/includes/theme-install.php:162
 #: wp-admin/plugin-install.php:24
 #: wp-admin/theme-install.php:29
@@ -6208,13 +6212,13 @@ msgstr "แค่บล็อกเวิร์ดเพรสบล็อกห
 
 #. translators: default date format, see http://php.net/date
 #: wp-admin/includes/schema.php:220
-#: wp-admin/options-general.php:204
+#: wp-admin/options-general.php:216
 msgid "F j, Y"
 msgstr "F j, Y"
 
 #. translators: default time format, see http://php.net/date
 #: wp-admin/includes/schema.php:222
-#: wp-admin/options-general.php:237
+#: wp-admin/options-general.php:249
 msgid "g:i a"
 msgstr "g:i a"
 
@@ -6258,13 +6262,13 @@ msgstr "สมาชิกรับข่าว"
 #: wp-admin/includes/template.php:670
 #: wp-admin/includes/template.php:1449
 #: wp-admin/includes/template.php:1669
-#: wp-admin/includes/template.php:2199
+#: wp-admin/includes/template.php:2200
 msgid "Quick&nbsp;Edit"
 msgstr "แก้ไขอย่างเร็ว"
 
 #: wp-admin/includes/template.php:229
 #: wp-admin/includes/template.php:1029
-#: wp-admin/includes/template.php:2199
+#: wp-admin/includes/template.php:2200
 msgid "Quick Edit"
 msgstr "แก้ไขอย่างเร็ว"
 
@@ -6374,7 +6378,7 @@ msgstr "อนุญาต Pings"
 
 #: wp-admin/includes/template.php:1226
 #: wp-admin/includes/template.php:1229
-#: wp-admin/includes/template.php:3459
+#: wp-admin/includes/template.php:3460
 msgid "Sticky"
 msgstr "ปักหมุด"
 
@@ -6473,123 +6477,123 @@ msgstr "ดูเรื่องที่เขียนโดยผู้เข
 msgid "Y/m/d \\a\\t g:i A"
 msgstr "Y/m/d \\a\\t g:i A"
 
-#: wp-admin/includes/template.php:2148
+#: wp-admin/includes/template.php:2149
 #, php-format
 msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
 msgstr "ส่งมาบน <a href=\"%1$s\">%2$s ที่ %3$s</a>"
 
-#: wp-admin/includes/template.php:2148
+#: wp-admin/includes/template.php:2149
 msgid "g:ia"
 msgstr "g:ia"
 
-#: wp-admin/includes/template.php:2250
+#: wp-admin/includes/template.php:2251
 msgid "Y/m/d \\a\\t g:ia"
 msgstr "Y/m/d \\a\\t g:ia"
 
-#: wp-admin/includes/template.php:2324
+#: wp-admin/includes/template.php:2325
 msgid "Reply to Comment"
 msgstr "ตอบกลับความเห็น"
 
-#: wp-admin/includes/template.php:2350
+#: wp-admin/includes/template.php:2351
 msgid "Submit Reply"
 msgstr "ส่งความเห็น"
 
-#: wp-admin/includes/template.php:2383
+#: wp-admin/includes/template.php:2384
 #, php-format
 msgid "Comment by %s moved to the trash."
 msgstr "ย้ายความเห็นของ %s ไปถังขยะแล้ว"
 
-#: wp-admin/includes/template.php:2386
+#: wp-admin/includes/template.php:2387
 #, php-format
 msgid "Comment by %s marked as spam."
 msgstr "ความเห็นของ %s ถูกบันทึกเป็นสแปม"
 
-#: wp-admin/includes/template.php:2439
-#: wp-admin/includes/template.php:2454
-#: wp-admin/includes/template.php:2516
-#: wp-admin/includes/template.php:2543
+#: wp-admin/includes/template.php:2440
+#: wp-admin/includes/template.php:2455
+#: wp-admin/includes/template.php:2517
+#: wp-admin/includes/template.php:2544
 msgid "Value"
 msgstr "ค่า"
 
-#: wp-admin/includes/template.php:2508
+#: wp-admin/includes/template.php:2509
 msgid "Key"
 msgstr "Key"
 
-#: wp-admin/includes/template.php:2538
+#: wp-admin/includes/template.php:2539
 msgid "Add new custom field:"
 msgstr "เพิ่ม custom field ใหม่:"
 
-#: wp-admin/includes/template.php:2563
+#: wp-admin/includes/template.php:2564
 msgid "Enter new"
 msgstr "เพิ่มใหม่"
 
-#: wp-admin/includes/template.php:2573
+#: wp-admin/includes/template.php:2574
 msgid "Add Custom Field"
 msgstr "เพิ่ม Custom Field"
 
 #. translators: 1: month input, 2: day input, 3: year input, 4: hour input, 5: minute input
-#: wp-admin/includes/template.php:2635
+#: wp-admin/includes/template.php:2636
 #, php-format
 msgid "%1$s%2$s, %3$s @ %4$s : %5$s"
 msgstr "%1$s%2$s, %3$s @ %4$s : %5$s"
 
-#: wp-admin/includes/template.php:2717
+#: wp-admin/includes/template.php:2718
 msgid "WordPress recommends a better browser"
 msgstr "เวิร์ดเพรสแนะนำเบราเซอร์ที่ดีกว่า"
 
-#: wp-admin/includes/template.php:2752
+#: wp-admin/includes/template.php:2753
 msgid "Thumbnail linked to file"
 msgstr "รูป Thumbnail ลิงก์ไปไฟล์"
 
-#: wp-admin/includes/template.php:2752
+#: wp-admin/includes/template.php:2753
 msgid "Image linked to file"
 msgstr "รูปภาพลิงก์ไปไฟล์"
 
-#: wp-admin/includes/template.php:2756
+#: wp-admin/includes/template.php:2757
 msgid "Thumbnail linked to page"
 msgstr "รูป Thumbnail ลิงก์ไปหน้า"
 
-#: wp-admin/includes/template.php:2756
+#: wp-admin/includes/template.php:2757
 msgid "Image linked to page"
 msgstr "รูปภาพลิงก์ไปหน้า"
 
-#: wp-admin/includes/template.php:2761
+#: wp-admin/includes/template.php:2762
 msgid "Link to file"
 msgstr "ลิงก์ไปไฟล์"
 
-#: wp-admin/includes/template.php:2765
+#: wp-admin/includes/template.php:2766
 msgid "Link to page"
 msgstr "ลิงก์ไปหน้า"
 
-#: wp-admin/includes/template.php:2864
+#: wp-admin/includes/template.php:2865
 msgid "Before you can upload your import file, you will need to fix the following error:"
 msgstr "ก่อนที่คุณสามารถอัปโหลดไฟล์นำเข้าของคุณ  คุณต้องการแก้ไขความผิดพลาดต่อไปนี้:"
 
-#: wp-admin/includes/template.php:2870
+#: wp-admin/includes/template.php:2871
 msgid "Choose a file from your computer:"
 msgstr "เลือกไฟล์จากเครื่องคอมพิวเตอร์ของคุณ"
 
-#: wp-admin/includes/template.php:2870
+#: wp-admin/includes/template.php:2871
 #, php-format
 msgid "Maximum size: %s"
 msgstr "ขนาดใหญ่สุด: %s"
 
-#: wp-admin/includes/template.php:2876
+#: wp-admin/includes/template.php:2877
 msgid "Upload file and import"
 msgstr "อัปโหลดไฟล์และนำเข้า"
 
-#: wp-admin/includes/template.php:3002
+#: wp-admin/includes/template.php:3003
 #: wp-admin/press-this.php:477
 #: wp-admin/press-this.php:495
 #: wp-admin/press-this.php:522
 msgid "Click to toggle"
 msgstr "กดเพื่อปักหมุด"
 
-#: wp-admin/includes/template.php:3222
+#: wp-admin/includes/template.php:3223
 msgid "Find Posts or Pages"
 msgstr "ค้นหาเรื่องหรือหน้า"
 
-#: wp-admin/includes/template.php:3243
+#: wp-admin/includes/template.php:3244
 #: wp-admin/includes/widgets.php:202
 #: wp-includes/js/tinymce/langs/wp-langs.php:31
 #: wp-includes/js/tinymce/wp-mce-help.php:258
@@ -6598,124 +6602,124 @@ msgstr "ค้นหาเรื่องหรือหน้า"
 msgid "Close"
 msgstr "ปิด"
 
-#: wp-admin/includes/template.php:3244
+#: wp-admin/includes/template.php:3245
 #: wp-admin/plugin-editor.php:172
 #: wp-admin/theme-editor.php:138
 msgid "Select"
 msgstr "เลือก"
 
-#: wp-admin/includes/template.php:3275
-#: wp-admin/includes/template.php:3318
+#: wp-admin/includes/template.php:3276
+#: wp-admin/includes/template.php:3319
 msgid "New Page"
 msgstr "หน้าใหม่"
 
-#: wp-admin/includes/template.php:3281
+#: wp-admin/includes/template.php:3282
 msgid "New Media"
 msgstr "สื่อใหม่"
 
-#: wp-admin/includes/template.php:3284
+#: wp-admin/includes/template.php:3285
 #: wp-admin/media.php:45
 #: wp-admin/media.php:90
 msgid "Edit Media"
 msgstr "แก้ไขสื่อ"
 
-#: wp-admin/includes/template.php:3287
+#: wp-admin/includes/template.php:3288
 msgid "New Link"
 msgstr "ลิงก์ใหม่"
 
-#: wp-admin/includes/template.php:3290
+#: wp-admin/includes/template.php:3291
 #: wp-admin/link-manager.php:44
 msgid "Edit Links"
 msgstr "แก้ไขลิงก์"
 
-#: wp-admin/includes/template.php:3293
+#: wp-admin/includes/template.php:3294
 msgid "New User"
 msgstr "ผู้ใช้ใหม่"
 
-#: wp-admin/includes/template.php:3296
+#: wp-admin/includes/template.php:3297
 msgid "Edit Users"
 msgstr "แก้ไขผู้ใช้"
 
-#: wp-admin/includes/template.php:3299
+#: wp-admin/includes/template.php:3300
 #: wp-admin/plugin-install.php:17
 msgid "Install Plugins"
 msgstr "ติดตั้งปลั๊กอิน"
 
-#: wp-admin/includes/template.php:3302
+#: wp-admin/includes/template.php:3303
 #: wp-admin/plugins.php:239
 msgid "Manage Plugins"
 msgstr "จัดการปลั๊กอิน"
 
-#: wp-admin/includes/template.php:3305
+#: wp-admin/includes/template.php:3306
 #: wp-admin/theme-install.php:17
 #: wp-admin/update.php:154
 msgid "Install Themes"
 msgstr "ติดตั้ง Themes"
 
-#: wp-admin/includes/template.php:3308
+#: wp-admin/includes/template.php:3309
 #: wp-admin/themes.php:31
 msgid "Manage Themes"
 msgstr "จัดการ Themes"
 
-#: wp-admin/includes/template.php:3311
-#: wp-admin/includes/template.php:3316
+#: wp-admin/includes/template.php:3312
+#: wp-admin/includes/template.php:3317
 msgid "New Post"
 msgstr "เรื่องใหม่"
 
-#: wp-admin/includes/template.php:3317
+#: wp-admin/includes/template.php:3318
 msgid "Drafts"
 msgstr "ฉบับร่าง"
 
-#: wp-admin/includes/template.php:3369
+#: wp-admin/includes/template.php:3370
 #: wp-includes/script-loader.php:350
 msgid "(no title)"
 msgstr "(ไม่มีหัวข้อ)"
 
 #. translators: post state
-#: wp-admin/includes/template.php:3457
+#: wp-admin/includes/template.php:3458
 msgctxt "post state"
 msgid "Pending"
 msgstr "รอการตรวจสอบ"
 
-#: wp-admin/includes/template.php:3508
+#: wp-admin/includes/template.php:3509
 msgid "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">Writing Posts</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">คู่มือเขียนเรื่อง</a>"
 
-#: wp-admin/includes/template.php:3520
+#: wp-admin/includes/template.php:3521
 msgid "The modules on this screen can be arranged in several columns. You can select the number of columns from the Screen Options tab."
 msgstr "module ในหน้านี้สามารถจัดให้อยู่ในหลาย ๆ คอลัมน์ได้  คุณสามารถเลือกจำนวนคอลัมน์ได้จากหน้าจอทางเลือก (Screen Options tab)"
 
-#: wp-admin/includes/template.php:3533
+#: wp-admin/includes/template.php:3534
 msgid "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=\"_blank\">General Settings</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target=\"_blank\">การตั้งค่าทั่วไป</a>"
 
-#: wp-admin/includes/template.php:3547
+#: wp-admin/includes/template.php:3548
 msgid "Enable accessibility mode"
 msgstr "เปิดใช้โหมด accessibility"
 
-#: wp-admin/includes/template.php:3547
+#: wp-admin/includes/template.php:3548
 msgid "Disable accessibility mode"
 msgstr "เลิกใช้โหมด accessibility"
 
-#: wp-admin/includes/template.php:3559
+#: wp-admin/includes/template.php:3560
 msgid "Show on screen"
 msgstr "แสดงบนหน้าจอ"
 
-#: wp-admin/includes/template.php:3588
+#: wp-admin/includes/template.php:3589
 #, php-format
 msgid "Get help with &#8220;%s&#8221;"
 msgstr "หาความช่วยเหลือด้วย &#8220;%s&#8221;"
 
-#: wp-admin/includes/template.php:3590
+#: wp-admin/includes/template.php:3591
 msgid "Get help with this page"
 msgstr "ขอความช่วยเหลือที่หน้านี้"
 
-#: wp-admin/includes/template.php:3593
+#: wp-admin/includes/template.php:3594
 msgid "Other Help"
 msgstr "ความช่วยเหลืออื่น ๆ"
 
-#: wp-admin/includes/template.php:3595
-#: wp-admin/includes/template.php:3610
+#: wp-admin/includes/template.php:3596
+#: wp-admin/includes/template.php:3611
 #: wp-includes/js/tinymce/langs/wp-langs.php:238
 #: wp-includes/js/tinymce/langs/wp-langs.php:252
 #: wp-includes/js/tinymce/langs/wp-langs.php:409
@@ -6723,95 +6727,95 @@ msgstr "ความช่วยเหลืออื่น ๆ"
 msgid "Help"
 msgstr "ช่วยเหลือ"
 
-#: wp-admin/includes/template.php:3599
+#: wp-admin/includes/template.php:3600
 msgid "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Documentation</a>"
 msgstr "<a href=\"http://codex.wordthai.com/\" \" target=\"_blank\">เอกสารคู่มือเวิร์ดเพรส</a>"
 
-#: wp-admin/includes/template.php:3601
+#: wp-admin/includes/template.php:3602
 msgid "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
 msgstr "<a href=\"http://www.wordthai.com/\" \" target=\"_blank\">เว็บไซต์ช่วยเหลือเกี่ยวกับเวิร์ดเพรส</a>"
 
-#: wp-admin/includes/template.php:3614
+#: wp-admin/includes/template.php:3615
 msgid "Screen Options"
 msgstr "ตัวเลือกหน้า"
 
-#: wp-admin/includes/template.php:3641
+#: wp-admin/includes/template.php:3642
 msgid "Most of the modules on this screen can be moved. If you hover your mouse over the title bar of a module you&rsquo;ll notice the 4 arrow cursor appears to let you know it is movable. Click on it, hold down the mouse button and start dragging the module to a new location. As you drag the module, notice the dotted gray box that also moves. This box indicates where the module will be placed when you release the mouse button."
 msgstr "Module ส่วนใหญ่ในหน้านี้สามารถย้ายได้  ถ้าคุณนำเม้าส์ของคุณไปวางบนหัวข้อของแต่ละ module  คุณจะสังเกตว่ามีรูปลูกศรสี่แฉกปรากฎขึ้นเพื่อแสดงให้รู้ว่าสิ่งนี้สามารถเคลื่อนย้ายได้  กดที่หัวข้อค้างไว้  แล้วลาก module ไปยังที่ใหม่ที่ต้องการ  ทันทีที่คุณลาก module สังเกตได้ว่า จุดสีเทารูปสี่เหลี่ยมก็เคลื่อนที่เช่นกัน  รูปสี่เหลี่ยมจะแสดงที่ที่ module จะถูกวางเมื่อคุณปล่อยปุ่มเม้าส์ที่กดค้างไว้"
 
-#: wp-admin/includes/template.php:3642
+#: wp-admin/includes/template.php:3643
 msgid "The same modules can be expanded and collapsed by clicking once on their title bar and also completely hidden from the Screen Options tab."
 msgstr "module เดียวกันสามารถขยายและย่อส่วนโดยกดเพียงครั้งเดียวที่หัวข้อของ module  และสามารถซ่อนได้จากหน้าจอทางเลือก (Screen Options tab)"
 
-#: wp-admin/includes/template.php:3648
+#: wp-admin/includes/template.php:3649
 msgid "Search help"
 msgstr "ค้นหาความช่วยเหลือ"
 
-#: wp-admin/includes/template.php:3649
+#: wp-admin/includes/template.php:3650
 msgid "You may search based on 3 criteria:"
 msgstr "คุณสามารถค้นหาโดยใช้ตัวเลือกได้ 3 อย่าง"
 
-#: wp-admin/includes/template.php:3650
+#: wp-admin/includes/template.php:3651
 msgid "<strong>Term:</strong> Searches theme names and descriptions for the specified term."
 msgstr "<strong>เงื่อนไข:</strong> ค้นหา theme จากชื่อและคำขยายความเป็นเงื่อนไข"
 
-#: wp-admin/includes/template.php:3651
+#: wp-admin/includes/template.php:3652
 msgid "<strong>Tag:</strong> Searches for themes tagged as such."
 msgstr "<strong>ป้ายกำกับ:</strong> ค้นหา Theme จากป้ายกำกับ"
 
-#: wp-admin/includes/template.php:3652
+#: wp-admin/includes/template.php:3653
 msgid "<strong>Author:</strong> Searches for themes created by the Author, or which the Author contributed to."
 msgstr "<strong>ผู้เขียน:</strong> ค้นหา themes จากชื่อผู้เขียน  หรือสิ่งที่ผู้เขียนคนนี้อุทิศให้"
 
-#: wp-admin/includes/template.php:3658
+#: wp-admin/includes/template.php:3659
 msgid "Widgets are added and arranged by simple drag &#8217;n&#8217; drop. If you hover your mouse over the titlebar of a widget, you&#8217;ll see a 4-arrow cursor which indicates that the widget is movable.  Click on the titlebar, hold down the mouse button and drag the widget to a sidebar. As you drag, you&#8217;ll see a dotted box that also moves. This box shows where the widget will go once you drop it."
 msgstr "การเพิ่มและจัดเรียง widget ทำได้ง่ายดายโดยการลากแล้ววาง  ถ้าคุณนำเม้าส์ของคุณไปวางบนหัวข้อของ widget  คุณจะสังเกตว่ามีรูปลูกศรสี่แฉกปรากฎขึ้นเพื่อแสดงให้รู้ว่า widget นี้สามารถเคลื่อนย้ายได้  กดที่หัวข้อค้างไว้  แล้วลาก widget ไปที่ sidebar ทันทีที่คุณลาก widget สังเกตได้ว่า จุดสีเทารูปสี่เหลี่ยมก็เคลื่อนที่เช่นกัน  รูปสี่เหลี่ยมจะแสดงที่ที่ widget จะถูกวางเมื่อคุณปล่อยปุ่มเม้าส์ที่กดค้างไว้"
 
-#: wp-admin/includes/template.php:3659
+#: wp-admin/includes/template.php:3660
 msgid "To remove a widget from a sidebar, drag it back to Available Widgets or click on the arrow on its titlebar to reveal its settings, and then click Remove."
 msgstr "การลบ widget ออกจากด้านข้าง  ลากมันกลับไปที่ widget ที่ใช้งานหรือกดที่ลูกศรบนหัวข้อของ widget เพื่อเรียกการตั้งค่า  แล้วกดลบ"
 
-#: wp-admin/includes/template.php:3660
+#: wp-admin/includes/template.php:3661
 msgid "To remove a widget from a sidebar <em>and keep its configuration</em>, drag it to Inactive Widgets."
 msgstr "การลบ widget ออกจากด้านข้าง <em>แต่ยังคงการตั้งค่าของมันไว้</em> ให้ลากมันไปยัง Widgets ที่ไม่ใช้งาน"
 
-#: wp-admin/includes/template.php:3661
+#: wp-admin/includes/template.php:3662
 msgid "The Inactive Widgets area stores widgets that are configured but not curently used. If you change themes and the new theme has fewer sidebars than the old, all extra widgets will be stored to Inactive Widgets automatically."
 msgstr "ส่วน Widgets ที่ไม่ใช้งานจะเก็บ widget ที่ทำการตั้งค่าแล้ว แต่ยังไม่เปิดใช้  ถ้าคุณเปลี่ยน theme และ theme ใหม่ มีด้านข้างน้อยกว่า theme เก่า  widget ที่เกินมาจะถูกเก็บไว้ในส่วน widget ที่ไม่ใช้งานโดยอัตโนมัติ"
 
-#: wp-admin/includes/template.php:3683
+#: wp-admin/includes/template.php:3684
 msgid "Screen Layout"
 msgstr "ออกแบบหน้าจอ"
 
-#: wp-admin/includes/template.php:3683
+#: wp-admin/includes/template.php:3684
 msgid "Number of Columns:"
 msgstr "จำนวนของคอลัมน์"
 
-#: wp-admin/includes/template.php:3695
+#: wp-admin/includes/template.php:3696
 msgid "Posts per page:"
 msgstr "จำนวนเรื่องต่อหนึ่งหน้า:"
 
-#: wp-admin/includes/template.php:3698
+#: wp-admin/includes/template.php:3699
 msgid "Pages per page:"
 msgstr "จำนวนหน้าต่อหนึ่งหน้า:"
 
-#: wp-admin/includes/template.php:3701
+#: wp-admin/includes/template.php:3702
 msgid "Comments per page:"
 msgstr "จำนวนความเห็นต่อหนึ่งหน้า:"
 
-#: wp-admin/includes/template.php:3704
+#: wp-admin/includes/template.php:3705
 msgid "Media items per page:"
 msgstr "จำนวนสื่อต่อหน้า:"
 
-#: wp-admin/includes/template.php:3707
+#: wp-admin/includes/template.php:3708
 msgid "Categories per page:"
 msgstr "จำนวนหมวดหมู่ต่อหนึ่งหน้า:"
 
-#: wp-admin/includes/template.php:3710
+#: wp-admin/includes/template.php:3711
 msgid "Tags per page:"
 msgstr "ป้ายกำกับต่อหน้า:"
 
-#: wp-admin/includes/template.php:3713
+#: wp-admin/includes/template.php:3714
 msgid "Plugins per page:"
 msgstr "จำนวนปลั๊กอินต่อหนึ่งหน้า:"
 
@@ -7048,34 +7052,34 @@ msgstr "ไม่สามารถระบุเวิร์ดเพรสไ
 msgid "Could not fully remove the theme %s"
 msgstr "ไม่สามารถลบ theme %s ออกอย่างสมบูรณ์"
 
-#: wp-admin/includes/update-core.php:231
+#: wp-admin/includes/update-core.php:234
 #, php-format
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
 msgstr "ไม่สามารถอัปเดตได้เพราะเวิร์ดเพรส %1$s ต้องการ PHP รุ่น %2$s หรือสูงกว่าและ MySQL รุ่น %3$s หรือสูงกว่า  แต่คุณใช้ PHP รุ่น %4$s และ MySQL รุ่น %5$s"
 
-#: wp-admin/includes/update-core.php:233
+#: wp-admin/includes/update-core.php:236
 #, php-format
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
 msgstr "ไม่สามารถอัปเดตได้เพราะเวิร์ดเพรส %1$s ต้องการ PHP รุ่น %2$s หรือสูงกว่า แต่คุณใช้รุ่น %3$s"
 
-#: wp-admin/includes/update-core.php:235
+#: wp-admin/includes/update-core.php:238
 #, php-format
 msgid "The update cannot be installed because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
 msgstr "ไม่สามารถอัปเดตได้เพราะเวิร์ดเพรส %1$s ต้องการ MySQL รุ่น %2$s หรือสูงกว่า  แต่คุณใช้ %3$s"
 
-#: wp-admin/includes/update-core.php:238
+#: wp-admin/includes/update-core.php:241
 msgid "Verifying the unpacked files"
 msgstr "กำลังตรวจสอบไฟล์ที่แตกจากแพคเกจ"
 
-#: wp-admin/includes/update-core.php:242
+#: wp-admin/includes/update-core.php:245
 msgid "The update could not be unpacked"
 msgstr "ตัวที่อัปเดตไม่สามารถแตกแพคเกจได้"
 
-#: wp-admin/includes/update-core.php:245
+#: wp-admin/includes/update-core.php:248
 msgid "Installing the latest version"
 msgstr "กำลังติดตั้งรุ่นล่าสุด"
 
-#: wp-admin/includes/update-core.php:270
+#: wp-admin/includes/update-core.php:273
 msgid "Upgrading database"
 msgstr "กำลังอัปเกรดฐานข้อมูล"
 
@@ -7353,44 +7357,63 @@ msgstr "ติดตั้งเสร็จแล้ว"
 msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
 msgstr "ดูเหมือนว่าคุณได้ทำการติดตั้งเวิร์ดเพรสอยู่แล้ว  การติดตั้งใหม่อีกครั้ง คุณต้องทำการล้างข้อมูลเก่าในฐานข้อมูลก่อน"
 
-#: wp-admin/install.php:90
+#: wp-admin/install.php:91
+#, php-format
+msgid "You cannot install because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
+msgstr "คุณไม่สามารถติดตั้งได้เพราะเวิร์ดเพรส %1$s ต้องการ PHP รุ่น %2$s หรือสูงกว่าและ MySQL รุ่น %3$s หรือสูงกว่า  แต่คุณใช้ PHP รุ่น %4$s และ MySQL รุ่น %5$s"
+
+#: wp-admin/install.php:93
+#, php-format
+msgid "You cannot install because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
+msgstr "คุณไม่สามารถติดตั้งได้เพราะเวิร์ดเพรส %1$s ต้องการ PHP รุ่น %2$s หรือสูงกว่า แต่คุณใช้รุ่น %3$s"
+
+#: wp-admin/install.php:95
+#, php-format
+msgid "You cannot install because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
+msgstr "คุณไม่สามารถติดตั้งได้เพราะเวิร์ดเพรส %1$s ต้องการ MySQL รุ่น %2$s หรือสูงกว่า  แต่คุณใช้รุ่น %3$s"
+
+#: wp-admin/install.php:99
+msgid "Insufficient Requirements"
+msgstr "ไม่เพียงพอตามความต้องการ"
+
+#: wp-admin/install.php:107
 msgid "Welcome"
 msgstr "ยินดีต้อนรับ"
 
-#: wp-admin/install.php:91
+#: wp-admin/install.php:108
 #, php-format
 msgid "Welcome to the famous five minute WordPress installation process! You may want to browse the <a href=\"%s\">ReadMe documentation</a> at your leisure.  Otherwise, just fill in the information below and you&#8217;ll be on your way to using the most extendable and powerful personal publishing platform in the world."
 msgstr "ยินดีต้อนรับคุณสู่ขั้นตอนการลงเวิร์ดเพรสยอดนิยมที่ใช้เวลาเพียงห้านาที <a href=\"%s\">กรุณาอ่าน เอกสารประกอบ</a> เมื่อคุณมีเวลาว่าง  หรือไม่แล้ว  ก็เพียงกรอกข้อมูลต่าง ๆ ในช่องด้านล่าง  แล้วคุณก็จะได้เป็นหนึ่งในผู้ใช้เว็บบล็อกอันทรงพลังและน่าตื่นตาตื่นใจที่สุดในโลกที่จะทำหน้าที่เผยแพร่เรื่องของคุณออกสู่สายตาผู้อื่น"
 
-#: wp-admin/install.php:92
+#: wp-admin/install.php:109
 msgid "First Step"
 msgstr "ขั้นแรก"
 
-#: wp-admin/install.php:94
+#: wp-admin/install.php:111
 msgid "Information needed"
 msgstr "รายละเอียดที่ต้องการ"
 
-#: wp-admin/install.php:95
+#: wp-admin/install.php:112
 msgid "Please provide the following information.  Don&#8217;t worry, you can always change these settings later."
 msgstr "โปรดใส่ข้อมูลต่อไปนี้  ไม่ต้องห่วงว่าคุณควรใส่อะไร  เพราะคุณสามารถเปลี่ยนแปลงค่าเหล่านี้ได้ในภายหลัง"
 
-#: wp-admin/install.php:115
+#: wp-admin/install.php:132
 msgid "you must provide an e-mail address."
 msgstr "คุณต้องใส่อีเมล์ของคุณ"
 
-#: wp-admin/install.php:119
+#: wp-admin/install.php:136
 msgid "that isn&#8217;t a valid e-mail address.  E-mail addresses look like: <code>username@example.com</code>"
 msgstr "นี่เหมือนจะไม่ใช่อีเมล์ที่ใช้งานได้  รูปแบบอีเมล์นั้นเป็นแบบนี้: <code>username@example.com</code>"
 
-#: wp-admin/install.php:129
+#: wp-admin/install.php:146
 msgid "Success!"
 msgstr "สำเร็จ!"
 
-#: wp-admin/install.php:131
+#: wp-admin/install.php:148
 msgid "WordPress has been installed. Were you expecting more steps? Sorry to disappoint."
 msgstr "เวิร์ดเพรสถูกติดตั้งเสร็จแล้ว  คุณคิดว่าต้องทำอะไรต่ออีกรึเปล่า  ขอโทษด้วยที่เราทำให้คุณผิดหวัง"
 
-#: wp-admin/install.php:147
+#: wp-admin/install.php:164
 #: wp-login.php:527
 #: wp-login.php:546
 msgid "Log In"
@@ -7922,12 +7945,11 @@ msgid "New User Default Role"
 msgstr "บทบาทหลักผู้ใช้ใหม่"
 
 #: wp-admin/options-general.php:104
-#: wp-admin/options-general.php:148
+#: wp-admin/options-general.php:160
 msgid "Timezone"
 msgstr "เขตเวลา"
 
 #: wp-admin/options-general.php:126
-#: wp-includes/functions.php:3468
 #, php-format
 msgid "UTC %s"
 msgstr "UTC %s"
@@ -7937,7 +7959,7 @@ msgid "hours"
 msgstr "ชั่วโมง"
 
 #: wp-admin/options-general.php:131
-#: wp-admin/options-general.php:155
+#: wp-admin/options-general.php:167
 #, php-format
 msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is <code>%s</code>"
 msgstr "<abbr title=\"Coordinated Universal Time\">UTC</abbr> เวลาคือ <code>%s</code>"
@@ -7951,59 +7973,59 @@ msgstr "UTC %1$s คือ <code>%2$s</code>"
 msgid "Unfortunately, you have to manually update this for Daylight Savings Time. Lame, we know, but will be fixed in the future."
 msgstr "คุณต้องอัปเดตด้วยตัวเองสำหรับ Daylight Savings Time ขอโทษด้วยสำหรับสิ่งนี้  เราสัญญาว่าจะปรับปรุงสิ่งนี้ในอนาคต"
 
-#: wp-admin/options-general.php:157
+#: wp-admin/options-general.php:169
 #, php-format
 msgid "Local time is <code>%1$s</code>"
 msgstr "เวลาท้องถิ่นคือ <code>%1$s</code>"
 
-#: wp-admin/options-general.php:160
+#: wp-admin/options-general.php:172
 msgid "Choose a city in the same timezone as you."
 msgstr "เลือกเมืองที่อยู่ในเขตเวลาเดียวกับคุณ"
 
-#: wp-admin/options-general.php:166
+#: wp-admin/options-general.php:178
 msgid "This timezone is currently in daylight savings time."
 msgstr "เขตเวลานี้ปัจจุบันอยู่ใน daylight savings time"
 
-#: wp-admin/options-general.php:167
+#: wp-admin/options-general.php:179
 msgid "This timezone is currently in standard time."
 msgstr "เขตเวลานี้ปัจจุบันอยู่ในเวลามาตรฐาน"
 
-#: wp-admin/options-general.php:183
+#: wp-admin/options-general.php:195
 #, php-format
 msgid "Daylight savings time begins on: <code>%s</code>."
 msgstr "Daylight savings time เริ่มต้นบน: <code>%s</code>."
 
-#: wp-admin/options-general.php:184
+#: wp-admin/options-general.php:196
 #, php-format
 msgid "Standard time begins  on: <code>%s</code>."
 msgstr "เวลามาตรฐานเริ่มบน: <code>%s</code>."
 
-#: wp-admin/options-general.php:187
+#: wp-admin/options-general.php:199
 msgid "This timezone does not observe daylight savings time."
 msgstr "เขตเวลานี้ไม่ได้ปรับตาม daylight savings time"
 
-#: wp-admin/options-general.php:198
-#: wp-admin/options-general.php:200
+#: wp-admin/options-general.php:210
+#: wp-admin/options-general.php:212
 #: xmlrpc.php:417
 msgid "Date Format"
 msgstr "รูปแบบวันที่"
 
-#: wp-admin/options-general.php:223
-#: wp-admin/options-general.php:255
+#: wp-admin/options-general.php:235
+#: wp-admin/options-general.php:267
 msgid "Custom:"
 msgstr "ปรับแต่ง:"
 
-#: wp-admin/options-general.php:225
+#: wp-admin/options-general.php:237
 msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>. Click &#8220;Save Changes&#8221; to update sample output."
 msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">เอกสารประกอบเรียงตามรูปแบบวันที่</a>. กดที่ &#8220;บันทึกการเปลี่ยนแปลง&#8221;  เพื่ออัปเดตผลลัพท์ตัวอย่าง"
 
-#: wp-admin/options-general.php:231
-#: wp-admin/options-general.php:233
+#: wp-admin/options-general.php:243
+#: wp-admin/options-general.php:245
 #: xmlrpc.php:422
 msgid "Time Format"
 msgstr "รูปแบบเวลา"
 
-#: wp-admin/options-general.php:261
+#: wp-admin/options-general.php:273
 msgid "Week Starts On"
 msgstr "วันที่เริ่มของสัปดาห์"
 
@@ -8387,7 +8409,7 @@ msgstr "เวิร์ดเพรสไม่สามารถเตือน
 msgid "Error! Options page not found."
 msgstr "ผิดพลาด!  ไม่พบหน้าทางเลือก"
 
-#: wp-admin/options.php:91
+#: wp-admin/options.php:97
 msgid "All Settings"
 msgstr "การตั้งค่าทั้งหมด"
 
@@ -8470,12 +8492,12 @@ msgid "Plugin Files"
 msgstr "ไฟล์ปลั๊กอิน"
 
 #: wp-admin/plugin-editor.php:208
-#: wp-admin/theme-editor.php:208
+#: wp-admin/theme-editor.php:207
 msgid "Documentation:"
 msgstr "เอกสารประกอบ:"
 
 #: wp-admin/plugin-editor.php:208
-#: wp-admin/theme-editor.php:210
+#: wp-admin/theme-editor.php:209
 msgid "Lookup"
 msgstr "ค้นหา"
 
@@ -8488,12 +8510,12 @@ msgid "Update File and Attempt to Reactivate"
 msgstr "อัปเดตไฟล์และพยายามที่จะใช้งานอีกครั้ง"
 
 #: wp-admin/plugin-editor.php:219
-#: wp-admin/theme-editor.php:218
+#: wp-admin/theme-editor.php:217
 msgid "Update File"
 msgstr "อัปเดตไฟล์"
 
 #: wp-admin/plugin-editor.php:223
-#: wp-admin/theme-editor.php:222
+#: wp-admin/theme-editor.php:221
 msgid "You need to make this file writable before you can save your changes. See <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">the Codex</a> for more information."
 msgstr "คุณต้องทำให้ไฟล์นี้สามารถบันทึกได้ก่อนที่คุณจะบันทึกการเปลี่ยนแปลงของคุณ  ดูรายละเอียดเพิ่มเติมที่ <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">the Codex</a>"
 
@@ -8842,7 +8864,7 @@ msgstr "เรื่องที่เผยแพร่"
 #: wp-includes/default-widgets.php:490
 #: wp-includes/default-widgets.php:586
 #: wp-includes/default-widgets.php:670
-#: wp-includes/default-widgets.php:995
+#: wp-includes/default-widgets.php:997
 msgid "Title:"
 msgstr "หัวข้อ:"
 
@@ -8881,21 +8903,21 @@ msgstr "theme ที่เลือกไม่มีอยู่จริง"
 msgid "Select theme to edit:"
 msgstr "เลือก theme เพื่อแก้ไข:"
 
-#: wp-admin/theme-editor.php:145
+#: wp-admin/theme-editor.php:144
 msgid "Theme Files"
 msgstr "ไฟล์ Theme"
 
-#: wp-admin/theme-editor.php:150
+#: wp-admin/theme-editor.php:149
 msgid "Templates"
 msgstr "Templates"
 
 #. translators: Theme stylesheets in theme editor
-#: wp-admin/theme-editor.php:177
+#: wp-admin/theme-editor.php:176
 msgctxt "Theme stylesheets in theme editor"
 msgid "Styles"
 msgstr "รูปแบบ"
 
-#: wp-admin/theme-editor.php:228
+#: wp-admin/theme-editor.php:227
 msgid "Oops, no such file exists! Double check the name and try again, merci."
 msgstr "ไม่มีไฟล์เหล่านั้นอยู่  กรุณาเช็คชื่อไฟล์อีกครั้งแล้วลองใหม่"
 
@@ -9335,48 +9357,63 @@ msgstr "อัปโหลด Theme"
 msgid "Installing Theme from uploaded file: %s"
 msgstr "ติดตั้ง Theme จากไฟล์อัปโหลด: %s"
 
-#: wp-admin/upgrade.php:44
+#: wp-admin/upgrade.php:49
 msgid "WordPress &rsaquo; Upgrade"
 msgstr "เวิร์ดเพรส &rsaquo; อัปเกรด"
 
-#: wp-admin/upgrade.php:52
+#: wp-admin/upgrade.php:57
 msgid "No Upgrade Required"
 msgstr "ไม่ต้องการการอัปเกรด"
 
-#: wp-admin/upgrade.php:53
+#: wp-admin/upgrade.php:58
 msgid "Your WordPress database is already up-to-date!"
 msgstr "ฐานข้อมูลเวิร์ดเพรสของคุณนั้นทันสมัยแล้ว"
 
 #: wp-admin/upgrade.php:63
+#, php-format
+msgid "You cannot upgrade because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
+msgstr "คุณไม่สามารถอัปเกรดได้เพราะเวิร์ดเพรส %1$s ต้องการ PHP รุ่น %2$s หรือสูงกว่าและ MySQL รุ่น %3$s หรือสูงกว่า  แต่คุณใช้ PHP รุ่น %4$s และ MySQL รุ่น %5$s"
+
+#: wp-admin/upgrade.php:65
+#, php-format
+msgid "You cannot upgrade because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
+msgstr "คุณไม่สามารถอัปเกรดได้เพราะเวิร์ดเพรส %1$s ต้องการ PHP รุ่น %2$s หรือสูงกว่า แต่คุณใช้รุ่น %3$s"
+
+#: wp-admin/upgrade.php:67
+#, php-format
+msgid "You cannot upgrade because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
+msgstr "คุณไม่สามารถอัปเกรดได้เพราะเวิร์ดเพรส %1$s ต้องการ MySQL รุ่น %2$s หรือสูงกว่า  แต่คุณใช้ %3$s"
+
+#: wp-admin/upgrade.php:76
 msgid "Database Upgrade Required"
 msgstr "ต้องการการอัปเดตฐานข้อมูล"
 
-#: wp-admin/upgrade.php:64
+#: wp-admin/upgrade.php:77
 msgid "WordPress has been updated! Before we send you on your way, we have to upgrade your database to the newest version."
 msgstr "เวิร์ดเพรสถูกอัปเดตแล้ว  ก่อนที่คุณจะใช้งานบล็อกของคุณ  เราต้องทำการอัปเกรดฐานข้อมูลของคุณให้เป็นรุ่นใหม่ล่าสุด"
 
-#: wp-admin/upgrade.php:65
+#: wp-admin/upgrade.php:78
 msgid "The upgrade process may take a little while, so please be patient."
 msgstr "การอัปเกรดต้องใช้เวลาซักครู่  กรุณารอก่อน"
 
-#: wp-admin/upgrade.php:66
+#: wp-admin/upgrade.php:79
 msgid "Upgrade WordPress Database"
 msgstr "อัปเกรดฐานข้อมูลเวิร์ดเพรส"
 
-#: wp-admin/upgrade.php:77
+#: wp-admin/upgrade.php:90
 msgid "Upgrade Complete"
 msgstr "อัปเกรดเสร็จแล้ว"
 
-#: wp-admin/upgrade.php:78
+#: wp-admin/upgrade.php:91
 msgid "Your WordPress database has been successfully upgraded!"
 msgstr "ฐานข้อมูลเวิร์ดเพรสของคุณอัปเกรดสำเร็จแล้ว"
 
-#: wp-admin/upgrade.php:83
+#: wp-admin/upgrade.php:96
 #, php-format
 msgid "%s queries"
 msgstr "%s queries"
 
-#: wp-admin/upgrade.php:85
+#: wp-admin/upgrade.php:98
 #, php-format
 msgid "%s seconds"
 msgstr "%s วินาที"
@@ -9426,7 +9463,7 @@ msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "ถังขยะ <span class=\"count\">(%s)</span>"
 
 #: wp-admin/upload.php:296
-#: wp-admin/upload.php:462
+#: wp-admin/upload.php:464
 msgid "Attach to a post"
 msgstr "แนบด้วยกับเรื่อง"
 
@@ -9953,8 +9990,8 @@ msgstr "บันทึกทางเลือก"
 
 #: wp-content/plugins/akismet/akismet.php:137
 #, php-format
-msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have a WordPress.com account yet, you can get one at <a href=\"%2$s\">WordPress.com</a>."
-msgstr "สำหรับหลาย ๆ คน <a href=\"%1$s\">Akismet</a> จะช่วยลดหรือกำจัดความเห็นหรือ trackback สแปมที่มาปรากฎบนเว็บไซต์ของคุณ  ถ้ามีความเห็นไหนที่หลุดรอดไปได้  ก็สามารถกด \"spam\" บนหน้าจอจัดการแล้ว Akismet จะได้เรียนรู้จากความผิดพลาดนี้  ถ้าคุณยังไม่มีบัญชี WordPress.com  คุณสามารถสมัครได้ที่ <a href=\"%2$s\">WordPress.com</a>"
+msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have a WordPress.com account yet, you can get one at <a href=\"%2$s\">Akismet.com</a>."
+msgstr "สำหรับหลาย ๆ คน <a href=\"%1$s\">Akismet</a> จะช่วยลดหรือกำจัดความเห็นหรือ trackback สแปมที่มาปรากฎบนเว็บไซต์ของคุณ  ถ้ามีความเห็นไหนที่หลุดรอดไปได้  ก็สามารถกด \"spam\" บนหน้าจอจัดการแล้ว Akismet จะได้เรียนรู้จากความผิดพลาดนี้  ถ้าคุณยังไม่มีบัญชี WordPress.com  คุณสามารถสมัครได้ที่ <a href=\"%2$s\">Akismet.com</a>"
 
 #: wp-content/plugins/akismet/akismet.php:140
 msgid "WordPress.com API Key"
@@ -10914,48 +10951,48 @@ msgstr "Entries จาก RSS อื่น  หรือ Atom feed"
 msgid "Syndicate this content"
 msgstr "รวมบทความนี้"
 
-#: wp-includes/default-widgets.php:790
+#: wp-includes/default-widgets.php:792
 msgid "An error has occurred; the feed is probably down. Try again later."
 msgstr "มีความผิดพลาดเกิดขึ้น feed อาจใช้งานไม่ได้ชั่วคราว  ลองใหม่อีกครั้งภายหลัง"
 
-#: wp-includes/default-widgets.php:804
+#: wp-includes/default-widgets.php:806
 msgid "Untitled"
 msgstr "ไม่มีหัวข้อ"
 
-#: wp-includes/default-widgets.php:880
+#: wp-includes/default-widgets.php:882
 #, php-format
 msgid "RSS Error: %s"
 msgstr "RSS ผิดพลาด: %s"
 
-#: wp-includes/default-widgets.php:884
+#: wp-includes/default-widgets.php:886
 msgid "Enter the RSS feed URL here:"
 msgstr "ใส่ RSS feed URL ที่นี่:"
 
-#: wp-includes/default-widgets.php:887
+#: wp-includes/default-widgets.php:889
 msgid "Give the feed a title (optional):"
 msgstr "ให้หัวข้อกับ feed (ทางเลือก):"
 
-#: wp-includes/default-widgets.php:890
+#: wp-includes/default-widgets.php:892
 msgid "How many items would you like to display?"
 msgstr "มีจำนวนเท่าไหร่ที่คุณต้องการแสดง"
 
-#: wp-includes/default-widgets.php:899
+#: wp-includes/default-widgets.php:901
 msgid "Display item content?"
 msgstr "แสดงเนื้อเรื่อง?"
 
-#: wp-includes/default-widgets.php:902
+#: wp-includes/default-widgets.php:904
 msgid "Display item author if available?"
 msgstr "แสดงผุ้เขียนเรื่อง (ถ้ามี)?"
 
-#: wp-includes/default-widgets.php:905
+#: wp-includes/default-widgets.php:907
 msgid "Display item date?"
 msgstr "แสดงวันที่?"
 
-#: wp-includes/default-widgets.php:971
+#: wp-includes/default-widgets.php:973
 msgid "Your most used tags in cloud format"
 msgstr "ป้ายกำกับที่คุณใช้มากสุดในรูปแบบของ cloud"
 
-#: wp-includes/default-widgets.php:972
+#: wp-includes/default-widgets.php:974
 msgid "Tag Cloud"
 msgstr "Tag Cloud"
 
@@ -11265,7 +11302,7 @@ msgstr "โปรดลองอีกครั้ง"
 msgid "&laquo; Back"
 msgstr "&laquo; กลับไป"
 
-#. #-#-#-#-#  wordpress.pot (PACKAGE VERSION)  #-#-#-#-#
+#. #-#-#-#-#  wordpress.pot (WordPress 2.9.1)  #-#-#-#-#
 #. Not gettexted string WP_I18N_ERROR_TITLE
 #: wp-includes/functions.php:2521
 #: wp-load.php:50
@@ -11284,12 +11321,17 @@ msgstr "%1$s นั้นทำงานไม่ <strong>สอดคล้อ�
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s นั้นทำงานไม่ <strong>สอดคล้องนัก</strong>  ตั้งแต่รุ่น %2$s ไม่มีทางเลือกมารองรับ"
 
-#: wp-includes/functions.php:3440
+#: wp-includes/functions.php:3437
 msgid "Select a city"
 msgstr "เลือกเมือง"
 
-#: wp-includes/functions.php:3455
-msgid "Manual offsets"
+#: wp-includes/functions.php:3482
+#: wp-includes/functions.php:3486
+msgid "UTC"
+msgstr "UTC"
+
+#: wp-includes/functions.php:3490
+msgid "Manual Offsets"
 msgstr "ทำการทดแทนเอง"
 
 #: wp-includes/general-template.php:125
@@ -11409,7 +11451,7 @@ msgid "User has blocked requests through HTTP."
 msgstr "ผู้ใช้ได้ปิดกั้นคำร้องที่ผ่าน HTTP"
 
 #: wp-includes/http.php:746
-#: wp-includes/http.php:1380
+#: wp-includes/http.php:1373
 msgid "Too many redirects."
 msgstr "redirect มากเกินไป"
 
@@ -13436,11 +13478,11 @@ msgstr "ไม่สามารถเพิ่มเรื่องในฐา
 msgid "The page template is invalid."
 msgstr "หน้า template ใช้งานไม่ได้"
 
-#: wp-includes/post.php:3854
+#: wp-includes/post.php:3856
 msgid "Cannot create a revision of a revision"
 msgstr "ไม่สามารถสร้างรุ่นของการปรับปรุงได้"
 
-#: wp-includes/post.php:4030
+#: wp-includes/post.php:4032
 msgid "You do not have permission to preview drafts."
 msgstr "คุณไม่มีสิทธิ์ดูฉบับร่าง"
 

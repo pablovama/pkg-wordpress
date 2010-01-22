@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress 2.9.1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-12-30 00:57+0000\n"
-"PO-Revision-Date: 2010-01-05 04:36+0300\n"
+"PO-Revision-Date: 2010-01-19 07:24+0300\n"
 "Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
 "Language-Team: ru.wordpress.org <npocmop@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -9351,7 +9351,7 @@ msgstr "Вернуть это обновление"
 
 #: wp-admin/update-core.php:55
 msgid "This localized version contains both the translation and various other localization fixes. You can skip upgrading if you want to keep your current translation."
-msgstr "Это локализованная версия содержит перевод и различные другие исправления локализации. Вы можете пропустить обновление, чтобы сохранить текущий перевод."
+msgstr "Эта локализованная версия содержит перевод и некоторые другие изменения. Вы можете пропустить обновление, чтобы сохранить текущий перевод."
 
 #: wp-admin/update-core.php:57
 #, php-format
