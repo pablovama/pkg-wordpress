@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress 2.9 package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-01-04 23:48+0100\n"
+"PO-Revision-Date: 2010-02-02 23:03+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,7 +10,7 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: WordPress 2.9\n"
 "POT-Creation-Date: \n"
-"Last-Translator: Olaf Schmitz <olaf@wordpress-deutschland.org>\n"
+"Last-Translator: Olaf Schmitz <olaf@inpsyde.com>\n"
 "Language-Team: \n"
 
 #: wp-includes/post-template.php:1340
@@ -1191,7 +1191,7 @@ msgstr "Dieser Kommentar befindet sich im Papierkorb . Wenn du ihn bearbeiten m�
 #: wp-admin/edit-link-category-form.php:83
 #: wp-admin/edit-tags.php:303
 msgid "The description is not prominent by default; however, some themes may show it."
-msgstr "Die Beschreibung wird nicht immer angezeigt. Bei dem ein oder anderen Theme mag sie angezeigt weden."
+msgstr "Die Beschreibung wird nicht immer angezeigt. Bei dem ein oder anderen Theme mag sie angezeigt werden."
 
 #: wp-admin/edit-attachment-rows.php:100
 #: wp-admin/edit-comments.php:306
@@ -2123,7 +2123,7 @@ msgstr "Es scheint so, als wäre die Datei <code>wp-config.php</code> nicht vorh
 #: wp-settings.php:109
 #: wp-admin/setup-config.php:55
 msgid "Your server is running PHP version %s but WordPress requires at least 4.3."
-msgstr "Auf deinem Server läft PHP in der Version %s, WordPress benötigt jedoch mindestens 4.3."
+msgstr "Dein Server läuft mit der PHP-Version %s, WordPress benötigt jedoch mindestens die Version 4.3."
 
 #: wp-settings.php:148
 #: wp-admin/setup-config.php:58
@@ -2132,7 +2132,7 @@ msgstr "Deine PHP-Installation scheint nicht über die von WordPress benötigte 
 
 #: wp-settings.php:290
 msgid "<strong>ERROR</strong>: <code>$table_prefix</code> in <code>wp-config.php</code> can only contain numbers, letters, and underscores."
-msgstr "<strong>FEHLER</strong>: <code>$table_prefix</code> in <code>wp-config.php</code> darf nur Nummern, Buchstaben und Unterstriche enthalten."
+msgstr "<strong>FEHLER</strong>: Das Tabellenpräfix <code>$table_prefix</code> in <code>wp-config.php</code> darf nur Buchstaben, Zahlen und Unterstriche enthalten."
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:61
 msgid "The ssh2 PHP extension is available, however, we require the PHP5 function <code>stream_get_contents()</code>"
@@ -2404,7 +2404,7 @@ msgstr "Passwortgeschützt"
 
 #: wp-includes/script-loader.php:316
 msgid "Submitted on:"
-msgstr "Eingegangen am:"
+msgstr "Eingereicht am:"
 
 #: wp-includes/script-loader.php:331
 msgid "Word count: %d"
@@ -3892,7 +3892,7 @@ msgstr "Trackback (Kurzfassung):"
 
 #: wp-includes/pluggable.php:1090
 msgid "A new pingback on the post #%1$s \"%2$s\" is waiting for your approval"
-msgstr "Ein neuer Pinkback zum Artikel #%1$s \"%2$s\" wartet auf deine Freigabe."
+msgstr "Ein neuer Pingback zum Artikel #%1$s \"%2$s\" wartet auf deine Freigabe."
 
 #: wp-includes/pluggable.php:1094
 msgid "Pingback excerpt: "
@@ -8724,7 +8724,7 @@ msgstr "Spam"
 
 #: wp-admin/edit-form-comment.php:59
 msgid "Submitted on: <b>%1$s</b>"
-msgstr "Eingegangen am: <b>%1$s</b>"
+msgstr "Eingereicht am:: <b>%1$s</b>"
 
 #: wp-admin/edit-form-comment.php:74
 #: wp-admin/includes/template.php:2358
@@ -9970,7 +9970,7 @@ msgstr "Standardavatar"
 
 #: wp-admin/options-discussion.php:188
 msgid "For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their e-mail address."
-msgstr "Für Benutzer ohne eigenen Avatar, kann wahlweise ein Standardlogo oder ein auf Basis deren Emailadresse erzeugter Avatar angezeigt werden."
+msgstr "Für Benutzer ohne eigenen Avatar, kann wahlweise ein Standardlogo oder ein auf Basis deren Mailadresse erzeugter Avatar angezeigt werden."
 
 #: wp-admin/options-discussion.php:192
 msgid "Mystery Man"
@@ -10416,7 +10416,7 @@ msgstr "Fernpublizieren"
 
 #: wp-admin/options-writing.php:63
 msgid "To post to WordPress from a desktop blogging client or remote website that uses the Atom Publishing Protocol or one of the XML-RPC publishing interfaces you must enable them below."
-msgstr "Um einen Artikel in WordPress mit einem Desktop-Blogging-Programm zu erstellen, das das Atom Publishing Protocol oder eine XML-RPC-Schnittstelle benutzt, musst du diese Schnittstellen hier aktivieren."
+msgstr "Um einen Artikel in WordPress mit einem Desktop-Blogging-Programm zu erstellen, dass das Atom Publishing Protocol oder eine XML-RPC-Schnittstelle benutzt, musst du diese Schnittstellen hier aktivieren."
 
 #: wp-admin/options-writing.php:66
 #: wp-admin/options-writing.php:67
@@ -12443,7 +12443,7 @@ msgstr "Name und E-Mail-Adresse des Autoren sind erforderlich."
 
 #: xmlrpc.php:1331
 msgid "A valid email address is required"
-msgstr "Eine gültige E-Mailadresse ist erforderlich"
+msgstr "Eine gültige Mailadresse ist erforderlich"
 
 #: xmlrpc.php:1364
 #: xmlrpc.php:1426

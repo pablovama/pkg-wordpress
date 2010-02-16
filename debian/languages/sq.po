@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trunk\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-01-05 04:57+0000\n"
-"PO-Revision-Date: 2010-01-05 18:12+0200\n"
+"POT-Creation-Date: 2010-02-15 17:47+0000\n"
+"PO-Revision-Date: 2010-02-15 20:23+0200\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
 "Language-Team: Albanian <besnik@programeshqip.org>\n"
 "MIME-Version: 1.0\n"
@@ -107,7 +107,7 @@ msgstr "Më ndjeni, duhet të jeni i futur që t&#8217;i përgjigjeni një komen
 
 #: wp-admin/admin-ajax.php:734
 #: wp-admin/admin-ajax.php:780
-#: wp-comments-post.php:74
+#: wp-comments-post.php:77
 msgid "Error: please type a comment."
 msgstr "Gabim: ju lutem, shkruani një koment."
 
@@ -7742,7 +7742,7 @@ msgstr "Permalidhje"
 msgid "Miscellaneous"
 msgstr "Të ndryshme"
 
-#: wp-admin/menu.php:309
+#: wp-admin/menu.php:311
 msgid "You do not have sufficient permissions to access this page."
 msgstr "Nuk keni leje të mjaftueshme për të hyrë në këtë faqe."
 
@@ -10009,15 +10009,15 @@ msgstr "Ndodhi një gabim gjatë hyrjes në tejtëdhëna për vend kartele"
 msgid "Sorry, comments are closed for this item."
 msgstr "Na ndjeni, për këtë pjese komentet janë mbyllur."
 
-#: wp-comments-post.php:61
+#: wp-comments-post.php:64
 msgid "Sorry, you must be logged in to post a comment."
 msgstr "Na ndjeni, duhet të jeni i futur që të postoni një koment."
 
-#: wp-comments-post.php:68
+#: wp-comments-post.php:71
 msgid "Error: please fill the required fields (name, email)."
 msgstr "Gabim: ju lutem, plotësoni kutitë e domosdoshme (emër, email)."
 
-#: wp-comments-post.php:70
+#: wp-comments-post.php:73
 msgid "Error: please enter a valid email address."
 msgstr "Gabim: ju lutem, jepni një vendndodhje email të vlefshme."
 
@@ -11384,7 +11384,7 @@ msgstr "Ju lutem, riprovoni."
 msgid "&laquo; Back"
 msgstr "&laquo; Mbrapsht"
 
-#. #-#-#-#-#  wordpress.pot (WordPress 2.9.1)  #-#-#-#-#
+#. #-#-#-#-#  wordpress.pot (WordPress 2.9.2)  #-#-#-#-#
 #. Not gettexted string WP_I18N_ERROR_TITLE
 #: wp-includes/functions.php:2521
 #: wp-load.php:50

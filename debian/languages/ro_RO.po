@@ -1,26 +1,23 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Wordpress 2.9 în limba română\n"
+"Project-Id-Version: Wordpress 2.9.1 în limba română\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-12-18 00:56+0000\n"
-"PO-Revision-Date: 2010-01-13 11:52+0200\n"
-"Last-Translator: Cipri Palamariu <cheeprey@cheeprey.ro>\n"
-"Language-Team: Cipri Palamariu | http://cheeprey.ro/ <cheeprey@cheeprey.ro>\n"
+"PO-Revision-Date: 2010-02-15 22:36+0200\n"
+"Last-Translator: Stas Sușcov <stas@softwareliber.ro>\n"
+"Language-Team: Echipa de localizare WordPress în Română <wp@softwareliber.ro>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
-"X-Generator: Narro 0.9.4 on http://tradu.softwareliber.ro\n"
 "X-Poedit-Language: Romanian\n"
 "X-Poedit-Country: ROMANIA\n"
-"X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: wp-admin/admin-ajax.php:31
 #, php-format
 msgid "<strong>ALERT: You are logged out!</strong> Could not save draft. <a href=\"%s\" target=\"blank\">Please log in again.</a>"
-msgstr "<strong>ALERTĂ: Ești deautentificat!</strong> Nu am putut salva ciorna. <a href=\"%s\" target=\"blank\">Te rog să te autentifici iari.</a>"
+msgstr "<strong>ALERTĂ: Ești deautentificat!</strong> Nu am putut salva ciorna. <a href=\"%s\" target=\"blank\">Te rog să te autentifici iar.</a>"
 
 #: wp-admin/admin-ajax.php:186
 #: wp-admin/categories.php:182
@@ -100,7 +97,7 @@ msgstr "Nu s-a găsit nicio etichetă!"
 
 #: wp-admin/admin-ajax.php:715
 msgid "Error: you are replying to a comment on a draft post."
-msgstr "Eroare: Încerci să răspunzi unui comentariu la un post ciornă."
+msgstr "Eroare: Încerci să răspunzi unui comentariu la un articol ciornă."
 
 #: wp-admin/admin-ajax.php:730
 msgid "Sorry, you must be logged in to reply to a comment."
@@ -145,7 +142,7 @@ msgstr "Autosalvare dezactivată: %s editează acum această pagină."
 #: wp-admin/admin-ajax.php:947
 #, php-format
 msgid "Autosave disabled: %s is currently editing this post."
-msgstr "Autosalvare dezactivată: %s editează acum acest post."
+msgstr "Autosalvare dezactivată: %s editează acum acest articol."
 
 #: wp-admin/admin-ajax.php:956
 #: wp-admin/admin-ajax.php:1093
@@ -162,7 +159,7 @@ msgstr "Nu ai voie să editezi această pagină."
 #: wp-admin/post.php:134
 #: wp-admin/upload.php:41
 msgid "You are not allowed to edit this post."
-msgstr "Nu ai voie să editezi acest post."
+msgstr "Nu ai voie să editezi acest articol."
 
 #: wp-admin/admin-ajax.php:1102
 #, php-format
@@ -172,7 +169,7 @@ msgstr "Salvarea este dezactivată: %s editează acum această pagină."
 #: wp-admin/admin-ajax.php:1102
 #, php-format
 msgid "Saving is disabled: %s is currently editing this post."
-msgstr "Salvarea este dezactivată: %s editează acum acest post."
+msgstr "Salvarea este dezactivată: %s editează acum acest articol."
 
 #: wp-admin/admin-ajax.php:1150
 #: wp-admin/categories.php:26
@@ -220,7 +217,7 @@ msgstr "Eticheta nu a fost actualizată."
 
 #: wp-admin/admin-ajax.php:1230
 msgid "No posts found."
-msgstr "Niciun post găsit."
+msgstr "Niciun articol găsit."
 
 #: wp-admin/admin-ajax.php:1232
 #: wp-admin/edit-form-advanced.php:176
@@ -341,7 +338,7 @@ msgstr "Gri "
 
 #: wp-admin/admin.php:98
 msgid "Invalid plugin page"
-msgstr "Pagina plugin-ului e invalidă"
+msgstr "Pagina modulului e invalidă"
 
 #: wp-admin/admin.php:102
 #, php-format
@@ -518,7 +515,7 @@ msgstr "Aplică"
 #: wp-admin/categories.php:247
 #, php-format
 msgid "<strong>Note:</strong><br />Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the category <strong>%s</strong>."
-msgstr "<strong>Notă:</strong><br />Ștergerea unei categorii nu implică și ștergerea posturilor din acea categorie. În schimb, posturile sunt introduse în categoria <strong>%s</strong>."
+msgstr "<strong>Notă:</strong><br />Ștergerea unei categorii nu implică și ștergerea articolelor din acea categorie. În schimb, articolele sunt introduse în categoria <strong>%s</strong>."
 
 #: wp-admin/categories.php:248
 #, php-format
@@ -539,7 +536,7 @@ msgstr "Nume categorie"
 
 #: wp-admin/categories.php:270
 msgid "The name is used to identify the category almost everywhere, for example under the post or in the category widget."
-msgstr "Numele este folosit pentru identificarea categoriei aproape peste tot, de exemplu la post sau în widget-ul cu categorii."
+msgstr "Numele este folosit pentru identificarea categoriei aproape peste tot, de exemplu la articol sau în widget-ul cu categorii."
 
 #: wp-admin/categories.php:274
 #: wp-admin/edit-category-form.php:62
@@ -553,7 +550,7 @@ msgstr "Slug categorie"
 #: wp-admin/edit-tag-form.php:41
 #: wp-admin/edit-tags.php:297
 msgid "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
-msgstr "&#8220;Slug-ul&#8221; este conversia numelui postului pentru generarea legăturilor mai simple. De obicei este compus din litere, numere, și cratime."
+msgstr "&#8220;Slug-ul&#8221; este conversia numelui articolului pentru generarea legăturilor mai simple. De obicei este compus din litere, numere, și cratime."
 
 #: wp-admin/categories.php:280
 #: wp-admin/edit-category-form.php:67
@@ -603,7 +600,7 @@ msgstr "Descriere"
 #: wp-admin/edit-link-category-form.php:83
 #: wp-admin/edit-tags.php:303
 msgid "The description is not prominent by default; however, some themes may show it."
-msgstr "Descrierea nu este absolut necesară, cu toate acestea unele teme o pot afișa."
+msgstr "Descrierea nu este absolut necesară, cu toate acestea unele șabloane o pot afișa."
 
 #: wp-admin/comment.php:46
 #: wp-admin/edit-form-comment.php:16
@@ -628,7 +625,7 @@ msgstr "Du-te înapoi"
 #: wp-admin/comment.php:57
 #: wp-admin/comment.php:171
 msgid "You are not allowed to edit comments on this post."
-msgstr "Nu ai voie să editezi comentarii la acest post."
+msgstr "Nu ai voie să editezi comentarii la acest articol."
 
 #: wp-admin/comment.php:60
 msgid "This comment is in the Trash. Please move it out of the Trash if you want to edit it."
@@ -636,12 +633,12 @@ msgstr "Acest comentariu se află în gunoi. Te rog scoate-l din gunoi dacă vre
 
 #: wp-admin/comment.php:84
 msgid "You are not allowed to delete comments on this post."
-msgstr "Nu ai voie să ștergi comentarii la acest post."
+msgstr "Nu ai voie să ștergi comentarii la acest articol."
 
 #: wp-admin/comment.php:84
 #: wp-admin/comment.php:222
 msgid "You are not allowed to edit comments on this post, so you cannot approve this comment."
-msgstr "Nu ai voie să editezi comentarii la acest post, deci nu aproba acest comentariu."
+msgstr "Nu ai voie să editezi comentarii la acest articol, deci nu aproba acest comentariu."
 
 #: wp-admin/comment.php:92
 msgid "You are about to mark the following comment as spam:"
@@ -736,7 +733,7 @@ msgstr "Nu"
 
 #: wp-admin/comment.php:224
 msgid "You are not allowed to edit comments on this post, so you cannot disapprove this comment."
-msgstr "Nu ai voie să editezi comentarii la acest post, deci nu poți dezaproba acest comentariu."
+msgstr "Nu ai voie să editezi comentarii la acest articol, deci nu poți dezaproba acest comentariu."
 
 #: wp-admin/comment.php:262
 #: wp-admin/includes/media.php:1638
@@ -1277,7 +1274,7 @@ msgstr "Niciun rezultat găsit."
 #: wp-admin/edit-form-advanced.php:28
 #, php-format
 msgid "Post updated. <a href=\"%s\">View post</a>"
-msgstr "Post actualizat. <a target=\"_blank\" href=\"%s\">Vezi postul</a>."
+msgstr "Articol actualizat. <a target=\"_blank\" href=\"%s\">Vezi articolul</a>."
 
 #: wp-admin/edit-form-advanced.php:31
 #: wp-admin/edit-page-form.php:32
@@ -1291,33 +1288,33 @@ msgstr "Câmpul special a fost șters."
 
 #: wp-admin/edit-form-advanced.php:37
 msgid "Post updated."
-msgstr "Post actualizat."
+msgstr "Articol actualizat."
 
 #: wp-admin/edit-form-advanced.php:41
 #, php-format
 msgid "Post restored to revision from %s"
-msgstr "Post restaurat la revizia din %s"
+msgstr "Articol restaurat la revizia din %s"
 
 #: wp-admin/edit-form-advanced.php:44
 #, php-format
 msgid "Post published. <a href=\"%s\">View post</a>"
-msgstr "Post publicat. <a target=\"_blank\" href=\"%s\">Vezi postul</a>"
+msgstr "Articol publicat. <a target=\"_blank\" href=\"%s\">Vezi articolul</a>"
 
 #: wp-admin/edit-form-advanced.php:47
 #: wp-admin/sidebar.php:100
 msgid "Post saved."
-msgstr "Post salvat."
+msgstr "Articol salvat."
 
 #: wp-admin/edit-form-advanced.php:50
 #, php-format
 msgid "Post submitted. <a target=\"_blank\" href=\"%s\">Preview post</a>"
-msgstr "Post trimis. <a target=\"_blank\" href=\"%s\">Previzualizează postul</a>"
+msgstr "Articol trimis. <a target=\"_blank\" href=\"%s\">Previzualizează articolul</a>"
 
 #. translators: Publish box date formt, see http://php.net/date - Same as in meta-boxes.php
 #: wp-admin/edit-form-advanced.php:54
 #, php-format
 msgid "Post scheduled for: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Preview post</a>"
-msgstr "Post programat pentru: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Previzualizează postul</a>."
+msgstr "Articol programat pentru: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Previzualizează articolul</a>."
 
 #. translators: Publish box date formt, see http://php.net/date
 #: wp-admin/edit-form-advanced.php:54
@@ -1330,7 +1327,7 @@ msgstr "j M, Y @ G:i"
 #: wp-admin/edit-form-advanced.php:57
 #, php-format
 msgid "Post draft updated. <a target=\"_blank\" href=\"%s\">Preview post</a>"
-msgstr "Post ciornă actualizat. <a target=\"_blank\" href=\"%s\">Previzualizează postul</a>"
+msgstr "Ciornă a articolului actualizată. <a target=\"_blank\" href=\"%s\">Previzualizează articolul</a>"
 
 #: wp-admin/edit-form-advanced.php:77
 #, php-format
@@ -1351,7 +1348,7 @@ msgstr "Publică"
 
 #: wp-admin/edit-form-advanced.php:102
 msgid "Post Thumbnail"
-msgstr "Miniatură post"
+msgstr "Miniatură articol"
 
 #: wp-admin/edit-form-advanced.php:103
 #: wp-admin/includes/meta-boxes.php:313
@@ -1376,16 +1373,16 @@ msgstr "Discuție"
 
 #: wp-admin/edit-form-advanced.php:113
 msgid "Post Slug"
-msgstr "Slug post"
+msgstr "Slug articol"
 
 #: wp-admin/edit-form-advanced.php:119
 msgid "Post Author"
-msgstr "Autor post"
+msgstr "Autorul articolului"
 
 #: wp-admin/edit-form-advanced.php:122
 #: wp-admin/revision.php:141
 msgid "Post Revisions"
-msgstr "Revizii post"
+msgstr "Reviziile articolului"
 
 #: wp-admin/edit-form-advanced.php:207
 #: wp-admin/edit-page-form.php:163
@@ -1949,7 +1946,7 @@ msgstr "Slug etichetă"
 
 #: wp-admin/edit-tag-form.php:46
 msgid "The description is not prominent by default, however some themes may show it."
-msgstr "Descrierea, normal, nu este absolut necesară, cu toate acestea unele teme o pot afișa."
+msgstr "Descrierea, normal, nu este absolut necesară, cu toate acestea unele șabloane o pot afișa."
 
 #: wp-admin/edit-tag-form.php:50
 #: wp-admin/includes/template.php:266
@@ -2015,22 +2012,22 @@ msgstr "Adaugă etichetă"
 #: wp-admin/post.php:200
 #: wp-admin/upload.php:93
 msgid "You are not allowed to move this post to the trash."
-msgstr "Nu ai voie să muți acest post în gunoi."
+msgstr "Nu ai voie să muți acest articol în gunoi."
 
 #: wp-admin/edit.php:60
 msgid "You are not allowed to restore this post from the trash."
-msgstr "Nu ai voie să restaurezi acest post din gunoi."
+msgstr "Nu ai voie să restaurezi acest articol din gunoi."
 
 #: wp-admin/edit.php:75
 #: wp-admin/post.php:232
 #: wp-admin/upload.php:113
 msgid "You are not allowed to delete this post."
-msgstr "Nu ai voie să ștergi acest post."
+msgstr "Nu ai voie să ștergi acest articol."
 
 #: wp-admin/edit.php:111
 #: wp-admin/includes/template.php:3272
 msgid "Edit Posts"
-msgstr "Editează posturi"
+msgstr "Editează articole"
 
 #. translators: add new post
 #: wp-admin/edit.php:137
@@ -2042,18 +2039,18 @@ msgstr "Adaugă"
 #: wp-admin/edit.php:144
 #: wp-admin/press-this.php:545
 msgid "Your post has been saved."
-msgstr "Postul a fost salvat."
+msgstr "Articolul a fost salvat."
 
 #: wp-admin/edit.php:144
 #: wp-admin/press-this.php:545
 msgid "View post"
-msgstr "Vezi post"
+msgstr "Vezi articolul"
 
 #: wp-admin/edit.php:144
 #: wp-admin/press-this.php:545
 #: wp-includes/link-template.php:733
 msgid "Edit post"
-msgstr "Editează post"
+msgstr "Editează articolul"
 
 #: wp-admin/edit.php:151
 #, php-format
@@ -2067,42 +2064,42 @@ msgstr[2] "%s de pagini actualizate."
 #, php-format
 msgid "%s post not updated, somebody is editing it."
 msgid_plural "%s posts not updated, somebody is editing them."
-msgstr[0] "%s post neactualizat, cineva îl editează."
-msgstr[1] "%s posturi neactualizate, cineva le editează."
-msgstr[2] "%s de posturi neactualizate, cineva le editează."
+msgstr[0] "%s articol neactualizat, cineva îl editează."
+msgstr[1] "%s articole neactualizate, cineva le editează."
+msgstr[2] "%s de articole neactualizate, cineva le editează."
 
 #: wp-admin/edit.php:164
 #, php-format
 msgid "Post permanently deleted."
 msgid_plural "%s posts permanently deleted."
-msgstr[0] "Post șters definitiv."
-msgstr[1] "%s posturi șterse definitiv."
-msgstr[2] "%s de de posturi șterse definitiv."
+msgstr[0] "Articol șters definitiv."
+msgstr[1] "%s articole șterse definitiv."
+msgstr[2] "%s de articole șterse definitiv."
 
 #: wp-admin/edit.php:169
 #, php-format
 msgid "Post moved to the trash."
 msgid_plural "%s posts moved to the trash."
-msgstr[0] "Post mutat în gunoi."
-msgstr[1] "%s posturi mutate în gunoi."
-msgstr[2] "%s de posturi mutate în gunoi."
+msgstr[0] "Articol mutat în gunoi."
+msgstr[1] "%s articole mutate în gunoi."
+msgstr[2] "%s de articole mutate în gunoi."
 
 #: wp-admin/edit.php:176
 #, php-format
 msgid "Post restored from the trash."
 msgid_plural "%s posts restored from the trash."
-msgstr[0] "Post restaurat din gunoi."
-msgstr[1] "%s posturi restaurate din gunoi."
-msgstr[2] "%s de posturi restaurate din gunoi."
+msgstr[0] "Articol restaurat din gunoi."
+msgstr[1] "%s articole restaurate din gunoi."
+msgstr[2] "%s de articole restaurate din gunoi."
 
 #: wp-admin/edit.php:198
 #, php-format
 msgctxt "posts"
 msgid "My Posts <span class=\"count\">(%s)</span>"
 msgid_plural "My Posts <span class=\"count\">(%s)</span>"
-msgstr[0] "Posturile mele <span class=\"count\">(%s)</span>"
-msgstr[1] "Posturile mele <span class=\"count\">(%s)</span>"
-msgstr[2] "Posturile mele <span class=\"count\">(%s)</span>"
+msgstr[0] "Articolele mele <span class=\"count\">(%s)</span>"
+msgstr[1] "Articolele mele <span class=\"count\">(%s)</span>"
+msgstr[2] "Articolele mele <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit.php:204
 #, php-format
@@ -2116,7 +2113,7 @@ msgstr[2] "Toate <span class=\"count\">(%s)</span>"
 #: wp-admin/edit.php:227
 #: wp-admin/edit.php:229
 msgid "Search Posts"
-msgstr "Caută posturi"
+msgstr "Caută articole"
 
 #: wp-admin/edit.php:280
 #: wp-admin/includes/media.php:1888
@@ -2138,11 +2135,11 @@ msgstr "Vezi rezumat"
 
 #: wp-admin/edit.php:368
 msgid "No posts found in the trash"
-msgstr "Niciun post găsit în gunoi."
+msgstr "Niciun articol găsit în gunoi."
 
 #: wp-admin/edit.php:370
 msgid "No posts found"
-msgstr "Niciun post găsit"
+msgstr "Niciun articol găsit"
 
 #: wp-admin/export.php:13
 msgid "You do not have sufficient permissions to export the content of this blog."
@@ -2159,7 +2156,7 @@ msgstr "După apăsarea butonului de mai jos, WordPress va crea un fișier XML c
 
 #: wp-admin/export.php:33
 msgid "This format, which we call WordPress eXtended RSS or WXR, will contain your posts, pages, comments, custom fields, categories, and tags."
-msgstr "Acest format, numit WordPress eXtended RSS sau WXR, va conține posturile, comentariile, câmpurile speciale, categoriile și etichetele."
+msgstr "Acest format, numit WordPress eXtended RSS sau WXR, va conține articolele, comentariile, câmpurile speciale, categoriile și etichetele."
 
 #: wp-admin/export.php:34
 msgid "Once you&#8217;ve saved the download file, you can use the Import function on another WordPress blog to import this blog."
@@ -2188,7 +2185,7 @@ msgstr "Nu ai drepturi suficiente pe acest blog pentru a prelua conținut."
 
 #: wp-admin/import.php:23
 msgid "If you have posts or comments in another system, WordPress can import those into this blog. To get started, choose a system to import from below:"
-msgstr "Dacă ai posturi sau comentarii în alt sistem, WordPress le poate prelua în acest blog. Pentru început alege sistemul de preluare de mai jos:"
+msgstr "Dacă ai articole sau comentarii în alt sistem, WordPress le poate prelua în acest blog. Pentru început alege sistemul de preluare de mai jos:"
 
 #: wp-admin/import.php:45
 msgid "No importers are available."
@@ -2200,7 +2197,7 @@ msgstr "Preluare Blogger"
 
 #: wp-admin/import/blogger.php:51
 msgid "Howdy! This importer allows you to import posts and comments from your Blogger account into your WordPress blog."
-msgstr "Salut! Acest script de preluare ajută la preluarea posturilor și a comentariilor din contul tău Blogger în blogul tău WordPress."
+msgstr "Salut! Acest script de preluare ajută la preluarea articolelor și a comentariilor din contul tău Blogger în blogul tău WordPress."
 
 #: wp-admin/import/blogger.php:52
 msgid "To use this importer, you must have a Google account and an upgraded (New, was Beta) blog hosted on blogspot.com or a custom domain (not FTP)."
@@ -2208,7 +2205,7 @@ msgstr "Pentru a folosi acest script de preluare, ai nevoie de un cont Google ș
 
 #: wp-admin/import/blogger.php:53
 msgid "The first thing you need to do is tell Blogger to let WordPress access your account. You will be sent back here after providing authorization."
-msgstr "Primul pas este să îi permiți Wordpress-ului să acceseze contul de Blogger. Vei fi redirecționat înapoi după ce autorizezi."
+msgstr "Primul pas este să îi permiți WordPress-ului să acceseze contul de Blogger. Vei fi redirecționat înapoi după ce autorizezi."
 
 #: wp-admin/import/blogger.php:54
 msgid "Authorize"
@@ -2290,7 +2287,7 @@ msgstr "Butonul magic"
 #: wp-admin/includes/template.php:3236
 #: wp-admin/menu.php:32
 msgid "Posts"
-msgstr "Posturi"
+msgstr "Articole"
 
 #: wp-admin/import/blogger.php:207
 msgid "This feature requires Javascript but it seems to be disabled. Please enable Javascript and then reload this page. Don&#8217;t worry, you can turn it back off when you&#8217;re done."
@@ -2298,7 +2295,7 @@ msgstr "Această funcționalitate necesită Javascript dar pare să fie dezactiv
 
 #: wp-admin/import/blogger.php:662
 msgid "All posts were imported with the current user as author. Use this form to move each Blogger user&#8217;s posts to a different WordPress user. You may <a href=\"users.php\">add users</a> and then return to this page and complete the user mapping. This form may be used as many times as you like until you activate the &#8220;Restart&#8221; function below."
-msgstr "Toate posturile au fost preluate folosind utilizatorul actual drept autorul lor. Folosește acest formular pentru a identifica posturile fiecărui utilizator Blogger și a le atribui utilizatorilor WordPress. Ai posibilitatea de a <a href=\"users.php\">adăuga utilizatori</a> și mai târziu să revi pe această pagină pentru a completa setarea utilizatorilor. Acest formular poate fi folosit de câte ori îți place atât timp cât  nu activezi funcția de &#8220;Restartare&#8221; de mai jos."
+msgstr "Toate articolele au fost preluate folosind utilizatorul actual drept autorul lor. Folosește acest formular pentru a identifica articolele fiecărui utilizator Blogger și a le atribui utilizatorilor WordPress. Ai posibilitatea de a <a href=\"users.php\">adăuga utilizatori</a> și mai târziu să revi pe această pagină pentru a completa setarea utilizatorilor. Acest formular poate fi folosit de câte ori îți place atât timp cât  nu activezi funcția de &#8220;Restartare&#8221; de mai jos."
 
 #: wp-admin/import/blogger.php:663
 msgid "Author mapping"
@@ -2343,12 +2340,12 @@ msgstr "A fost o muncă grea! Ia o pauză."
 
 #: wp-admin/import/blogger.php:805
 msgid "In case you haven&#8217;t done it already, you can import the posts from your other blogs:"
-msgstr "În caz că nu ai făcut-o deja, poți prelua posturi din alte bloguri:"
+msgstr "În caz că nu ai făcut-o deja, poți prelua articole din alte bloguri:"
 
 #: wp-admin/import/blogger.php:807
 #, php-format
 msgid "Go to <a href=\"%s\" target=\"%s\">Authors &amp; Users</a>, where you can modify the new user(s) or delete them. If you want to make all of the imported posts yours, you will be given that option when you delete the new authors."
-msgstr "Mergi la <a href=\"%s\" target=\"%s\">Autori &amp; Utilizatori</a>, acolo poți modifica sau șterge utilizatori. Dacă vrei ca toate posturile preluate să aparțină unui singur autor vei selecta o opțiune când vei șterge noii autori."
+msgstr "Mergi la <a href=\"%s\" target=\"%s\">Autori &amp; Utilizatori</a>, acolo poți modifica sau șterge utilizatori. Dacă vrei ca toate articolele preluate să aparțină unui singur autor vei selecta o opțiune când vei șterge noii autori."
 
 #: wp-admin/import/blogger.php:808
 msgid "For security, click the link below to reset this importer."
@@ -2360,7 +2357,7 @@ msgstr "Restart"
 
 #: wp-admin/import/blogger.php:840
 msgid "We have saved some information about your Blogger account in your WordPress database. Clearing this information will allow you to start over. Restarting will not affect any posts you have already imported. If you attempt to re-import a blog, duplicate posts and comments will be skipped."
-msgstr "Am salvat câteva informații despre contul Blogger în baza de date. Ștergerea acestor informații îți va permite să o iei de la început. Restartarea nu va afecta posturile deja preluate. Dacă vei prelua din nou blogul, posturile și comentariile duplicat vor fi ignorate."
+msgstr "Am salvat câteva informații despre contul Blogger în baza de date. Ștergerea acestor informații îți va permite să o iei de la început. Restartarea nu va afecta articolele deja preluate. Dacă vei prelua din nou blogul, articolele și comentariile duplicat vor fi ignorate."
 
 #: wp-admin/import/blogger.php:841
 msgid "Clear account information"
@@ -2372,7 +2369,7 @@ msgstr "Blogger"
 
 #: wp-admin/import/blogger.php:891
 msgid "Import posts, comments, and users from a Blogger blog."
-msgstr "Preia posturi, comentarii și utilizatori dintr-un blog Blogger."
+msgstr "Preia articole, comentarii și utilizatori dintr-un blog Blogger."
 
 #: wp-admin/import/blogware.php:25
 msgid "Import Blogware"
@@ -2380,26 +2377,26 @@ msgstr "Importă Blogware"
 
 #: wp-admin/import/blogware.php:40
 msgid "Howdy! This importer allows you to extract posts from Blogware XML export file into your blog.  Pick a Blogware file to upload and click Import."
-msgstr "Salut! Acest script de preluare ajută la extragerea posturilor dintr-un fișier de export XML din Blogware în blogul tău. Alege un fișier Blogware și apasă Importă."
+msgstr "Salut! Acest script de preluare ajută la extragerea articolelor dintr-un fișier de export XML din Blogware în blogul tău. Alege un fișier Blogware și apasă Importă."
 
 #: wp-admin/import/blogware.php:107
 #: wp-admin/import/mt.php:251
 #: wp-admin/import/wordpress.php:464
 #, php-format
 msgid "Post <em>%s</em> already exists."
-msgstr "Postul <em>%s</em> există deja."
+msgstr "Articolul <em>%s</em> există deja."
 
 #: wp-admin/import/blogware.php:109
 #: wp-admin/import/mt.php:254
 #: wp-admin/import/wordpress.php:497
 #, php-format
 msgid "Importing post <em>%s</em>..."
-msgstr "Import postul <em>%s</em>..."
+msgstr "Import articolul <em>%s</em>..."
 
 #: wp-admin/import/blogware.php:116
 #: wp-admin/import/rss.php:136
 msgid "Couldn&#8217;t get post ID"
-msgstr "Nu am putut găsi ID-ul postului"
+msgstr "Nu am putut găsi ID-ul articolului"
 
 #: wp-admin/import/blogware.php:162
 #, php-format
@@ -2423,7 +2420,7 @@ msgstr "Blogware"
 
 #: wp-admin/import/blogware.php:218
 msgid "Import posts from Blogware."
-msgstr "Preia posturi din Blogware."
+msgstr "Preia articole din Blogware."
 
 #: wp-admin/import/dotclear.php:96
 msgid "Import DotClear"
@@ -2438,7 +2435,7 @@ msgstr "Ar putea dura câteva minute în funcție de mărimea bazei de date. Te 
 
 #: wp-admin/import/dotclear.php:107
 msgid "Howdy! This importer allows you to extract posts from a DotClear database into your blog.  Mileage may vary."
-msgstr "Salut! Acest script de preluare permite extragerea posturilor DotClear în blogul tău."
+msgstr "Salut! Acest script de preluare permite extragerea articolelor DotClear în blogul tău."
 
 #: wp-admin/import/dotclear.php:108
 msgid "Your DotClear Configuration settings are as follows:"
@@ -2486,13 +2483,13 @@ msgstr "Niciun utilizator de preluat!"
 #: wp-admin/import/dotclear.php:303
 #: wp-admin/import/textpattern.php:296
 msgid "Importing Posts..."
-msgstr "Preiau posturi..."
+msgstr "Preiau articole..."
 
 #: wp-admin/import/dotclear.php:386
 #: wp-admin/import/textpattern.php:370
 #, php-format
 msgid "Done! <strong>%1$s</strong> posts imported."
-msgstr "Gata! <strong>%1$s</strong> posturi preluate."
+msgstr "Gata! <strong>%1$s</strong> articole preluate."
 
 #: wp-admin/import/dotclear.php:401
 #: wp-admin/import/textpattern.php:385
@@ -2536,7 +2533,7 @@ msgstr "Preia utilizatori"
 #: wp-admin/import/dotclear.php:531
 #: wp-admin/import/textpattern.php:512
 msgid "Import Posts"
-msgstr "Preia posturi"
+msgstr "Preia articole"
 
 #: wp-admin/import/dotclear.php:545
 #: wp-admin/import/textpattern.php:526
@@ -2577,7 +2574,7 @@ msgstr "Păstrează autori"
 #: wp-admin/import/dotclear.php:598
 #: wp-admin/import/textpattern.php:578
 msgid "Secondly, we have attempted to preserve post authors.  If you are the only author or contributor to your blog, then you are safe.  In most cases, we are successful in this preservation endeavor.  However, if we cannot ascertain the name of the writer due to discrepancies between database tables, we assign it to you, the administrative user."
-msgstr "În al doilea rând, am încercat să păstrez autorii posturilor. În cele mai multe cazuri am reușit, acolo unde nu s-a putut, din cauza diferențelor bazelor de date, posturile rămase orfane ți le-am atribuit ție."
+msgstr "În al doilea rând, am încercat să păstrez autorii articolelor. În cele mai multe cazuri am reușit, acolo unde nu s-a putut, din cauza diferențelor bazelor de date, articolele rămase orfane ți le-am atribuit ție."
 
 #: wp-admin/import/dotclear.php:599
 #: wp-admin/import/textpattern.php:579
@@ -2586,7 +2583,7 @@ msgstr "Textile"
 
 #: wp-admin/import/dotclear.php:600
 msgid "Also, since you&#8217;re coming from DotClear, you probably have been using Textile to format your comments and posts.  If this is the case, we recommend downloading and installing <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile for WordPress</a>.  Trust me&#8230; You&#8217;ll want it."
-msgstr "De asemenea, din moment ce vii de pe DotClear, ai folosit probabil Textile pentru formatarea posturilor și a comentariilor. În acest caz îți recomand să instalezi plugin-ul <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile for WordPress</a>. Crede-mă&#8230; Vei avea nevoie de el."
+msgstr "De asemenea, din moment ce vii de pe DotClear, ai folosit probabil Textile pentru formatarea articolelor și a comentariilor. În acest caz îți recomand să instalezi modulul <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile for WordPress</a>. Crede-mă&#8230; Vei avea nevoie de el."
 
 #: wp-admin/import/dotclear.php:601
 #: wp-admin/import/textpattern.php:581
@@ -2649,7 +2646,7 @@ msgstr "DotClear"
 
 #: wp-admin/import/dotclear.php:716
 msgid "Import categories, users, posts, comments, and links from a DotClear blog."
-msgstr "Preluare categorii, autori, posturi, comentarii și legături dintr-un blog DotClear."
+msgstr "Preluare categorii, autori, articole, comentarii și legături dintr-un blog DotClear."
 
 #: wp-admin/import/greymatter.php:24
 msgid "Import GreyMatter"
@@ -2669,11 +2666,11 @@ msgstr "Parsează gm-authors.cgi pentru a prelua autori (noi). Toată lumea prim
 
 #: wp-admin/import/greymatter.php:38
 msgid "Parses the entries cgi files to import posts, comments, and karma on posts (although karma is not used on WordPress yet).<br />If authors are found not to be in gm-authors.cgi, imports them at level 0."
-msgstr "Parsează intrările fișierelor cgi files pentru a prelua posturi, comentarii și karma în posturi (deși karma nu se folosește în WordPress încă).<br />Dacă autorii sunt găsiți  în gm-authors.cgi, se preiau la nivelul 0."
+msgstr "Parsează intrările fișierelor cgi files pentru a prelua articole, comentarii și karma în articole (deși karma nu se folosește în WordPress încă).<br />Dacă autorii sunt găsiți  în gm-authors.cgi, se preiau la nivelul 0."
 
 #: wp-admin/import/greymatter.php:39
 msgid "Detects duplicate entries or comments. If you don't import everything the first time, or this import should fail in the middle, duplicate entries will not be made when you try again."
-msgstr "Detectează conținutul duplicat. Dacă se întâmplă ceva rău, nu vei găsi posturi sau comentarii duplicat."
+msgstr "Detectează conținutul duplicat. Dacă se întâmplă ceva rău, nu vei găsi articole sau comentarii duplicat."
 
 #: wp-admin/import/greymatter.php:41
 msgid "What it does not:"
@@ -2717,7 +2714,7 @@ msgstr "Începe preluarea"
 
 #: wp-admin/import/greymatter.php:102
 msgid "Wrong path, the path to the GM entries does not exist on the server"
-msgstr "Cale greșită, calea către posturile GM nu există pe server"
+msgstr "Cale greșită, calea către articolele GM nu există pe server"
 
 #: wp-admin/import/greymatter.php:105
 msgid "Wrong path, the path to the GM files does not exist on the server"
@@ -2755,7 +2752,7 @@ msgstr "Terminat"
 
 #: wp-admin/import/greymatter.php:150
 msgid "importing posts, comments, and karma..."
-msgstr "import posturi, comentarii și karma..."
+msgstr "import articole, comentarii și karma..."
 
 #: wp-admin/import/greymatter.php:186
 #, php-format
@@ -2797,7 +2794,7 @@ msgstr "GreyMatter"
 
 #: wp-admin/import/greymatter.php:333
 msgid "Import users, posts, and comments from a Greymatter blog."
-msgstr "Preluare utilizatori, posturi și comentarii dintr-un blog Greymatter."
+msgstr "Preluare utilizatori, articole și comentarii dintr-un blog Greymatter."
 
 #: wp-admin/import/livejournal.php:171
 msgid "Import LiveJournal"
@@ -2805,7 +2802,7 @@ msgstr "Preluare LiveJournal"
 
 #: wp-admin/import/livejournal.php:185
 msgid "It looks like you attempted to import your LiveJournal posts previously and got interrupted."
-msgstr "Se pare că încercarea precedentă de a prelua posturile din LiveJournal a fost întreruptă."
+msgstr "Se pare că încercarea precedentă de a prelua articolele din LiveJournal a fost întreruptă."
 
 #: wp-admin/import/livejournal.php:187
 msgid "Continue previous import"
@@ -2817,7 +2814,7 @@ msgstr "Anulează și începe o nouă preluare"
 
 #: wp-admin/import/livejournal.php:194
 msgid "Howdy! This importer allows you to connect directly to LiveJournal and download all your entries and comments"
-msgstr "Salut! Acest script de preluare îți permite conectarea directă la LiveJournal și descărcarea tuturor posturilor și comentariilor"
+msgstr "Salut! Acest script de preluare îți permite conectarea directă la LiveJournal și descărcarea tuturor articolelor și comentariilor"
 
 #: wp-admin/import/livejournal.php:195
 msgid "Enter your LiveJournal username and password below so we can connect to your account:"
@@ -2837,7 +2834,7 @@ msgstr "Dacă ai înregistrari în LiveJournal care sunt marcate ca private, vor
 
 #: wp-admin/import/livejournal.php:212
 msgid "If you don&#8217;t enter a password, ALL ENTRIES from your LiveJournal will be imported as public posts in WordPress."
-msgstr "Dacă nu introduci o parolă, TOATE înregistrările tale din LiveJournal vor fi importate ca posturi publice în WordPress."
+msgstr "Dacă nu introduci o parolă, TOATE înregistrările tale din LiveJournal vor fi importate ca articole publice în WordPress."
 
 #: wp-admin/import/livejournal.php:213
 msgid "Enter the password you would like to use for all protected entries here:"
@@ -2845,11 +2842,11 @@ msgstr "Introdu parola pe care vrei să o folosești la toate înregistrările a
 
 #: wp-admin/import/livejournal.php:217
 msgid "Protected Post Password"
-msgstr "Parola postului protejat"
+msgstr "Parola articolului protejat"
 
 #: wp-admin/import/livejournal.php:223
 msgid "<strong>WARNING:</strong> This can take a really long time if you have a lot of entries in your LiveJournal, or a lot of comments. Ideally, you should only start this process if you can leave your computer alone while it finishes the import."
-msgstr "<strong>ATENȚIE:</strong> Această operațiune poate dura chiar mult dacă ai un număr mare de posturi pe LiveJoural, sau mai multe comentarii. Ideal ar fi, să inițializezi această operațiune atunci când te poți lipsi pentru un timp oarecare de calculator până când acesta încheie preluarea."
+msgstr "<strong>ATENȚIE:</strong> Această operațiune poate dura chiar mult dacă ai un număr mare de articole pe LiveJoural, sau mai multe comentarii. Ideal ar fi, să inițializezi această operațiune atunci când te poți lipsi pentru un timp oarecare de calculator până când acesta încheie preluarea."
 
 #: wp-admin/import/livejournal.php:226
 msgid "Connect to LiveJournal and Import"
@@ -2865,25 +2862,25 @@ msgstr "<strong>NOTĂ:</strong> Se pare că ai dezactivat JavaScript, așa că v
 
 #: wp-admin/import/livejournal.php:277
 msgid "Post metadata has been downloaded, proceeding with posts..."
-msgstr "Meta data despre posturi a fost descărcată, se continuă cu posturile..."
+msgstr "Meta datele despre articole au fost descărcată, se continuă cu articolele în sine..."
 
 #: wp-admin/import/livejournal.php:379
 #, php-format
 msgid "Post <strong>%s</strong> already exists."
-msgstr "Postul <strong>%s</strong> deja există."
+msgstr "Articolul <strong>%s</strong> deja există."
 
 #: wp-admin/import/livejournal.php:381
 #, php-format
 msgid "Imported post <strong>%s</strong>..."
-msgstr "Postul <strong>%s</strong> a fost preluat..."
+msgstr "Articolul <strong>%s</strong> a fost preluat..."
 
 #: wp-admin/import/livejournal.php:390
 msgid "Couldn&#8217;t get post ID (creating post failed!)"
-msgstr "Nu pot lua ID-ul postului (creare post nereușită!)"
+msgstr "Nu pot lua ID-ul articolului (crearea articolului nereușită!)"
 
 #: wp-admin/import/livejournal.php:392
 msgid "Failed to create post."
-msgstr "Nu am reușit să creez post."
+msgstr "Nu am reușit să creez articolul."
 
 #: wp-admin/import/livejournal.php:437
 msgid "Could not get a cookie from LiveJournal. Please try again soon."
@@ -2922,7 +2919,7 @@ msgstr "Cerere XML-RPC eșuată -- "
 
 #: wp-admin/import/livejournal.php:731
 msgid "Please enter your LiveJournal username <em>and</em> password so we can download your posts and comments."
-msgstr "Te rog introdu numele de utilizator LiveJournal <em>și</em> parola, ca să pot descărca posturile și comentariile tale."
+msgstr "Te rog introdu numele de utilizator LiveJournal <em>și</em> parola, ca să pot descărca articolele și comentariile tale."
 
 #: wp-admin/import/livejournal.php:732
 #: wp-admin/import/livejournal.php:744
@@ -2935,16 +2932,16 @@ msgstr "Autentificare la LiveJournal nereușită. Verifică numele de utilizator
 
 #: wp-admin/import/livejournal.php:785
 msgid "Importing Posts"
-msgstr "Preiau posturi"
+msgstr "Preiau articole"
 
 #: wp-admin/import/livejournal.php:786
 msgid "We&#8217;re downloading and importing your LiveJournal posts..."
-msgstr "Descarc și import posturile tale LiveJournal..."
+msgstr "Descarc și import articole LiveJournal..."
 
 #: wp-admin/import/livejournal.php:790
 #, php-format
 msgid "Imported post batch %d of <strong>approximately</strong> %d"
-msgstr "Importat seria de posturi %d din <strong>aproximativ</strong> %d"
+msgstr "Importat seria %d de articole din <strong>aproximativ</strong> %d"
 
 #: wp-admin/import/livejournal.php:808
 msgid "Uh oh &ndash; LiveJournal has disconnected us because we made too many requests to their servers too quickly."
@@ -2966,7 +2963,7 @@ msgstr "Preia următoarea serie"
 
 #: wp-admin/import/livejournal.php:829
 msgid "Your posts have all been imported, but wait &#8211; there&#8217;s more! Now we need to download &amp; import your comments."
-msgstr "Posturile tale au fost importate în totalitate, dar stai &#8211; mai e ceva! Acum trebuie să descarc și să import comentariile."
+msgstr "Articolele tale au fost importate în totalitate, dar stai &#8211; mai e ceva! Acum trebuie să descarc și să import comentariile."
 
 #: wp-admin/import/livejournal.php:830
 msgid "Download my comments &raquo;"
@@ -3026,7 +3023,7 @@ msgstr "LiveJournal"
 
 #: wp-admin/import/livejournal.php:1058
 msgid "Import posts from LiveJournal using their API."
-msgstr "Preluare posturi din LiveJournal folosind API-ul lor."
+msgstr "Preluare articole din LiveJournal folosind API-ul lor."
 
 #: wp-admin/import/mt.php:28
 msgid "Import Movable Type or TypePad"
@@ -3034,7 +3031,7 @@ msgstr "Preluare din Movable Type sau TypePad"
 
 #: wp-admin/import/mt.php:39
 msgid "Howdy! We&#8217;re about to begin importing all of your Movable Type or TypePad entries into WordPress. To begin, either choose a file to upload and click &#8220;Upload file and import&#8221;, or use FTP to upload your MT export file as <code>mt-export.txt</code> in your <code>/wp-content/</code> directory and then click \"Import mt-export.txt\""
-msgstr "Salut! Sunt pe cale să încep preluarea tuturor posturilor tale Movable Type sau Typepad în WordPress. Pentru a începe, alege un fișier pentru încărcare și apasă pe &#8220;Încărcare fișier și preluare&#8221;, sau folosește FTP pentru a încărca fișierul de export MT ca <code>mt-export.txt</code> în directorul <code>/wp-content/</code> și apasă pe \"Preluare mt-export.txt\""
+msgstr "Salut! Sunt pe cale să încep preluarea tuturor articolelor Movable Type sau Typepad în WordPress. Pentru a începe, alege un fișier pentru încărcare și apasă pe &#8220;Încărcare fișier și preluare&#8221;, sau folosește FTP pentru a încărca fișierul de export MT ca <code>mt-export.txt</code> în directorul <code>/wp-content/</code> și apasă pe \"Preluare mt-export.txt\""
 
 #: wp-admin/import/mt.php:47
 msgid "Or use <code>mt-export.txt</code> in your <code>/wp-content/</code> directory"
@@ -3063,11 +3060,11 @@ msgstr "Alocă autori"
 
 #: wp-admin/import/mt.php:197
 msgid "To make it easier for you to edit and save the imported posts and drafts, you may want to change the name of the author of the posts. For example, you may want to import all the entries as admin&#8217;s entries."
-msgstr "Pentru a modifica și a salva posturile și schițele preluate mai ușor, probabil ar trebui să schimbi numele autorului posturilor. Spre exemplu, dorești ca toate să fie preluate aparținând <code>administrator</code>ului."
+msgstr "Pentru a modifica și a salva articolele și schițele preluate mai ușor, probabil ar trebui să schimbi numele autorului articolelor. Spre exemplu, dorești ca toate să fie preluate aparținând <code>administrator</code>ului."
 
 #: wp-admin/import/mt.php:198
 msgid "Below, you can see the names of the authors of the MovableType posts in <em>italics</em>. For each of these names, you can either pick an author in your WordPress installation from the menu, or enter a name for the author in the textbox."
-msgstr "Mai jos se poate vedea numele autorilor posturilor din MovableType scris cu <i>italice</i>. Pentru fiecare nume se poate alege fie un un autor din WordPress, fie se poate indica un nume pentru autor în căsuța text."
+msgstr "Mai jos se poate vedea numele autorilor articolelor din MovableType scris cu <i>italice</i>. Pentru fiecare nume se poate alege fie un un autor din WordPress, fie se poate indica un nume pentru autor în căsuța text."
 
 #: wp-admin/import/mt.php:199
 #: wp-admin/import/wordpress.php:211
@@ -3127,7 +3124,7 @@ msgstr "Movable Type și TypePad"
 
 #: wp-admin/import/mt.php:513
 msgid "Import posts and comments from a Movable Type or TypePad blog."
-msgstr "Preia posturi și comentarii dintr-un blog Movable Type sau Typepad."
+msgstr "Preia articolele și comentarii dintr-un blog Movable Type sau Typepad."
 
 #: wp-admin/import/opml.php:14
 msgid "Import Blogroll"
@@ -3190,15 +3187,15 @@ msgstr "Preia RSS"
 
 #: wp-admin/import/rss.php:41
 msgid "Howdy! This importer allows you to extract posts from an RSS 2.0 file into your blog. This is useful if you want to import your posts from a system that is not handled by a custom import tool. Pick an RSS file to upload and click Import."
-msgstr "Salut! Acest script de import permite extragerea posturilor dintr-un fișier RSS 2.0 în blogul tău. Poate fi util dacă dorești să imporți posturi dintr-un sistem care nu are unealtă dedicată de preluare. Alege un fișier RSS și apasă butonul Preluare."
+msgstr "Salut! Acest script de import permite extragerea articole dintr-un fișier RSS 2.0 în blogul tău. Poate fi util dacă dorești să imporți articole dintr-un sistem care nu are unealtă dedicată de preluare. Alege un fișier RSS și apasă butonul Preluare."
 
 #: wp-admin/import/rss.php:125
 msgid "Importing post..."
-msgstr "Preiau post..."
+msgstr "Preiau articolul..."
 
 #: wp-admin/import/rss.php:130
 msgid "Post already imported"
-msgstr "Post deja preluat"
+msgstr "Articol preluat deja"
 
 #: wp-admin/import/rss.php:142
 msgid "Done !"
@@ -3211,7 +3208,7 @@ msgstr "RSS"
 
 #: wp-admin/import/rss.php:201
 msgid "Import posts from an RSS feed."
-msgstr "Preia posturi dintr-un flux RSS."
+msgstr "Preia articole dintr-un flux RSS."
 
 #: wp-admin/import/stp.php:20
 msgid "Import Simple Tagging"
@@ -3246,16 +3243,16 @@ msgstr "Citesc etichetele STP&#8230;"
 #: wp-admin/import/stp.php:80
 #: wp-admin/import/utw.php:138
 msgid "No posts were found to have tags!"
-msgstr "Niciunul din posturi nu are etchete!"
+msgstr "Niciunul dintre articole nu are etchete!"
 
 #: wp-admin/import/stp.php:91
 #: wp-admin/import/utw.php:153
 #, php-format
 msgid "Done! <strong>%s</strong> tag to post relationships were read."
 msgid_plural "Done! <strong>%s</strong> tags to post relationships were read."
-msgstr[0] "Gata! <strong>%s</strong> relație etichetă - post citită."
-msgstr[1] "Gata! <strong>%s</strong> relații etichetă - post citite."
-msgstr[2] "Gata! <strong>%s</strong> de relații etichetă - post citite."
+msgstr[0] "Gata! <strong>%s</strong> relație etichetă - articol citită."
+msgstr[1] "Gata! <strong>%s</strong> relații etichetă - articol citite."
+msgstr[2] "Gata! <strong>%s</strong> de relații etichetă - articol citite."
 
 #: wp-admin/import/stp.php:96
 #: wp-admin/import/utw.php:123
@@ -3265,7 +3262,7 @@ msgstr "Pasul 2"
 #: wp-admin/import/stp.php:104
 #: wp-admin/import/utw.php:169
 msgid "Adding Tags to Posts&#8230;"
-msgstr "Adaug etichete la posturile &#8230;"
+msgstr "Adaug etichete la articole &#8230;"
 
 #: wp-admin/import/stp.php:109
 #, php-format
@@ -3304,7 +3301,7 @@ msgstr "Preia Textpattern"
 
 #: wp-admin/import/textpattern.php:67
 msgid "Howdy! This imports categories, users, posts, comments, and links from any Textpattern 4.0.2+ into this blog."
-msgstr "Salut! Aici preiei categorii, utilizatori, posturi, comentarii și legături din orice Textpattern în versiune mai nouă decât 4.0.2."
+msgstr "Salut! Aici preiei categorii, utilizatori, articole, comentarii și legături din orice Textpattern în versiune mai nouă decât 4.0.2."
 
 #: wp-admin/import/textpattern.php:68
 msgid "This has not been tested on previous versions of Textpattern.  Mileage may vary."
@@ -3333,7 +3330,7 @@ msgstr "Ai instalat deja WordPress și ai primit un nume de utilizator administr
 
 #: wp-admin/import/textpattern.php:580
 msgid "Also, since you&#8217;re coming from Textpattern, you probably have been using Textile to format your comments and posts.  If this is the case, we recommend downloading and installing <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile for WordPress</a>.  Trust me... You&#8217;ll want it."
-msgstr "De asemenea, deoarece vi din Textpattern, probabil ai folosit Textile pentru a-ți formata comentariile și posturile. Dacă este cazul, îți recomand descărcarea și instalarea <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile pentru WordPress</a>. Crede-mă... vei avea nevoie."
+msgstr "De asemenea, deoarece vi din Textpattern, probabil ai folosit Textile pentru a-ți formata comentariile și articole. Dacă este cazul, îți recomand descărcarea și instalarea <a href=\"http://www.huddledmasses.org/category/development/wordpress/textile/\">Textile pentru WordPress</a>. Crede-mă... vei avea nevoie."
 
 #: wp-admin/import/textpattern.php:594
 msgid "Textpattern Database User:"
@@ -3361,7 +3358,7 @@ msgstr "Textpattern"
 
 #: wp-admin/import/textpattern.php:689
 msgid "Import categories, users, posts, comments, and links from a Textpattern blog."
-msgstr "Preluare categorii, utilizatori, posturi, comentarii și legături dintr-un blog Textpattern."
+msgstr "Preluare categorii, utilizatori, articole, comentarii și legături dintr-un blog Textpattern."
 
 #: wp-admin/import/utw.php:21
 msgid "Import Ultimate Tag Warrior"
@@ -3405,7 +3402,7 @@ msgstr "Dacă nu dorești să preiei toate etichetele de aici, șterge-le din ad
 
 #: wp-admin/import/utw.php:131
 msgid "Reading UTW Post Tags&#8230;"
-msgstr "Citesc etichetele UTW pentru posturi&#8230;"
+msgstr "Citesc etichetele UTW pentru articole&#8230;"
 
 #: wp-admin/import/utw.php:174
 #, php-format
@@ -3433,7 +3430,7 @@ msgstr "Preia WordPress"
 
 #: wp-admin/import/wordpress.php:54
 msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this blog."
-msgstr "Salut! Atașează fișierul WordPress eXtended RSS (WXR) și voi prelua toate posturile, paginile, comentariile, câmpurile speciale, categoriile, și etichetele pentru acest blog."
+msgstr "Salut! Atașează fișierul WordPress eXtended RSS (WXR) și voi prelua toate articolele, paginile, comentariile, câmpurile speciale, categoriile, și etichetele pentru acest blog."
 
 #: wp-admin/import/wordpress.php:55
 msgid "Choose a WordPress WXR file to upload, then click Upload file and import."
@@ -3441,7 +3438,7 @@ msgstr "Alege un fișier WXR pentru încărcare, apoi apasă Încărcare fișier
 
 #: wp-admin/import/wordpress.php:208
 msgid "To make it easier for you to edit and save the imported posts and drafts, you may want to change the name of the author of the posts. For example, you may want to import all the entries as <code>admin</code>s entries."
-msgstr "Pentru a modifica și salva posturile și ciornele preluate mai ușor, probabil ar trebui să schimbi numele autorului posturilor. Spre exemplu, poate dorești ca toate să fie preluate drept aparținând <code>administratorului</code>."
+msgstr "Pentru a modifica și salva articolele și ciornele preluate mai ușor, probabil ar trebui să schimbi numele autorului articolelor. Spre exemplu, poate dorești ca toate să fie preluate drept aparținând <code>administratorului</code>."
 
 #: wp-admin/import/wordpress.php:224
 msgid "Import author:"
@@ -3519,7 +3516,7 @@ msgstr "Îmi pare rău, a avut loc o eroare."
 
 #: wp-admin/import/wordpress.php:867
 msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
-msgstr "Preia <strong>posturi, pagini, comentarii, câmpuri speciale, categorii, și etichete</strong> dintr-un fișier de export WordPress."
+msgstr "Preia <strong>articole, pagini, comentarii, câmpuri speciale, categorii, și etichete</strong> dintr-un fișier de export WordPress."
 
 #: wp-admin/import/wp-cat2tag.php:31
 msgid "Categories to Tags"
@@ -3563,7 +3560,7 @@ msgstr "Bifează toate"
 
 #: wp-admin/import/wp-cat2tag.php:129
 msgid "* This category is also a tag. Converting it will add that tag to all posts that are currently in the category."
-msgstr "* Această categorie este de asemenea o etichetă. Transfomând-o vei adăuga această etichetă la toate posturile din categorie."
+msgstr "* Această categorie este de asemenea o etichetă. Transfomând-o vei adăuga această etichetă la toate articolele din categorie."
 
 #: wp-admin/import/wp-cat2tag.php:131
 msgid "Convert Categories to Tags"
@@ -3583,7 +3580,7 @@ msgstr "Aici poți transforma etichete existente în categorii. Pentru a începe
 
 #: wp-admin/import/wp-cat2tag.php:147
 msgid "The newly created categories will still be associated with the same posts."
-msgstr "Categoriile nou create vor fi asociate cu aceleași posturi."
+msgstr "Categoriile nou create vor fi asociate cu aceleași articole."
 
 #: wp-admin/import/wp-cat2tag.php:151
 msgid "You have no tags to convert!"
@@ -3591,7 +3588,7 @@ msgstr "Nu ai etichete de transformat!"
 
 #: wp-admin/import/wp-cat2tag.php:193
 msgid "* This tag is also a category. When converted, all posts associated with the tag will also be in the category."
-msgstr "* Această etichetă este de asemenea o categorie. Când se va transforma, toate posturile asociate cu eticheta vor face parte din categorie."
+msgstr "* Această etichetă este de asemenea o categorie. Când se va transforma, toate articolele asociate cu eticheta vor face parte din categorie."
 
 #: wp-admin/import/wp-cat2tag.php:195
 msgid "Convert Tags to Categories"
@@ -3621,12 +3618,12 @@ msgstr "Transformare reușită."
 
 #: wp-admin/import/wp-cat2tag.php:297
 msgid "Tag added to all posts in this category."
-msgstr "Etichetă adăugată la toate posturile din această categorie."
+msgstr "Etichetă adăugată la toate articolele din această categorie."
 
 #: wp-admin/import/wp-cat2tag.php:339
 #, php-format
 msgid "* This category is also a tag. The converter has added that tag to all posts currently in the category. If you want to remove it, please confirm that all tags were added successfully, then delete it from the <a href=\"%s\">Manage Categories</a> page."
-msgstr "* Această categorie este de asemenea o etichetă. La transformare s-a adăugat eticheta la toate posturile care se aflau în categorie. Dacă dorești să o înlături, te rog să confirmi că toate etichetele au fost adăugate cu succes, apoi să le ștergi de la pagina <a href=\"%s\">Administrare categorii</a>."
+msgstr "* Această categorie este de asemenea o etichetă. La transformare s-a adăugat eticheta la toate articolele care se aflau în categorie. Dacă dorești să o înlături, te rog să confirmi că toate etichetele au fost adăugate cu succes, apoi să le ștergi de la pagina <a href=\"%s\">Administrare categorii</a>."
 
 #: wp-admin/import/wp-cat2tag.php:340
 #: wp-admin/import/wp-cat2tag.php:428
@@ -3641,7 +3638,7 @@ msgstr "Transform eticheta <strong>%s</strong> ... "
 
 #: wp-admin/import/wp-cat2tag.php:389
 msgid "All posts were added to the category with the same name."
-msgstr "Toate posturile au fost adăugate în categoria cu același nume."
+msgstr "Toate articolele au fost adăugate în categoria cu același nume."
 
 #: wp-admin/import/wp-cat2tag.php:409
 #, php-format
@@ -3651,7 +3648,7 @@ msgstr "Eticheta #%s nu există!"
 #: wp-admin/import/wp-cat2tag.php:427
 #, php-format
 msgid "* This tag is also a category. The converter has added all posts from it to the category. If you want to remove it, please confirm that all posts were added successfully, then delete it from the <a href=\"%s\">Manage Tags</a> page."
-msgstr "* Această etichetă este de asemenea o categorie. La transformare s-au adăugat toate posturile din ea în categorie. Dacă dorești să le înlături, te rog confirmă că toate posturile au fost adăugate cu succes, apoi șterge-le de la pagina <a href=\"%s\">Administrare etichete</a> "
+msgstr "* Această etichetă este de asemenea o categorie. La transformare s-au adăugat toate articolele din ea în categorie. Dacă dorești să le înlături, te rog confirmă că toate articolele au fost adăugate cu succes, apoi șterge-le de la pagina <a href=\"%s\">Administrare etichete</a> "
 
 #: wp-admin/import/wp-cat2tag.php:470
 msgid "Categories and Tags Converter"
@@ -3775,11 +3772,11 @@ msgstr "Nu s-a găsit directorul WordPress pentru conținut (wp-content)."
 #: wp-admin/includes/class-wp-upgrader.php:49
 #: wp-admin/includes/plugin.php:444
 msgid "Unable to locate WordPress Plugin directory."
-msgstr "Nu s-a putut localiza directorul plugin-urilor WordPress."
+msgstr "Nu s-a putut localiza directorul modulelor WordPress."
 
 #: wp-admin/includes/class-wp-upgrader.php:50
 msgid "Unable to locate WordPress Theme directory."
-msgstr "Nu s-a putut localiza directorul temelor WordPress."
+msgstr "Nu s-a putut localiza directorul șabloanelor WordPress."
 
 #: wp-admin/includes/class-wp-upgrader.php:51
 #, php-format
@@ -3812,11 +3809,11 @@ msgstr "Activez modul de întreținere."
 
 #: wp-admin/includes/class-wp-upgrader.php:60
 msgid "Disabling Maintenance mode."
-msgstr "Dezctivez modul de întreținere."
+msgstr "Dezactivez modul de întreținere."
 
 #: wp-admin/includes/class-wp-upgrader.php:367
 msgid "The plugin is at the latest version."
-msgstr "Plugin-ul este la ultima versiune."
+msgstr "Modulul este la ultima versiune."
 
 #: wp-admin/includes/class-wp-upgrader.php:368
 #: wp-admin/includes/class-wp-upgrader.php:594
@@ -3839,23 +3836,23 @@ msgstr "Despachetez actualizarea."
 
 #: wp-admin/includes/class-wp-upgrader.php:371
 msgid "Deactivating the plugin."
-msgstr "Dezactivez plugin-ul."
+msgstr "Dezactivez modulul."
 
 #: wp-admin/includes/class-wp-upgrader.php:372
 msgid "Removing the old version of the plugin."
-msgstr "Elimin versiunea veche a plugin-ului."
+msgstr "Elimin versiunea veche a modulului."
 
 #: wp-admin/includes/class-wp-upgrader.php:373
 msgid "Could not remove the old plugin."
-msgstr "Nu am putut elimina plugin-ul vechi."
+msgstr "Nu am putut elimina modulul vechi."
 
 #: wp-admin/includes/class-wp-upgrader.php:374
 msgid "Plugin upgrade Failed."
-msgstr "Actualizare plugin eșuată."
+msgstr "Actualizarea modulului eșuată."
 
 #: wp-admin/includes/class-wp-upgrader.php:375
 msgid "Plugin upgraded successfully."
-msgstr "Plugin actualizat cu succes."
+msgstr "Modul actualizat cu succes."
 
 #: wp-admin/includes/class-wp-upgrader.php:379
 #: wp-admin/includes/class-wp-upgrader.php:604
@@ -3892,35 +3889,35 @@ msgstr "Actualizez modulul %1$d din %2$d..."
 
 #: wp-admin/includes/class-wp-upgrader.php:593
 msgid "The theme is at the latest version."
-msgstr "Tema este la ultima versiune."
+msgstr "Șablonul este la ultima versiune."
 
 #: wp-admin/includes/class-wp-upgrader.php:597
 msgid "Removing the old version of the theme."
-msgstr "Șterg vechea versiune a temei."
+msgstr "Șterg vechea versiune a șablonului."
 
 #: wp-admin/includes/class-wp-upgrader.php:598
 msgid "Could not remove the old theme."
-msgstr "Nu am putut șterge tema veche."
+msgstr "Nu am putut șterge șablonul vechi."
 
 #: wp-admin/includes/class-wp-upgrader.php:599
 msgid "Theme upgrade Failed."
-msgstr "Actualizarea temei eșuată."
+msgstr "Actualizarea șablonului a eșuat."
 
 #: wp-admin/includes/class-wp-upgrader.php:600
 msgid "Theme upgraded successfully."
-msgstr "Tema a fost actualizată cu succes."
+msgstr "Șablonul a fost actualizat cu succes."
 
 #: wp-admin/includes/class-wp-upgrader.php:607
 msgid "Installing the theme."
-msgstr "Instalez tema."
+msgstr "Instalez șablonul."
 
 #: wp-admin/includes/class-wp-upgrader.php:608
 msgid "Theme Install Failed."
-msgstr "Instalarea temei nu a reușit."
+msgstr "Instalarea șablonului nu a reușit."
 
 #: wp-admin/includes/class-wp-upgrader.php:609
 msgid "Theme Installed successfully."
-msgstr "Temă instalată cu succes."
+msgstr "Șablon instalat cu succes."
 
 #: wp-admin/includes/class-wp-upgrader.php:750
 msgid "WordPress is at the latest version."
@@ -3933,7 +3930,7 @@ msgstr "Nu am putut copia fișiere."
 #: wp-admin/includes/class-wp-upgrader.php:900
 #: wp-admin/update.php:25
 msgid "Upgrade Plugin"
-msgstr "Actualizare plugin"
+msgstr "Actualizare modul"
 
 #: wp-admin/includes/class-wp-upgrader.php:916
 msgid "Attempting reactivation of the plugin"
@@ -3979,7 +3976,7 @@ msgstr "Revenire la pagina pentru instalarea modulelor."
 #: wp-admin/includes/class-wp-upgrader.php:1027
 #, php-format
 msgid "Successfully installed the theme <strong>%1$s %2$s</strong>."
-msgstr "S-a reușit instalarea temei <strong>%1$s %2$s</strong>."
+msgstr "S-a reușit instalarea șablonului <strong>%1$s %2$s</strong>."
 
 #: wp-admin/includes/class-wp-upgrader.php:1046
 #: wp-admin/includes/class-wp-upgrader.php:1103
@@ -4025,17 +4022,17 @@ msgstr "Revenire la pagina pentru instalarea șabloanelor"
 
 #: wp-admin/includes/class-wp-upgrader.php:1053
 msgid "Themes page"
-msgstr "Pagina cu teme"
+msgstr "Pagina cu șabloane"
 
 #: wp-admin/includes/class-wp-upgrader.php:1053
 #: wp-admin/includes/class-wp-upgrader.php:1110
 msgid "Return to Themes page"
-msgstr "Revenire la pagina cu teme"
+msgstr "Revenire la pagina cu șabloane"
 
 #: wp-admin/includes/class-wp-upgrader.php:1081
 #: wp-admin/update.php:126
 msgid "Upgrade Theme"
-msgstr "Actualizare temă"
+msgstr "Actualizare șablon"
 
 #: wp-admin/includes/class-wp-upgrader.php:1139
 msgid "Please select a file"
@@ -4050,7 +4047,7 @@ msgstr "Fișierul încărcat nu s-a putut muta în %s."
 
 #: wp-admin/includes/comment.php:39
 msgid "You are not allowed to edit comments on this post, so you cannot edit this comment."
-msgstr "Nu ai dreptul să editezi comentarii la acest post, deci nu poți edita acest comentariu."
+msgstr "Nu ai dreptul să editezi comentarii la acest articol, deci nu poți edita acest comentariu."
 
 #: wp-admin/includes/dashboard.php:28
 msgid "Right Now"
@@ -4144,9 +4141,9 @@ msgstr "Pe scurt"
 #: wp-admin/includes/dashboard.php:215
 msgid "Post"
 msgid_plural "Posts"
-msgstr[0] "Posturi"
-msgstr[1] "Posturi"
-msgstr[2] "De posturi"
+msgstr[0] "Articol"
+msgstr[1] "Articole"
+msgstr[2] "Articole"
 
 #: wp-admin/includes/dashboard.php:241
 msgid "Comment"
@@ -4201,48 +4198,48 @@ msgstr[2] "Spam"
 #: wp-admin/includes/dashboard.php:335
 #: wp-admin/includes/dashboard.php:342
 msgid "Change Theme"
-msgstr "Schimbă tema"
+msgstr "Schimbă șablonul"
 
 #: wp-admin/includes/dashboard.php:336
 #, php-format
 msgid "Theme <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> with <span class=\"b\"><a href=\"widgets.php\">%2$s Widget</a></span>"
 msgid_plural "Theme <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> with <span class=\"b\"><a href=\"widgets.php\">%2$s Widgets</a></span>"
-msgstr[0] "Tema <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> cu <span class=\"b\"><a href=\"widgets.php\">%2$s widget</a></span>"
-msgstr[1] "Tema <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> cu <span class=\"b\"><a href=\"widgets.php\">%2$s widget-uri</a></span>"
-msgstr[2] "Tema <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> cu <span class=\"b\"><a href=\"widgets.php\">%2$s widget-uri</a></span>"
+msgstr[0] "Șablonul <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> cu <span class=\"b\"><a href=\"widgets.php\">%2$s widget</a></span>"
+msgstr[1] "Șablonul <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> cu <span class=\"b\"><a href=\"widgets.php\">%2$s widget-uri</a></span>"
+msgstr[2] "Șablonul <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> cu <span class=\"b\"><a href=\"widgets.php\">%2$s widget-uri</a></span>"
 
 #: wp-admin/includes/dashboard.php:338
 #, php-format
 msgid "Theme <span class=\"b\">%1$s</span> with <span class=\"b\">%2$s Widget</span>"
 msgid_plural "Theme <span class=\"b\">%1$s</span> with <span class=\"b\">%2$s Widgets</span>"
-msgstr[0] "Tema <span class=\"b\">%1$s</span> cu <span class=\"b\">%2$s widget</span>"
-msgstr[1] "Tema <span class=\"b\">%1$s</span> cu <span class=\"b\">%2$s widget-uri</span>"
-msgstr[2] "Tema <span class=\"b\">%1$s</span> cu <span class=\"b\">%2$s widget-uri</span>"
+msgstr[0] "Șablonul <span class=\"b\">%1$s</span> cu <span class=\"b\">%2$s widget</span>"
+msgstr[1] "Șablonul <span class=\"b\">%1$s</span> cu <span class=\"b\">%2$s widget-uri</span>"
+msgstr[2] "Șablonul <span class=\"b\">%1$s</span> cu <span class=\"b\">%2$s widget-uri</span>"
 
 #: wp-admin/includes/dashboard.php:343
 #, php-format
 msgid "Theme <span class=\"b\"><a href=\"themes.php\">%1$s</a></span>"
-msgstr "Tema <span class=\"b\"><a href=\"themes.php\">%1$s</a></span>"
+msgstr "Șablonul <span class=\"b\"><a href=\"themes.php\">%1$s</a></span>"
 
 #: wp-admin/includes/dashboard.php:345
 #, php-format
 msgid "Theme <span class=\"b\">%1$s</span>"
-msgstr "Tema <span class=\"b\">%1$s</span>"
+msgstr "Șablonul <span class=\"b\">%1$s</span>"
 
 #: wp-admin/includes/dashboard.php:364
 #, php-format
 msgid "Post Published. <a href=\"%s\">View post</a> | <a href=\"%s\">Edit post</a>"
-msgstr "Post publicat. <a href=\"%s\">Vizualizare post</a> | <a href=\"%s\">Editează post</a>"
+msgstr "Articol publicat. <a href=\"%s\">Vizualizare articol</a> | <a href=\"%s\">Editează articolul</a>"
 
 #: wp-admin/includes/dashboard.php:366
 #, php-format
 msgid "Post submitted. <a href=\"%s\">Preview post</a> | <a href=\"%s\">Edit post</a>"
-msgstr "Post salvat. <a href=\"%s\">Vezi post</a> | <a href=\"%s\">Editează post</a>"
+msgstr "Articol salvat. <a href=\"%s\">Vezi articolul</a> | <a href=\"%s\">Editează articolul</a>"
 
 #: wp-admin/includes/dashboard.php:368
 #, php-format
 msgid "Draft Saved. <a href=\"%s\">Preview post</a> | <a href=\"%s\">Edit post</a>"
-msgstr "Ciornă salvată. <a href=\"%s\">Vezi post</a> | <a href=\"%s\">Editează post</a>"
+msgstr "Ciornă salvată. <a href=\"%s\">Vezi articolul</a> | <a href=\"%s\">Editează articolul</a>"
 
 #: wp-admin/includes/dashboard.php:381
 #, php-format
@@ -4448,7 +4445,7 @@ msgstr "Feed necunoscut"
 
 #: wp-admin/includes/file.php:11
 msgid "Main Index Template"
-msgstr "Tema principală"
+msgstr "Șablonul principal"
 
 #: wp-admin/includes/file.php:12
 #: wp-admin/includes/file.php:36
@@ -4506,7 +4503,7 @@ msgstr "Formular de căutare"
 
 #: wp-admin/includes/file.php:24
 msgid "Single Post"
-msgstr "Post"
+msgstr "Articol"
 
 #: wp-admin/includes/file.php:25
 msgid "404 Template"
@@ -4518,7 +4515,7 @@ msgstr "Șabloane pentru legături"
 
 #: wp-admin/includes/file.php:27
 msgid "Theme Functions"
-msgstr "Funcțiile temei"
+msgstr "Funcțiile șablonului"
 
 #: wp-admin/includes/file.php:28
 msgid "Attachment Template"
@@ -5053,7 +5050,7 @@ msgstr "URL fișier"
 
 #: wp-admin/includes/media.php:892
 msgid "Post URL"
-msgstr "URL post"
+msgstr "URL articol"
 
 #: wp-admin/includes/media.php:915
 msgid "Alternate text"
@@ -5137,7 +5134,7 @@ msgstr "Dimensiuni:"
 #: wp-admin/includes/media.php:2097
 #: wp-admin/includes/media.php:2132
 msgid "Insert into Post"
-msgstr "Inserare în post"
+msgstr "Inserare în articol"
 
 #: wp-admin/includes/media.php:1241
 #, php-format
@@ -5437,7 +5434,7 @@ msgstr "Public"
 
 #: wp-admin/includes/meta-boxes.php:132
 msgid "Stick this post to the front page"
-msgstr "Menține acest post pe prima pagină"
+msgstr "Menține acest articol pe prima pagină"
 
 #: wp-admin/includes/meta-boxes.php:135
 #: wp-includes/post-template.php:1137
@@ -5542,7 +5539,7 @@ msgstr "Numele noii categorii"
 
 #: wp-admin/includes/meta-boxes.php:314
 msgid "Excerpts are optional hand-crafted summaries of your content that can be used in your theme. <a href=\"http://codex.wordpress.org/Excerpt\" target=\"_blank\">Learn more about manual excerpts.</a>"
-msgstr "Rezumatele reprezintă un sumar scris manual și opțional al conținutului care va fi publicat și poate fi folosit în tema ta. <a href=\"http://codex.wordpress.org/Excerpt\" target=\"_blank\">Aici se pot citi mai mult despre aceste rezumate.</a>"
+msgstr "Rezumatele reprezintă un sumar scris manual și opțional al conținutului care va fi publicat și poate fi folosit în șabloane. <a href=\"http://codex.wordpress.org/Excerpt\" target=\"_blank\">Aici se pot citi mai mult despre aceste rezumate.</a>"
 
 #: wp-admin/includes/meta-boxes.php:329
 msgid "Already pinged:"
@@ -5622,7 +5619,7 @@ msgstr "Șablon standard"
 
 #: wp-admin/includes/meta-boxes.php:490
 msgid "Some themes have custom templates you can use for certain pages that might have additional features or custom layouts. If so, you&#8217;ll see them above."
-msgstr "Unele teme au structuri speciale pe care le poți folosi la anumite pagini care pot avea funcții adiționale sau design special. Acestea pot fi vizualizate mai jos."
+msgstr "Unele șabloane au structuri speciale pe care le poți folosi la anumite pagini care pot avea funcții adiționale sau design special. Acestea pot fi vizualizate mai jos."
 
 #: wp-admin/includes/meta-boxes.php:494
 msgid "Page Order"
@@ -6108,11 +6105,11 @@ msgstr "Nu ai voie să creezi pagini cu acest utilizator."
 
 #: wp-admin/includes/post.php:55
 msgid "You are not allowed to edit posts as this user."
-msgstr "Nu ai voie să editezi posturi cu acest utilizator."
+msgstr "Nu ai voie să editezi articole cu acest utilizator."
 
 #: wp-admin/includes/post.php:56
 msgid "You are not allowed to post as this user."
-msgstr "Nu ai voie să postezi cu acest utilizator."
+msgstr "Nu ai voie să publici cu acest utilizator."
 
 #: wp-admin/includes/post.php:233
 msgid "You are not allowed to edit pages."
@@ -6120,7 +6117,7 @@ msgstr "Nu ai voie să editezi pagini."
 
 #: wp-admin/includes/post.php:236
 msgid "You are not allowed to edit posts."
-msgstr "Nu ai voie să editezi posturi."
+msgstr "Nu ai voie să editezi articole."
 
 #: wp-admin/includes/post.php:450
 msgid "You are not allowed to create pages on this blog."
@@ -6128,7 +6125,7 @@ msgstr "Nu ai voie să creezi pagini pe acest blog."
 
 #: wp-admin/includes/post.php:453
 msgid "You are not allowed to create posts or drafts on this blog."
-msgstr "Nu ai voie să creezi posturi sau ciorne pe acest blog."
+msgstr "Nu ai voie să creezi articole sau ciorne pe acest blog."
 
 #: wp-admin/includes/post.php:819
 msgctxt "post"
@@ -6137,7 +6134,7 @@ msgstr "Publicat"
 
 #: wp-admin/includes/post.php:819
 msgid "Published posts"
-msgstr "Posturi publicate"
+msgstr "Articole publicate"
 
 #: wp-admin/includes/post.php:819
 #, php-format
@@ -6154,7 +6151,7 @@ msgstr "Programat"
 
 #: wp-admin/includes/post.php:820
 msgid "Scheduled posts"
-msgstr "Posturi programate"
+msgstr "Articole programate"
 
 #: wp-admin/includes/post.php:820
 #, php-format
@@ -6171,7 +6168,7 @@ msgstr "Așteaptă revizuire"
 
 #: wp-admin/includes/post.php:821
 msgid "Pending posts"
-msgstr "Posturi în așteptare"
+msgstr "Articole în așteptare"
 
 #: wp-admin/includes/post.php:821
 #, php-format
@@ -6201,7 +6198,7 @@ msgstr "Privat"
 
 #: wp-admin/includes/post.php:823
 msgid "Private posts"
-msgstr "Posturi private"
+msgstr "Articole private"
 
 #: wp-admin/includes/post.php:823
 #, php-format
@@ -6279,7 +6276,7 @@ msgstr[2] "Video <span class=\"count\">(%s)</span>"
 #: wp-admin/includes/post.php:1018
 #: wp-content/plugins/akismet/akismet.php:838
 msgid "View Post"
-msgstr "Vezi postul"
+msgstr "Vezi articolul"
 
 #: wp-admin/includes/post.php:1018
 msgid "View Page"
@@ -6313,7 +6310,7 @@ msgstr "Șterge miniatură"
 #: wp-admin/includes/post.php:1153
 #, php-format
 msgid "Warning: %s is currently editing this post"
-msgstr "Avertizare: %s editează în acest moment postul"
+msgstr "Avertizare: %s editează în acest moment articolul"
 
 #: wp-admin/includes/post.php:1156
 #, php-format
@@ -6323,7 +6320,7 @@ msgstr "Avertizare: %s editează în acest moment pagina"
 #: wp-admin/includes/post.php:1159
 #, php-format
 msgid "Warning: %s is currently editing this."
-msgstr "Avertizare: %s editează în acest moment postul."
+msgstr "Avertizare: %s editează în acest moment articolul."
 
 #: wp-admin/includes/post.php:1215
 msgid "Preview not available. Please save as a draft first."
@@ -6403,7 +6400,7 @@ msgstr "Editare rapidă"
 #: wp-admin/includes/template.php:757
 msgctxt "column name"
 msgid "Post"
-msgstr "Post"
+msgstr "Articol"
 
 #. translators: column name
 #: wp-admin/includes/template.php:783
@@ -6452,7 +6449,7 @@ msgstr "Editare în masă a paginilor"
 
 #: wp-admin/includes/template.php:1029
 msgid "Bulk Edit Posts"
-msgstr "Editare în masă a posturilor"
+msgstr "Editare în masă a articolelor"
 
 #: wp-admin/includes/template.php:1067
 #: wp-admin/includes/template.php:1128
@@ -6475,7 +6472,7 @@ msgstr "Pagină privată"
 
 #: wp-admin/includes/template.php:1092
 msgid "Private post"
-msgstr "Post privat"
+msgstr "Articol privat"
 
 #: wp-admin/includes/template.php:1104
 msgid "[more]"
@@ -6515,7 +6512,7 @@ msgstr "Nelipicios"
 
 #: wp-admin/includes/template.php:1238
 msgid "Make this post sticky"
-msgstr "Fă postul lipicios"
+msgstr "Fă articolul lipicios"
 
 #: wp-admin/includes/template.php:1260
 #: wp-includes/script-loader.php:296
@@ -6525,7 +6522,7 @@ msgstr "Actualizare pagină"
 #: wp-admin/includes/template.php:1260
 #: wp-includes/script-loader.php:295
 msgid "Update Post"
-msgstr "Actualizare post"
+msgstr "Actualizare articol"
 
 #: wp-admin/includes/template.php:1265
 msgid "Update Pages"
@@ -6547,23 +6544,23 @@ msgstr "Ultima modificare"
 
 #: wp-admin/includes/template.php:1448
 msgid "Edit this post"
-msgstr "Editează acest post"
+msgstr "Editează acest articol"
 
 #: wp-admin/includes/template.php:1449
 msgid "Edit this post inline"
-msgstr "Editează acest post pe loc"
+msgstr "Editează acest articol pe loc"
 
 #: wp-admin/includes/template.php:1453
 msgid "Restore this post from the Trash"
-msgstr "Restaurează postul de la gunoi"
+msgstr "Restaurează articolul de la gunoi"
 
 #: wp-admin/includes/template.php:1455
 msgid "Move this post to the Trash"
-msgstr "Mută postul la gunoi"
+msgstr "Mută articolul la gunoi"
 
 #: wp-admin/includes/template.php:1457
 msgid "Delete this post permanently"
-msgstr "Șterge acest post definitiv"
+msgstr "Șterge acest articol definitiv"
 
 #: wp-admin/includes/template.php:1492
 #: wp-admin/includes/upgrade.php:99
@@ -6598,7 +6595,7 @@ msgstr "e-mail: %s"
 
 #: wp-admin/includes/template.php:1976
 msgid "View posts by this author"
-msgstr "Vezi posturile acestui autor"
+msgstr "Vezi articolele acestui autor"
 
 #: wp-admin/includes/template.php:2111
 msgid "Y/m/d \\a\\t g:i A"
@@ -6718,7 +6715,7 @@ msgstr "Apasă pentru a comuta"
 
 #: wp-admin/includes/template.php:3222
 msgid "Find Posts or Pages"
-msgstr "Caută posturi sau pagini"
+msgstr "Caută articole sau pagini"
 
 #: wp-admin/includes/template.php:3243
 #: wp-admin/includes/widgets.php:202
@@ -6781,17 +6778,17 @@ msgstr "Administrare module"
 #: wp-admin/theme-install.php:17
 #: wp-admin/update.php:154
 msgid "Install Themes"
-msgstr "Instalează teme"
+msgstr "Instalează șabloane"
 
 #: wp-admin/includes/template.php:3308
 #: wp-admin/themes.php:31
 msgid "Manage Themes"
-msgstr "Administrare teme"
+msgstr "Administrare șabloane"
 
 #: wp-admin/includes/template.php:3311
 #: wp-admin/includes/template.php:3316
 msgid "New Post"
-msgstr "Post nou"
+msgstr "Articol nou"
 
 #: wp-admin/includes/template.php:3317
 msgid "Drafts"
@@ -6810,7 +6807,7 @@ msgstr "În așteptare"
 
 #: wp-admin/includes/template.php:3508
 msgid "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">Writing Posts</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">Scrierea posturilor</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Writing_Posts\" target=\"_blank\">Scrierea articolelor</a>"
 
 #: wp-admin/includes/template.php:3520
 msgid "The modules on this screen can be arranged in several columns. You can select the number of columns from the Screen Options tab."
@@ -6884,15 +6881,15 @@ msgstr "Căutarea se poate face în funcție de 3 criterii:"
 
 #: wp-admin/includes/template.php:3650
 msgid "<strong>Term:</strong> Searches theme names and descriptions for the specified term."
-msgstr "<strong>Termen:</strong> Caută prin numele temei și descrierea acesteia pentru termenul specificat."
+msgstr "<strong>Termen:</strong> Caută prin numele șabloanelor și descrierea acestora pentru termenul specificat."
 
 #: wp-admin/includes/template.php:3651
 msgid "<strong>Tag:</strong> Searches for themes tagged as such."
-msgstr "<strong>Etichetă:</strong> Caută prin temele etichetate astfel."
+msgstr "<strong>Etichetă:</strong> Caută prin șabloanelor etichetate astfel."
 
 #: wp-admin/includes/template.php:3652
 msgid "<strong>Author:</strong> Searches for themes created by the Author, or which the Author contributed to."
-msgstr "<strong>Autorul:</strong> Căutarea temelor se va face după autorul care le-a creat, sau autorul care a contribuit."
+msgstr "<strong>Autorul:</strong> Căutarea șabloanelor se va face după autorul care le-a creat, sau autorul care a contribuit."
 
 #: wp-admin/includes/template.php:3658
 msgid "Widgets are added and arranged by simple drag &#8217;n&#8217; drop. If you hover your mouse over the titlebar of a widget, you&#8217;ll see a 4-arrow cursor which indicates that the widget is movable.  Click on the titlebar, hold down the mouse button and drag the widget to a sidebar. As you drag, you&#8217;ll see a dotted box that also moves. This box shows where the widget will go once you drop it."
@@ -6908,7 +6905,7 @@ msgstr "Pentru a înlătura un widget din bara laterală <em>și a menține set�
 
 #: wp-admin/includes/template.php:3661
 msgid "The Inactive Widgets area stores widgets that are configured but not curently used. If you change themes and the new theme has fewer sidebars than the old, all extra widgets will be stored to Inactive Widgets automatically."
-msgstr "Zona cu widget-uri inactive stochează widget-urile deja configurate dar care nu sunt momentan folosite. Dacă schimbi tema și noua temă are mai puține bare laterale decât cea veche, toate widget-urile suplimentare vor fi stocate automat în Widget-uri Inactive."
+msgstr "Zona cu widget-uri inactive stochează widget-urile deja configurate dar care nu sunt momentan folosite. Dacă schimbi șablonul și noua acesta are mai puține bare laterale decât cel veche, toate widget-urile suplimentare vor fi stocate automat în Widget-uri Inactive."
 
 #: wp-admin/includes/template.php:3683
 msgid "Screen Layout"
@@ -6920,7 +6917,7 @@ msgstr "Număr de coloane:"
 
 #: wp-admin/includes/template.php:3695
 msgid "Posts per page:"
-msgstr "Posturi per pagină:"
+msgstr "Articole per pagină:"
 
 #: wp-admin/includes/template.php:3698
 msgid "Pages per page:"
@@ -6956,7 +6953,7 @@ msgstr "A intervenit o eroare"
 
 #: wp-admin/includes/theme-install.php:153
 msgid "Search for themes by keyword, author, or tag."
-msgstr "Caută teme după cuvânt cheie, autor, sau etichetă."
+msgstr "Caută șabloane după cuvânt cheie, autor, sau etichetă."
 
 #: wp-admin/includes/theme-install.php:159
 msgctxt "Theme Installer"
@@ -6969,7 +6966,7 @@ msgstr "Filtru funcționalități"
 
 #: wp-admin/includes/theme-install.php:178
 msgid "Find a theme based on specific features"
-msgstr "Găsește o temă după anumite funcționalități"
+msgstr "Găsește un șablon după anumite funcționalități"
 
 #: wp-admin/includes/theme-install.php:182
 msgid "Colors"
@@ -7080,7 +7077,7 @@ msgstr "Culori personalizate"
 
 #: wp-admin/includes/theme-install.php:188
 msgid "Theme Options"
-msgstr "Opțiuni temă"
+msgstr "Opțiuni șablon"
 
 #: wp-admin/includes/theme-install.php:189
 msgid "Threaded Comments"
@@ -7088,7 +7085,7 @@ msgstr "Comentarii filetate"
 
 #: wp-admin/includes/theme-install.php:189
 msgid "Sticky Post"
-msgstr "Post lipicios"
+msgstr "Articol lipicios"
 
 #: wp-admin/includes/theme-install.php:189
 msgid "Microformats"
@@ -7112,15 +7109,15 @@ msgstr "Sezonier"
 
 #: wp-admin/includes/theme-install.php:221
 msgid "Find Themes"
-msgstr "Găsește teme"
+msgstr "Găsește șabloane"
 
 #: wp-admin/includes/theme-install.php:278
 msgid "Install a theme in .zip format"
-msgstr "Instalează o temă în format .zip"
+msgstr "Instalează un șablon în format .zip"
 
 #: wp-admin/includes/theme-install.php:279
 msgid "If you have a theme in a .zip format, you may install it by uploading it here."
-msgstr "Dacă ai o temă în format .zip o poți instala încărcând-o aici."
+msgstr "Dacă ai un șablon în format .zip, acesta se poate instala încărcându-l aici."
 
 #: wp-admin/includes/theme-install.php:304
 #, php-format
@@ -7133,23 +7130,23 @@ msgstr "Detalii"
 
 #: wp-admin/includes/theme-install.php:399
 msgid "No themes found"
-msgstr "Nicio temă găsită"
+msgstr "Nici-un șablon găsit"
 
 #: wp-admin/includes/theme-install.php:463
 msgid "Theme Install"
-msgstr "Instalare temă"
+msgstr "Instalare șablon"
 
 #: wp-admin/includes/theme-install.php:466
 msgid "<strong>Error:</strong> This theme is currently not available. Please try again later."
-msgstr "<strong>Eroare:</strong> Această temă nu este disponibilă momentan. Încearcă mai târziu."
+msgstr "<strong>Eroare:</strong> Aceast șablon nu este disponibil momentan. Încearcă mai târziu."
 
 #: wp-admin/includes/theme-install.php:472
 msgid "<strong>Warning:</strong> This theme has <strong>not been tested</strong> with your current version of WordPress."
-msgstr "<strong>Atenție:</strong> Această temă <strong>nu a fost testată</strong> cu versiunea WordPress pe care o folosești."
+msgstr "<strong>Atenție:</strong> Aceast șablon <strong>nu a fost testat</strong> cu versiunea WordPress pe care o folosești."
 
 #: wp-admin/includes/theme-install.php:474
 msgid "<strong>Warning:</strong> This theme has not been marked as <strong>compatible</strong> with your version of WordPress."
-msgstr "<strong>Atenție:</strong> Această temă nu a fost marcată <strong>compatibilă</strong> cu versiunea de WordPress pe care o folosești."
+msgstr "<strong>Atenție:</strong> Aceast șablon nu a fost marcat <strong>compatibilă</strong> cu versiunea de WordPress pe care o folosești."
 
 #: wp-admin/includes/theme-install.php:507
 #, php-format
@@ -7172,12 +7169,12 @@ msgstr "Această versiune este deja instalată."
 
 #: wp-admin/includes/theme.php:87
 msgid "Unable to locate WordPress theme directory."
-msgstr "Nu s-a putut localiza directorul cu teme WordPress."
+msgstr "Nu s-a putut localiza directorul cu șabloane WordPress."
 
 #: wp-admin/includes/theme.php:97
 #, php-format
 msgid "Could not fully remove the theme %s"
-msgstr "Nu am putut înlătura în totalitate tema %s"
+msgstr "Nu am putut înlătura în totalitate șablonul %s"
 
 #: wp-admin/includes/update-core.php:223
 msgid "Verifying the unpacked files"
@@ -7297,7 +7294,7 @@ msgstr "Listă legături"
 
 #: wp-admin/includes/upgrade.php:165
 msgid "Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!"
-msgstr "Bun venit pe WordPress. Acesta este primul tău post. Îl poți edita sau șterge, iar apoi poți începe \"blogging\"-ul!"
+msgstr "Bun venit pe WordPress. Acesta este primul tău articol. Îl poți edita sau șterge, iar apoi poți începe \"blogging\"-ul!"
 
 #: wp-admin/includes/upgrade.php:167
 msgid "Hello world!"
@@ -7315,7 +7312,7 @@ msgstr "Dl WordPress"
 
 #: wp-admin/includes/upgrade.php:188
 msgid "Hi, this is a comment.<br />To delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them."
-msgstr "Salut, acesta este un comentariu.<br />Pentru a șterge un comentariu trebuie doar să te autentifici și să mergi la comentariile posturilor. Acolo vei găsi opțiuni de editare sau ștergere."
+msgstr "Salut, acesta este un comentariu.<br />Pentru a șterge un comentariu trebuie doar să te autentifici și să mergi la comentariile articolelor. Acolo vei găsi opțiuni de editare sau ștergere."
 
 #: wp-admin/includes/upgrade.php:196
 msgid "This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress."
@@ -7615,7 +7612,7 @@ msgstr "<p>Pentru a permite folosirea acestei pagini la rezolvarea automată a p
 #: wp-admin/maint/repair.php:69
 #, php-format
 msgid "<p>Some database problems could not be repaired. Please copy-and-paste the following list of errors to the <a href=\"%s\">WordPress support forums</a> to get additional assistance.</p>"
-msgstr "<p>Câteve probleme legate de baza de date nu au putut fi rezolvate. Încearc să întrebi pe <a href=\"%s\">forumurile de suport WordPress</a> pentru asistență oferind drept detalii următoarele erori listate.</p>"
+msgstr "<p>Câteve probleme legate de baza de date nu au putut fi rezolvate. Încearcă să întrebi pe <a href=\"%s\">forumurile de suport WordPress</a> pentru asistență oferind drept detalii următoarele erori listate.</p>"
 
 #: wp-admin/maint/repair.php:75
 msgid "<p>Repairs complete.  Please remove the following line from wp-config.php to prevent this page from being used by unauthorized users.</p><code>define('WP_ALLOW_REPAIR', true);</code>"
@@ -7700,7 +7697,7 @@ msgstr "Aspect"
 #: wp-admin/menu.php:71
 #: wp-admin/update-core.php:227
 msgid "Themes"
-msgstr "Teme"
+msgstr "Șabloane"
 
 #: wp-admin/menu.php:72
 #: wp-admin/menu.php:84
@@ -7709,7 +7706,7 @@ msgstr "Editor"
 
 #: wp-admin/menu.php:73
 msgid "Add New Themes"
-msgstr "Adaugă teme noi"
+msgstr "Adaugă șabloane noi"
 
 #: wp-admin/menu.php:80
 #, php-format
@@ -7809,11 +7806,11 @@ msgstr "Setări discuții"
 #: wp-admin/options-discussion.php:30
 #: wp-admin/options-discussion.php:31
 msgid "Default article settings"
-msgstr "Setări implicite pentru posturi"
+msgstr "Setări implicite pentru articole"
 
 #: wp-admin/options-discussion.php:34
 msgid "Attempt to notify any blogs linked to from the article (slows down posting.)"
-msgstr "Se încearcă notificarea tuturor blogurilor spre care există legături în post (încetinește publicarea)."
+msgstr "Se încearcă notificarea tuturor blogurilor spre care există legături în articol (încetinește publicarea)."
 
 #: wp-admin/options-discussion.php:38
 msgid "Allow link notifications from other blogs (pingbacks and trackbacks.)"
@@ -7821,11 +7818,11 @@ msgstr "Permite notificările de la alte bloguri (pingback-uri și trackback-uri
 
 #: wp-admin/options-discussion.php:42
 msgid "Allow people to post comments on new articles"
-msgstr "Permite vizitatorilor să publice comentarii la noile posturi"
+msgstr "Permite vizitatorilor să publice comentarii la noile articole"
 
 #: wp-admin/options-discussion.php:44
 msgid "These settings may be overridden for individual articles."
-msgstr "Aceste setări pot fi modificate și pentru fiecare post în parte."
+msgstr "Aceste setări pot fi modificate și pentru fiecare articol în parte."
 
 #: wp-admin/options-discussion.php:48
 #: wp-admin/options-discussion.php:49
@@ -7843,7 +7840,7 @@ msgstr "Utilizatorii trebuie să fie înregistrați și autentificați pentru a 
 #: wp-admin/options-discussion.php:60
 #, php-format
 msgid "Automatically close comments on articles older than %s days"
-msgstr "Blochez automat comentariile la posturi mai vechi de %s zile"
+msgstr "Blochez automat comentariile la articolele mai vechi de %s zile"
 
 #: wp-admin/options-discussion.php:76
 #, php-format
@@ -8154,7 +8151,7 @@ msgstr "Dimensiuni imagine"
 
 #: wp-admin/options-media.php:30
 msgid "The sizes listed below determine the maximum dimensions in pixels to use when inserting an image into the body of a post."
-msgstr "Dimensiunile listate mai jos, determină dimensiunile maxime în pixeli folosite la înserarea unei imagini în corpul unui post."
+msgstr "Dimensiunile listate mai jos, determină dimensiunile maxime în pixeli folosite la înserarea unei imagini în corpul unui articol."
 
 #: wp-admin/options-media.php:34
 msgid "Thumbnail size"
@@ -8202,7 +8199,7 @@ msgstr "Auto-înserări"
 #: wp-admin/options-media.php:74
 #: wp-admin/options-media.php:75
 msgid "Attempt to automatically embed all plain text URLs"
-msgstr "Încearcă înserarea automată a tuturor adreselor URL în format text clar"
+msgstr "Încearcă inserarea automată a tuturor adreselor URL în format text clar"
 
 #: wp-admin/options-media.php:80
 msgid "Maximum embed size"
@@ -8210,7 +8207,7 @@ msgstr "Dimensiunea maximă a înserării"
 
 #: wp-admin/options-media.php:86
 msgid "If the width value is left blank, embeds will default to the max width of your theme."
-msgstr "Dacă valoarea lățimii rămâne nespecificată, înserarea va prelua lățimea maximă a temeii care este folosită."
+msgstr "Dacă valoarea lățimii rămâne nespecificată, înserarea va prelua lățimea maximă a șablonului care este folosit."
 
 #: wp-admin/options-misc.php:15
 msgid "Miscellaneous Settings"
@@ -8364,7 +8361,7 @@ msgstr "Afișaj pagină principală"
 
 #: wp-admin/options-reading.php:35
 msgid "Your latest posts"
-msgstr "Ultimele posturi"
+msgstr "Ultimele articole"
 
 #: wp-admin/options-reading.php:40
 #, php-format
@@ -8379,7 +8376,7 @@ msgstr "Pagina principală: %s"
 #: wp-admin/options-reading.php:45
 #, php-format
 msgid "Posts page: %s"
-msgstr "Pagina posturilor: %s"
+msgstr "Pagina articolelor: %s"
 
 #: wp-admin/options-reading.php:50
 msgid "<strong>Warning:</strong> these pages should not be the same!"
@@ -8392,7 +8389,7 @@ msgstr "Paginile blogului afișează cel mult"
 #: wp-admin/options-reading.php:60
 #: wp-admin/options-reading.php:65
 msgid "posts"
-msgstr "posturi"
+msgstr "articole"
 
 #: wp-admin/options-reading.php:64
 msgid "Syndication feeds show the most recent"
@@ -8401,7 +8398,7 @@ msgstr "Fluxurile agregate arată cele mai recente"
 #: wp-admin/options-reading.php:68
 #: wp-admin/options-reading.php:69
 msgid "For each article in a feed, show"
-msgstr "Pentru fiecare post din flux, afișează"
+msgstr "Pentru fiecare articol din flux, afișează"
 
 #: wp-admin/options-reading.php:70
 msgid "Full text"
@@ -8446,7 +8443,7 @@ msgstr "WordPress va corecta automat codul XHTML invalid"
 
 #: wp-admin/options-writing.php:44
 msgid "Default Post Category"
-msgstr "Categorie implicită pentru posturi"
+msgstr "Categorie implicită pentru articole"
 
 #: wp-admin/options-writing.php:52
 msgid "Default Link Category"
@@ -8480,12 +8477,12 @@ msgstr "Permite protocoalele de publicare XML-RPC pentru WordPress, Movable Type
 
 #: wp-admin/options-writing.php:84
 msgid "Post via e-mail"
-msgstr "Postează prin e-mail"
+msgstr "Articole prin e-mail"
 
 #: wp-admin/options-writing.php:85
 #, php-format
 msgid "To post to WordPress by e-mail you must set up a secret e-mail account with POP3 access. Any mail received at this address will be posted, so it&#8217;s a good idea to keep this address very secret. Here are three random strings you could use: <kbd>%s</kbd>, <kbd>%s</kbd>, <kbd>%s</kbd>."
-msgstr "Pentru adăugarea posturilor folosind e-mail-ul, ai nevoie de un cont de e-mail secret cu suport pentru POP3. Orice mesaj trimis la adresa contului respectiv va fi publicat, din această cauză se dorește păstrarea în secret a adresei folosite. Pot fi folosite spre exemplu următoarele nume pentru crearea contului de e-mail: <kbd>%s</kbd>, <kbd>%s</kbd>, <kbd>%s</kbd>."
+msgstr "Pentru adăugarea articolelor folosind e-mail-ul, ai nevoie de un cont de e-mail secret cu suport pentru POP3. Orice mesaj trimis la adresa contului respectiv va fi publicat, din această cauză se dorește păstrarea în secret a adresei folosite. Pot fi folosite spre exemplu următoarele nume pentru crearea contului de e-mail: <kbd>%s</kbd>, <kbd>%s</kbd>, <kbd>%s</kbd>."
 
 #: wp-admin/options-writing.php:89
 msgid "Mail Server"
@@ -8509,7 +8506,7 @@ msgstr "Servicii de actualizare"
 
 #: wp-admin/options-writing.php:120
 msgid "When you publish a new post, WordPress automatically notifies the following site update services. For more about this, see <a href=\"http://codex.wordpress.org/Update_Services\">Update Services</a> on the Codex. Separate multiple service <abbr title=\"Universal Resource Locator\">URL</abbr>s with line breaks."
-msgstr "Când publici un post  nou, WordPress notifică automat următoarele situri cu servicii de actualizare. Pentru mai multe detalii, vizitează <a href=\"http://codex.wordpress.org/Update_Services\" target=\"_blank\">Servicii Actualizare</a>. Pune fiecare URL pe un rând nou."
+msgstr "Când publici un articol  nou, WordPress notifică automat următoarele situri cu servicii de actualizare. Pentru mai multe detalii, vizitează <a href=\"http://codex.wordpress.org/Update_Services\" target=\"_blank\">Servicii Actualizare</a>. Pune fiecare URL pe un rând nou."
 
 #: wp-admin/options-writing.php:126
 #, php-format
@@ -8709,7 +8706,7 @@ msgstr "Modulele extind și măresc funcționalitatea WordPress. Odată ce un mo
 #: wp-admin/plugins.php:234
 #, php-format
 msgid "If something goes wrong with a plugin and you can&#8217;t use WordPress, delete or rename that file in the <code>%s</code> directory and it will be automatically deactivated."
-msgstr "Dacă ceva merge greșit cu un plugin și nu poți folosi WordPress, șterge sau redenumește fișierul modulului respectiv în directorul <code>%s</code> și va fi dezactivat automat."
+msgstr "Dacă ceva merge greșit cu un modul și nu poți folosi WordPress, șterge sau redenumește fișierul modulului respectiv în directorul <code>%s</code> și va fi dezactivat automat."
 
 #: wp-admin/plugins.php:235
 #, php-format
@@ -8841,7 +8838,7 @@ msgstr "Se pare că nu sunt module disponibile în acest moment."
 
 #: wp-admin/post-new.php:11
 msgid "Add New Post"
-msgstr "Adaugă post nou"
+msgstr "Adaugă un articol"
 
 #: wp-admin/post-new.php:25
 #, php-format
@@ -8850,26 +8847,26 @@ msgid ""
 "You can also <a href=\"mailto:%s?subject=Promotion?\">e-mail the admin</a> to ask for a promotion.<br />\n"
 "When you&#8217;re promoted, just reload this page and you&#8217;ll be able to blog. :)"
 msgstr ""
-"Deoarece ești nou venit, va trebui să aștepți ca un administrator să adauge capabilitatea <code>edit_posts</code>, pentru a putea să publici posturi.<br />\n"
+"Deoarece ești nou venit, va trebui să aștepți ca un administrator să adauge capabilitatea <code>edit_posts</code>, pentru a putea să publici articole.<br />\n"
 "Poți trimite <a href=\"mailto:%s?subject=Promovare?\">un mail către administrator</a> pentru a cere o promovare.<br />\n"
-"După ce ai fost promovat, reîncarcă această pagină și vei putea publica posturi pe blog. :)"
+"După ce ai fost promovat, reîncarcă această pagină și vei putea publica articole pe blog. :)"
 
 #: wp-admin/post.php:131
 msgid "You attempted to edit a post that doesn&#8217;t exist. Perhaps it was deleted?"
-msgstr "Ai încercat să modifici un post care nu există. Este posibil să fi fost șters? "
+msgstr "Ai încercat să modifici un articol care nu există. Este posibil să fi fost șters? "
 
 #: wp-admin/post.php:137
 msgid "You can&#8217;t edit this post because it is in the Trash. Please restore it and try again."
-msgstr "Postul nu poate fi editat deoarece se află în gunoi. Mută postul din gunoi și reîncearcă."
+msgstr "Articolul nu poate fi editat deoarece se află în gunoi. Mută articolul din gunoi și reîncearcă."
 
 #: wp-admin/post.php:160
 msgid "Edit Post"
-msgstr "Editare post"
+msgstr "Editare articol"
 
 #: wp-admin/post.php:216
 #: wp-admin/upload.php:103
 msgid "You are not allowed to move this post out of the trash."
-msgstr "Nu ai voie să muți acest post din gunoi."
+msgstr "Nu ai voie să muți acest articol din gunoi."
 
 #: wp-admin/press-this.php:122
 msgid "Embed Code"
@@ -8956,7 +8953,7 @@ msgstr "Compară reviziile “%1$s”"
 #: wp-admin/revision.php:118
 #, php-format
 msgid "Post Revision for &#8220;%1$s&#8221; created on %2$s"
-msgstr "Revizia postului „%1$s” creat în %2$s"
+msgstr "Revizia articolului „%1$s” creat în %2$s"
 
 #: wp-admin/revision.php:158
 #, php-format
@@ -8974,7 +8971,7 @@ msgstr "Aceste revizii sunt identice."
 
 #: wp-admin/sidebar.php:98
 msgid "Post published."
-msgstr "Post publicat."
+msgstr "Articol publicat."
 
 #: wp-admin/sidebar.php:103
 #: wp-content/plugins/akismet/akismet.php:1090
@@ -8993,7 +8990,7 @@ msgstr "Titlu:"
 
 #: wp-admin/sidebar.php:108
 msgid "Post:"
-msgstr "Post:"
+msgstr "Articol:"
 
 #: wp-admin/sidebar.php:113
 #: wp-admin/themes.php:147
@@ -9012,23 +9009,23 @@ msgstr "Salvează ca ciornă"
 
 #: wp-admin/theme-editor.php:13
 msgid "You do not have sufficient permissions to edit templates for this blog."
-msgstr "Nu ai drepturi suficiente pentru editarea temelor acestui blog."
+msgstr "Nu ai drepturi suficiente pentru editarea șabloanelor acestui blog."
 
 #: wp-admin/theme-editor.php:15
 msgid "Edit Themes"
-msgstr "Editare teme"
+msgstr "Editare șabloane"
 
 #: wp-admin/theme-editor.php:31
 msgid "The requested theme does not exist."
-msgstr "Tema cerută nu există."
+msgstr "Șablonul cerut nu există."
 
 #: wp-admin/theme-editor.php:126
 msgid "Select theme to edit:"
-msgstr "Selectează tema pentru editare:"
+msgstr "Selectează șablonul pentru editare:"
 
 #: wp-admin/theme-editor.php:145
 msgid "Theme Files"
-msgstr "Fișierele temei"
+msgstr "Fișierele șablonului"
 
 #: wp-admin/theme-editor.php:150
 msgid "Templates"
@@ -9046,7 +9043,7 @@ msgstr "Stop, acest fișier nu există! Mai verifică o dată denumirea și reî
 
 #: wp-admin/theme-install.php:13
 msgid "You do not have sufficient permissions to install themes on this blog."
-msgstr "Nu ai permisiuni suficiente pentru a instala teme."
+msgstr "Nu ai permisiuni suficiente pentru a instala șabloane."
 
 #: wp-admin/theme-install.php:33
 msgctxt "Theme Installer"
@@ -9065,38 +9062,38 @@ msgstr "Recent actualizate"
 
 #: wp-admin/themes.php:34
 msgid "Themes give your WordPress style. Once a theme is installed, you may preview it, activate it or deactivate it here."
-msgstr "Temele dăruiesc WordPress-ului tău stil. Odată ce tema e instalată, o poți previzualiza, activa sau dezactiva de aici."
+msgstr "Șabloanele dăruiesc WordPress-ului stil. Odată ce șablonul e instalat, se poate previzualiza, activa sau dezactiva de aici."
 
 #: wp-admin/themes.php:36
 #, php-format
 msgid "You can find additional themes for your site by using the new <a href=\"%1$s\">Theme Browser/Installer</a> functionality or by browsing the <a href=\"http://wordpress.org/extend/themes/\">WordPress Theme Directory</a> directly and installing manually.  To install a theme <em>manually</em>, <a href=\"%2$s\">upload its ZIP archive with the new uploader</a> or copy its folder via FTP into your <code>wp-content/themes</code> directory."
-msgstr "Poți găsi teme adiționale pentru situl tău folosind funționalitățile noului <a href=\"%1$s\">Căutător/Instalator Teme</a> sau căutând direct în <a href=\"http://wordpress.org/extend/themes/\" target=\"_blank\">Directorul de Teme WordPress</a> și instalând manual. Pentru a instala o temă <em>manual</em>, <a href=\"%2$s\">încarcă arhiva .zip cu noul încărcător</a> sau copiază-i dosarul prin FTP în directorul <code>wp-content/themes</code>."
+msgstr "Poți găsi șabloane adiționale pentru situl tău folosind funționalitățile noului <a href=\"%1$s\">Căutător/Instalator Șabloane</a> sau căutând direct în <a href=\"http://wordpress.org/extend/themes/\" target=\"_blank\">Directorul de Șabloane WordPress</a> și instalând manual. Pentru a instala un șablon <em>manual</em>, <a href=\"%2$s\">încarcă arhiva .zip cu noul încărcător</a> sau copiază-i dosarul prin FTP în directorul <code>wp-content/themes</code>."
 
 #: wp-admin/themes.php:37
 msgid "Once a theme is uploaded, you should see it on this page."
-msgstr "Odată ce o temă a fost încărcată, ar trebui să fie vizibilă în această pagină."
+msgstr "Odată ce un șablon a fost încărcat, ar trebui să fie vizibil în această pagină."
 
 #: wp-admin/themes.php:49
 msgid "The active theme is broken.  Reverting to the default theme."
-msgstr "Tema curentă este stricată. Se revine la tema originală."
+msgstr "Șablonul curent este stricat. Se revine la șablonul original."
 
 #: wp-admin/themes.php:52
 #, php-format
 msgid "New theme activated. This theme supports widgets, please visit the <a href=\"%s\">widgets settings page</a> to configure them."
-msgstr "Temă nouă activată. Această temă suportă widget-uri, te rog vizitează <a href=\"%s\">pagina setări widget-uri</a> ca să le configurezi."
+msgstr "Șablon nou activat. Aceast șablon are suport pentru widget-uri, vizitează <a href=\"%s\">pagina cu setări pentru widget-uri</a> ca să le configurezi."
 
 #: wp-admin/themes.php:54
 #, php-format
 msgid "New theme activated. <a href=\"%s\">Visit site</a>"
-msgstr "Noua temă a fost activată. <a href=\"%s\">Vizitează situl</a>"
+msgstr "Noul șablon a fost activat. <a href=\"%s\">Vizitează situl</a>"
 
 #: wp-admin/themes.php:57
 msgid "Theme deleted."
-msgstr "Temă ștearsă."
+msgstr "Șablon șters."
 
 #: wp-admin/themes.php:115
 msgid "Upgrading this theme will lose any customizations you have made.  'Cancel' to stop, 'OK' to upgrade."
-msgstr "Actualizarea temei va duce la pierderea oricăror modificări făcute. Apasă 'OK' pentru a continua sau 'Cancel' pentru a renunța."
+msgstr "Actualizarea șablonului va duce la pierderea oricăror modificări făcute. Apasă 'OK' pentru a continua sau 'Cancel' pentru a renunța."
 
 #: wp-admin/themes.php:118
 #, php-format
@@ -9106,7 +9103,7 @@ msgstr "A apărut versiunea %1$s. <a href=\"%2$s\" class=\"thickbox\" title=\"%1
 #: wp-admin/themes.php:120
 #, php-format
 msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a> <em>automatic upgrade unavailable for this theme</em>."
-msgstr "Este disponibilă o nouă versiune a %1$s. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Vezi detaliile versiunii %3$s</a> <em>actualizare automată nedisponibilă pentru această temă</em>."
+msgstr "Este disponibilă o nouă versiune a %1$s. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Vezi detaliile versiunii %3$s</a> <em>actualizare automată nedisponibilă pentru aceast șablon</em>."
 
 #: wp-admin/themes.php:122
 #, php-format
@@ -9120,11 +9117,11 @@ msgstr "Adaugă"
 
 #: wp-admin/themes.php:132
 msgid "Current Theme"
-msgstr "Tema curentă"
+msgstr "Șablonul curent"
 
 #: wp-admin/themes.php:135
 msgid "Current theme preview"
-msgstr "Previzualizare temă curentă"
+msgstr "Previzualizare șablon curent"
 
 #. translators: 1: theme title, 2: theme version, 3: theme author
 #: wp-admin/themes.php:139
@@ -9138,17 +9135,17 @@ msgstr "%1$s %2$s de %3$s"
 #: wp-admin/themes.php:238
 #, php-format
 msgid "The template files are located in <code>%2$s</code>.  The stylesheet files are located in <code>%3$s</code>.  <strong>%4$s</strong> uses templates from <strong>%5$s</strong>.  Changes made to the templates will affect both themes."
-msgstr "Fișierele temei sunt în <code>%2$s</code>. Fișierele CSS sunt în <code>%3$s</code>.  <strong>%4$s</strong> folosește șabloane de la <strong>%5$s</strong>. Schimbările făcute la șabloane vor afecta ambele teme."
+msgstr "Fișierele șablonului sunt în <code>%2$s</code>. Fișierele CSS sunt în <code>%3$s</code>.  <strong>%4$s</strong> folosește șabloane de la <strong>%5$s</strong>. Schimbările făcute la șabloane vor afecta ambele șabloane."
 
 #: wp-admin/themes.php:144
 #: wp-admin/themes.php:240
 #, php-format
 msgid "All of this theme&#8217;s files are located in <code>%2$s</code>."
-msgstr "Toate fișierele temei se găsesc în <code>%2$s</code>."
+msgstr "Toate fișierele șablonului se găsesc în <code>%2$s</code>."
 
 #: wp-admin/themes.php:154
 msgid "Available Themes"
-msgstr "Teme disponibile"
+msgstr "Șabloane disponibile"
 
 #: wp-admin/themes.php:212
 #, php-format
@@ -9161,20 +9158,20 @@ msgid ""
 "You are about to delete this theme '%s'\n"
 "  'Cancel' to stop, 'OK' to delete."
 msgstr ""
-"Ești pe cale să ștergi această temă '%s'\n"
+"Ești pe cale să ștergi aceast șablon '%s'\n"
 "Apasă 'OK' pentru a continua sau 'Cancel' pentru a renunța."
 
 #: wp-admin/themes.php:253
 msgid "You only have one theme installed at the moment so there is nothing to show you here.  Maybe you should download some more to try out."
-msgstr "Ai doar o temă instalată momentan, așa că nu am ce să îți arăt aici. Poate că ar trebui să mai descarci câteva teme și să le încerci."
+msgstr "Ai doar un șablon instalat momentan. Se pot descărca șabloane noi și testa aici."
 
 #: wp-admin/themes.php:272
 msgid "Broken Themes"
-msgstr "Teme stricate"
+msgstr "Șabloane stricate"
 
 #: wp-admin/themes.php:273
 msgid "The following themes are installed but incomplete.  Themes must have a stylesheet and a template."
-msgstr "Următoarele teme sunt instalate dar incomplete. Temele trebuie să aibă un stylesheet și un șablon."
+msgstr "Următoarele șabloane sunt instalate dar incomplete. Un șablon trebuie să aibă un fișier CSS și un șablon."
 
 #: wp-admin/tools.php:27
 #: wp-admin/tools.php:36
@@ -9276,7 +9273,7 @@ msgstr "Publicare Imediată, este o scurtătură: o aplicație mică ce rulează
 
 #: wp-admin/tools.php:85
 msgid "Use Press This to clip text, images and videos from any web page. Then edit and add more straight from Press This before you save or publish it in a post on your blog."
-msgstr "Folosește Publicare Imediată pentru a captura text, poze și filmulețe de pe orice pagină. Apoi capturile se pot edita direct din WordPress. Toate înainte de a se face publicarea postului pe blog."
+msgstr "Folosește Publicare Imediată pentru a captura text, poze și filmulețe de pe orice pagină. Apoi capturile se pot edita direct din WordPress. Toate înainte de a se face publicarea articolului pe blog."
 
 #: wp-admin/tools.php:86
 msgid "Drag-and-drop the following link to your bookmarks bar or right click it and add it to your favorites for a posting shortcut."
@@ -9463,26 +9460,26 @@ msgstr "Se instalează modulul din fișierul încărcat: %s"
 
 #: wp-admin/update.php:120
 msgid "You do not have sufficient permissions to update themes for this blog."
-msgstr "Nu ai permisiuni suficiente pentru a actualiza teme pentru acest blog."
+msgstr "Nu ai permisiuni suficiente pentru a actualiza șabloane pentru acest blog."
 
 #: wp-admin/update.php:142
 #: wp-admin/update.php:172
 msgid "You do not have sufficient permissions to install themes for this blog."
-msgstr "Nu ai permisiuni suficiente pentru a instala teme pentru acest blog."
+msgstr "Nu ai permisiuni suficiente pentru a instala șabloane pentru acest blog."
 
 #: wp-admin/update.php:159
 #, php-format
 msgid "Installing theme: %s"
-msgstr "Instalare tema: %s"
+msgstr "Instalare șablon: %s"
 
 #: wp-admin/update.php:178
 msgid "Upload Theme"
-msgstr "Încarcă temă"
+msgstr "Încarcă șablon"
 
 #: wp-admin/update.php:185
 #, php-format
 msgid "Installing Theme from uploaded file: %s"
-msgstr "Instalez tema din fișierul descărcat: %s"
+msgstr "Instalez șablonul din fișierul descărcat: %s"
 
 #: wp-admin/upgrade.php:44
 msgid "WordPress &rsaquo; Upgrade"
@@ -9583,7 +9580,7 @@ msgstr[2] "Gunoi <span class=\"count\">(%s)</span>"
 #: wp-admin/upload.php:296
 #: wp-admin/upload.php:462
 msgid "Attach to a post"
-msgstr "Atașează la un post"
+msgstr "Atașează la un articol"
 
 #: wp-admin/upload.php:337
 msgid "Scan for lost attachments"
@@ -9844,15 +9841,15 @@ msgstr "ID #%1s: %2s"
 
 #: wp-admin/users.php:165
 msgid "What should be done with posts and links owned by this user?"
-msgstr "Ce ar trebui făcut cu posturile și legăturile create de acest utilizator?"
+msgstr "Ce ar trebui făcut cu articolele și legăturile create de acest utilizator?"
 
 #: wp-admin/users.php:168
 msgid "Delete all posts and links."
-msgstr "Șterge toate posturile și legăturile."
+msgstr "Șterge toate articolele și legăturile."
 
 #: wp-admin/users.php:170
 msgid "Attribute all posts and links to:"
-msgstr "Atribuie toate posturile și legăturile utilizatorului:"
+msgstr "Atribuie toate articolele și legăturile utilizatorului:"
 
 #: wp-admin/users.php:173
 msgid "Confirm Deletion"
@@ -9942,7 +9939,7 @@ msgstr "Nicio bară laterală definită"
 
 #: wp-admin/widgets.php:132
 msgid "The theme you are currently using isn&#8217;t widget-aware, meaning that it has no sidebars that you are able to change. For information on making your theme widget-aware, please <a href=\"http://codex.wordpress.org/Widgetizing_Themes\">follow these instructions</a>."
-msgstr "Tema folosită nu are suport pentru widget-uri, acest lucru spune că nu vei avea la dispoziție panouri ce pot fi modificate. Pentru informații despre cum poți creea teme ce au suport pentru widget-uri, aruncă o privire peste <a href=\"http://codex.wordpress.org/Widgetizing_Themes\">aceste instrucțiuni</a>."
+msgstr "Șablonul folosit nu are suport pentru widget-uri, acest lucru spune că nu vei avea la dispoziție panouri ce pot fi modificate. Pentru informații despre cum poți creea șabloane ce au suport pentru widget-uri, aruncă o privire peste <a href=\"http://codex.wordpress.org/Widgetizing_Themes\">aceste instrucțiuni</a>."
 
 #: wp-admin/widgets.php:252
 #, php-format
@@ -10001,7 +9998,7 @@ msgstr "Îmi pare rău, nu ai voie să accesezi acest blog."
 
 #: wp-app.php:427
 msgid "Sorry, you do not have the right to edit/publish new posts."
-msgstr "Îmi pare rău, nu ai voie să editezi/publici posturi."
+msgstr "Îmi pare rău, nu ai voie să editezi/publici articole."
 
 #: wp-app.php:452
 #: wp-app.php:650
@@ -10013,7 +10010,7 @@ msgstr "Îmi pare rău, cererea nu a reușit. Ceva nu a mers bine."
 
 #: wp-app.php:479
 msgid "Sorry, you do not have the right to access this post."
-msgstr "Îmi pare rău, nu ai voie să accesezi acest post."
+msgstr "Îmi pare rău, nu ai voie să accesezi acest articol."
 
 #: wp-app.php:514
 #: wp-app.php:682
@@ -10021,25 +10018,25 @@ msgstr "Îmi pare rău, nu ai voie să accesezi acest post."
 #: wp-app.php:809
 #: xmlrpc.php:1932
 msgid "Sorry, you do not have the right to edit this post."
-msgstr "Îmi pare rău, nu ai voie să editezi acest post."
+msgstr "Îmi pare rău, nu ai voie să editezi acest articol."
 
 #: wp-app.php:537
 #: wp-app.php:698
 #: xmlrpc.php:1948
 msgid "For some strange yet very annoying reason, this post could not be edited."
-msgstr "Dintr-un motiv foarte ciudat și enervant, postul nu a putut fi editat."
+msgstr "Dintr-un motiv foarte ciudat și enervant, articolul nu a putut fi editat."
 
 #: wp-app.php:560
 #: wp-app.php:720
 #: xmlrpc.php:1984
 msgid "Sorry, you do not have the right to delete this post."
-msgstr "Îmi pare rău, nu ai voie să ștergi acest post."
+msgstr "Îmi pare rău, nu ai voie să ștergi acest articol."
 
 #: wp-app.php:569
 #: wp-app.php:736
 #: xmlrpc.php:1989
 msgid "For some strange yet very annoying reason, this post could not be deleted."
-msgstr "Dintr-un motiv foarte ciudat și enervant, acest post nu a putut fi șters."
+msgstr "Dintr-un motiv foarte ciudat și enervant, acest articol nu a putut fi șters."
 
 #: wp-app.php:587
 msgid "Sorry, you do not have permission to upload files."
@@ -10057,7 +10054,7 @@ msgstr "Îmi pare rău, comentariile sunt dezactivate."
 
 #: wp-comments-post.php:61
 msgid "Sorry, you must be logged in to post a comment."
-msgstr "Îmi pare rău, trebuie să fi autentificat pentru a putea posta un comentariu."
+msgstr "Îmi pare rău, trebuie să fi autentificat pentru a putea publica un comentariu."
 
 #: wp-comments-post.php:68
 msgid "Error: please fill the required fields (name, email)."
@@ -10133,7 +10130,7 @@ msgstr "Acesta poate însemna două lucruri: fie ai introdus greșit cheia, fie 
 
 #: wp-content/plugins/akismet/akismet.php:150
 msgid "Automatically discard spam comments on posts older than a month."
-msgstr "Șterge automat comentariile marcate ca spam pentru posturile mai vechi de o lună."
+msgstr "Șterge automat comentariile marcate ca spam pentru articolele mai vechi de o lună."
 
 #: wp-content/plugins/akismet/akismet.php:151
 msgid "Update options &raquo;"
@@ -10383,11 +10380,11 @@ msgstr "Comentarii la %s"
 #: wp-content/themes/classic/comments-popup.php:31
 #: wp-content/themes/classic/comments.php:35
 msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on this post."
-msgstr "Feed <abbr title=\"Really Simple Syndication\">RSS</abbr> pentru acest post."
+msgstr "Feed <abbr title=\"Really Simple Syndication\">RSS</abbr> pentru acest articol."
 
 #: wp-content/themes/classic/comments-popup.php:34
 msgid "The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this entry is:"
-msgstr "<abbr title=\"Uniform Resource Locator\">URL</abbr> pentru TrackBack al acestui post este:"
+msgstr "<abbr title=\"Uniform Resource Locator\">URL</abbr> pentru TrackBack al acestui articol este:"
 
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
@@ -10491,7 +10488,7 @@ msgstr "<abbr title=\"Universal Resource Locator\">URL</abbr> TrackBack"
 #: wp-content/themes/classic/comments.php:45
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr "Trebuie să fi <a href=\"%s\">autentificat</a> pentru a posta comenta."
+msgstr "Trebuie să fii <a href=\"%s\">autentificat</a> pentru a publica comentarii."
 
 #: wp-content/themes/classic/comments.php:60
 msgid "Mail (will not be published)"
@@ -10539,15 +10536,15 @@ msgstr "Comentarii (%)"
 
 #: wp-content/themes/classic/index.php:31
 msgid "Sorry, no posts matched your criteria."
-msgstr "Îmi pare rău, niciun post nu îndeplinește criteriile tale."
+msgstr "Îmi pare rău, niciun articol nu îndeplinește criteriile tale."
 
 #: wp-content/themes/classic/index.php:34
 msgid "&laquo; Newer Posts"
-msgstr "&laquo; Posturi mai noi"
+msgstr "&laquo; Articole mai noi"
 
 #: wp-content/themes/classic/index.php:34
 msgid "Older Posts &raquo;"
-msgstr "Posturi mai vechi &raquo;"
+msgstr "Articole mai vechi &raquo;"
 
 #: wp-content/themes/classic/sidebar.php:13
 #: wp-includes/post-template.php:560
@@ -10581,7 +10578,7 @@ msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr>"
 #: wp-content/themes/classic/sidebar.php:35
 #: wp-includes/default-widgets.php:299
 msgid "The latest comments to all posts in RSS"
-msgstr "Ultimele comentarii la toate posturile în RSS"
+msgstr "Ultimele comentarii la toate articolele în RSS"
 
 #: wp-content/themes/classic/sidebar.php:35
 #: wp-includes/default-widgets.php:299
@@ -10689,7 +10686,7 @@ msgstr "Vizitează situl %s&#8217;"
 #: wp-includes/author-template.php:296
 #, php-format
 msgid "Posts by %s"
-msgstr "Posturi de %s"
+msgstr "Articole de %s"
 
 #: wp-includes/bookmark-template.php:82
 #, php-format
@@ -10709,7 +10706,7 @@ msgstr "Semne de carte"
 #: wp-includes/category-template.php:226
 #, php-format
 msgid "View all posts in %s"
-msgstr "Vezi toate posturile în %s"
+msgstr "Vezi toate articolele în %s"
 
 #: wp-includes/category-template.php:466
 #: wp-includes/category-template.php:468
@@ -10813,12 +10810,12 @@ msgstr "Comanda a eșuat"
 #: wp-includes/classes.php:1332
 #, php-format
 msgid "View all posts filed under %s"
-msgstr "Vezi toate posturile din categoria %s"
+msgstr "Vezi toate articolele din categoria %s"
 
 #: wp-includes/classes.php:1347
 #, php-format
 msgid "Feed for all posts filed under %s"
-msgstr "Feed pentru toate posturile din categoria %s"
+msgstr "Feed pentru toate articolele din categoria %s"
 
 #: wp-includes/comment-template.php:940
 msgid "Comments Off"
@@ -10969,7 +10966,7 @@ msgstr "Un formular de căutare pentru blogul tău"
 
 #: wp-includes/default-widgets.php:218
 msgid "A monthly archive of your blog&#8217;s posts"
-msgstr "O arhivă lunară a posturilor de pe blog"
+msgstr "O arhivă lunară a articolelor de pe blog"
 
 #: wp-includes/default-widgets.php:234
 msgid "Select Month"
@@ -10978,7 +10975,7 @@ msgstr "Selectează o lună"
 #: wp-includes/default-widgets.php:265
 #: wp-includes/default-widgets.php:497
 msgid "Show post counts"
-msgstr "Afișare contor posturi"
+msgstr "Afișare contor articole"
 
 #: wp-includes/default-widgets.php:267
 msgid "Display as a drop down"
@@ -10999,11 +10996,11 @@ msgstr "Abonează-te la feed-ul RSS 2.0"
 
 #: wp-includes/default-widgets.php:298
 msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
-msgstr "Flux <abbr title=\"Really Simple Syndication\">RSS</abbr> pentru posturi"
+msgstr "Flux <abbr title=\"Really Simple Syndication\">RSS</abbr> pentru articole"
 
 #: wp-includes/default-widgets.php:331
 msgid "A calendar of your blog&#8217;s posts"
-msgstr "Un calendar al posturilor de pe blog"
+msgstr "Un calendar a articolelor de pe blog"
 
 #: wp-includes/default-widgets.php:332
 #: wp-includes/general-template.php:1027
@@ -11040,16 +11037,16 @@ msgstr "Afișează ierarhic"
 
 #: wp-includes/default-widgets.php:514
 msgid "The most recent posts on your blog"
-msgstr "Cele mai recente posturi ale blogului tău"
+msgstr "Cele mai recente articole de pe blog"
 
 #: wp-includes/default-widgets.php:515
 #: wp-includes/default-widgets.php:537
 msgid "Recent Posts"
-msgstr "Posturi recente"
+msgstr "Articole recente"
 
 #: wp-includes/default-widgets.php:589
 msgid "Number of posts to show:"
-msgstr "Numărul de posturi afișate:"
+msgstr "Numărul de articole afișate:"
 
 #: wp-includes/default-widgets.php:591
 #: wp-includes/default-widgets.php:675
@@ -11351,17 +11348,17 @@ msgstr "Încercarea de a actualiza acest modul: &#8220;%s&#8221; a eșuat."
 
 #: wp-includes/functions.php:2389
 msgid "Your attempt to add this post has failed."
-msgstr "Încercarea de a adăuga acest post a eșuat."
+msgstr "Încercarea de a adăuga acest articol a eșuat."
 
 #: wp-includes/functions.php:2390
 #, php-format
 msgid "Your attempt to delete this post: &#8220;%s&#8221; has failed."
-msgstr "Încercarea de a șterge acest post: &#8220;%s&#8221; a eșuat."
+msgstr "Încercarea de a șterge acest articol: &#8220;%s&#8221; a eșuat."
 
 #: wp-includes/functions.php:2391
 #, php-format
 msgid "Your attempt to edit this post: &#8220;%s&#8221; has failed."
-msgstr "Încercarea de a edita acest post: &#8220;%s&#8221; a eșuat."
+msgstr "Încercarea de a edita acest articol: &#8220;%s&#8221; a eșuat."
 
 #: wp-includes/functions.php:2393
 msgid "Your attempt to add this user has failed."
@@ -11402,12 +11399,12 @@ msgstr "Încercarea de a edita acest fișier: &#8220;%s&#8221; a eșuat."
 #: wp-includes/functions.php:2402
 #, php-format
 msgid "Your attempt to edit this theme file: &#8220;%s&#8221; has failed."
-msgstr "Încercarea de a edita acest fișier al temei: &#8220;%s&#8221; a eșuat."
+msgstr "Încercarea de a edita acest fișier al șablonului: &#8220;%s&#8221; a eșuat."
 
 #: wp-includes/functions.php:2403
 #, php-format
 msgid "Your attempt to switch to this theme: &#8220;%s&#8221; has failed."
-msgstr "Încercarea de a activa această temă: &#8220;%s&#8221; a eșuat."
+msgstr "Încercarea de a activa aceast șablon: &#8220;%s&#8221; a eșuat."
 
 #: wp-includes/functions.php:2405
 #, php-format
@@ -11516,7 +11513,7 @@ msgstr "%1$s %2$s"
 #: wp-includes/general-template.php:1063
 #, php-format
 msgid "View posts for %1$s %2$s"
-msgstr "Vezi posturi pentru %1$s %2$s"
+msgstr "Vezi articolele pentru %1$s %2$s"
 
 #. translators: Separator between blog name and feed type in feed links
 #: wp-includes/general-template.php:1458
@@ -11559,7 +11556,7 @@ msgstr "%1$s %2$s %3$s Fluxul pentru etichetă"
 #: wp-includes/general-template.php:1489
 #, php-format
 msgid "%1$s %2$s Posts by %3$s Feed"
-msgstr "%1$s %2$s Posturi de %3$s"
+msgstr "%1$s %2$s Articole de %3$s"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: search phrase
 #: wp-includes/general-template.php:1491
@@ -11598,7 +11595,7 @@ msgstr "Nu s-a putut deschide operatorul pentru fopen() la %s"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:26
 msgid "Do you want to use the WYSIWYG mode for this textarea?"
-msgstr "Vreii să folosești modul WYSIWYG pentru acest câmp de text?"
+msgstr "Vrei să folosești modul WYSIWYG pentru acest câmp de text?"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:28
 msgid "Insert"
@@ -13061,7 +13058,7 @@ msgstr "Există un buton în meniul cu unelte al editorului pentru inserare de i
 
 #: wp-includes/js/tinymce/wp-mce-help.php:194
 msgid "If you need to upload an image or another media file from your computer, you can use the Media Library buttons above the editor. The media library will attempt to create a thumbnail-sized copy from each uploaded image. To insert your image into the post, first click on the thumbnail to reveal a menu of options. When you have selected the options you like, click \"Send to Editor\" and your image or file will appear in the post you are editing. If you are inserting a movie, there are additional options in the \"Media\" dialog that can be opened from the second toolbar row."
-msgstr "Dacă trebuie să încarci o imagine sau alt fișier media din computer, poți folosi butoanele Librărie Media de sub editor. Librăria media va încerca să creeze o copie de dimensiune redusă a fiecărei imagini încărcate. Pentru a introduce imaginea în post, mai întâi apasă pe thumbnail pentru a afișa un meniu de opțiuni. După ce ai selectat opțiunile pe care le dorești, apasă \"Trimite la editor\" și imaginea sau fișierul va apărea în postul pe care îl scri. Dacă introduci un film, sunt opțiuni adiționale în caseta Media care poate fi deschisă din linia a doua a barei de unelte."
+msgstr "Dacă trebuie să încarci o imagine sau alt fișier media din computer, poți folosi butoanele Librărie Media de sub editor. Librăria media va încerca să creeze o copie de dimensiune redusă a fiecărei imagini încărcate. Pentru a introduce imaginea în articol, mai întâi apasă pe thumbnail pentru a afișa un meniu de opțiuni. După ce ai selectat opțiunile pe care le dorești, apasă \"Trimite la editor\" și imaginea sau fișierul va apărea în articolul pe care îl scri. Dacă introduci un film, sunt opțiuni adiționale în caseta Media care poate fi deschisă din linia a doua a barei de unelte."
 
 #: wp-includes/js/tinymce/wp-mce-help.php:195
 msgid "HTML in the Rich Editor"
@@ -13069,7 +13066,7 @@ msgstr "HTML în editorul complex"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:196
 msgid "Any HTML entered directly into the rich editor will show up as text when the post is viewed. What you see is what you get. When you want to include HTML elements that cannot be generated with the toolbar buttons, you must enter it by hand in the HTML editor. Examples are tables and &lt;code&gt;. To do this, click the HTML tab and edit the code, then switch back to Visual mode. If the code is valid and understood by the editor, you should see it rendered immediately."
-msgstr "Orice HTML scris direct în editor va apărea ca text când este vizualizat postul. Ceea ce vezi este ceea ce primești. Când dorești să incluzi elemente HTML care nu pot fi generate de butoanele uneltelor, trebuie să le introduci manual în editorul HTML. Exemple sunt tabelele și codul dintre tag-urile &lt;code&gt;. Pentru a face acesta, apasă pe butonul HTML și editează codul, apoi apasă pe Actualizare. Dacă codul este valid și înțeles de editor, ar trebui să îl vizualizezi imediat."
+msgstr "Orice HTML scris direct în editor va apărea ca text când este vizualizat articolul. Ceea ce vezi este ceea ce primești. Când dorești să incluzi elemente HTML care nu pot fi generate de butoanele uneltelor, trebuie să le introduci manual în editorul HTML. Exemple sunt tabelele și codul dintre tag-urile &lt;code&gt;. Pentru a face acesta, apasă pe butonul HTML și editează codul, apoi apasă pe Actualizare. Dacă codul este valid și înțeles de editor, ar trebui să îl vizualizezi imediat."
 
 #: wp-includes/js/tinymce/wp-mce-help.php:197
 msgid "Pasting in the Rich Editor"
@@ -13225,20 +13222,20 @@ msgstr "Editează legătură"
 #: wp-includes/link-template.php:999
 #: wp-includes/link-template.php:1263
 msgid "Previous Post"
-msgstr "Postul anterior"
+msgstr "Articolul anterior"
 
 #: wp-includes/link-template.php:999
 #: wp-includes/link-template.php:1263
 msgid "Next Post"
-msgstr "Următorul post"
+msgstr "Următorul articol"
 
 #: wp-includes/link-template.php:1123
 msgid "First Post"
-msgstr "Primul post"
+msgstr "Primul articol"
 
 #: wp-includes/link-template.php:1123
 msgid "Last Post"
-msgstr "Ultimul post"
+msgstr "Ultimul articol"
 
 #: wp-includes/link-template.php:1606
 msgid "Newer Comments &raquo;"
@@ -13325,7 +13322,7 @@ msgstr "<strong>Eroare</strong>: Numele utilizatorului este invalid sau parola e
 #: wp-includes/pluggable.php:988
 #, php-format
 msgid "New comment on your post #%1$s \"%2$s\""
-msgstr "Un comentariu nou la postul #%1$s \"%2$s\""
+msgstr "Un comentariu nou la articolul #%1$s \"%2$s\""
 
 #. translators: 1: comment author, 2: author IP, 3: author domain
 #: wp-includes/pluggable.php:990
@@ -13363,7 +13360,7 @@ msgstr "Comentariu: "
 
 #: wp-includes/pluggable.php:995
 msgid "You can see all comments on this post here: "
-msgstr "Poți vedea toate comentariile acestui post aici:"
+msgstr "Poți vedea toate comentariile acestui articol aici:"
 
 #. translators: 1: blog name, 2: post title
 #: wp-includes/pluggable.php:997
@@ -13375,7 +13372,7 @@ msgstr "[%1$s] Comentariu: \"%2$s\""
 #: wp-includes/pluggable.php:1000
 #, php-format
 msgid "New trackback on your post #%1$s \"%2$s\""
-msgstr "Trackback-uri pentru postul #%1$s \"%2$s\""
+msgstr "Trackback-uri pentru articolul #%1$s \"%2$s\""
 
 #. translators: 1: website name, 2: author IP, 3: author domain
 #. translators: 1: comment author, 2: author IP, 3: author domain
@@ -13392,7 +13389,7 @@ msgstr "Rezumat: "
 
 #: wp-includes/pluggable.php:1005
 msgid "You can see all trackbacks on this post here: "
-msgstr "Vizualizarea tuturor trackback-urilor postului se poate face aici:"
+msgstr "Vizualizarea tuturor trackback-urilor articolului se poate face aici:"
 
 #. translators: 1: blog name, 2: post title
 #: wp-includes/pluggable.php:1007
@@ -13404,11 +13401,11 @@ msgstr "[%1$s] Trackback: \"%2$s\""
 #: wp-includes/pluggable.php:1010
 #, php-format
 msgid "New pingback on your post #%1$s \"%2$s\""
-msgstr "Pingback-uri pentru postul #%1$s \"%2$s\""
+msgstr "Pingback-uri pentru articolul #%1$s \"%2$s\""
 
 #: wp-includes/pluggable.php:1015
 msgid "You can see all pingbacks on this post here: "
-msgstr "Vizualizarea tuturor ping-urilor postului se poate face aici:"
+msgstr "Vizualizarea tuturor ping-urilor articolului se poate face aici:"
 
 #. translators: 1: blog name, 2: post title
 #: wp-includes/pluggable.php:1017
@@ -13437,7 +13434,7 @@ msgstr "Spam: %s"
 #: wp-includes/pluggable.php:1083
 #, php-format
 msgid "A new trackback on the post #%1$s \"%2$s\" is waiting for your approval"
-msgstr "Un trackback la postul #%1$s \"%2$s\" așteaptă aproparea ta"
+msgstr "Un trackback la articolul #%1$s \"%2$s\" așteaptă aproparea ta"
 
 #: wp-includes/pluggable.php:1085
 #: wp-includes/pluggable.php:1092
@@ -13452,7 +13449,7 @@ msgstr "Rezumat Trackback: "
 #: wp-includes/pluggable.php:1090
 #, php-format
 msgid "A new pingback on the post #%1$s \"%2$s\" is waiting for your approval"
-msgstr "Un nou ping la postul #%1$s \"%2$s\" așteaptă aprobarea ta"
+msgstr "Un nou ping la articolul #%1$s \"%2$s\" așteaptă aprobarea ta"
 
 #: wp-includes/pluggable.php:1094
 msgid "Pingback excerpt: "
@@ -13461,7 +13458,7 @@ msgstr "Rezumat Pingback: "
 #: wp-includes/pluggable.php:1097
 #, php-format
 msgid "A new comment on the post #%1$s \"%2$s\" is waiting for your approval"
-msgstr "Un comentariu nou la postul #%1$s \"%2$s\" așteaptă aprobarea ta"
+msgstr "Un comentariu nou la articolul #%1$s \"%2$s\" așteaptă aprobarea ta"
 
 #: wp-includes/pluggable.php:1107
 #, php-format
@@ -13537,7 +13534,7 @@ msgstr "Privat: %s"
 
 #: wp-includes/post-template.php:252
 msgid "There is no excerpt because this is a protected post."
-msgstr "Nu există un rezumat, acesta este un post protejat."
+msgstr "Nu există un rezumat, acesta este un articol protejat."
 
 #: wp-includes/post-template.php:562
 msgid "Next page"
@@ -13558,7 +13555,7 @@ msgstr "Atașamentul lipsește"
 
 #: wp-includes/post-template.php:1136
 msgid "This post is password protected. To view it please enter your password below:"
-msgstr "Acest post este protejat de parolă. Ca să-l vezi, te rog introdu parola:"
+msgstr "Acest articol este protejat de parolă. Ca să-l vezi, te rog introdu parola:"
 
 #. translators: revision date format, see http://php.net/date
 #: wp-includes/post-template.php:1200
@@ -13599,11 +13596,11 @@ msgstr "Conținutul, titlul și rezumatul sunt goale."
 
 #: wp-includes/post.php:1739
 msgid "Could not update post in the database"
-msgstr "Nu s-a reușit actualizarea postului în baza de date"
+msgstr "Nu s-a reușit actualizarea articolului în baza de date"
 
 #: wp-includes/post.php:1755
 msgid "Could not insert post into the database"
-msgstr "Nu s-a reușit introducerea postului în baza de date"
+msgstr "Nu s-a reușit introducerea articolului în baza de date"
 
 #: wp-includes/post.php:1799
 msgid "The page template is invalid."
@@ -13796,7 +13793,7 @@ msgstr "Puternică"
 
 #: wp-includes/script-loader.php:281
 msgid "Tags used on this post:"
-msgstr "Etichete folosite în acest post:"
+msgstr "Etichete folosite în acest articol:"
 
 #: wp-includes/script-loader.php:288
 msgid "Publish on:"
@@ -13866,7 +13863,7 @@ msgstr "Previzualizează pagina"
 
 #: wp-includes/script-loader.php:502
 msgid "Preview this Post"
-msgstr "Previzualizează postul"
+msgstr "Previzualizează articolul"
 
 #: wp-includes/script-loader.php:504
 msgid "Saving Draft&#8230;"
@@ -14218,7 +14215,7 @@ msgstr "Îmi pare rău, nu ai dreptul să editezi  această pagină."
 
 #: xmlrpc.php:852
 msgid "Sorry, you cannot edit posts on this blog."
-msgstr "Îmi pare rău, nu poți edita posturi pe acest blog."
+msgstr "Îmi pare rău, nu poți edita articole pe acest blog."
 
 #: xmlrpc.php:889
 msgid "Sorry, you must be able to edit posts on this blog in order to view tags."
@@ -14238,7 +14235,7 @@ msgstr "Îmi pare rău, nu ai dreptul să ștergi o categorie."
 
 #: xmlrpc.php:1021
 msgid "Sorry, you must be able to edit posts to this blog in order to view categories."
-msgstr "Îmi pare rău, trebuie să poți edita posturi pe acest blog pentru a putea vizualiza categoriile."
+msgstr "Îmi pare rău, trebuie să poți edita articole pe acest blog pentru a putea vizualiza categoriile."
 
 #: xmlrpc.php:1058
 #: xmlrpc.php:1181
@@ -14272,7 +14269,7 @@ msgstr "Trebuie să fi autentificat pentru a scrie comentarii"
 #: xmlrpc.php:1303
 #: xmlrpc.php:2350
 msgid "Invalid post ID."
-msgstr "ID post invalid."
+msgstr "ID articol invalid."
 
 #: xmlrpc.php:1329
 msgid "Comment author name and email are required"
@@ -14306,12 +14303,12 @@ msgstr "Îmi pare rău, nu ai acces la datele utilizatorilor de pe acest blog."
 #: xmlrpc.php:3078
 #: xmlrpc.php:3188
 msgid "Sorry, you cannot edit this post."
-msgstr "Îmi pare rău, nu poți edita acest post."
+msgstr "Îmi pare rău, nu poți edita acest articol."
 
 #: xmlrpc.php:1729
 #: xmlrpc.php:2940
 msgid "Either there are no posts, or something went wrong."
-msgstr "Ori nu există posturi, ori ceva nu a mers bine."
+msgstr "Ori nu există articole, ori ceva nu a mers bine."
 
 #: xmlrpc.php:1785
 msgid "Sorry, this user can not edit the template."
@@ -14327,24 +14324,24 @@ msgstr "Fie fișierul nu este scriptibil, fie ceva a mers greșit. Fișierul nu 
 
 #: xmlrpc.php:1870
 msgid "Sorry, you are not allowed to post on this blog."
-msgstr "Îmi pare rău, nu ai dreptul să scri posturi pe acest blog."
+msgstr "Îmi pare rău, nu ai dreptul să scri articole pe acest blog."
 
 #: xmlrpc.php:1926
 #: xmlrpc.php:1980
 #: xmlrpc.php:2671
 #: xmlrpc.php:3140
 msgid "Sorry, no such post."
-msgstr "Îmi pare rău, nu există un astfel de post."
+msgstr "Îmi pare rău, nu există un astfel de articol."
 
 #: xmlrpc.php:1937
 #: xmlrpc.php:2502
 msgid "Sorry, you do not have the right to publish this post."
-msgstr "Îmi pare rău, nu ai voie să publici acest post."
+msgstr "Îmi pare rău, nu ai voie să publici acest articol."
 
 #: xmlrpc.php:2023
 #: xmlrpc.php:2320
 msgid "Sorry, you are not allowed to publish posts on this blog."
-msgstr "Îmi pare rău, nu ai voie să publici posturi pe acest blog."
+msgstr "Îmi pare rău, nu ai voie să publici articole pe acest blog."
 
 #: xmlrpc.php:2029
 #: xmlrpc.php:2326
@@ -14356,7 +14353,7 @@ msgstr "Îmi pare rău, nu ai voie să publici pagini pe acest blog."
 #: xmlrpc.php:2336
 #: xmlrpc.php:2396
 msgid "Invalid post type."
-msgstr "Tip post invalid."
+msgstr "Tip de articol invalid."
 
 #: xmlrpc.php:2079
 msgid "You are not allowed to post as this user"
@@ -14368,7 +14365,7 @@ msgstr "Nu ai voie să creezi pagini sub acest nume."
 
 #: xmlrpc.php:2387
 msgid "You are not allowed to change the post author as this user."
-msgstr "Nu ai voie să schimbi autorul postului ca acest utilizator."
+msgstr "Nu ai voie să schimbi autorul articolului ca acest utilizator."
 
 #: xmlrpc.php:2392
 msgid "You are not allowed to change the page author as this user."
@@ -14380,7 +14377,7 @@ msgstr "Îmi pare rău, nu ai dreptul să publici această pagină."
 
 #: xmlrpc.php:2535
 msgid "Sorry, your entry could not be edited. Something wrong happened."
-msgstr "Îmi pare rău, postul nu a putut fi editat. Ceva s-a întâmplat."
+msgstr "Îmi pare rău, articolul nu a putut fi editat. Ceva s-a întâmplat."
 
 #: xmlrpc.php:2803
 #: xmlrpc.php:2995
@@ -14398,7 +14395,7 @@ msgstr "Nu am putut scrie fișierul %1$s (%2$s)"
 
 #: xmlrpc.php:3034
 msgid "Sorry, you can not edit this post."
-msgstr "Îmi pare rău, nu poți edita acest post."
+msgstr "Îmi pare rău, nu poți edita acest articol."
 
 #: xmlrpc.php:3235
 msgid "Is there no link to us?"

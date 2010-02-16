@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 2.9.1\n"
+"Project-Id-Version: WordPress 2.9.2\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-12-30 00:57+0000\n"
-"PO-Revision-Date: 2010-01-19 07:24+0300\n"
+"POT-Creation-Date: 2010-02-15 17:47+0000\n"
+"PO-Revision-Date: 2010-02-15 21:24+0300\n"
 "Last-Translator: Sergey Biryukov <npocmop@gmail.com>\n"
 "Language-Team: ru.wordpress.org <npocmop@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -108,7 +108,7 @@ msgstr "Извините, вы должны авторизоваться для 
 
 #: wp-admin/admin-ajax.php:734
 #: wp-admin/admin-ajax.php:780
-#: wp-comments-post.php:74
+#: wp-comments-post.php:77
 msgid "Error: please type a comment."
 msgstr "Ошибка: пожалуйста, введите комментарий."
 
@@ -292,12 +292,12 @@ msgstr "Черновик"
 
 #. translators: date format in table columns, see http://php.net/date
 #: wp-admin/admin-ajax.php:1255
-#: wp-admin/edit-attachment-rows.php:159
-#: wp-admin/edit-attachment-rows.php:173
+#: wp-admin/edit-attachment-rows.php:161
+#: wp-admin/edit-attachment-rows.php:175
 #: wp-admin/includes/template.php:1416
 #: wp-admin/includes/template.php:1643
 #: wp-admin/includes/template.php:2149
-#: wp-admin/upload.php:424
+#: wp-admin/upload.php:426
 msgid "Y/m/d"
 msgstr "d.m.Y"
 
@@ -458,7 +458,7 @@ msgstr "Поиск рубрик"
 #: wp-admin/link-manager.php:262
 #: wp-admin/plugins.php:483
 #: wp-admin/upload.php:288
-#: wp-admin/upload.php:454
+#: wp-admin/upload.php:456
 #: wp-admin/users.php:308
 #: wp-admin/users.php:374
 msgid "Bulk Actions"
@@ -508,7 +508,7 @@ msgstr "Удалить"
 #: wp-admin/link-manager.php:265
 #: wp-admin/plugins.php:494
 #: wp-admin/upload.php:299
-#: wp-admin/upload.php:465
+#: wp-admin/upload.php:467
 #: wp-admin/users.php:311
 #: wp-admin/users.php:377
 #: wp-includes/js/tinymce/langs/wp-langs.php:27
@@ -848,7 +848,7 @@ msgstr "Перейдите на свой сайт и посмотрите, ка�
 
 #: wp-admin/edit-attachment-rows.php:74
 #: wp-admin/edit-attachment-rows.php:87
-#: wp-admin/edit-attachment-rows.php:204
+#: wp-admin/edit-attachment-rows.php:206
 #: wp-admin/includes/dashboard.php:451
 #: wp-admin/includes/template.php:128
 #: wp-admin/includes/template.php:299
@@ -863,7 +863,7 @@ msgid "Edit &#8220;%s&#8221;"
 msgstr "Редактировать &laquo;%s&raquo;"
 
 #: wp-admin/edit-attachment-rows.php:93
-#: wp-admin/edit-attachment-rows.php:204
+#: wp-admin/edit-attachment-rows.php:206
 #: wp-admin/edit-form-comment.php:62
 #: wp-admin/edit-pages.php:263
 #: wp-admin/edit-pages.php:312
@@ -905,7 +905,7 @@ msgstr "Изменить"
 #: wp-admin/includes/template.php:1673
 #: wp-admin/includes/template.php:2189
 #: wp-admin/upload.php:290
-#: wp-admin/upload.php:456
+#: wp-admin/upload.php:458
 #: wp-includes/post-template.php:1297
 msgid "Restore"
 msgstr "Восстановить"
@@ -917,7 +917,7 @@ msgstr "Восстановить"
 msgid "Trash"
 msgstr "Удалить"
 
-#: wp-admin/edit-attachment-rows.php:100
+#: wp-admin/edit-attachment-rows.php:101
 #: wp-admin/edit-comments.php:316
 #: wp-admin/edit-comments.php:412
 #: wp-admin/edit-form-comment.php:71
@@ -932,74 +932,74 @@ msgstr "Удалить"
 #: wp-admin/includes/template.php:1677
 #: wp-admin/includes/template.php:2193
 #: wp-admin/upload.php:292
-#: wp-admin/upload.php:398
-#: wp-admin/upload.php:458
+#: wp-admin/upload.php:399
+#: wp-admin/upload.php:460
 msgid "Delete Permanently"
 msgstr "Удалить навсегда"
 
-#: wp-admin/edit-attachment-rows.php:103
+#: wp-admin/edit-attachment-rows.php:105
 #: wp-admin/includes/template.php:1463
 #: wp-admin/includes/template.php:1683
-#: wp-admin/upload.php:399
+#: wp-admin/upload.php:401
 #, php-format
 msgid "View &#8220;%s&#8221;"
 msgstr "Смотреть &laquo;%s&raquo;"
 
-#: wp-admin/edit-attachment-rows.php:103
+#: wp-admin/edit-attachment-rows.php:105
 #: wp-admin/includes/template.php:1463
 #: wp-admin/includes/template.php:1537
 #: wp-admin/includes/template.php:1683
-#: wp-admin/upload.php:399
+#: wp-admin/upload.php:401
 msgid "View"
 msgstr "Просмотреть"
 
-#: wp-admin/edit-attachment-rows.php:134
+#: wp-admin/edit-attachment-rows.php:136
 #: wp-admin/includes/template.php:1508
 msgid "No Tags"
 msgstr "Меток нет"
 
-#: wp-admin/edit-attachment-rows.php:148
+#: wp-admin/edit-attachment-rows.php:150
 #: wp-admin/includes/template.php:1404
 #: wp-admin/includes/template.php:1631
-#: wp-admin/upload.php:413
+#: wp-admin/upload.php:415
 msgid "Unpublished"
 msgstr "Не опубликовано"
 
-#: wp-admin/edit-attachment-rows.php:150
+#: wp-admin/edit-attachment-rows.php:152
 #: wp-admin/includes/dashboard.php:451
 #: wp-admin/includes/template.php:1407
 #: wp-admin/includes/template.php:1634
-#: wp-admin/upload.php:415
+#: wp-admin/upload.php:417
 msgid "Y/m/d g:i:s A"
 msgstr "d.m.Y H:i:s"
 
-#: wp-admin/edit-attachment-rows.php:155
-#: wp-admin/upload.php:420
+#: wp-admin/edit-attachment-rows.php:157
+#: wp-admin/upload.php:422
 #, php-format
 msgid "%s from now"
 msgstr "%s до публикации"
 
-#: wp-admin/edit-attachment-rows.php:157
+#: wp-admin/edit-attachment-rows.php:159
 #: wp-admin/includes/plugin-install.php:507
 #: wp-admin/includes/template.php:1414
 #: wp-admin/includes/template.php:1641
 #: wp-admin/includes/template.php:2109
 #: wp-admin/includes/theme-install.php:325
-#: wp-admin/upload.php:422
+#: wp-admin/upload.php:424
 #, php-format
 msgid "%s ago"
 msgstr "%s назад"
 
-#: wp-admin/edit-attachment-rows.php:177
+#: wp-admin/edit-attachment-rows.php:179
 msgid "(Unattached)"
 msgstr "(Не прикреплён)"
 
-#: wp-admin/edit-attachment-rows.php:178
-#: wp-admin/upload.php:401
+#: wp-admin/edit-attachment-rows.php:180
+#: wp-admin/upload.php:403
 msgid "Attach"
 msgstr "Прикрепить"
 
-#: wp-admin/edit-attachment-rows.php:190
+#: wp-admin/edit-attachment-rows.php:192
 #: wp-admin/includes/template.php:1518
 #: wp-admin/includes/template.php:1706
 #: wp-admin/includes/template.php:2270
@@ -1008,7 +1008,7 @@ msgid "%s pending"
 msgstr "%s ожидающих"
 
 #. translators: comment count link
-#: wp-admin/edit-attachment-rows.php:193
+#: wp-admin/edit-attachment-rows.php:195
 #: wp-admin/includes/template.php:1521
 #: wp-admin/includes/template.php:1709
 #: wp-admin/includes/template.php:2273
@@ -1017,7 +1017,7 @@ msgid "0"
 msgstr "0"
 
 #. translators: comment count link
-#: wp-admin/edit-attachment-rows.php:193
+#: wp-admin/edit-attachment-rows.php:195
 #: wp-admin/includes/template.php:1521
 #: wp-admin/includes/template.php:1709
 #: wp-admin/includes/template.php:2273
@@ -1026,7 +1026,7 @@ msgid "1"
 msgstr "1"
 
 #. translators: comment count link: % will be substituted by comment count
-#: wp-admin/edit-attachment-rows.php:193
+#: wp-admin/edit-attachment-rows.php:195
 #: wp-admin/includes/template.php:1521
 #: wp-admin/includes/template.php:1709
 #: wp-admin/includes/template.php:2273
@@ -1034,12 +1034,12 @@ msgctxt "comment count"
 msgid "%"
 msgstr "%"
 
-#: wp-admin/edit-attachment-rows.php:205
+#: wp-admin/edit-attachment-rows.php:207
 msgid "Get permalink"
 msgstr "Получить ссылку"
 
-#: wp-admin/edit-attachment-rows.php:224
-#: wp-admin/upload.php:432
+#: wp-admin/edit-attachment-rows.php:226
+#: wp-admin/upload.php:434
 msgid "No media attachments found."
 msgstr "Вложений не найдено."
 
@@ -1217,7 +1217,7 @@ msgstr "Не спам"
 #: wp-admin/includes/media.php:1243
 #: wp-admin/includes/meta-boxes.php:193
 #: wp-admin/upload.php:294
-#: wp-admin/upload.php:460
+#: wp-admin/upload.php:462
 msgid "Move to Trash"
 msgstr "Удалить"
 
@@ -1261,7 +1261,7 @@ msgstr "Очистить спам"
 #: wp-admin/edit.php:310
 #: wp-admin/edit.php:357
 #: wp-admin/upload.php:339
-#: wp-admin/upload.php:468
+#: wp-admin/upload.php:470
 msgid "Empty Trash"
 msgstr "Очистить корзину"
 
@@ -7810,7 +7810,7 @@ msgstr "Постоянные ссылки"
 msgid "Miscellaneous"
 msgstr "Разное"
 
-#: wp-admin/menu.php:309
+#: wp-admin/menu.php:311
 msgid "You do not have sufficient permissions to access this page."
 msgstr "У вас недостаточно полномочий для доступа к этой странице."
 
@@ -9614,7 +9614,7 @@ msgstr[1] "Корзина <span class=\"count\">(%s)</span>"
 msgstr[2] "Корзина <span class=\"count\">(%s)</span>"
 
 #: wp-admin/upload.php:296
-#: wp-admin/upload.php:462
+#: wp-admin/upload.php:464
 msgid "Attach to a post"
 msgstr "Прикрепить к записи"
 
@@ -10088,15 +10088,15 @@ msgstr "Произошла ошибка при определении место
 msgid "Sorry, comments are closed for this item."
 msgstr "Извините, обсуждение этой записи закрыто."
 
-#: wp-comments-post.php:61
+#: wp-comments-post.php:64
 msgid "Sorry, you must be logged in to post a comment."
 msgstr "Извините, для отправки комментария вы должны авторизоваться."
 
-#: wp-comments-post.php:68
+#: wp-comments-post.php:71
 msgid "Error: please fill the required fields (name, email)."
 msgstr "Ошибка: пожалуйста, заполните необходимые поля (имя, e-mail)."
 
-#: wp-comments-post.php:70
+#: wp-comments-post.php:73
 msgid "Error: please enter a valid email address."
 msgstr "Ошибка: пожалуйста, введите правильный адрес e-mail."
 
@@ -11469,7 +11469,7 @@ msgstr "Пожалуйста, попробуйте ещё раз."
 msgid "&laquo; Back"
 msgstr "&laquo; Назад"
 
-#. #-#-#-#-#  wordpress.pot (WordPress 2.9.1-RC1)  #-#-#-#-#
+#. #-#-#-#-#  wordpress.pot (WordPress 2.9.2)  #-#-#-#-#
 #. Not gettexted string WP_I18N_ERROR_TITLE
 #: wp-includes/functions.php:2521
 #: wp-load.php:50

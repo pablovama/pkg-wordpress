@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-01-05 04:57+0000\n"
-"PO-Revision-Date: 2010-01-05 14:03+0100\n"
+"POT-Creation-Date: 2010-02-15 17:47+0000\n"
+"PO-Revision-Date: 2010-02-15 19:26+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WP-Support Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -116,7 +116,7 @@ msgstr "Beklagar, du måste vara inloggad för att kunna svara på en kommentar.
 
 #: wp-admin/admin-ajax.php:734
 #: wp-admin/admin-ajax.php:780
-#: wp-comments-post.php:74
+#: wp-comments-post.php:77
 msgid "Error: please type a comment."
 msgstr "Fel: Var vänlig skriv en kommentar."
 
@@ -7751,7 +7751,7 @@ msgstr "Permalänkar"
 msgid "Miscellaneous"
 msgstr "Övrigt"
 
-#: wp-admin/menu.php:309
+#: wp-admin/menu.php:311
 msgid "You do not have sufficient permissions to access this page."
 msgstr "Du har inte tillräckliga rättigheter för att få tillgång till denna sida."
 
@@ -10018,15 +10018,15 @@ msgstr "Ett fel har inträffat vid ett försök att komma åt metadatan för inl
 msgid "Sorry, comments are closed for this item."
 msgstr "Tyvärr är kommentarer avstängda för det här inlägget."
 
-#: wp-comments-post.php:61
+#: wp-comments-post.php:64
 msgid "Sorry, you must be logged in to post a comment."
 msgstr "Tyvärr måste du vara inloggad för att skriva en kommentar."
 
-#: wp-comments-post.php:68
+#: wp-comments-post.php:71
 msgid "Error: please fill the required fields (name, email)."
 msgstr "Fel: fyll i de nödvändiga fälten (namn, e-post)."
 
-#: wp-comments-post.php:70
+#: wp-comments-post.php:73
 msgid "Error: please enter a valid email address."
 msgstr "Fel: vänligen ange en e-postadress"
 
@@ -11393,7 +11393,7 @@ msgstr "Var vänlig försök igen."
 msgid "&laquo; Back"
 msgstr "&laquo; Tillbaka"
 
-#. #-#-#-#-#  wordpress.pot (WordPress 2.9.1)  #-#-#-#-#
+#. #-#-#-#-#  wordpress.pot (WordPress 2.9.2)  #-#-#-#-#
 #. Not gettexted string WP_I18N_ERROR_TITLE
 #: wp-includes/functions.php:2521
 #: wp-load.php:50

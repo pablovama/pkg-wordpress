@@ -1,16 +1,15 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress - Bosnian Localization v1.0\n"
+"Project-Id-Version: WordPress - Bosnian Localization\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-01-05 04:57+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Kenan Dervisevic <kenan3008@gmail.com>\n"
-"Language-Team: Kenan Dervisevic <kenan3008@gmail.com>\n"
+"Language-Team: Bosnian localization team <kenan3008@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
-"Plural-Forms: (n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-Language: Bosnian\n"
 "X-Poedit-Country: BOSNIA AND HERZEGOVINA\n"
 
@@ -515,7 +514,7 @@ msgstr "Primijeni"
 #: wp-admin/categories.php:247
 #, php-format
 msgid "<strong>Note:</strong><br />Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the category <strong>%s</strong>."
-msgstr "<strong>Napomena:</strong><br />Brisanjem kategorije nećete obrisati članke u toj kategoriji. Umjesto toga, članci koji su pripadali samo obrisanoj kategoriji bit će prebačeni u kategoriju <strong>%s</strong>."
+msgstr "<strong>Napomena:</strong><br />Brisanjem kategorije ne brišete linkove u toj kategoriji. Umjesto toga, linkovi koji su pripadali samo obrisanoj kategoriji bit će prebačeni u kategoriju <strong>%s</strong>."
 
 #: wp-admin/categories.php:248
 #, php-format
@@ -1064,14 +1063,16 @@ msgstr "Uredi komentare"
 msgid "%s comment approved"
 msgid_plural "%s comments approved"
 msgstr[0] "%s odobren komentar"
-msgstr[1] "%s odobrenih komentara"
+msgstr[1] "%s odobrena komentara"
+msgstr[2] "%s odobrenih komentara"
 
 #: wp-admin/edit-comments.php:155
 #, php-format
 msgid "%s comment marked as spam."
 msgid_plural "%s comments marked as spam."
 msgstr[0] "%s komentar označen kao spam."
-msgstr[1] "%s komentara označenih kao spam."
+msgstr[1] "%s komentara označena kao spam."
+msgstr[2] "%s komentara označenih kao spam."
 
 #: wp-admin/edit-comments.php:157
 #: wp-admin/edit-comments.php:166
@@ -1091,29 +1092,33 @@ msgstr "Nazad"
 #, php-format
 msgid "%s comment restored from the spam"
 msgid_plural "%s comments restored from the spam"
-msgstr[0] "%s komentar vraćen iz smeća"
-msgstr[1] "%s komentara vraćenih iz smeća"
+msgstr[0] "%s komentar vraćen iz spama"
+msgstr[1] "%s komentara vraćena iz spama"
+msgstr[2] "%s komentara vraćenih iz spama"
 
 #: wp-admin/edit-comments.php:164
 #, php-format
 msgid "%s comment moved to the trash."
 msgid_plural "%s comments moved to the trash."
 msgstr[0] "%s komentar prebačen u smeće."
-msgstr[1] "%s komentara prebačenih u smeće."
+msgstr[1] "%s komentara prebačena u smeće."
+msgstr[2] "%s komentara prebačenih u smeće."
 
 #: wp-admin/edit-comments.php:169
 #, php-format
 msgid "%s comment restored from the trash"
 msgid_plural "%s comments restored from the trash"
 msgstr[0] "%s komentar vraćen iz smeća"
-msgstr[1] "%s komentara vraćenih iz smeća"
+msgstr[1] "%s komentara vraćena iz smeća"
+msgstr[2] "%s komentara vraćenih iz smeća"
 
 #: wp-admin/edit-comments.php:173
 #, php-format
 msgid "%s comment permanently deleted"
 msgid_plural "%s comments permanently deleted"
 msgstr[0] "%s komentar je trajno obrisan"
-msgstr[1] "%s komentara je trajno obrisano"
+msgstr[1] "%s komentara sz trajno obrisana"
+msgstr[2] "%s komentara je trajno obrisano"
 
 #: wp-admin/edit-comments.php:190
 #: wp-content/plugins/akismet/akismet.php:753
@@ -1121,6 +1126,7 @@ msgid "All"
 msgid_plural "All"
 msgstr[0] "Sve"
 msgstr[1] "Sve"
+msgstr[2] "Sve"
 
 #: wp-admin/edit-comments.php:191
 #, php-format
@@ -1128,12 +1134,14 @@ msgid "Pending <span class=\"count\">(<span class=\"pending-count\">%s</span>)</
 msgid_plural "Pending <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
 msgstr[0] "Na čekanju <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
 msgstr[1] "Na čekanju <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
+msgstr[2] "Na čekanju <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
 
 #: wp-admin/edit-comments.php:192
 msgid "Approved"
 msgid_plural "Approved"
-msgstr[0] "Odobren"
-msgstr[1] "Odobreno"
+msgstr[0] "odobren"
+msgstr[1] "odobrena"
+msgstr[2] "odobrenih"
 
 #: wp-admin/edit-comments.php:193
 #, php-format
@@ -1141,6 +1149,7 @@ msgid "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
 msgid_plural "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
 msgstr[0] "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
 msgstr[1] "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgstr[2] "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
 
 #: wp-admin/edit-comments.php:194
 #, php-format
@@ -1148,6 +1157,7 @@ msgid "Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span
 msgid_plural "Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
 msgstr[0] "Smeće <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
 msgstr[1] "Smeće <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+msgstr[2] "Smeće <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
 
 #: wp-admin/edit-comments.php:233
 #: wp-admin/edit-comments.php:235
@@ -1371,7 +1381,7 @@ msgstr "Autor članka"
 #: wp-admin/edit-form-advanced.php:122
 #: wp-admin/revision.php:141
 msgid "Post Revisions"
-msgstr "Revizije članka"
+msgstr "Revizije stranice"
 
 #: wp-admin/edit-form-advanced.php:207
 #: wp-admin/edit-page-form.php:163
@@ -1651,7 +1661,7 @@ msgstr "Revizije stranice"
 #: wp-admin/edit-pages.php:39
 #: wp-admin/page.php:160
 msgid "You are not allowed to move this page to the trash."
-msgstr "Nije vam dozvoljeno premještanje ove stranice u smeće."
+msgstr "Nije vam dozvoljeno uklanjanje ove stranice iz smeća."
 
 #: wp-admin/edit-pages.php:42
 #: wp-admin/edit.php:50
@@ -1711,6 +1721,7 @@ msgid "Published <span class=\"count\">(%s)</span>"
 msgid_plural "Published <span class=\"count\">(%s)</span>"
 msgstr[0] "Objavljeno <span class=\"count\">(%s)</span>"
 msgstr[1] "Objavljeno <span class=\"count\">(%s)</span>"
+msgstr[2] "Objavljeno <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:110
 msgctxt "page"
@@ -1728,6 +1739,7 @@ msgid "Scheduled <span class=\"count\">(%s)</span>"
 msgid_plural "Scheduled <span class=\"count\">(%s)</span>"
 msgstr[0] "Zakazano <span class=\"count\">(%s)</span>"
 msgstr[1] "Zakazano <span class=\"count\">(%s)</span>"
+msgstr[2] "Zakazano <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:111
 msgctxt "page"
@@ -1745,6 +1757,7 @@ msgid "Pending Review <span class=\"count\">(%s)</span>"
 msgid_plural "Pending Review <span class=\"count\">(%s)</span>"
 msgstr[0] "Čeka na recenziju <span class=\"count\">(%s)</span>"
 msgstr[1] "Čeka na recenziju <span class=\"count\">(%s)</span>"
+msgstr[2] "Čeka na recenziju <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:112
 msgctxt "page"
@@ -1762,8 +1775,9 @@ msgstr "Skice"
 msgctxt "page"
 msgid "Draft <span class=\"count\">(%s)</span>"
 msgid_plural "Drafts <span class=\"count\">(%s)</span>"
-msgstr[0] "Skica <span class=\"count\">(%s)</span>"
-msgstr[1] "Skice <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> skica"
+msgstr[1] "<span class=\"count\">(%s)</span> skice"
+msgstr[2] "<span class=\"count\">(%s)</span> skica"
 
 #: wp-admin/edit-pages.php:113
 msgctxt "page"
@@ -1779,8 +1793,9 @@ msgstr "Privatne stranice"
 msgctxt "page"
 msgid "Private <span class=\"count\">(%s)</span>"
 msgid_plural "Private <span class=\"count\">(%s)</span>"
-msgstr[0] "Privatne <span class=\"count\">(%s)</span>"
-msgstr[1] "Privatne <span class=\"count\">(%s)</span>"
+msgstr[0] "Privatno <span class=\"count\">(%s)</span>"
+msgstr[1] "Privatno <span class=\"count\">(%s)</span>"
+msgstr[2] "Privatno <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:114
 msgctxt "page"
@@ -1798,6 +1813,7 @@ msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "Smeće <span class=\"count\">(%s)</span>"
 msgstr[1] "Smeće <span class=\"count\">(%s)</span>"
+msgstr[2] "Smeće <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:125
 #: wp-admin/includes/template.php:3239
@@ -1820,42 +1836,48 @@ msgstr "Dodaj novu"
 msgid "%s page updated."
 msgid_plural "%s pages updated."
 msgstr[0] "%s stranica ažurirana."
-msgstr[1] "%s stranica ažurirano."
+msgstr[1] "%s stranice ažurirane."
+msgstr[2] "%s stranica ažurirano."
 
 #: wp-admin/edit-pages.php:156
 #, php-format
 msgid "%s page not updated, invalid parent page specified."
 msgid_plural "%s pages not updated, invalid parent page specified."
 msgstr[0] "%s stranica nije ažurirana, nije izabrana ispravna roditeljska stranica."
-msgstr[1] "%s stranica nije ažurirano, nije izabrana ispravna roditeljska stranica."
+msgstr[1] "%s stranice nisu ažurirane, nije izabrana ispravna roditeljska stranica."
+msgstr[2] "%s stranica nije ažurirano, nije izabrana ispravna roditeljska stranica."
 
 #: wp-admin/edit-pages.php:160
 #, php-format
 msgid "%s page not updated, somebody is editing it."
 msgid_plural "%s pages not updated, somebody is editing them."
 msgstr[0] "%s stranica nije ažurirana, neko je uređuje."
-msgstr[1] "%s stranica nije ažurirano, neko ih uređuje."
+msgstr[1] "%s stranice nisu ažurirane, neko ih uređuje."
+msgstr[2] "%s stranica nije ažurirano, neko ih uređuje."
 
 #: wp-admin/edit-pages.php:164
 #, php-format
 msgid "Page permanently deleted."
 msgid_plural "%s pages permanently deleted."
-msgstr[0] "Stranica je trajno obrisana."
-msgstr[1] "%s stranica je trajno obrisano."
+msgstr[0] "%s stranica je trajno obrisana."
+msgstr[1] "%s stranice su trajno obrisane."
+msgstr[2] "%s stranica je trajno obrisano."
 
 #: wp-admin/edit-pages.php:168
 #, php-format
 msgid "Page moved to the trash."
 msgid_plural "%s pages moved to the trash."
-msgstr[0] "Stranica je premještena u smeće."
-msgstr[1] "%s stranica je premješteno u smeće"
+msgstr[0] "%s stranica je premještena u smeće."
+msgstr[1] "%s stranice su premještene u smeće"
+msgstr[2] "%s stranica je premješteno u smeće"
 
 #: wp-admin/edit-pages.php:174
 #, php-format
 msgid "Page restored from the trash."
 msgid_plural "%s pages restored from the trash."
-msgstr[0] "Stranica je vraćene iz smeća."
-msgstr[1] "%s stranica je vraćeno iz smeća."
+msgstr[0] "%s stranica je vraćena iz smeća."
+msgstr[1] "%s stranice su vraćene iz smeća."
+msgstr[2] "%s stranica je vraćeno iz smeća."
 
 #: wp-admin/edit-pages.php:183
 msgid "Your page has been saved."
@@ -1876,6 +1898,7 @@ msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "Sve <span class=\"count\">(%s)</span>"
 msgstr[1] "Sve <span class=\"count\">(%s)</span>"
+msgstr[2] "Sve <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:216
 #: wp-admin/edit-pages.php:218
@@ -2033,43 +2056,49 @@ msgstr "Uredi članak"
 msgid "%s post updated."
 msgid_plural "%s posts updated."
 msgstr[0] "%s članak ažuriran."
-msgstr[1] "%s ažuriranih članaka."
+msgstr[1] "%s ažurirana članka."
+msgstr[2] "%s ažuriranih članaka."
 
 #: wp-admin/edit.php:159
 #, php-format
 msgid "%s post not updated, somebody is editing it."
 msgid_plural "%s posts not updated, somebody is editing them."
 msgstr[0] "%s članak nije ažuriran, neko ga uređuje."
-msgstr[1] "%s članaka nije ažurirano, neko ih uređuje."
+msgstr[1] "%s članka nisu ažurirana, neko ih uređuje."
+msgstr[2] "%s članaka nije ažurirano, neko ih uređuje."
 
 #: wp-admin/edit.php:164
 #, php-format
 msgid "Post permanently deleted."
 msgid_plural "%s posts permanently deleted."
-msgstr[0] "Članak je trajno obrisan."
-msgstr[1] "%s članaka je trajno obrisano."
+msgstr[0] "%s članak je trajno obrisan."
+msgstr[1] "%s članka su trajno obrisana."
+msgstr[2] "%s članaka je trajno obrisano."
 
 #: wp-admin/edit.php:169
 #, php-format
 msgid "Post moved to the trash."
 msgid_plural "%s posts moved to the trash."
-msgstr[0] "Članak je premješten u smeće."
-msgstr[1] "%s članaka je premješteno u smeće."
+msgstr[0] "%s članak je premješten u smeće."
+msgstr[1] "%s članka su premještena u smeće."
+msgstr[2] "%s članaka je premješteno u smeće."
 
 #: wp-admin/edit.php:176
 #, php-format
 msgid "Post restored from the trash."
 msgid_plural "%s posts restored from the trash."
-msgstr[0] "Članak je vraćen iz smeća."
-msgstr[1] "%s članaka je vraćeno iz smeća."
+msgstr[0] "%s članak je vraćen iz smeća."
+msgstr[1] "%s članka su vraćena iz smeća."
+msgstr[2] "%s članaka je vraćeno iz smeća."
 
 #: wp-admin/edit.php:198
 #, php-format
 msgctxt "posts"
 msgid "My Posts <span class=\"count\">(%s)</span>"
 msgid_plural "My Posts <span class=\"count\">(%s)</span>"
-msgstr[0] "Moj članak <span class=\"count\">(%s)</span>"
+msgstr[0] "Moji članci <span class=\"count\">(%s)</span>"
 msgstr[1] "Moji članci <span class=\"count\">(%s)</span>"
+msgstr[2] "Moji članci <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit.php:204
 #, php-format
@@ -2078,6 +2107,7 @@ msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "Svi <span class=\"count\">(%s)</span>"
 msgstr[1] "Svi <span class=\"count\">(%s)</span>"
+msgstr[2] "Svi <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit.php:227
 #: wp-admin/edit.php:229
@@ -2373,6 +2403,7 @@ msgid "%s comment"
 msgid_plural "%s comments"
 msgstr[0] "%s komentar"
 msgstr[1] "%s komentara"
+msgstr[2] "%s komentara"
 
 #: wp-admin/import/blogware.php:185
 #: wp-admin/import/livejournal.php:933
@@ -2424,7 +2455,8 @@ msgstr "Uvozim kategorije..."
 msgid "Done! <strong>%1$s</strong> category imported."
 msgid_plural "Done! <strong>%1$s</strong> categories imported."
 msgstr[0] "Završeno! <strong>%1$s</strong> kategorija je uvezena."
-msgstr[1] "Završeno! <strong>%1$s</strong> kategorija je uvezeno."
+msgstr[1] "Završeno! <strong>%1$s</strong> kategorije su uvezene."
+msgstr[2] "Završeno! <strong>%1$s</strong> kategorija je uvezeno."
 
 #: wp-admin/import/dotclear.php:212
 #: wp-admin/import/textpattern.php:207
@@ -2484,7 +2516,8 @@ msgstr "Uvozim linkove..."
 msgid "Done! <strong>%s</strong> link or link category imported."
 msgid_plural "Done! <strong>%s</strong> links or link categories imported."
 msgstr[0] "Završeno! <strong>%1$s</strong> link ili kategorija linkova je uvezena."
-msgstr[1] "Završeno! <strong>%1$s</strong> linkova ili kategorija linkvoa je uvezeno."
+msgstr[1] "Završeno! <strong>%1$s</strong> linka ili kategorija linkova je uvezeno."
+msgstr[2] "Završeno! <strong>%1$s</strong> linkova ili kategorija linkova je uvezeno."
 
 #: wp-admin/import/dotclear.php:503
 #: wp-admin/import/textpattern.php:484
@@ -2740,13 +2773,15 @@ msgid "imported %s comment"
 msgid_plural "imported %s comments"
 msgstr[0] "uvezen %s komentar"
 msgstr[1] "uvezeno %s komentara"
+msgstr[2] "uvezeno %s komentara"
 
 #: wp-admin/import/greymatter.php:291
 #, php-format
 msgid "ignored %s pre-existing comment"
 msgid_plural "ignored %s pre-existing comments"
 msgstr[0] "zanemaren %s već postojeći komentar"
-msgstr[1] "zanemareno %s već postojećih komentara"
+msgstr[1] "zanemarena %s već postojeća komentara"
+msgstr[2] "zanemareno %s već postojećih komentara"
 
 #: wp-admin/import/greymatter.php:301
 msgid "Completed GreyMatter import!"
@@ -2956,7 +2991,7 @@ msgstr "Napravi moje teme za komentare &raquo;"
 
 #: wp-admin/import/livejournal.php:893
 msgid "Threading Comments"
-msgstr "Redam komentare"
+msgstr "Komentarisanje po temama"
 
 #: wp-admin/import/livejournal.php:894
 msgid "We are now re-building the threading of your comments (this can also take a while if you have lots of comments)..."
@@ -2975,7 +3010,7 @@ msgstr "Nastavljam u %d"
 
 #: wp-admin/import/livejournal.php:971
 msgid "Continuing"
-msgstr "Nastavljam"
+msgstr "Nastavi"
 
 #: wp-admin/import/livejournal.php:1000
 msgid "Processing next batch."
@@ -3072,13 +3107,15 @@ msgid "(%s comment)"
 msgid_plural "(%s comments)"
 msgstr[0] "(%s komentar)"
 msgstr[1] "(%s komentara)"
+msgstr[2] "(%s komentara)"
 
 #: wp-admin/import/mt.php:308
 #, php-format
 msgid "(%s ping)"
 msgid_plural "(%s pings)"
 msgstr[0] "(%s ping)"
-msgstr[1] "(%s pingova)"
+msgstr[1] "(%s pinga)"
+msgstr[2] "(%s pingova)"
 
 #: wp-admin/import/mt.php:513
 msgid "Movable Type and TypePad"
@@ -3213,7 +3250,8 @@ msgstr "Nisu pronađeni članci sa oznakama!"
 msgid "Done! <strong>%s</strong> tag to post relationships were read."
 msgid_plural "Done! <strong>%s</strong> tags to post relationships were read."
 msgstr[0] "Završeno! <strong>%s</strong> veza oznaka u članak je pročitana."
-msgstr[1] "Završeno! <strong>%s</strong> veza oznaka u članak je pročitano."
+msgstr[1] "Završeno! <strong>%s</strong> veze oznaka u članak su pročitane."
+msgstr[2] "Završeno! <strong>%s</strong> veza oznaka u članak je pročitano."
 
 #: wp-admin/import/stp.php:96
 #: wp-admin/import/utw.php:123
@@ -3230,7 +3268,8 @@ msgstr "Dodajem oznake u članke&#8230;"
 msgid "Done! <strong>%s</strong> tag was added!"
 msgid_plural "Done! <strong>%s</strong> tags were added!"
 msgstr[0] "Završeno! <strong>%s</strong> oznaka je dodana!"
-msgstr[1] "Završeno! <strong>%s</strong> oznaka je dodano!"
+msgstr[1] "Završeno! <strong>%s</strong> oznake su dodane!"
+msgstr[2] "Završeno! <strong>%s</strong> oznaka je dodano!"
 
 #: wp-admin/import/stp.php:112
 #: wp-admin/import/utw.php:159
@@ -3276,7 +3315,8 @@ msgstr "Vaše Textpattern postavke su sljedeće:"
 msgid "Done! <strong>%s</strong> link imported"
 msgid_plural "Done! <strong>%s</strong> links imported"
 msgstr[0] "Završeno! <strong>%s</strong> link je uvezen"
-msgstr[1] "Završeno! <strong>%s</strong> linkova je uvezeno"
+msgstr[1] "Završeno! <strong>%s</strong> linka su uvezena"
+msgstr[2] "Završeno! <strong>%s</strong> linkova je uvezeno"
 
 #: wp-admin/import/textpattern.php:574
 msgid "Welcome to WordPress.  We hope (and expect!) that you will find this platform incredibly rewarding!  As a new WordPress user coming from Textpattern, there are some things that we would like to point out.  Hopefully, they will help your transition go as smoothly as possible."
@@ -3349,6 +3389,7 @@ msgid "Done! <strong>%s</strong> tag were read."
 msgid_plural "Done! <strong>%s</strong> tags were read."
 msgstr[0] "Završeno! <strong>%s</strong> oznaka je pročitana."
 msgstr[1] "Završeno! <strong>%s</strong> oznake su pročitane."
+msgstr[2] "Završeno! <strong>%s</strong> oznaka je pročitano."
 
 #: wp-admin/import/utw.php:102
 msgid "The following tags were found:"
@@ -3367,7 +3408,8 @@ msgstr "Čitam oznake UTW članka&#8230;"
 msgid "Done! <strong>%s</strong> tag were added!"
 msgid_plural "Done! <strong>%s</strong> tags were added!"
 msgstr[0] "Završeno! <strong>%s</strong> oznaka je dodana!"
-msgstr[1] "Završeno! <strong>%s</strong> oznaka je dodano!"
+msgstr[1] "Završeno! <strong>%s</strong> oznake su dodane!"
+msgstr[2] "Završeno! <strong>%s</strong> oznaka je dodano!"
 
 #: wp-admin/import/utw.php:178
 msgid "Step 4"
@@ -3487,8 +3529,9 @@ msgstr "Oznake u kategorije"
 #, php-format
 msgid "Convert Category to Tag."
 msgid_plural "Convert Categories (%d) to Tags."
-msgstr[0] "Pretvori kategoriju u oznaku."
-msgstr[1] "Pretvori kategorije (%d) u oznake."
+msgstr[0] "Pretvori %d kategoriju u oznaku."
+msgstr[1] "Pretvori %d kategorije u oznake."
+msgstr[2] "Pretvori %d kategorija u oznake."
 
 #: wp-admin/import/wp-cat2tag.php:70
 msgid "Hey there. Here you can selectively convert existing categories to tags. To get started, check the categories you wish to be converted, then click the Convert button."
@@ -3526,8 +3569,9 @@ msgstr "Pretvori kategorije u oznake"
 #, php-format
 msgid "Convert Tag to Category."
 msgid_plural "Convert Tags (%d) to Categories."
-msgstr[0] "Pretvori oznaku u kategoriju."
-msgstr[1] "Pretvori oznake (%d) u kategorije."
+msgstr[0] "Pretvori %d oznaku u kategoriju."
+msgstr[1] "Pretvori %d oznake u kategorije."
+msgstr[2] "Pretvori %d oznaka u kategorije."
 
 #: wp-admin/import/wp-cat2tag.php:146
 msgid "Here you can selectively convert existing tags to categories. To get started, check the tags you wish to be converted, then click the Convert button."
@@ -4097,43 +4141,50 @@ msgstr "Pregled"
 msgid "Post"
 msgid_plural "Posts"
 msgstr[0] "članak"
-msgstr[1] "članaka"
+msgstr[1] "članka"
+msgstr[2] "članaka"
 
 #: wp-admin/includes/dashboard.php:241
 msgid "Comment"
 msgid_plural "Comments"
 msgstr[0] "komentar"
 msgstr[1] "komentara"
+msgstr[2] "komentara"
 
 #: wp-admin/includes/dashboard.php:253
 msgid "Page"
 msgid_plural "Pages"
 msgstr[0] "stranica"
-msgstr[1] "stranica"
+msgstr[1] "stranice"
+msgstr[2] "stranica"
 
 #: wp-admin/includes/dashboard.php:263
 msgid "Approved|Right Now"
 msgid_plural "Approved"
 msgstr[0] "odobren"
-msgstr[1] "odobrenih"
+msgstr[1] "odobrena"
+msgstr[2] "odobrenih"
 
 #: wp-admin/includes/dashboard.php:275
 msgid "Category"
 msgid_plural "Categories"
 msgstr[0] "kategorija"
-msgstr[1] "kategorija"
+msgstr[1] "kategorije"
+msgstr[2] "kategorija"
 
 #: wp-admin/includes/dashboard.php:285
 msgid "Pending"
 msgid_plural "Pending"
 msgstr[0] "na čekanju"
 msgstr[1] "na čekanju"
+msgstr[2] "na čekanju"
 
 #: wp-admin/includes/dashboard.php:297
 msgid "Tag"
 msgid_plural "Tags"
 msgstr[0] "oznaka"
-msgstr[1] "oznaka"
+msgstr[1] "oznake"
+msgstr[2] "oznaka"
 
 #: wp-admin/includes/dashboard.php:307
 #: wp-content/plugins/akismet/akismet.php:909
@@ -4141,6 +4192,7 @@ msgid "Spam"
 msgid_plural "Spam"
 msgstr[0] "spam"
 msgstr[1] "spam"
+msgstr[2] "spam"
 
 #: wp-admin/includes/dashboard.php:335
 #: wp-admin/includes/dashboard.php:342
@@ -4151,15 +4203,17 @@ msgstr "Promijeni temu"
 #, php-format
 msgid "Theme <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> with <span class=\"b\"><a href=\"widgets.php\">%2$s Widget</a></span>"
 msgid_plural "Theme <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> with <span class=\"b\"><a href=\"widgets.php\">%2$s Widgets</a></span>"
-msgstr[0] "Tema <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> sa <span class=\"b\"><a href=\"widgets.php\">%2$s dodataka</a></span>"
-msgstr[1] "Tema <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> sa <span class=\"b\"><a href=\"widgets.php\">%2$s dodataka</a></span>"
+msgstr[0] "Tema <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> sa <span class=\"b\"><a href=\"widgets.php\">%2$s dodatkom</a></span>"
+msgstr[1] "Tema <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> sa <span class=\"b\"><a href=\"widgets.php\">%2$s dodatka</a></span>"
+msgstr[2] "Tema <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> sa <span class=\"b\"><a href=\"widgets.php\">%2$s dodataka</a></span>"
 
 #: wp-admin/includes/dashboard.php:338
 #, php-format
 msgid "Theme <span class=\"b\">%1$s</span> with <span class=\"b\">%2$s Widget</span>"
 msgid_plural "Theme <span class=\"b\">%1$s</span> with <span class=\"b\">%2$s Widgets</span>"
-msgstr[0] "Tema <span class=\"b\">%1$s</span> sa <span class=\"b\">%2$s dodataka</span>"
-msgstr[1] "Tema <span class=\"b\">%1$s</span> sa <span class=\"b\">%2$s dodataka</span>"
+msgstr[0] "Tema <span class=\"b\">%1$s</span> sa <span class=\"b\">%2$s dodatkom</span>"
+msgstr[1] "Tema <span class=\"b\">%1$s</span> sa <span class=\"b\">%2$s dodatka</span>"
+msgstr[2] "Tema <span class=\"b\">%1$s</span> sa <span class=\"b\">%2$s dodataka</span>"
 
 #: wp-admin/includes/dashboard.php:343
 #, php-format
@@ -4589,7 +4643,7 @@ msgstr "Prazna arhiva"
 #: wp-admin/includes/file.php:541
 #: wp-admin/includes/file.php:587
 msgid "Could not create directory"
-msgstr "Nije moguće napraviti direktorij"
+msgstr "Nije moguće napraviti direktorij."
 
 #: wp-admin/includes/file.php:550
 #: wp-admin/includes/file.php:581
@@ -5890,8 +5944,9 @@ msgstr "Od %s"
 #, php-format
 msgid "(based on %s rating)"
 msgid_plural "(based on %s ratings)"
-msgstr[0] "(bazirano na %s ocjena)"
-msgstr[1] "(bazirano na %s ocjena)"
+msgstr[0] "(bazirano na %s ocjeni)"
+msgstr[1] "(bazirano na %s ocjene)"
+msgstr[2] "(bazirano na %s ocjena)"
 
 #: wp-admin/includes/plugin-install.php:366
 #: wp-admin/includes/plugin-install.php:524
@@ -5990,6 +6045,7 @@ msgid "%s time"
 msgid_plural "%s times"
 msgstr[0] "%s put"
 msgstr[1] "%s puta"
+msgstr[2] "%s puta"
 
 #: wp-admin/includes/plugin-install.php:515
 msgid "WordPress.org Plugin Page &#187;"
@@ -6089,6 +6145,7 @@ msgid "Published <span class=\"count\">(%s)</span>"
 msgid_plural "Published <span class=\"count\">(%s)</span>"
 msgstr[0] "Objavljeno <span class=\"count\">(%s)</span>"
 msgstr[1] "Objavljeno <span class=\"count\">(%s)</span>"
+msgstr[2] "Objavljeno <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:820
 msgctxt "post"
@@ -6105,6 +6162,7 @@ msgid "Scheduled <span class=\"count\">(%s)</span>"
 msgid_plural "Scheduled <span class=\"count\">(%s)</span>"
 msgstr[0] "Zakazano <span class=\"count\">(%s)</span>"
 msgstr[1] "Zakazano <span class=\"count\">(%s)</span>"
+msgstr[2] "Zakazano <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:821
 msgctxt "post"
@@ -6121,6 +6179,7 @@ msgid "Pending Review <span class=\"count\">(%s)</span>"
 msgid_plural "Pending Review <span class=\"count\">(%s)</span>"
 msgstr[0] "Čeka na recenziju <span class=\"count\">(%s)</span>"
 msgstr[1] "Čeka na recenziju <span class=\"count\">(%s)</span>"
+msgstr[2] "Čeka na recenziju <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:822
 msgctxt "post"
@@ -6131,8 +6190,9 @@ msgstr "Skica"
 #, php-format
 msgid "Draft <span class=\"count\">(%s)</span>"
 msgid_plural "Drafts <span class=\"count\">(%s)</span>"
-msgstr[0] "Skica <span class=\"count\">(%s)</span>"
-msgstr[1] "Skice <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> skica"
+msgstr[1] "<span class=\"count\">(%s)</span> skice"
+msgstr[2] "<span class=\"count\">(%s)</span> skica"
 
 #: wp-admin/includes/post.php:823
 msgctxt "post"
@@ -6149,6 +6209,7 @@ msgid "Private <span class=\"count\">(%s)</span>"
 msgid_plural "Private <span class=\"count\">(%s)</span>"
 msgstr[0] "Privatni <span class=\"count\">(%s)</span>"
 msgstr[1] "Privatni <span class=\"count\">(%s)</span>"
+msgstr[2] "Privatni <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:824
 msgctxt "post"
@@ -6165,6 +6226,7 @@ msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "Smeće <span class=\"count\">(%s)</span>"
 msgstr[1] "Smeće <span class=\"count\">(%s)</span>"
+msgstr[2] "Smeće <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:867
 msgid "Images"
@@ -6178,8 +6240,9 @@ msgstr "Upravljanje slikama"
 #, php-format
 msgid "Image <span class=\"count\">(%s)</span>"
 msgid_plural "Images <span class=\"count\">(%s)</span>"
-msgstr[0] "Slika <span class=\"count\">(%s)</span>"
-msgstr[1] "Slike <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> slika"
+msgstr[1] "<span class=\"count\">(%s)</span> slike"
+msgstr[2] "<span class=\"count\">(%s)</span> slika"
 
 #: wp-admin/includes/post.php:868
 msgid "Audio"
@@ -6193,8 +6256,9 @@ msgstr "Upravljenje zvukom"
 #, php-format
 msgid "Audio <span class=\"count\">(%s)</span>"
 msgid_plural "Audio <span class=\"count\">(%s)</span>"
-msgstr[0] "Zvuk <span class=\"count\">(%s)</span>"
-msgstr[1] "Zvuk <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> zvučni zapis"
+msgstr[1] "<span class=\"count\">(%s)</span> zvučna zapisa"
+msgstr[2] "<span class=\"count\">(%s)</span> zvučnih zapisa"
 
 #: wp-admin/includes/post.php:869
 msgid "Video"
@@ -6208,8 +6272,9 @@ msgstr "Upravljanje videom"
 #, php-format
 msgid "Video <span class=\"count\">(%s)</span>"
 msgid_plural "Video <span class=\"count\">(%s)</span>"
-msgstr[0] "Video <span class=\"count\">(%s)</span>"
-msgstr[1] "Video <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> video datoteka"
+msgstr[1] "<span class=\"count\">(%s)</span> video datoteke"
+msgstr[2] "<span class=\"count\">(%s)</span> video datoteka"
 
 #: wp-admin/includes/post.php:1018
 #: wp-content/plugins/akismet/akismet.php:838
@@ -6383,7 +6448,7 @@ msgstr "Uloga"
 
 #: wp-admin/includes/template.php:1029
 msgid "Bulk Edit Pages"
-msgstr "Grupno uređivanje stranica"
+msgstr "Uredi stranice"
 
 #: wp-admin/includes/template.php:1029
 msgid "Bulk Edit Posts"
@@ -6529,7 +6594,7 @@ msgstr "Trajno obriši ovu stranicu"
 #: wp-admin/includes/template.php:1967
 #, php-format
 msgid "e-mail: %s"
-msgstr "email: %s"
+msgstr "Email: %s"
 
 #: wp-admin/includes/template.php:1976
 msgid "View posts by this author"
@@ -7139,7 +7204,7 @@ msgstr "Nadogradnja se ne može raspakovati"
 
 #: wp-admin/includes/update-core.php:248
 msgid "Installing the latest version"
-msgstr "Instaliram najnoviju verziju"
+msgstr "Instaliram najnoviju verziju."
 
 #: wp-admin/includes/update-core.php:273
 msgid "Upgrading database"
@@ -7497,14 +7562,15 @@ msgstr "Nemate dozvolu za uređivanje linkova na ovom blogu."
 
 #: wp-admin/link-manager.php:75
 msgid "Add New"
-msgstr "Dodaj novog"
+msgstr "Dodaj novi"
 
 #: wp-admin/link-manager.php:84
 #, php-format
 msgid "%s link deleted."
 msgid_plural "%s links deleted"
 msgstr[0] "%s obrisan link."
-msgstr[1] "%s obrisanih linkova."
+msgstr[1] "%s obrisana linva."
+msgstr[2] "%s obrisanih linkova."
 
 #: wp-admin/link-manager.php:92
 #: wp-admin/link-manager.php:94
@@ -8158,7 +8224,7 @@ msgstr "Pokušaj automatski ugraditi sve tekstualne URL-ove"
 
 #: wp-admin/options-media.php:80
 msgid "Maximum embed size"
-msgstr "Maksimalna veličina koda: %s"
+msgstr "Maksimalna veličina koda"
 
 #: wp-admin/options-media.php:86
 msgid "If the width value is left blank, embeds will default to the max width of your theme."
@@ -8486,7 +8552,7 @@ msgstr "Uredi stranicu"
 
 #: wp-admin/page.php:98
 msgid "You attempted to edit a page that doesn&#8217;t exist. Perhaps it was deleted?"
-msgstr "Pokušali ste urediti stranicu koja ne postoji. Možda je obrisana?"
+msgstr "Pokušavate urediti članak koji ne postoji. Možda je obrisan?"
 
 #: wp-admin/page.php:104
 msgid "You can&#8217;t edit this page because it is in the Trash. Please move it out of the Trash and try again."
@@ -8745,6 +8811,7 @@ msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "Sve <span class=\"count\">(%s)</span>"
 msgstr[1] "Sve <span class=\"count\">(%s)</span>"
+msgstr[2] "Sve <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:523
 #, php-format
@@ -8752,13 +8819,15 @@ msgid "Active <span class=\"count\">(%s)</span>"
 msgid_plural "Active <span class=\"count\">(%s)</span>"
 msgstr[0] "Aktivno <span class=\"count\">(%s)</span>"
 msgstr[1] "Aktivno <span class=\"count\">(%s)</span>"
+msgstr[2] "Aktivno <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:527
 #, php-format
 msgid "Recently Active <span class=\"count\">(%s)</span>"
 msgid_plural "Recently Active <span class=\"count\">(%s)</span>"
-msgstr[0] "Nedavno dodano <span class=\"count\">(%s)</span>"
-msgstr[1] "Nedavno dodano <span class=\"count\">(%s)</span>"
+msgstr[0] "Nedavno aktivnih <span class=\"count\">(%s)</span>"
+msgstr[1] "Nedavno aktivnih <span class=\"count\">(%s)</span>"
+msgstr[2] "Nedavno aktivnih <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:531
 #, php-format
@@ -8766,13 +8835,15 @@ msgid "Inactive <span class=\"count\">(%s)</span>"
 msgid_plural "Inactive <span class=\"count\">(%s)</span>"
 msgstr[0] "Neaktivno <span class=\"count\">(%s)</span>"
 msgstr[1] "Neaktivno <span class=\"count\">(%s)</span>"
+msgstr[2] "Neaktivno <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:535
 #, php-format
 msgid "Upgrade Available <span class=\"count\">(%s)</span>"
 msgid_plural "Upgrade Available <span class=\"count\">(%s)</span>"
 msgstr[0] "Nadogradnja dostupna <span class=\"count\">(%s)</span>"
-msgstr[1] "Nadogradnja dosutpna <span class=\"count\">(%s)</span>"
+msgstr[1] "Nadogradnja dostupna <span class=\"count\">(%s)</span>"
+msgstr[2] "Nadogradnja dostupna <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:540
 #, php-format
@@ -8780,6 +8851,7 @@ msgid "Search Results <span class=\"count\">(%s)</span>"
 msgid_plural "Search Results <span class=\"count\">(%s)</span>"
 msgstr[0] "Rezultati pretrage <span class=\"count\">(%s)</span>"
 msgstr[1] "Rezultati pretrage <span class=\"count\">(%s)</span>"
+msgstr[2] "Rezultati pretrage <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:573
 msgid "You do not appear to have any plugins available at this time."
@@ -9057,7 +9129,7 @@ msgstr "Dostupna je novija verzija %1$s. <a href=\"%2$s\" class=\"thickbox\" tit
 #: wp-admin/themes.php:122
 #, php-format
 msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s Details</a> or <a href=\"%4$s\" %5$s >upgrade automatically</a>."
-msgstr "Dostupna je novija verzija %1$s. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Pogledaj detalje %3$s verzije</a> or <a href=\"%4$s\" %5$s >automatska nadogradnja</a>."
+msgstr "Dostupna je novija verzija %1$s. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">Pogledajte detalje %3$s verzije</a> ili <a href=\"%4$s\" %5$s >nadogradite automatski</a>."
 
 #: wp-admin/themes.php:130
 msgctxt "theme"
@@ -9496,7 +9568,8 @@ msgstr "Nije vam dozvoljeno skeniranje izgubljenih priloga."
 msgid "Reattached %d attachment"
 msgid_plural "Reattached %d attachments"
 msgstr[0] "%d ponovo dodan prilog"
-msgstr[1] "%d ponovo dodanih priloga"
+msgstr[1] "%d ponovo dodana priloga"
+msgstr[2] "%d ponovo dodanih priloga"
 
 #: wp-admin/upload.php:208
 msgid "Media permanently deleted."
@@ -9521,6 +9594,7 @@ msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "Sve <span class=\"count\">(%s)</span>"
 msgstr[1] "Sve <span class=\"count\">(%s)</span>"
+msgstr[2] "Sve <span class=\"count\">(%s)</span>"
 
 #: wp-admin/upload.php:245
 msgid "Unattached"
@@ -9533,6 +9607,7 @@ msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "Smeće <span class=\"count\">(%s)</span>"
 msgstr[1] "Smeće <span class=\"count\">(%s)</span>"
+msgstr[2] "Smeće <span class=\"count\">(%s)</span>"
 
 #: wp-admin/upload.php:296
 #: wp-admin/upload.php:464
@@ -9820,8 +9895,9 @@ msgstr "Nema korisnika za brisanje."
 #, php-format
 msgid "%s user deleted"
 msgid_plural "%s users deleted"
-msgstr[0] "%s korisnik obrisan"
-msgstr[1] "%s korisnika obrisano"
+msgstr[0] "%s korisnik je obrisan"
+msgstr[1] "%s korisnika su obrisana"
+msgstr[2] "%s korisnika je obrisano"
 
 #: wp-admin/users.php:208
 msgid "New user created."
@@ -9854,6 +9930,7 @@ msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "Svi <span class=\"count\">(%s)</span>"
 msgstr[1] "Svi <span class=\"count\">(%s)</span>"
+msgstr[2] "Svi <span class=\"count\">(%s)</span>"
 
 #. translators: User role name with count
 #: wp-admin/users.php:281
@@ -10279,8 +10356,9 @@ msgstr "<a href=\"%1$s\">Akismet</a> je zaštitio vašu stranicu od <a href=\"%2
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
-msgstr[0] "<a href=\"%1$s\">Akismet</a> je već zaštitio vašu stranicu od %2$s spam komentara,"
-msgstr[1] "<a href=\"%1$s\">Akismet</a> je već zaštitio vašu stranicu od %2$s spam komentara,"
+msgstr[0] "<a href=\"%1$s\">Akismet</a> je zaštitio vašu stranicu od %2$s spam komentara."
+msgstr[1] "<a href=\"%1$s\">Akismet</a> je zaštitio vašu stranicu od %2$s spam komentara."
+msgstr[2] "<a href=\"%1$s\">Akismet</a> je zaštitio vašu stranicu od %2$s spam komentara."
 
 #: wp-content/plugins/akismet/akismet.php:938
 #, php-format
@@ -10291,8 +10369,9 @@ msgstr "<a href=\"%1$s\">Akismet</a> blokira spam na vašem blogu,"
 #, php-format
 msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
-msgstr[0] "i trenutno ima <a href=\"%2$s\">%1$s komentar</a> u vašem spam redu za čekanje."
-msgstr[1] "i trenutno ima <a href=\"%2$s\">%1$s komentara</a> u vašem spam redu za čekanje."
+msgstr[0] " Trenutno ima <a href=\"%2$s\">%1$s komentar</a> u vašem spam redu za čekanje."
+msgstr[1] " Trenutno ima <a href=\"%2$s\">%1$s komentara</a> u vašem spam redu za čekanje."
+msgstr[2] " Trenutno ima <a href=\"%2$s\">%1$s komentara</a> u vašem spam redu za čekanje."
 
 #: wp-content/plugins/akismet/akismet.php:948
 #, php-format
@@ -10671,7 +10750,8 @@ msgstr "Nema kategorija"
 msgid "%s topic"
 msgid_plural "%s topics"
 msgstr[0] "%s tema"
-msgstr[1] "%s tema"
+msgstr[1] "%s teme"
+msgstr[2] "%s tema"
 
 #: wp-includes/class-pop3.php:83
 msgid "No server specified"
@@ -11136,14 +11216,16 @@ msgstr "&#8221;"
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s minuta"
-msgstr[1] "%s minuta"
+msgstr[1] "%s minute"
+msgstr[2] "%s minuta"
 
 #: wp-includes/formatting.php:1776
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s sat"
-msgstr[1] "%s sati"
+msgstr[1] "%s sata"
+msgstr[2] "%s sati"
 
 #: wp-includes/formatting.php:1782
 #, php-format
@@ -11151,6 +11233,7 @@ msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s dan"
 msgstr[1] "%s dana"
+msgstr[2] "%s dana"
 
 #. translators: used between list items, there is a space after the coma
 #: wp-includes/formatting.php:2669
@@ -13425,6 +13508,7 @@ msgid "Currently %s comment is waiting for approval. Please visit the moderation
 msgid_plural "Currently %s comments are waiting for approval. Please visit the moderation panel:"
 msgstr[0] "Trenutno %s komentar čeka na odobrenje. Molimo vas da posjetite ploču za moderaciju:"
 msgstr[1] "Trenutno %s komentara čeka na odobrenje. Molimo vas da posjetite ploču za moderaciju:"
+msgstr[2] "Trenutno %s komentara čeka na odobrenje. Molimo vas da posjetite ploču za moderaciju:"
 
 #: wp-includes/pluggable.php:1118
 #, php-format
@@ -14485,80 +14569,107 @@ msgstr "Izgleda da nema <code>wp-config.php</code> datoteke. Potrebna mi je prij
 
 #~ msgid "You did not enter a tag name."
 #~ msgstr "Niste unijeli naziv oznake."
+
 #~ msgid "Tag <a href=\"#%s\">%s</a> added"
 #~ msgstr "Oznaka <a href=\"#%s\">%s</a> je dodana"
+
 #~ msgid "Time"
 #~ msgstr "Vrijeme"
+
 #~ msgid ""
 #~ "You are about to delete this attachment '%s'\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Obrisat ćete ovaj prilog '%s'\n"
 #~ "  'Poništi' za zaustavljanje, 'U redu' za brisanje."
+
 #~ msgid "%s comment deleted"
+
 #~ msgid_plural "%s comments deleted"
 #~ msgstr[0] "%s obrisan komentar"
-#~ msgstr[1] "%s obrisanih komentara"
+#~ msgstr[1] "%s obrisana komentara"
+#~ msgstr[2] "%s obrisanih komentara"
+
 #~ msgid "Pending (<span class=\"pending-count\">%s</span>)"
+
 #~ msgid_plural "Pending (<span class=\"pending-count\">%s</span>)"
 #~ msgstr[0] "Čeka na recenziju <span class=\"count\">(%s)</span>"
 #~ msgstr[1] "Čeka na recenziju <span class=\"count\">(%s)</span>"
+#~ msgstr[2] "Čeka na recenziju <span class=\"count\">(%s)</span>"
+
 #~ msgid "Spam (<span class=\"spam-count\">%s</span>)"
+
 #~ msgid_plural "Spam (<span class=\"spam-count\">%s</span>)"
 #~ msgstr[0] "Spam <span class=\"count\">(%s)</span>"
 #~ msgstr[1] "Spam <span class=\"count\">(%s)</span>"
+#~ msgstr[2] "Spam <span class=\"count\">(%s)</span>"
+
 #~ msgid "Delete All Spam"
 #~ msgstr "Obriši sav spam"
+
 #~ msgid ""
 #~ "You are about to delete this draft '%s'\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Obrisat ćete ovu skicu '%s'\n"
 #~ "  'Poništi' za zaustavljanje, 'U redu' za brisanje."
+
 #~ msgid ""
 #~ "You are about to delete this post '%s'\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Obrisat ćete ovaj članak '%s'\n"
 #~ "  'Poništi' za zaustavljanje, 'U redu' za brisanje."
+
 #~ msgid "Keep this post private"
 #~ msgstr "Ovaj članak je privatan"
+
 #~ msgid "Post Password"
 #~ msgstr "Šifra članka"
+
 #~ msgid "Password Protect This Post"
 #~ msgstr "Zaštiti šifrom ovaj članak"
+
 #~ msgid ""
 #~ "Setting a password will require people who visit your blog to enter the "
 #~ "above password to view this post and its comments."
 #~ msgstr ""
 #~ "Postavljanjem šifre zahtijevat ćete od ljudi koji posjete vaš blog da "
 #~ "unesu gornju šifru da bi mogli pregledati ovaj članak i njegove komentare."
+
 #~ msgid "Allow comments on this post"
 #~ msgstr "Dozvoli komentare u ovom članku"
+
 #~ msgid ""
 #~ "You are about to delete this comment. \n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Obrisat ćete ovaj komentar '%s'\n"
 #~ "  'Poništi' za zaustavljanje, 'U redu' za brisanje."
+
 #~ msgid ""
 #~ "You are about to delete this page '%s'\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Obrisat ćete ovu stranicu '%s'\n"
 #~ "  'Poništi' za zaustavljanje, 'U redu' za brisanje."
+
 #~ msgid "Keep this page private"
 #~ msgstr "Ova stranica je privatna"
+
 #~ msgid "Page Password"
 #~ msgstr "Šifra stranice"
+
 #~ msgid "Password Protect This Page"
 #~ msgstr "Zaštiti ovu stranicu šifrom"
+
 #~ msgid ""
 #~ "Setting a password will require people who visit your blog to enter the "
 #~ "above password to view this page and its comments."
 #~ msgstr ""
 #~ "Postavljanjem šifre zahtjevat ćete od ljudi koji posjete vaš blog da "
 #~ "unesu šifrum da bi mogli pregledati ovu stranicu i njene komentare."
+
 #~ msgid ""
 #~ "These settings apply to this page only. &#8220;Pings&#8221; are <a href="
 #~ "\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" "
@@ -14567,42 +14678,58 @@ msgstr "Izgleda da nema <code>wp-config.php</code> datoteke. Potrebna mi je prij
 #~ "Postavke vrijede samo za ovu stranicu. &#8220;Pingovi&#8221; su <a href="
 #~ "\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" "
 #~ "target=\"_blank\">povratni pozivi i pingovi</a>."
+
 #~ msgid "Page deleted."
+
 #~ msgid_plural "%s pages deleted."
 #~ msgstr[0] "Stranica je obrisana."
-#~ msgstr[1] "%s stranica je obrisano."
+#~ msgstr[1] "%s stranice su obrisane."
+#~ msgstr[2] "%s stranica je obrisano."
+
 #~ msgid "Post deleted."
+
 #~ msgid_plural "%s posts deleted."
 #~ msgstr[0] "Članak je obrisan."
-#~ msgstr[1] "%s članaka je obrisano."
+#~ msgstr[1] "%s članka su obrisana."
+#~ msgstr[2] "%s članaka je obrisano."
+
 #~ msgid "Sorry, can&#8217;t call files with their real path."
 #~ msgstr "Žao nam je, nije moguće pozvati datoteku sa pravom putanjom."
+
 #~ msgid "Also used as alternate text for the image"
 #~ msgstr "Također se koristi kao alternativni tekst za sliku"
+
+#, fuzzy
 #~ msgid "Delete this post"
-#~ msgstr "Obriši ovaj članak"
+#~ msgstr "Obriši ovu stranicu"
+
 #~ msgid ""
 #~ "You are about to delete this draft '%s'\n"
 #~ " 'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Obrisat ćete ovu skicu '%s'\n"
 #~ "  'Poništi' za zaustavljanje, 'U redu' za brisanje."
+
 #~ msgid ""
 #~ "You are about to delete this post '%s'\n"
 #~ " 'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Obrisat ćete ovaj članak '%s'\n"
 #~ "  'Poništi' za zaustavljanje, 'U redu' za brisanje."
+
 #~ msgid "Delete this page"
 #~ msgstr "Obriši ovu stranicu"
+
 #~ msgid ""
 #~ "You are about to delete this page '%s'\n"
 #~ " 'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "Obrisat ćete ovu stranicu '%s'\n"
 #~ "  'Poništi' za zaustavljanje, 'U redu' za brisanje."
+
 #~ msgid "Remove"
 #~ msgstr "Ukloni"
+
 #~ msgid ""
 #~ "The character encoding you write your blog in (UTF-8 is <a href=\"http://"
 #~ "developer.apple.com/documentation/macos8/TextIntlSvcs/"
@@ -14611,81 +14738,1456 @@ msgstr "Izgleda da nema <code>wp-config.php</code> datoteke. Potrebna mi je prij
 #~ "Kodiranje znakova kojima pišete na vašem blogu (UTF-8 je <a href=\"http://"
 #~ "developer.apple.com/documentation/macos8/TextIntlSvcs/"
 #~ "TextEncodingConversionManager/TEC1.5/TEC.b0.html\">preporučen</a>)"
+
 #~ msgid "You do not have sufficient permissions to edit themes for this blog."
 #~ msgstr "Nemate potrebne dozvole da uređujete teme za ovaj blog."
+
 #~ msgid "Image (%s)"
+
 #~ msgid_plural "Images (%s)"
-#~ msgstr[0] "Slika (%s)"
+#~ msgstr[0] "Slike (%s)"
 #~ msgstr[1] "Slike (%s)"
+#~ msgstr[2] "Slike (%s)"
+
 #~ msgid "Audio (%s)"
+
 #~ msgid_plural "Audio (%s)"
 #~ msgstr[0] "Zvuk (%s)"
 #~ msgstr[1] "Zvuk (%s)"
+#~ msgstr[2] "Zvuk (%s)"
+
 #~ msgid "Video (%s)"
+
 #~ msgid_plural "Video (%s)"
 #~ msgstr[0] "Video (%s)"
 #~ msgstr[1] "Video (%s)"
+#~ msgstr[2] "Video (%s)"
+
 #~ msgid "Media deleted."
 #~ msgstr "Mutimedijalni sadržaj je obrisan."
+
 #~ msgid "Deleted"
 #~ msgstr "Obrisano"
+
 #~ msgid "Import Bunny&#8217;s Technorati Tags"
 #~ msgstr "Uvezi oznake iz Bunny&#8217;s Technorati"
+
 #~ msgid ""
 #~ "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into "
 #~ "WordPress tags."
 #~ msgstr ""
 #~ "Zdravo! Pomoću ovog alata možete uvesti oznake iz Bunny&#8217;s "
 #~ "Technoratia u Wordpress oznake."
+
 #~ msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
 #~ msgstr "Alat je predviđen za Bunny&#8217;s Technorati oznake verzija 0.6."
+
 #~ msgid ""
 #~ "All existing Bunny&#8217;s Technorati Tags will be removed after import."
 #~ msgstr ""
 #~ "Sve postojeće Bunny&#8217;s Technorati oznake će biti uklonjene nakon "
 #~ "uvoza."
+
 #~ msgid "Import Tags"
 #~ msgstr "Uvezi oznake"
+
 #~ msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
 #~ msgstr "Čitam Bunny&#8217;s Technorati oznake&#8230;"
+
 #~ msgid "Done! <strong>%s</strong> post with tags were read."
+
 #~ msgid_plural "Done! <strong>%s</strong> posts with tags were read."
 #~ msgstr[0] "Završeno! <strong>%s</strong> članak sa oznakama je pročitan."
-#~ msgstr[1] "Završeno! <strong>%s</strong> članaka sa oznakama je pročitano."
+#~ msgstr[1] "Završeno! <strong>%s</strong> članka sa oznakama su pročitana."
+#~ msgstr[2] "Završeno! <strong>%s</strong> članaka sa oznakama je pročitano."
+
 #~ msgid "Next"
 #~ msgstr "Dalje"
+
 #~ msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
 #~ msgstr "Uvezite Bunny&#8217;s Technorati oznake u WordPress oznake."
+
 #~ msgid "Import Jerome&#8217;s Keywords"
 #~ msgstr "Uvezi Jerome&#8217;s ključne riječi"
+
 #~ msgid ""
 #~ "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
 #~ msgstr ""
 #~ "Zdravo! Ovo je uvoznik oznaka iz Jerome&#8217;s ključnih riječi u "
 #~ "WordPress oznake."
+
 #~ msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
 #~ msgstr "Uvozni radi za Jerome&#8217;s ključne riječi verzije 1.x i 2.0a."
+
 #~ msgid "All existing Jerome&#8217;s Keywords will be removed after import."
 #~ msgstr ""
 #~ "Sve postojeći Jerome&#8217;s ključne riječi će biti uklonjene nakon uvoza."
+
 #~ msgid "Import Version 1.x"
 #~ msgstr "Uvezi iz verzije 1.x"
+
 #~ msgid "Import Version 2.0a"
 #~ msgstr "Uvezi iz verzije 2.0a"
+
 #~ msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
 #~ msgstr "Čitam Jerome&#8217;s ključne riječi..."
+
 #~ msgid "Import Jerome&#8217;s Keywords into WordPress tags."
 #~ msgstr "Uvezite Jerome&#8217;s ključne riječi u WordPress oznake."
+
 #~ msgid "Error in removing from trash..."
 #~ msgstr "Greška pri uklanjanju iz smeća..."
+
 #~ msgid "Enable syntax highlighting"
 #~ msgstr "Omogući obilježavanje sintakse"
+
 #~ msgid "Disable syntax highlighting"
 #~ msgstr "Onemogući obilježavanje sintakse"
+
 #~ msgid "You are not allowed to remove this page form the trash."
 #~ msgstr "Nije vam dozvoljeno uklanjanje ove stranice iz smeća."
+
 #~ msgid "Media removed from Trash."
 #~ msgstr "Multimedijalni sadržaj je uklonjen iz smeća."
+
 #~ msgid "Moved to Trash"
 #~ msgstr "Pomjereno u smeće"
 
+#~ msgid "Activation Key:"
+#~ msgstr "Aktivacijski ključ:"
+
+#, fuzzy
+#~ msgid "Your account is now active!"
+#~ msgstr "Obriši informacije o računu"
+
+#, fuzzy
+#~ msgid "An error occurred during the activation"
+#~ msgstr ""
+#~ "Došlo je do greške prilikom dodavanja. Molimo vas da pokušate ponovo "
+#~ "kasnije."
+
+#~ msgid "Username:"
+#~ msgstr "Korisničko ime:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a "
+#~ "href=\"%2$s\">Login</a>"
+#~ msgstr ""
+#~ "Članak je objavljen. <a href=\"%s\">Pregledaj članak</a> | <a href=\"%s"
+#~ "\">Uredi članak</a>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Header updated. <a href=\"%s\">Visit your site</a> to see how it looks."
+#~ msgstr "Nova tema je aktivirana. <a href=\"%s\">Posjeti stranicu</a>"
+#~ msgctxt "comments"
+
+#~ msgid "All"
+
+#~ msgid_plural "All"
+#~ msgstr[0] "Svi"
+#~ msgstr[1] "Svi"
+#~ msgstr[2] "Svi"
+
+#, fuzzy
+#~ msgid "Page updated."
+#~ msgstr "Oznaka je ažurirana."
+
+#, fuzzy
+#~ msgid "Revisions"
+#~ msgstr "Revizije članka"
+
+#, fuzzy
+#~ msgid "You are not allowed to move this item to the trash."
+#~ msgstr "Nije vam dozvoljeno premještanje ove stranice u smeće."
+
+#, fuzzy
+#~ msgid "Edit %s"
+#~ msgstr "Uredi članak"
+
+#, fuzzy
+#~ msgid "This has been saved."
+#~ msgstr "Vaš članak je sačuvan."
+
+#, fuzzy
+#~ msgid "Item moved to the trash."
+
+#~ msgid_plural "%s items moved to the trash."
+#~ msgstr[0] "Stavka je premještena u smeće."
+#~ msgstr[1] "%s stavke su premještene u smeće."
+#~ msgstr[2] "%s stavki je premješteno u smeće."
+
+#, fuzzy
+#~ msgid "Threading Comments&#8230;"
+#~ msgstr "Redam komentare"
+
+#, fuzzy
+#~ msgid "Continuing&#8230;"
+#~ msgstr "Nastavljam"
+
+#, fuzzy
+#~ msgid "&mdash; Select &mdash;"
+#~ msgstr "&mdash; Bez uloge na ovom blogu &mdash;"
+
+#, fuzzy
+#~ msgid "Installing the latest version&#8230;"
+#~ msgstr "Instaliram najnoviju verziju"
+
+#, fuzzy
+#~ msgid "Reactivating the plugin&#8230;"
+#~ msgstr "Deaktivacija plugina."
+#~ msgctxt "Right Now"
+
+#~ msgid "Approved"
+
+#~ msgid_plural "Approved"
+#~ msgstr[0] "odobren"
+#~ msgstr[1] "odobrena"
+#~ msgstr[2] "odobrenih"
+
+#, fuzzy
+#~ msgid "Could not retrieve file from archive."
+#~ msgstr "Nije moguće ukloniti staru verziju teme"
+
+#, fuzzy
+#~ msgid "Could not extract file from archive."
+#~ msgstr "Nije moguće napraviti privremenu datoteku"
+
+#, fuzzy
+#~ msgid "Could not copy file."
+#~ msgstr "Nije moguće kopirati datoteke."
+
+#, fuzzy
+#~ msgid "Sorry, you must delete files before you can upload any more."
+#~ msgstr "Žao nam je, morate biti prijavljeni da biste komentarisali."
+
+#, fuzzy
+#~ msgid "Unsaved"
+#~ msgstr "Neodobreno"
+
+#~ msgid "Back"
+#~ msgstr "Nazad"
+
+#, fuzzy
+#~ msgid "Delete user and transfer posts"
+#~ msgstr "Obriši ovaj članak"
+
+#, fuzzy
+#~ msgid "<strong>ERROR</strong>: The e-mail address isn't correct."
+#~ msgstr "<strong>GREŠKA</strong>: Email adresa nije tačna."
+
+#, fuzzy
+#~ msgid "<strong>ERROR</strong>: The e-mail address is already used."
+#~ msgstr "<strong>GREŠKA</strong>: Email adresa nije tačna."
+
+#, fuzzy
+#~ msgid "[%s] New Email Address"
+#~ msgstr "Email adresa"
+
+#~ msgid "GB"
+#~ msgstr "GB"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#, fuzzy
+#~ msgid "Space Used"
+#~ msgstr "Ažuriraj korisnika"
+
+#~ msgid "British English"
+#~ msgstr "Engleski (Britanija)"
+
+#~ msgid "English"
+#~ msgstr "Engleski"
+
+#, fuzzy
+#~ msgid "Read More"
+#~ msgstr "Vrati"
+
+#, fuzzy
+#~ msgid "Primary Site"
+#~ msgstr "Moj blog"
+
+#, fuzzy
+#~ msgid "Auto Draft"
+#~ msgstr "Automatsko pokretanje"
+
+#, fuzzy
+#~ msgid "Just another %s site"
+#~ msgstr "Još jedan WordPressov blog"
+
+#, fuzzy
+#~ msgid ""
+#~ "Dear User,\n"
+#~ "\n"
+#~ "Your new SITE_NAME blog has been successfully set up at:\n"
+#~ "BLOG_URL\n"
+#~ "\n"
+#~ "You can log in to the administrator account with the following "
+#~ "information:\n"
+#~ "Username: USERNAME\n"
+#~ "Password: PASSWORD\n"
+#~ "Login Here: BLOG_URLwp-login.php\n"
+#~ "\n"
+#~ "We hope you enjoy your new blog.\n"
+#~ "Thanks!\n"
+#~ "\n"
+#~ "--The Team @ SITE_NAME"
+#~ msgstr ""
+#~ "Vaš novi WordPress blog je uspješno instaliran na:\n"
+#~ "\n"
+#~ "%1$s\n"
+#~ "\n"
+#~ "Prijaviti se možete pomoću administratorskog računa pomoću sljedećih "
+#~ "informacija:\n"
+#~ "\n"
+#~ "Korisničko ime: %2$s\n"
+#~ "Šifra: %3$s\n"
+#~ "\n"
+#~ "Nadamo se da ćete uživati u vašem novom blogu. Hvala!\n"
+#~ "\n"
+#~ "--WordPress tim\n"
+#~ "http://wordpress.org/\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Welcome to <a href=\"SITE_URL\">SITE_NAME</a>. This is your first post. "
+#~ "Edit or delete it, then start blogging!"
+#~ msgstr ""
+#~ "Dobro došli u WordPress. Ovo je vaš prvi članak. Uredite ga ili obrišite, "
+#~ "zatim započnite bloganje!"
+
+#, fuzzy
+#~ msgctxt "column name"
+
+#~ msgid "Title"
+#~ msgstr "Naslov"
+
+#, fuzzy
+#~ msgid "Bulk Edit"
+#~ msgstr "Grupno uređivanje stranica"
+
+#, fuzzy
+#~ msgid "&mdash; No Change &mdash;"
+#~ msgstr "&mdash; Bez uloge na ovom blogu &mdash;"
+
+#, fuzzy
+#~ msgid "In reply to <a href=\"%1$s\">%2$s</a>."
+#~ msgstr "Poslano <a href=\"%1$s\">%2$s u %3$s</a>"
+
+#, fuzzy
+#~ msgid "Add New Custom Field:"
+#~ msgstr "Dodaj korisničko polje"
+
+#, fuzzy
+#~ msgctxt "link"
+
+#~ msgid "Add New"
+#~ msgstr "Dodaj novog"
+
+#, fuzzy
+#~ msgid "Network"
+#~ msgstr "Status mreže"
+
+#, fuzzy
+#~ msgid "Admin"
+#~ msgstr "Administrator stranice"
+
+#, fuzzy
+#~ msgid "Sites"
+#~ msgstr "Posjeti stranicu"
+
+#~ msgid "My Sites"
+#~ msgstr "Moje stranice"
+
+#, fuzzy
+#~ msgctxt "theme editor"
+
+#~ msgid "Editor"
+#~ msgstr "Uređivač"
+
+#, fuzzy
+#~ msgctxt "plugin editor"
+
+#~ msgid "Editor"
+#~ msgstr "Uređivač"
+
+#, fuzzy
+#~ msgid "Delete Blog"
+#~ msgstr "Obriši sve"
+
+#, fuzzy
+#~ msgctxt "settings screen"
+
+#~ msgid "General"
+#~ msgstr "Opće"
+
+#, fuzzy
+#~ msgid "Network Admin"
+#~ msgstr "Status mreže"
+
+#, fuzzy
+#~ msgid "You do not have permission to access this page."
+#~ msgstr "Nemate pravo pristupa ovoj stranici."
+
+#, fuzzy
+#~ msgid "%s user"
+
+#~ msgid_plural "%s users"
+#~ msgstr[0] "%s korisnik"
+#~ msgstr[1] "%s korisnika"
+#~ msgstr[2] "%s korisnika"
+
+#, fuzzy
+#~ msgid "%s blog"
+
+#~ msgid_plural "%s blogs"
+#~ msgstr[0] "%s blog"
+#~ msgstr[1] "%s bloga"
+#~ msgstr[2] "%s blogova"
+
+#, fuzzy
+#~ msgid "You have %1$s and %2$s."
+#~ msgstr "%1$s u %2$s"
+
+#, fuzzy
+#~ msgid "Create a New Site"
+#~ msgstr "Novi korisnik"
+
+#, fuzzy
+#~ msgid "Create a New User"
+#~ msgstr "Novi korisnik"
+
+#, fuzzy
+#~ msgid "Search Sites"
+#~ msgstr "Pretraga članaka"
+
+#, fuzzy
+#~ msgid "You do not have sufficient permissions to delete this blog."
+#~ msgstr "Nemate dozvolu za brisanje plugina na ovom blogu."
+
+#, fuzzy
+#~ msgid "Delete My Blog"
+#~ msgstr "Moj blog"
+
+#, fuzzy
+#~ msgid "Delete My Blog Permanently"
+#~ msgstr "Trajno obriši"
+
+#, fuzzy
+#~ msgid "My Dashboard"
+#~ msgstr "Kontrolna ploča"
+
+#, fuzzy
+#~ msgid "Invalid email address"
+#~ msgstr "Ispravna email adresa je neophodna"
+
+#, fuzzy
+#~ msgid "WordPress MU &rsaquo; Confirm your action"
+#~ msgstr "Instalacija WordPressa"
+
+#, fuzzy
+#~ msgid "Confirm"
+#~ msgstr "Prilagodi"
+
+#, fuzzy
+#~ msgid "Cannot create an empty user."
+#~ msgstr "Nije moguće učitati uvoznik."
+
+#, fuzzy
+#~ msgid "Missing username."
+#~ msgstr "Nedostaje prilog"
+
+#, fuzzy
+#~ msgid "Missing email."
+#~ msgstr "pošalji email"
+
+#, fuzzy
+#~ msgid "Duplicated username or email address."
+#~ msgstr "morate upisati email adresu."
+
+#, fuzzy
+#~ msgid "Site Options"
+#~ msgstr "Postavke prikaza"
+
+#, fuzzy
+#~ msgid "Site Name"
+#~ msgstr "Ime"
+
+#, fuzzy
+#~ msgid "Site Admin Email"
+#~ msgstr "Administrator stranice"
+
+#, fuzzy
+#~ msgid "Allow new registrations"
+#~ msgstr "[%s] Registracija novog korisnika"
+
+#, fuzzy
+#~ msgid "Disabled"
+#~ msgstr "Vidljivo"
+
+#, fuzzy
+#~ msgid "Registration notification"
+#~ msgstr "Obrazac za registraciju"
+
+#, fuzzy
+#~ msgid "Add New Users"
+#~ msgstr "Dodaj novog korisnika"
+
+#, fuzzy
+#~ msgid "Dashboard Blog"
+#~ msgstr "Kontrolna ploča"
+
+#, fuzzy
+#~ msgid "Dashboard User Default Role"
+#~ msgstr "Uloga novog korisnika"
+
+#, fuzzy
+#~ msgid ""
+#~ "Users are not allowed to register these blogs. Separate names by spaces."
+#~ msgstr "Nije vam dozvoljeno vraćanje ove stranice iz smeća."
+
+#, fuzzy
+#~ msgid "Welcome Email"
+#~ msgstr "Dobro došli"
+
+#, fuzzy
+#~ msgid "First Page"
+#~ msgstr "Ime"
+
+#, fuzzy
+#~ msgid "First Comment"
+#~ msgstr "Uredi komentar"
+
+#, fuzzy
+#~ msgid "First Comment Author"
+#~ msgstr "Uredi komentar"
+
+#, fuzzy
+#~ msgid "First Comment URL"
+#~ msgstr "Uredi komentar"
+
+#, fuzzy
+#~ msgid "Upload media button"
+#~ msgstr "Datum dodavanja:"
+
+#, fuzzy
+#~ msgid "Videos"
+#~ msgstr "Video"
+
+#~ msgid "Music"
+#~ msgstr "Muzika"
+
+#, fuzzy
+#~ msgid "Upload File Types"
+#~ msgstr "Dodavanje datoteka"
+
+#, fuzzy
+#~ msgid "Administration Settings"
+#~ msgstr "Postavke rasprave"
+
+#, fuzzy
+#~ msgid "Site Admins"
+#~ msgstr "Administrator stranice"
+
+#, fuzzy
+#~ msgid "Default Language"
+#~ msgstr "Početni okvir"
+
+#, fuzzy
+#~ msgid "Menu"
+#~ msgstr "Srednje"
+
+#, fuzzy
+#~ msgid "Update Options"
+#~ msgstr "Nadogradi na %s"
+
+#, fuzzy
+#~ msgid "Blogs mark as spam !"
+#~ msgstr "Označi kao spam"
+
+#, fuzzy
+#~ msgid "Blogs deleted !"
+#~ msgstr "Oznake su obrisane."
+
+#, fuzzy
+#~ msgid "Blog deleted !"
+#~ msgstr "Oznaka je obrisana."
+
+#, fuzzy
+#~ msgid "Blog added !"
+#~ msgstr "Naziv bloga"
+
+#, fuzzy
+#~ msgid "Blog archived !"
+#~ msgstr "Blogware"
+
+#, fuzzy
+#~ msgid "Blog activated !"
+#~ msgstr "Naslov bloga"
+
+#, fuzzy
+#~ msgid "Blog deactivated !"
+#~ msgstr "Deaktiviraj"
+
+#, fuzzy
+#~ msgid "Blog mark as spam !"
+#~ msgstr "Označi kao spam"
+
+#, fuzzy
+#~ msgid "Options saved !"
+#~ msgstr "Opcije su sačuvane."
+
+#, fuzzy
+#~ msgid "Edit Site"
+#~ msgstr "Posjeti stranicu"
+
+#, fuzzy
+#~ msgid "Domain"
+#~ msgstr "Formatiranje"
+
+#, fuzzy
+#~ msgid "Registered"
+#~ msgstr "Registracija"
+
+#, fuzzy
+#~ msgid "Last Updated"
+#~ msgstr "Zadnji put nadograđeno:"
+
+#, fuzzy
+#~ msgid "Archived"
+#~ msgstr "Arhive"
+
+#, fuzzy
+#~ msgid "Mature"
+#~ msgstr "Mogućnosti"
+
+#, fuzzy
+#~ msgid "Blog options (%soptions)"
+#~ msgstr "Opis (neobavezno)"
+
+#, fuzzy
+#~ msgid "Active"
+#~ msgstr "Aktiviraj"
+
+#, fuzzy
+#~ msgid "Blog Themes"
+#~ msgstr "Pokvarene teme"
+
+#, fuzzy
+#~ msgid "Theme"
+#~ msgstr "Teme"
+
+#, fuzzy
+#~ msgid "Blog Users"
+#~ msgstr "Blogger"
+
+#, fuzzy
+#~ msgid "User"
+#~ msgstr "Korisnici"
+
+#, fuzzy
+#~ msgid "Click to remove user"
+#~ msgstr "Pritisnite za umetanje."
+
+#, fuzzy
+#~ msgid "Add a new user"
+#~ msgstr "Dodaj novog korisnika"
+
+#, fuzzy
+#~ msgid "Misc Blog Actions"
+#~ msgstr "Grupne akcije"
+
+#, fuzzy
+#~ msgid "by IP address"
+#~ msgstr "Web adresa"
+
+#, fuzzy
+#~ msgid "Search Users:"
+#~ msgstr "Pretraga korisnika"
+
+#, fuzzy
+#~ msgid "Backend"
+#~ msgstr "Pozadina"
+
+#, fuzzy
+#~ msgid "You are about to activate the blog %s"
+#~ msgstr "Odobrit ćete sljedeći komentar:"
+
+#, fuzzy
+#~ msgid "You are about to deactivate the blog %s"
+#~ msgstr "Obrisat ćete sljedeći komentar:"
+
+#, fuzzy
+#~ msgid "You are about to unarchive the blog %s"
+#~ msgstr "Odobrit ćete sljedeći komentar:"
+
+#, fuzzy
+#~ msgid "Unarchive"
+#~ msgstr "Arhive"
+
+#, fuzzy
+#~ msgid "You are about to archive the blog %s"
+#~ msgstr "Odobrit ćete sljedeći komentar:"
+
+#, fuzzy
+#~ msgid "Archive"
+#~ msgstr "Arhive"
+
+#, fuzzy
+#~ msgid "You are about to unspam the blog %s"
+#~ msgstr "Odobrit ćete sljedeći komentar:"
+
+#, fuzzy
+#~ msgid "You are about to mark the blog %s as spam"
+#~ msgstr "Označit ćete sljedeći komentar kao spam:"
+
+#, fuzzy
+#~ msgid "You are about to delete the blog %s"
+#~ msgstr "Obrisat ćete sljedeći komentar:"
+
+#, fuzzy
+#~ msgid "Visit"
+#~ msgstr "Posjeti %s"
+
+#, fuzzy
+#~ msgid "Never"
+#~ msgstr "Vrati"
+
+#, fuzzy
+#~ msgid "More"
+#~ msgstr "Više..."
+
+#, fuzzy
+#~ msgid "No blogs found."
+#~ msgstr "Nema pronađenih blogova"
+
+#, fuzzy
+#~ msgid "Add Site"
+#~ msgstr "Dodaj video"
+
+#, fuzzy
+#~ msgid "Site Address"
+#~ msgstr "Web adresa"
+
+#, fuzzy
+#~ msgid "Site Title"
+#~ msgstr "Brzo uređivanje"
+
+#, fuzzy
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#, fuzzy
+#~ msgid "WordPress &rsaquo; Admin &rsaquo; Themes"
+#~ msgstr "Nadogradnja WordPressa"
+
+#, fuzzy
+#~ msgid "Site themes saved."
+#~ msgstr "Postavke su sačuvane."
+
+#, fuzzy
+#~ msgid "Site Themes"
+#~ msgstr "Uredi teme"
+
+#, fuzzy
+#~ msgid "Update Themes"
+#~ msgstr "Nadogradi temu"
+
+#, fuzzy
+#~ msgid "Total"
+#~ msgstr "Naslov"
+
+#, fuzzy
+#~ msgid "Themes Installed: %d"
+#~ msgstr "Instalacija teme"
+
+#, fuzzy
+#~ msgid "Upgrade Site"
+#~ msgstr "Nadogradnja"
+
+#, fuzzy
+#~ msgid "Next Blogs"
+#~ msgstr "Sljedeći članak"
+
+#, fuzzy
+#~ msgid "All Done!"
+#~ msgstr "Sve završeno."
+
+#, fuzzy
+#~ msgid "User deleted !"
+#~ msgstr "%s korisnik obrisan"
+
+#, fuzzy
+#~ msgid "Users marked as spam !"
+#~ msgstr "%s komentar označen kao spam."
+
+#, fuzzy
+#~ msgid "Users marked as not spam !"
+#~ msgstr "%s komentar označen kao spam."
+
+#, fuzzy
+#~ msgid "Users deleted !"
+#~ msgstr "%s korisnik obrisan"
+
+#, fuzzy
+#~ msgid "User added !"
+#~ msgstr "Korisnik ažuriran."
+
+#, fuzzy
+#~ msgid "Mark as Spammers"
+#~ msgstr "Označi kao spam"
+
+#, fuzzy
+#~ msgid "Search Blogs for"
+#~ msgstr "Potraga za:"
+
+#, fuzzy
+#~ msgid "Blogs"
+#~ msgstr "Blogger"
+
+#, fuzzy
+#~ msgid "No users found."
+#~ msgstr "Nema pronađenih članaka."
+
+#, fuzzy
+#~ msgid "Add user"
+#~ msgstr "Dodaj korisnika"
+
+#, fuzzy
+#~ msgid "Username and password will be mailed to the above email address."
+#~ msgstr "Šifra ćemo vam poslati emailom."
+
+#, fuzzy
+#~ msgid "You do not have sufficient permissions to view this page."
+#~ msgstr "Nemate pravo pristupa ovoj stranici."
+
+#, fuzzy
+#~ msgid "Your site preferences have been updated."
+#~ msgstr "Ostali korisnici su obrisani."
+
+#, fuzzy
+#~ msgid "Global Settings"
+#~ msgstr "Sve postavke"
+
+#, fuzzy
+#~ msgid "Network Settings"
+#~ msgstr "Status mreže"
+
+#, fuzzy
+#~ msgid ""
+#~ "<a href=\"http://codex.wordpress.org/Settings_Network_SubPanel\" target="
+#~ "\"_blank\">Network Settings</a>"
+#~ msgstr ""
+#~ "<a href=\"http://codex.wordpress.org/Settings_General_SubPanel\" target="
+#~ "\"_blank\">Opće postavke</a>"
+
+#, fuzzy
+#~ msgid "Server Summary"
+#~ msgstr "Kratak pregled"
+
+#~ msgid "ERROR: %s"
+#~ msgstr "GREŠKA: %s"
+
+#, fuzzy
+#~ msgid "size: %s"
+#~ msgstr "korisnik %s"
+
+#, fuzzy
+#~ msgid "perms: %s"
+#~ msgstr "Ups: %s"
+
+#, fuzzy
+#~ msgid "readable: %s"
+#~ msgstr "email: %s"
+
+#, fuzzy
+#~ msgid "yes"
+#~ msgstr "Da"
+
+#, fuzzy
+#~ msgid "no"
+#~ msgstr "Nazad"
+
+#, fuzzy
+#~ msgid "writeable: %s"
+#~ msgstr "Privatno: %s"
+
+#, fuzzy
+#~ msgid "Installing Network of WordPress Sites"
+#~ msgstr "Instaliraj WordPress"
+
+#, fuzzy
+#~ msgid ""
+#~ "<strong>Warning!</strong> It looks like mod_rewrite is not installed."
+#~ msgstr "<strong>Upozorenje:</strong> ove stranice ne bi trebale biti iste!"
+
+#, fuzzy
+#~ msgid "%s Sites"
+#~ msgstr "Posjeti stranicu"
+
+#, fuzzy
+#~ msgid "Existing Sites"
+#~ msgstr "Posjeti stranicu"
+
+#, fuzzy
+#~ msgid "Site Addresses"
+#~ msgstr "Web adresa"
+
+#, fuzzy
+#~ msgid "Server Address"
+#~ msgstr "Poredaj po adresi"
+
+#, fuzzy
+#~ msgid "Site Details"
+#~ msgstr "Detalji"
+
+#, fuzzy
+#~ msgid "Site&nbsp;Title"
+#~ msgstr "Brzo uređivanje"
+
+#, fuzzy
+#~ msgid "What would you like to call your site?"
+#~ msgstr "Koliko stavki želite prikazati?"
+
+#, fuzzy
+#~ msgid "Your email address."
+#~ msgstr "Email adresa"
+
+#, fuzzy
+#~ msgid "Enabling WordPress Sites"
+#~ msgstr "Instaliraj WordPress"
+
+#, fuzzy
+#~ msgid "Network already enabled."
+#~ msgstr "Mrežne funkcije su onemogućene."
+
+#, fuzzy
+#~ msgid "This address is used for admin purposes."
+#~ msgstr ""
+#~ "Ova adresa se koristi za administratorske svrhe, kao što je dojava o "
+#~ "novim korisnicima."
+
+#, fuzzy
+#~ msgid "Blog language:"
+#~ msgstr "Opis bloga"
+
+#, fuzzy
+#~ msgid "Not allowed here"
+#~ msgstr "Nije vam dozvoljeno da budete ovdje"
+
+#, fuzzy
+#~ msgid "Not admin"
+#~ msgstr "Nije spam"
+
+#, fuzzy
+#~ msgid "Network Deactivate"
+#~ msgstr "Deaktiviraj"
+
+#, fuzzy
+#~ msgid "Network Only"
+#~ msgstr "Status mreže"
+
+#, fuzzy
+#~ msgid "Network Activate"
+#~ msgstr "Status mreže"
+
+#, fuzzy
+#~ msgid "Network <span class=\"count\">(%s)</span>"
+
+#~ msgid_plural "Network <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "<span class=\"count\">(%s)</span> mreža"
+#~ msgstr[1] "<span class=\"count\">(%s)</span> mreže"
+#~ msgstr[2] "<span class=\"count\">(%s)</span> mreža"
+
+#, fuzzy
+#~ msgid "Add New %s"
+#~ msgstr "Dodaj novog"
+
+#, fuzzy
+#~ msgid ""
+#~ "You attempted to edit an item that doesn&#8217;t exist. Perhaps it was "
+#~ "deleted?"
+#~ msgstr "Pokušali ste urediti stranicu koja ne postoji. Možda je obrisana?"
+
+#, fuzzy
+#~ msgid "You are not allowed to edit this item."
+#~ msgstr "Nije vam dozvoljeno uređivanje ove stranice."
+
+#, fuzzy
+#~ msgid "Unknown post type."
+#~ msgstr "Neispravna vrsta članka."
+
+#, fuzzy
+#~ msgid "(Site admin only)"
+#~ msgstr "Administrator stranice"
+
+#, fuzzy
+#~ msgid "Skip Confirmation Email"
+#~ msgstr "Konfiguracija Akismeta"
+
+#, fuzzy
+#~ msgid "Daily Archives: <span>%s</span>"
+#~ msgstr "Nedavno dodano <span class=\"count\">(%s)</span>"
+
+#, fuzzy
+#~ msgid "Monthly Archives: <span>%s</span>"
+#~ msgstr "Nedavno dodano <span class=\"count\">(%s)</span>"
+
+#, fuzzy
+#~ msgid "Yearly Archives: <span>%s</span>"
+#~ msgstr "Nedavno dodano <span class=\"count\">(%s)</span>"
+
+#, fuzzy
+#~ msgid "Blog Archives"
+#~ msgstr "Blogware"
+
+#, fuzzy
+#~ msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "Moj članak <span class=\"count\">(%s)</span>"
+
+#, fuzzy
+#~ msgid "Permalink to %s"
+#~ msgstr "Trajni linkovi"
+
+#, fuzzy
+#~ msgid "Posted on "
+#~ msgstr "Pozicija"
+
+#, fuzzy
+#~ msgid "by "
+#~ msgstr "od"
+
+#, fuzzy
+#~ msgid "View all posts by %s"
+#~ msgstr "Pregledaj sve članke u %s"
+
+#, fuzzy
+#~ msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "Koristite <span class=\"b\">WordPress %s</span>."
+
+#, fuzzy
+#~ msgid "Posted in "
+#~ msgstr "Pozicija"
+
+#, fuzzy
+#~ msgid "Tagged "
+#~ msgstr "Cilj"
+
+#, fuzzy
+#~ msgid "Return to %s"
+#~ msgstr "Vrati se na stranice za teme"
+
+#, fuzzy
+#~ msgid "By "
+#~ msgstr "Od %s"
+
+#, fuzzy
+#~ msgid "Published "
+#~ msgstr "Objavljeno"
+
+#, fuzzy
+#~ msgid "Author Archives: <span class=\"vcard\">%s</span>"
+#~ msgstr "Aktivno <span class=\"count\">(%s)</span>"
+
+#, fuzzy
+#~ msgid "About "
+#~ msgstr "O stranici"
+
+#, fuzzy
+#~ msgid "Category Archives:"
+#~ msgstr "Kategorije:"
+
+#, fuzzy
+#~ msgid "Also posted in %s"
+#~ msgstr "Pregledaj sve članke u %s"
+
+#, fuzzy
+#~ msgid ""
+#~ "This post is password protected. Enter the password to view any comments."
+#~ msgstr ""
+#~ "Ovaj članak je zaštićen šifrom. Da biste ga pregledali molimo vas da "
+#~ "unesete šifru ispod:"
+
+#, fuzzy
+#~ msgid "&larr; Older Comments"
+#~ msgstr "&laquo; Stariji komentari"
+
+#, fuzzy
+#~ msgid "Newer Comments &rarr;"
+#~ msgstr "Noviji komentari &raquo;"
+
+#, fuzzy
+#~ msgid "<span class=\"required\">*</span>"
+#~ msgstr "Svi <span class=\"count\">(%s)</span>"
+
+#, fuzzy
+#~ msgid ""
+#~ "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> "
+#~ "tags and attributes:"
+#~ msgstr ""
+#~ "Ispravan <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+
+#, fuzzy
+#~ msgid "Post Comment"
+#~ msgstr "Uredi komentar"
+
+#, fuzzy
+#~ msgid "Page "
+#~ msgstr "stranica"
+
+#, fuzzy
+#~ msgid "Pingback:"
+#~ msgstr "Povratni ping"
+
+#, fuzzy
+#~ msgid "%s latest posts"
+#~ msgstr "Vaši najnoviji članci"
+
+#, fuzzy
+#~ msgid "%s latest comments"
+#~ msgstr "%s komentar"
+
+#, fuzzy
+#~ msgid "Skip to content"
+#~ msgstr "Prikazati sadržaj stavke?"
+
+#, fuzzy
+#~ msgid "View posts in the Gallery category"
+#~ msgstr "Pregledaj članke od ovog autora"
+
+#, fuzzy
+#~ msgid "More Galleries"
+#~ msgstr "Više boja"
+
+#, fuzzy
+#~ msgid "Not Found"
+#~ msgstr "Nema pronađenih oznaka!"
+
+#, fuzzy
+#~ msgid "Search Results for: "
+#~ msgstr "Rezultati pretrage"
+
+#, fuzzy
+#~ msgid "Nothing Found"
+#~ msgstr "Nema pronađenih oznaka!"
+
+#, fuzzy
+#~ msgid "Posted by "
+#~ msgstr "Članci od %s"
+
+#, fuzzy
+#~ msgid "on "
+#~ msgstr "pon"
+
+#, fuzzy
+#~ msgid "View all posts by "
+#~ msgstr "Pregledaj sve članke u %s"
+
+#, fuzzy
+#~ msgid "Tag Archives:"
+#~ msgstr "Arhive:"
+
+#, fuzzy
+#~ msgid " (required)"
+#~ msgstr "(neophodno)"
+
+#, fuzzy
+#~ msgid ""
+#~ "%1$s was called with an argument that is <strong>deprecated</strong> "
+#~ "since version %2$s! %3$s"
+#~ msgstr ""
+#~ "%1$s nije <strong>preporučen</strong> od verzije %2$s! Koristite %3$s "
+#~ "umjesto toga."
+
+#, fuzzy
+#~ msgid ""
+#~ "%1$s was called with an argument that is <strong>deprecated</strong> "
+#~ "since version %2$s with no alternative available."
+#~ msgstr ""
+#~ "%1$s nije <strong>preporučen</strong> od verzije %2$s i nema dostupnih "
+#~ "alternativa."
+
+#, fuzzy
+#~ msgid "Insert Page Break"
+#~ msgstr "Ubaci prelom stranice"
+
+#, fuzzy
+#~ msgid ""
+#~ "The blog you have requested is not installed properly. Please contact the "
+#~ "system administrator."
+#~ msgstr ""
+#~ "Došlo je do grešek u postavkama. Molimo vas da kontaktirate "
+#~ "administratora servera."
+
+#, fuzzy
+#~ msgid "That user does not exist."
+#~ msgstr "Izvorišni URL ne postoji."
+
+#, fuzzy
+#~ msgid "Please enter a username"
+#~ msgstr "<strong>GREŠKA</strong>: Molimo vas da unesete korisničko ime."
+
+#, fuzzy
+#~ msgid "That username is not allowed"
+#~ msgstr "FTP korisničko ime je neophodno"
+
+#, fuzzy
+#~ msgid "Sorry, usernames may not contain the character '_'!"
+#~ msgstr "<strong>GREŠKA</strong>: Šifra ne može sadržavati znak \"\\\"."
+
+#, fuzzy
+#~ msgid "Please enter a correct email address"
+#~ msgstr "Greška: molimo vas da unesete ispravnu email adresu."
+
+#, fuzzy
+#~ msgid "Sorry, that email address is not allowed!"
+#~ msgstr "Žao nam je, izgleda da ključ nije ispravan."
+
+#, fuzzy
+#~ msgid "Sorry, that username already exists!"
+#~ msgstr "Članak <em>%s</em> već postoji."
+
+#, fuzzy
+#~ msgid "Sorry, that email address is already used!"
+#~ msgstr "Ispravna email adresa je neophodna"
+
+#, fuzzy
+#~ msgid "username and email used"
+#~ msgstr "Korisničko ime ili email:"
+
+#, fuzzy
+#~ msgid "Please enter a blog name"
+#~ msgstr "Molimo vas da odaberete datoteku"
+
+#, fuzzy
+#~ msgid "Sorry, blog names may not contain the character '_'!"
+#~ msgstr "<strong>GREŠKA</strong>: Šifra ne može sadržavati znak \"\\\"."
+
+#, fuzzy
+#~ msgid "Sorry, you may not use that blog name"
+#~ msgstr "Žao nam je, ne možete uređivati ovu stranicu."
+
+#, fuzzy
+#~ msgid "Please enter a blog title"
+#~ msgstr "Molimo vas da odaberete datoteku"
+
+#, fuzzy
+#~ msgid "Sorry, that blog already exists!"
+#~ msgstr "Odredišni direktorij već postoji."
+
+#, fuzzy
+#~ msgid "Sorry, that blog is reserved!"
+#~ msgstr "Žao nam je, datoteka ne može biti uređivana."
+
+#, fuzzy
+#~ msgid "[%1s] Activate %2s"
+#~ msgstr "%1$s u %2$s"
+
+#, fuzzy
+#~ msgid "Invalid activation key."
+#~ msgstr "Neispravna taksonomija"
+
+#, fuzzy
+#~ msgid "The blog is already active."
+#~ msgstr "Ova verzija je već instalirana."
+
+#, fuzzy
+#~ msgid "Could not create user"
+#~ msgstr "Nije moguće napraviti direktorij"
+
+#, fuzzy
+#~ msgid "That username is already activated."
+#~ msgstr "Ova verzija je već instalirana."
+
+#, fuzzy
+#~ msgid "Blog already exists."
+#~ msgstr "(već postoji)"
+
+#, fuzzy
+#~ msgid "Could not create blog."
+#~ msgstr "Nije moguće napraviti direktorij."
+
+#, fuzzy
+#~ msgid "New Blog Registration: %s"
+#~ msgstr "[%s] Registracija novog korisnika"
+
+#, fuzzy
+#~ msgid "New User Registration: %s"
+#~ msgstr "[%s] Registracija novog korisnika"
+
+#, fuzzy
+#~ msgid ""
+#~ "<h1>Already Installed</h1><p>You appear to have already installed "
+#~ "WordPress. To reinstall please clear your old database tables first.</p>"
+#~ msgstr ""
+#~ "Izgleda da ste već instalirali WordPress. Za reinstalaciju molimo vas da "
+#~ "prvo očistite stare tabele u vašoj bazi podataka."
+
+#, fuzzy
+#~ msgid "New %1$s Blog: %2$s"
+#~ msgstr "%1$s na %2$s"
+
+#, fuzzy
+#~ msgid "New %1$s User: %2$s"
+#~ msgstr "%1$s u %2$s"
+
+#, fuzzy
+#~ msgid "Please try again!"
+#~ msgstr "Molimo vas da pokušate ponovo."
+
+#, fuzzy
+#~ msgid "What do I do now?"
+#~ msgstr "Šta ne radi:"
+
+#, fuzzy
+#~ msgid "Your bug report must include the following text:"
+#~ msgstr "Obrisat ćete sljedeći komentar:"
+
+#, fuzzy
+#~ msgid "New"
+#~ msgstr "Najnovije"
+
+#, fuzzy
+#~ msgctxt "post"
+
+#~ msgid "Auto-Draft"
+#~ msgstr "Skica"
+
+#, fuzzy
+#~ msgid "Auto-Draft <span class=\"count\">(%s)</span>"
+
+#~ msgid_plural "Auto-Drafts <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Skica <span class=\"count\">(%s)</span>"
+#~ msgstr[1] "Skice <span class=\"count\">(%s)</span>"
+#~ msgstr[2] "Skice <span class=\"count\">(%s)</span>"
+
+#, fuzzy
+#~ msgid "This username is already registered."
+#~ msgstr "Ova verzija je već instalirana."
+
+#, fuzzy
+#~ msgid "This email address is already registered."
+#~ msgstr "Ova verzija je već instalirana."
+
+#, fuzzy
+#~ msgid "<strong>ERROR</strong>: Your account has been marked as a spammer."
+#~ msgstr "<strong>GREŠKA</strong>: Molimo vas da unesete korisničko ime."
+
+#, fuzzy
+#~ msgid "Blog Suspended."
+#~ msgstr "Blogger korisničko ime"
+
+#, fuzzy
+#~ msgid "Blog Name:"
+#~ msgstr "Naziv bloga"
+
+#, fuzzy
+#~ msgid "Blog Domain:"
+#~ msgstr "Opis bloga"
+
+#, fuzzy
+#~ msgid "blogname"
+#~ msgstr "Naziv bloga"
+
+#, fuzzy
+#~ msgid "Blog Title:"
+#~ msgstr "Naslov bloga"
+
+#, fuzzy
+#~ msgid "Privacy:"
+#~ msgstr "Privatnost"
+
+#, fuzzy
+#~ msgid ""
+#~ "I would like my blog to appear in search engines like Google and "
+#~ "Technorati, and in public listings around this site."
+#~ msgstr ""
+#~ "Dozvoli mom blogu da se pojavljuje na stranicama za pretragu kao što su "
+#~ "Google i Technorati."
+
+#, fuzzy
+#~ msgid "Email&nbsp;Address:"
+#~ msgstr "Email adresa"
+
+#, fuzzy
+#~ msgid "There was a problem, please correct the form below and try again."
+#~ msgstr "Došlo je do greške. Molimo vas da ponovo učitate stranicu."
+
+#, fuzzy
+#~ msgid "%s is your new username"
+#~ msgstr "LiveJournal korisničko ime"
+
+#, fuzzy
+#~ msgid "Signup"
+#~ msgstr "S-poravnanje"
+
+#, fuzzy
+#~ msgid "Registration has been disabled."
+#~ msgstr "Mrežne funkcije su onemogućene."
+
+#, fuzzy
+#~ msgid ""
+#~ "You must first <a href=\"%s\">login</a>, and then you can create a new "
+#~ "blog."
+#~ msgstr ""
+#~ "Morate biti <a href=\"%s\">prijavljeni</a> da biste objavili komentar."
+
+#, fuzzy
+#~ msgid "User registration has been disabled."
+#~ msgstr "Trenutno nije dozvoljena registracija korisnika."
+
+#, fuzzy
+#~ msgid "Blog registration has been disabled."
+#~ msgstr "Vaš članak je sačuvan."
+
+#, fuzzy
+#~ msgid ""
+#~ "Your server is running PHP version %1$s but WordPress %2%s requires at "
+#~ "least %2%s."
+#~ msgstr ""
+#~ "PHP verzija na vašem serveru je %s, a WordPress zahtijeva najmanje "
+#~ "verziju 4.3."
+
+#, fuzzy
+#~ msgid ""
+#~ "Your server is running PHP version %1$s but WordPress requires at least %2"
+#~ "$s."
+#~ msgstr ""
+#~ "PHP verzija na vašem serveru je %s, a WordPress zahtijeva najmanje "
+#~ "verziju 4.3."
+
+#, fuzzy
+#~ msgid ""
+#~ "<strong>Note:</strong><br />Deleting a %1$s does not delete the objects "
+#~ "in that %1$s. Instead, objects that were only assigned to the deleted %1"
+#~ "$s are set to the %1$s <strong>%2$s</strong>."
+#~ msgstr ""
+#~ "<strong>Napomena:</strong><br />Brisanjem kategorije nećete obrisati "
+#~ "članke u toj kategoriji. Umjesto toga, članci koji su pripadali samo "
+#~ "obrisanoj kategoriji bit će prebačeni u kategoriju <strong>%s</strong>."
+
+#, fuzzy
+#~ msgid "Add media: %s"
+#~ msgstr "Dodaj multimediju"
+
+#, fuzzy
+#~ msgid "something"
+#~ msgstr "Formatiranje"
+
+#, fuzzy
+#~ msgid "Search Blogs"
+#~ msgstr "Pretraga oznaka"
+
+#, fuzzy
+#~ msgid "Edit Blog"
+#~ msgstr "Uredi oznaku"
+
+#, fuzzy
+#~ msgid "Add Blog"
+#~ msgstr "Dodaj oznaku"
+
+#, fuzzy
+#~ msgid "Blog Address"
+#~ msgstr "Adresa"

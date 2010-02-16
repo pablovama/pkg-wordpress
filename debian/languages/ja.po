@@ -1,6 +1,6 @@
 # Japanese (UTF-8) translation for WordPress
 #
-# Copyright (c) 2005-2009
+# Copyright (c) 2010
 # このファイルは WordPress 本体と同じライセンスのもと配布されています。
 # This file is distributed under the same license as the WordPress package.
 #
@@ -13,10 +13,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 2.9.1 ja\n"
+"Project-Id-Version: WordPress 2.9.2 ja\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-01-05 04:57+0000\n"
-"PO-Revision-Date: 2010-01-05 15:18+0900\n"
+"POT-Creation-Date: 2010-02-15 17:47+0000\n"
+"PO-Revision-Date: 2010-02-16 09:21+0900\n"
 "Last-Translator: Takayuki Miyoshi <takayukister@gmail.com>\n"
 "Language-Team: wp-ja <wpja.team@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -120,7 +120,7 @@ msgstr "すみませんが、コメントを投稿するにはログインして
 
 #: wp-admin/admin-ajax.php:734
 #: wp-admin/admin-ajax.php:780
-#: wp-comments-post.php:74
+#: wp-comments-post.php:77
 msgid "Error: please type a comment."
 msgstr "エラー: コメントを入力してください。"
 
@@ -1110,7 +1110,7 @@ msgstr[0] "%s個のコメントに対しスパム判定を解除しました。"
 #, php-format
 msgid "%s comment moved to the trash."
 msgid_plural "%s comments moved to the trash."
-msgstr[0] "%個のコメントをゴミ箱へ移動しました。"
+msgstr[0] "%s個のコメントをゴミ箱へ移動しました。"
 
 #: wp-admin/edit-comments.php:169
 #, php-format
@@ -7688,7 +7688,7 @@ msgstr "パーマリンク設定"
 msgid "Miscellaneous"
 msgstr "その他の設定"
 
-#: wp-admin/menu.php:309
+#: wp-admin/menu.php:311
 msgid "You do not have sufficient permissions to access this page."
 msgstr "このページにアクセスするための十分なアクセス権がありません。"
 
@@ -9944,15 +9944,15 @@ msgstr "ファイルの場所を参照するため投稿メタデータにアク
 msgid "Sorry, comments are closed for this item."
 msgstr "この投稿へのコメントは受け付けていません。"
 
-#: wp-comments-post.php:61
+#: wp-comments-post.php:64
 msgid "Sorry, you must be logged in to post a comment."
 msgstr "コメントを投稿するにはログインしてください。"
 
-#: wp-comments-post.php:68
+#: wp-comments-post.php:71
 msgid "Error: please fill the required fields (name, email)."
 msgstr "エラー: 必須項目 (お名前、メールアドレス) を入力してください。"
 
-#: wp-comments-post.php:70
+#: wp-comments-post.php:73
 msgid "Error: please enter a valid email address."
 msgstr "エラー: 有効なメールアドレスを入力してください。"
 
@@ -11313,7 +11313,7 @@ msgstr "もう一度お試しください。"
 msgid "&laquo; Back"
 msgstr "&laquo; 戻る"
 
-#. #-#-#-#-#  wordpress.pot (WordPress 2.9.1)  #-#-#-#-#
+#. #-#-#-#-#  wordpress.pot (WordPress 2.9.2)  #-#-#-#-#
 #. Not gettexted string WP_I18N_ERROR_TITLE
 #: wp-includes/functions.php:2521
 #: wp-load.php:50
@@ -14415,10 +14415,13 @@ msgstr "ファイルが見つかりません。インストールを開始する
 
 #~ msgid "Compatibility with WordPress %1$s: Unknown)"
 #~ msgstr "WordPress %1$s との互換性: 不明)"
+
 #~ msgid "Page Thumbnail"
 #~ msgstr "ページのサムネイル"
+
 #~ msgid "Allow Comments on this page."
 #~ msgstr "このページでコメントの投稿を許可する。"
+
 #~ msgid ""
 #~ "\n"
 #~ "Welcome to WordPress!  This post contains important information.  After "
@@ -14526,97 +14529,127 @@ msgstr "ファイルが見つかりません。インストールを開始する
 #~ "title=\"リリース通知の WordPress メーリングリストを購読\">だったら今すぐ"
 #~ "に!</a>\n"
 #~ msgctxt "url for release notification mailing list subscription."
+
 #~ msgid "http://wordpress.org/download/"
 #~ msgstr "http://wordpress.org/download/"
 #~ msgctxt "url for codex documentation."
+
 #~ msgid "http://codex.wordpress.org"
 #~ msgstr "http://wpdocs.sourceforge.jp"
+
 #~ msgid "Welcome!"
 #~ msgstr "ようこそ!"
 #~ msgctxt "Default post slug"
+
 #~ msgid "welcome"
 #~ msgstr "ようこそ"
+
 #~ msgid "Remove"
 #~ msgstr "削除"
+
 #~ msgid "oEmbed discovery"
 #~ msgstr "oEmbed 自動検出"
+
 #~ msgid ""
 #~ "Attempt to embed content from unknown URLs using <a href=\"%s\">oEmbed</a>"
 #~ msgstr ""
 #~ "<a href=\"%s\">oEmbed</a> を使って未知の URL のコンテンツの埋め込みを試み"
 #~ "る"
+
 #~ msgid "Undo?"
 #~ msgstr "取り消しますか ?"
+
 #~ msgid "Sorry, can&#8217;t call files with their real path."
 #~ msgstr "絶対パスではファイルを呼び出すことはできません。"
+
 #~ msgid "Embed a picture from a web site that supports oEmbed"
 #~ msgstr "oEmbed に対応したサイトからの画像を埋め込む"
+
 #~ msgid "Embed image"
 #~ msgstr "画像を埋め込む"
+
 #~ msgid "Embed"
 #~ msgstr "埋め込む"
+
 #~ msgid "Comment by"
 #~ msgstr "コメント:"
+
 #~ msgid "You did not enter a tag name."
 #~ msgstr "タグ名が入力されませんでした。"
+
 #~ msgid "Tag <a href=\"#%s\">%s</a> added"
 #~ msgstr "タグ <a href=\"#%s\">%s</a> を追加しました。"
+
 #~ msgid "Time"
 #~ msgstr "投稿日"
+
 #~ msgid ""
 #~ "You are about to delete this attachment '%s'\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "添付ファイル '%s' を削除しようとしています。\n"
 #~ "削除するには 'OK' を、中止するには 'キャンセル' をクリックしてください。"
+
 #~ msgid "Delete All Spam"
 #~ msgstr "すべてのスパムを削除"
+
 #~ msgid ""
 #~ "You are about to delete this draft '%s'\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "この下書き '%s' を削除しようとしています。\n"
 #~ " 'キャンセル' で中止、'OK' で削除します。"
+
 #~ msgid ""
 #~ "You are about to delete this post '%s'\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "この投稿 '%s' を削除しようとしています。\n"
 #~ " 'キャンセル' で中止、'OK' で削除します。"
+
 #~ msgid "Keep this post private"
 #~ msgstr "この投稿を非公開のままにする"
+
 #~ msgid "Post Password"
 #~ msgstr "投稿パスワード"
+
 #~ msgid "Password Protect This Post"
 #~ msgstr "パスワードで投稿を保護"
+
 #~ msgid ""
 #~ "Setting a password will require people who visit your blog to enter the "
 #~ "above password to view this post and its comments."
 #~ msgstr ""
 #~ "パスワードを設定しておくと、この投稿とそのコメントを表示する際にパスワード"
 #~ "の入力が必要になります。"
+
 #~ msgid ""
 #~ "You are about to delete this comment. \n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "このコメントを削除しようとしています。\n"
 #~ " 'キャンセル' で中止、'OK' で削除します。"
+
 #~ msgid ""
 #~ "You are about to delete this page '%s'\n"
 #~ "  'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "このページ '%s' を削除しようとしています。\n"
 #~ "'キャンセル' で中止、'OK' で削除します。"
+
 #~ msgid "Page Password"
 #~ msgstr "ページのパスワード"
+
 #~ msgid "Password Protect This Page"
 #~ msgstr "パスワードでページを保護"
+
 #~ msgid ""
 #~ "Setting a password will require people who visit your blog to enter the "
 #~ "above password to view this page and its comments."
 #~ msgstr ""
 #~ "ここにパスワードを設定しておくと、この投稿とそのコメントを見るときにパス"
 #~ "ワードの入力が必要になります。"
+
 #~ msgid ""
 #~ "These settings apply to this page only. &#8220;Pings&#8221; are <a href="
 #~ "\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" "
@@ -14626,26 +14659,31 @@ msgstr "ファイルが見つかりません。インストールを開始する
 #~ "sourceforge.jp/Introduction_to_Blogging#Managing_Comments\" target="
 #~ "\"_blank\">トラックバックとピンバック</a>は合わせて &#8220;ピン&#8221; と"
 #~ "も呼ばれます。"
+
 #~ msgid "Also used as alternate text for the image"
 #~ msgstr "画像の代替テキストとしても用いられます"
+
 #~ msgid ""
 #~ "You are about to delete this draft '%s'\n"
 #~ " 'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "下書き '%s' を削除しようとしています。\n"
 #~ "削除するには 'OK' を、中止するには 'キャンセル' をクリックしてください。"
+
 #~ msgid ""
 #~ "You are about to delete this post '%s'\n"
 #~ " 'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "投稿 '%s' を削除しようとしています。\n"
 #~ "削除するには 'OK' を、中止するには 'キャンセル' をクリックしてください。"
+
 #~ msgid ""
 #~ "You are about to delete this page '%s'\n"
 #~ " 'Cancel' to stop, 'OK' to delete."
 #~ msgstr ""
 #~ "ページ '%s' を削除しようとしています。\n"
 #~ "削除するには 'OK' を、中止するには 'キャンセル' をクリックしてください。"
+
 #~ msgid ""
 #~ "The character encoding you write your blog in (UTF-8 is <a href=\"http://"
 #~ "developer.apple.com/documentation/macos8/TextIntlSvcs/"
@@ -14654,89 +14692,122 @@ msgstr "ファイルが見つかりません。インストールを開始する
 #~ "このブログの文字コード (UTF-8 を<a href=\"http://developer.apple.com/"
 #~ "documentation/macos8/TextIntlSvcs/TextEncodingConversionManager/TEC1.5/"
 #~ "TEC.b0.html\">推奨</a>) "
+
 #~ msgid "You do not have sufficient permissions to edit themes for this blog."
 #~ msgstr "このブログのテーマを編集する権限がありません。"
+
 #~ msgid "Image (%s)"
+
 #~ msgid_plural "Images (%s)"
 #~ msgstr[0] "画像 (%s)"
+
 #~ msgid "Audio (%s)"
+
 #~ msgid_plural "Audio (%s)"
 #~ msgstr[0] "音声 (%s)"
+
 #~ msgid "Video (%s)"
+
 #~ msgid_plural "Video (%s)"
 #~ msgstr[0] "動画 (%s)"
+
 #~ msgid "Deleted"
 #~ msgstr "削除"
+
 #~ msgid "Import Bunny&#8217;s Technorati Tags"
 #~ msgstr "Bunny&#8217;s Technorati Tags のインポート"
+
 #~ msgid ""
 #~ "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into "
 #~ "WordPress tags."
 #~ msgstr ""
 #~ "こんにちは ! このインポーターは Bunny&#8217;s Technorati Tags のタグを "
 #~ "WordPress のタグにインポートします。"
+
 #~ msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
 #~ msgstr ""
 #~ "このインポーターは Bunny&#8217;s Technorati Tags バージョン 0.6 用です。"
+
 #~ msgid ""
 #~ "All existing Bunny&#8217;s Technorati Tags will be removed after import."
 #~ msgstr ""
 #~ "インポート後、既存の Bunny&#8217;s Technorati Tags はすべて削除されます。"
+
 #~ msgid "Import Tags"
 #~ msgstr "タグをインポート"
+
 #~ msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
 #~ msgstr "Bunny&#8217;s Technorati Tags のタグを読み込み中&#8230;"
+
 #~ msgid "Done! <strong>%s</strong> post with tags were read."
+
 #~ msgid_plural "Done! <strong>%s</strong> posts with tags were read."
 #~ msgstr[0] ""
 #~ "完了 ! タグ付けされた<strong>%s</strong>件の投稿が読み込まれました。"
+
 #~ msgid "Next"
 #~ msgstr "次ページへ"
+
 #~ msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
 #~ msgstr ""
 #~ "Bunny&#8217;s Technorati Tags を WordPress のタグにインポートします。"
+
 #~ msgid "Import Jerome&#8217;s Keywords"
 #~ msgstr "Jerome&#8217;s Keywords のインポート"
+
 #~ msgid ""
 #~ "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
 #~ msgstr ""
 #~ "こんにちは ! このインポーターは Jerome&#8217;s Keywords のタグを "
 #~ "WordPress のタグにインポートします。"
+
 #~ msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
 #~ msgstr ""
 #~ "このインポーターは Jerome&#8217;s Keywords バージョン 1.x と 2.0a 用です。"
+
 #~ msgid "All existing Jerome&#8217;s Keywords will be removed after import."
 #~ msgstr "インポート後、既存の Jerome&#8217;s Keywords はすべて削除されます。"
+
 #~ msgid "Import Version 1.x"
 #~ msgstr "バージョン 1.x をインポート"
+
 #~ msgid "Import Version 2.0a"
 #~ msgstr "バージョン 2.0a をインポート"
+
 #~ msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
 #~ msgstr "Jerome&#8217;s Keywords のタグを読み込み中&#8230;"
+
 #~ msgid "Import Jerome&#8217;s Keywords into WordPress tags."
 #~ msgstr "Jerome&#8217;s Keywords を WordPress のタグにインポートします。"
+
 #~ msgid "Enable syntax highlighting"
 #~ msgstr "構文強調表示を有効にする"
+
 #~ msgid "Disable syntax highlighting"
 #~ msgstr "構文強調表示を無効にする"
+
 #~ msgid ""
 #~ "Enable keyboard shortcuts for comment moderation. <a href=\"http://codex."
 #~ "wordpress.org/Keyboard_Shortcuts\">More information</a>"
 #~ msgstr ""
 #~ "コメント承認のキーボードショートカットを使う。<a href=\"http://wpdocs."
 #~ "sourceforge.jp/Keyboard_Shortcuts\">詳細</a>"
+
 #~ msgid "Return to Theme Installer."
 #~ msgstr "テーマインストーラに戻る"
+
 #~ msgid ""
 #~ "<p>There is a new version of %1$s available. <a href=\"%2$s\" class="
 #~ "\"thickbox\" title=\"%1$s\">View version %3$s Details</a>.</p>"
 #~ msgstr ""
 #~ "<p>新しいバージョンの %1$s が利用可能です。 <a href=\"%2$s\" class="
 #~ "\"thickbox\" title=\"%1$s\">バージョン %3$s の詳細をご覧ください</a>。</p>"
+
 #~ msgid "%s Feed"
 #~ msgstr "%s フィード"
+
 #~ msgid "%s Comments Feed"
 #~ msgstr "%s コメントフィード"
+
 #~ msgid "(Password not shown)"
 #~ msgstr "(パスワード非表示)"
-
