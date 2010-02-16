@@ -1,3 +1,11 @@
+wordpress (2.9.2-1) unstable; urgency=low
+
+  * [3f228c1] Imported Upstream version 2.9.2
+  * [7965955] Bump to Standards-Version 3.8.4 (no changes)
+  * [e86fd59] Updated language files
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Tue, 16 Feb 2010 12:41:01 +0100
+
 wordpress (2.9.1-2) unstable; urgency=low
 
   * [4a7279a] Fixed the security id in wp-admin/menu.php (Closes: #561832) -
