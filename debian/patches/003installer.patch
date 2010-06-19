@@ -2,14 +2,15 @@ Author: <andrea.de.iacovo@gmail.com>
 Description: Patching install.php to permit a valid upload path
 --- a/wp-admin/install.php
 +++ b/wp-admin/install.php
-@@ -124,6 +124,10 @@ switch($step) {
+@@ -214,6 +214,11 @@ switch($step) {
  			$wpdb->show_errors();
- 			$result = wp_install($weblog_title, 'admin', $admin_email, $public);
- 			extract($result, EXTR_SKIP);
+ 			$result = wp_install($weblog_title, $user_name, $admin_email, $public, '', $admin_password);
+ 			extract( $result, EXTR_SKIP );
 +
 +			// Setup upload directories for Debian #430781
 +			$wpdb->query("UPDATE $wpdb->options set option_value = '$upload_path' where option_name = 'upload_path'");
 +			$wpdb->query("UPDATE $wpdb->options set option_value = '$upload_url_path' where option_name = 'upload_url_path'");
++
  ?>
  
- <h1><?php _e('Success!'); ?></h1>
+ <h1><?php _e( 'Success!' ); ?></h1>
