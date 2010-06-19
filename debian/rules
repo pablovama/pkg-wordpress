@@ -1,7 +1,6 @@
 #!/usr/bin/make -f
 
 #export DH_VERBOSE=1
-include /usr/share/quilt/quilt.make
 
 all:
 
@@ -11,7 +10,7 @@ all:
 POFILES:=$(shell find wp-content -name '*.po')
 MOFILES:=$(POFILES:.po=.mo)
 
-install: $(MOFILES) $(QUILT_STAMPFN)
+install: $(MOFILES)
 	dh_testdir
 	dh_testroot
 	chmod -R a-x,a+X wp-includes/
@@ -58,7 +57,7 @@ install: $(MOFILES) $(QUILT_STAMPFN)
 	dh_md5sums
 	dh_builddeb
 
-clean: unpatch
+clean:
 	dh_clean $(MOFILES)
 
 binary: install
