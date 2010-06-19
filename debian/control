@@ -6,8 +6,8 @@ Standards-Version: 3.8.4
 Build-Depends: debhelper (>= 7.0.50~)
 Build-Depends-Indep: gettext
 Homepage: http://wordpress.org
-Vcs-Git: git://git.debian.org/git/users/derevko-guest/wordpress.git
-Vcs-Browser: http://git.debian.org/?p=users/derevko-guest/wordpress.git
+Vcs-Git: git://git.debian.org/git/collab-maint/wordpress.git
+Vcs-Browser: http://git.debian.org/?p=collab-maint/wordpress.git
 
 Package: wordpress
 Architecture: all
