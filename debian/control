@@ -3,7 +3,7 @@ Section: web
 Priority: optional
 Maintainer: Giuseppe Iuculano <iuculano@debian.org>
 Standards-Version: 3.8.4
-Build-Depends: debhelper (>= 7)
+Build-Depends: debhelper (>= 7.0.50~)
 Build-Depends-Indep: gettext
 Homepage: http://wordpress.org
 Vcs-Git: git://git.debian.org/git/users/derevko-guest/wordpress.git

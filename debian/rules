@@ -1,66 +1,38 @@
 #!/usr/bin/make -f
 
-#export DH_VERBOSE=1
+%:
+	dh $@
 
-all:
+WP_INCLUDES=debian/wordpress/usr/share/wordpress/wp-includes
 
-%.mo: %.po
-	msgfmt '$<' -o '$@'
+override_dh_auto_build:
+	for i in debian/languages/*.po; do \
+		msgfmt $$i -o $${i%%.po}.mo; \
+        done
 
-POFILES:=$(shell find wp-content -name '*.po')
-MOFILES:=$(POFILES:.po=.mo)
-
-install: $(MOFILES)
-	dh_testdir
-	dh_testroot
+override_dh_install:
 	chmod -R a-x,a+X wp-includes/
 	dh_install -Xlicense.txt -Xlicense.html -XMIT-LICENSE -Xclass-phpmailer.php -Xclass-smtp.php -X.po
-	dh_installdirs
-	for i in debian/languages/*.po; \
-        do \
-		OUT=$$(echo $$i | awk -F\/ '{ print $$3 }');\
-		OUT=$${OUT%.po}.mo; \
-		msgfmt $$i -o debian/wordpress-l10n/usr/share/wordpress/wp-content/languages/$$OUT ;\
-        done
-	dh_installdocs
-	dh_installchangelogs
-	dh_installexamples
-	dh_compress
-	dh_fixperms
-	dh_installdeb
-	#Removing unneeded tinymce files
-	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/media
-	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/directionality/
-	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/fullscreen/
-	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/paste/
-	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/safari/
-	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/inlinepopups/
-	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/spellchecker/css
-	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/spellchecker/img
-	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/spellchecker/editor_plugin.js
-	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/tabfocus/
-	#rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/tinymce/plugins/wordpress/js
-	rm -R debian/wordpress/usr/share/wordpress/wp-includes/js/crop
-	rm debian/wordpress/usr/share/wordpress/wp-includes/class-snoopy.php \
-		debian/wordpress/usr/share/wordpress/wp-includes/js/prototype.js \
-		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/builder.js \
-		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/controls.js \
-		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/dragdrop.js \
-		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/effects.js \
-		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/scriptaculous.js \
-		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/slider.js \
-		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/sound.js \
-		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/unittest.js 
-	dh_link
-	dh_gencontrol
-	dh_md5sums
-	dh_builddeb
-
-clean:
-	dh_clean $(MOFILES)
-
-binary: install
-
-build:
-binary-arch:
-binary-indep:
+	# Remove embedded libraries so that they can be replaced by symlinks
+	# where appropriate
+	rm -R $(WP_INCLUDES)/js/tinymce/plugins/media
+	rm -R $(WP_INCLUDES)/js/tinymce/plugins/directionality/
+	rm -R $(WP_INCLUDES)/js/tinymce/plugins/fullscreen/
+	rm -R $(WP_INCLUDES)/js/tinymce/plugins/paste/
+	rm -R $(WP_INCLUDES)/js/tinymce/plugins/safari/
+	rm -R $(WP_INCLUDES)/js/tinymce/plugins/inlinepopups/
+	rm -R $(WP_INCLUDES)/js/tinymce/plugins/spellchecker/css
+	rm -R $(WP_INCLUDES)/js/tinymce/plugins/spellchecker/img
+	rm -R $(WP_INCLUDES)/js/tinymce/plugins/spellchecker/editor_plugin.js
+	rm -R $(WP_INCLUDES)/js/tinymce/plugins/tabfocus/
+	rm -R $(WP_INCLUDES)/js/crop
+	rm $(WP_INCLUDES)/class-snoopy.php \
+		$(WP_INCLUDES)/js/prototype.js \
+		$(WP_INCLUDES)/js/scriptaculous/builder.js \
+		$(WP_INCLUDES)/js/scriptaculous/controls.js \
+		$(WP_INCLUDES)/js/scriptaculous/dragdrop.js \
+		$(WP_INCLUDES)/js/scriptaculous/effects.js \
+		$(WP_INCLUDES)/js/scriptaculous/scriptaculous.js \
+		$(WP_INCLUDES)/js/scriptaculous/slider.js \
+		$(WP_INCLUDES)/js/scriptaculous/sound.js \
+		$(WP_INCLUDES)/js/scriptaculous/unittest.js 
