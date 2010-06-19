@@ -2,12 +2,12 @@ Author: <andrea.de.iacovo@gmail.com>
 Description: Fixing reame file
 --- a/readme.html
 +++ b/readme.html
-@@ -85,7 +85,7 @@
- <p>WordPress has no multi-million dollar marketing campaign or celebrity sponsors, but we do have something even better&#8212;you. If you enjoy WordPress please consider telling a friend, setting it up for someone less knowledgable than yourself, or writing the author of a media article that overlooks us.</p>
+@@ -102,7 +102,7 @@
+ <p>WordPress is the official continuation of <a href="http://cafelog.com/">b2/caf&#233;log</a>, which came from Michel V. The work has been continued by the <a href="http://wordpress.org/about/">WordPress developers</a>. If you would like to support WordPress, please consider <a href="http://wordpress.org/donate/" title="Donate to WordPress">donating</a>.</p>
  
  <h1>Copyright</h1>
--<p>WordPress is released under the <abbr title="GNU Public License">GPL</abbr> (see <a href="license.txt">license.txt</a>).</p>
-+<p>WordPress is released under the <abbr title="GNU Public License">GPL</abbr> (see <a href="http://www.gnu.org/copyleft/gpl.html">license.txt</a>).</p>
+-<p>WordPress is released under the <abbr title="GNU Public License">GPL</abbr>v2 (see <a href="license.txt">license.txt</a>).</p>
++<p>WordPress is released under the <abbr title="GNU Public License">GPL</abbr>v2 (see <a href="http://www.gnu.org/copyleft/gpl.html">license.txt</a>).</p>
+ 
  
  </body>
- </html>
