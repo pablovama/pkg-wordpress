@@ -9,5 +9,5 @@ Description: Disabled the the "please update" warning, thanks to Hans Spaans and
 +	if ( !constant('WP_CORE_UPDATE') )
 +		return false;
  	$options = array_merge( array('available' => true, 'dismissed' => false ), $options );
- 	$dismissed = get_option( 'dismissed_update_core' );
+ 	$dismissed = get_site_option( 'dismissed_update_core' );
  	if ( !is_array( $dismissed ) ) $dismissed = array();
