@@ -47,7 +47,6 @@ install: $(MOFILES)
 		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/controls.js \
 		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/dragdrop.js \
 		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/effects.js \
-		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/prototype.js \
 		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/scriptaculous.js \
 		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/slider.js \
 		debian/wordpress/usr/share/wordpress/wp-includes/js/scriptaculous/sound.js \
