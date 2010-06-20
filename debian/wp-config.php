@@ -20,6 +20,7 @@ Please do NOT edit and read about how the configuration works in the README.Debi
 
 define('ABSPATH', '/usr/share/wordpress/');
 define('WP_CORE_UPDATE', false);
+define('WP_ALLOW_MULTISITE', true);
 
 require_once(ABSPATH.'wp-settings.php');
 ?>

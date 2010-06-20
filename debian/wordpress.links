@@ -37,3 +37,6 @@ usr/share/php/php-gettext/streams.php usr/share/wordpress/wp-includes/streams.ph
 
 #cropper
 usr/share/javascript/cropper usr/share/wordpress/wp-includes/js/crop
+
+#MU
+var/lib/wordpress/blogs.dir usr/share/wordpress/wp-content
