@@ -1,3 +1,36 @@
+wordpress (3.0-1) unstable; urgency=low
+
+  [ Giuseppe Iuculano ]
+  * [a57d26e] Imported Upstream version 3.0 (Closes: #586764)
+  * [a74cd68] MU: enable multi-user by default and install the proper
+    blogs.dir directory
+  * [ffd926e] fix the blogs.dir link
+  * [c81081d] Adjust MU setup for Debian installations
+  * [c14dd9d] Update language files
+  * [6a7296f] Added Raphaël Hertzog in Uploaders
+  * [7ea24ff] Updated watch file
+
+  [ Raphaël Hertzog ]
+  * [2d1df3e] Update patch debian/patches/001readme.patch
+  * [58a772e] Update patch debian/patches/003installer.patch
+  * [332abfc] Update patch debian/patches/006rss_language.patch
+  * [ee99544] Update patch debian/patches/008CVE2008-2392.patch
+  * [b960914] Refresh patch debian/patches/009CVE2008-6767.patch
+  * [511eea7] Refresh patch
+    debian/patches/010disabling_update_note.patch
+  * [22c5015] Refresh patch debian/patches/manifest.patch
+  * [7cfe147] Switch to source format 3.0 (quilt).
+  * [8c86759] Add back the default theme that has been dropped upstream
+  * [390188e] Adjust links and rules to cope with removal of
+    scriptaculous/prototype.js
+  * [1313b13] Add package prefix to many debian/ files for clarity
+  * [c4e7651] Switch to dh7 tiny rules file and general cleanup of the
+    build process.
+  * [625cdbb] Updated Vcs-Git/Vcs-Browser to point to the collab-maint
+    repository.
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Sun, 27 Jun 2010 15:47:40 +0200
+
 wordpress (2.9.2-1) unstable; urgency=low
 
   * [3f228c1] Imported Upstream version 2.9.2
