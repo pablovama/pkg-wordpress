@@ -1,3 +1,11 @@
+wordpress (3.0.1-1) unstable; urgency=low
+
+  * [e6e4f09] Updated watch file
+  * [12dd7cd] Imported Upstream version 3.0.1
+  * [7f03621] Bump to standards-version 3.9.1, no changes needed
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Wed, 04 Aug 2010 16:41:24 +0200
+
 wordpress (3.0-1) unstable; urgency=low
 
   [ Giuseppe Iuculano ]
