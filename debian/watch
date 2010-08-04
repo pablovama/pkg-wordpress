@@ -1,3 +1,3 @@
 version=3
-opts="uversionmangle=s/-IIS//;s/-beta/~beta/;s/-RC/~rc/;s/mu-/~mu/" \
+opts="uversionmangle=s/-IIS/~IIS/;s/-beta/~beta/;s/-RC/~rc/;s/mu-/~mu/" \
 http://wordpress.org/download/release-archive/ http://wordpress.org/wordpress-(.*)\.tar\.gz 
