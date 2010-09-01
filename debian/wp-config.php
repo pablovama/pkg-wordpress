@@ -21,6 +21,7 @@ Please do NOT edit and read about how the configuration works in the README.Debi
 define('ABSPATH', '/usr/share/wordpress/');
 define('WP_CORE_UPDATE', false);
 define('WP_ALLOW_MULTISITE', true);
+define('DEBIAN_FILE', $debian_file);
 
 require_once(ABSPATH.'wp-settings.php');
 ?>
