@@ -78,6 +78,7 @@ for lang in $(svn ls "${UPSTREAM_I18N_SVN}" | sed -n -e 's|/$||p' | egrep -v '^(
     url_lang="$(url_escape "${lang}")"
     baselang="$(base_lang "${lang}")"
     do_file "${url_lang}" "messages" "debian/languages" "${lang}.po"
+    do_file "${url_lang}" "messages" "debian/languages" "${lang}.php"
 done
 
 
