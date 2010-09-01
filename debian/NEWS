@@ -1,0 +1,10 @@
+wordpress (3.0.1-2) unstable; urgency=low
+
+  The Flash-based SWFUpload tool is no longer distributed in the Debian
+  package, as it cannot be built from source and violates the Debian Policy
+  (cf. bug #591195).
+
+  This tool can be enabled by manually installing it, as documented in
+  /usr/share/doc/wordpress/README.Debian.
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Wed, 01 Sep 2010 23:33:31 +0200
