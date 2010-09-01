@@ -1,3 +1,15 @@
+#### Flash-based SWFUpload tool
+
+Wordpress originally comes with a Flash-based tool that allows to upload 
+files. However, that tool violates the Debian Policy, as stated in the
+bug #591195. That is why this tool is not shipped with the Debian package
+anymore.
+
+If you want to enable this feature, you need to install the
+Flash file yourself with the following command:
+    # wget -O /usr/share/wordpress/wp-includes/js/swfupload/swfupload.swf http://core.svn.wordpress.org/branches/3.0/wp-includes/js/swfupload/swfupload.swf
+
+
 #### Quick setup
 
 Setup apache to point to /usr/share/wordpress. See the examples/apache.conf

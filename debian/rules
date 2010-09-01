@@ -13,6 +13,8 @@ override_dh_auto_build:
 override_dh_install:
 	chmod -R a-x,a+X wp-includes/
 	dh_install -Xlicense.txt -Xlicense.html -XMIT-LICENSE -Xclass-phpmailer.php -Xclass-smtp.php -X.po
+	# Remove non-free swf
+	rm $(WP_INCLUDES)/js/swfupload/swfupload.swf
 	# Remove embedded libraries so that they can be replaced by symlinks
 	# where appropriate
 	rm -R $(WP_INCLUDES)/js/tinymce/plugins/media
