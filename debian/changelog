@@ -1,3 +1,16 @@
+wordpress (3.0.1-2) unstable; urgency=low
+
+  * [e8a913f] Remove swfupload.swf from the binary package, as it cannot
+    be built from source, violating the Policy. (Closes: #591195)
+  * [92493d0] Document in Readme.Debian how to get swfupload.swf
+  * [3663a53] debian/get-upstream-i18n: download also configuration
+    files for RTL-languages (Closes: #585784)
+  * [8bbdc8b] Added a missing define in debian/wp-config.php (Closes: #590859)
+  * [34dd063] Updated language files
+  * [adf55b3] Install *.php configuration files for RTL-languages
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Thu, 02 Sep 2010 10:33:50 +0200
+
 wordpress (3.0.1-1) unstable; urgency=low
 
   * [e6e4f09] Updated watch file
