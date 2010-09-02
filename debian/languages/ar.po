@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WordPress 3.0 - ar\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-06-17 20:04+0000\n"
-"PO-Revision-Date: 2010-06-27 05:33+0200\n"
+"PO-Revision-Date: 2010-06-30 06:57+0200\n"
 "Last-Translator: \n"
 "Language-Team: Rasheed-Bydousi - www.ar-wp.com <rashe18@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -8489,7 +8489,7 @@ msgstr[5] "أنت على وشك حذف الإضافات التالية:"
 #: wp-admin/plugins.php:258
 #, php-format
 msgid "<strong>%1$s</strong> by <em>%2$s</em> (will also <strong>delete its data</strong>)"
-msgstr "<strong>%1$s</strong> بواسطة <em>%2$s</em> (سوف يتم أيضاً <strong>حذف بياناته</strong>)"
+msgstr "<strong>%1$s</strong> بواسطة <em>%2$s</em> (سوف يتم أيضاً <strong>حذف بياناتها وإعداداتها</strong>)"
 
 #. translators: 1: plugin name, 2: plugin author
 #: wp-admin/plugins.php:262
