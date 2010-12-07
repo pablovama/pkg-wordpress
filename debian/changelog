@@ -1,4 +1,4 @@
-wordpress (3.0.2-1) unstable; urgency=low
+wordpress (3.0.2-1) unstable; urgency=high
 
   [ Raphaël Hertzog ]
   * [9d6922c] Improve wp-config.php to support sites on subdomains and
@@ -10,7 +10,7 @@ wordpress (3.0.2-1) unstable; urgency=low
   * [b4f2869] Refreshed debian/patches/001readme.patch
   * [612c23f] Remove flv_player.swf from manifest.php (Closes: #602732)
 
- -- Giuseppe Iuculano <iuculano@debian.org>  Tue, 07 Dec 2010 08:29:34 +0100
+ -- Giuseppe Iuculano <iuculano@debian.org>  Tue, 07 Dec 2010 08:43:38 +0100
 
 wordpress (3.0.1-2) unstable; urgency=low
 
