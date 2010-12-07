@@ -1,3 +1,17 @@
+wordpress (3.0.2-1) unstable; urgency=low
+
+  [ Raphaël Hertzog ]
+  * [9d6922c] Improve wp-config.php to support sites on subdomains and
+    htaccess by providing directives ready to uncomment
+
+  [ Giuseppe Iuculano ]
+  * [1dc32d3] Imported Upstream version 3.0.2 (Closes: #605880)
+    - Author level SQL injection vulnerability fixed (Closes: #605603)
+  * [b4f2869] Refreshed debian/patches/001readme.patch
+  * [612c23f] Remove flv_player.swf from manifest.php (Closes: #602732)
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Tue, 07 Dec 2010 08:29:34 +0100
+
 wordpress (3.0.1-2) unstable; urgency=low
 
   * [e8a913f] Remove swfupload.swf from the binary package, as it cannot
