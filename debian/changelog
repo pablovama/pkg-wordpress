@@ -1,3 +1,11 @@
+wordpress (3.0.3-1) unstable; urgency=high
+
+  * [014c926] Imported Upstream version 3.0.3 (Closes: #606657)
+  * [f29b6ac] Use GPL-compliant lyrics in the hello dolly plugin.
+    (Closes: #607240)
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Fri, 17 Dec 2010 11:03:55 +0100
+
 wordpress (3.0.2-1) unstable; urgency=high
 
   [ Raphaël Hertzog ]
