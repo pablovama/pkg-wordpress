@@ -1,3 +1,11 @@
+wordpress (3.0.3.dfsg-1) unstable; urgency=high
+
+  * [e113893] Imported Upstream version 3.0.3.dfsg
+    - Re-packaged without the hello dolly plugin (Closes: #607240)
+  * [9d62cfd] Removed hello.patch
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Tue, 28 Dec 2010 17:22:34 +0100
+
 wordpress (3.0.3-1) unstable; urgency=high
 
   * [014c926] Imported Upstream version 3.0.3 (Closes: #606657)
