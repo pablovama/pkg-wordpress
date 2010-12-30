@@ -1,3 +1,10 @@
+wordpress (3.0.4+dfsg-1) unstable; urgency=high
+
+  * [9d62499] Imported Upstream version 3.0.4+dfsg
+    - This is critical security update, more info: http://wp.me/pZhYe-qt
+
+ -- Giuseppe Iuculano <iuculano@debian.org>  Thu, 30 Dec 2010 14:47:40 +0100
+
 wordpress (3.0.3.dfsg-1) unstable; urgency=high
 
   * [e113893] Imported Upstream version 3.0.3.dfsg
