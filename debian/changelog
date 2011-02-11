@@ -1,8 +1,9 @@
 wordpress (3.0.5+dfsg-1) unstable; urgency=medium
 
   * [077b77b] Imported Upstream version 3.0.5+dfsg
+  * [8d1ce17] Refreshed patches
 
- -- Giuseppe Iuculano <iuculano@debian.org>  Fri, 11 Feb 2011 17:41:45 +0100
+ -- Giuseppe Iuculano <iuculano@debian.org>  Fri, 11 Feb 2011 17:50:40 +0100
 
 wordpress (3.0.4+dfsg-1) unstable; urgency=high
 
