@@ -5,6 +5,14 @@
 
 WP_INCLUDES=debian/wordpress/usr/share/wordpress/wp-includes
 
+VERSION := $(shell dpkg-parsechangelog | awk '/^Version:/ {print $$2}'| sed -e 's/-[^-]\+$$//' -e 's/\+dfsg//')
+
+# The following is a list of the non-free files that Wordpress
+# ships in their archive that we will strip in get-orig-source.
+UPSTREAM_FILE_BLACKLIST=wp-content/plugins/hello.php \
+	wp-includes/js/swfupload/swfupload.swf \
+	wp-includes/js/tinymce/plugins/media/moxieplayer.swf
+
 override_dh_auto_build:
 	for i in debian/languages/*.po; do \
 		msgfmt $$i -o $${i%%.po}.mo; \
@@ -13,8 +21,6 @@ override_dh_auto_build:
 override_dh_install:
 	chmod -R a-x,a+X wp-includes/
 	dh_install -Xlicense.txt -Xlicense.html -XMIT-LICENSE -Xclass-phpmailer.php -Xclass-smtp.php -X.po
-	# Remove non-free swf
-	rm $(WP_INCLUDES)/js/swfupload/swfupload.swf
 	# Remove embedded libraries so that they can be replaced by symlinks
 	# where appropriate
 	rm -R $(WP_INCLUDES)/js/tinymce/plugins/media
@@ -38,3 +44,15 @@ override_dh_install:
 		$(WP_INCLUDES)/js/scriptaculous/slider.js \
 		$(WP_INCLUDES)/js/scriptaculous/sound.js \
 		$(WP_INCLUDES)/js/scriptaculous/unittest.js 
+
+get-orig-source:
+	@test ! -e ../wordpress_$(VERSION)+dfsg.orig.tar.gz || (echo "You already have ../wordpress_$(VERSION)+dfsg.orig.tar.gz" >&2; exit 1)
+	uscan --noconf --force-download --rename --download-version $(VERSION) --destdir=.
+	tar --transform "s,^.[^/]*,wordpress-$(VERSION)/," -xzvf \
+		./wordpress_$(VERSION).orig.tar.gz
+	rm ./wordpress_$(VERSION).orig.tar.gz
+	cd wordpress-$(VERSION) && rm $(UPSTREAM_FILE_BLACKLIST)
+	tar -zcvf ../wordpress_$(VERSION)+dfsg.orig.tar.gz wordpress-$(VERSION)
+	@f=$$(find wordpress-$(VERSION) -name '*.swf'); if [ -n "$$f" ]; then echo "ERROR: Found some flash files, do we have sources?"; echo "$$f"; exit 1; fi
+	rm -rf wordpress-$(VERSION)
+	@echo "Successfully created ../wordpress_$(VERSION)+dfsg.orig.tar.gz"
