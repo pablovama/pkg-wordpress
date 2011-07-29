@@ -18,7 +18,6 @@ usr/share/tinymce/www/plugins/directionality usr/share/wordpress/wp-includes/js/
 usr/share/tinymce/www/plugins/fullscreen usr/share/wordpress/wp-includes/js/tinymce/plugins/fullscreen
 usr/share/tinymce/www/plugins/media usr/share/wordpress/wp-includes/js/tinymce/plugins/media
 usr/share/tinymce/www/plugins/paste usr/share/wordpress/wp-includes/js/tinymce/plugins/paste
-usr/share/tinymce/www/plugins/safari usr/share/wordpress/wp-includes/js/tinymce/plugins/safari
 usr/share/tinymce/www/plugins/inlinepopups usr/share/wordpress/wp-includes/js/tinymce/plugins/inlinepopups
 usr/share/tinymce/www/plugins/spellchecker/editor_plugin.js usr/share/wordpress/wp-includes/js/tinymce/plugins/spellchecker/editor_plugin.js
 usr/share/tinymce/www/plugins/spellchecker/css usr/share/wordpress/wp-includes/js/tinymce/plugins/spellchecker/css
@@ -28,8 +27,25 @@ usr/share/tinymce/www/plugins/tabfocus usr/share/wordpress/wp-includes/js/tinymc
 #Snoopy
 usr/share/php/libphp-snoopy/Snoopy.class.php usr/share/wordpress/wp-includes/class-snoopy.php
 
-
+#Jquery
 usr/share/javascript/jquery/jquery.js usr/share/wordpress/wp-includes/js/jquery/jquery.js
+usr/share/javascript/jquery-form/jquery.form.min.js usr/share/wordpress/wp-includes/js/jquery/jquery.form.js
+usr/share/javascript/jquery-form/jquery.form.js usr/share/wordpress/wp-includes/js/jquery/jquery.form.dev.js
+usr/share/javascript/jquery-ui/ui/jquery.ui.button.js usr/share/wordpress/wp-includes/js/jquery/ui.button.js
+usr/share/javascript/jquery-ui/ui/jquery.ui.core.js usr/share/wordpress/wp-includes/js/jquery/ui.core.js
+usr/share/javascript/jquery-ui/ui/jquery.ui.dialog.js usr/share/wordpress/wp-includes/js/jquery/ui.dialog.js
+usr/share/javascript/jquery-ui/ui/jquery.ui.draggable.js usr/share/wordpress/wp-includes/js/jquery/ui.draggable.js
+usr/share/javascript/jquery-ui/ui/jquery.ui.droppable.js usr/share/wordpress/wp-includes/js/jquery/ui.droppable.js
+usr/share/javascript/jquery-ui/ui/jquery.ui.mouse.js usr/share/wordpress/wp-includes/js/jquery/ui.mouse.js
+usr/share/javascript/jquery-ui/ui/jquery.ui.position.js usr/share/wordpress/wp-includes/js/jquery/ui.position.js
+usr/share/javascript/jquery-ui/ui/jquery.ui.resizable.js usr/share/wordpress/wp-includes/js/jquery/ui.resizable.js
+usr/share/javascript/jquery-ui/ui/jquery.ui.selectable.js usr/share/wordpress/wp-includes/js/jquery/ui.selectable.js
+usr/share/javascript/jquery-ui/ui/jquery.ui.sortable.js usr/share/wordpress/wp-includes/js/jquery/ui.sortable.js
+usr/share/javascript/jquery-ui/ui/jquery.ui.tabs.js usr/share/wordpress/wp-includes/js/jquery/ui.tabs.js
+usr/share/javascript/jquery-ui/ui/jquery.ui.widget.js usr/share/wordpress/wp-includes/js/jquery/ui.widget.js
+
+#Simplepie
+usr/share/php/simplepie/simplepie.inc usr/share/wordpress/wp-includes/class-simplepie.php
 
 #php-gettext
 usr/share/php/php-gettext/gettext.php usr/share/wordpress/wp-includes/gettext.php

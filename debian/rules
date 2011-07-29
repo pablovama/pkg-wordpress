@@ -27,7 +27,6 @@ override_dh_install:
 	rm -R $(WP_INCLUDES)/js/tinymce/plugins/directionality/
 	rm -R $(WP_INCLUDES)/js/tinymce/plugins/fullscreen/
 	rm -R $(WP_INCLUDES)/js/tinymce/plugins/paste/
-	rm -R $(WP_INCLUDES)/js/tinymce/plugins/safari/
 	rm -R $(WP_INCLUDES)/js/tinymce/plugins/inlinepopups/
 	rm -R $(WP_INCLUDES)/js/tinymce/plugins/spellchecker/css
 	rm -R $(WP_INCLUDES)/js/tinymce/plugins/spellchecker/img
@@ -35,6 +34,7 @@ override_dh_install:
 	rm -R $(WP_INCLUDES)/js/tinymce/plugins/tabfocus/
 	rm -R $(WP_INCLUDES)/js/crop
 	rm $(WP_INCLUDES)/class-snoopy.php \
+		$(WP_INCLUDES)/class-simplepie.php \
 		$(WP_INCLUDES)/js/prototype.js \
 		$(WP_INCLUDES)/js/scriptaculous/builder.js \
 		$(WP_INCLUDES)/js/scriptaculous/controls.js \
@@ -43,7 +43,12 @@ override_dh_install:
 		$(WP_INCLUDES)/js/scriptaculous/scriptaculous.js \
 		$(WP_INCLUDES)/js/scriptaculous/slider.js \
 		$(WP_INCLUDES)/js/scriptaculous/sound.js \
-		$(WP_INCLUDES)/js/scriptaculous/unittest.js 
+		$(WP_INCLUDES)/js/scriptaculous/unittest.js \
+		$(WP_INCLUDES)/js/jquery/jquery.js \
+		$(WP_INCLUDES)/js/jquery/jquery.form.js \
+		$(WP_INCLUDES)/js/jquery/jquery.form.dev.js \
+		$(WP_INCLUDES)/js/jquery/ui.*.js
+
 
 get-orig-source:
 	@test ! -e ../wordpress_$(VERSION)+dfsg.orig.tar.gz || (echo "You already have ../wordpress_$(VERSION)+dfsg.orig.tar.gz" >&2; exit 1)
