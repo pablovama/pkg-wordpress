@@ -12,9 +12,9 @@ Vcs-Browser: http://git.debian.org/?p=collab-maint/wordpress.git
 
 Package: wordpress
 Architecture: all
-Depends: ${misc:Depends}, apache2 | httpd, mysql-client, libapache2-mod-php5 | php5, php5-mysql, libphp-phpmailer (>= 1.73-4), php5-gd, libjs-prototype, libjs-scriptaculous, tinymce (>= 3.2.6-0.1), libphp-snoopy, libjs-jquery (>= 1.3.3-1), php-gettext, libjs-cropper
+Depends: ${misc:Depends}, apache2 | httpd, mysql-client, libapache2-mod-php5 | php5, php5-mysql, libphp-phpmailer (>= 5.1), php5-gd, libjs-prototype, libjs-scriptaculous, tinymce (>= 3.4.2), libphp-snoopy, libjs-jquery (>= 1.6.1), libjs-jquery-ui (>= 1.8.1), php-gettext, libjs-cropper
 Recommends: wordpress-l10n
-Suggests: mysql-server (>> 4.0.20-8)
+Suggests: mysql-server (>= 5.0.15)
 Description: weblog manager
  WordPress is a full featured web blogging tool:
     * Instant publishing (no rebuilding)
