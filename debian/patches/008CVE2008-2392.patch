@@ -2,7 +2,7 @@ Author: <andrea.de.iacovo@gmail.com>
 Description: Disables unfiltered upload capability for administrators.
 --- a/wp-admin/includes/schema.php
 +++ b/wp-admin/includes/schema.php
-@@ -540,11 +540,11 @@ function populate_roles_210() {
+@@ -542,11 +542,11 @@ function populate_roles_210() {
   * @since 2.3.0
   */
  function populate_roles_230() {
@@ -21,7 +21,7 @@ Description: Disables unfiltered upload capability for administrators.
  /**
 --- a/wp-admin/menu.php
 +++ b/wp-admin/menu.php
-@@ -222,6 +222,8 @@ $menu[80] = array( __('Settings'), 'mana
+@@ -232,6 +232,8 @@ $menu[80] = array( __('Settings'), 'mana
  	$submenu['options-general.php'][30] = array(__('Media'), 'manage_options', 'options-media.php');
  	$submenu['options-general.php'][35] = array(__('Privacy'), 'manage_options', 'options-privacy.php');
  	$submenu['options-general.php'][40] = array(__('Permalinks'), 'manage_options', 'options-permalink.php');
