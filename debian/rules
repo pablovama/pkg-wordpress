@@ -23,32 +23,7 @@ override_dh_install:
 	dh_install -Xlicense.txt -Xlicense.html -XMIT-LICENSE -Xclass-phpmailer.php -Xclass-smtp.php -X.po
 	# Remove embedded libraries so that they can be replaced by symlinks
 	# where appropriate
-	rm -R $(WP_INCLUDES)/js/tinymce/plugins/media
-	rm -R $(WP_INCLUDES)/js/tinymce/plugins/directionality/
-	rm -R $(WP_INCLUDES)/js/tinymce/plugins/fullscreen/
-	rm -R $(WP_INCLUDES)/js/tinymce/plugins/paste/
-	rm -R $(WP_INCLUDES)/js/tinymce/plugins/inlinepopups/
-	rm -R $(WP_INCLUDES)/js/tinymce/plugins/spellchecker/css
-	rm -R $(WP_INCLUDES)/js/tinymce/plugins/spellchecker/img
-	rm -R $(WP_INCLUDES)/js/tinymce/plugins/spellchecker/editor_plugin.js
-	rm -R $(WP_INCLUDES)/js/tinymce/plugins/tabfocus/
-	rm -R $(WP_INCLUDES)/js/crop
-	rm $(WP_INCLUDES)/class-snoopy.php \
-		$(WP_INCLUDES)/class-simplepie.php \
-		$(WP_INCLUDES)/js/prototype.js \
-		$(WP_INCLUDES)/js/scriptaculous/builder.js \
-		$(WP_INCLUDES)/js/scriptaculous/controls.js \
-		$(WP_INCLUDES)/js/scriptaculous/dragdrop.js \
-		$(WP_INCLUDES)/js/scriptaculous/effects.js \
-		$(WP_INCLUDES)/js/scriptaculous/scriptaculous.js \
-		$(WP_INCLUDES)/js/scriptaculous/slider.js \
-		$(WP_INCLUDES)/js/scriptaculous/sound.js \
-		$(WP_INCLUDES)/js/scriptaculous/unittest.js \
-		$(WP_INCLUDES)/js/jquery/jquery.js \
-		$(WP_INCLUDES)/js/jquery/jquery.form.js \
-		$(WP_INCLUDES)/js/jquery/jquery.form.dev.js \
-		$(WP_INCLUDES)/js/jquery/ui.*.js
-
+	debian/dh_linktree --replace-only
 
 get-orig-source:
 	@test ! -e ../wordpress_$(VERSION)+dfsg.orig.tar.gz || (echo "You already have ../wordpress_$(VERSION)+dfsg.orig.tar.gz" >&2; exit 1)

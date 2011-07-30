@@ -1,0 +1,205 @@
+#!/usr/bin/perl -w
+
+=head1 NAME
+
+dh_linktree - create symlink trees to embed files from other packages
+
+=cut
+
+use strict;
+use File::Find;
+use File::Spec;
+use File::Compare;
+use Debian::Debhelper::Dh_Lib;
+
+=head1 SYNOPSIS
+
+B<dh_linktree> [S<I<debhelper options>>] [B<-A>] [B<-X>I<item>] [S<I<source destination> ...>]
+
+=head1 DESCRIPTION
+
+B<dh_linktree> is a debhelper program that creates symlink trees in package build
+directories. The symlinks points to files provided by other packages and who
+have to be present during build. As such you have to put the packages providing
+the destination files in the build dependencies.
+
+B<dh_linktree> accepts a list of pairs of source and destination file/directories.
+Symlinking files works just like B<dh_link> but symlinking directories
+will recreate the same directory hierarchy and all individual files will
+be turned into symlinks.
+
+The source files are the already existing files that will be symlinked from.
+The destination files are the symlinks that will be created. There B<must> be
+an equal number of source and destination files specified.
+
+Be sure you B<do> specify the full filename to both the source and
+destination files (unlike you would do if you were using something like
+L<ln(1)>).
+
+B<dh_linktree> will generate symlinks that comply with Debian policy - absolute
+when policy says they should be absolute, and relative links with as short
+a path as possible. It will also create any subdirectories it needs to to put
+the symlinks in.
+
+=head1 FILES
+
+=over 4
+
+=item debian/I<package>.linktrees
+
+Lists pairs of source and destination trees to be symlinked. Each pair
+should be put on its own line, with the source and destination separated by
+whitespace.
+
+=back
+
+=head1 OPTIONS
+
+=over 4
+
+=item B<-X>I<item>, B<--exclude=>I<item>
+
+Do not create symlinks for files that contain I<item> anywhere in their
+filename.
+
+=item I<source destination> ...
+
+Create a symlink tree named I<destination> with all files within it
+pointing to the corresponding file in I<source>. Do this in the package
+build directory of the first package acted on.
+
+=back
+
+=head1 EXAMPLES
+
+ dh_link usr/share/javascript/jquery usr/share/wordpress/plugin-jquery
+
+Make F<plugin-jquery> be a symlink tree to F<jquery>.
+
+=cut
+
+# TODO: add automatic dependencies on packages providing the files we
+# symlink to, use relatively strict dependencies on upstream version
+# (>= <upstream-version>), (<< <upstream-version>.0~).
+
+my ($replace_only, $same_only) = (0, 0);
+init(options => { "replace-only" => \$replace_only, "same-only" => \$same_only });
+
+foreach my $package (@{$dh{DOPACKAGES}}) {
+	my $tmp=tmpdir($package);
+	my $file=pkgfile($package,"linktrees");
+
+        my @srclinks;
+	if ($file) {
+		@srclinks=filearray($file);
+	}
+
+	# Make sure it has pairs of symlinks and destinations. If it
+	# doesn't, $#srclinks will be _odd_ (not even, -- it's zero-based).
+	if (int($#srclinks/2) eq $#srclinks/2) {
+		error("$file lists a link without a destination.");
+	}
+
+	if (($package eq $dh{FIRSTPACKAGE} || $dh{PARAMS_ALL}) && @ARGV) {
+		push @srclinks, @ARGV;
+	}
+
+	# Same test as above, including arguments this time.
+	if (int($#srclinks/2) eq $#srclinks/2) {
+		error("parameters list a link without a destination.");
+	}
+
+	my @links;
+	while (@srclinks) {
+		my $src=shift @srclinks;
+		my $dest=shift @srclinks;
+		if (! -l "/$src" and -d _) {
+			find(sub {
+				return if -d and ! -l;
+				return if excludefile($_);
+				my $rel=File::Spec->abs2rel($File::Find::name,"/$src");
+				push @links, "$src/$rel", "$dest/$rel";
+			}, "/$src");
+		} else {
+			push @links, $src, $dest;
+		}
+	}
+
+	while (@links) {
+		my $src=shift @links;
+		my $dest=shift @links;
+
+		$src=~s:^/::;
+		$dest=~s:^/::;
+
+		if ($src eq $dest) {
+			warning("skipping link from $src to self");
+			next;
+		}
+
+		if ($replace_only and not -e "$tmp/$dest") {
+			warning("not creating $tmp/$dest due to --replace-only ");
+			next;
+		}
+
+		if ($same_only and -e "$tmp/$dest" and
+		    compare("$tmp/$dest", "/$src") != 0) {
+			warning("not replacing $tmp/$dest due to " .
+				"mismatch with /$src");
+			next;
+		}
+
+		# Make sure the directory the link will be in exists.
+		my $basedir=dirname("$tmp/$dest");
+		if (! -e $basedir) {
+			doit("install","-d",$basedir);
+		}
+
+		# Policy says that if the link is all within one toplevel
+		# directory, it should be relative. If it's between
+		# top level directories, leave it absolute.
+		my @src_dirs=split(m:/+:,$src);
+		my @dest_dirs=split(m:/+:,$dest);
+		if (@src_dirs > 0 && $src_dirs[0] eq $dest_dirs[0]) {
+			# Figure out how much of a path $src and $dest
+			# share in common.
+			my $x;
+			for ($x=0; $x < @src_dirs && $src_dirs[$x] eq $dest_dirs[$x]; $x++) {}
+			# Build up the new src.
+			$src="";
+			for (1..$#dest_dirs - $x) {
+				$src.="../";
+			}
+			for ($x .. $#src_dirs) {
+				$src.=$src_dirs[$_]."/";
+			}
+			if ($x > $#src_dirs && ! length $src) {
+				$src.="."; # special case
+			}
+			$src=~s:/$::;
+		}
+		else {
+			# Make sure it's properly absolute.
+			$src="/$src";
+		}
+
+		if (-d "$tmp/$dest" && ! -l "$tmp/$dest") {
+			error("link destination $tmp/$dest is a directory");
+		}
+		doit("rm", "-f", "$tmp/$dest");
+		doit("ln","-sf", $src, "$tmp/$dest");
+	}
+}
+
+=head1 SEE ALSO
+
+L<debhelper(7)>
+
+This program is a part of debhelper.
+
+=head1 AUTHOR
+
+Raphael Hertzog <hertzog@debian.org>
+Joey Hess <joeyh@debian.org>
+
+=cut
