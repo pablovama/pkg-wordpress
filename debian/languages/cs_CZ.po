@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress CZ (3.0.1)\n"
+"Project-Id-Version: WordPress CZ (3.0)\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-07-30 12:20+0000\n"
-"PO-Revision-Date: 2010-08-02 22:02+0100\n"
+"POT-Creation-Date: 2010-06-17 16:04+0000\n"
+"PO-Revision-Date: 2010-07-13 00:56+0100\n"
 "Last-Translator: Separatista <pavelevap@separatista.net>\n"
 "Language-Team: Separatista <pavelevap@separatista.net>\n"
 "MIME-Version: 1.0\n"
@@ -21,10 +21,10 @@ msgid "<strong>ALERT: You are logged out!</strong> Could not save draft. <a href
 msgstr "<strong>POZOR: Byli jste odhlášeni!</strong> Koncept nemohl být uložen. <a href=\"%s\" target=\"_blank\">Přihlaste se prosím znovu.</a>"
 
 #: wp-admin/admin-ajax.php:201
-#: wp-admin/edit-comments.php:293
+#: wp-admin/edit-comments.php:289
 #: wp-admin/edit-link-categories.php:108
-#: wp-admin/edit-tags.php:277
-#: wp-admin/edit.php:314
+#: wp-admin/edit-tags.php:271
+#: wp-admin/edit.php:313
 #: wp-admin/includes/media.php:1924
 #: wp-admin/includes/nav-menu.php:613
 #: wp-admin/includes/nav-menu.php:823
@@ -37,10 +37,10 @@ msgid "&laquo;"
 msgstr "&laquo;"
 
 #: wp-admin/admin-ajax.php:202
-#: wp-admin/edit-comments.php:294
+#: wp-admin/edit-comments.php:290
 #: wp-admin/edit-link-categories.php:109
-#: wp-admin/edit-tags.php:278
-#: wp-admin/edit.php:315
+#: wp-admin/edit-tags.php:272
+#: wp-admin/edit.php:314
 #: wp-admin/includes/media.php:1925
 #: wp-admin/includes/nav-menu.php:614
 #: wp-admin/includes/nav-menu.php:824
@@ -108,52 +108,52 @@ msgid "User <a href=\"#%s\">%s</a> added"
 msgstr "Uživatel <a href=\"#%s\">%s</a> byl vytvořen"
 
 #. translators: draft saved date format, see http://php.net/date
-#: wp-admin/admin-ajax.php:969
+#: wp-admin/admin-ajax.php:970
 msgid "g:i:s a"
 msgstr "G:i"
 
 #. translators: %s: date and time
-#: wp-admin/admin-ajax.php:971
+#: wp-admin/admin-ajax.php:972
 #, php-format
 msgid "Draft saved at %s."
 msgstr "Koncept byl uložen v %s."
 
-#: wp-admin/admin-ajax.php:989
-#: wp-admin/admin-ajax.php:1201
+#: wp-admin/admin-ajax.php:990
+#: wp-admin/admin-ajax.php:1202
 msgid "Someone"
 msgstr "Někdo"
 
-#: wp-admin/admin-ajax.php:991
+#: wp-admin/admin-ajax.php:992
 #, php-format
 msgid "Autosave disabled: %s is currently editing this page."
 msgstr "Automatické ukládání je vypnuto: %s právě teď upravuje tuto stránku."
 
-#: wp-admin/admin-ajax.php:991
+#: wp-admin/admin-ajax.php:992
 #, php-format
 msgid "Autosave disabled: %s is currently editing this post."
 msgstr "Automatické ukládání je vypnuto: %s právě teď upravuje tento příspěvek."
 
-#: wp-admin/admin-ajax.php:1000
-#: wp-admin/admin-ajax.php:1190
+#: wp-admin/admin-ajax.php:1001
+#: wp-admin/admin-ajax.php:1191
 #: wp-admin/includes/post.php:143
-#: wp-admin/includes/post.php:1300
+#: wp-admin/includes/post.php:1302
 msgid "You are not allowed to edit this page."
 msgstr "Nemáte dostatečné oprávnění pro úpravy této stránky."
 
-#: wp-admin/admin-ajax.php:1003
-#: wp-admin/admin-ajax.php:1193
+#: wp-admin/admin-ajax.php:1004
+#: wp-admin/admin-ajax.php:1194
 #: wp-admin/includes/post.php:145
-#: wp-admin/includes/post.php:1303
+#: wp-admin/includes/post.php:1305
 #: wp-admin/upload.php:35
 msgid "You are not allowed to edit this post."
 msgstr "Nemáte dostatečné oprávnění pro úpravy tohoto příspěvku."
 
-#: wp-admin/admin-ajax.php:1202
+#: wp-admin/admin-ajax.php:1203
 #, php-format
 msgid "Saving is disabled: %s is currently editing this page."
 msgstr "Ukládání je zablokováno: %s právě teď upravuje tuto stránku."
 
-#: wp-admin/admin-ajax.php:1202
+#: wp-admin/admin-ajax.php:1203
 #, php-format
 msgid "Saving is disabled: %s is currently editing this post."
 msgstr "Ukládání je zablokováno: %s právě teď upravuje tento příspěvek."
@@ -162,11 +162,10 @@ msgstr "Ukládání je zablokováno: %s právě teď upravuje tento příspěvek
 #: wp-admin/admin-ajax.php:1256
 #: wp-admin/edit-comments.php:13
 #: wp-admin/edit-link-categories.php:18
-#: wp-admin/edit-tags.php:23
-#: wp-admin/edit-tags.php:48
-#: wp-admin/edit-tags.php:86
-#: wp-admin/edit-tags.php:100
-#: wp-admin/edit-tags.php:140
+#: wp-admin/edit-tags.php:45
+#: wp-admin/edit-tags.php:83
+#: wp-admin/edit-tags.php:97
+#: wp-admin/edit-tags.php:134
 #: wp-admin/edit.php:23
 #: wp-admin/includes/bookmark.php:30
 #: wp-admin/link-category.php:24
@@ -195,7 +194,7 @@ msgstr "Rubrika nebyla aktualizována."
 
 #: wp-admin/admin-ajax.php:1283
 #: wp-admin/admin-ajax.php:1292
-#: wp-admin/edit-tags.php:216
+#: wp-admin/edit-tags.php:210
 msgid "Item not updated."
 msgstr "Položka nebyla aktualizována."
 
@@ -208,7 +207,7 @@ msgstr "Položka nebyla aktualizována."
 #: wp-admin/includes/media.php:2163
 #: wp-admin/includes/template.php:909
 #: wp-includes/js/tinymce/langs/wp-langs.php:295
-#: wp-includes/post.php:4354
+#: wp-includes/post.php:4348
 msgid "Title"
 msgstr "Název"
 
@@ -258,7 +257,7 @@ msgstr "Čekající na schválení"
 #: wp-admin/includes/meta-boxes.php:97
 #: wp-admin/includes/meta-boxes.php:99
 #: wp-admin/includes/template.php:1111
-#: wp-admin/includes/template.php:3517
+#: wp-admin/includes/template.php:3521
 #: wp-includes/post.php:512
 #: wp-includes/post.php:533
 msgid "Draft"
@@ -271,7 +270,7 @@ msgstr "Koncept"
 #: wp-admin/edit-attachment-rows.php:183
 #: wp-admin/includes/template.php:1320
 #: wp-admin/includes/template.php:1549
-#: wp-admin/includes/template.php:2062
+#: wp-admin/includes/template.php:2064
 #: wp-admin/upload.php:451
 msgid "Y/m/d"
 msgstr "j.n.Y"
@@ -369,15 +368,15 @@ msgstr "Vybraný komentář můžete na této stránce také moderovat pomocí v
 #: wp-admin/edit-form-advanced.php:189
 #: wp-admin/edit-link-categories.php:56
 #: wp-admin/edit-link-form.php:44
-#: wp-admin/edit-tags.php:197
-#: wp-admin/edit.php:177
-#: wp-admin/edit.php:186
+#: wp-admin/edit-tags.php:191
+#: wp-admin/edit.php:176
+#: wp-admin/edit.php:185
 #: wp-admin/export.php:22
 #: wp-admin/import.php:22
 #: wp-admin/index.php:40
 #: wp-admin/link-manager.php:52
 #: wp-admin/media-upload.php:63
-#: wp-admin/nav-menus.php:455
+#: wp-admin/nav-menus.php:458
 #: wp-admin/options-discussion.php:21
 #: wp-admin/options-general.php:60
 #: wp-admin/options-media.php:23
@@ -501,7 +500,7 @@ msgstr "Autor"
 
 #: wp-admin/comment.php:158
 #: wp-admin/includes/template.php:752
-#: wp-admin/includes/template.php:2254
+#: wp-admin/includes/template.php:2258
 #: wp-admin/user-edit.php:304
 #: wp-admin/user-new.php:217
 #: wp-includes/theme-compat/comments-popup.php:80
@@ -514,8 +513,8 @@ msgstr "Email"
 #: wp-admin/includes/nav-menu.php:126
 #: wp-admin/includes/nav-menu.php:536
 #: wp-admin/includes/template.php:706
-#: wp-admin/includes/template.php:2259
-#: wp-admin/includes/template.php:2622
+#: wp-admin/includes/template.php:2263
+#: wp-admin/includes/template.php:2626
 #: wp-admin/press-this.php:159
 msgid "URL"
 msgstr "URL"
@@ -523,7 +522,7 @@ msgstr "URL"
 #. translators: field name in comment form
 #: wp-admin/comment.php:169
 #: wp-includes/comment-template.php:681
-#: wp-includes/comment-template.php:1535
+#: wp-includes/comment-template.php:1508
 msgctxt "noun"
 msgid "Comment"
 msgstr "Komentář"
@@ -577,16 +576,16 @@ msgstr "<a href=\"http://codex.wordpress.org/Appearance_Background_SubPanel\" ta
 #: wp-admin/edit-form-advanced.php:191
 #: wp-admin/edit-link-categories.php:58
 #: wp-admin/edit-link-form.php:46
-#: wp-admin/edit-tags.php:204
-#: wp-admin/edit.php:179
-#: wp-admin/edit.php:188
+#: wp-admin/edit-tags.php:198
+#: wp-admin/edit.php:178
+#: wp-admin/edit.php:187
 #: wp-admin/export.php:24
 #: wp-admin/import.php:24
-#: wp-admin/includes/template.php:3634
+#: wp-admin/includes/template.php:3638
 #: wp-admin/index.php:42
 #: wp-admin/link-manager.php:54
 #: wp-admin/media-upload.php:65
-#: wp-admin/nav-menus.php:457
+#: wp-admin/nav-menus.php:460
 #: wp-admin/options-discussion.php:23
 #: wp-admin/options-general.php:62
 #: wp-admin/options-media.php:25
@@ -674,7 +673,7 @@ msgstr "Vyberte obrázek v počítači:"
 #: wp-admin/custom-header.php:471
 #: wp-admin/includes/media.php:1509
 #: wp-admin/includes/media.php:1510
-#: wp-admin/includes/template.php:3371
+#: wp-admin/includes/template.php:3375
 #: wp-admin/plugin-install.php:27
 #: wp-admin/theme-install.php:33
 msgid "Upload"
@@ -946,23 +945,23 @@ msgstr "Upravit &#8222;%s&#8220;"
 #: wp-admin/edit-attachment-rows.php:99
 #: wp-admin/edit-attachment-rows.php:214
 #: wp-admin/edit-form-comment.php:62
-#: wp-admin/edit.php:330
-#: wp-admin/edit.php:431
+#: wp-admin/edit.php:329
+#: wp-admin/edit.php:430
 #: wp-admin/includes/dashboard.php:610
 #: wp-admin/includes/meta-boxes.php:83
 #: wp-admin/includes/meta-boxes.php:129
 #: wp-admin/includes/meta-boxes.php:182
-#: wp-admin/includes/post.php:1125
+#: wp-admin/includes/post.php:1123
 #: wp-admin/includes/template.php:102
 #: wp-admin/includes/template.php:448
 #: wp-admin/includes/template.php:1352
 #: wp-admin/includes/template.php:1447
 #: wp-admin/includes/template.php:1574
-#: wp-admin/includes/template.php:1826
-#: wp-admin/includes/template.php:2121
+#: wp-admin/includes/template.php:1828
+#: wp-admin/includes/template.php:2123
 #: wp-admin/includes/widgets.php:177
 #: wp-admin/link-manager.php:214
-#: wp-admin/plugins.php:589
+#: wp-admin/plugins.php:588
 #: wp-admin/upload.php:418
 #: wp-includes/script-loader.php:287
 #: wp-includes/script-loader.php:315
@@ -970,13 +969,13 @@ msgid "Edit"
 msgstr "Upravit"
 
 #: wp-admin/edit-attachment-rows.php:102
-#: wp-admin/edit-comments.php:336
-#: wp-admin/edit-comments.php:436
-#: wp-admin/edit.php:328
-#: wp-admin/edit.php:429
+#: wp-admin/edit-comments.php:332
+#: wp-admin/edit-comments.php:432
+#: wp-admin/edit.php:327
+#: wp-admin/edit.php:428
 #: wp-admin/includes/template.php:1357
 #: wp-admin/includes/template.php:1579
-#: wp-admin/includes/template.php:2111
+#: wp-admin/includes/template.php:2113
 #: wp-admin/upload.php:304
 #: wp-admin/upload.php:481
 #: wp-includes/post-template.php:1174
@@ -991,17 +990,17 @@ msgid "Trash"
 msgstr "Odstranit"
 
 #: wp-admin/edit-attachment-rows.php:107
-#: wp-admin/edit-comments.php:341
-#: wp-admin/edit-comments.php:439
+#: wp-admin/edit-comments.php:337
+#: wp-admin/edit-comments.php:435
 #: wp-admin/edit-form-comment.php:71
-#: wp-admin/edit.php:332
-#: wp-admin/edit.php:433
+#: wp-admin/edit.php:331
+#: wp-admin/edit.php:432
 #: wp-admin/includes/dashboard.php:614
 #: wp-admin/includes/media.php:1271
 #: wp-admin/includes/meta-boxes.php:198
 #: wp-admin/includes/template.php:1361
 #: wp-admin/includes/template.php:1583
-#: wp-admin/includes/template.php:2115
+#: wp-admin/includes/template.php:2117
 #: wp-admin/upload.php:306
 #: wp-admin/upload.php:424
 #: wp-admin/upload.php:483
@@ -1054,7 +1053,7 @@ msgstr "za %s"
 #: wp-admin/includes/plugin-install.php:560
 #: wp-admin/includes/template.php:1318
 #: wp-admin/includes/template.php:1547
-#: wp-admin/includes/template.php:2021
+#: wp-admin/includes/template.php:2023
 #: wp-admin/includes/theme-install.php:325
 #: wp-admin/upload.php:449
 #, php-format
@@ -1073,7 +1072,7 @@ msgstr "Přiřadit k příspěvku / stránce"
 #: wp-admin/edit-attachment-rows.php:200
 #: wp-admin/includes/template.php:1422
 #: wp-admin/includes/template.php:1612
-#: wp-admin/includes/template.php:2192
+#: wp-admin/includes/template.php:2194
 #, php-format
 msgid "%s pending"
 msgstr "čekající na schválení: %s"
@@ -1082,7 +1081,7 @@ msgstr "čekající na schválení: %s"
 #: wp-admin/edit-attachment-rows.php:203
 #: wp-admin/includes/template.php:1425
 #: wp-admin/includes/template.php:1615
-#: wp-admin/includes/template.php:2195
+#: wp-admin/includes/template.php:2197
 msgctxt "comment count"
 msgid "0"
 msgstr "0"
@@ -1091,7 +1090,7 @@ msgstr "0"
 #: wp-admin/edit-attachment-rows.php:203
 #: wp-admin/includes/template.php:1425
 #: wp-admin/includes/template.php:1615
-#: wp-admin/includes/template.php:2195
+#: wp-admin/includes/template.php:2197
 msgctxt "comment count"
 msgid "1"
 msgstr "1"
@@ -1100,7 +1099,7 @@ msgstr "1"
 #: wp-admin/edit-attachment-rows.php:203
 #: wp-admin/includes/template.php:1425
 #: wp-admin/includes/template.php:1615
-#: wp-admin/includes/template.php:2195
+#: wp-admin/includes/template.php:2197
 msgctxt "comment count"
 msgid "%"
 msgstr "%"
@@ -1119,13 +1118,13 @@ msgid "Comments on &#8220;%s&#8221;"
 msgstr "Komentáře k příspěvku &#8222;%s&#8220;"
 
 #: wp-admin/edit-comments.php:106
-#: wp-admin/edit-comments.php:355
+#: wp-admin/edit-comments.php:351
 #: wp-admin/edit-form-advanced.php:146
 #: wp-admin/includes/file.php:15
 #: wp-admin/includes/template.php:1058
-#: wp-admin/includes/template.php:3243
-#: wp-admin/includes/template.php:3372
-#: wp-content/plugins/akismet/akismet.php:817
+#: wp-admin/includes/template.php:3247
+#: wp-admin/includes/template.php:3376
+#: wp-content/plugins/akismet/akismet.php:807
 #: wp-includes/theme-compat/comments-popup.php:33
 msgid "Comments"
 msgstr "Komentáře"
@@ -1164,8 +1163,8 @@ msgstr "<a href=\"http://codex.wordpress.org/Keyboard_Shortcuts\" target=\"_blan
 
 #: wp-admin/edit-comments.php:137
 #: wp-admin/edit-link-categories.php:74
-#: wp-admin/edit-tags.php:225
-#: wp-admin/edit.php:203
+#: wp-admin/edit-tags.php:219
+#: wp-admin/edit.php:202
 #: wp-admin/link-manager.php:88
 #: wp-admin/upload.php:183
 #: wp-admin/users.php:376
@@ -1191,11 +1190,11 @@ msgstr[2] "%s komentářů bylo označeno jako spam."
 
 #: wp-admin/edit-comments.php:171
 #: wp-admin/edit-comments.php:179
-#: wp-admin/edit.php:235
+#: wp-admin/edit.php:234
 #: wp-admin/includes/image-edit.php:56
 #: wp-admin/includes/media.php:1280
-#: wp-admin/includes/template.php:2304
-#: wp-admin/includes/template.php:2307
+#: wp-admin/includes/template.php:2308
+#: wp-admin/includes/template.php:2311
 #: wp-admin/upload.php:206
 #: wp-admin/upload.php:218
 #: wp-includes/js/tinymce/langs/wp-langs.php:213
@@ -1242,7 +1241,7 @@ msgstr "Tento komentář už byl schválen."
 #: wp-admin/edit-comments.php:191
 #: wp-admin/edit-comments.php:197
 #: wp-admin/includes/dashboard.php:610
-#: wp-admin/includes/template.php:2121
+#: wp-admin/includes/template.php:2123
 #: wp-includes/link-template.php:916
 msgid "Edit comment"
 msgstr "Upravit komentář"
@@ -1298,13 +1297,13 @@ msgstr[0] "Koš <span class=\"count\">(<span class=\"trash-count\">%s</span>)</s
 msgstr[1] "Koš <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
 msgstr[2] "Koš <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
 
-#: wp-admin/edit-comments.php:260
-#: wp-admin/edit-comments.php:262
+#: wp-admin/edit-comments.php:256
+#: wp-admin/edit-comments.php:258
 msgid "Search Comments"
 msgstr "Hledat komentáře"
 
-#: wp-admin/edit-comments.php:311
-#: wp-admin/edit.php:391
+#: wp-admin/edit-comments.php:307
+#: wp-admin/edit.php:390
 #: wp-admin/includes/user.php:754
 #: wp-admin/plugins.php:491
 #: wp-admin/themes.php:137
@@ -1313,17 +1312,17 @@ msgstr "Hledat komentáře"
 msgid "Displaying %s&#8211;%s of %s"
 msgstr "Zobrazení %s. &#8211; %s. z celkem %s"
 
-#: wp-admin/edit-comments.php:325
-#: wp-admin/edit-comments.php:425
+#: wp-admin/edit-comments.php:321
+#: wp-admin/edit-comments.php:421
 #: wp-admin/edit-link-categories.php:120
 #: wp-admin/edit-link-categories.php:174
-#: wp-admin/edit-tags.php:289
-#: wp-admin/edit-tags.php:326
-#: wp-admin/edit.php:326
-#: wp-admin/edit.php:427
+#: wp-admin/edit-tags.php:283
+#: wp-admin/edit-tags.php:320
+#: wp-admin/edit.php:325
+#: wp-admin/edit.php:426
 #: wp-admin/link-manager.php:125
 #: wp-admin/link-manager.php:272
-#: wp-admin/plugins.php:654
+#: wp-admin/plugins.php:653
 #: wp-admin/upload.php:302
 #: wp-admin/upload.php:479
 #: wp-admin/users.php:432
@@ -1331,40 +1330,40 @@ msgstr "Zobrazení %s. &#8211; %s. z celkem %s"
 msgid "Bulk Actions"
 msgstr "Hromadné úpravy"
 
-#: wp-admin/edit-comments.php:327
-#: wp-admin/edit-comments.php:427
+#: wp-admin/edit-comments.php:323
+#: wp-admin/edit-comments.php:423
 #: wp-admin/includes/dashboard.php:609
-#: wp-admin/includes/template.php:2098
-#: wp-admin/includes/template.php:2103
+#: wp-admin/includes/template.php:2100
+#: wp-admin/includes/template.php:2105
 msgid "Unapprove"
 msgstr "Odmítnout"
 
-#: wp-admin/edit-comments.php:330
-#: wp-admin/edit-comments.php:430
+#: wp-admin/edit-comments.php:326
+#: wp-admin/edit-comments.php:426
 #: wp-admin/includes/dashboard.php:608
-#: wp-admin/includes/template.php:2100
 #: wp-admin/includes/template.php:2102
+#: wp-admin/includes/template.php:2104
 msgid "Approve"
 msgstr "Schválit"
 
-#: wp-admin/edit-comments.php:333
-#: wp-admin/edit-comments.php:433
+#: wp-admin/edit-comments.php:329
+#: wp-admin/edit-comments.php:429
 msgctxt "comment"
 msgid "Mark as Spam"
 msgstr "Označit jako spam"
 
-#: wp-admin/edit-comments.php:338
-#: wp-admin/edit-comments.php:441
-#: wp-admin/includes/template.php:2109
+#: wp-admin/edit-comments.php:334
+#: wp-admin/edit-comments.php:437
+#: wp-admin/includes/template.php:2111
 msgctxt "comment"
 msgid "Not Spam"
 msgstr "Není spam"
 
-#: wp-admin/edit-comments.php:343
-#: wp-admin/edit-comments.php:443
+#: wp-admin/edit-comments.php:339
+#: wp-admin/edit-comments.php:439
 #: wp-admin/edit-form-comment.php:71
-#: wp-admin/edit.php:334
-#: wp-admin/edit.php:435
+#: wp-admin/edit.php:333
+#: wp-admin/edit.php:434
 #: wp-admin/includes/media.php:1279
 #: wp-admin/includes/meta-boxes.php:200
 #: wp-admin/upload.php:308
@@ -1372,18 +1371,18 @@ msgstr "Není spam"
 msgid "Move to Trash"
 msgstr "Odstranit"
 
-#: wp-admin/edit-comments.php:346
-#: wp-admin/edit-comments.php:446
+#: wp-admin/edit-comments.php:342
+#: wp-admin/edit-comments.php:442
 #: wp-admin/edit-link-categories.php:123
 #: wp-admin/edit-link-categories.php:177
-#: wp-admin/edit-tags.php:292
-#: wp-admin/edit-tags.php:329
-#: wp-admin/edit.php:337
-#: wp-admin/edit.php:438
-#: wp-admin/includes/template.php:3791
+#: wp-admin/edit-tags.php:286
+#: wp-admin/edit-tags.php:323
+#: wp-admin/edit.php:336
+#: wp-admin/edit.php:437
+#: wp-admin/includes/template.php:3795
 #: wp-admin/link-manager.php:128
 #: wp-admin/link-manager.php:275
-#: wp-admin/plugins.php:671
+#: wp-admin/plugins.php:670
 #: wp-admin/upload.php:313
 #: wp-admin/upload.php:490
 #: wp-admin/users.php:439
@@ -1392,41 +1391,41 @@ msgstr "Odstranit"
 msgid "Apply"
 msgstr "Použít"
 
-#: wp-admin/edit-comments.php:352
+#: wp-admin/edit-comments.php:348
 msgid "Show all comment types"
 msgstr "Zobrazit všechny typy komentářů"
 
-#: wp-admin/edit-comments.php:356
+#: wp-admin/edit-comments.php:352
 #: wp-admin/includes/template.php:1067
 msgid "Pings"
 msgstr "Pingbacky"
 
-#: wp-admin/edit-comments.php:366
-#: wp-admin/edit.php:380
+#: wp-admin/edit-comments.php:362
+#: wp-admin/edit.php:379
 #: wp-admin/link-manager.php:149
 #: wp-admin/upload.php:347
 msgid "Filter"
 msgstr "Filtrovat"
 
-#: wp-admin/edit-comments.php:375
-#: wp-admin/edit-comments.php:449
+#: wp-admin/edit-comments.php:371
+#: wp-admin/edit-comments.php:445
 msgid "Empty Spam"
 msgstr "Hromadně smazat spam"
 
-#: wp-admin/edit-comments.php:377
-#: wp-admin/edit-comments.php:451
-#: wp-admin/edit.php:384
-#: wp-admin/edit.php:440
+#: wp-admin/edit-comments.php:373
+#: wp-admin/edit-comments.php:447
+#: wp-admin/edit.php:383
+#: wp-admin/edit.php:439
 #: wp-admin/upload.php:358
 #: wp-admin/upload.php:493
 msgid "Empty Trash"
 msgstr "Vysypat koš"
 
-#: wp-admin/edit-comments.php:475
+#: wp-admin/edit-comments.php:471
 msgid "No comments awaiting moderation&hellip; yet."
 msgstr "Žádné komentáře zatím nečekají na schválení."
 
-#: wp-admin/edit-comments.php:480
+#: wp-admin/edit-comments.php:476
 msgid "No comments found."
 msgstr "Nebyly nalezeny žádné komentáře."
 
@@ -1557,7 +1556,7 @@ msgstr "Náhledový obrázek"
 
 #: wp-admin/edit-form-advanced.php:133
 #: wp-admin/includes/meta-boxes.php:359
-#: wp-includes/post.php:4356
+#: wp-includes/post.php:4350
 msgid "Excerpt"
 msgstr "Stručný výpis příspěvku"
 
@@ -1678,7 +1677,7 @@ msgstr "Úprava komentáře # %s"
 
 #: wp-admin/edit-form-comment.php:42
 msgid "View Comment"
-msgstr "Zobrazit komentář"
+msgstr "Zobrazit tento komentář"
 
 #. translators: comment type radio button
 #. translators: comment status
@@ -1708,7 +1707,7 @@ msgid "Submitted on: <b>%1$s</b>"
 msgstr "Odesláno: <b>%1$s</b>"
 
 #: wp-admin/edit-form-comment.php:74
-#: wp-admin/includes/template.php:2270
+#: wp-admin/includes/template.php:2274
 msgid "Update Comment"
 msgstr "Aktualizovat komentář"
 
@@ -1788,21 +1787,21 @@ msgstr "Hledat rubriky"
 
 #: wp-admin/edit-link-categories.php:121
 #: wp-admin/edit-link-categories.php:175
-#: wp-admin/edit-tags.php:290
-#: wp-admin/edit-tags.php:327
+#: wp-admin/edit-tags.php:284
+#: wp-admin/edit-tags.php:321
 #: wp-admin/includes/media.php:1273
 #: wp-admin/includes/meta-boxes.php:606
 #: wp-admin/includes/template.php:105
 #: wp-admin/includes/template.php:452
 #: wp-admin/includes/template.php:1453
-#: wp-admin/includes/template.php:1832
-#: wp-admin/includes/template.php:2399
+#: wp-admin/includes/template.php:1834
+#: wp-admin/includes/template.php:2403
 #: wp-admin/includes/widgets.php:201
 #: wp-admin/link-manager.php:126
 #: wp-admin/link-manager.php:215
 #: wp-admin/link-manager.php:273
-#: wp-admin/plugins.php:585
-#: wp-admin/plugins.php:668
+#: wp-admin/plugins.php:584
+#: wp-admin/plugins.php:667
 #: wp-admin/themes.php:197
 #: wp-admin/users.php:434
 #: wp-admin/users.php:507
@@ -1833,7 +1832,7 @@ msgstr "Název v URL pro rubriku odkazů"
 #: wp-admin/edit-link-categories.php:214
 #: wp-admin/edit-link-category-form.php:79
 #: wp-admin/edit-tag-form.php:44
-#: wp-admin/edit-tags.php:403
+#: wp-admin/edit-tags.php:396
 msgid "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
 msgstr "&#8222;Název v URL&#8220; se používá pro vytvoření uživatelsky přívětivé URL adresy. Obvykle smí obsahovat pouze malá písmena bez diakritiky, číslice a pomlčky."
 
@@ -1844,7 +1843,7 @@ msgstr "Popis (volitelný)"
 
 #: wp-admin/edit-link-categories.php:220
 #: wp-admin/edit-link-category-form.php:85
-#: wp-admin/edit-tags.php:418
+#: wp-admin/edit-tags.php:411
 msgid "The description is not prominent by default; however, some themes may show it."
 msgstr "Popis sice není často vyplňován a používán, ale některé šablony ho mohou zobrazovat."
 
@@ -1957,13 +1956,13 @@ msgstr "Odkaz byl vytvořen"
 #: wp-admin/includes/template.php:730
 #: wp-admin/includes/template.php:740
 #: wp-admin/includes/template.php:751
-#: wp-admin/includes/template.php:2249
-#: wp-admin/includes/template.php:2326
-#: wp-admin/includes/template.php:2341
-#: wp-admin/includes/template.php:2430
+#: wp-admin/includes/template.php:2253
+#: wp-admin/includes/template.php:2330
+#: wp-admin/includes/template.php:2345
+#: wp-admin/includes/template.php:2434
 #: wp-admin/themes.php:258
 #: wp-admin/user-edit.php:221
-#: wp-includes/comment-template.php:1524
+#: wp-includes/comment-template.php:1497
 #: wp-includes/js/tinymce/langs/wp-langs.php:312
 #: wp-includes/theme-compat/comments-popup.php:75
 #: wp-includes/theme-compat/comments.php:78
@@ -2008,47 +2007,47 @@ msgid "You did not select an item for editing."
 msgstr "Nebyla vybrána žádná položka pro úpravy."
 
 #: wp-admin/edit-tag-form.php:36
-#: wp-admin/edit-tags.php:395
+#: wp-admin/edit-tags.php:388
 msgctxt "Taxonomy Name"
 msgid "Name"
 msgstr "Název"
 
 #: wp-admin/edit-tag-form.php:38
-#: wp-admin/edit-tags.php:397
+#: wp-admin/edit-tags.php:390
 msgid "The name is how it appears on your site."
 msgstr "Název se bude v této podobě zobrazovat na webu."
 
 #: wp-admin/edit-tag-form.php:42
-#: wp-admin/edit-tags.php:401
+#: wp-admin/edit-tags.php:394
 msgctxt "Taxonomy Slug"
 msgid "Slug"
 msgstr "Název v URL"
 
 #: wp-admin/edit-tag-form.php:49
-#: wp-admin/edit-tags.php:408
+#: wp-admin/edit-tags.php:401
 msgctxt "Taxonomy Parent"
 msgid "Parent"
 msgstr "Hierarchie"
 
 #: wp-admin/edit-tag-form.php:51
-#: wp-admin/edit-tags.php:409
+#: wp-admin/edit-tags.php:402
 #: wp-admin/includes/media.php:818
 #: wp-admin/includes/media.php:912
 #: wp-admin/includes/media.php:2058
 #: wp-admin/includes/media.php:2074
-#: wp-admin/includes/template.php:1852
+#: wp-admin/includes/template.php:1854
 #: wp-includes/deprecated.php:707
 #: wp-includes/js/tinymce/langs/wp-langs.php:424
 msgid "None"
 msgstr "Žádné"
 
 #: wp-admin/edit-tag-form.php:53
-#: wp-admin/edit-tags.php:411
+#: wp-admin/edit-tags.php:404
 msgid "Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have children categories for Bebop and Big Band. Totally optional."
 msgstr "Rubriky mohou být narozdíl od štítků hierarchicky strukturované. Můžete mít tedy například (hlavní) rubriku Filmy a v ní podřazené rubriky Akční, Komedie a Western, do kterých pak už jen přiřazujete konkrétní příspěvky. Můžete si ale vše uspořádat zcela podle sebe."
 
 #: wp-admin/edit-tag-form.php:59
-#: wp-admin/edit-tags.php:416
+#: wp-admin/edit-tags.php:409
 msgctxt "Taxonomy Description"
 msgid "Description"
 msgstr "Popis"
@@ -2063,7 +2062,7 @@ msgstr "Popis sice není často vyplňován a používán, ale některé šablon
 #: wp-admin/includes/template.php:1154
 #: wp-admin/includes/template.php:1156
 #: wp-admin/includes/template.php:1159
-#: wp-admin/includes/template.php:2400
+#: wp-admin/includes/template.php:2404
 #: wp-admin/menu.php:37
 #: wp-includes/js/tinymce/langs/wp-langs.php:29
 msgid "Update"
@@ -2075,91 +2074,86 @@ msgstr "Aktualizovat"
 msgid "Invalid taxonomy"
 msgstr "Špatná taxonomie"
 
-#: wp-admin/edit-tags.php:128
-#: wp-admin/post.php:156
-msgid "You are not allowed to edit this item."
-msgstr "Nemáte dostatečné oprávnění pro úpravy této položky."
-
-#: wp-admin/edit-tags.php:175
+#: wp-admin/edit-tags.php:169
 #, php-format
 msgid "You can use categories to define sections of your site and group related posts. The default category is &#8220;Uncategorized&#8221; until you change it in your <a href=\"%s\">writing settings</a>."
 msgstr "Rubriky můžete použít pro vymezení zájmových oblastí na vašem webu a sdružovat tak s jejich pomocí příspěvky s podobnou tematikou. Výchozí rubrikou pro příspěvky je rubrika s názvem &#8222;Nezařazené&#8220;, která je automaticky vytvořena během instalace WordPressu. Výchozí rubriku můžete změnit na stránce s <a href=\"%s\">nastavením pro publikování</a>."
 
-#: wp-admin/edit-tags.php:177
+#: wp-admin/edit-tags.php:171
 msgid "You can assign keywords to your posts using Post Tags. Unlike categories, tags have no hierarchy, meaning there&#8217;s no relationship from one tag to another."
 msgstr "K příspěvkům můžete přiřazovat pomocí štítků jasně určená klíčová slova. Narozdíl od rubrik nejsou štítky hierarachicky strukturované, což znamená že mezi jednotlivými štítky není žádný vzájemný vztah (např. nadřazenost)."
 
-#: wp-admin/edit-tags.php:179
+#: wp-admin/edit-tags.php:173
 msgid "What&#8217;s the difference between categories and tags? Normally, tags are ad-hoc keywords that identify important information in your post (names, subjects, etc) that may or may not recur in other posts, while categories are pre-determined sections. If you think of your site like a book, the categories are like the Table of Contents and the tags are like the terms in the index."
 msgstr "Jaký je rozdíl mezi rubrikou a štítkem? Obecně se štítky používají pro nahodile definovaná klíčová slova, která blíže identifikují důležité informace ve vašem příspěvku (např. jména, témata) a jednou se třeba mohou (ale také nemusí) objevit i v dalších příspěvcích. Naopak rubriky jsou předem jasně definované sekce. Pokud si představíte, že je váš web knihou, tak rubriky vlastně odpovídají jejímu obsahu (díly, kapitoly), zatímco štítky mohou představovat slovníček pojmů."
 
-#: wp-admin/edit-tags.php:182
+#: wp-admin/edit-tags.php:176
 msgid "When adding a new category on this screen, you&#8217;ll fill in the following fields:"
 msgstr "Pro vytvoření nové rubriky na této stránce musíte nejdříve vyplnit následující informace:"
 
-#: wp-admin/edit-tags.php:184
+#: wp-admin/edit-tags.php:178
 msgid "When adding a new tag on this screen, you&#8217;ll fill in the following fields:"
 msgstr "Pro vytvoření nového štítku na této stránce musíte nejdříve vyplnit následující informace:"
 
-#: wp-admin/edit-tags.php:187
+#: wp-admin/edit-tags.php:181
 msgid "<strong>Name</strong> - The name is how it appears on your site."
 msgstr "<strong>Název</strong> -  Název se bude v této podobě zobrazovat na webu."
 
-#: wp-admin/edit-tags.php:189
+#: wp-admin/edit-tags.php:183
 msgid "<strong>Slug</strong> - The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
 msgstr "<strong>Název v URL</strong> - &#8222;Název v URL&#8220; se používá pro vytvoření uživatelsky přívětivé URL adresy. Obvykle smí obsahovat pouze malá písmena bez diakritiky, číslice a pomlčky."
 
-#: wp-admin/edit-tags.php:192
+#: wp-admin/edit-tags.php:186
 msgid "<strong>Parent</strong> - Categories, unlike tags, can have a hierarchy. You might have a Jazz category, and under that have children categories for Bebop and Big Band. Totally optional. To create a subcategory, just choose another category from the Parent dropdown."
 msgstr "<strong>Hierarchie</strong> - Rubriky mohou být narozdíl od štítků hierarchicky strukturované. Můžete mít tedy například (hlavní) rubriku Filmy a v ní podřazené rubriky Akční, Komedie a Western, do kterých pak už jen přiřazujete konkrétní příspěvky. Můžete si ale vše uspořádat zcela podle sebe. Abyste vytvořili podrubriku, tak vyberte z nabídky Hierarchie nějakou rubriku, která jí bude nadřazená."
 
-#: wp-admin/edit-tags.php:194
+#: wp-admin/edit-tags.php:188
 msgid "<strong>Description</strong> - The description is not prominent by default; however, some themes may display it."
 msgstr "<strong>Popis</strong> - Popis sice není často vyplňován a používán, ale některé šablony ho mohou zobrazovat."
 
-#: wp-admin/edit-tags.php:196
+#: wp-admin/edit-tags.php:190
 msgid "You can change the display of this screen using the Screen Options tab to set how many items are displayed per screen and to display/hide columns in the table."
 msgstr "Zobrazení této stránky změníte pomocí záložky Nastavení zobrazených informací, kde si můžete libovolně zvolit, které sloupce s informacemi chcete zobrazit/skrýt a kolik položek bude na stránce maximálně zobrazeno."
 
-#: wp-admin/edit-tags.php:200
+#: wp-admin/edit-tags.php:194
 msgid "<a href=\"http://codex.wordpress.org/Manage_Categories_SubPanel\" target=\"_blank\">Categories Documentation</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Manage_Categories_SubPanel\" target=\"_blank\">Manuál pro práci s rubrikami</a> (anglicky)"
 
-#: wp-admin/edit-tags.php:202
+#: wp-admin/edit-tags.php:196
 msgid "<a href=\"http://codex.wordpress.org/Post_Tags_SubPanel\" target=\"_blank\">Tags Documentation</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Post_Tags_SubPanel\" target=\"_blank\">Manuál pro práci se štítky</a> (anglicky)"
 
-#: wp-admin/edit-tags.php:212
+#: wp-admin/edit-tags.php:206
 msgid "Item added."
 msgstr "Položka byla vytvořena."
 
-#: wp-admin/edit-tags.php:213
+#: wp-admin/edit-tags.php:207
 msgid "Item deleted."
 msgstr "Položka byla smazána."
 
-#: wp-admin/edit-tags.php:214
+#: wp-admin/edit-tags.php:208
 msgid "Item updated."
 msgstr "Položka byla aktualizována."
 
-#: wp-admin/edit-tags.php:215
+#: wp-admin/edit-tags.php:209
 msgid "Item not added."
 msgstr "Položka nebyla vytvořena."
 
-#: wp-admin/edit-tags.php:217
+#: wp-admin/edit-tags.php:211
 msgid "Items deleted."
 msgstr "Položky byly smazány."
 
-#: wp-admin/edit-tags.php:340
+#: wp-admin/edit-tags.php:334
 #, php-format
 msgid "<strong>Note:</strong><br />Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the category <strong>%s</strong>."
 msgstr "<strong>Poznámka:</strong><br />Smazáním rubriky nebudou smazány příspěvky, které jsou v ní obsažené. Všechny tyto příspěvky budou automaticky přesunuty do výchozí rubriky <strong>%s</strong>."
 
-#: wp-admin/edit-tags.php:342
+#: wp-admin/edit-tags.php:336
 #, php-format
 msgid "Categories can be selectively converted to tags using the <a href=\"%s\">category to tag converter</a>."
 msgstr "Vybrané rubriky mohou být převedeny na štítky pomocí <a href=\"%s\">konvertoru rubrik na štítky</a>."
 
-#: wp-admin/edit-tags.php:347
+#: wp-admin/edit-tags.php:341
 #, php-format
 msgid "Tags can be selectively converted to categories using the <a href=\"%s\">tag to category converter</a>"
 msgstr "Vybrané štítky mohou být převedeny na rubriky pomocí <a href=\"%s\">konvertoru štítků na rubriky</a>."
@@ -2169,117 +2163,117 @@ msgstr "Vybrané štítky mohou být převedeny na rubriky pomocí <a href=\"%s\
 msgid "Invalid post type"
 msgstr "Nesprávný typ obsahu"
 
-#: wp-admin/edit.php:78
+#: wp-admin/edit.php:77
 #: wp-admin/post.php:221
 msgid "You are not allowed to move this item to the Trash."
 msgstr "Nemáte dostatečné oprávnění pro přesunutí této položky do koše."
 
-#: wp-admin/edit.php:81
+#: wp-admin/edit.php:80
 #: wp-admin/post.php:224
 msgid "Error in moving to Trash."
 msgstr "Během přesunování do koše se objevila chyba."
 
-#: wp-admin/edit.php:91
+#: wp-admin/edit.php:90
 msgid "You are not allowed to restore this item from the Trash."
 msgstr "Nemáte dostatečné oprávnění pro obnovení této položky z koše."
 
-#: wp-admin/edit.php:94
+#: wp-admin/edit.php:93
 #: wp-admin/post.php:237
 msgid "Error in restoring from Trash."
 msgstr "Během obnovování z koše se objevila chyba."
 
-#: wp-admin/edit.php:106
+#: wp-admin/edit.php:105
 #: wp-admin/post.php:247
 msgid "You are not allowed to delete this item."
 msgstr "Nemáte dostatečné oprávnění pro smazání této položky."
 
-#: wp-admin/edit.php:110
-#: wp-admin/edit.php:113
+#: wp-admin/edit.php:109
+#: wp-admin/edit.php:112
 #: wp-admin/upload.php:111
 msgid "Error in deleting..."
 msgstr "Během mazání se objevila chyba..."
 
-#: wp-admin/edit.php:162
+#: wp-admin/edit.php:161
 msgid "You can customize the display of this screen in a number of ways:"
 msgstr "Zobrazení informací na této stránce si můžete přizpůsobit několika způsoby:"
 
-#: wp-admin/edit.php:164
+#: wp-admin/edit.php:163
 msgid "You can hide/display columns based on your needs and decide how many posts to list per screen using the Screen Options tab."
 msgstr "Pomocí záložky &#8222;Nastavení zobrazených informací&#8220; si můžete podle vašich potřeb zobrazit/skrýt vybrané sloupce a také nastavit počet zobrazených příspěvků na stránce."
 
-#: wp-admin/edit.php:165
+#: wp-admin/edit.php:164
 msgid "You can filter the list of posts by post status using the text links in the upper left to show All, Published, Draft, or Trashed posts. The default view is to show all posts."
 msgstr "Výpis příspěvků na stránce můžete třídit podle jejich aktuálního stavu pomocí textových odkazů vlevo nahoře (Celkem, Publikované, Plánované, Čekající na schválení, Koncepty nebo Koš). Při vstupu na stránku se vám ve výchozím nastavení zobrazí všechny příspěvky."
 
-#: wp-admin/edit.php:166
+#: wp-admin/edit.php:165
 msgid "You can view posts in a simple title list or with an excerpt. Choose the view you prefer by clicking on the icons at the top of the list on the right."
 msgstr "Příspěvky ve výpisu mohou být zobrazeny přehledně pouze s názvem nebo detailně i s několika úvodními větami. Způsob zobrazení, se kterým se vám lépe pracuje, můžete jednoduše změnit kliknutím na ikonku v pravém horním rohu výpisu."
 
-#: wp-admin/edit.php:167
+#: wp-admin/edit.php:166
 msgid "You can refine the list to show only posts in a specific category or from a specific month by using the dropdown menus above the posts list. Click the Filter button after making your selection. You also can refine the list by clicking on the post author, category or tag in the posts list."
 msgstr "Dále můžete zobrazovat pouze příspěvky z určité rubriky nebo konkrétního měsíce pomocí rozevíracích menu nad výpisem příspěvků. Nastavte si požadované hodnoty a pak už stačí jen kliknout na tlačítko &#8222;Filtrovat&#8220;. Kromě toho lze výpis příspěvků upřesnit také kliknutím na autora příspěvku, rubriku nebo štítek přímo ve výpisu příspěvků."
 
-#: wp-admin/edit.php:169
+#: wp-admin/edit.php:168
 msgid "Hovering over a row in the posts list will display action links that allow you to manage your post. You can perform the following actions:"
 msgstr "Když přejedete kurzorem myši přes nějaký řádek ve výpisu příspěvků, zobrazí se vám odkazy s různými možnostmi pro správu tohoto příspěvku. Okamžité tak můžete s příspěvkem provést následující úkony:"
 
-#: wp-admin/edit.php:171
+#: wp-admin/edit.php:170
 msgid "Edit takes you to the editing screen for that post. You can also reach that screen by clicking on the post title."
 msgstr "&#8222;Upravit&#8220; - budete přesměrováni na stránku pro detailní úpravy tohoto příspěvku. To samé se stane, když kliknete přímo na název příspěvku."
 
-#: wp-admin/edit.php:172
+#: wp-admin/edit.php:171
 msgid "Quick Edit provides inline access to the metadata of your post, allowing you to update post details without leaving this screen."
 msgstr "&#8222;Rychlé úpravy&#8220; - umožňují okamžitě změnit některé informace o příspěvku, aniž byste museli opustit tuto stránku s výpisem příspěvků."
 
-#: wp-admin/edit.php:173
+#: wp-admin/edit.php:172
 msgid "Trash removes your post from this list and places it in the trash, from which you can permanently delete it."
 msgstr "&#8222;Odstranit&#8220; - slouží pro přesunutí příspěvku do Koše, kde jsou příspěvky ještě nějakou dobu uchovávány (obvykle 30 dní) než dojde k jejich automatickému a nenávratnému smazání. Koš můžete také kdykoliv ručně vysypat."
 
-#: wp-admin/edit.php:174
+#: wp-admin/edit.php:173
 msgid "Preview will show you what your draft post will look like if you publish it. View will take you to your live site to view the post. Which link is available depends on your post&#8217;s status."
 msgstr "Pomocí &#8222;Náhledu&#8220; uvidíte, jak by vypadal váš aktuální koncept příspěvku na webu, pokud byste ho právě publikovali. Pokud už však příspěvek publikován byl, tak se vám objeví jiný odkaz s názvem &#8222;Zobrazit&#8220;, pomocí kterého se dostanete přímo na konkrétní příspěvek na webu."
 
-#: wp-admin/edit.php:176
+#: wp-admin/edit.php:175
 msgid "You can also edit multiple posts at once. Select the posts you want to edit using the checkboxes, select Edit from the Bulk Actions menu and click Apply. You will be able to change the metadata (categories, author, etc.) for all selected posts at once. To remove a post from the grouping, just click the x next to its name in the Bulk Edit area that appears."
 msgstr "Je možné také upravovat několik příspěvků najednou. Nejdříve zaškrtnutím označte konkrétní příspěvky, které chcete upravovat, potom vyberte v rozevíracím menu Hromadné úpravy možnost Upravit a nakonec klikněte na tlačítko Použít (stejný postup platí i pro odstranění několika příspěvků najednou). Poté už můžete hromadně měnit některé informace u všech vybraných příspěvků (např. rubriky, autora, atd.). Pokud budete chtít nějaký příspěvek z označené skupiny odebrat, stačí kliknout na malé tlačítko x vedle jeho názvu v zobrazené oblasti pro hromadné úpravy."
 
-#: wp-admin/edit.php:178
+#: wp-admin/edit.php:177
 msgid "<a href=\"http://codex.wordpress.org/Posts_Edit_SubPanel\" target=\"_blank\">Edit Posts Documentation</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Posts_Edit_SubPanel\" target=\"_blank\">Manuál pro práci s příspěvky</a> (anglicky)"
 
-#: wp-admin/edit.php:183
+#: wp-admin/edit.php:182
 msgid "Pages are similar to to Posts in that they have a title, body text, and associated metadata, but they are different in that they are not part of the chronological blog stream, kind of like permanent posts. Pages are not categorized or tagged, but can have a hierarchy. You can nest Pages under other Pages by making one the &#8220;Parent&#8221; of the other, creating a group of Pages."
 msgstr "Stránky jsou podobné příspěvkům v tom, že mají svůj název, pole s editorem pro psaní konkrétního textu a obsahují i další související informace, ale odlišují se zejména tím, že nejsou součástí hlavního chronologického sledu publikovaných příspěvků, ale spíše stálými (statickými) texty na webu. Stránky nejsou zařazovány do rubrik a nepoužívají se pro ně ani štítky, ale mohou mít alespoň vlastní hierarchii. Můžete tak označovat některé stránky jako podřazené vůči jiné stránce, a to jednoduchým výběrem z menu &#8222;Nadřazená stránka&#8220; (objeví se po kliknutí na odkaz Rychlé úpravy u konkrétní stránky), čímž vlastně vytvoříte určitou skupinu souvisejících stránek."
 
-#: wp-admin/edit.php:184
+#: wp-admin/edit.php:183
 msgid "Managing Pages is very similar to managing Posts, and the screens can be customized in the same way."
 msgstr "Práce se stránkami je téměř stejná jako správa příspěvků a zobrazení tohoto přehledného výpisu stránek si tak můžete přizpůsobit stejným způsobem jako u příspěvků."
 
-#: wp-admin/edit.php:185
+#: wp-admin/edit.php:184
 msgid "You can also perform the same types of actions, including narrowing the list by using the filters, acting on a Page using the action links that appear when you hover over a row, or using the Bulk Actions menu to edit the metadata for multiple Pages at once."
 msgstr "Se stránkami můžete také provádět některé další činnosti, např. filtrovat zobrazené stránky s použitím horního rozevíracího menu či kliknutím na autora stránky nebo na některý z textových odkazů nad výpisem. Můžete i jednoduše spravovat stránky pomocí textových odkazů, které se objeví po přejetí kurzorem myši nad konkrétním řádkem ve výpisu stránek, nebo využít menu pro hromadné úpravy, s jehož pomocí snadno upravíte některé informace u všech vybraných (zaškrtnutých) stránek najednou."
 
-#: wp-admin/edit.php:187
+#: wp-admin/edit.php:186
 msgid "<a href=\"http://codex.wordpress.org/Pages_Edit_SubPanel\" target=\"_blank\">Page Management Documentation</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Pages_Edit_SubPanel\" target=\"_blank\">Manuál pro práci se stránkami</a> (anglicky)"
 
-#: wp-admin/edit.php:208
+#: wp-admin/edit.php:207
 msgid "This has been saved."
 msgstr "Uloženo."
 
-#: wp-admin/edit.php:208
-#: wp-content/plugins/akismet/akismet.php:897
+#: wp-admin/edit.php:207
+#: wp-content/plugins/akismet/akismet.php:887
 #: wp-includes/post.php:953
 msgid "View Post"
 msgstr "Zobrazit příspěvek"
 
-#: wp-admin/edit.php:208
+#: wp-admin/edit.php:207
 #: wp-admin/press-this.php:558
 #: wp-includes/post.php:951
 msgid "Edit Post"
 msgstr "Upravit příspěvek"
 
-#: wp-admin/edit.php:215
+#: wp-admin/edit.php:214
 #, php-format
 msgid "%s post updated."
 msgid_plural "%s posts updated."
@@ -2287,7 +2281,7 @@ msgstr[0] "%s příspěvek byl aktualizován."
 msgstr[1] "%s příspěvky byly aktualizovány."
 msgstr[2] "%s příspěvků bylo aktualizováno."
 
-#: wp-admin/edit.php:223
+#: wp-admin/edit.php:222
 #, php-format
 msgid "%s item not updated, somebody is editing it."
 msgid_plural "%s items not updated, somebody is editing them."
@@ -2295,7 +2289,7 @@ msgstr[0] "%s položka nebyla aktualizována, protože ji právě někdo upravuj
 msgstr[1] "%s položky nebyly aktualizovány, protože je právě někdo upravuje."
 msgstr[2] "%s položek nebylo aktualizováno, protože je právě někdo upravuje."
 
-#: wp-admin/edit.php:228
+#: wp-admin/edit.php:227
 #, php-format
 msgid "Item permanently deleted."
 msgid_plural "%s items permanently deleted."
@@ -2303,7 +2297,7 @@ msgstr[0] "Položka byla nenávratně smazána."
 msgstr[1] "%s položky byly nenávratně smazány."
 msgstr[2] "%s položek bylo nenávratně smazáno."
 
-#: wp-admin/edit.php:233
+#: wp-admin/edit.php:232
 #, php-format
 msgid "Item moved to the trash."
 msgid_plural "%s items moved to the trash."
@@ -2311,7 +2305,7 @@ msgstr[0] "Položka byla přesunuta do koše."
 msgstr[1] "%s položky byly přesunuty do koše."
 msgstr[2] "%s položek bylo přesunuto do koše."
 
-#: wp-admin/edit.php:240
+#: wp-admin/edit.php:239
 #, php-format
 msgid "Item restored from the Trash."
 msgid_plural "%s items restored from the Trash."
@@ -2319,7 +2313,7 @@ msgstr[0] "Položka byla obnovena z koše."
 msgstr[1] "%s položky byly obnoveny z koše."
 msgstr[2] "%s položek bylo obnoveno z koše."
 
-#: wp-admin/edit.php:262
+#: wp-admin/edit.php:261
 #, php-format
 msgctxt "posts"
 msgid "Mine <span class=\"count\">(%s)</span>"
@@ -2328,7 +2322,7 @@ msgstr[0] "Moje <span class=\"count\">(%s)</span>"
 msgstr[1] "Moje <span class=\"count\">(%s)</span>"
 msgstr[2] "Moje <span class=\"count\">(%s)</span>"
 
-#: wp-admin/edit.php:273
+#: wp-admin/edit.php:272
 #, php-format
 msgctxt "posts"
 msgid "All <span class=\"count\">(%s)</span>"
@@ -2337,21 +2331,21 @@ msgstr[0] "Celkem <span class=\"count\">(%s)</span>"
 msgstr[1] "Celkem <span class=\"count\">(%s)</span>"
 msgstr[2] "Celkem <span class=\"count\">(%s)</span>"
 
-#: wp-admin/edit.php:352
+#: wp-admin/edit.php:351
 #: wp-admin/includes/media.php:1945
 #: wp-admin/upload.php:325
 msgid "Show all dates"
 msgstr "Zobrazit všechna data"
 
-#: wp-admin/edit.php:374
+#: wp-admin/edit.php:373
 msgid "View all categories"
 msgstr "Zobrazit všechny rubriky"
 
-#: wp-admin/edit.php:406
+#: wp-admin/edit.php:405
 msgid "List View"
 msgstr "Přehledné zobrazení"
 
-#: wp-admin/edit.php:407
+#: wp-admin/edit.php:406
 msgid "Excerpt View"
 msgstr "Detailní zobrazení"
 
@@ -2533,11 +2527,6 @@ msgstr "Aktivovat importovací nástroj"
 msgid "Install importer"
 msgstr "Instalovat importovací nástroj"
 
-#: wp-admin/import.php:133
-#, php-format
-msgid "If the importer you need is not listed, <a href=\"%s\">search the plugins directory</a> to see if an importer is available."
-msgstr "Pokud není potřebný importovací nástroj v tomto seznamu uveden, můžete ho ještě zkusit nalézt přímo v <a href=\"%s\">oficiálním adresáři pluginů pro WordPress</a>."
-
 #: wp-admin/includes/bookmark.php:191
 msgid "Could not update link in the database"
 msgstr "Nepodařilo se aktualizovat odkaz v databázi"
@@ -2558,7 +2547,7 @@ msgstr "Nalezen %s"
 
 #: wp-admin/includes/class-wp-filesystem-ftpext.php:28
 msgid "The ftp PHP extension is not available"
-msgstr "Rozšíření ftp pro PHP není k dispozici"
+msgstr "FTP rozšíření pro PHP není k dispozici"
 
 #: wp-admin/includes/class-wp-filesystem-ftpext.php:44
 #: wp-admin/includes/class-wp-filesystem-ftpsockets.php:38
@@ -2821,7 +2810,7 @@ msgstr "Nová verze pluginu byla aktivována&#8230;"
 #: wp-admin/includes/class-wp-upgrader.php:1028
 #: wp-admin/includes/class-wp-upgrader.php:1269
 #: wp-admin/includes/class-wp-upgrader.php:1271
-#: wp-admin/plugins.php:579
+#: wp-admin/plugins.php:578
 msgid "Activate this plugin"
 msgstr "Aktivovat tento plugin"
 
@@ -2922,13 +2911,13 @@ msgid "Activate Plugin &amp; Run Importer"
 msgstr "Aktivovat plugin &amp; spustit importovací nástroj"
 
 #: wp-admin/includes/class-wp-upgrader.php:1274
-#: wp-admin/plugins.php:582
+#: wp-admin/plugins.php:581
 msgid "Activate this plugin for all sites in this network"
 msgstr "Aktivovat tento plugin pro celou síť webů najednou"
 
 #: wp-admin/includes/class-wp-upgrader.php:1274
-#: wp-admin/plugins.php:582
-#: wp-admin/plugins.php:659
+#: wp-admin/plugins.php:581
+#: wp-admin/plugins.php:658
 msgid "Network Activate"
 msgstr "Aktivovat v síti webů"
 
@@ -2966,8 +2955,8 @@ msgstr "Aktivovat &#8222;%s&#8220;"
 
 #: wp-admin/includes/class-wp-upgrader.php:1344
 #: wp-admin/includes/class-wp-upgrader.php:1401
-#: wp-admin/plugins.php:579
-#: wp-admin/plugins.php:656
+#: wp-admin/plugins.php:578
+#: wp-admin/plugins.php:655
 #: wp-admin/themes.php:194
 msgid "Activate"
 msgstr "Aktivovat"
@@ -3032,12 +3021,12 @@ msgid "Recent Drafts"
 msgstr "Nejnovější koncepty"
 
 #: wp-admin/includes/dashboard.php:70
-msgid "http://wordpress.org/news/"
-msgstr "http://wordpress.org/news/"
+msgid "http://wordpress.org/development/"
+msgstr "http://wordpress.org/development/"
 
 #: wp-admin/includes/dashboard.php:71
-msgid "http://wordpress.org/news/feed/"
-msgstr "http://wordpress.org/news/feed/"
+msgid "http://wordpress.org/development/feed/"
+msgstr "http://wordpress.org/development/feed/"
 
 #: wp-admin/includes/dashboard.php:72
 msgid "WordPress Blog"
@@ -3070,9 +3059,9 @@ msgstr "Zobrazit všechny"
 #: wp-admin/includes/nav-menu.php:189
 #: wp-admin/includes/template.php:65
 #: wp-admin/includes/template.php:1151
-#: wp-admin/includes/template.php:2268
-#: wp-admin/includes/template.php:2451
-#: wp-admin/includes/template.php:2538
+#: wp-admin/includes/template.php:2272
+#: wp-admin/includes/template.php:2455
+#: wp-admin/includes/template.php:2542
 #: wp-admin/includes/theme-install.php:512
 #: wp-admin/press-this.php:114
 #: wp-admin/press-this.php:144
@@ -3096,7 +3085,7 @@ msgstr "Potvrdit"
 
 #: wp-admin/includes/dashboard.php:219
 #: wp-admin/includes/dashboard.php:446
-#: wp-includes/post.php:4355
+#: wp-includes/post.php:4349
 msgid "Content"
 msgstr "Obsah"
 
@@ -3273,47 +3262,47 @@ msgid "No comments yet."
 msgstr "Zatím nemáte žádné komentáře."
 
 #: wp-admin/includes/dashboard.php:608
-#: wp-admin/includes/template.php:2100
 #: wp-admin/includes/template.php:2102
+#: wp-admin/includes/template.php:2104
 msgid "Approve this comment"
 msgstr "Schválit tento komentář"
 
 #: wp-admin/includes/dashboard.php:609
-#: wp-admin/includes/template.php:2098
-#: wp-admin/includes/template.php:2103
+#: wp-admin/includes/template.php:2100
+#: wp-admin/includes/template.php:2105
 msgid "Unapprove this comment"
 msgstr "Odmítnout tento komentář"
 
 #: wp-admin/includes/dashboard.php:611
-#: wp-admin/includes/template.php:2124
+#: wp-admin/includes/template.php:2126
 msgid "Reply to this comment"
 msgstr "Odpovědět na tento komentář"
 
 #: wp-admin/includes/dashboard.php:611
-#: wp-admin/includes/template.php:2124
-#: wp-includes/comment-template.php:1041
+#: wp-admin/includes/template.php:2126
+#: wp-includes/comment-template.php:1014
 msgid "Reply"
 msgstr "Odpovědět"
 
 #: wp-admin/includes/dashboard.php:612
-#: wp-admin/includes/template.php:2107
+#: wp-admin/includes/template.php:2109
 msgid "Mark this comment as spam"
 msgstr "Označit tento komentář jako spam"
 
 #. translators: mark as spam link
 #: wp-admin/includes/dashboard.php:612
-#: wp-admin/includes/template.php:2107
+#: wp-admin/includes/template.php:2109
 msgctxt "verb"
 msgid "Spam"
 msgstr "Spam"
 
 #: wp-admin/includes/dashboard.php:616
-#: wp-admin/includes/template.php:2117
+#: wp-admin/includes/template.php:2119
 msgid "Move this comment to the trash"
 msgstr "Přesunout tento komentář do koše"
 
 #: wp-admin/includes/dashboard.php:616
-#: wp-admin/includes/template.php:2117
+#: wp-admin/includes/template.php:2119
 msgctxt "verb"
 msgid "Trash"
 msgstr "Odstranit"
@@ -3369,7 +3358,7 @@ msgstr "Tento nástěnkový widget využívá službu <a href=\"http://blogsearc
 
 #: wp-admin/includes/dashboard.php:747
 #: wp-admin/includes/dashboard.php:749
-#: wp-admin/includes/post.php:1216
+#: wp-admin/includes/post.php:1217
 msgid "Somebody"
 msgstr "Někdo"
 
@@ -3573,7 +3562,7 @@ msgstr "Nepodařilo se zapsat soubor na disk."
 #: wp-admin/includes/file.php:271
 #: wp-admin/includes/file.php:391
 msgid "File upload stopped by extension."
-msgstr "Nahrávání souboru bylo přerušeno rozšířením pro PHP."
+msgstr "Nahrávání souboru bylo přerušeno kvůli rozšíření."
 
 #: wp-admin/includes/file.php:288
 #: wp-admin/includes/file.php:407
@@ -3961,7 +3950,7 @@ msgid "Uploads"
 msgstr "Nahrané soubory"
 
 #: wp-admin/includes/media.php:304
-#: wp-admin/includes/template.php:3452
+#: wp-admin/includes/template.php:3456
 msgid "WordPress"
 msgstr "WordPress"
 
@@ -3998,6 +3987,7 @@ msgid "Saved."
 msgstr "Uloženo."
 
 #: wp-admin/includes/media.php:844
+#: wp-admin/install.php:256
 #: wp-includes/js/tinymce/langs/wp-langs.php:427
 msgid "Medium"
 msgstr "Střední velikost"
@@ -4309,7 +4299,7 @@ msgid "Video URL"
 msgstr "URL videa"
 
 #: wp-admin/includes/media.php:2138
-msgid "Link text, e.g. &#8220;Lucy on YouTube&#8221;"
+msgid "Link text, e.g. &#8220;Lucy on YouTube&#8220;"
 msgstr "Text odkazu, např. &#8222;Video ze svatby&#8220;"
 
 #: wp-admin/includes/media.php:2168
@@ -4355,7 +4345,7 @@ msgstr "Neuloženo"
 
 #: wp-admin/includes/meta-boxes.php:102
 #: wp-admin/includes/meta-boxes.php:148
-#: wp-admin/includes/template.php:2537
+#: wp-admin/includes/template.php:2541
 #: wp-includes/script-loader.php:285
 msgid "OK"
 msgstr "OK"
@@ -4368,7 +4358,7 @@ msgstr "Viditelnost:"
 #: wp-admin/includes/meta-boxes.php:145
 #: wp-admin/includes/template.php:965
 #: wp-admin/includes/template.php:1107
-#: wp-admin/includes/template.php:3515
+#: wp-admin/includes/template.php:3519
 #: wp-includes/post.php:514
 #: wp-includes/post.php:534
 #: wp-includes/script-loader.php:299
@@ -4377,7 +4367,7 @@ msgstr "Soukromé"
 
 #: wp-admin/includes/meta-boxes.php:118
 #: wp-admin/includes/meta-boxes.php:143
-#: wp-admin/includes/template.php:3513
+#: wp-admin/includes/template.php:3517
 msgid "Password protected"
 msgstr "Chráněno heslem"
 
@@ -4802,7 +4792,7 @@ msgid "Original: %s"
 msgstr "Původní odkaz: %s"
 
 #: wp-admin/includes/nav-menu.php:188
-#: wp-admin/includes/template.php:1834
+#: wp-admin/includes/template.php:1836
 #: wp-admin/users.php:436
 #: wp-admin/users.php:509
 msgid "Remove"
@@ -4817,7 +4807,7 @@ msgid "Custom Links"
 msgstr "Uživatelské odkazy"
 
 #: wp-admin/includes/nav-menu.php:469
-#: wp-admin/nav-menus.php:450
+#: wp-admin/nav-menus.php:453
 msgid "The current theme does not natively support menus, but you can use the &#8220;Custom Menu&#8221; widget to add any menus you create here to the theme&#8217;s sidebar."
 msgstr "Aktuálně používaná šablona sice nepodporuje přímé zobrazování menu, ale přesto můžete použít alespoň widget &#8222;Menu&#8220;, pomocí kterého jednoduše zobrazíte vytvořené menu např. v postranním panelu."
 
@@ -4864,12 +4854,12 @@ msgstr "Zobrazit vše"
 #: wp-admin/includes/nav-menu.php:903
 #: wp-admin/includes/nav-menu.php:905
 #: wp-admin/includes/plugin-install.php:132
-#: wp-admin/includes/template.php:3270
-#: wp-admin/includes/template.php:3272
+#: wp-admin/includes/template.php:3274
+#: wp-admin/includes/template.php:3276
 #: wp-admin/includes/theme-install.php:162
 #: wp-admin/plugin-install.php:24
 #: wp-admin/theme-install.php:30
-#: wp-content/plugins/akismet/akismet.php:779
+#: wp-content/plugins/akismet/akismet.php:769
 #: wp-includes/default-widgets.php:176
 #: wp-includes/general-template.php:163
 msgid "Search"
@@ -4877,7 +4867,7 @@ msgstr "Hledat"
 
 #: wp-admin/includes/nav-menu.php:690
 #: wp-admin/includes/nav-menu.php:917
-#: wp-content/plugins/akismet/akismet.php:943
+#: wp-content/plugins/akismet/akismet.php:933
 msgid "No results found."
 msgstr "Nebylo nic nalezeno."
 
@@ -4969,7 +4959,7 @@ msgstr "Štítek"
 
 #: wp-admin/includes/plugin-install.php:175
 #: wp-admin/includes/plugin-install.php:176
-#: wp-admin/plugins.php:682
+#: wp-admin/plugins.php:681
 msgid "Search Plugins"
 msgstr "Hledat pluginy"
 
@@ -5012,7 +5002,7 @@ msgstr "Nebyl nalezen žádný plugin, který by odpovídal vašemu požadavku."
 
 #: wp-admin/includes/plugin-install.php:355
 #: wp-admin/includes/plugin.php:132
-#: wp-admin/plugins.php:624
+#: wp-admin/plugins.php:623
 #, php-format
 msgid "By %s"
 msgstr "Autor: %s"
@@ -5190,7 +5180,7 @@ msgid "Visit plugin homepage"
 msgstr "Navštívit web pluginu"
 
 #: wp-admin/includes/plugin.php:128
-#: wp-admin/plugins.php:623
+#: wp-admin/plugins.php:622
 #: wp-includes/theme.php:242
 msgid "Visit author homepage"
 msgstr "Navštívit autorův web"
@@ -5262,8 +5252,8 @@ msgstr "Plugin patrně nemá platnou hlavičku se základními informacemi."
 
 #: wp-admin/includes/plugin.php:1479
 #: wp-admin/includes/plugin.php:1502
-#: wp-admin/includes/template.php:2981
-#: wp-admin/includes/template.php:3021
+#: wp-admin/includes/template.php:2985
+#: wp-admin/includes/template.php:3025
 msgid "The miscellaneous options group has been removed. Use another settings group."
 msgstr "Stránka pro Ostatní nastavení byla odstraněna, použijte prosím nějakou jinou nabídku z levého menu."
 
@@ -5295,23 +5285,23 @@ msgstr "Nemáte dostatečné oprávnění pro úpravy příspěvků."
 msgid "Auto Draft"
 msgstr "Automaticky vytvořený koncept"
 
-#: wp-admin/includes/post.php:498
+#: wp-admin/includes/post.php:497
 msgid "You are not allowed to create pages on this site."
 msgstr "Nemáte dostatečné oprávnění pro vytváření nových stránek na tomto webu. "
 
-#: wp-admin/includes/post.php:500
+#: wp-admin/includes/post.php:499
 msgid "You are not allowed to create posts or drafts on this site."
 msgstr "Nemáte dostatečné oprávnění pro vytváření nových příspěvků či konceptů na tomto webu."
 
-#: wp-admin/includes/post.php:926
+#: wp-admin/includes/post.php:924
 msgid "Images"
 msgstr "Obrázky"
 
-#: wp-admin/includes/post.php:926
+#: wp-admin/includes/post.php:924
 msgid "Manage Images"
 msgstr "Správa obrázků"
 
-#: wp-admin/includes/post.php:926
+#: wp-admin/includes/post.php:924
 #, php-format
 msgid "Image <span class=\"count\">(%s)</span>"
 msgid_plural "Images <span class=\"count\">(%s)</span>"
@@ -5319,15 +5309,15 @@ msgstr[0] "Obrázek <span class=\"count\">(%s)</span>"
 msgstr[1] "Obrázky <span class=\"count\">(%s)</span>"
 msgstr[2] "Obrázků <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/post.php:927
+#: wp-admin/includes/post.php:925
 msgid "Audio"
 msgstr "Audio"
 
-#: wp-admin/includes/post.php:927
+#: wp-admin/includes/post.php:925
 msgid "Manage Audio"
 msgstr "Správa audio souborů"
 
-#: wp-admin/includes/post.php:927
+#: wp-admin/includes/post.php:925
 #, php-format
 msgid "Audio <span class=\"count\">(%s)</span>"
 msgid_plural "Audio <span class=\"count\">(%s)</span>"
@@ -5335,15 +5325,15 @@ msgstr[0] "Audio <span class=\"count\">(%s)</span>"
 msgstr[1] "Audio <span class=\"count\">(%s)</span>"
 msgstr[2] "Audio <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/post.php:928
+#: wp-admin/includes/post.php:926
 msgid "Video"
 msgstr "Video"
 
-#: wp-admin/includes/post.php:928
+#: wp-admin/includes/post.php:926
 msgid "Manage Video"
 msgstr "Správa video souborů"
 
-#: wp-admin/includes/post.php:928
+#: wp-admin/includes/post.php:926
 #, php-format
 msgid "Video <span class=\"count\">(%s)</span>"
 msgid_plural "Video <span class=\"count\">(%s)</span>"
@@ -5351,48 +5341,48 @@ msgstr[0] "Video <span class=\"count\">(%s)</span>"
 msgstr[1] "Video <span class=\"count\">(%s)</span>"
 msgstr[2] "Video <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/post.php:1088
+#: wp-admin/includes/post.php:1086
 msgid "Click to edit this part of the permalink"
 msgstr "Po kliknutí na tuto část trvalého odkazu ji můžete změnit."
 
-#: wp-admin/includes/post.php:1090
+#: wp-admin/includes/post.php:1088
 msgid "Temporary permalink. Click to edit this part."
 msgstr "Tento trvalý odkaz je pouze dočasný. Kliknutím můžete tuto část změnit."
 
-#: wp-admin/includes/post.php:1094
-#: wp-admin/includes/post.php:1122
+#: wp-admin/includes/post.php:1092
+#: wp-admin/includes/post.php:1120
 msgid "Permalink:"
 msgstr "Trvalý odkaz:"
 
-#: wp-admin/includes/post.php:1096
+#: wp-admin/includes/post.php:1094
 msgid "Change Permalinks"
 msgstr "Změnit trvalé odkazy"
 
-#: wp-admin/includes/post.php:1145
-#: wp-admin/includes/post.php:1146
+#: wp-admin/includes/post.php:1143
+#: wp-admin/includes/post.php:1144
 msgid "Set featured image"
 msgstr "Zvolit náhledový obrázek"
 
-#: wp-admin/includes/post.php:1158
+#: wp-admin/includes/post.php:1156
 msgid "Remove featured image"
 msgstr "Odebrat náhledový obrázek"
 
-#: wp-admin/includes/post.php:1220
+#: wp-admin/includes/post.php:1221
 #, php-format
 msgid "Warning: %s is currently editing this post"
 msgstr "Upozornění: %s právě teď upravuje tento příspěvek"
 
-#: wp-admin/includes/post.php:1223
+#: wp-admin/includes/post.php:1224
 #, php-format
 msgid "Warning: %s is currently editing this page"
 msgstr "Upozornění: %s právě teď upravuje tuto stránku"
 
-#: wp-admin/includes/post.php:1226
+#: wp-admin/includes/post.php:1227
 #, php-format
 msgid "Warning: %s is currently editing this."
 msgstr "Upozornění: %s to právě teď také upravuje"
 
-#: wp-admin/includes/post.php:1284
+#: wp-admin/includes/post.php:1286
 msgid "Preview not available. Please save as a draft first."
 msgstr "Náhled není k dispozici. Příspěvek prosím nejdříve uložte jako koncept."
 
@@ -5535,7 +5525,7 @@ msgstr "Stále můžete bez problémů používat váš hlavní web, ale žádn�
 
 #: wp-admin/includes/template.php:37
 #: wp-admin/includes/template.php:895
-#: wp-admin/includes/template.php:2122
+#: wp-admin/includes/template.php:2124
 msgid "Quick Edit"
 msgstr "Rychlé úpravy"
 
@@ -5543,7 +5533,7 @@ msgstr "Rychlé úpravy"
 #: wp-admin/includes/template.php:449
 #: wp-admin/includes/template.php:1353
 #: wp-admin/includes/template.php:1575
-#: wp-admin/includes/template.php:2122
+#: wp-admin/includes/template.php:2124
 msgid "Quick&nbsp;Edit"
 msgstr "Rychlé&nbsp;úpravy"
 
@@ -5661,7 +5651,7 @@ msgstr "Povolit odkazování (pingbacky)"
 
 #: wp-admin/includes/template.php:1120
 #: wp-admin/includes/template.php:1123
-#: wp-admin/includes/template.php:3522
+#: wp-admin/includes/template.php:3526
 msgid "Sticky"
 msgstr "Zvýrazněný"
 
@@ -5725,142 +5715,142 @@ msgstr "Přesunout tuto stránku do koše"
 msgid "Delete this page permanently"
 msgstr "Smazat tuto stránku"
 
-#: wp-admin/includes/template.php:1877
+#: wp-admin/includes/template.php:1879
 #: wp-includes/pluggable.php:1205
 #, php-format
 msgid "E-mail: %s"
 msgstr "Email: %s"
 
-#: wp-admin/includes/template.php:1886
+#: wp-admin/includes/template.php:1888
 msgid "View posts by this author"
 msgstr "Zobrazit příspěvky tohoto autora"
 
-#: wp-admin/includes/template.php:2023
+#: wp-admin/includes/template.php:2025
 msgid "Y/m/d \\a\\t g:i A"
 msgstr "j.n.Y, G:i"
 
 #. translators: 2: comment date, 3: comment time
-#: wp-admin/includes/template.php:2061
+#: wp-admin/includes/template.php:2063
 #, php-format
 msgid "<a href=\"%1$s\">%2$s at %3$s</a>"
 msgstr "<a href=\"%1$s\">%2$s v %3$s</a>"
 
-#: wp-admin/includes/template.php:2069
+#: wp-admin/includes/template.php:2071
 #, php-format
 msgid "In reply to <a href=\"%1$s\">%2$s</a>."
 msgstr "Reakce na komentář, jehož autorem byl <a href=\"%1$s\">%2$s</a>."
 
-#: wp-admin/includes/template.php:2173
+#: wp-admin/includes/template.php:2175
 msgid "Y/m/d \\a\\t g:ia"
 msgstr "j.n.Y, G:i"
 
-#: wp-admin/includes/template.php:2245
+#: wp-admin/includes/template.php:2249
 msgid "Reply to Comment"
 msgstr "Odpovědět na komentář"
 
-#: wp-admin/includes/template.php:2271
+#: wp-admin/includes/template.php:2275
 msgid "Submit Reply"
 msgstr "Odeslat odpověď"
 
-#: wp-admin/includes/template.php:2304
+#: wp-admin/includes/template.php:2308
 #, php-format
 msgid "Comment by %s moved to the trash."
 msgstr "Komentář byl přesunut do koše (autorem komentáře byl %s)."
 
-#: wp-admin/includes/template.php:2307
+#: wp-admin/includes/template.php:2311
 #, php-format
 msgid "Comment by %s marked as spam."
 msgstr "Komentář byl označen jako spam (autorem komentáře byl %s)."
 
-#: wp-admin/includes/template.php:2327
-#: wp-admin/includes/template.php:2342
-#: wp-admin/includes/template.php:2404
-#: wp-admin/includes/template.php:2431
+#: wp-admin/includes/template.php:2331
+#: wp-admin/includes/template.php:2346
+#: wp-admin/includes/template.php:2408
+#: wp-admin/includes/template.php:2435
 msgid "Value"
 msgstr "Hodnota"
 
-#: wp-admin/includes/template.php:2396
+#: wp-admin/includes/template.php:2400
 msgid "Key"
 msgstr "Identifikátor"
 
-#: wp-admin/includes/template.php:2426
+#: wp-admin/includes/template.php:2430
 msgid "Add New Custom Field:"
 msgstr "Přidat nové uživatelské pole:"
 
-#: wp-admin/includes/template.php:2440
+#: wp-admin/includes/template.php:2444
 #: wp-admin/options-reading.php:60
 #: wp-admin/options-reading.php:61
 #: wp-admin/widgets.php:295
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Vyberte &mdash;"
 
-#: wp-admin/includes/template.php:2450
+#: wp-admin/includes/template.php:2454
 msgid "Enter new"
 msgstr "Vytvořit nové uživatelské pole"
 
-#: wp-admin/includes/template.php:2460
+#: wp-admin/includes/template.php:2464
 msgid "Add Custom Field"
 msgstr "Přidat uživatelské pole"
 
 #. translators: 1: month input, 2: day input, 3: year input, 4: hour input, 5: minute input
-#: wp-admin/includes/template.php:2522
+#: wp-admin/includes/template.php:2526
 #, php-format
 msgid "%1$s%2$s, %3$s @ %4$s : %5$s"
 msgstr "%2$s.%1$s.%3$s, %4$s:%5$s"
 
-#: wp-admin/includes/template.php:2627
+#: wp-admin/includes/template.php:2631
 msgid "Thumbnail linked to file"
 msgstr "Náhled odkazuje na soubor"
 
-#: wp-admin/includes/template.php:2627
+#: wp-admin/includes/template.php:2631
 msgid "Image linked to file"
 msgstr "Obrázek odkazuje na soubor"
 
-#: wp-admin/includes/template.php:2631
+#: wp-admin/includes/template.php:2635
 msgid "Thumbnail linked to page"
 msgstr "Náhled odkazuje na stránku"
 
-#: wp-admin/includes/template.php:2631
+#: wp-admin/includes/template.php:2635
 msgid "Image linked to page"
 msgstr "Obrázek odkazuje na stránku"
 
-#: wp-admin/includes/template.php:2636
+#: wp-admin/includes/template.php:2640
 msgid "Link to file"
 msgstr "Odkaz na soubor"
 
-#: wp-admin/includes/template.php:2640
+#: wp-admin/includes/template.php:2644
 msgid "Link to page"
 msgstr "Odkaz na stránku"
 
-#: wp-admin/includes/template.php:2738
+#: wp-admin/includes/template.php:2742
 msgid "Before you can upload your import file, you will need to fix the following error:"
 msgstr "Před nahráním importního souboru budete muset ještě vyřešit následující chybu:"
 
-#: wp-admin/includes/template.php:2744
+#: wp-admin/includes/template.php:2748
 msgid "Choose a file from your computer:"
 msgstr "Vyberte soubor na svém počítači:"
 
-#: wp-admin/includes/template.php:2744
+#: wp-admin/includes/template.php:2748
 #, php-format
 msgid "Maximum size: %s"
 msgstr "Maximální velikost: %s"
 
-#: wp-admin/includes/template.php:2750
+#: wp-admin/includes/template.php:2754
 msgid "Upload file and import"
 msgstr "Nahrát soubor a importovat"
 
-#: wp-admin/includes/template.php:2861
+#: wp-admin/includes/template.php:2865
 #: wp-admin/press-this.php:466
 #: wp-admin/press-this.php:485
 #: wp-admin/press-this.php:535
 msgid "Click to toggle"
 msgstr "Kliknutím rozbalit/sbalit"
 
-#: wp-admin/includes/template.php:3261
+#: wp-admin/includes/template.php:3265
 msgid "Find Posts or Pages"
 msgstr "Vyhledat příspěvky nebo stránky"
 
-#: wp-admin/includes/template.php:3288
+#: wp-admin/includes/template.php:3292
 #: wp-admin/includes/widgets.php:202
 #: wp-includes/js/tinymce/langs/wp-langs.php:31
 #: wp-includes/js/tinymce/wp-mce-help.php:258
@@ -5869,113 +5859,113 @@ msgstr "Vyhledat příspěvky nebo stránky"
 msgid "Close"
 msgstr "Zavřít"
 
-#: wp-admin/includes/template.php:3289
-#: wp-admin/nav-menus.php:497
+#: wp-admin/includes/template.php:3293
+#: wp-admin/nav-menus.php:500
 #: wp-admin/plugin-editor.php:188
 #: wp-admin/theme-editor.php:151
 msgid "Select"
 msgstr "Vybrat"
 
-#: wp-admin/includes/template.php:3331
+#: wp-admin/includes/template.php:3335
 msgid "New Media"
 msgstr "Nahrát nový mediální soubor"
 
-#: wp-admin/includes/template.php:3334
+#: wp-admin/includes/template.php:3338
 #: wp-admin/media.php:45
 #: wp-admin/media.php:90
 msgid "Edit Media"
 msgstr "Upravit mediální soubor"
 
-#: wp-admin/includes/template.php:3339
+#: wp-admin/includes/template.php:3343
 msgid "New Link"
 msgstr "Vytvořit odkaz"
 
-#: wp-admin/includes/template.php:3341
+#: wp-admin/includes/template.php:3345
 msgid "Edit Links"
 msgstr "Správa odkazů"
 
-#: wp-admin/includes/template.php:3344
+#: wp-admin/includes/template.php:3348
 msgid "New User"
 msgstr "Vytvořit uživatele"
 
-#: wp-admin/includes/template.php:3347
+#: wp-admin/includes/template.php:3351
 msgid "Edit Users"
 msgstr "Správa uživatelů"
 
-#: wp-admin/includes/template.php:3350
+#: wp-admin/includes/template.php:3354
 #: wp-admin/plugin-install.php:17
 msgid "Install Plugins"
 msgstr "Instalace pluginů"
 
-#: wp-admin/includes/template.php:3353
+#: wp-admin/includes/template.php:3357
 msgid "Manage Plugins"
 msgstr "Správa pluginů"
 
-#: wp-admin/includes/template.php:3356
+#: wp-admin/includes/template.php:3360
 #: wp-admin/theme-install.php:17
 #: wp-admin/update.php:209
 msgid "Install Themes"
 msgstr "Instalace šablon"
 
-#: wp-admin/includes/template.php:3359
+#: wp-admin/includes/template.php:3363
 #: wp-admin/themes.php:31
 msgid "Manage Themes"
 msgstr "Správa šablon"
 
-#: wp-admin/includes/template.php:3362
-#: wp-admin/includes/template.php:3368
+#: wp-admin/includes/template.php:3366
+#: wp-admin/includes/template.php:3372
 #: wp-includes/post.php:952
 msgid "New Post"
 msgstr "Vytvořit příspěvek"
 
-#: wp-admin/includes/template.php:3369
+#: wp-admin/includes/template.php:3373
 msgid "Drafts"
 msgstr "Koncepty"
 
-#: wp-admin/includes/template.php:3370
+#: wp-admin/includes/template.php:3374
 #: wp-includes/post.php:952
 msgid "New Page"
 msgstr "Vytvořit stránku"
 
-#: wp-admin/includes/template.php:3420
+#: wp-admin/includes/template.php:3424
 #: wp-includes/script-loader.php:343
 msgid "(no title)"
 msgstr "(bez názvu)"
 
 #. translators: post state
-#: wp-admin/includes/template.php:3520
+#: wp-admin/includes/template.php:3524
 msgctxt "post state"
 msgid "Pending"
 msgstr "Čekající na schválení"
 
-#: wp-admin/includes/template.php:3582
+#: wp-admin/includes/template.php:3586
 msgid "Enable accessibility mode"
 msgstr "Zapnout Režim pro správu widgetů se zachováním pravidel přístupnosti webu"
 
-#: wp-admin/includes/template.php:3582
+#: wp-admin/includes/template.php:3586
 msgid "Disable accessibility mode"
 msgstr "Vypnout Režim pro správu widgetů se zachováním pravidel přístupnosti webu"
 
-#: wp-admin/includes/template.php:3594
+#: wp-admin/includes/template.php:3598
 msgctxt "Metaboxes"
 msgid "Show on screen"
 msgstr "Zobrazit následující informace:"
 
-#: wp-admin/includes/template.php:3601
+#: wp-admin/includes/template.php:3605
 msgctxt "Columns"
 msgid "Show on screen"
 msgstr "Zobrazit následující sloupce:"
 
-#: wp-admin/includes/template.php:3611
+#: wp-admin/includes/template.php:3615
 msgctxt "Screen Options"
 msgid "Show on screen"
 msgstr "Zobrazit následující informace:"
 
-#: wp-admin/includes/template.php:3632
+#: wp-admin/includes/template.php:3636
 msgid "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Documentation</a>"
 msgstr "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Manuál</a> (anglicky)"
 
-#: wp-admin/includes/template.php:3645
+#: wp-admin/includes/template.php:3649
 #: wp-includes/js/tinymce/langs/wp-langs.php:238
 #: wp-includes/js/tinymce/langs/wp-langs.php:252
 #: wp-includes/js/tinymce/langs/wp-langs.php:409
@@ -5983,67 +5973,67 @@ msgstr "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Manuál</a> (a
 msgid "Help"
 msgstr "Nápověda"
 
-#: wp-admin/includes/template.php:3649
+#: wp-admin/includes/template.php:3653
 msgid "Screen Options"
 msgstr "Nastavení zobrazených informací"
 
-#: wp-admin/includes/template.php:3679
+#: wp-admin/includes/template.php:3683
 msgid "Most of the modules on this screen can be moved. If you hover your mouse over the title bar of a module you&rsquo;ll notice the 4 arrow cursor appears to let you know it is movable. Click on it, hold down the mouse button and start dragging the module to a new location. As you drag the module, notice the dotted gray box that also moves. This box indicates where the module will be placed when you release the mouse button."
 msgstr "S většinou objektů na této stránce lze jednoduše pohybovat. Pokud přejedete myší přes název objektu, změní se kurzor na směrovou růžici, což znamená, že je možné s tímto objektem pohybovat. Klikněte na vybraný objekt, držte stisknuté tlačítko myši a přesuňte ho tam, kde ho chcete přesně mít. Během samotného přesunování objektu můžete vidět tečkované šedé ohraničení, které ukazuje, kam bude objekt umístěn až uvolníte tlačítko myši."
 
-#: wp-admin/includes/template.php:3680
+#: wp-admin/includes/template.php:3684
 msgid "The same modules can be expanded and collapsed by clicking once on their title bar and also completely hidden from the Screen Options tab."
 msgstr "Objekty na stránce mohou být zobrazovány buď zasunuté nebo vysunuté, což nastavíte jediným kliknutím na jejich Název. Můžete je také zcela skrýt pomocí nabídky Nastavení zobrazených informací."
 
-#: wp-admin/includes/template.php:3686
+#: wp-admin/includes/template.php:3690
 msgid "Search help"
 msgstr "Vyhledávání pluginů"
 
-#: wp-admin/includes/template.php:3687
+#: wp-admin/includes/template.php:3691
 msgid "You may search based on 3 criteria:"
 msgstr "Můžete vyhledávat podle 3 základních možností:"
 
-#: wp-admin/includes/template.php:3688
+#: wp-admin/includes/template.php:3692
 msgid "<strong>Term:</strong> Searches theme names and descriptions for the specified term."
-msgstr "<strong>Název:</strong> Vyhledají se šablony, které obsahují zadané slovo přímo v názvu nebo stručném popisu."
+msgstr "<strong>Název:</strong> Vyhledají se pluginy, které obsahují zadané slovo přímo v názvu nebo stručném popisu."
 
-#: wp-admin/includes/template.php:3689
+#: wp-admin/includes/template.php:3693
 msgid "<strong>Tag:</strong> Searches for themes tagged as such."
-msgstr "<strong>Štítek:</strong> Vyhledají se šablony, které mají přiřazen zadaný štítek."
+msgstr "<strong>Štítek:</strong> Vyhledají se pluginy, které mají přiřazen zadaný štítek."
 
-#: wp-admin/includes/template.php:3690
+#: wp-admin/includes/template.php:3694
 msgid "<strong>Author:</strong> Searches for themes created by the Author, or which the Author contributed to."
-msgstr "<strong>Autor:</strong> Vyhledají se šablony, které vytvořil (nebo na nich spolupracoval) zadaný autor."
+msgstr "<strong>Autor:</strong> Vyhledají se pluginy, které vytvořil (nebo na nich spolupracoval) zadaný autor."
 
-#: wp-admin/includes/template.php:3720
+#: wp-admin/includes/template.php:3724
 msgid "Screen Layout"
 msgstr "Rozmístění na stránce"
 
-#: wp-admin/includes/template.php:3720
+#: wp-admin/includes/template.php:3724
 msgid "Number of Columns:"
 msgstr "Počet sloupců:"
 
-#: wp-admin/includes/template.php:3743
+#: wp-admin/includes/template.php:3747
 msgctxt "sites per page (screen options)"
 msgid "Sites"
 msgstr "webů na stránku"
 
-#: wp-admin/includes/template.php:3746
+#: wp-admin/includes/template.php:3750
 msgctxt "users per page (screen options)"
 msgid "Users"
 msgstr "uživatelů na stránku"
 
-#: wp-admin/includes/template.php:3749
+#: wp-admin/includes/template.php:3753
 msgctxt "comments per page (screen options)"
 msgid "Comments"
 msgstr "komentářů na stránku"
 
-#: wp-admin/includes/template.php:3752
+#: wp-admin/includes/template.php:3756
 msgctxt "items per page (screen options)"
 msgid "Media items"
 msgstr "mediálních souborů na stránku"
 
-#: wp-admin/includes/template.php:3759
+#: wp-admin/includes/template.php:3763
 msgctxt "plugins per page (screen options)"
 msgid "Plugins"
 msgstr "pluginů na stránku"
@@ -6082,7 +6072,7 @@ msgid "Black"
 msgstr "Černá"
 
 #: wp-admin/includes/theme-install.php:182
-#: wp-includes/general-template.php:2059
+#: wp-includes/general-template.php:2058
 msgid "Blue"
 msgstr "Modrá"
 
@@ -6284,7 +6274,7 @@ msgstr "Nepodařilo se zcela smazat šablonu %s."
 
 #: wp-admin/includes/theme.php:242
 msgid "Upgrading this theme will lose any customizations you have made.  'Cancel' to stop, 'OK' to upgrade."
-msgstr "Aktualizací této šablony přijdete o všechny dosud provedené úpravy.  Akci můžete zastavit kliknutím na 'Storno', nebo potvrdit pomocí 'OK'."
+msgstr "Aktualizací této šablony přijdete o všechny své vlastní úpravy, které jste zatím udělali.  Akci můžete zastavit kliknutím na 'Storno', nebo potvrdit pomocí 'OK'."
 
 #: wp-admin/includes/theme.php:245
 #, php-format
@@ -6304,21 +6294,21 @@ msgstr "Nová verze šablony %1$s je k dispozici. <a href=\"%2$s\" class=\"thick
 #: wp-admin/includes/update-core.php:285
 #, php-format
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
-msgstr "Automatická aktualizace nemůže být provedena, protože WordPress %1$s vyžaduje alespoň PHP %2$s a MySQL %3$s. Na vašem serveru jsou však používány starší verze PHP %4$s a MySQL %5$s."
+msgstr "Automatická aktualizace nemůže být bohužel provedena, protože WordPress %1$s vyžaduje alespoň PHP %2$s a MySQL %3$s. Na vašem serveru jsou však používány starší verze PHP %4$s a MySQL %5$s."
 
 #: wp-admin/includes/update-core.php:287
 #, php-format
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
-msgstr "Automatická aktualizace nemůže být provedena, protože WordPress %1$s vyžaduje alespoň PHP %2$s a na vašem serveru je používána starší verze PHP %3$s."
+msgstr "Automatická aktualizace nemůže být bohužel provedena, protože WordPress %1$s vyžaduje alespoň PHP %2$s a na vašem serveru je používána starší verze PHP %3$s."
 
 #: wp-admin/includes/update-core.php:289
 #, php-format
 msgid "The update cannot be installed because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
-msgstr "Automatická aktualizace nemůže být provedena, protože WordPress %1$s vyžaduje alespoň MySQL %2$s a na vašem serveru je používána starší verze MySQL %3$s."
+msgstr "Automatická aktualizace nemůže být bohužel provedena, protože WordPress %1$s vyžaduje alespoň MySQL %2$s a na vašem serveru je používána starší verze MySQL %3$s."
 
 #: wp-admin/includes/update-core.php:292
 msgid "Verifying the unpacked files&#8230;"
-msgstr "Ověřování rozbalených souborů&#8230;"
+msgstr "Ověřování rozbalených souborů#8230;"
 
 #: wp-admin/includes/update-core.php:304
 msgid "The update could not be unpacked"
@@ -6330,7 +6320,7 @@ msgstr "Aktualizace databáze&#8230;"
 
 #: wp-admin/includes/update.php:89
 #: wp-admin/includes/update.php:112
-#: wp-admin/plugins.php:619
+#: wp-admin/plugins.php:618
 #, php-format
 msgid "Version %s"
 msgstr "Verze %s"
@@ -6387,11 +6377,11 @@ msgstr "Nová verze %1$s je k dispozici. <a href=\"%2$s\" class=\"thickbox\" tit
 #: wp-admin/includes/update.php:259
 #, php-format
 msgid "An automated WordPress update has failed to complete - <a href=\"%s\">please attempt the update again now</a>."
-msgstr "Automatická aktualizace WordPressu selhala - <a href=\"%s\">zkuste ji prosím spustit ještě jednou</a>."
+msgstr "Automatická aktualizace WordPressu bohužel selhala - <a href=\"%s\">zkuste prosím spustit aktualizaci ještě jednou</a>."
 
 #: wp-admin/includes/update.php:261
 msgid "An automated WordPress update has failed to complete! Please notify the site administrator."
-msgstr "Automatická aktualizace WordPressu selhala! Kontaktujte prosím administrátora webu."
+msgstr "Automatická aktualizace WordPressu bohužel selhala! Kontaktujte, prosím, administrátora webu."
 
 #: wp-admin/includes/upgrade.php:68
 msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you."
@@ -6524,7 +6514,7 @@ msgstr "<strong>CHYBA</strong>: Heslo nemůže obsahovat tyto znaky: \"\\\"."
 
 #: wp-admin/includes/user.php:156
 msgid "<strong>ERROR</strong>: Please enter the same password in the two password fields."
-msgstr "<strong>CHYBA</strong>: Zadejte prosím do obou polí stejné heslo."
+msgstr "<strong>CHYBA</strong>: Zadejte stejné heslo do obou polí určených pro heslo."
 
 #: wp-admin/includes/user.php:162
 #: wp-login.php:284
@@ -6779,13 +6769,6 @@ msgstr "Příliš slabé"
 #: wp-includes/script-loader.php:254
 msgid "Weak"
 msgstr "Slabé"
-
-#. translators: password strength
-#: wp-admin/install.php:256
-#: wp-includes/script-loader.php:256
-msgctxt "password strength"
-msgid "Medium"
-msgstr "Střední"
 
 #: wp-admin/install.php:257
 #: wp-includes/script-loader.php:257
@@ -7090,7 +7073,7 @@ msgstr "Vzhled"
 
 #: wp-admin/menu.php:161
 #: wp-admin/menu.php:166
-#: wp-admin/nav-menus.php:466
+#: wp-admin/nav-menus.php:469
 msgid "Menus"
 msgstr "Menu"
 
@@ -7194,84 +7177,84 @@ msgstr "Položka menu byla úspěšně smazána."
 msgid "The menu has been successfully deleted."
 msgstr "Menu bylo úspěšně smazáno."
 
-#: wp-admin/nav-menus.php:296
+#: wp-admin/nav-menus.php:299
 #, php-format
 msgid "The <strong>%s</strong> menu has been successfully created."
 msgstr "Menu s názvem <strong>%s</strong> bylo úspěšně vytvořeno."
 
-#: wp-admin/nav-menus.php:299
-#: wp-admin/nav-menus.php:309
+#: wp-admin/nav-menus.php:302
+#: wp-admin/nav-menus.php:312
 msgid "Please enter a valid menu name."
 msgstr "Zadejte prosím platný název menu."
 
-#: wp-admin/nav-menus.php:385
+#: wp-admin/nav-menus.php:388
 #, php-format
 msgid "The <strong>%s</strong> menu has been updated."
 msgstr "Menu s názvem <strong>%s</strong> bylo úspěšně aktualizováno."
 
-#: wp-admin/nav-menus.php:452
+#: wp-admin/nav-menus.php:455
 msgid "This feature is new in version 3.0; to use a custom menu in place of your theme&#8217;s default menus, support for this feature must be registered in the theme&#8217;s functions.php file. If your theme does not support the custom menus feature yet (the new default theme, Twenty Ten, does), you can learn about adding support yourself by following the below link."
 msgstr "Jednou z novinek WordPressu 3.0 je i možnost tvorby vlastního menu. Abyste mohli vytvořené menu na vybraném místě webu vůbec zobrazit, musí být tato funkcionalita nejdříve řádně zaregistrována ve vaší šabloně (soubor functions.php), kde bude také definována konkrétní oblast pro zobrazení menu (příslušný soubor šablony). Pokud vaše stávající šablona zobrazení vlastního menu na konkrétním místě webu zatím neumožňuje (podporuje ho např. nová výchozí šablona WordPressu s názvem TwentyTen), můžete po prostudování manuálu (viz spodní odkaz) zkusit šablonu sami upravit."
 
-#: wp-admin/nav-menus.php:453
+#: wp-admin/nav-menus.php:456
 msgid "You can create custom menus for your site. These menus may contain links to pages, categories, custom links or other content types (use the Screen Options tab to decide which ones to show on the screen). You can specify a different navigation label for a menu item as well as other attributes. You can create multiple menus. If your theme includes more than one menu, you can choose which custom menu to associate with each. You can also use custom menus in conjunction with the Custom Menus widget."
 msgstr "Na této stránce můžete vytvářet již konkrétní menu na váš web. Tato menu mohou obsahovat odkazy na stránky a rubriky, uživatelské odkazy i další obsah webu. Zobrazení konkrétních sekcí můžete upravovat pomocí záložky Nastavení zobrazených informací, kde si zaškrtnutím vyberete sekce, které budou následně zobrazeny na stránce a budete z nich moci jednoduše přidávat vybraný obsah do menu. Pro každou položku menu můžete nejen upravit konkrétní text odkazu, ale i doplnit některé další informace. Můžete si také vytvořit více různých menu a pokud vaše šablona podporuje více než jednu oblast pro menu, tak můžete jednoduše nastavit, kde bude konkrétní menu umístěno. Vytvořené menu můžete zobrazit na webu také pomocí widgetu s názvem Menu."
 
-#: wp-admin/nav-menus.php:454
+#: wp-admin/nav-menus.php:457
 msgid "To create a new custom menu, click on the + tab, give the menu a name, and click Create Menu. Next, add menu items from the appropriate boxes. You&#8217;ll be able to edit the information for each menu item, and can drag and drop to put them in order. You can also drag a menu item a little to the right to make it a submenu, to create menus with hierarchy. You&#8217;ll see when the position of the drop target shifts over to create the nested placement. Don&#8217;t forget to click Save when you&#8217;re finished."
 msgstr "Pokud chcete vytvořit nové menu, klikněte nejdříve na záložku se symbolem &#8222;+&#8220;, zadejte nějaký vhodný název menu a poté klikněte na tlačítko Vytvořit menu. Dále už stačí pouze přidávat jednotlivé položky menu z příslušných sekcí v levé části stránky. U každé položky menu pak můžete ještě dále upravovat její vlastnosti a také jednoduše měnit její pořadí tak, že ji uchopíte kurzorem myši a přetáhnete na určené místo. Jednotlivé položky můžete přesunovat nejen nahoru a dolů, ale také trochu doprava, čímž je označíte jako podřazené a vytvoříte v menu hierarchii. Během samotného přesunování vybraných položek menu se bude automaticky zobrazovat jejich možné umístění, abyste mohli kurzor myši na vhodném místě uvolnit. Nezapomeňte po všech provedených změnách ještě kliknout na tlačítko Aktualizovat menu."
 
-#: wp-admin/nav-menus.php:456
+#: wp-admin/nav-menus.php:459
 msgid "<a href=\"http://codex.wordpress.org/Appearance_Menus_SubPanel\" target=\"_blank\">Menus Documentation</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Appearance_Menus_SubPanel\" target=\"_blank\">Manuál pro práci s menu</a> (anglicky)"
 
-#: wp-admin/nav-menus.php:487
-#: wp-includes/default-widgets.php:1106
+#: wp-admin/nav-menus.php:490
+#: wp-includes/default-widgets.php:1104
 msgid "Select Menu:"
 msgstr "Vyberte menu:"
 
-#: wp-admin/nav-menus.php:494
+#: wp-admin/nav-menus.php:497
 msgid "Add New Menu"
 msgstr "Vytvořit nové menu"
 
-#: wp-admin/nav-menus.php:519
-#: wp-admin/nav-menus.php:529
+#: wp-admin/nav-menus.php:522
+#: wp-admin/nav-menus.php:532
 msgid "Add menu"
 msgstr "Vytvořit menu"
 
-#: wp-admin/nav-menus.php:539
+#: wp-admin/nav-menus.php:542
 msgid "Menu Name"
 msgstr "Název menu"
 
-#: wp-admin/nav-menus.php:540
+#: wp-admin/nav-menus.php:543
 msgid "Enter menu name here"
 msgstr "Zadejte název menu"
 
-#: wp-admin/nav-menus.php:554
+#: wp-admin/nav-menus.php:557
 msgid "Automatically add new top-level pages"
 msgstr "Automaticky přidávat nově publikované hlavní stránky"
 
-#: wp-admin/nav-menus.php:559
+#: wp-admin/nav-menus.php:562
 msgid "Create Menu"
 msgstr "Vytvořit menu"
 
-#: wp-admin/nav-menus.php:559
+#: wp-admin/nav-menus.php:562
 msgid "Save Menu"
 msgstr "Aktualizovat menu"
 
-#: wp-admin/nav-menus.php:564
+#: wp-admin/nav-menus.php:567
 msgid "Delete Menu"
 msgstr "Smazat menu"
 
-#: wp-admin/nav-menus.php:585
+#: wp-admin/nav-menus.php:588
 msgid "To create a custom menu, give it a name above and click Create Menu. Then choose items like pages, categories or custom links from the left column to add to this menu."
 msgstr "Pro vytvoření vlastního menu zadejte nejdříve jeho název a pak klikněte na tlačítko Vytvořit menu. Potom už můžete z levé části stránky vybírat a přidávat do menu konkrétní položky, jako např. stránky, rubriky nebo uživatelské odkazy."
 
-#: wp-admin/nav-menus.php:586
+#: wp-admin/nav-menus.php:589
 msgid "After you have added your items, drag and drop to put them in the order you want. You can also click each item to reveal additional configuration options."
 msgstr "Až přidáte do menu všechny potřebné položky, tak je uchopením a tažením kurzoru myši můžete přesunovat a měnit tak jednoduše jejich pořadí. Kliknutím na konkrétní položku menu pak odkryjete její pokročilé vlastnosti, které můžete libovolně doplňovat."
 
-#: wp-admin/nav-menus.php:587
+#: wp-admin/nav-menus.php:590
 msgid "When you have finished building your custom menu, make sure you click the Save Menu button."
 msgstr "Až budete s vytvořeným menu spokojeni, nezapomeňte ještě kliknout na tlačítko Aktualizovat menu, aby byly všechny změny správně uloženy."
 
@@ -7342,7 +7325,7 @@ msgstr "Přidávat komentáře mohou pouze registrovaní a přihlášení uživa
 
 #: wp-admin/options-discussion.php:63
 msgid " (Signup has been disabled. Only members of this site can comment.)"
-msgstr "(Registrace není v současné době povolena. Pouze zaregistrovaní uživatelé tohoto webu mohou přidávat komentáře.)"
+msgstr " (Registrace není v současné době povolena. Pouze zaregistrovaní uživatelé mohou přidávat komentáře.)"
 
 #: wp-admin/options-discussion.php:69
 #, php-format
@@ -8483,54 +8466,54 @@ msgstr "Neaktivní:"
 msgid "Requires <code>%s</code> in <code>wp-config.php</code>."
 msgstr "Do souboru <code>wp-config.php</code> je potřeba nejdříve vložit <code>%s</code>."
 
-#: wp-admin/plugins.php:571
-#: wp-admin/plugins.php:573
+#: wp-admin/plugins.php:570
+#: wp-admin/plugins.php:572
 msgid "Deactivate this plugin"
 msgstr "Deaktivovat tento plugin"
 
-#: wp-admin/plugins.php:571
+#: wp-admin/plugins.php:570
 msgid "Network Deactivate"
 msgstr "Deaktivovat v síti webů"
 
-#: wp-admin/plugins.php:573
-#: wp-admin/plugins.php:662
+#: wp-admin/plugins.php:572
+#: wp-admin/plugins.php:661
 #: wp-admin/widgets.php:358
 msgid "Deactivate"
 msgstr "Deaktivovat"
 
-#: wp-admin/plugins.php:577
+#: wp-admin/plugins.php:576
 msgid "This plugin can only be activated for all sites in a network"
 msgstr "Tento plugin může být aktivován pouze pro celou síť webů najednou"
 
-#: wp-admin/plugins.php:577
+#: wp-admin/plugins.php:576
 msgid "Network Only"
 msgstr "Síťový plugin"
 
-#: wp-admin/plugins.php:585
+#: wp-admin/plugins.php:584
 msgid "Delete this plugin"
 msgstr "Smazat tento plugin"
 
-#: wp-admin/plugins.php:589
+#: wp-admin/plugins.php:588
 msgid "Open this file in the Plugin Editor"
 msgstr "Otevřít soubor pluginu v Editoru"
 
-#: wp-admin/plugins.php:627
+#: wp-admin/plugins.php:626
 msgid "Visit plugin site"
 msgstr "Navštívit web pluginu"
 
-#: wp-admin/plugins.php:665
+#: wp-admin/plugins.php:664
 msgid "Upgrade"
 msgstr "Aktualizovat"
 
-#: wp-admin/plugins.php:673
+#: wp-admin/plugins.php:672
 msgid "Clear List"
 msgstr "Odebrat pluginy z tohoto seznamu"
 
-#: wp-admin/plugins.php:684
+#: wp-admin/plugins.php:683
 msgid "Search Installed Plugins"
 msgstr "Hledat instalované pluginy"
 
-#: wp-admin/plugins.php:699
+#: wp-admin/plugins.php:698
 #, php-format
 msgctxt "plugins"
 msgid "All <span class=\"count\">(%s)</span>"
@@ -8539,7 +8522,7 @@ msgstr[0] "Celkem <span class=\"count\">(%s)</span>"
 msgstr[1] "Celkem <span class=\"count\">(%s)</span>"
 msgstr[2] "Celkem <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:702
+#: wp-admin/plugins.php:701
 #, php-format
 msgid "Active <span class=\"count\">(%s)</span>"
 msgid_plural "Active <span class=\"count\">(%s)</span>"
@@ -8547,7 +8530,7 @@ msgstr[0] "Aktivovaný <span class=\"count\">(%s)</span>"
 msgstr[1] "Aktivované <span class=\"count\">(%s)</span>"
 msgstr[2] "Aktivovaných <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:706
+#: wp-admin/plugins.php:705
 #, php-format
 msgid "Recently Active <span class=\"count\">(%s)</span>"
 msgid_plural "Recently Active <span class=\"count\">(%s)</span>"
@@ -8555,7 +8538,7 @@ msgstr[0] "Nedávno aktivovaný <span class=\"count\">(%s)</span>"
 msgstr[1] "Nedávno aktivované <span class=\"count\">(%s)</span>"
 msgstr[2] "Nedávno aktivovaných <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:710
+#: wp-admin/plugins.php:709
 #, php-format
 msgid "Inactive <span class=\"count\">(%s)</span>"
 msgid_plural "Inactive <span class=\"count\">(%s)</span>"
@@ -8563,7 +8546,7 @@ msgstr[0] "Neaktivní <span class=\"count\">(%s)</span>"
 msgstr[1] "Neaktivní <span class=\"count\">(%s)</span>"
 msgstr[2] "Neaktivních <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:714
+#: wp-admin/plugins.php:713
 #, php-format
 msgid "Network <span class=\"count\">(%s)</span>"
 msgid_plural "Network <span class=\"count\">(%s)</span>"
@@ -8571,7 +8554,7 @@ msgstr[0] "Aktivovaný v síti webů <span class=\"count\">(%s)</span>"
 msgstr[1] "Aktivované v síti webů <span class=\"count\">(%s)</span>"
 msgstr[2] "Aktivovaných v síti webů <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:718
+#: wp-admin/plugins.php:717
 #, php-format
 msgid "Must-Use <span class=\"count\">(%s)</span>"
 msgid_plural "Must-Use <span class=\"count\">(%s)</span>"
@@ -8579,7 +8562,7 @@ msgstr[0] "Aktivovaný automaticky <span class=\"count\">(%s)</span>"
 msgstr[1] "Aktivované automaticky <span class=\"count\">(%s)</span>"
 msgstr[2] "Aktivovaných automaticky <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:722
+#: wp-admin/plugins.php:721
 #, php-format
 msgid "Drop-ins <span class=\"count\">(%s)</span>"
 msgid_plural "Drop-ins <span class=\"count\">(%s)</span>"
@@ -8587,7 +8570,7 @@ msgstr[0] "Doplňkový soubor <span class=\"count\">(%s)</span>"
 msgstr[1] "Doplňkové soubory <span class=\"count\">(%s)</span>"
 msgstr[2] "Doplňkových souborů <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:726
+#: wp-admin/plugins.php:725
 #, php-format
 msgid "Upgrade Available <span class=\"count\">(%s)</span>"
 msgid_plural "Upgrade Available <span class=\"count\">(%s)</span>"
@@ -8595,7 +8578,7 @@ msgstr[0] "Dostupná aktualizace <span class=\"count\">(%s)</span>"
 msgstr[1] "Dostupné aktualizace <span class=\"count\">(%s)</span>"
 msgstr[2] "Dostupných aktualizací <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:731
+#: wp-admin/plugins.php:730
 #, php-format
 msgid "Search Results <span class=\"count\">(%s)</span>"
 msgid_plural "Search Results <span class=\"count\">(%s)</span>"
@@ -8603,15 +8586,19 @@ msgstr[0] "Výsledek vyhledávání <span class=\"count\">(%s)</span>"
 msgstr[1] "Výsledky vyhledávání <span class=\"count\">(%s)</span>"
 msgstr[2] "Výsledků vyhledávání <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:740
+#: wp-admin/plugins.php:739
 msgid "Files in the <code>/wp-content/mu-plugins</code> directory are executed automatically."
 msgstr "Soubory v adresáři <code>/wp-content/mu-plugins</code> jsou spouštěny automaticky bez potřeby aktivace."
 
-#: wp-admin/plugins.php:742
+#: wp-admin/plugins.php:741
 msgid "Drop-ins are advanced plugins in the <code>/wp-content</code> directory that replace WordPress functionality when present."
 msgstr "Doplňkové soubory jsou speciální pluginy, které jsou umístěné v adresáři <code>/wp-content</code> a automaticky mohou nahrazovat (či přidávat) některé funkce WordPressu."
 
-#: wp-admin/plugins.php:778
+#: wp-admin/plugins.php:773
+msgid "No plugins found."
+msgstr "Nebyly nalezeny žádné pluginy."
+
+#: wp-admin/plugins.php:779
 msgid "You do not appear to have any plugins available at this time."
 msgstr "Vypadá to, že nemáte v současné době žádný plugin k dispozici."
 
@@ -8629,6 +8616,10 @@ msgstr ""
 #: wp-admin/post.php:153
 msgid "You attempted to edit an item that doesn&#8217;t exist. Perhaps it was deleted?"
 msgstr "Pokoušíte se upravovat položku, která neexistuje. Nemohla být smazána?"
+
+#: wp-admin/post.php:156
+msgid "You are not allowed to edit this item."
+msgstr "Nemáte dostatečné oprávnění pro úpravy této položky."
 
 #: wp-admin/post.php:159
 msgid "You can&#8217;t edit this item because it is in the Trash. Please restore it and try again."
@@ -8720,14 +8711,14 @@ msgid "Embed a Video"
 msgstr "Vložit video"
 
 #: wp-admin/press-this.php:584
-#: wp-includes/general-template.php:1797
-#: wp-includes/general-template.php:1802
+#: wp-includes/general-template.php:1796
+#: wp-includes/general-template.php:1801
 msgid "HTML"
 msgstr "HTML"
 
 #: wp-admin/press-this.php:585
-#: wp-includes/general-template.php:1798
-#: wp-includes/general-template.php:1803
+#: wp-includes/general-template.php:1797
+#: wp-includes/general-template.php:1802
 msgid "Visual"
 msgstr "Editor"
 
@@ -8764,7 +8755,7 @@ msgid "Post published."
 msgstr "Příspěvek byl publikován."
 
 #: wp-admin/sidebar.php:103
-#: wp-content/plugins/akismet/akismet.php:1152
+#: wp-content/plugins/akismet/akismet.php:1142
 #: wp-includes/default-widgets.php:67
 #: wp-includes/default-widgets.php:197
 #: wp-includes/default-widgets.php:263
@@ -8775,7 +8766,7 @@ msgstr "Příspěvek byl publikován."
 #: wp-includes/default-widgets.php:588
 #: wp-includes/default-widgets.php:683
 #: wp-includes/default-widgets.php:1029
-#: wp-includes/default-widgets.php:1102
+#: wp-includes/default-widgets.php:1100
 msgid "Title:"
 msgstr "Název:"
 
@@ -9054,7 +9045,7 @@ msgstr "Aktualizovat automaticky"
 
 #: wp-admin/update-core.php:28
 msgid "You are using a development version of WordPress.  You can update to the latest nightly build automatically or download the nightly build and install it manually:"
-msgstr "Používáte vývojářskou verzi WordPressu, která je průběžně doplňována. Můžete kdykoliv provést automatickou aktualizaci na nejnovější verzi, nebo si stáhnout aktuální instalační balíček (tzv. nightly build) a provést instalaci ručně:"
+msgstr "Používáte vývojářskou verzi WordPressu, která je průběžně aktualizována. Můžete kdykoliv provést automatickou aktualizaci na nejnovější verzi, nebo si stáhnout aktuální instalační balíček (tzv. nightly build) a provést instalaci ručně:"
 
 #: wp-admin/update-core.php:29
 msgid "Download nightly build"
@@ -9072,22 +9063,22 @@ msgstr "Automatická aktualizace"
 #: wp-admin/update-core.php:39
 #, php-format
 msgid "You cannot update because <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
-msgstr "Automatická aktualizace nemůže být provedena, protože <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> vyžaduje alespoň PHP %2$s a MySQL %3$s. Na vašem serveru jsou však používány starší verze PHP %4$s a MySQL %5$s."
+msgstr "Automatická aktualizace nemůže být provedena, protože <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> vyžaduje alespoň PHP %2$s a MySQL %3$s. Na vašem serveru jsou však bohužel používány starší verze PHP %4$s a MySQL %5$s."
 
 #: wp-admin/update-core.php:41
 #, php-format
 msgid "You cannot update because <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> requires PHP version %2$s or higher. You are running version %3$s."
-msgstr "Automatická aktualizace nemůže být provedena, protože <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> vyžaduje alespoň PHP %2$s a na vašem serveru je používána starší verze PHP %3$s."
+msgstr "Automatická aktualizace nemůže být provedena, protože <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> vyžaduje alespoň PHP %2$s a na vašem serveru je bohužel používána starší verze PHP %3$s."
 
 #: wp-admin/update-core.php:43
 #, php-format
 msgid "You cannot update because <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> requires MySQL version %2$s or higher. You are running version %3$s."
-msgstr "Automatická aktualizace nemůže být provedena, protože <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> vyžaduje alespoň MySQL %2$s a na vašem serveru je používána starší verze MySQL %3$s."
+msgstr "Automatická aktualizace nemůže být provedena, protože <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> vyžaduje alespoň MySQL %2$s a na vašem serveru je používána bohužel starší verze MySQL %3$s."
 
 #: wp-admin/update-core.php:45
 #, php-format
-msgid "You can update to <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %2$s</a> automatically or download the package and install it manually:"
-msgstr "Můžete provést buď automatickou aktualizaci na novou verzi <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPressu %2$s</a>, nebo si stáhnout instalační balíček a nainstalovat WordPress ručně:"
+msgid "You can update to <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> automatically or download the package and install it manually:"
+msgstr "Můžete provést buď automatickou aktualizaci na novou verzi <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPressu %1$s</a>, nebo si stáhnout instalační balíček a aktualizovat WordPress ručně:"
 
 #: wp-admin/update-core.php:49
 #, php-format
@@ -9310,17 +9301,17 @@ msgstr "Vaše WordPress databáze je aktuální!"
 #: wp-admin/upgrade.php:66
 #, php-format
 msgid "You cannot upgrade because <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
-msgstr "Automatická aktualizace nemůže být provedena, protože <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> vyžaduje alespoň PHP %2$s a MySQL %3$s. Na vašem serveru jsou však používány starší verze PHP %4$s a MySQL %5$s."
+msgstr "Automatická aktualizace nemůže být provedena, protože <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> vyžaduje alespoň PHP %2$s a MySQL %3$s. Na vašem serveru jsou však bohužel používány starší verze PHP %4$s a MySQL %5$s."
 
 #: wp-admin/upgrade.php:68
 #, php-format
 msgid "You cannot upgrade because <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> requires PHP version %2$s or higher. You are running version %3$s."
-msgstr "Automatická aktualizace nemůže být provedena, protože <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> vyžaduje alespoň PHP %2$s a na vašem serveru je používána starší verze PHP %3$s."
+msgstr "Automatická aktualizace nemůže být provedena, protože <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> vyžaduje alespoň PHP %2$s a na vašem serveru je bohužel používána starší verze PHP %3$s."
 
 #: wp-admin/upgrade.php:70
 #, php-format
 msgid "You cannot upgrade because <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> requires MySQL version %2$s or higher. You are running version %3$s."
-msgstr "Automatická aktualizace nemůže být provedena, protože <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> vyžaduje alespoň MySQL %2$s a na vašem serveru je používána starší verze MySQL %3$s."
+msgstr "Automatická aktualizace nemůže být provedena, protože <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> vyžaduje alespoň MySQL %2$s a na vašem serveru je používána bohužel starší verze MySQL %3$s."
 
 #: wp-admin/upgrade.php:79
 msgid "Database Upgrade Required"
@@ -9643,7 +9634,7 @@ msgstr "Právě probíhá změna emailové adresy na <code>%1$s</code>. <a href=
 
 #: wp-admin/user-edit.php:317
 #: wp-admin/user-new.php:230
-#: wp-includes/comment-template.php:1528
+#: wp-includes/comment-template.php:1501
 #: wp-includes/theme-compat/comments.php:84
 msgid "Website"
 msgstr "Webová stránka"
@@ -9764,8 +9755,8 @@ msgid "You must assign a password to the new user, but don&#8217;t worry; when t
 msgstr "Každému nově vytvořenému uživateli musíte vybrat nějaké heslo. Není třeba se ale obávat jeho zneužití, protože jakmile se uživatel poprvé přihlásí do administrace WordPressu, objeví se mu výrazné upozornění, aby si heslo změnil. Uživatelské jméno však není možné změnit."
 
 #: wp-admin/user-new.php:121
-msgid "New users will receive an email letting them know they&#8217;ve been added as a user for your site. By default, this email will also contain their password. Uncheck the box if you don&#8217;t want the password to be included in the welcome email."
-msgstr "Noví uživatelé také automaticky obdrží notifikační email s informací, že byli zaregistrováni na vašem webu. Podle výchozího nastavení obsahuje tento email i jejich heslo, ale pokud jim ho např. z bezpečnostních důvodů raději nechcete emailem posílat, stačí jen odškrtnout příslušnou možnost ve formuláři."
+msgid "New users will receive an email letting them know they&#8217;ve been added as a user for your site. By default, this email will also contain their password. Uncheck the box if you do not the password to be included in the welcome email."
+msgstr "Všichni noví uživatelé také automaticky obdrží notifikační email s informací, že byli zaregistrováni na vašem webu. V tomto uvítacím emailu je podle výchozího nastavení uvedeno i jejich heslo. Pokud jim však heslo raději nechcete emailem posílat, stačí ve formuláři odškrtnout příslušnou možnost."
 
 #: wp-admin/user-new.php:122
 msgid "Remember to click the Add User button at the bottom of this screen when you are finished."
@@ -10130,8 +10121,8 @@ msgstr "Nemáte bohužel dostatečné oprávnění pro publikování nebo úprav
 #: wp-app.php:445
 #: wp-app.php:640
 #: wp-app.php:826
-#: xmlrpc.php:1871
-#: xmlrpc.php:2185
+#: xmlrpc.php:1865
+#: xmlrpc.php:2179
 msgid "Sorry, your entry could not be posted. Something wrong happened."
 msgstr "Váš příspěvek bohužel nemohl být uložen. Stalo se něco nečekaného."
 
@@ -10143,25 +10134,25 @@ msgstr "Nemáte bohužel dostatečné oprávnění pro přístup k tomuto přís
 #: wp-app.php:672
 #: wp-app.php:745
 #: wp-app.php:795
-#: xmlrpc.php:1911
+#: xmlrpc.php:1905
 msgid "Sorry, you do not have the right to edit this post."
 msgstr "Nemáte bohužel dostatečné oprávnění pro úpravy tohoto příspěvku."
 
 #: wp-app.php:529
 #: wp-app.php:688
-#: xmlrpc.php:1927
+#: xmlrpc.php:1921
 msgid "For some strange yet very annoying reason, this post could not be edited."
 msgstr "Z nějakých neznámých důvodů nelze tento příspěvek upravit."
 
 #: wp-app.php:551
 #: wp-app.php:709
-#: xmlrpc.php:1961
+#: xmlrpc.php:1955
 msgid "Sorry, you do not have the right to delete this post."
 msgstr "Nemáte bohužel dostatečné oprávnění pro smazání tohoto příspěvku."
 
 #: wp-app.php:559
 #: wp-app.php:724
-#: xmlrpc.php:1966
+#: xmlrpc.php:1960
 msgid "For some strange yet very annoying reason, this post could not be deleted."
 msgstr "Z nějakých neznámých důvodů nelze tento příspěvek smazat."
 
@@ -10357,108 +10348,108 @@ msgstr "U Akismetu se objevil nějaký problém."
 msgid "A server or network problem is preventing Akismet from working correctly.  <a href=\"%1$s\">Click here for more information</a> about how to fix the problem."
 msgstr "Patrně jde o potíže se serverem nebo počítačovou sítí, které znemožnily správné fungování Akismetu.  <a href=\"%1$s\">Kliknutím získáte podrobnější informace</a> o tomto problému a možnostech jeho řešení."
 
-#: wp-content/plugins/akismet/akismet.php:654
+#: wp-content/plugins/akismet/akismet.php:644
 #, php-format
 msgid "Akismet Spam (%s)"
 msgstr "Akismet Spam (%s)"
 
-#: wp-content/plugins/akismet/akismet.php:656
-#: wp-content/plugins/akismet/akismet.php:658
+#: wp-content/plugins/akismet/akismet.php:646
+#: wp-content/plugins/akismet/akismet.php:648
 msgid "Akismet Spam"
 msgstr "Akismet Spam"
 
-#: wp-content/plugins/akismet/akismet.php:668
-#: wp-content/plugins/akismet/akismet.php:687
+#: wp-content/plugins/akismet/akismet.php:658
+#: wp-content/plugins/akismet/akismet.php:677
 msgid "You do not have sufficient permission to moderate comments."
 msgstr "Nemáte dostatečné oprávnění pro moderování komentářů."
 
-#: wp-content/plugins/akismet/akismet.php:699
+#: wp-content/plugins/akismet/akismet.php:689
 #, php-format
 msgid "%1$s comments recovered."
 msgstr "Obnovené komentáře: %1$s."
 
-#: wp-content/plugins/akismet/akismet.php:703
+#: wp-content/plugins/akismet/akismet.php:693
 msgid "All spam deleted."
 msgstr "Všechny spamy byly smazány."
 
-#: wp-content/plugins/akismet/akismet.php:751
+#: wp-content/plugins/akismet/akismet.php:741
 msgid "Caught Spam"
 msgstr "Antispamová kontrola"
 
-#: wp-content/plugins/akismet/akismet.php:756
+#: wp-content/plugins/akismet/akismet.php:746
 #, php-format
 msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
 msgstr "Od instalace tohoto pluginu zachytil Akismet celkem <strong>%1$s spamů</strong>."
 
-#: wp-content/plugins/akismet/akismet.php:763
+#: wp-content/plugins/akismet/akismet.php:753
 msgid "You have no spam currently in the queue. Must be your lucky day. :)"
 msgstr "Dnes na vás nečeká ve frontě ke schválení žádný spam. Šťastný den. :)"
 
-#: wp-content/plugins/akismet/akismet.php:766
+#: wp-content/plugins/akismet/akismet.php:756
 msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
 msgstr "Můžete smazat jedním kliknutím všechny spamy, které jsou uloženy ve vaší databázi. Tato operace se však nedá vrátit zpět, takže doporučujeme důkladně tyto mazané komentáře zkontrolovat. Všechny komentáře označené jako spam budou automaticky odstraněny po 15 dnech, takže se jejich mazáním nemusíte vůbec zabývat."
 
-#: wp-content/plugins/akismet/akismet.php:772
-#: wp-content/plugins/akismet/akismet.php:950
+#: wp-content/plugins/akismet/akismet.php:762
+#: wp-content/plugins/akismet/akismet.php:940
 #, php-format
 msgid "There are currently %1$s comments identified as spam."
 msgstr "Momentálně máte %1$s komentářů označených jako spam."
 
-#: wp-content/plugins/akismet/akismet.php:772
-#: wp-content/plugins/akismet/akismet.php:950
+#: wp-content/plugins/akismet/akismet.php:762
+#: wp-content/plugins/akismet/akismet.php:940
 msgid "Delete all"
 msgstr "Smazat všechny"
 
-#: wp-content/plugins/akismet/akismet.php:781
+#: wp-content/plugins/akismet/akismet.php:771
 msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
 msgstr "Zde je přehled posledních komentářů, které Akismet označil jako spam. Pokud jsou některé komentáře označeny chybně jako spam, tak u nich zaškrtněte možnost \"Není spam\" a výběr nakonec potvrďte dole na stránce kliknutím na tlačítko \"Vybrané komentáře označit jako korektní\". Akismet si to zapamatuje a přístě již tuto chybu neudělá. Raději zachycené spamy občas zkontrolujte, protože budou vždy po 15 dnech všechny automaticky smazány."
 
-#: wp-content/plugins/akismet/akismet.php:812
+#: wp-content/plugins/akismet/akismet.php:802
 msgid "All"
 msgstr "Celkem"
 
-#: wp-content/plugins/akismet/akismet.php:835
+#: wp-content/plugins/akismet/akismet.php:825
 msgid "Search Spam &raquo;"
 msgstr "Hledat spam &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:842
-#: wp-content/plugins/akismet/akismet.php:909
+#: wp-content/plugins/akismet/akismet.php:832
+#: wp-content/plugins/akismet/akismet.php:899
 #: wp-includes/link-template.php:1596
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Předchozí stránka"
 
-#: wp-content/plugins/akismet/akismet.php:863
-#: wp-content/plugins/akismet/akismet.php:930
+#: wp-content/plugins/akismet/akismet.php:853
+#: wp-content/plugins/akismet/akismet.php:920
 #: wp-includes/link-template.php:1597
 msgid "Next Page &raquo;"
 msgstr "Další stránka &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:885
+#: wp-content/plugins/akismet/akismet.php:875
 msgid "IP:"
 msgstr "IP:"
 
-#: wp-content/plugins/akismet/akismet.php:891
+#: wp-content/plugins/akismet/akismet.php:881
 msgid "Not Spam"
 msgstr "Není spam"
 
-#: wp-content/plugins/akismet/akismet.php:936
+#: wp-content/plugins/akismet/akismet.php:926
 msgid "De-spam marked comments &raquo;"
 msgstr "Vybrané komentáře označit jako korektní &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:938
+#: wp-content/plugins/akismet/akismet.php:928
 msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
 msgstr "Komentáře, které označíte jako korektní, budou automaticky oznámeny autorům Akismetu a pomohou do budoucna zlepšit funkce tohoto antispamu."
 
-#: wp-content/plugins/akismet/akismet.php:968
+#: wp-content/plugins/akismet/akismet.php:958
 msgid "Spam"
 msgstr "Spam"
 
-#: wp-content/plugins/akismet/akismet.php:974
+#: wp-content/plugins/akismet/akismet.php:964
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
 msgstr "<a href=\"%1$s\">Akismet</a> ochránil váš web před <a href=\"%2$s\">%3$s útoky komentářového spamu</a>."
 
-#: wp-content/plugins/akismet/akismet.php:992
+#: wp-content/plugins/akismet/akismet.php:982
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
@@ -10466,12 +10457,12 @@ msgstr[0] "<a href=\"%1$s\">Akismet</a> už ochránil váš web před %2$s útok
 msgstr[1] "<a href=\"%1$s\">Akismet</a> už ochránil váš web před %2$s útoky komentářového spamu."
 msgstr[2] "<a href=\"%1$s\">Akismet</a> už ochránil váš web před %2$s útoky komentářového spamu."
 
-#: wp-content/plugins/akismet/akismet.php:997
+#: wp-content/plugins/akismet/akismet.php:987
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
 msgstr "<a href=\"%1$s\">Akismet</a> blokuje komentářový spam, aby se nezobrazoval na vašem webu."
 
-#: wp-content/plugins/akismet/akismet.php:1002
+#: wp-content/plugins/akismet/akismet.php:992
 #, php-format
 msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
@@ -10479,38 +10470,38 @@ msgstr[0] "V tuto chvíli máte ve spamovém koši <a href=\"%2$s\">%1$s koment�
 msgstr[1] "V tuto chvíli máte ve spamovém koši <a href=\"%2$s\">%1$s komentářové spamy</a>."
 msgstr[2] "V tuto chvíli máte ve spamovém koši <a href=\"%2$s\">%1$s komentářových spamů</a>."
 
-#: wp-content/plugins/akismet/akismet.php:1007
+#: wp-content/plugins/akismet/akismet.php:997
 #, php-format
 msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
 msgstr "V tuto chvíli není <a href='%1$s'>ve spamovém koši</a> žádný komentářový spam."
 
-#: wp-content/plugins/akismet/akismet.php:1010
+#: wp-content/plugins/akismet/akismet.php:1000
 #, php-format
 msgid "%1$s %2$s|akismet_rightnow"
 msgstr "%1$s %2$s|akismet_rightnow"
 
-#: wp-content/plugins/akismet/akismet.php:1027
+#: wp-content/plugins/akismet/akismet.php:1017
 msgid "Recheck Queue for Spam"
 msgstr "Překontrolovat komentáře, zda neobsahují spam"
 
-#: wp-content/plugins/akismet/akismet.php:1044
+#: wp-content/plugins/akismet/akismet.php:1034
 msgid "Check for Spam"
 msgstr "Překontrolovat komentáře, zda neobsahují spam"
 
-#: wp-content/plugins/akismet/akismet.php:1120
+#: wp-content/plugins/akismet/akismet.php:1110
 #, php-format
 msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
 msgstr "%1$s %2$sspamů%3$s %4$szachytil%5$s<br />%6$sAkismet%7$s"
 
-#: wp-content/plugins/akismet/akismet.php:1144
+#: wp-content/plugins/akismet/akismet.php:1134
 msgid "Spam Blocked"
 msgstr "Boj proti spamu"
 
-#: wp-content/plugins/akismet/akismet.php:1182
+#: wp-content/plugins/akismet/akismet.php:1172
 msgid "spam comments"
 msgstr "komentářové spamy"
 
-#: wp-content/plugins/akismet/akismet.php:1182
+#: wp-content/plugins/akismet/akismet.php:1172
 msgid "blocked by"
 msgstr "blokováno"
 
@@ -10694,7 +10685,7 @@ msgstr "Zobrazit všechny příspěvky zařazené do rubriky %s"
 #: wp-includes/classes.php:1362
 #, php-format
 msgid "Feed for all posts filed under %s"
-msgstr "RSS zdroj pro všechny příspěvky zařazené do rubriky %s"
+msgstr "RSS zdroj pro všechny příspěvky zažazené do rubriky %s"
 
 #: wp-includes/comment-template.php:30
 #: wp-includes/theme.php:236
@@ -10702,17 +10693,17 @@ msgid "Anonymous"
 msgstr "Anonymní"
 
 #: wp-includes/comment-template.php:584
-#: wp-includes/comment-template.php:978
+#: wp-includes/comment-template.php:951
 msgid "% Comments"
 msgstr "Komentáře: %"
 
 #: wp-includes/comment-template.php:586
-#: wp-includes/comment-template.php:976
+#: wp-includes/comment-template.php:949
 msgid "No Comments"
 msgstr "Žádné komentáře"
 
 #: wp-includes/comment-template.php:588
-#: wp-includes/comment-template.php:977
+#: wp-includes/comment-template.php:950
 msgid "1 Comment"
 msgstr "1 komentář"
 
@@ -10720,101 +10711,101 @@ msgstr "1 komentář"
 msgid "Use <code>get_trackback_url()</code> instead if you do not want the value echoed."
 msgstr "Pokud nechcete příslušnou URL adresu pro trackbacky přímo zobrazit, použijte raději funkci <code>get_trackback_url()</code>."
 
-#: wp-includes/comment-template.php:979
+#: wp-includes/comment-template.php:952
 msgid "Comments Off"
 msgstr "Komentáře nejsou povoleny"
 
-#: wp-includes/comment-template.php:989
+#: wp-includes/comment-template.php:962
 msgid "Enter your password to view comments."
 msgstr "Pro zobrazení komentářů zadejte heslo."
 
-#: wp-includes/comment-template.php:1016
+#: wp-includes/comment-template.php:989
 #, php-format
 msgid "Comment on %s"
 msgstr "Komentáře k příspěvku %s"
 
-#: wp-includes/comment-template.php:1042
+#: wp-includes/comment-template.php:1015
 msgid "Log in to Reply"
 msgstr "Pro vložení odpovědi na komentář se musíte přihlásit"
 
-#: wp-includes/comment-template.php:1102
+#: wp-includes/comment-template.php:1075
 msgid "Leave a Comment"
 msgstr "Napsat komentář"
 
-#: wp-includes/comment-template.php:1103
+#: wp-includes/comment-template.php:1076
 msgid "Log in to leave a Comment"
 msgstr "Pro vložení komentáře se musíte přihlásit"
 
-#: wp-includes/comment-template.php:1142
+#: wp-includes/comment-template.php:1115
 msgid "Click here to cancel reply."
 msgstr "Odpověď na komentář zrušíte zde."
 
-#: wp-includes/comment-template.php:1198
-#: wp-includes/comment-template.php:1542
+#: wp-includes/comment-template.php:1171
+#: wp-includes/comment-template.php:1515
 #: wp-includes/theme-compat/comments.php:59
 msgid "Leave a Reply"
 msgstr "Napsat komentář"
 
-#: wp-includes/comment-template.php:1199
-#: wp-includes/comment-template.php:1543
+#: wp-includes/comment-template.php:1172
+#: wp-includes/comment-template.php:1516
 #: wp-includes/theme-compat/comments.php:59
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr "Napsat komentář k %s"
 
-#: wp-includes/comment-template.php:1356
+#: wp-includes/comment-template.php:1329
 #, php-format
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
 msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">napsal:</span>"
 
-#: wp-includes/comment-template.php:1359
+#: wp-includes/comment-template.php:1332
 msgid "Your comment is awaiting moderation."
 msgstr "Komentář čeká na schválení."
 
 #. translators: 1: date, 2: time
-#: wp-includes/comment-template.php:1366
+#: wp-includes/comment-template.php:1339
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s v %2$s"
 
-#: wp-includes/comment-template.php:1366
+#: wp-includes/comment-template.php:1339
 msgid "(Edit)"
 msgstr "(Upravit)"
 
-#: wp-includes/comment-template.php:1526
+#: wp-includes/comment-template.php:1499
 msgid "Email"
 msgstr "Emailová adresa"
 
-#: wp-includes/comment-template.php:1532
+#: wp-includes/comment-template.php:1505
 #, php-format
 msgid "Required fields are marked %s"
 msgstr "Vyžadované informace jsou označeny %s"
 
-#: wp-includes/comment-template.php:1536
+#: wp-includes/comment-template.php:1509
 #: wp-includes/theme-compat/comments.php:66
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr "Pro přidání komentáře musíte <a href=\"%s\">být přihlášeni</a>."
 
-#: wp-includes/comment-template.php:1537
+#: wp-includes/comment-template.php:1510
 #, php-format
 msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
 msgstr "Jste přihlášeni jako <a href=\"%1$s\">%2$s</a>. Chcete se <a href=\"%3$s\" title=\"Odhlásit se z tohoto účtu\">odhlásit</a>?"
 
-#: wp-includes/comment-template.php:1538
+#: wp-includes/comment-template.php:1511
 msgid "Your email address will not be published."
 msgstr "Vaše emailová adresa nebude zveřejněna."
 
-#: wp-includes/comment-template.php:1539
+#: wp-includes/comment-template.php:1512
 #, php-format
 msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
 msgstr "Můžete používat následující <abbr title=\"HyperText Markup Language\">HTML</abbr> značky a atributy: %s"
 
-#: wp-includes/comment-template.php:1544
+#: wp-includes/comment-template.php:1517
 msgid "Cancel reply"
 msgstr "Zrušit odpověď na komentář"
 
-#: wp-includes/comment-template.php:1545
+#: wp-includes/comment-template.php:1518
 msgid "Post Comment"
 msgstr "Odeslat komentář"
 
@@ -11087,7 +11078,7 @@ msgstr "Použitím tohoto widgetu můžete zobrazit vytvořené menu na příslu
 msgid "Custom Menu"
 msgstr "Menu"
 
-#: wp-includes/default-widgets.php:1097
+#: wp-includes/default-widgets.php:1095
 #, php-format
 msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
 msgstr "Zatím nebylo vytvořeno žádné menu. <a href=\"%s\">Vytvořit menu</a>."
@@ -11149,7 +11140,6 @@ msgstr "Chráněné komentáře: Pokud je chcete zobrazit, zadejte svoje heslo."
 
 #. translators: opening curly quote
 #: wp-includes/formatting.php:40
-#: wp-includes/formatting.php:2836
 msgctxt "opening curly quote"
 msgid "&#8220;"
 msgstr "&#8222;"
@@ -11580,15 +11570,15 @@ msgstr "%1$s %2$s RSS příspěvků autora %3$s"
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
 msgstr "%1$s %2$s RSS výsledků vyhledávání výrazu &#8222;%3$s&#8220;"
 
-#: wp-includes/general-template.php:1951
+#: wp-includes/general-template.php:1950
 msgid "&laquo; Previous"
 msgstr "&laquo; Předchozí"
 
-#: wp-includes/general-template.php:1952
+#: wp-includes/general-template.php:1951
 msgid "Next &raquo;"
 msgstr "Další &raquo;"
 
-#: wp-includes/general-template.php:2060
+#: wp-includes/general-template.php:2059
 msgid "Gray"
 msgstr "Šedivé"
 
@@ -13184,7 +13174,7 @@ msgstr "Přepnout do režimu HTML "
 #: wp-includes/js/tinymce/wp-mce-help.php:243
 #, php-format
 msgid "TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor control released as Open Source under %sLGPL</a>\tby Moxiecode Systems AB. It has the ability to convert HTML TEXTAREA fields or other HTML elements to editor instances."
-msgstr "TinyMCE je vizuální (WYSIWYG) HTML editor, který je založený na Javascriptu a je nezávislý na provozované platformě. Tento editor je distribuován jako Open Source software (pod licencí %sLGPL</a>) a je neustále vylepšován společností Moxiecode Systems AB. Je schopen převádět obsah textových polí (TEXTAREA) nebo jiných HTML prvků do vizuální podoby a tu zase naopak převádět na čistý HTML kód."
+msgstr "TinyMCE je HTML WYSIWYG editor, který je založený na Javascriptu a nezávislý na platformě, na které je provozován. Tento editor je šířen jako OpenSource software (pod licencí %sLGPL</a>) a je neustále vylepšován společností Moxiecode Systems AB. Je schopen převádět obsah textových polí nebo jiných HTML prvků do vizuální podoby a tu zase naopak převádět na čistý HTML kód."
 
 #: wp-includes/js/tinymce/wp-mce-help.php:243
 msgid "GNU Library General Public Licence"
@@ -13234,7 +13224,7 @@ msgstr "Předchozí příspěvek"
 #: wp-includes/link-template.php:1078
 #: wp-includes/link-template.php:1356
 msgid "Next Post"
-msgstr "Následující příspěvek"
+msgstr "Další příspěvek"
 
 #: wp-includes/link-template.php:1216
 msgid "First Post"
@@ -13328,7 +13318,7 @@ msgstr "Soubor &#8222;%s&#8220; neexistuje?"
 
 #: wp-includes/media.php:249
 msgid "The GD image library is not installed."
-msgstr "PHP knihovna GD není nainstalována."
+msgstr "Knihovna GD není nainstalována."
 
 #: wp-includes/media.php:256
 #, php-format
@@ -13341,25 +13331,25 @@ msgstr "Nepodařilo se načíst velikost obrázku"
 
 #: wp-includes/media.php:418
 msgid "Could not calculate resized image dimensions"
-msgstr "Nepodařilo se vypočítat nové rozměry upravovaného obrázku"
+msgstr "Nepodařilo se bohužel vypočítat nové rozměry upravovaného obrázku"
 
 #: wp-includes/media.php:446
 #: wp-includes/media.php:449
 #: wp-includes/media.php:454
 msgid "Resize path invalid"
-msgstr "Cesta pro uložení změn velikosti obrázku není správná"
+msgstr "Cesta pro uložení změn velikosti není správná"
 
-#: wp-includes/nav-menu.php:226
-#: wp-includes/nav-menu.php:233
+#: wp-includes/nav-menu.php:209
+#: wp-includes/nav-menu.php:216
 #, php-format
 msgid "The menu name <strong>%s</strong> conflicts with another menu name. Please try another."
 msgstr "Zadaný název <strong>%s</strong> již existuje. Zkuste prosím pro nové menu zvolit jiný název."
 
-#: wp-includes/nav-menu.php:275
+#: wp-includes/nav-menu.php:258
 msgid "The given object ID is not that of a menu item."
 msgstr "Toto ID objektu není položkou menu."
 
-#: wp-includes/nav-menu.php:580
+#: wp-includes/nav-menu.php:563
 msgid "Custom"
 msgstr "Uživatelský odkaz"
 
@@ -13377,13 +13367,13 @@ msgstr "Nový komentář u příspěvku \"%s\""
 #: wp-includes/pluggable.php:1130
 #, php-format
 msgid "Author : %1$s (IP: %2$s , %3$s)"
-msgstr "Autor   : %1$s (IP: %2$s , %3$s)"
+msgstr "Autor : %1$s (IP: %2$s , %3$s)"
 
 #: wp-includes/pluggable.php:1024
 #: wp-includes/pluggable.php:1131
 #, php-format
 msgid "E-mail : %s"
-msgstr "Email   : %s"
+msgstr "Email: %s"
 
 #: wp-includes/pluggable.php:1025
 #: wp-includes/pluggable.php:1035
@@ -13393,13 +13383,13 @@ msgstr "Email   : %s"
 #: wp-includes/pluggable.php:1132
 #, php-format
 msgid "URL    : %s"
-msgstr "URL     : %s"
+msgstr "URL    : %s"
 
 #: wp-includes/pluggable.php:1026
 #: wp-includes/pluggable.php:1133
 #, php-format
 msgid "Whois  : http://ws.arin.net/cgi-bin/whois.pl?queryinput=%s"
-msgstr "Whois   : http://ws.arin.net/cgi-bin/whois.pl?queryinput=%s"
+msgstr "Whois  : http://ws.arin.net/cgi-bin/whois.pl?queryinput=%s"
 
 #: wp-includes/pluggable.php:1027
 #: wp-includes/pluggable.php:1134
@@ -13802,27 +13792,27 @@ msgstr "V koši nebyly nalezeny žádné stránky"
 msgid "Parent Page:"
 msgstr "Nadřazená stránka:"
 
-#: wp-includes/post.php:2175
+#: wp-includes/post.php:2169
 msgid "Content, title, and excerpt are empty."
 msgstr "Obsah, název a stručný výpis nejsou vyplněny."
 
-#: wp-includes/post.php:2308
+#: wp-includes/post.php:2302
 msgid "Could not update post in the database"
 msgstr "Nepodařilo se aktualizovat příspěvek v databázi"
 
-#: wp-includes/post.php:2324
+#: wp-includes/post.php:2318
 msgid "Could not insert post into the database"
 msgstr "Nepodařilo se uložit příspěvek do databáze"
 
-#: wp-includes/post.php:2374
+#: wp-includes/post.php:2368
 msgid "The page template is invalid."
 msgstr "Šablona stránky je neplatná."
 
-#: wp-includes/post.php:4546
+#: wp-includes/post.php:4540
 msgid "Cannot create a revision of a revision"
 msgstr "Nemůžete vytvořit starší verzi starší verze příspěvku"
 
-#: wp-includes/post.php:4722
+#: wp-includes/post.php:4716
 msgid "You do not have permission to preview drafts."
 msgstr "Nemáte dostatečné oprávnění pro zobrazování náhledů konceptů."
 
@@ -13852,7 +13842,7 @@ msgstr "Jabber / Google Talk"
 
 #: wp-includes/rss.php:900
 msgid "An error has occurred, which probably means the feed is down. Try again later."
-msgstr "Objevila se nečekaná chyba, což pravděpodobně znamená, že je RSS zdroj mimo provoz. Zkuste to prosím později."
+msgstr "Objevila se nečekaná chyba, RSS zdroj je pravděpodobně mimo provoz. Zkuste to prosím později."
 
 #: wp-includes/script-loader.php:66
 msgid ""
@@ -13868,7 +13858,7 @@ msgstr "(Rychlé odkazy)"
 
 #: wp-includes/script-loader.php:76
 msgid "Enter a word to look up:"
-msgstr "Zadejte hledané slovo:"
+msgstr "Vložte slovo pro kontrolu:"
 
 #: wp-includes/script-loader.php:77
 msgid "Dictionary lookup"
@@ -13995,6 +13985,12 @@ msgstr "byl přesunut do koše."
 #: wp-includes/script-loader.php:231
 msgid "Separate multiple categories with commas."
 msgstr "Více rubrik oddělte čárkami."
+
+#. translators: password strength
+#: wp-includes/script-loader.php:256
+msgctxt "password strength"
+msgid "Medium"
+msgstr "Střední"
 
 #: wp-includes/script-loader.php:281
 msgid "Tags used on this post:"
@@ -14637,7 +14633,7 @@ msgstr "Zkontrolujte svojí emailovou schránku, zda už nedorazilo nové heslo.
 
 #: wp-login.php:574
 msgid "Registration complete. Please check your e-mail."
-msgstr "Registrace byla úspěšně dokončena. Zkontrolujte prosím svojí emailovou schránku."
+msgstr "Registrace úspěšně dokončena. Zkontrolujte prosím svojí emailovou schránku."
 
 #: wp-login.php:576
 msgid "Your session has expired. Please log-in again."
@@ -14758,216 +14754,215 @@ msgstr "Omlouváme se, ale musíte mít právo upravovat příspěvky, abyste si
 msgid "Sorry, you do not have the right to add a category."
 msgstr "Nemáte bohužel dostatečné oprávnění pro vytvoření nové rubriky."
 
-#: xmlrpc.php:941
-#: xmlrpc.php:943
+#: xmlrpc.php:938
 msgid "Sorry, the new category failed."
 msgstr "Nepodařilo se vytvořit novou rubriku."
 
-#: xmlrpc.php:971
+#: xmlrpc.php:965
 msgid "Sorry, you do not have the right to delete a category."
 msgstr "Nemáte bohužel dostatečné oprávnění pro mazání rubrik."
 
-#: xmlrpc.php:997
+#: xmlrpc.php:991
 msgid "Sorry, you must be able to edit posts to this site in order to view categories."
 msgstr "Omlouváme se, ale musíte mít právo upravovat příspěvky, abyste si mohli prohlížet rubriky na tomto webu."
 
-#: xmlrpc.php:1033
-#: xmlrpc.php:1155
-#: xmlrpc.php:1186
+#: xmlrpc.php:1027
+#: xmlrpc.php:1149
+#: xmlrpc.php:1180
 msgid "You are not allowed to moderate comments on this site."
 msgstr "Nemáte dostatečné oprávnění pro moderování komentářů na tomto webu."
 
-#: xmlrpc.php:1038
-#: xmlrpc.php:1160
-#: xmlrpc.php:1191
+#: xmlrpc.php:1032
+#: xmlrpc.php:1154
+#: xmlrpc.php:1185
 msgid "Invalid comment ID."
 msgstr "Neplatné ID komentáře."
 
-#: xmlrpc.php:1096
+#: xmlrpc.php:1090
 msgid "Sorry, you cannot edit comments."
 msgstr "Nemůžete bohužel upravovat komentáře."
 
-#: xmlrpc.php:1198
+#: xmlrpc.php:1192
 msgid "Invalid comment status."
 msgstr "Neplatný stav komentáře."
 
-#: xmlrpc.php:1229
+#: xmlrpc.php:1223
 msgid "Sorry, the comment could not be edited. Something wrong happened."
 msgstr "Omlouváme se, ale komentář se bohužel nepodařilo upravit. Stalo se něco nečekaného."
 
-#: xmlrpc.php:1260
+#: xmlrpc.php:1254
 msgid "You must be registered to comment"
 msgstr "Musíte se zaregistrovat, abyste mohli přidávat komentáře."
 
-#: xmlrpc.php:1273
-#: xmlrpc.php:1276
-#: xmlrpc.php:2300
+#: xmlrpc.php:1267
+#: xmlrpc.php:1270
+#: xmlrpc.php:2294
 msgid "Invalid post ID."
 msgstr "Neplatné ID příspěvku."
 
-#: xmlrpc.php:1302
+#: xmlrpc.php:1296
 msgid "Comment author name and email are required"
 msgstr "Pro přidání komentáře musíte vyplnit své jméno a email"
 
-#: xmlrpc.php:1304
+#: xmlrpc.php:1298
 msgid "A valid email address is required"
 msgstr "Platná emailová adresa je vyžadována"
 
-#: xmlrpc.php:1336
-#: xmlrpc.php:1395
-#: xmlrpc.php:1421
-#: xmlrpc.php:1447
+#: xmlrpc.php:1330
+#: xmlrpc.php:1389
+#: xmlrpc.php:1415
+#: xmlrpc.php:1441
 msgid "You are not allowed access to details about this site."
 msgstr "Nemáte dostatečné oprávnění pro zobrazení detailních informací o tomto webu."
 
-#: xmlrpc.php:1363
+#: xmlrpc.php:1357
 msgid "You are not allowed access to details about comments."
 msgstr "Nemáte dostatečné oprávnění pro zobrazení detailů o komentářích."
 
-#: xmlrpc.php:1525
+#: xmlrpc.php:1519
 msgid "You are not allowed to update options."
 msgstr "Nemáte dostatečné oprávnění pro aktualizaci nastavení webu."
 
-#: xmlrpc.php:1633
+#: xmlrpc.php:1627
 msgid "Sorry, you do not have access to user data on this site."
 msgstr "Nemáte bohužel dostatečné oprávnění pro přístup k informacím o registrovaných uživatelích na tomto webu."
 
-#: xmlrpc.php:1668
-#: xmlrpc.php:2514
-#: xmlrpc.php:2998
-#: xmlrpc.php:3105
+#: xmlrpc.php:1662
+#: xmlrpc.php:2508
+#: xmlrpc.php:2992
+#: xmlrpc.php:3099
 msgid "Sorry, you cannot edit this post."
 msgstr "Nemůžete bohužel upravovat tento příspěvek."
 
-#: xmlrpc.php:1715
-#: xmlrpc.php:2864
+#: xmlrpc.php:1709
+#: xmlrpc.php:2858
 msgid "Either there are no posts, or something went wrong."
 msgstr "Nejsou tu patrně žádné příspěvky, nebo se stala nějaká chyba."
 
-#: xmlrpc.php:1770
+#: xmlrpc.php:1764
 msgid "Sorry, this user can not edit the template."
 msgstr "Tento uživatel nemůže bohužel upravovat šablonu."
 
-#: xmlrpc.php:1810
+#: xmlrpc.php:1804
 msgid "Sorry, this user cannot edit the template."
 msgstr "Tento uživatel nemůže bohužel upravovat šablonu."
 
-#: xmlrpc.php:1820
+#: xmlrpc.php:1814
 msgid "Either the file is not writable, or something wrong happened. The file has not been updated."
 msgstr "Nelze zapisovat do souboru, nebo se stala nějaká chyba. Soubor nebyl aktualizován."
 
-#: xmlrpc.php:1851
+#: xmlrpc.php:1845
 msgid "Sorry, you are not allowed to post on this site."
 msgstr "Nemáte bohužel dostatečné oprávnění pro vytváření nových příspěvků na tomto webu."
 
-#: xmlrpc.php:1906
-#: xmlrpc.php:1958
-#: xmlrpc.php:2603
-#: xmlrpc.php:3060
+#: xmlrpc.php:1900
+#: xmlrpc.php:1952
+#: xmlrpc.php:2597
+#: xmlrpc.php:3054
 msgid "Sorry, no such post."
 msgstr "Žádný takový příspěvek tu bohužel není."
 
-#: xmlrpc.php:1916
-#: xmlrpc.php:2439
+#: xmlrpc.php:1910
+#: xmlrpc.php:2433
 msgid "Sorry, you do not have the right to publish this post."
 msgstr "Nemáte bohužel dostatečné oprávnění pro publikování tohoto příspěvku."
 
-#: xmlrpc.php:1998
-#: xmlrpc.php:2273
+#: xmlrpc.php:1992
+#: xmlrpc.php:2267
 msgid "Sorry, you are not allowed to publish posts on this site."
 msgstr "Nemáte bohužel dostatečné oprávnění pro publikování příspěvků na tomto webu."
 
-#: xmlrpc.php:2004
-#: xmlrpc.php:2279
+#: xmlrpc.php:1998
+#: xmlrpc.php:2273
 msgid "Sorry, you are not allowed to publish pages on this site."
 msgstr "Nemáte bohužel dostatečné oprávnění pro publikování stránek na tomto webu."
 
-#: xmlrpc.php:2012
-#: xmlrpc.php:2051
-#: xmlrpc.php:2287
-#: xmlrpc.php:2336
+#: xmlrpc.php:2006
+#: xmlrpc.php:2045
+#: xmlrpc.php:2281
+#: xmlrpc.php:2330
 msgid "Invalid post type."
 msgstr "Nesprávný typ obsahu."
 
-#: xmlrpc.php:2044
+#: xmlrpc.php:2038
 msgid "You are not allowed to post as this user"
 msgstr "Nemáte dostatečné oprávnění pro vytváření nových příspěvků se jménem tohoto uživatele."
 
-#: xmlrpc.php:2048
+#: xmlrpc.php:2042
 msgid "You are not allowed to create pages as this user"
 msgstr "Nemáte dostatečné oprávnění pro vytváření nových stránek se jménem tohoto uživatele."
 
-#: xmlrpc.php:2329
+#: xmlrpc.php:2323
 msgid "You are not allowed to change the post author as this user."
 msgstr "Nemáte dostatečné oprávnění pro změnu autora tohoto příspěvku na tohoto uživatele."
 
-#: xmlrpc.php:2333
+#: xmlrpc.php:2327
 msgid "You are not allowed to change the page author as this user."
 msgstr "Nemáte dostatečné oprávnění pro změnu autora této stránky na tohoto uživatele."
 
-#: xmlrpc.php:2437
+#: xmlrpc.php:2431
 msgid "Sorry, you do not have the right to publish this page."
 msgstr "Nemáte bohužel dostatečné oprávnění pro publikování této stránky."
 
-#: xmlrpc.php:2471
+#: xmlrpc.php:2465
 msgid "Sorry, your entry could not be edited. Something wrong happened."
 msgstr "Váš příspěvek se bohužel nepodařilo upravit. Stalo se něco nečekaného."
 
-#: xmlrpc.php:2729
-#: xmlrpc.php:2917
+#: xmlrpc.php:2723
+#: xmlrpc.php:2911
 msgid "Sorry, you must be able to edit posts on this site in order to view categories."
 msgstr "Omlouváme se, ale musíte mít právo upravovat příspěvky, abyste si mohli prohlížet rubriky na tomto webu."
 
-#: xmlrpc.php:2785
+#: xmlrpc.php:2779
 msgid "You are not allowed to upload files to this site."
 msgstr "Nemáte dostatečné oprávnění pro nahrávání souborů na tomto webu."
 
-#: xmlrpc.php:2812
+#: xmlrpc.php:2806
 #, php-format
 msgid "Could not write file %1$s (%2$s)"
 msgstr "Nepodařilo se zapisovat do souboru %1$s (%2$s)"
 
-#: xmlrpc.php:2955
+#: xmlrpc.php:2949
 msgid "Sorry, you can not edit this post."
 msgstr "Nemůžete bohužel upravovat tento příspěvek."
 
-#: xmlrpc.php:3152
+#: xmlrpc.php:3146
 msgid "Is there no link to us?"
 msgstr "Jsou tu nějaké odkazy na nás?"
 
-#: xmlrpc.php:3192
-#: xmlrpc.php:3202
-#: xmlrpc.php:3209
-#: xmlrpc.php:3315
+#: xmlrpc.php:3186
+#: xmlrpc.php:3196
+#: xmlrpc.php:3203
+#: xmlrpc.php:3309
 msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
 msgstr "Zadaná URL adresa nemůže být použita jako cíl. Buď tato adresa vůbec neexistuje, nebo nemá povolené pingbacky."
 
-#: xmlrpc.php:3205
+#: xmlrpc.php:3199
 msgid "The source URL and the target URL cannot both point to the same resource."
 msgstr "Zdrojová a cílová URL adresa nemohou odkazovat na stejný zdroj."
 
-#: xmlrpc.php:3213
+#: xmlrpc.php:3207
 msgid "The pingback has already been registered."
 msgstr "Pingback už byl zaznamenán."
 
-#: xmlrpc.php:3221
+#: xmlrpc.php:3215
 msgid "The source URL does not exist."
 msgstr "Zdrojová URL adresa neexistuje."
 
-#: xmlrpc.php:3233
+#: xmlrpc.php:3227
 msgid "We cannot find a title on that page."
 msgstr "Nepodařilo se najít název této stránky."
 
-#: xmlrpc.php:3269
+#: xmlrpc.php:3263
 msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
 msgstr "Zdrojová URL adresa neobsahuje odkaz na cílovou URL adresu, takže nemůže být použita jako zdroj."
 
-#: xmlrpc.php:3289
+#: xmlrpc.php:3283
 #, php-format
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
 msgstr "Pingback od %1$s pro %2$s byl zaznamenán. Pomáháme udržovat internetovou komunikaci a spolupráci :-)"
 
-#: xmlrpc.php:3322
+#: xmlrpc.php:3316
 msgid "The specified target URL does not exist."
 msgstr "Zadaná cílová URL adresa neexistuje."
 
@@ -15055,7 +15050,7 @@ msgstr "Váš server sice používá PHP verze %1$s, ale WordPress %2$s vyžaduj
 #. Not gettexted string WP_I18N_OLD_MYSQL
 #: wp-includes/load.php:110
 msgid "Your PHP installation appears to be missing the MySQL extension which is required by WordPress."
-msgstr "Ve vaší instalaci PHP patrně chybí rozšíření MySQL, které je však pro fungování WordPressu vyžadováno."
+msgstr "Vypadá to, že ve vaší instalaci PHP chybí rozšíření MySQL, které je však pro fungování WordPressu vyžadováno."
 
 #. Not gettexted string WP_I18N_MAINTENANCE
 #: wp-includes/load.php:168
@@ -15091,15 +15086,6 @@ msgstr "ltr"
 #: wp-load.php:50
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "Pravděpodobně nemáte vytvořen soubor <code>wp-config.php</code>. Než začnete s instalací WordPressu, tak musíte tento soubor vytvořit. Nevíte jak? <a href='http://codex.wordpress.org/Editing_wp-config.php'>Pomoc najdete v manuálu</a>. Můžete také zkusit vytvořit soubor <code>wp-config.php</code> prostřednictvím webového rozhraní, ale tato možnost nefunguje na všech hostingových serverech. Nejbezpečnějším způsobem je vytvoření tohoto souboru manuálně.</p><p><a href='%ssetup-config.php' class='button'>Vytvořit konfigurační soubor</a>"
-
-#~ msgid "http://wordpress.org/development/"
-#~ msgstr "http://wordpress.org/development/"
-
-#~ msgid "http://wordpress.org/development/feed/"
-#~ msgstr "http://wordpress.org/development/feed/"
-
-#~ msgid "No plugins found."
-#~ msgstr "Nebyly nalezeny žádné pluginy."
 
 #, fuzzy
 #~ msgid "%1$s (%2$s)"
@@ -19717,6 +19703,12 @@ msgstr "Pravděpodobně nemáte vytvořen soubor <code>wp-config.php</code>. Ne�
 #~ "PS.  Not yet subscribed for update notifications?  <a href=\"%1$s\" title="
 #~ "\"Subscribe to the WordPress mailing list for Release Notifications\">Do "
 #~ "it now!</a>\n"
+
+#, fuzzy
+#~ msgctxt "url for release notification mailing list subscription."
+
+#~ msgid "http://wordpress.org/download/"
+#~ msgstr "http://wordpress.org/download/"
 
 #, fuzzy
 #~ msgid "Welcome!"

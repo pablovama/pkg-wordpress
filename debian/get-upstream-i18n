@@ -28,8 +28,12 @@ else
 	options="$2"
 fi
 remove="0"
-if [ "$options" = "remove" ];then
+if [ "$options" = "remove" ]; then
 	remove="1"
+fi
+rescue="0"
+if [ "$options" = "rescue" ]; then
+	rescue="1"
 fi
 
 if ! [ -e debian/languages ]; then
@@ -57,6 +61,13 @@ do_file () {
     fi
     OLD_PWD="${PWD}"
     cd "${ldir}"
+
+    if [ "$rescue" = "1" ] && [ -e $fname ]; then
+	    echo "Skipping $fname, we already have it."
+	    cd "${OLD_PWD}"
+	    return
+    fi
+
     if ! svn export -r "${HEAD_REV}" -q "${UPSTREAM_I18N_SVN}/${lang}/tags/${version}/${rdir}/${url_fname}"; then
 	if [ -e "${fname}" ]; then
 		if [ "$remove" = "1" ]; then
@@ -74,9 +85,8 @@ do_file_prefix () {
 
 HEAD_REV="$(svn info "${UPSTREAM_I18N_SVN}" | sed -n -e 's/^Revision:[[:space:]]\+//p')"
 
-for lang in $(svn ls "${UPSTREAM_I18N_SVN}" | sed -n -e 's|/$||p' | egrep -v '^(theme|tools)$'); do
+for lang in $(svn ls "${UPSTREAM_I18N_SVN}" | sed -n -e 's|/$||p' | egrep -v '^(theme|tools|COPYING|pot)$'); do
     url_lang="$(url_escape "${lang}")"
-    baselang="$(base_lang "${lang}")"
     do_file "${url_lang}" "messages" "debian/languages" "${lang}.po"
     do_file "${url_lang}" "messages" "debian/languages" "${lang}.php"
 done
