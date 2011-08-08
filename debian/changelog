@@ -1,12 +1,26 @@
-wordpress (3.2.1+dfsg-1) UNRELEASED; urgency=low
+wordpress (3.2.1+dfsg-1) unstable; urgency=low
 
   [ Paul Tagliamonte ]
-  * [c5e4b2c] Added a get-orig-source target to recreate the DFSG-clean tarball
+  * [c5e4b2c] Added a get-orig-source target to recreate the DFSG-clean
+    tarball. It drops all the sourceless flash files. Closes: #625773
 
   [ Raphaël Hertzog ]
   * [d1035bd] Imported Upstream version 3.2.1+dfsg
+  * [b968405] Update and refresh all patches.
+  * [10ab97c] Drop manifest.patch because the description in its header
+    doesn't make any sense.
+  * [87537db] Update dependencies as per new upstream requirements.
+  * [0c534ec] Update packaging to avoid using even more embedded PHP/JS
+    libraries.
+  * [ec5c11e] Use a new dh_linktree to replace embedded PHP/JS libraries.
+  * [8690719] Add lintian override for embedded-php-library streams.php since
+    it's a false positive.
+  * [83c15bc] Upgrade Standards-Version to 3.9.2 (no changes needed).
+  * [938fb15] Update internationalization files.
+  * [6ac0357] Install class-smtp.php and class-phpmailer.php so that they can
+    be replaced by dh_linktree.
 
- -- Giuseppe Iuculano <iuculano@debian.org>  Mon, 18 Jul 2011 17:19:51 +0200
+ -- Raphaël Hertzog <hertzog@debian.org>  Mon, 08 Aug 2011 23:06:20 +0200
 
 wordpress (3.0.5+dfsg-1) unstable; urgency=medium
 
