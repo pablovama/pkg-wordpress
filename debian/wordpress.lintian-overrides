@@ -1,0 +1,2 @@
+# False positive, this streams.php is not the one php-gettext
+wordpress: embedded-php-library usr/share/wordpress/wp-includes/pomo/streams.php

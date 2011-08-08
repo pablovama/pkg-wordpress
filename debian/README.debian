@@ -1,6 +1,6 @@
 #### Flash-based SWFUpload tool
 
-Wordpress originally comes with a Flash-based tool that allows to upload 
+Wordpress originally comes with a Flash-based tool that allows one to upload
 files. However, that tool violates the Debian Policy, as stated in the
 bug #591195. That is why this tool is not shipped with the Debian package
 anymore.
