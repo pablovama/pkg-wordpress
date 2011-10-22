@@ -1,3 +1,20 @@
+wordpress (3.2.1+dfsg-2) unstable; urgency=low
+
+  * [af74ce2] Add a preinst to drop symlinks to directories for tinymce
+    and cropper. The new dh_linktree only symlinks files and hierarchies are
+    duplicated. So we have to drop symlinks to directories in the preinst,
+    otherwise dpkg installs the new symlinks in the tinymce/cropper
+    directories instead of in the wordpress ones.
+    Also drop the upgrade code in the postinst converting the same directories
+    into symlinks... (Closes: #639733)
+  * [0b51c4f] Invite users affected by #639733 to reinstall
+    tinymce/libjs-cropper.
+  * [55af033] Fix invalid test in postinst (upgrade → configure)
+    "upgrade" is not a valid parameter in the postinst. Instead
+    we get "configure".
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Sat, 22 Oct 2011 17:01:25 +0200
+
 wordpress (3.2.1+dfsg-1) unstable; urgency=low
 
   [ Paul Tagliamonte ]
