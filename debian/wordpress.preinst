@@ -1,0 +1,32 @@
+#!/bin/sh
+
+set -e
+
+symlinks_to_drop="
+/usr/share/wordpress/wp-includes/js/tinymce/plugins/inlinepopups
+/usr/share/wordpress/wp-includes/js/tinymce/plugins/safari
+/usr/share/wordpress/wp-includes/js/tinymce/plugins/paste
+/usr/share/wordpress/wp-includes/js/tinymce/plugins/fullscreen
+/usr/share/wordpress/wp-includes/js/tinymce/plugins/autosave
+/usr/share/wordpress/wp-includes/js/tinymce/plugins/spellchecker/css
+/usr/share/wordpress/wp-includes/js/tinymce/plugins/spellchecker/img
+/usr/share/wordpress/wp-includes/js/tinymce/plugins/media
+/usr/share/wordpress/wp-includes/js/tinymce/plugins/tabfocus
+/usr/share/wordpress/wp-includes/js/tinymce/plugins/directionality
+/usr/share/wordpress/wp-includes/js/crop
+"
+
+case "$1" in
+    upgrade)
+	if dpkg --compare-versions "$2" lt 3.2.1+dfsg-2; then
+	    for symlink in $symlinks_to_drop; do
+		if [ -h $symlink ]; then
+		    echo "Dropping $symlink to convert it into a directory"
+		    rm -f $symlink
+		fi
+	    done
+	fi
+    ;;
+esac
+
+#DEBHELPER#
