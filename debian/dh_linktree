@@ -11,10 +11,11 @@ use File::Find;
 use File::Spec;
 use File::Compare;
 use Debian::Debhelper::Dh_Lib;
+use Dpkg::IPC;
 
 =head1 SYNOPSIS
 
-B<dh_linktree> [S<I<debhelper options>>] [B<-A>] [B<-X>I<item>] [S<I<source destination> ...>]
+B<dh_linktree> [S<I<debhelper options>>] [B<-A>] [B<-X>I<item>] [S<I<action source destination> ...>]
 
 =head1 DESCRIPTION
 
@@ -23,10 +24,10 @@ directories. The symlinks points to files provided by other packages and who
 have to be present during build. As such you have to put the packages providing
 the destination files in the build dependencies.
 
-B<dh_linktree> accepts a list of pairs of source and destination file/directories.
-Symlinking files works just like B<dh_link> but symlinking directories
-will recreate the same directory hierarchy and all individual files will
-be turned into symlinks.
+B<dh_linktree> accepts arguments by set of 3. One action followed by
+source and destination file/directories. Symlinking files works just like
+B<dh_link> but symlinking directories will recreate the same directory
+hierarchy and all individual files will be turned into symlinks.
 
 The source files are the already existing files that will be symlinked from.
 The destination files are the symlinks that will be created. There B<must> be
@@ -47,7 +48,8 @@ the symlinks in.
 
 =item debian/I<package>.linktrees
 
-Lists pairs of source and destination trees to be symlinked. Each pair
+Lists source and destination trees to be symlinked. Each line consists
+of 3 fields: the action, the source directory, the destination directory.
 should be put on its own line, with the source and destination separated by
 whitespace.
 
@@ -62,28 +64,31 @@ whitespace.
 Do not create symlinks for files that contain I<item> anywhere in their
 filename.
 
-=item I<source destination> ...
+=item I<action source destination> ...
 
-Create a symlink tree named I<destination> with all files within it
-pointing to the corresponding file in I<source>. Do this in the package
-build directory of the first package acted on.
+If the action is "embed" create a symlink tree named I<destination> with
+all files within it pointing to the corresponding file in I<source>.
+
+The "replace" action will not create new files but it will
+replace existing files in the destination directory with symlinks to the
+corresponding source file.
+
+The "deduplicate" action is like "replace" except it replaces files only
+if they have exactly the same content.
+
+The work is done in the package build directory of the first package acted on.
 
 =back
 
 =head1 EXAMPLES
 
- dh_link usr/share/javascript/jquery usr/share/wordpress/plugin-jquery
+ dh_linktree embed usr/share/javascript/jquery usr/share/wordpress/plugin-jquery
 
 Make F<plugin-jquery> be a symlink tree to F<jquery>.
 
 =cut
 
-# TODO: add automatic dependencies on packages providing the files we
-# symlink to, use relatively strict dependencies on upstream version
-# (>= <upstream-version>), (<< <upstream-version>.0~).
-
-my ($replace_only, $same_only) = (0, 0);
-init(options => { "replace-only" => \$replace_only, "same-only" => \$same_only });
+init();
 
 foreach my $package (@{$dh{DOPACKAGES}}) {
 	my $tmp=tmpdir($package);
@@ -94,9 +99,8 @@ foreach my $package (@{$dh{DOPACKAGES}}) {
 		@srclinks=filearray($file);
 	}
 
-	# Make sure it has pairs of symlinks and destinations. If it
-	# doesn't, $#srclinks will be _odd_ (not even, -- it's zero-based).
-	if (int($#srclinks/2) eq $#srclinks/2) {
+	# Make sure it has a multiple of 3 args
+	if ($#srclinks % 3 == 0) {
 		error("$file lists a link without a destination.");
 	}
 
@@ -105,47 +109,56 @@ foreach my $package (@{$dh{DOPACKAGES}}) {
 	}
 
 	# Same test as above, including arguments this time.
-	if (int($#srclinks/2) eq $#srclinks/2) {
+	if ($#srclinks % 3 == 0) {
 		error("parameters list a link without a destination.");
 	}
 
+	next unless scalar(@srclinks);
+
 	my @links;
 	while (@srclinks) {
+	        my $action=shift @srclinks;
 		my $src=shift @srclinks;
 		my $dest=shift @srclinks;
+		error("invalid action '$action'")
+			if $action !~ /^(embed|replace|deduplicate)$/;
 		if (! -l "/$src" and -d _) {
 			find(sub {
 				return if -d and ! -l;
 				return if excludefile($_);
 				my $rel=File::Spec->abs2rel($File::Find::name,"/$src");
-				push @links, "$src/$rel", "$dest/$rel";
+				push @links, $action, "$src/$rel", "$dest/$rel";
 			}, "/$src");
 		} else {
-			push @links, $src, $dest;
+			push @links, $action, $src, $dest;
 		}
 	}
 
+	my %used;
 	while (@links) {
+	        my $action=shift @links;
 		my $src=shift @links;
 		my $dest=shift @links;
 
 		$src=~s:^/::;
 		$dest=~s:^/::;
 
+		my $src_abs="/$src";
+
 		if ($src eq $dest) {
 			warning("skipping link from $src to self");
 			next;
 		}
 
-		if ($replace_only and not -e "$tmp/$dest") {
-			warning("not creating $tmp/$dest due to --replace-only ");
+		if ($action ne "embed" and not -e "$tmp/$dest") {
+			verbose_print("not creating $tmp/$dest");
 			next;
 		}
 
-		if ($same_only and -e "$tmp/$dest" and
+		if ($action eq "deduplicate" and -e "$tmp/$dest" and
 		    compare("$tmp/$dest", "/$src") != 0) {
-			warning("not replacing $tmp/$dest due to " .
-				"mismatch with /$src");
+			verbose_print("not replacing $tmp/$dest due to " .
+				      "mismatch with /$src");
 			next;
 		}
 
@@ -188,7 +201,55 @@ foreach my $package (@{$dh{DOPACKAGES}}) {
 		}
 		doit("rm", "-f", "$tmp/$dest");
 		doit("ln","-sf", $src, "$tmp/$dest");
+		$used{$src_abs} = $action;
 	}
+	my $output;
+	my @files = sort keys %used;
+	my $pid = spawn(exec => [ "dpkg", "--search", "--", @files ],
+			to_pipe => \$output,
+			env => { LC_ALL => 'C' });
+	my %pkgused;
+	while(defined($_ = <$output>)) {
+	    chomp($_);
+	    if (m/^local diversion |^diversion by/) {
+		warning(_g("diversions involved - output may be incorrect"));
+		print(STDERR " $_\n")
+		    || syserr(_g("write diversion info to stderr"));
+	    } elsif (m/^([-a-z0-9+.:, ]+): (\/.*)$/) {
+		foreach my $pkg (split(/, /, $1)) {
+		    if (exists $pkgused{$pkg}) {
+			$pkgused{$pkg} = $used{$2} if $pkgused{$pkg} eq "replace";
+		    } else {
+			$pkgused{$pkg} = $used{$2};
+		    }
+		}
+	    } else {
+		warning("unknown output from dpkg --search: '$_'");
+	    }
+	}
+	close($output) or error("failed to close pipe with dpkg --search");
+	wait_child($pid, cmdline => "dpkg --search -- @files");
+	$output = undef;
+	$pid = spawn(exec => [ "dpkg-query", "-W", "--", sort keys %pkgused ],
+		     to_pipe => \$output,
+		     env => { LC_ALL => 'C' });
+	my %deps;
+	while(defined($_ = <$output>)) {
+	    chomp($_);
+	    my ($pkg, $ver) = split(/\s+/, $_);
+	    $ver =~ s/-[^-]*$//; # Drop debian revision
+	    if (not exists $pkgused{$pkg}) {
+		error("Unexpected package $pkg returned by dpkg-query -W.");
+	    }
+	    $deps{"$pkg (>= $ver)"} = 1;
+	    $deps{"$pkg (<< $ver.0~)"} = 1 if $pkgused{$pkg} ne "replace";
+	}
+	close($output) or error("failed to close pipe with dpkg-query -W");
+	wait_child($pid, cmdline => "dpkg-query -W @{[sort keys %pkgused]}");
+
+	my $gendeps = join(", ", sort keys %deps);
+	verbose_print("Generated dependency: $gendeps");
+	addsubstvar($package, "misc:Depends", $gendeps);
 }
 
 =head1 SEE ALSO

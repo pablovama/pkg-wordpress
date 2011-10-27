@@ -22,7 +22,7 @@ override_dh_install:
 	dh_install -Xlicense.txt -XMIT-LICENSE
 	# Remove embedded libraries so that they can be replaced by symlinks
 	# where appropriate
-	debian/dh_linktree --replace-only
+	debian/dh_linktree
 
 get-orig-source:
 	@test ! -e ../wordpress_$(VERSION)+dfsg.orig.tar.gz || (echo "You already have ../wordpress_$(VERSION)+dfsg.orig.tar.gz" >&2; exit 1)
