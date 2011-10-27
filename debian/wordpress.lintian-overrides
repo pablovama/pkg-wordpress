@@ -1,2 +1,6 @@
 # False positive, this streams.php is not the one php-gettext
 wordpress: embedded-php-library usr/share/wordpress/wp-includes/pomo/streams.php
+# Opportunistic replacement is in place but the Debian version does
+# not match the wordpress version
+wordpress: embedded-javascript-library usr/share/wordpress/wp-includes/js/jquery/jquery.form.js
+wordpress: embedded-javascript-library usr/share/wordpress/wp-includes/js/jquery/jquery.js
