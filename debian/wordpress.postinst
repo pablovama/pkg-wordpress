@@ -11,12 +11,12 @@ fi
 
 if [ -h /usr/share/tinymce/www/plugins/inlinepopups/editor_plugin.js ] &&
    [ ! -e /usr/share/tinymce/www/plugins/inlinepopups/editor_plugin.js ]; then
-    echo "WARNING: You have been affected by http://bugs.debian.org/639773" >&2
+    echo "WARNING: You have been affected by http://bugs.debian.org/639733" >&2
     echo "you should reinstall tinymce." >&2
 fi
 if [ -h /usr/share/javascript/cropper/marqueeVert.gif ] &&
    [ ! -e /usr/share/javascript/cropper/marqueeVert.gif ]; then
-    echo "WARNING: You have been affected by http://bugs.debian.org/639773" >&2
+    echo "WARNING: You have been affected by http://bugs.debian.org/639733" >&2
     echo "you should reinstall libjs-cropper." >&2
 fi
 
