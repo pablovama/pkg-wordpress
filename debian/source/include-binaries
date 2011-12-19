@@ -7,3 +7,9 @@ debian/default/images/kubrickbg-rtl.jpg
 debian/default/images/kubrickheader.jpg  
 debian/default/images/kubrickbgwide.jpg  
 debian/default/screenshot.png  
+debian/missing-sources/jquery-ui_1.8.16.zip
+debian/missing-sources/jsCropperUI-1.2.0.tar.gz
+debian/missing-sources/plupload_1_5_1_1_dev.zip
+debian/missing-sources/swfobject_2_2.zip
+debian/missing-sources/swfupload.2.2.0.zip
+debian/missing-sources/tinymce_3.4.5_dev.zip
