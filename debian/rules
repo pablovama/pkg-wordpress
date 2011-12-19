@@ -9,9 +9,7 @@ VERSION := $(shell dpkg-parsechangelog | awk '/^Version:/ {print $$2}'| sed -e '
 
 # The following is a list of the non-free files that Wordpress
 # ships in their archive that we will strip in get-orig-source.
-UPSTREAM_FILE_BLACKLIST=wp-content/plugins/hello.php \
-	wp-includes/js/swfupload/swfupload.swf \
-	wp-includes/js/tinymce/plugins/media/moxieplayer.swf
+UPSTREAM_FILE_BLACKLIST=wp-content/plugins/hello.php
 
 override_dh_auto_build:
 	for i in debian/languages/*.po; do \
@@ -32,6 +30,5 @@ get-orig-source:
 	rm ./wordpress_$(VERSION).orig.tar.gz
 	cd wordpress-$(VERSION) && rm $(UPSTREAM_FILE_BLACKLIST)
 	tar -zcvf ../wordpress_$(VERSION)+dfsg.orig.tar.gz wordpress-$(VERSION)
-	@f=$$(find wordpress-$(VERSION) -name '*.swf'); if [ -n "$$f" ]; then echo "ERROR: Found some flash files, do we have sources?"; echo "$$f"; exit 1; fi
 	rm -rf wordpress-$(VERSION)
 	@echo "Successfully created ../wordpress_$(VERSION)+dfsg.orig.tar.gz"

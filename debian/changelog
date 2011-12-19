@@ -1,4 +1,4 @@
-wordpress (3.2.1+dfsg-4) UNRELEASED; urgency=low
+wordpress (3.3+dfsg-1) UNRELEASED; urgency=low
 
   * TODO for next upstream release: reintegrate swfupload.swf. To allow this
     we must also integrate a copy of the sources which are provided in
@@ -6,7 +6,7 @@ wordpress (3.2.1+dfsg-4) UNRELEASED; urgency=low
     Check if we can do the same with moxieplayer.swf provided
     by TinyMCE.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Thu, 27 Oct 2011 16:14:10 +0200
+ -- Raphaël Hertzog <hertzog@debian.org>  Mon, 19 Dec 2011 17:14:52 +0100
 
 wordpress (3.2.1+dfsg-3) unstable; urgency=medium
 
