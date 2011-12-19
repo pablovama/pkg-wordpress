@@ -1,7 +1,7 @@
 MU for Debian installations
 --- a/wp-admin/network.php
 +++ b/wp-admin/network.php
-@@ -340,11 +340,11 @@ function network_step2( $errors = false
+@@ -350,11 +350,11 @@ function network_step2( $errors = false
  		<p><?php _e( 'Complete the following steps to enable the features for creating a network of sites.' ); ?></p>
  		<div class="updated inline"><p><?php
  			if ( file_exists( ABSPATH . '.htaccess' ) )
@@ -16,16 +16,16 @@ MU for Debian installations
  		?></p></div>
  <?php
  	}
-@@ -355,7 +355,7 @@ function network_step2( $errors = false
+@@ -365,7 +365,7 @@ function network_step2( $errors = false
  				if ( WP_CONTENT_DIR != ABSPATH . 'wp-content' )
- 					echo ' <strong>' . __('Warning:') . ' ' . __( 'Networks may not be fully compatible with custom wp-content directories.' ) . '</strong';
+ 					echo ' <strong>' . __('Warning:') . ' ' . __( 'Networks may not be fully compatible with custom wp-content directories.' ) . '</strong>';
  			?></p></li>
 -			<li><p><?php printf( __( 'Add the following to your <code>wp-config.php</code> file in <code>%s</code> <strong>above</strong> the line reading <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:' ), ABSPATH ); ?></p>
 +			<li><p><?php printf( __( 'Add the following to your <code>%s</code> file:' ), DEBIAN_FILE ); ?></p>
  				<textarea class="code" readonly="readonly" cols="100" rows="7">
  define( 'MULTISITE', true );
  define( 'SUBDOMAIN_INSTALL', <?php echo $subdomain_install ? 'true' : 'false'; ?> );
-@@ -386,7 +386,7 @@ define( 'BLOG_ID_CURRENT_SITE', 1 );</te
+@@ -396,7 +396,7 @@ define( 'BLOG_ID_CURRENT_SITE', 1 );</te
  		$num_keys_salts = count( $keys_salts );
  ?>
  	<p><?php
@@ -34,7 +34,7 @@ MU for Debian installations
  	<textarea class="code" readonly="readonly" cols="100" rows="<?php echo $num_keys_salts; ?>"><?php echo esc_textarea( $keys_salts_str ); ?></textarea>
  <?php
  	}
-@@ -500,7 +500,7 @@ RewriteRule ^ - [L]';
+@@ -510,7 +510,7 @@ RewriteRule ^ - [L]';
  		$htaccess_file .= "\nRewriteRule . index.php [L]";
  
  		?>

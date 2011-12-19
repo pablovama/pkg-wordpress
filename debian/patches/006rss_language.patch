@@ -2,7 +2,7 @@ Author: <andrea.de.iacovo@gmail.com>
 Description: This makes us able to change rss_language directly from the admin page. Thanks to Lionel Elie Mamane
 --- a/wp-admin/options-reading.php
 +++ b/wp-admin/options-reading.php
-@@ -108,6 +108,10 @@ else :
+@@ -113,6 +113,10 @@ else :
  <td><input name="posts_per_rss" type="text" id="posts_per_rss" value="<?php form_option( 'posts_per_rss' ); ?>" class="small-text" /> <?php _e( 'items' ); ?></td>
  </tr>
  <tr valign="top">
