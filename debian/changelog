@@ -1,12 +1,12 @@
-wordpress (3.3+dfsg-1) UNRELEASED; urgency=low
+wordpress (3.3+dfsg-1) unstable; urgency=low
 
-  * TODO for next upstream release: reintegrate swfupload.swf. To allow this
-    we must also integrate a copy of the sources which are provided in
-    http://wordpress.org/download/source/
-    Check if we can do the same with moxieplayer.swf provided
-    by TinyMCE.
+  * New upstream release. Closes: #652041
+  * [4deb832] Add all the missing sources in debian/missing-sources/.
+    (Closes: #646729)
+  * [913eba5] Refresh all patches.
+  * [ae61778] Use xz compression for the debian tarball to save some space.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Mon, 19 Dec 2011 17:14:52 +0100
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 20 Dec 2011 01:01:50 +0100
 
 wordpress (3.2.1+dfsg-3) unstable; urgency=medium
 
