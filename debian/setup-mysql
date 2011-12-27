@@ -2,16 +2,19 @@
 
 usage() {
 cat <<EOF
-$0 [-n NAME] [-h | -d | -b] FQDN
+$0 [-h | -d | -b] [-n NAME | -e DB Name] [-u MySQL user] [-t MySQL host] FQDN
 
 Creates by default a Wordpress mysql configuration depending on required fully
 qualified domain name(FQDN).
 
 Options:
-    -n  name for the mysql user and database
-    -h  help
-    -d  destroy and purge
-    -b  backup
+    -n name for the wordpress site; see also -e below
+    -h help
+    -d destroy and purge
+    -b backup
+    -u mysql username, will require password
+    -t mysql server hostname, if unset localhost will be used
+    -e existing empty mysql database name; will replace -n
 
 Example: You want your blog to be served from http://blog.example.com
          for user 'wordpress'.
@@ -31,12 +34,19 @@ fi
 
 # Generate a random password without Perl
 MATRIX="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-LENGTH="8"
-while [ "${n:=1}" -le "$LENGTH" ]
-do
-    DB_PASSWORD="$DB_PASSWORD${MATRIX:$(($RANDOM%${#MATRIX})):1}"
-    let n+=1
-done
+if [ ! $MYSQLUSER ]; then
+    LENGTH="8"
+    while [ "${n:=1}" -le "$LENGTH" ]
+    do
+        DB_PASSWORD="$DB_PASSWORD${MATRIX:$(($RANDOM%${#MATRIX})):1}"
+        let n+=1
+    done
+    DB_USER=$NAME
+else
+    DB_USER=$MYSQLUSER
+    echo "Enter MySQL password for user $DB_USER."
+    read -p "> " DB_PASSWORD
+fi
 
 LENGTH="50"
 while [ "${n:=1}" -le "$LENGTH" ]
@@ -45,14 +55,20 @@ do
     let n+=1
 done
 
+if [ ! $DB_DB ]; then
+    DB_NAME=$NAME
+else
+    DB_NAME=$DB_DB
+fi
+
 # Write the config file for wordpress
 umask 0027
 cat > $CONFIG_FILE << EOF
 <?php
-define('DB_NAME', '$NAME');
-define('DB_USER', '$NAME');
+define('DB_NAME', '$DB_NAME');
+define('DB_USER', '$DB_USER');
 define('DB_PASSWORD', '$DB_PASSWORD');
-define('DB_HOST', 'localhost');
+define('DB_HOST', '$DB_HOST');
 define('SECRET_KEY', '$SECRET_KEY');
 
 #This will disable the update notification.
@@ -74,14 +90,21 @@ echo $CONFIG_FILE written
 create() {
 # Create the database and user
 # Wordpress's install.php creates the tables btw
-mysql --defaults-extra-file=/etc/mysql/debian.cnf <<EOF
+if [ ! $DB_DB ]; then
+    if [ ! $MYSQLUSER ]; then
+        MYSQLCOMMAND="mysql --defaults-extra-file=/etc/mysql/debian.cnf"
+    else
+        MYSQLCOMMAND="mysql -u $DB_USER -p -h $DB_HOST"
+    fi
+    $MYSQLCOMMAND <<EOF
 CREATE DATABASE $NAME;
 GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,ALTER
-ON $NAME.*
-TO $NAME@localhost
+ON $DB_NAME.*
+TO $DB_USER@$DB_HOST
 IDENTIFIED BY '$DB_PASSWORD';
 FLUSH PRIVILEGES;
 EOF
+fi
 [ -d /srv/www ] || mkdir -p /srv/www
 ln -s /usr/share/wordpress /srv/www/$DOMAIN
 
@@ -90,6 +113,7 @@ mkdir -p $UPLOAD
 echo Setting up permissions
 chown -R root:www-data /srv/www/wp-uploads
 chmod -R 0774 $UPLOAD
+#FIXME katalogen kanske inte finns.
 chown -R root:www-data /srv/www/$DOMAIN/wp-content
 chmod -R 0770 /srv/www/$DOMAIN/wp-content
 
@@ -103,6 +127,13 @@ mysqldump --add-drop-table -u root -p $NAME | bzip2 -c > $BACKUPFILE && echo Wro
 }
 
 destroy() {
+# The destroy method need root to be able to drop databases and such.
+# People using complex setups with remote servers probably know how to
+# cleanup after the user any way.
+if [ ! -e /etc/mysql/debian.cnf ]; then
+    echo "Default mysql settings not available. Manual clean up is required."
+    exit 1
+fi
 echo Destroying $NAME
 prompt
 mysql --defaults-extra-file=/etc/mysql/debian.cnf <<EOF
@@ -133,12 +164,15 @@ done
 }
 
 
-while getopts "n:hbd-" opt ; do
+while getopts "n:hbdu:t:e:-" opt ; do
     case "$opt" in
     h) usage ; exit 0 ;;
     b) BACKUP=1 ;;
     d) DESTROY=1 ;;
     n) NAME="$OPTARG" ;;
+    u) MYSQLUSER="$OPTARG" ;;
+    t) DB_HOST="$OPTARG" ;;
+    e) DB_DB="$OPTARG" ;;
     -) break ;;
     *) usage 1>&2 ; exit 1 ;;
     esac
@@ -171,6 +205,10 @@ fi
 if [ ${#NAME} -gt 16 ]; then
 echo "$NAME is longer than MySQL's limit of 16 characters. Please specify a shorter one."
 exit 1
+fi
+
+if [ ! $DB_HOST ]; then
+    DB_HOST="localhost"
 fi
 
 if [ $BACKUP ] ; then
