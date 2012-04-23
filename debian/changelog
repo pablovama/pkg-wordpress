@@ -1,3 +1,9 @@
+wordpress (3.3.2+dfsg-1) UNRELEASED; urgency=low
+
+  * New upstream security release. Closes: #670124
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 24 Apr 2012 00:21:29 +0200
+
 wordpress (3.3.1+dfsg-1) unstable; urgency=low
 
   * New upstream security release. Fixes CVE-2012-0287.
