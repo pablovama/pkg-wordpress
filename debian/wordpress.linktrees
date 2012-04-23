@@ -17,7 +17,8 @@ replace usr/share/javascript/prototype/prototype.js usr/share/wordpress/wp-inclu
 replace usr/share/php/libphp-snoopy/Snoopy.class.php usr/share/wordpress/wp-includes/class-snoopy.php
 
 # Simplepie
-replace usr/share/php/simplepie/simplepie.inc usr/share/wordpress/wp-includes/class-simplepie.php
+# Use the embedded copy until #669054 is resolved
+# replace usr/share/php/simplepie/simplepie.inc usr/share/wordpress/wp-includes/class-simplepie.php
 
 # cropper
 replace usr/share/javascript/cropper usr/share/wordpress/wp-includes/js/crop

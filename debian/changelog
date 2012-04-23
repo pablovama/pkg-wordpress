@@ -1,6 +1,7 @@
 wordpress (3.3.2+dfsg-1) UNRELEASED; urgency=low
 
   * New upstream security release. Closes: #670124
+  * Use the embedded copy of SimplePie until #669054 is resolved.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Tue, 24 Apr 2012 00:21:29 +0200
 
