@@ -32,12 +32,18 @@ if (file_exists($debian_file)) {
 
 /* Default value for some constants if they have not yet been set
    by the host-specific config files */
-define('ABSPATH', '/usr/share/wordpress/');
-define('WP_CORE_UPDATE', false);
-define('WP_ALLOW_MULTISITE', true);
-define('DB_NAME', 'wordpress');
-define('DB_USER', 'wordpress');
-define('DB_HOST', 'localhost');
+if (!defined('ABSPATH'))
+    define('ABSPATH', '/usr/share/wordpress/');
+if (!defined('WP_CORE_UPDATE'))
+    define('WP_CORE_UPDATE', false);
+if (!defined('WP_ALLOW_MULTISITE'))
+    define('WP_ALLOW_MULTISITE', true);
+if (!defined('DB_NAME'))
+    define('DB_NAME', 'wordpress');
+if (!defined('DB_USER'))
+    define('DB_USER', 'wordpress');
+if (!defined('DB_HOST'))
+    define('DB_HOST', 'localhost');
 
 /* Default value for the table_prefix variable so that it doesn't need to
    be put in every host-specific config file */
