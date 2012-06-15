@@ -21,40 +21,43 @@ Source: jsCropperUI-1.2.0.tar.gz
 
 Files: wp-includes/js/swfupload/swfupload.swf
 Project: SWFUpload 2.2.0
-URL: http://wordpress.org/download/source/swfupload.2.2.0.zip
-Source: swfupload.2.2.0.zip
+URL: http://code.svn.wordpress.org/wordpress-sources/swfupload/swfupload-2.2.0.1/
+Source: swfupload-2.2.0.1
 
 Files: wp-includes/js/swfobject.js
 Project: SWFObject 2.2
-URL: http://swfobject.googlecode.com/files/swfobject_2_2.zip
-Source: swfobject_2_2.zip
+URL: http://code.svn.wordpress.org/wordpress-sources/swfobject/swfobject-2.2-r402.js
+Source: swfobject-2.2-r402.js
 
 Files: wp-includes/js/jquery/jquery.js
-Project: jQuery 1.7.1
-URL: http://code.jquery.com/jquery-1.7.1.js
+Project: jQuery 1.7.2
+URL: http://code.svn.wordpress.org/wordpress-sources/jquery/jquery-1.7.2.js
 Source: jquery-1.7.1.js
 
 Files: wp-includes/js/jquery/jquery.query.js
 Project: jQuery.jquery 2.1.7
-Comment: URL is not official one
-URL: http://test.blairmitchelmore.com/jquery.query/jquery.query.js
-Source: jquery.query.dev.js
+URL: http://code.svn.wordpress.org/wordpress-sources/jquery-plugins/jquery.query.js
+Source: jquery.query.js
 
 Files: wp-includes/js/jquery/jquery.schedule.js
-URL: http://wordpress.org/download/source/jquery.schedule.js
-Source: jquery.schedule.dev.js
+URL: http://code.svn.wordpress.org/wordpress-sources/jquery-plugins/jquery.schedule.js
+Source: jquery.schedule.js
+
+Files: wp-includes/js/jquery/jquery.ui.touch-punch.js
+URL: http://code.svn.wordpress.org/wordpress-sources/jquery-plugins/jquery.ui.touch-punch.js
+Source: jquery.ui.touch-punch.js
 
 Files: wp-includes/js/jquery/ui/*.js
-Project: jQuery UI 1.8.16
-URL: https://github.com/jquery/jquery-ui/zipball/1.8.16
-Source: jquery-ui_1.8.16.zip
+Project: jQuery UI 1.8.20
+URL: http://code.svn.wordpress.org/wordpress-sources/jquery-ui/1.8.20/
+Source: jquery-ui-1.8.20
 
 Files: wp-includes/js/plupload/*
-Project: plupload 1.5.1.1
-URL: https://github.com/downloads/moxiecode/plupload/plupload_1_5_1_1_dev.zip
-Source: plupload_1_5_1_1_dev.zip
+Project: plupload 1.5.4
+URL: http://code.svn.wordpress.org/wordpress-sources/plupload/1.5.4/
+Source: plupload-1.5.4
 
 Files: wp-includes/js/tinymce/*
-Project: TinyMCE 3.4.5
-URL: https://github.com/downloads/tinymce/tinymce/tinymce_3.4.5_dev.zip
-Source: tinymce_3.4.5_dev.zip
+Project: TinyMCE 3.4.9
+URL: http://code.svn.wordpress.org/wordpress-sources/tinymce/3.4.9/tiny_mce_src.js
+Source: tiny_mce_src.js
