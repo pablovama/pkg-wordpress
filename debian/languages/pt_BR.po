@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development (future 3.3) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2011-12-13 10:28-0300\n"
+"PO-Revision-Date: 2012-06-16 00:33+0200\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -4772,8 +4772,7 @@ msgstr "Criar Menu"
 #: wp-admin/nav-menus.php:593
 msgid "To create a custom menu, give it a name above and click Create Menu. Then choose items like pages, categories or custom links from the left column to add to this menu."
 msgstr ""
-"\n"
-"Para criar um menu personalizado, informe um nome em Nome do Menu e clique em Criar Menu. Em seguida, escolha os itens do menu, como páginas, categorias, link etc nas caixas  mostradas à esquerda.\n"
+"Para criar um menu personalizado, informe um nome em Nome do Menu e clique em Criar Menu. Em seguida, escolha os itens do menu, como páginas, categorias, link etc nas caixas  mostradas à esquerda."
 
 #: wp-includes/default-widgets.php:17
 msgid "Your site&#8217;s WordPress Pages"
