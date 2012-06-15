@@ -22,13 +22,14 @@ override_dh_install:
 	# where appropriate
 	debian/dh_linktree
 
+# Use like this: debian/rules get-orig-source VERSION=3.4
 get-orig-source:
-	@test ! -e ../wordpress_$(VERSION)+dfsg.orig.tar.gz || (echo "You already have ../wordpress_$(VERSION)+dfsg.orig.tar.gz" >&2; exit 1)
+	@test ! -e ../wordpress_$(VERSION)+dfsg.orig.tar.xz || (echo "You already have ../wordpress_$(VERSION)+dfsg.orig.tar.xz" >&2; exit 1)
 	uscan --noconf --force-download --rename --download-version $(VERSION) --destdir=.
 	tar --transform "s,^.[^/]*,wordpress-$(VERSION)/," -xzvf \
 		./wordpress_$(VERSION).orig.tar.gz
 	rm ./wordpress_$(VERSION).orig.tar.gz
 	cd wordpress-$(VERSION) && rm $(UPSTREAM_FILE_BLACKLIST)
-	tar -zcvf ../wordpress_$(VERSION)+dfsg.orig.tar.gz wordpress-$(VERSION)
+	tar -acvf ../wordpress_$(VERSION)+dfsg.orig.tar.xz wordpress-$(VERSION)
 	rm -rf wordpress-$(VERSION)
-	@echo "Successfully created ../wordpress_$(VERSION)+dfsg.orig.tar.gz"
+	@echo "Successfully created ../wordpress_$(VERSION)+dfsg.orig.tar.xz"
