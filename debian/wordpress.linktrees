@@ -23,19 +23,17 @@ replace usr/share/php/libphp-snoopy/Snoopy.class.php usr/share/wordpress/wp-incl
 # cropper
 replace usr/share/javascript/cropper usr/share/wordpress/wp-includes/js/crop
 
-# Jquery (why do they have to rename so much?)
-deduplicate usr/share/javascript/jquery/jquery.js usr/share/wordpress/wp-includes/js/jquery/jquery.js
+# Jquery
+# This one will never work as long a WP includes the jQuery.noConflict at
+# the end, see http://core.trac.wordpress.org/ticket/16494 for a somewhat
+# related discussion
+deduplicate usr/share/javascript/jquery/jquery.min.js usr/share/wordpress/wp-includes/js/jquery/jquery.js
+
+# Jquery-form
 deduplicate usr/share/javascript/jquery-form/jquery.form.min.js usr/share/wordpress/wp-includes/js/jquery/jquery.form.js
 deduplicate usr/share/javascript/jquery-form/jquery.form.js usr/share/wordpress/wp-includes/js/jquery/jquery.form.dev.js
-deduplicate usr/share/javascript/jquery-ui/ui/jquery.ui.button.js usr/share/wordpress/wp-includes/js/jquery/ui.button.js
-deduplicate usr/share/javascript/jquery-ui/ui/jquery.ui.core.js usr/share/wordpress/wp-includes/js/jquery/ui.core.js
-deduplicate usr/share/javascript/jquery-ui/ui/jquery.ui.dialog.js usr/share/wordpress/wp-includes/js/jquery/ui.dialog.js
-deduplicate usr/share/javascript/jquery-ui/ui/jquery.ui.draggable.js usr/share/wordpress/wp-includes/js/jquery/ui.draggable.js
-deduplicate usr/share/javascript/jquery-ui/ui/jquery.ui.droppable.js usr/share/wordpress/wp-includes/js/jquery/ui.droppable.js
-deduplicate usr/share/javascript/jquery-ui/ui/jquery.ui.mouse.js usr/share/wordpress/wp-includes/js/jquery/ui.mouse.js
-deduplicate usr/share/javascript/jquery-ui/ui/jquery.ui.position.js usr/share/wordpress/wp-includes/js/jquery/ui.position.js
-deduplicate usr/share/javascript/jquery-ui/ui/jquery.ui.resizable.js usr/share/wordpress/wp-includes/js/jquery/ui.resizable.js
-deduplicate usr/share/javascript/jquery-ui/ui/jquery.ui.selectable.js usr/share/wordpress/wp-includes/js/jquery/ui.selectable.js
-deduplicate usr/share/javascript/jquery-ui/ui/jquery.ui.sortable.js usr/share/wordpress/wp-includes/js/jquery/ui.sortable.js
-deduplicate usr/share/javascript/jquery-ui/ui/jquery.ui.tabs.js usr/share/wordpress/wp-includes/js/jquery/ui.tabs.js
-deduplicate usr/share/javascript/jquery-ui/ui/jquery.ui.widget.js usr/share/wordpress/wp-includes/js/jquery/ui.widget.js
+
+# Jquery UI
+# The debian package does not provide the required *.min.js files so we
+# can't deduplicate them (see #677619 for a wishlist bug about this)
+deduplicate usr/share/javascript/jquery-ui/ui usr/share/wordpress/wp-includes/js/jquery/ui
