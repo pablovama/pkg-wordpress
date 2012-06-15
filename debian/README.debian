@@ -25,39 +25,31 @@ http://codex.wordpress.org/Editing_wp-config.php
 
 #### Managing plugins, themes and uploaded files
 
-You almost always want to be able to install supplementary plugins and
-themes. Doing this in /usr/share/wordpress/wp-content/ is not very
-clean and it requires root permissions.
-
-Instead you should tell WordPress to use an alternative
-wp-content directory with a configuration item like this:
-define( 'WP_CONTENT_DIR', '/srv/www/wp-content' );
-
-Then you must update your Apache configuration to override
-the default wp-content directory (within the DocumentRoot)
+To respect the FHS and to to let you add supplementary plugins and themes,
+the default configuration sets WP_CONTENT_DIR to
+/var/lib/wordpress/wp-content. This implies that your Apache configuration
+should override the default wp-content directory (within the DocumentRoot)
 with this directory. You can do this with an alias directive:
-Alias /wp-content /srv/www/wp-content
+Alias /wp-content /var/lib/wordpress/wp-content
 
-It's up to you to copy (or symlink) whatever you want and everything
-you need in this new directory (you need at least one theme!). The
-following commands creates the required directories and symlinks the
-default themes and plugins:
-$ sudo mkdir -p /srv/www/wp-content/{uploads,blogs.dir,plugins,themes}
-$ sudo chown -R www-data /srv/www/wp-content/{uploads,blogs.dir}
-$ sudo ln -sf -t /srv/www/wp-content/plugins/ /usr/share/wordpress/wp-content/plugins/*
-$ sudo ln -sf -t /srv/www/wp-content/themes/ /usr/share/wordpress/wp-content/themes/*
+The subdirectories "uploads" and "blogs.dir" should be owned by www-data
+by default. This ensures that you can upload media files from within
+WordPress.
+
+The subdirectories "themes" and "plugins" are where you can drop
+non-packaged themes and plugins.
 
 Note that if you want WordPress to be able to edit themes and to update
 plugins, you have to ensure that all the themes and plugins are owned
-by the webserver user (www-data). This is easy to do for the custom themes
-and plugins that you have installed in /srv/www/wp-content/:
-$ sudo chmod -R www-data /srv/www/wp-content/
+by the webserver user (www-data). This is easy to do for the themes
+and plugins that you have installed in /var/lib/wordpress/wp-content/:
+$ sudo chown -R www-data /var/lib/wordpress/wp-content
 
 But the default themes and plugins (installed in
 /usr/share/wordpress/wp-content/) are owned by the root user. If you want
 those to be editable, you should remove the corresponding symlink in
-/srv/www/wp-content/ and put a full copy of the default themes and
-plugins.
+/var/lib/wordpress/wp-content/ and put there a full copy of the default
+themes and plugins. Then you should re-run the previous chown command.
 
 If despite all this, you can't get the plugin upgrade feature to work, you
 can try to add the following parameter to your configuration file:

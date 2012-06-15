@@ -1,2 +1,5 @@
 etc/wordpress/htaccess usr/share/wordpress/.htaccess
-var/lib/wordpress/blogs.dir usr/share/wordpress/wp-content/blogs.dir
+# Those links are setup in case the user decides to set
+# WP_CONTENT_DIR to /usr/share/wordpress/wp-content
+var/lib/wordpress/wp-content/blogs.dir usr/share/wordpress/wp-content/blogs.dir
+var/lib/wordpress/wp-content/uploads usr/share/wordpress/wp-content/uploads

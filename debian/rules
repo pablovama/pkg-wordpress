@@ -4,6 +4,9 @@
 # ships in their archive that we will strip in get-orig-source.
 UPSTREAM_FILE_BLACKLIST=wp-content/plugins/hello.php
 
+WP_CONTENT = debian/wordpress/var/lib/wordpress/wp-content
+WP_CONTENT_ORIG = debian/wordpress/usr/share/wordpress/wp-content
+
 %:
 	dh $@ --with linktree
 
@@ -14,6 +17,18 @@ override_dh_auto_build:
 
 override_dh_install:
 	dh_install -Xlicense.txt -XMIT-LICENSE
+
+override_dh_fixperms:
+	dh_fixperms
+	chown www-data:www-data $(WP_CONTENT)/blogs.dir $(WP_CONTENT)/uploads
+
+override_dh_link: WP_CONTENT_TARGET=/usr/share/wordpress/wp-content
+	dh_link
+	# Populate /var/lib/wordpress/wp-content with default themes and plugins
+	for file in $(WP_CONTENT_ORIG)/themes/* $(WP_CONTENT_ORIG)/plugins/*; do \
+	    file="$${file##$(WP_CONTENT_ORIG)/}"; \
+	    ln -sf $(WP_CONTENT_TARGET)/$$file $(WP_CONTENT)/$$file; \
+	done
 
 # Use like this: debian/rules get-orig-source VERSION=3.4
 get-orig-source:

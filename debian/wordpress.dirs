@@ -1,1 +1,4 @@
-var/lib/wordpress/blogs.dir
+var/lib/wordpress/wp-content/blogs.dir
+var/lib/wordpress/wp-content/uploads
+var/lib/wordpress/wp-content/themes
+var/lib/wordpress/wp-content/plugins

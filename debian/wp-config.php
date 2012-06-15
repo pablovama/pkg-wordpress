@@ -44,6 +44,8 @@ if (!defined('DB_USER'))
     define('DB_USER', 'wordpress');
 if (!defined('DB_HOST'))
     define('DB_HOST', 'localhost');
+if (!defined('WP_CONTENT_DIR'))
+    define('WP_CONTENT_DIR', '/var/lib/wordpress/wp-content');
 
 /* Default value for the table_prefix variable so that it doesn't need to
    be put in every host-specific config file */
