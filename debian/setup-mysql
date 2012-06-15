@@ -113,7 +113,6 @@ mkdir -p $UPLOAD
 echo Setting up permissions
 chown -R root:www-data /srv/www/wp-uploads
 chmod -R 0774 $UPLOAD
-#FIXME katalogen kanske inte finns.
 chown -R root:www-data /srv/www/$DOMAIN/wp-content
 chmod -R 0770 /srv/www/$DOMAIN/wp-content
 
@@ -185,7 +184,7 @@ then
   exit 1
 fi
 
-DOMAIN=$1
+DOMAIN=$(echo $1 | tr "[:upper:]" "[:lower:]")
 UPLOAD="/srv/www/wp-uploads/$DOMAIN"
 
 if [ $DOMAIN ] ; then
