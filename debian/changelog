@@ -1,3 +1,9 @@
+wordpress (3.4+dfsg-1) UNRELEASED; urgency=low
+
+  * 
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 15 Jun 2012 11:03:42 +0200
+
 wordpress (3.3.2+dfsg-1) unstable; urgency=high
 
   * New upstream security release. Closes: #670124
