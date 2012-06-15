@@ -5,7 +5,6 @@
 UPSTREAM_FILE_BLACKLIST=wp-content/plugins/hello.php
 
 WP_CONTENT = debian/wordpress/var/lib/wordpress/wp-content
-WP_CONTENT_ORIG = debian/wordpress/usr/share/wordpress/wp-content
 
 %:
 	dh $@ --with linktree
@@ -22,7 +21,9 @@ override_dh_fixperms:
 	dh_fixperms
 	chown www-data:www-data $(WP_CONTENT)/blogs.dir $(WP_CONTENT)/uploads
 
-override_dh_link: WP_CONTENT_TARGET=/usr/share/wordpress/wp-content
+WP_CONTENT_TARGET = /usr/share/wordpress/wp-content
+WP_CONTENT_ORIG = debian/wordpress$(WP_CONTENT_TARGET)
+override_dh_link: 
 	dh_link
 	# Populate /var/lib/wordpress/wp-content with default themes and plugins
 	for file in $(WP_CONTENT_ORIG)/themes/* $(WP_CONTENT_ORIG)/plugins/*; do \
