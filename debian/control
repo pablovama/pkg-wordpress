@@ -26,7 +26,7 @@ Description: weblog manager
 Package: wordpress-l10n
 Section: localization
 Architecture: all
-Depends: ${misc:Depends}, wordpress (>> 2.8.4-2)
+Depends: ${misc:Depends}, wordpress (= ${source:Version})
 Description: weblog manager - language files
  WordPress is a full featured web blogging tool:
     * Instant publishing (no rebuilding)
