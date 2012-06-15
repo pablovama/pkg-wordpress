@@ -1,12 +1,3 @@
-debian/default/images/kubrickfooter.jpg  
-debian/default/images/kubrickbg-ltr.jpg  
-debian/default/images/kubrickbgcolor.jpg  
-debian/default/images/header-img.php  
-debian/default/images/audio.jpg  
-debian/default/images/kubrickbg-rtl.jpg  
-debian/default/images/kubrickheader.jpg  
-debian/default/images/kubrickbgwide.jpg  
-debian/default/screenshot.png  
 debian/missing-sources/jsCropperUI-1.2.0.tar.gz
 debian/missing-sources/swfupload-2.2.0.1/Flash/swfupload.swf
 debian/missing-sources/plupload-1.5.4/csharp/Plupload/Plupload.suo

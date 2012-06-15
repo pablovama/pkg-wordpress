@@ -5,6 +5,3 @@ wp-content usr/share/wordpress
 wp-includes usr/share/wordpress
 *.php usr/share/wordpress
 readme.html usr/share/wordpress
-debian/default usr/share/wordpress/wp-content/themes/
-debian/default/images usr/share/wordpress/wp-content/themes/default-fr
-debian/default/screenshot.png usr/share/wordpress/wp-content/themes/default-fr
