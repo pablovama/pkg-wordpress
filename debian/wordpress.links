@@ -1,3 +1,2 @@
 etc/wordpress/htaccess usr/share/wordpress/.htaccess
-etc/wordpress/wp-config.php usr/share/wordpress/wp-config.php
 var/lib/wordpress/blogs.dir usr/share/wordpress/wp-content/blogs.dir

@@ -1,4 +1,4 @@
-debian/wp-config.php etc/wordpress
+debian/wp-config.php usr/share/wordpress
 debian/htaccess etc/wordpress
 wp-admin usr/share/wordpress
 wp-content usr/share/wordpress
