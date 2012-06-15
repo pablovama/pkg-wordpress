@@ -1,4 +1,4 @@
-wordpress (3.4+dfsg-1) UNRELEASED; urgency=low
+wordpress (3.4+dfsg-1) unstable; urgency=low
 
   * New upstream release. Closes: #677534
 
@@ -36,12 +36,15 @@ wordpress (3.4+dfsg-1) UNRELEASED; urgency=low
     pointing back to the default themes and plugins. (Closes: #675469)
   * [4db98c6] Update setup-mysql to use WP_CONTENT_DIR (and no longer use
     $upload_dir). (Closes: #658508)
+  * [a1970da] Extend debian/wordpress.linktrees to cover swfobject.js.
+  * [8d46dab] Use dpkg-maintscript-helper to drop obsolete
+    /etc/wordpress/wp-config.php
 
   [ Martin Bagge / brother ]
   * [56d0a34] Improve the setup script to be able to use a remote MySQL
     server.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 15 Jun 2012 11:03:42 +0200
+ -- Raphaël Hertzog <hertzog@debian.org>  Sat, 16 Jun 2012 01:19:20 +0200
 
 wordpress (3.3.2+dfsg-1) unstable; urgency=high
 
