@@ -1,6 +1,45 @@
 wordpress (3.4+dfsg-1) UNRELEASED; urgency=low
 
-  * 
+  * New upstream release. Closes: #677534
+
+  [ Raphaël Hertzog ]
+  * [a1c0409] Refresh and update all patches to correctly apply on version
+    3.4.
+  * [3804496] Update debian/missing-sources/ to match the current versions of
+    embedded javascript and flash files.
+  * [185b051] Drop the old "default" theme (and its French translation)
+  * [966ce6c] Grab latest translations
+  * [1983326] Update Standards-Version to 3.9.3 (no change).
+  * [29c48b6] Increase debhelper compat level to 8.
+  * [73e16d0] Replace debian/dh_linktree by the packaged version.
+  * [359b660] Update debian/wordpress.linktrees to match latest developments.
+  * [645b650] Let setup-mysql lowercase the FQDN since the configuration
+    scheme expects this. Thanks to Chris Butler <chrisb@debian.org> for the
+    report (Closes: #658395)
+  * [5433e90] Fix setup-mysql to avoid creating /srv/www with restricted
+    permissions (Closes: #616400)
+  * [dd2ef1d] Move back wp-config.php to /usr/share/wordpress/ since it's only
+    a dispatcher to the real configuration file (Closes: #592502)
+  * [b602372] Improve wp-config.php so that WordPress works behind an https
+    reverse-proxy.
+  * [ba0b729] Entirely update and rewrite README.debian. (Closes: #575985,
+    #639980)
+  * [683a908] Update wp-config.php to not redefine constants which have
+    already been set.  Thanks to Richard van den Berg <richard@vdberg.org> for
+    the report. (Closes: #613283)
+  * [315eb68] Let wordpress-l10n depend on the same version than wordpress.
+    (Closes: #623557)
+  * [a6d0b9f] Default configuration now sets WP_CONTENT_DIR to
+    /var/lib/wordpress/wp-content. And the package provides this new directory
+    appropriately setup with write rights to www-data on blogs.dir and
+    uploads. themes and plugins are root-owned directories with symlinks
+    pointing back to the default themes and plugins. (Closes: #675469)
+  * [4db98c6] Update setup-mysql to use WP_CONTENT_DIR (and no longer use
+    $upload_dir). (Closes: #658508)
+
+  [ Martin Bagge / brother ]
+  * [56d0a34] Improve the setup script to be able to use a remote MySQL
+    server.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Fri, 15 Jun 2012 11:03:42 +0200
 
