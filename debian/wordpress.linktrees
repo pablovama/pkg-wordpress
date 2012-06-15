@@ -23,6 +23,9 @@ replace usr/share/php/libphp-snoopy/Snoopy.class.php usr/share/wordpress/wp-incl
 # cropper
 replace usr/share/javascript/cropper usr/share/wordpress/wp-includes/js/crop
 
+# swfobject
+deduplicate usr/share/javascript/swfobject/swfobject.js usr/share/wordpress/wp-includes/js/swfobject.js
+
 # Jquery
 # This one will never work as long a WP includes the jQuery.noConflict at
 # the end, see http://core.trac.wordpress.org/ticket/16494 for a somewhat
