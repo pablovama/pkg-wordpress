@@ -62,7 +62,7 @@ else
 fi
 
 # Write the config file for wordpress
-umask 0027
+(umask 0027;
 cat > $CONFIG_FILE << EOF
 <?php
 define('DB_NAME', '$DB_NAME');
@@ -83,6 +83,7 @@ define('WP_CORE_UPDATE', false);
 \$upload_url_path = "http://$DOMAIN/wp-uploads";
 ?>
 EOF
+)
 chgrp www-data "${CONFIG_FILE}"
 echo $CONFIG_FILE written
 }
@@ -105,7 +106,7 @@ IDENTIFIED BY '$DB_PASSWORD';
 FLUSH PRIVILEGES;
 EOF
 fi
-[ -d /srv/www ] || mkdir -p /srv/www
+[ -d /srv/www ] || (mkdir -p /srv/www; chmod 755 /srv/www)
 ln -s /usr/share/wordpress /srv/www/$DOMAIN
 
 echo Trying to create upload directory: $UPLOAD
