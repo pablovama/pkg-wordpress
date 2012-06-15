@@ -30,6 +30,7 @@ case "$1" in
 	    if [ -e /var/lib/wordpress/blogs.dir ]; then
 		mkdir -p /var/lib/wordpress/wp-content
 		mv /var/lib/wordpress/blogs.dir /var/lib/wordpress/wp-content/
+		chown www-data:www-data /var/lib/wordpress/wp-content/blogs.dir
 	    fi
 	fi
     ;;
