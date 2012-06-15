@@ -10,7 +10,7 @@ wordpress (3.4+dfsg-1) UNRELEASED; urgency=low
   * [185b051] Drop the old "default" theme (and its French translation)
   * [966ce6c] Grab latest translations
   * [1983326] Update Standards-Version to 3.9.3 (no change).
-  * [29c48b6] Increase debhelper compat level to 8.
+  * [29c48b6] Increase debhelper compat level to 9.
   * [73e16d0] Replace debian/dh_linktree by the packaged version.
   * [359b660] Update debian/wordpress.linktrees to match latest developments.
   * [645b650] Let setup-mysql lowercase the FQDN since the configuration
