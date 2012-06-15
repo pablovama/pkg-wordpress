@@ -65,22 +65,13 @@ fi
 (umask 0027;
 cat > $CONFIG_FILE << EOF
 <?php
+# Created by $0 $@
 define('DB_NAME', '$DB_NAME');
 define('DB_USER', '$DB_USER');
 define('DB_PASSWORD', '$DB_PASSWORD');
 define('DB_HOST', '$DB_HOST');
 define('SECRET_KEY', '$SECRET_KEY');
-
-#This will disable the update notification.
-define('WP_CORE_UPDATE', false);
-
-\$table_prefix  = 'wp_';
-\$server = DB_HOST;
-\$loginsql = DB_USER;
-\$passsql = DB_PASSWORD;
-\$base = DB_NAME;
-\$upload_path = "$UPLOAD";
-\$upload_url_path = "http://$DOMAIN/wp-uploads";
+define('WP_CONTENT_DIR', '$CONTENT');
 ?>
 EOF
 )
@@ -107,15 +98,15 @@ FLUSH PRIVILEGES;
 EOF
 fi
 [ -d /srv/www ] || (mkdir -p /srv/www; chmod 755 /srv/www)
-ln -s /usr/share/wordpress /srv/www/$DOMAIN
 
-echo Trying to create upload directory: $UPLOAD
-mkdir -p $UPLOAD
+echo Trying to create wp-content directory: $CONTENT
+mkdir -p $CONTENT
+ln -sf /var/lib/wordpress/wp-content/themes $CONTENT/themes
+ln -sf /var/lib/wordpress/wp-content/plugins $CONTENT/plugins
 echo Setting up permissions
-chown -R root:www-data /srv/www/wp-uploads
-chmod -R 0774 $UPLOAD
-chown -R root:www-data /srv/www/$DOMAIN/wp-content
-chmod -R 0770 /srv/www/$DOMAIN/wp-content
+mkdir -p $CONTENT/blogs.dir $CONTENT/uploads
+chown -R root:www-data $CONTENT/blogs.dir $CONTENT/uploads
+chmod -R 0774 $CONTENT/blogs.dir $CONTENT/uploads
 
 echo Goto http://$DOMAIN to setup Wordpress
 }
@@ -146,9 +137,8 @@ FLUSH PRIVILEGES ;
 DROP DATABASE IF EXISTS $NAME;
 EOF
 rm $CONFIG_FILE
-rm -rf /srv/www/$DOMAIN
 
-[ -d $UPLOAD ] && echo Please destroy $UPLOAD manually
+[ -d $CONTENT ] && echo Please destroy $CONTENT manually
 }
 
 prompt() {
@@ -186,7 +176,7 @@ then
 fi
 
 DOMAIN=$(echo $1 | tr "[:upper:]" "[:lower:]")
-UPLOAD="/srv/www/wp-uploads/$DOMAIN"
+CONTENT="/srv/www/wp-content/$DOMAIN"
 
 if [ $DOMAIN ] ; then
 ping -c 1 `echo $DOMAIN | sed 's/:[0-9]\+//'` || exit 1
