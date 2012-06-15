@@ -23,9 +23,9 @@ MU for Debian installations
 -			<li><p><?php printf( __( 'Add the following to your <code>wp-config.php</code> file in <code>%s</code> <strong>above</strong> the line reading <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:' ), ABSPATH ); ?></p>
 +			<li><p><?php printf( __( 'Add the following to your <code>%s</code> file:' ), DEBIAN_FILE ); ?></p>
  				<textarea class="code" readonly="readonly" cols="100" rows="7">
- define( 'MULTISITE', true );
- define( 'SUBDOMAIN_INSTALL', <?php echo $subdomain_install ? 'true' : 'false'; ?> );
-@@ -396,7 +396,7 @@ define( 'BLOG_ID_CURRENT_SITE', 1 );</te
+ define('MULTISITE', true);
+ define('SUBDOMAIN_INSTALL', <?php echo $subdomain_install ? 'true' : 'false'; ?>);
+@@ -396,7 +396,7 @@ define('BLOG_ID_CURRENT_SITE', 1);</text
  		$num_keys_salts = count( $keys_salts );
  ?>
  	<p><?php

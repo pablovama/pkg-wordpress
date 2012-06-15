@@ -13,12 +13,12 @@ Description: Only admin can upgrade wordpress. (CVE-2008-6767) (Closes: #531736)
  require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
 --- a/wp-login.php
 +++ b/wp-login.php
-@@ -615,6 +615,8 @@ default:
+@@ -658,6 +658,8 @@ default:
  		$errors->add('registered', __('Registration complete. Please check your e-mail.'), 'message');
  	elseif	( $interim_login )
  		$errors->add('expired', __('Your session has expired. Please log-in again.'), 'message');
-+	elseif  ( isset($_GET['upgrade'])) 
++	elseif  ( isset($_GET['upgrade']) )
 +		$errors->add('upgrade', __('Upgrade is needed, please log in with an admin account.'), 'message');
+ 	elseif ( strpos( $redirect_to, 'about.php?updated' ) )
+ 		$errors->add('updated', __( '<strong>You have successfully updated WordPress!</strong> Please log back in to experience the awesomeness.' ), 'message' );
  
- 	// Clear any stale cookies.
- 	if ( $reauth )

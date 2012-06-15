@@ -3,7 +3,7 @@ Description: This makes us able to change rss_language directly from the admin p
 --- a/wp-admin/options-reading.php
 +++ b/wp-admin/options-reading.php
 @@ -113,6 +113,10 @@ else :
- <td><input name="posts_per_rss" type="text" id="posts_per_rss" value="<?php form_option( 'posts_per_rss' ); ?>" class="small-text" /> <?php _e( 'items' ); ?></td>
+ <td><input name="posts_per_rss" type="number" step="1" min="1" id="posts_per_rss" value="<?php form_option( 'posts_per_rss' ); ?>" class="small-text" /> <?php _e( 'items' ); ?></td>
  </tr>
  <tr valign="top">
 +<th scope="row"><?php _e( 'RSS feed language' ) ?></th>
@@ -12,7 +12,7 @@ Description: This makes us able to change rss_language directly from the admin p
 +<tr valign="top">
  <th scope="row"><?php _e( 'For each article in a feed, show' ); ?> </th>
  <td><fieldset><legend class="screen-reader-text"><span><?php _e( 'For each article in a feed, show' ); ?> </span></legend>
- <p><label><input name="rss_use_excerpt"  type="radio" value="0" <?php checked( 0, get_option( 'rss_use_excerpt' ) ); ?>	/> <?php _e( 'Full text' ); ?></label><br />
+ <p><label><input name="rss_use_excerpt" type="radio" value="0" <?php checked( 0, get_option( 'rss_use_excerpt' ) ); ?>	/> <?php _e( 'Full text' ); ?></label><br />
 --- a/wp-admin/options.php
 +++ b/wp-admin/options.php
 @@ -63,7 +63,7 @@ $whitelist_options = array(
