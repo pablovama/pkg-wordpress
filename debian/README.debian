@@ -1,72 +1,92 @@
-#### Flash-based SWFUpload tool
-
-Wordpress originally comes with a Flash-based tool that allows one to upload
-files. However, that tool violates the Debian Policy, as stated in the
-bug #591195. That is why this tool is not shipped with the Debian package
-anymore.
-
-If you want to enable this feature, you need to install the
-Flash file yourself with the following command:
-    # wget -O /usr/share/wordpress/wp-includes/js/swfupload/swfupload.swf http://core.svn.wordpress.org/branches/3.0/wp-includes/js/swfupload/swfupload.swf
-
-
 #### Quick setup
 
 Setup apache to point to /usr/share/wordpress. See the examples/apache.conf
 
-Database setup can be done with the help of a script in examples/setup-mysql
+Database and filesystem setup can be done with the help of a script in
+examples/setup-mysql. Beware: it assumes that you want to install your
+files in /srv/www/.
 
-#### A little more about the (multiple blog) configuration
+#### WordPress configuration file
 
-The default wp-config.php searches for a (mysql) configuration filename based
-on the blog's host. This allows you to host more than one blog on a Debian
-system.
+The Debian package installs a wp-config.php script that will
+try to load the real configuration from /etc/wordpress/config-$HOST.php
+or /etc/wordpress/config-$DOMAIN.php (if the URL is "http://blog.example.com",
+$HOST will be "blog.example.com" and $DOMAIN will be "example.com").
 
-#### Upgrading from 2.5 and below
+If none of those files exist, it will try /etc/wordpress/config-default.php.
+Failing that, it will return an error 404.
 
-From wordpress 2.8.4-1 to mitigate a possible script injection via 
-/etc/wordpress/wp-config.php, the config files for each site must reside in
-/etc/wordpress/ directory. If those files are symlinks, you will receive a
-fatal error: "The config file for the specified host is not under an allowed 
-path"
+This was initially developed to host multiple blogs on the same server
+but since then, WordPress has grown a "multisite" feature of its own.
 
-#### Upgrading from 1.5-1 and below
+If you want to learn more about those configuration files, you should
+check /usr/share/wordpress/wp-config-sample.php and
+http://codex.wordpress.org/Editing_wp-config.php
 
-If you would like to use the optional default multiple blog configuration from
-version 1.5-2 then:
+#### Managing plugins, themes and uploaded files
 
-Backup your database. http://codex.wordpress.org/Backing_Up_Your_Database
-Backup your configs, sudo cp -r /etc/wordpress/ ~/asafeplace
-Purge wordpress, apt-get remove --purge wordpress
-Install wordpress, apt-get install wordpress
-Point your browser to your blog and you should get an error message similar to above.
-Copy in your backed up wp-config.php to what it failed to open in the Fatal error, e.g. /etc/wordpress/config-my.blog.example.com.php
-Ensure correct permissions, sudo chown :www-data /etc/wordpress/*
+You almost always want to be able to install supplementary plugins and
+themes. Doing this in /usr/share/wordpress/wp-content/ is not very
+clean and it requires root permissions.
 
-#### Plugins, themes and extra bits related to Wordpress
+Instead you should tell WordPress to use an alternative
+wp-content directory with a configuration item like this:
+define( 'WP_CONTENT_DIR', '/srv/www/wp-content' );
 
-Currently plugins and themes need to be dropped in by root into:
-/usr/share/wordpress/wp-content
-Or better by utilising symbolic links. e.g.
-ln -s /home/user/mytheme /usr/share/wordpress/wp-content/themes/mytheme
+Then you must update your Apache configuration to override
+the default wp-content directory (within the DocumentRoot)
+with this directory. You can do this with an alias directive:
+Alias /wp-content /srv/www/wp-content
 
-#### Switching a blog to a new language
+It's up to you to copy (or symlink) whatever you want and everything
+you need in this new directory (you need at least one theme!). The
+following commands creates the required directories and symlinks the
+default themes and plugins:
+$ sudo mkdir -p /srv/www/wp-content/{uploads,blogs.dir,plugins,themes}
+$ sudo chown -R www-data /srv/www/wp-content/{uploads,blogs.dir}
+$ sudo ln -sf -t /srv/www/wp-content/plugins/ /usr/share/wordpress/wp-content/plugins/*
+$ sudo ln -sf -t /srv/www/wp-content/themes/ /usr/share/wordpress/wp-content/themes/*
 
- - in the admin pages, select a theme in the desired language;
- - add "define ('WPLANG', 'LANGUAGE');" to the
-   /etc/wordpress/config-HOSTNAME.php of the blog; LANGUAGE is 'en'
-   for English and 'fr_FR' for French; this value should be the
-   filename of the .mo file (in
-   /usr/share/wordpress/wp-content/languages) without the ".mo";
- - with MySQL, change the rss_language option to 'LANGAGE':
+Note that if you want WordPress to be able to edit themes and to update
+plugins, you have to ensure that all the themes and plugins are owned
+by the webserver user (www-data). This is easy to do for the custom themes
+and plugins that you have installed in /srv/www/wp-content/:
+$ sudo chmod -R www-data /srv/www/wp-content/
 
-   #DB_USER is the MySQL user,     as in /etc/wordpress/config-HOSTNAME.php
-   #DB_NAME is the MySQL database, as in /etc/wordpress/config-HOSTNAME.php
-   mysql -uUSER -p DB_NAME
-   #enter the password (as DB_PASSWORD in /etc/wordpress/config-HOSTNAME.php)
-   #if your $table_prefix is not wp_, adapt the following line
-   UPDATE wp_options SET option_value='LANGAGE' WHERE option_name='rss_language';
-   exit;
+But the default themes and plugins (installed in
+/usr/share/wordpress/wp-content/) are owned by the root user. If you want
+those to be editable, you should remove the corresponding symlink in
+/srv/www/wp-content/ and put a full copy of the default themes and
+plugins.
 
-   You can drop the _FR suffix for French (just 'fr', not 'fr_FR').
-   (See Debian bug #461584)
+If despite all this, you can't get the plugin upgrade feature to work, you
+can try to add the following parameter to your configuration file:
+define( 'FS_METHOD', 'direct' );
+
+#### Hosting multiple blogs
+
+## With WordPress multisite
+
+With WordPress multisite, you have a single instance of WordPress
+(one database, one configuration file) that is able to manage multiple
+blogs.
+
+It is thus recommended to put your WordPress configuration in
+/etc/wordpress/config-default.php. Then you should enable the
+"Multisite" feature in the web interface directly through
+Administration > Tools > Network Setup.
+
+More information:
+http://codex.wordpress.org/Create_A_Network
+
+Note that the default configuration of the Debian package already includes
+WP_ALLOW_MULTISITE set to true.
+
+## With separate configurations
+
+If you don't want to use the multisite feature, you can create
+multiple configuration files corresponding to your various blogs.
+Each configuration file can point to a dedicated MySQL database (or
+they can share the same database but then they must use different
+$table_prefix to ensure that they use different tables within
+the same database).
