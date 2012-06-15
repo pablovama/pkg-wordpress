@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Giuseppe Iuculano <iuculano@debian.org>
 Uploaders: Raphaël Hertzog <hertzog@debian.org>
 Standards-Version: 3.9.3
-Build-Depends: debhelper (>= 7.0.50~)
+Build-Depends: debhelper (>= 8)
 Build-Depends-Indep: gettext, libphp-phpmailer (>= 5.1), libjs-prototype, libjs-scriptaculous, tinymce (>= 3.4.2), libphp-snoopy, libjs-jquery (>= 1.6.1), libjs-jquery-ui (>= 1.8.1), libjs-jquery-form, libjs-cropper, libphp-simplepie (>= 1.2)
 Homepage: http://wordpress.org
 Vcs-Git: git://git.debian.org/git/collab-maint/wordpress.git
