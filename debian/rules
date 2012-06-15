@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@
+	dh $@ --with linktree
 
 WP_INCLUDES=debian/wordpress/usr/share/wordpress/wp-includes
 
@@ -18,9 +18,6 @@ override_dh_auto_build:
 
 override_dh_install:
 	dh_install -Xlicense.txt -XMIT-LICENSE
-	# Remove embedded libraries so that they can be replaced by symlinks
-	# where appropriate
-	debian/dh_linktree
 
 # Use like this: debian/rules get-orig-source VERSION=3.4
 get-orig-source:
