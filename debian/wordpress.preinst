@@ -27,10 +27,19 @@ case "$1" in
 	    done
 	fi
 	if dpkg --compare-versions "$2" lt 3.4; then
+	    # Move some sub-directories of wp-content to their new place
+	    # in /var/lib/wordpress/wp-content
 	    if [ -e /var/lib/wordpress/blogs.dir ]; then
 		mkdir -p /var/lib/wordpress/wp-content
 		mv /var/lib/wordpress/blogs.dir /var/lib/wordpress/wp-content/
 		chown www-data:www-data /var/lib/wordpress/wp-content/blogs.dir
+	    fi
+	    if [ -d /usr/share/wordpress/wp-content/uploads ] && \
+	       [ ! -h /usr/share/wordpress/wp-content/uploads ] && \
+	       [ ! -e /var/lib/wordpress/wp-content/uploads ]; then
+		mkdir -p /var/lib/wordpress/wp-content
+		mv /usr/share/wordpress/wp-content/uploads /var/lib/wordpress/wp-content/
+		chown www-data:www-data /var/lib/wordpress/wp-content/uploads
 	    fi
 	fi
     ;;
