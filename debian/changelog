@@ -1,3 +1,20 @@
+wordpress (3.4+dfsg-2) unstable; urgency=low
+
+  * [2e63535] Merge unused debian/NEWS into debian/wordpress.NEWS so that
+    users are correctly informed of the latest changes.
+  * [e3b7b1c] Improve preinst to also move the
+    /usr/share/wordpress/wp-content/uploads directory to its new location in
+    /var/lib/wordpress/wp-content/. The package never created this directory
+    but many users probably created it and we need to do this to let dpkg
+    install the symlink that we put into place.
+  * [5c0a29b] Add a trigger that watches /usr/share/wordpress/wp-content.
+    When activated, it will execute wp-setup --sync-wp-content
+    which updates /var/lib/wordpress/wp-content/ with symlinks
+    to plugins/themes that have been added and it drops symlinks
+    to plugins/themes which have disappeared. (Closes: #677889)
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 21 Jun 2012 20:44:53 +0200
+
 wordpress (3.4+dfsg-1) unstable; urgency=low
 
   * New upstream release. Closes: #677534
