@@ -13,6 +13,7 @@ override_dh_auto_build:
 	for i in debian/languages/*.po; do \
 		msgfmt $$i -o $${i%%.po}.mo; \
         done
+	pod2man --utf8 --center wp-setup debian/wp-setup debian/wp-setup.1
 
 override_dh_install:
 	dh_install -Xlicense.txt -XMIT-LICENSE
@@ -20,16 +21,6 @@ override_dh_install:
 override_dh_fixperms:
 	dh_fixperms
 	chown www-data:www-data $(WP_CONTENT)/blogs.dir $(WP_CONTENT)/uploads
-
-WP_CONTENT_TARGET = /usr/share/wordpress/wp-content
-WP_CONTENT_ORIG = debian/wordpress$(WP_CONTENT_TARGET)
-override_dh_link: 
-	dh_link
-	# Populate /var/lib/wordpress/wp-content with default themes and plugins
-	for file in $(WP_CONTENT_ORIG)/themes/* $(WP_CONTENT_ORIG)/plugins/*; do \
-	    file="$${file##$(WP_CONTENT_ORIG)/}"; \
-	    ln -sf $(WP_CONTENT_TARGET)/$$file $(WP_CONTENT)/$$file; \
-	done
 
 # Use like this: debian/rules get-orig-source VERSION=3.4
 get-orig-source:

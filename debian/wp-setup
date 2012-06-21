@@ -1,0 +1,137 @@
+#!/bin/sh
+
+WP_CONTENT_DIR=/var/lib/wordpress/wp-content
+WP_CONTENT_ORIG_DIR=/usr/share/wordpress/wp-content
+
+set -e
+
+usage() {
+    cat <<END
+$0 <action> [<options>...]
+
+Actions:
+    --sync-wp-content	Update $WP_CONTENT_DIR based on files
+			available in $WP_CONTENT_ORIG_DIR
+END
+}
+
+sync_wp_content() {
+    for subdir in themes plugins; do
+	ensure_wp_content_subdir_exists $subdir
+	add_new_wp_content_files $subdir
+	drop_removed_wp_content_files $subdir
+    done
+}
+
+ensure_wp_content_subdir_exists() {
+    local subdir=$1
+    [ -e $WP_CONTENT_DIR ] || setup_wp_content
+    mkdir -p $WP_CONTENT_DIR/$subdir
+}
+
+setup_wp_content() {
+    mkdir -p $WP_CONTENT_DIR/blogs.dir $WP_CONTENT_DIR/uploads
+    chown www-data:www-data $WP_CONTENT_DIR/blogs.dir $WP_CONTENT_DIR/uploads
+}
+
+add_new_wp_content_files() {
+    local subdir=$1
+    for dir in $WP_CONTENT_ORIG_DIR/$subdir/*; do
+	name=$(basename $dir)
+	symlink_path="$WP_CONTENT_DIR/$subdir/$name"
+	if [ ! -d $dir ]; then
+	    continue
+	fi
+	if [ -e $symlink_path ]; then
+	    continue
+	fi
+	echo "Installing $subdir/$name in $WP_CONTENT_DIR..."
+	ln -sf $dir $symlink_path
+    done
+}
+
+drop_removed_wp_content_files() {
+    local subdir=$1
+    for dir in $WP_CONTENT_DIR/$subdir/*; do
+	name=$(basename $dir)
+	if [ ! -h $dir ] || [ -e $dir ]; then
+	    continue
+	fi
+	target=$(readlink $dir)
+	if [ "$target" = "${target##$WP_CONTENT_ORIG_DIR}" ]; then
+	    continue
+	fi
+	echo "Removing $subdir/$name in $WP_CONTENT_DIR..."
+	rm -f $dir
+    done
+}
+
+TEMP=$(getopt -o s -l sync-wp-content -- "$@")
+eval set -- "$TEMP"
+
+while true; do
+    case "$1" in
+	--sync-wp-content)
+	    action="$1"
+	    shift
+	;;
+	--)
+	    shift
+	    break
+	;;
+	*)
+	    echo "$0: error: invalid option '$1'" >&2
+	    usage
+	    exit 1
+	;;
+    esac
+done
+
+case "$action" in
+    --sync-wp-content)
+	sync_wp_content
+    ;;
+    *)
+	echo "$0: error: no action specified!" >&2
+	usage
+	exit 1
+    ;;
+esac
+
+# Script documentation follows
+: <<=cut
+=encoding UTF-8
+
+=head1 NAME
+
+wp-setup - wordpress setup for Debian
+
+=head1 SYNOPSIS
+
+B<wp-setup> I<action>
+
+=head1 DESCRIPTION
+
+This script's purpose is to make it easier to manage Wordpress
+installations on Debian systems. For now, it's mainly for the
+package's internal usage though.
+
+=head1 ACTIONS
+
+=over 4
+
+=item B<--sync-wp-content>
+
+Update /var/lib/wordpress/wp-content/{plugins,themes}/ based on what's
+available in /usr/share/wordpress/wp-content/{plugins,themes}. This
+command is run by the package postinst script every time that dpkg
+installs a package that modifies something in
+/usr/share/wordpress/wp-content/.
+
+=back
+
+=head1 AUTHOR
+
+Raphaël Hertzog <hertzog@debian.org>
+
+=cut

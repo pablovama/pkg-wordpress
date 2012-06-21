@@ -20,6 +20,11 @@ if [ -h /usr/share/javascript/cropper/marqueeVert.gif ] &&
     echo "you should reinstall libjs-cropper." >&2
 fi
 
+if [ "$1" = "triggered" ] || [ "$1" = "configure" ]; then
+    # Update /var/lib/wordpress/wp-content
+    wp-setup --sync-wp-content
+fi
+
 #DEBHELPER#
 
 exit 0
