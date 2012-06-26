@@ -73,11 +73,11 @@ setup_wp_content() {
 add_new_wp_content_files() {
     local subdir=$1
     for dir in $WP_CONTENT_ORIG_DIR/$subdir/*; do
-	name=$(basename $dir)
-	symlink_path="$WP_CONTENT_DIR/$subdir/$name"
-	if [ ! -d "$dir" ]; then
+	if [ ! -e "$dir" ]; then
 	    continue
 	fi
+	name=$(basename $dir)
+	symlink_path="$WP_CONTENT_DIR/$subdir/$name"
 	if [ -e "$symlink_path" ]; then
 	    continue
 	fi
