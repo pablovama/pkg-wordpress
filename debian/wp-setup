@@ -2,7 +2,7 @@
 
 WP_CONTENT_DIR=/var/lib/wordpress/wp-content
 WP_CONTENT_ORIG_DIR=/usr/share/wordpress/wp-content
-WP_CONTENT_SUBDIRS="themes plugins"
+WP_CONTENT_SUBDIRS="themes plugins languages"
 
 set -e
 
