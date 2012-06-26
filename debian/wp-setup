@@ -20,8 +20,17 @@ END
 
 purge_wp_content() {
     for subdir in $WP_CONTENT_SUBDIRS; do
-	purge_wp_content_subdir $subdir
+	list=$(purge_wp_content_subdir $subdir)
+	print_if_needed "Removed from $WP_CONTENT_DIR/$subdir" "$list"
     done
+}
+
+print_if_needed() {
+    local message="$1"
+    local list="$2"
+    if [ -n "$list" ]; then
+	echo "$message: $list"
+    fi
 }
 
 purge_wp_content_subdir() {
@@ -47,15 +56,17 @@ is_symlink_to_standard_directory() {
 
 remove_symlink() {
     local symlink="$1"
-    echo "Removing ${symlink##$WP_CONTENT_DIR/} in $WP_CONTENT_DIR"
+    echo -n "$(basename $symlink) "
     rm -f $symlink
 }
 
 sync_wp_content() {
     for subdir in $WP_CONTENT_SUBDIRS; do
 	ensure_wp_content_subdir_exists $subdir
-	add_new_wp_content_files $subdir
-	drop_removed_wp_content_files $subdir
+	list=$(add_new_wp_content_files $subdir)
+	print_if_needed "Added to $WP_CONTENT_DIR/$subdir" "$list"
+	list=$(drop_removed_wp_content_files $subdir)
+	print_if_needed "Removed from $WP_CONTENT_DIR/$subdir" "$list"
     done
 }
 
@@ -76,12 +87,12 @@ add_new_wp_content_files() {
 	if [ ! -e "$dir" ]; then
 	    continue
 	fi
-	name=$(basename $dir)
+	name="$(basename $dir)"
 	symlink_path="$WP_CONTENT_DIR/$subdir/$name"
 	if [ -e "$symlink_path" ]; then
 	    continue
 	fi
-	echo "Installing $subdir/$name in $WP_CONTENT_DIR..."
+	echo -n "$name "
 	ln -sf "$dir" "$symlink_path"
     done
 }
