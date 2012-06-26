@@ -2,6 +2,7 @@
 
 WP_CONTENT_DIR=/var/lib/wordpress/wp-content
 WP_CONTENT_ORIG_DIR=/usr/share/wordpress/wp-content
+WP_CONTENT_SUBDIRS="themes plugins"
 
 set -e
 
@@ -12,11 +13,46 @@ $0 <action> [<options>...]
 Actions:
     --sync-wp-content	Update $WP_CONTENT_DIR based on files
 			available in $WP_CONTENT_ORIG_DIR
+    --purge-wp-content  Purge $WP_CONTENT_DIR of symlinks
+                        pointing to $WP_CONTENT_ORIG_DIR
 END
 }
 
+purge_wp_content() {
+    for subdir in $WP_CONTENT_SUBDIRS; do
+	purge_wp_content_subdir $subdir
+    done
+}
+
+purge_wp_content_subdir() {
+    local subdir=$1
+    for dir in $WP_CONTENT_DIR/$subdir/*; do
+	if is_symlink_to_standard_directory "$dir"; then
+	    remove_symlink "$dir"
+	fi
+    done
+}
+
+is_symlink_to_standard_directory() {
+    local symlink="$1"
+    if [ ! -h $symlink ]; then
+	return 1
+    fi
+    target=$(readlink $symlink)
+    if [ "$target" = "${target##$WP_CONTENT_ORIG_DIR}" ]; then
+	return 1
+    fi
+    return 0
+}
+
+remove_symlink() {
+    local symlink="$1"
+    echo "Removing ${symlink##$WP_CONTENT_DIR/} in $WP_CONTENT_DIR"
+    rm -f $symlink
+}
+
 sync_wp_content() {
-    for subdir in themes plugins; do
+    for subdir in $WP_CONTENT_SUBDIRS; do
 	ensure_wp_content_subdir_exists $subdir
 	add_new_wp_content_files $subdir
 	drop_removed_wp_content_files $subdir
@@ -39,39 +75,41 @@ add_new_wp_content_files() {
     for dir in $WP_CONTENT_ORIG_DIR/$subdir/*; do
 	name=$(basename $dir)
 	symlink_path="$WP_CONTENT_DIR/$subdir/$name"
-	if [ ! -d $dir ]; then
+	if [ ! -d "$dir" ]; then
 	    continue
 	fi
-	if [ -e $symlink_path ]; then
+	if [ -e "$symlink_path" ]; then
 	    continue
 	fi
 	echo "Installing $subdir/$name in $WP_CONTENT_DIR..."
-	ln -sf $dir $symlink_path
+	ln -sf "$dir" "$symlink_path"
     done
 }
 
 drop_removed_wp_content_files() {
     local subdir=$1
     for dir in $WP_CONTENT_DIR/$subdir/*; do
-	name=$(basename $dir)
-	if [ ! -h $dir ] || [ -e $dir ]; then
+	if ! is_symlink_to_standard_directory "$dir"; then
 	    continue
 	fi
-	target=$(readlink $dir)
-	if [ "$target" = "${target##$WP_CONTENT_ORIG_DIR}" ]; then
+	# Ensure the symlink is broken before removing it
+	if [ -e "$dir" ]; then
 	    continue
 	fi
-	echo "Removing $subdir/$name in $WP_CONTENT_DIR..."
-	rm -f $dir
+	remove_symlink "$dir"
     done
 }
 
-TEMP=$(getopt -o s -l sync-wp-content -- "$@")
+TEMP=$(getopt -o sp -l sync-wp-content,purge-wp-content -- "$@")
 eval set -- "$TEMP"
 
 while true; do
     case "$1" in
 	--sync-wp-content)
+	    action="$1"
+	    shift
+	;;
+	--purge-wp-content)
 	    action="$1"
 	    shift
 	;;
@@ -90,6 +128,9 @@ done
 case "$action" in
     --sync-wp-content)
 	sync_wp_content
+    ;;
+    --purge-wp-content)
+	purge_wp_content
     ;;
     *)
 	echo "$0: error: no action specified!" >&2
@@ -124,9 +165,16 @@ package's internal usage though.
 
 Update /var/lib/wordpress/wp-content/{plugins,themes}/ based on what's
 available in /usr/share/wordpress/wp-content/{plugins,themes}. This
-command is run by the package postinst script every time that dpkg
+command is run by the package's postinst script every time that dpkg
 installs a package that modifies something in
 /usr/share/wordpress/wp-content/.
+
+=item B<--purge-wp-content>
+
+Remove all symlinks from /var/lib/wordpress/wp-content/{plugins,themes}/
+that point to corresponding directories in
+/usr/share/wordpress/wp-content/{plugins,themes}. This command is run by
+the package's prerm script to ensure everything is properly removed.
 
 =back
 
