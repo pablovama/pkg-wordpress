@@ -1,3 +1,15 @@
+wordpress (3.4+dfsg-3) unstable; urgency=low
+
+  * [f7a1c09] Drop useless postrm.
+  * [d92219b] Add a prerm script calling wp-setup --purge-wp-content on
+    remove. Closes: #678842
+  * [2fbf903] Allow wp-setup to symlink files as well as directories.
+  * [cef928f] Let wp-setup also manage
+    /var/lib/wordpress/wp-content/languages/.
+  * [ac86408] Densify output of wp-setup.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 26 Jun 2012 10:47:25 +0200
+
 wordpress (3.4+dfsg-2) unstable; urgency=low
 
   * [2e63535] Merge unused debian/NEWS into debian/wordpress.NEWS so that
