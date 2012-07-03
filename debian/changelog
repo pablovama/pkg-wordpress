@@ -1,3 +1,9 @@
+wordpress (3.4.1+dfsg-1) unstable; urgency=high
+
+  * New upstream security & bugfix release.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 03 Jul 2012 08:36:08 +0200
+
 wordpress (3.4+dfsg-3) unstable; urgency=low
 
   * [f7a1c09] Drop useless postrm.
