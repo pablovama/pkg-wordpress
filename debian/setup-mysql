@@ -103,6 +103,7 @@ echo Trying to create wp-content directory: $CONTENT
 mkdir -p $CONTENT
 ln -sf /var/lib/wordpress/wp-content/themes $CONTENT/themes
 ln -sf /var/lib/wordpress/wp-content/plugins $CONTENT/plugins
+ln -sf /var/lib/wordpress/wp-content/languages $CONTENT/languages
 echo Setting up permissions
 mkdir -p $CONTENT/blogs.dir $CONTENT/uploads
 chown -R root:www-data $CONTENT/blogs.dir $CONTENT/uploads

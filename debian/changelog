@@ -1,3 +1,10 @@
+wordpress (3.4.1+dfsg-2) UNRELEASED; urgency=low
+
+  * Also setup languages symlink in setup-mysql. Closes: #684628
+    Thanks to Jun NOGATA <nogajun@gmail.com> for the analysis.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Sun, 12 Aug 2012 10:09:20 +0200
+
 wordpress (3.4.1+dfsg-1) unstable; urgency=high
 
   * New upstream security & bugfix release.
