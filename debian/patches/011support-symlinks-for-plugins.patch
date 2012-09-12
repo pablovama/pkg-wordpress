@@ -1,0 +1,74 @@
+Description: Support symlinks for plugin directories
+Origin: http://core.trac.wordpress.org/attachment/ticket/16953/16953.alternative.diff
+Bug: http://core.trac.wordpress.org/ticket/16953
+Bug-Debian: http://bugs.debian.org/686228
+
+--- a/wp-includes/plugin.php
++++ b/wp-includes/plugin.php
+@@ -564,11 +564,41 @@ function plugin_basename($file) {
+ 	$plugin_dir = preg_replace('|/+|','/', $plugin_dir); // remove any duplicate slash
+ 	$mu_plugin_dir = str_replace('\\','/',WPMU_PLUGIN_DIR); // sanitize for Win32 installs
+ 	$mu_plugin_dir = preg_replace('|/+|','/', $mu_plugin_dir); // remove any duplicate slash
++	
++	static $plugin_links_replaces;
++	$plugin_links_replaces = plugin_links_replaces();
++	$file = preg_replace( array_keys($plugin_links_replaces), array_values($plugin_links_replaces), $file);
++	
+ 	$file = preg_replace('#^' . preg_quote($plugin_dir, '#') . '/|^' . preg_quote($mu_plugin_dir, '#') . '/#','',$file); // get relative path from plugins dir
+ 	$file = trim($file, '/');
+ 	return $file;
+ }
+ 
++function plugin_links( $plugin_root = WP_PLUGIN_DIR ) {
++	$links = array();
++
++	$plugins_dir = @ opendir( $plugin_root );
++	while (($file = readdir( $plugins_dir ) ) !== false ) {
++		if ( substr($file, 0, 1) == '.' )
++			continue;
++			
++		if ( is_link( $plugin_root.'/'.$file ) ) {
++			$links[$file] = untrailingslashit(readlink( $plugin_root.'/'.$file ));
++		}
++	}
++	@closedir( $plugins_dir );
++	
++	return $links;
++}
++
++function plugin_links_replaces( $plugin_root = WP_PLUGIN_DIR ) {
++	$links = array();
++	$plugin_links = plugin_links( $plugin_root );
++	foreach ( $plugin_links as $file => $target )
++		$links['#^' . preg_quote($target, '#') . '(/|$)#'] = $file . '$1';
++	return $links;
++}
++
+ /**
+  * Gets the filesystem directory path (with trailing slash) for the plugin __FILE__ passed in
+  * @package WordPress
+--- a/wp-admin/includes/plugin.php
++++ b/wp-admin/includes/plugin.php
+@@ -245,14 +245,19 @@ function get_plugins($plugin_folder = ''
+ 		$plugin_root .= $plugin_folder;
+ 
+ 	// Files in wp-content/plugins directory
+-	$plugins_dir = @ opendir( $plugin_root);
++	$plugins_dir = @ opendir( $plugin_root );
+ 	$plugin_files = array();
+ 	if ( $plugins_dir ) {
+ 		while (($file = readdir( $plugins_dir ) ) !== false ) {
+ 			if ( substr($file, 0, 1) == '.' )
+ 				continue;
+-			if ( is_dir( $plugin_root.'/'.$file ) ) {
+-				$plugins_subdir = @ opendir( $plugin_root.'/'.$file );
++				
++			$full_file_path = $plugin_root.'/'.$file;
++			if ( is_link( $full_file_path ) )
++				$full_file_path = readlink( $full_file_path );
++				
++			if ( is_dir( $full_file_path ) ) {
++				$plugins_subdir = @ opendir( $full_file_path );
+ 				if ( $plugins_subdir ) {
+ 					while (($subfile = readdir( $plugins_subdir ) ) !== false ) {
+ 						if ( substr($subfile, 0, 1) == '.' )
