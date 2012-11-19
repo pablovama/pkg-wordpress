@@ -1,3 +1,11 @@
+wordpress (3.4.2+dfsg-2) UNRELEASED; urgency=low
+
+  * Fix sample apache.conf so that Alias directives are in the proper order
+    (from the most specific to the less specific). Closes: #693122
+    Thanks to Jérôme Marant for the report.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Mon, 19 Nov 2012 09:58:42 +0100
+
 wordpress (3.4.2+dfsg-1) unstable; urgency=low
 
   * New upstream security & bugfix release. 
