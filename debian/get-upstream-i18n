@@ -68,7 +68,7 @@ do_file () {
 	    return
     fi
 
-    if ! svn export -r "${HEAD_REV}" -q "${UPSTREAM_I18N_SVN}/${lang}/tags/${version}/${rdir}/${url_fname}"; then
+    if ! svn export --force -r "${HEAD_REV}" -q "${UPSTREAM_I18N_SVN}/${lang}/tags/${version}/${rdir}/${url_fname}"; then
 	if [ -e "${fname}" ]; then
 		if [ "$remove" = "1" ]; then
 			printf "WARNING: deleting outdated '%s', no up-to-date version found.\n" "${fname}"
