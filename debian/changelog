@@ -1,4 +1,4 @@
-wordpress (3.5+dfsg-1) UNRELEASED; urgency=low
+wordpress (3.5+dfsg-1) unstable; urgency=low
 
   * New upstream release.
   * Fix sample apache.conf so that Alias directives are in the proper order
@@ -15,7 +15,7 @@ wordpress (3.5+dfsg-1) UNRELEASED; urgency=low
     latest changes concerning javascript libraries shipped by WordPress.
   * Document the loss of the twentyten theme.
 
- -- Raphaël Hertzog <hertzog@debian.org>  Fri, 21 Dec 2012 08:35:50 +0100
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 21 Dec 2012 14:17:50 +0100
 
 wordpress (3.4.2+dfsg-1) unstable; urgency=low
 
