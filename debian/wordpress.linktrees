@@ -40,3 +40,9 @@ deduplicate usr/share/javascript/jquery-form/jquery.form.js usr/share/wordpress/
 # The debian package does not provide the required *.min.js files so we
 # can't deduplicate them (see #677619 for a wishlist bug about this)
 deduplicate usr/share/javascript/jquery-ui/ui usr/share/wordpress/wp-includes/js/jquery/ui
+
+# Underscore
+deduplicate usr/share/javascript/underscore/underscore.min.js usr/share/wordpress/wp-includes/js/underscore.min.js
+
+# Backbone
+deduplicate usr/share/javascript/backbone/backbone.min.js usr/share/wordpress/wp-includes/js/backbone.min.js

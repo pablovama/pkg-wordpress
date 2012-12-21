@@ -6,6 +6,8 @@ wordpress (3.5+dfsg-1) UNRELEASED; urgency=low
     Thanks to Jérôme Marant for the report.
   * Update debian/missing-sources/ with latest upstream changes.
   * Update all translations.
+  * Try to deduplicate (i.e. replace with symlinks) backbone.js and
+    underscore.js too.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Fri, 21 Dec 2012 08:35:50 +0100
 
