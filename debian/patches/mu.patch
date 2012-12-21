@@ -1,31 +1,28 @@
 MU for Debian installations
 --- a/wp-admin/network.php
 +++ b/wp-admin/network.php
-@@ -350,11 +350,11 @@ function network_step2( $errors = false
+@@ -356,17 +356,17 @@ function network_step2( $errors = false
  		<p><?php _e( 'Complete the following steps to enable the features for creating a network of sites.' ); ?></p>
  		<div class="updated inline"><p><?php
- 			if ( file_exists( ABSPATH . '.htaccess' ) )
+ 			if ( file_exists( $home_path . '.htaccess' ) )
 -				printf( __( '<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> and <code>%s</code> files.' ), '.htaccess' );
-+				printf( __( '<strong>Caution:</strong> We recommend you back up your existing <code>%s</code> and <code>%s</code> files.' ), DEBIAN_FILE, '.htaccess' );
- 			elseif ( file_exists( ABSPATH . 'web.config' ) )
--				printf( __( '<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> and <code>%s</code> files.' ), 'web.config' );
-+				printf( __( '<strong>Caution:</strong> We recommend you back up your existing <code>%s</code> and <code>%s</code> files.' ), DEBIAN_FILE, 'web.config' );
++				printf( __( '<strong>Caution:</strong> We recommend you back up your existing <code>%s</code> and <code>%s</code> files.' ), DEBIAN_FILE, '/etc/wordpress/htaccess' );
+ 			elseif ( file_exists( $home_path . 'web.config' ) )
+ 				printf( __( '<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> and <code>%s</code> files.' ), 'web.config' );
  			else
 -				_e( '<strong>Caution:</strong> We recommend you back up your existing <code>wp-config.php</code> file.' );
-+				printf( __( '<strong>Caution:</strong> We recommend you back up your existing <code>%s</code> file.' ), DEBIAN_FILE);
++				printf( __( '<strong>Caution:</strong> We recommend you back up your existing <code>%</code> file.'), DEBIAN_FILE );
  		?></p></div>
  <?php
  	}
-@@ -365,7 +365,7 @@ function network_step2( $errors = false
- 				if ( WP_CONTENT_DIR != ABSPATH . 'wp-content' )
- 					echo ' <strong>' . __('Warning:') . ' ' . __( 'Networks may not be fully compatible with custom wp-content directories.' ) . '</strong>';
- 			?></p></li>
--			<li><p><?php printf( __( 'Add the following to your <code>wp-config.php</code> file in <code>%s</code> <strong>above</strong> the line reading <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:' ), ABSPATH ); ?></p>
+ ?>
+ 		<ol>
+-			<li><p><?php printf( __( 'Add the following to your <code>wp-config.php</code> file in <code>%s</code> <strong>above</strong> the line reading <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:' ), $location_of_wp_config ); ?></p>
 +			<li><p><?php printf( __( 'Add the following to your <code>%s</code> file:' ), DEBIAN_FILE ); ?></p>
- 				<textarea class="code" readonly="readonly" cols="100" rows="7">
+ 				<textarea class="code" readonly="readonly" cols="100" rows="6">
  define('MULTISITE', true);
  define('SUBDOMAIN_INSTALL', <?php echo $subdomain_install ? 'true' : 'false'; ?>);
-@@ -396,7 +396,7 @@ define('BLOG_ID_CURRENT_SITE', 1);</text
+@@ -398,7 +398,7 @@ define('BLOG_ID_CURRENT_SITE', 1);
  		$num_keys_salts = count( $keys_salts );
  ?>
  	<p><?php
@@ -34,12 +31,12 @@ MU for Debian installations
  	<textarea class="code" readonly="readonly" cols="100" rows="<?php echo $num_keys_salts; ?>"><?php echo esc_textarea( $keys_salts_str ); ?></textarea>
  <?php
  	}
-@@ -510,7 +510,7 @@ RewriteRule ^ - [L]';
- 		$htaccess_file .= "\nRewriteRule . index.php [L]";
+@@ -494,7 +494,7 @@ RewriteRule . index.php [L]
+ EOF;
  
  		?>
--		<li><p><?php printf( __( 'Add the following to your <code>.htaccess</code> file in <code>%s</code>, replacing other WordPress rules:' ), ABSPATH ); ?></p>
+-		<li><p><?php printf( __( 'Add the following to your <code>.htaccess</code> file in <code>%s</code>, replacing other WordPress rules:' ), $home_path ); ?></p>
 +		<li><p><?php printf( __( 'Add the following to your <code>/etc/wordpress/htaccess</code> file, replacing other WordPress rules:' ) ); ?></p>
- 		<textarea class="code" readonly="readonly" cols="100" rows="<?php echo $subdomain_install ? 11 : 16; ?>">
- <?php echo esc_textarea( $htaccess_file ); ?></textarea></li>
- 		</ol>
+ 		<?php
+ 		if ( ! $subdomain_install && WP_CONTENT_DIR != ABSPATH . 'wp-content' )
+ 			echo '<p><strong>' . __('Warning:') . ' ' . __( 'Subdirectory networks may not be fully compatible with custom wp-content directories.' ) . '</strong></p>';
