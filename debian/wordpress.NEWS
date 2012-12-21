@@ -1,3 +1,20 @@
+wordpress (3.5+dfsg-1) unstable; urgency=low
+
+  This version drops the "twentyten" theme and introduces the
+  "twentytwelve" theme. If your website uses the "twentyten" theme
+  you might want to keep it around:
+
+    sudo rm /var/lib/wordpress/wp-content/themes/twentyten && \
+    sudo cp -a /usr/share/wordpress/wp-content/themes/twentyten \
+               /var/lib/wordpress/wp-content/themes/
+
+  The above command assumes that the package has not yet been upgraded.
+  Otherwise you'll have to download it from
+  http://wordpress.org/extend/themes/twentyten and unpack it
+  in /var/lib/wordpress/wp-content/themes/.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 21 Dec 2012 14:02:06 +0100
+
 wordpress (3.4+dfsg-1) unstable; urgency=low
 
   1/ The default configuration now sets WP_CONTENT_DIR to

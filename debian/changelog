@@ -13,6 +13,7 @@ wordpress (3.5+dfsg-1) UNRELEASED; urgency=low
   * Update/refresh all other patches on top of the new release.
   * Update lintian overrides and debian/wordpress.linktrees to match the
     latest changes concerning javascript libraries shipped by WordPress.
+  * Document the loss of the twentyten theme.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Fri, 21 Dec 2012 08:35:50 +0100
 
