@@ -2,8 +2,11 @@
 wordpress: embedded-php-library usr/share/wordpress/wp-includes/pomo/streams.php
 # Opportunistic replacement is in place but the Debian version does
 # not match the wordpress version
+wordpress: embedded-javascript-library usr/share/wordpress/wp-includes/js/jquery/jquery.form.min.js
 wordpress: embedded-javascript-library usr/share/wordpress/wp-includes/js/jquery/jquery.form.js
 wordpress: embedded-javascript-library usr/share/wordpress/wp-includes/js/jquery/jquery.js
 wordpress: embedded-javascript-library usr/share/wordpress/wp-includes/js/swfobject.js
+wordpress: embedded-javascript-library usr/share/wordpress/wp-includes/js/underscore.min.js
+
 # Debian version is not compatible (see #669054)
 wordpress: embedded-php-library usr/share/wordpress/wp-includes/class-simplepie.php

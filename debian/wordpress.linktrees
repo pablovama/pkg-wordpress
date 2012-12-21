@@ -33,8 +33,7 @@ deduplicate usr/share/javascript/swfobject/swfobject.js usr/share/wordpress/wp-i
 deduplicate usr/share/javascript/jquery/jquery.min.js usr/share/wordpress/wp-includes/js/jquery/jquery.js
 
 # Jquery-form
-deduplicate usr/share/javascript/jquery-form/jquery.form.min.js usr/share/wordpress/wp-includes/js/jquery/jquery.form.js
-deduplicate usr/share/javascript/jquery-form/jquery.form.js usr/share/wordpress/wp-includes/js/jquery/jquery.form.dev.js
+deduplicate usr/share/javascript/jquery-form usr/share/wordpress/wp-includes/js/jquery
 
 # Jquery UI
 # The debian package does not provide the required *.min.js files so we
