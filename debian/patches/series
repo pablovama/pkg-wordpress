@@ -1,6 +1,5 @@
 001readme.patch
 003installer.patch
-006rss_language.patch
 008CVE2008-2392.patch
 009CVE2008-6767.patch
 010disabling_update_note.patch

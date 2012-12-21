@@ -8,6 +8,8 @@ wordpress (3.5+dfsg-1) UNRELEASED; urgency=low
   * Update all translations.
   * Try to deduplicate (i.e. replace with symlinks) backbone.js and
     underscore.js too.
+  * Drop debian/patches/006rss_language.patch, the rss_language option
+    is no longer used.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Fri, 21 Dec 2012 08:35:50 +0100
 
