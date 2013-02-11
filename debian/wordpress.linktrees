@@ -1,7 +1,7 @@
 # Symlinks to replace embedded libraries
 
 # TinyMCE
-replace usr/share/tinymce/www usr/share/wordpress/wp-includes/js/tinymce
+deduplicate usr/share/tinymce/www usr/share/wordpress/wp-includes/js/tinymce
 
 # Scriptaculous
 replace usr/share/javascript/scriptaculous usr/share/wordpress/wp-includes/js/scriptaculous
