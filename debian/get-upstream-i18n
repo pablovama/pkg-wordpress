@@ -51,7 +51,7 @@ do_install() {
 	f=$(echo "$f" | sed -e "s/@LANG@/$lang/")
 	if [ -e "$srcdir/$f" ]; then
 	    echo -n "$f "
-	    cp "$srcdir/$f" debian/languages/
+	    cp "$srcdir/$f" debian/languages/$f
 	fi
     done
 }
@@ -60,8 +60,7 @@ UPSTREAM_I18N_SVN=http://svn.automattic.com/wordpress-i18n
 BASEDIR="${PWD}"
 
 if [ -d "$svndir" ]; then
-    #(cd $svndir; svn update --ignore-externals)
-    :
+    (cd $svndir; svn update --ignore-externals)
 else
     tmpcodir=$(mktemp -t get-upstream-i18n.XXXXXX)
     (cd $tmpcodir; svn co --ignore-externals $UPSTREAM_I18N_SVN svn)
