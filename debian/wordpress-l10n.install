@@ -1,2 +1,2 @@
 debian/languages/*.mo usr/share/wordpress/wp-content/languages/
-debian/languages/*.php usr/share/wordpress/wp-content/languages/
+debian/languages/twentytwelve/*.mo usr/share/wordpress/wp-content/themes/twentytwelve/languages/

@@ -2,6 +2,8 @@ wordpress (3.5.1+dfsg-2) UNRELEASED; urgency=low
 
   * Only replace tinymce files by symlinks if the content is exactly the same.
     Closes: #700289
+  * Update debian/get-upstream-i18n to include supplementary PO files
+    and use a more efficient method to update them. Closes: #697208
 
  -- Raphaël Hertzog <hertzog@debian.org>  Mon, 11 Feb 2013 11:28:00 +0100
 

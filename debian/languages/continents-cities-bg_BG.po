@@ -1,0 +1,1469 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: GlotPress/0.1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgid "Africa"
+msgstr "Африка"
+
+msgid "Abidjan"
+msgstr "Абиджан"
+
+msgid "Accra"
+msgstr "Акра"
+
+msgid "Addis Ababa"
+msgstr "Адис Абеба"
+
+msgid "Algiers"
+msgstr "Алжир (град)"
+
+msgid "Asmara"
+msgstr "Асмара"
+
+msgid "Asmera"
+msgstr "Асмара"
+
+msgid "Bamako"
+msgstr "Бамако"
+
+msgid "Bangui"
+msgstr "Банги"
+
+msgid "Banjul"
+msgstr "Банджул"
+
+msgid "Bissau"
+msgstr "Бисау"
+
+msgid "Blantyre"
+msgstr ""
+
+msgid "Brazzaville"
+msgstr "Бразавил"
+
+msgid "Bujumbura"
+msgstr "Бужумбура"
+
+msgid "Cairo"
+msgstr "Кайро"
+
+msgid "Casablanca"
+msgstr "Казабланка"
+
+msgid "Ceuta"
+msgstr "Сеута"
+
+msgid "Conakry"
+msgstr "Конакри"
+
+msgid "Dakar"
+msgstr "Дакар"
+
+msgid "Dar es Salaam"
+msgstr "Дар ес Салаам"
+
+msgid "Djibouti"
+msgstr "Джибути"
+
+msgid "Douala"
+msgstr "Дуала"
+
+msgid "El Aaiun"
+msgstr "Ел Аюн"
+
+msgid "Freetown"
+msgstr "Фрийтаун"
+
+msgid "Gaborone"
+msgstr "Габороне"
+
+msgid "Harare"
+msgstr "Хараре"
+
+msgid "Johannesburg"
+msgstr "Йоханесбург"
+
+msgid "Kampala"
+msgstr "Кампала"
+
+msgid "Khartoum"
+msgstr "Хартум"
+
+msgid "Kigali"
+msgstr "Кигали"
+
+msgid "Kinshasa"
+msgstr "Киншаса"
+
+msgid "Lagos"
+msgstr "Лагос"
+
+msgid "Libreville"
+msgstr "Либревил"
+
+msgid "Lome"
+msgstr ""
+
+msgid "Luanda"
+msgstr "Луанда"
+
+msgid "Lubumbashi"
+msgstr ""
+
+msgid "Lusaka"
+msgstr "Лусака"
+
+msgid "Malabo"
+msgstr "Малабо"
+
+msgid "Maputo"
+msgstr "Мапуто"
+
+msgid "Maseru"
+msgstr "Масеру"
+
+msgid "Mbabane"
+msgstr "Мбабане"
+
+msgid "Mogadishu"
+msgstr "Могадишу"
+
+msgid "Monrovia"
+msgstr "Монровия"
+
+msgid "Nairobi"
+msgstr "Найроби"
+
+msgid "Ndjamena"
+msgstr "Нджамена"
+
+msgid "Niamey"
+msgstr "Ниамей"
+
+msgid "Nouakchott"
+msgstr "Нуакшот"
+
+msgid "Ouagadougou"
+msgstr "Уагадугу"
+
+msgid "Porto-Novo"
+msgstr "Порто Ново"
+
+msgid "Sao Tome"
+msgstr "Сао Томе (град)"
+
+msgid "Timbuktu"
+msgstr "Тимбукту"
+
+msgid "Tripoli"
+msgstr "Триполи"
+
+msgid "Tunis"
+msgstr "Тунис (град)"
+
+msgid "Windhoek"
+msgstr "Виндхук"
+
+msgid "America"
+msgstr "Америка"
+
+msgid "Adak"
+msgstr ""
+
+msgid "Anchorage"
+msgstr "Анкоридж"
+
+msgid "Anguilla"
+msgstr "Ангуила"
+
+msgid "Antigua"
+msgstr ""
+
+msgid "Araguaina"
+msgstr ""
+
+msgid "Argentina"
+msgstr "Аржентина"
+
+msgid "Buenos Aires"
+msgstr "Буенос Айрес"
+
+msgid "Catamarca"
+msgstr ""
+
+msgid "ComodRivadavia"
+msgstr ""
+
+msgid "Cordoba"
+msgstr ""
+
+msgid "Jujuy"
+msgstr "Сан Салвадор де Хухуй"
+
+msgid "La Rioja"
+msgstr ""
+
+msgid "Mendoza"
+msgstr ""
+
+msgid "Rio Gallegos"
+msgstr ""
+
+msgid "San Juan"
+msgstr "Сан Хуан (пояснение)"
+
+msgid "San Luis"
+msgstr ""
+
+msgid "Tucuman"
+msgstr "Тукуман"
+
+msgid "Ushuaia"
+msgstr "Ушуая"
+
+msgid "Aruba"
+msgstr "Аруба"
+
+msgid "Asuncion"
+msgstr "Асунсион"
+
+msgid "Atikokan"
+msgstr ""
+
+msgid "Atka"
+msgstr ""
+
+msgid "Bahia"
+msgstr "Баия"
+
+msgid "Barbados"
+msgstr "Барбадос"
+
+msgid "Belem"
+msgstr ""
+
+msgid "Belize"
+msgstr "Белиз"
+
+msgid "Blanc-Sablon"
+msgstr ""
+
+msgid "Boa Vista"
+msgstr ""
+
+msgid "Bogota"
+msgstr "Богота"
+
+msgid "Boise"
+msgstr "Бойзи (Айдахо)"
+
+msgid "Cambridge Bay"
+msgstr ""
+
+msgid "Campo Grande"
+msgstr "Кампо Гранде"
+
+msgid "Cancun"
+msgstr "Канкун"
+
+msgid "Caracas"
+msgstr "Каракас"
+
+msgid "Cayenne"
+msgstr "Кайен"
+
+msgid "Cayman"
+msgstr ""
+
+msgid "Chicago"
+msgstr "Чикаго"
+
+msgid "Chihuahua"
+msgstr "Чиуауа"
+
+msgid "Coral Harbour"
+msgstr ""
+
+msgid "Costa Rica"
+msgstr "Коста Рика"
+
+msgid "Cuiaba"
+msgstr ""
+
+msgid "Curacao"
+msgstr "Кюрасао"
+
+msgid "Danmarkshavn"
+msgstr ""
+
+msgid "Dawson"
+msgstr ""
+
+msgid "Dawson Creek"
+msgstr ""
+
+msgid "Denver"
+msgstr "Денвър"
+
+msgid "Detroit"
+msgstr "Детройт"
+
+msgid "Dominica"
+msgstr "Доминика"
+
+msgid "Edmonton"
+msgstr "Едмънтън"
+
+msgid "Eirunepe"
+msgstr ""
+
+msgid "El Salvador"
+msgstr "Салвадор"
+
+msgid "Ensenada"
+msgstr "Енсенада (Долна Калифорния)"
+
+msgid "Fort Wayne"
+msgstr "Форт Уейн (Индиана)"
+
+msgid "Fortaleza"
+msgstr "Форталеза"
+
+msgid "Glace Bay"
+msgstr ""
+
+msgid "Godthab"
+msgstr "Нуук"
+
+msgid "Goose Bay"
+msgstr ""
+
+msgid "Grand Turk"
+msgstr ""
+
+msgid "Grenada"
+msgstr "Гренада"
+
+msgid "Guadeloupe"
+msgstr "Гваделупа"
+
+msgid "Guatemala"
+msgstr "Гватемала"
+
+msgid "Guayaquil"
+msgstr "Гуаякил"
+
+msgid "Guyana"
+msgstr "Гаяна"
+
+msgid "Halifax"
+msgstr ""
+
+msgid "Havana"
+msgstr "Хавана"
+
+msgid "Hermosillo"
+msgstr "Ермосильо"
+
+msgid "Indiana"
+msgstr "Индиана"
+
+msgid "Indianapolis"
+msgstr "Индианаполис"
+
+msgid "Knox"
+msgstr ""
+
+msgid "Marengo"
+msgstr ""
+
+msgid "Petersburg"
+msgstr ""
+
+msgid "Tell City"
+msgstr ""
+
+msgid "Vevay"
+msgstr ""
+
+msgid "Vincennes"
+msgstr ""
+
+msgid "Winamac"
+msgstr ""
+
+msgid "Inuvik"
+msgstr ""
+
+msgid "Iqaluit"
+msgstr ""
+
+msgid "Jamaica"
+msgstr "Ямайка"
+
+msgid "Juneau"
+msgstr "Джуно"
+
+msgid "Kentucky"
+msgstr "Кентъки"
+
+msgid "Louisville"
+msgstr "Луисвил"
+
+msgid "Monticello"
+msgstr ""
+
+msgid "Knox IN"
+msgstr ""
+
+msgid "La Paz"
+msgstr "Ла Пас"
+
+msgid "Lima"
+msgstr "Лима"
+
+msgid "Los Angeles"
+msgstr "Лос Анджелис"
+
+msgid "Maceio"
+msgstr "Масейо"
+
+msgid "Managua"
+msgstr "Манагуа"
+
+msgid "Manaus"
+msgstr "Манауш"
+
+msgid "Marigot"
+msgstr ""
+
+msgid "Martinique"
+msgstr "Мартиника"
+
+msgid "Mazatlan"
+msgstr "Масатлан"
+
+msgid "Menominee"
+msgstr ""
+
+msgid "Merida"
+msgstr "Мерида (пояснение)"
+
+msgid "Mexico City"
+msgstr "Мексико (град)"
+
+msgid "Miquelon"
+msgstr ""
+
+msgid "Moncton"
+msgstr ""
+
+msgid "Monterrey"
+msgstr "Монтерей (Мексико)"
+
+msgid "Montevideo"
+msgstr "Монтевидео"
+
+msgid "Montreal"
+msgstr "Монреал"
+
+msgid "Montserrat"
+msgstr "Монсерат"
+
+msgid "Nassau"
+msgstr ""
+
+msgid "New York"
+msgstr "Ню Йорк (щат)"
+
+msgid "Nipigon"
+msgstr ""
+
+msgid "Nome"
+msgstr ""
+
+msgid "Noronha"
+msgstr ""
+
+msgid "North Dakota"
+msgstr "Северна Дакота"
+
+msgid "Center"
+msgstr ""
+
+msgid "New Salem"
+msgstr ""
+
+msgid "Panama"
+msgstr "Панама"
+
+msgid "Pangnirtung"
+msgstr ""
+
+msgid "Paramaribo"
+msgstr "Парамарибо"
+
+msgid "Phoenix"
+msgstr "Финикс"
+
+msgid "Port-au-Prince"
+msgstr "Порт о Пренс"
+
+msgid "Port of Spain"
+msgstr "Порт ъф Спейн"
+
+msgid "Porto Acre"
+msgstr ""
+
+msgid "Porto Velho"
+msgstr ""
+
+msgid "Puerto Rico"
+msgstr "Пуерто Рико"
+
+msgid "Rainy River"
+msgstr ""
+
+msgid "Rankin Inlet"
+msgstr ""
+
+msgid "Recife"
+msgstr "Ресифе"
+
+msgid "Regina"
+msgstr ""
+
+msgid "Resolute"
+msgstr ""
+
+msgid "Rio Branco"
+msgstr "Рио Бранко"
+
+msgid "Rosario"
+msgstr "Росарио"
+
+msgid "Santiago"
+msgstr "Сантяго"
+
+msgid "Santo Domingo"
+msgstr "Санто Доминго"
+
+msgid "Sao Paulo"
+msgstr "Сао Пауло"
+
+msgid "Scoresbysund"
+msgstr ""
+
+msgid "Shiprock"
+msgstr ""
+
+msgid "St Barthelemy"
+msgstr ""
+
+msgid "St Johns"
+msgstr ""
+
+msgid "St Kitts"
+msgstr ""
+
+msgid "St Lucia"
+msgstr "Сейнт Лусия"
+
+msgid "St Thomas"
+msgstr ""
+
+msgid "St Vincent"
+msgstr ""
+
+msgid "Swift Current"
+msgstr ""
+
+msgid "Tegucigalpa"
+msgstr "Тегусигалпа"
+
+msgid "Thule"
+msgstr ""
+
+msgid "Thunder Bay"
+msgstr ""
+
+msgid "Tijuana"
+msgstr "Тихуана"
+
+msgid "Toronto"
+msgstr "Торонто"
+
+msgid "Tortola"
+msgstr ""
+
+msgid "Vancouver"
+msgstr "Ванкувър"
+
+msgid "Virgin"
+msgstr ""
+
+msgid "Whitehorse"
+msgstr ""
+
+msgid "Winnipeg"
+msgstr "Уинипег"
+
+msgid "Yakutat"
+msgstr ""
+
+msgid "Yellowknife"
+msgstr "Йелоунайф"
+
+msgid "Antarctica"
+msgstr "Антарктида"
+
+msgid "Casey"
+msgstr ""
+
+msgid "Davis"
+msgstr ""
+
+msgid "DumontDUrville"
+msgstr ""
+
+msgid "Mawson"
+msgstr ""
+
+msgid "McMurdo"
+msgstr ""
+
+msgid "Palmer"
+msgstr ""
+
+msgid "Rothera"
+msgstr ""
+
+msgid "South Pole"
+msgstr "Южен полюс"
+
+msgid "Syowa"
+msgstr ""
+
+msgid "Vostok"
+msgstr "Восток"
+
+msgid "Arctic"
+msgstr "Арктика"
+
+msgid "Longyearbyen"
+msgstr ""
+
+msgid "Asia"
+msgstr "Азия"
+
+msgid "Aden"
+msgstr ""
+
+msgid "Almaty"
+msgstr "Алмати"
+
+msgid "Amman"
+msgstr "Аман"
+
+msgid "Anadyr"
+msgstr ""
+
+msgid "Aqtau"
+msgstr ""
+
+msgid "Aqtobe"
+msgstr ""
+
+msgid "Ashgabat"
+msgstr "Ашхабад"
+
+msgid "Ashkhabad"
+msgstr "Ашхабад"
+
+msgid "Baghdad"
+msgstr "Багдад"
+
+msgid "Bahrain"
+msgstr "Бахрейн"
+
+msgid "Baku"
+msgstr "Баку"
+
+msgid "Bangkok"
+msgstr "Банкок"
+
+msgid "Beirut"
+msgstr "Бейрут"
+
+msgid "Bishkek"
+msgstr "Бишкек"
+
+msgid "Brunei"
+msgstr "Бруней"
+
+msgid "Calcutta"
+msgstr "Калкута"
+
+msgid "Choibalsan"
+msgstr ""
+
+msgid "Chongqing"
+msgstr "Чунцин"
+
+msgid "Chungking"
+msgstr "Чунцин"
+
+msgid "Colombo"
+msgstr ""
+
+msgid "Dacca"
+msgstr "Дака"
+
+msgid "Damascus"
+msgstr "Дамаск"
+
+msgid "Dhaka"
+msgstr "Дака"
+
+msgid "Dili"
+msgstr "Дили"
+
+msgid "Dubai"
+msgstr "Дубай"
+
+msgid "Dushanbe"
+msgstr "Душанбе"
+
+msgid "Gaza"
+msgstr "Газа"
+
+msgid "Harbin"
+msgstr "Харбин"
+
+msgid "Ho Chi Minh"
+msgstr "Хо Ши Мин"
+
+msgid "Hong Kong"
+msgstr "Хонконг"
+
+msgid "Hovd"
+msgstr ""
+
+msgid "Irkutsk"
+msgstr "Иркутск"
+
+msgid "Istanbul"
+msgstr "Истанбул"
+
+msgid "Jakarta"
+msgstr "Джакарта"
+
+msgid "Jayapura"
+msgstr ""
+
+msgid "Jerusalem"
+msgstr "Йерусалим"
+
+msgid "Kabul"
+msgstr "Кабул"
+
+msgid "Kamchatka"
+msgstr "Камчатка"
+
+msgid "Karachi"
+msgstr "Карачи"
+
+msgid "Kashgar"
+msgstr "Кашгар"
+
+msgid "Katmandu"
+msgstr "Катманду"
+
+msgid "Kolkata"
+msgstr "Калкута"
+
+msgid "Krasnoyarsk"
+msgstr "Красноярск"
+
+msgid "Kuala Lumpur"
+msgstr "Куала Лумпур"
+
+msgid "Kuching"
+msgstr ""
+
+msgid "Kuwait"
+msgstr "Кувейт"
+
+msgid "Macao"
+msgstr "Макао"
+
+msgid "Macau"
+msgstr "Макао"
+
+msgid "Magadan"
+msgstr "Магадан"
+
+msgid "Makassar"
+msgstr ""
+
+msgid "Manila"
+msgstr "Манила"
+
+msgid "Muscat"
+msgstr ""
+
+msgid "Nicosia"
+msgstr "Никозия"
+
+msgid "Novosibirsk"
+msgstr "Новосибирск"
+
+msgid "Omsk"
+msgstr "Омск"
+
+msgid "Oral"
+msgstr ""
+
+msgid "Phnom Penh"
+msgstr "Пном Пен"
+
+msgid "Pontianak"
+msgstr ""
+
+msgid "Pyongyang"
+msgstr "Пхенян"
+
+msgid "Qatar"
+msgstr "Катар"
+
+msgid "Qyzylorda"
+msgstr ""
+
+msgid "Rangoon"
+msgstr "Янгон"
+
+msgid "Riyadh"
+msgstr "Рияд"
+
+msgid "Saigon"
+msgstr "Хошимин"
+
+msgid "Sakhalin"
+msgstr "Сахалин"
+
+msgid "Samarkand"
+msgstr "Самарканд"
+
+msgid "Seoul"
+msgstr "Сеул"
+
+msgid "Shanghai"
+msgstr "Шанхай"
+
+msgid "Singapore"
+msgstr "Сингапур"
+
+msgid "Taipei"
+msgstr "Тайпей"
+
+msgid "Tashkent"
+msgstr "Ташкент"
+
+msgid "Tbilisi"
+msgstr "Тбилиси"
+
+msgid "Tehran"
+msgstr "Техеран"
+
+msgid "Tel Aviv"
+msgstr "Тел Авив"
+
+msgid "Thimbu"
+msgstr "Тхимпху"
+
+msgid "Thimphu"
+msgstr "Тхимпху"
+
+msgid "Tokyo"
+msgstr "Токио"
+
+msgid "Ujung Pandang"
+msgstr ""
+
+msgid "Ulaanbaatar"
+msgstr "Улан Батор"
+
+msgid "Ulan Bator"
+msgstr "Улан Батор"
+
+msgid "Urumqi"
+msgstr "Урумчи"
+
+msgid "Vientiane"
+msgstr "Виентян"
+
+msgid "Vladivostok"
+msgstr "Владивосток"
+
+msgid "Yakutsk"
+msgstr "Якутск"
+
+msgid "Yekaterinburg"
+msgstr "Екатеринбург"
+
+msgid "Yerevan"
+msgstr "Ереван"
+
+msgid "Atlantic"
+msgstr "Атлантически океан"
+
+msgid "Azores"
+msgstr "Азорски острови"
+
+msgid "Bermuda"
+msgstr "Бермудски острови"
+
+msgid "Canary"
+msgstr ""
+
+msgid "Cape Verde"
+msgstr "Кабо Верде"
+
+msgid "Faeroe"
+msgstr "Фарьорски острови"
+
+msgid "Faroe"
+msgstr "Фарьорски острови"
+
+msgid "Jan Mayen"
+msgstr "Ян Майен"
+
+msgid "Madeira"
+msgstr "Мадейра"
+
+msgid "Reykjavik"
+msgstr "Рейкявик"
+
+msgid "South Georgia"
+msgstr "Южна Джорджия и Южни Сандвичеви острови"
+
+msgid "St Helena"
+msgstr "Света Елена"
+
+msgid "Stanley"
+msgstr "Стенли"
+
+msgid "Australia"
+msgstr "Австралия"
+
+msgid "ACT"
+msgstr ""
+
+msgid "Adelaide"
+msgstr "Аделаида"
+
+msgid "Brisbane"
+msgstr "Бризбейн"
+
+msgid "Broken Hill"
+msgstr ""
+
+msgid "Canberra"
+msgstr "Канбера"
+
+msgid "Currie"
+msgstr ""
+
+msgid "Darwin"
+msgstr ""
+
+msgid "Eucla"
+msgstr ""
+
+msgid "Hobart"
+msgstr "Хобарт"
+
+msgid "LHI"
+msgstr ""
+
+msgid "Lindeman"
+msgstr ""
+
+msgid "Lord Howe"
+msgstr ""
+
+msgid "Melbourne"
+msgstr "Мелбърн"
+
+msgid "North"
+msgstr "Север"
+
+msgid "NSW"
+msgstr "Нов Южен Уелс"
+
+msgid "Perth"
+msgstr "Пърт (пояснение)"
+
+msgid "Queensland"
+msgstr "Куинсланд"
+
+msgid "South"
+msgstr "Юг"
+
+msgid "Sydney"
+msgstr "Сидни"
+
+msgid "Tasmania"
+msgstr "Тасмания"
+
+msgid "Victoria"
+msgstr "Виктория"
+
+msgid "West"
+msgstr "Запад"
+
+msgid "Yancowinna"
+msgstr ""
+
+msgid "Etc"
+msgstr ""
+
+msgid "GMT"
+msgstr ""
+
+msgid "GMT+0"
+msgstr ""
+
+msgid "GMT+1"
+msgstr "UTC+1"
+
+msgid "GMT+10"
+msgstr "UTC+10"
+
+msgid "GMT+11"
+msgstr ""
+
+msgid "GMT+12"
+msgstr ""
+
+msgid "GMT+2"
+msgstr "UTC+2"
+
+msgid "GMT+3"
+msgstr "UTC+3"
+
+msgid "GMT+4"
+msgstr "UTC+4"
+
+msgid "GMT+5"
+msgstr "UTC+5"
+
+msgid "GMT+6"
+msgstr "UTC+6"
+
+msgid "GMT+7"
+msgstr "UTC+7"
+
+msgid "GMT+8"
+msgstr "UTC+8"
+
+msgid "GMT+9"
+msgstr "UTC+9"
+
+msgid "GMT-0"
+msgstr ""
+
+msgid "GMT-1"
+msgstr "UTC-1"
+
+msgid "GMT-10"
+msgstr "UTC-10"
+
+msgid "GMT-11"
+msgstr "UTC-11"
+
+msgid "GMT-12"
+msgstr "UTC-12"
+
+msgid "GMT-13"
+msgstr ""
+
+msgid "GMT-14"
+msgstr ""
+
+msgid "GMT-2"
+msgstr "UTC-2"
+
+msgid "GMT-3"
+msgstr "UTC-3"
+
+msgid "GMT-4"
+msgstr "UTC-4"
+
+msgid "GMT-5"
+msgstr "UTC-5"
+
+msgid "GMT-6"
+msgstr "UTC-6"
+
+msgid "GMT-7"
+msgstr "UTC-7"
+
+msgid "GMT-8"
+msgstr "UTC-8"
+
+msgid "GMT-9"
+msgstr "UTC-9"
+
+msgid "GMT0"
+msgstr ""
+
+msgid "Greenwich"
+msgstr "Гринуич"
+
+msgid "UCT"
+msgstr ""
+
+msgid "Universal"
+msgstr ""
+
+msgid "UTC"
+msgstr "Координирано универсално време"
+
+msgid "Zulu"
+msgstr "Зулу"
+
+msgid "Europe"
+msgstr "Европа"
+
+msgid "Amsterdam"
+msgstr "Амстердам"
+
+msgid "Andorra"
+msgstr "Андора"
+
+msgid "Athens"
+msgstr "Атина"
+
+msgid "Belfast"
+msgstr "Белфаст"
+
+msgid "Belgrade"
+msgstr "Белград"
+
+msgid "Berlin"
+msgstr "Берлин"
+
+msgid "Bratislava"
+msgstr "Братислава"
+
+msgid "Brussels"
+msgstr "Брюксел"
+
+msgid "Bucharest"
+msgstr "Букурещ"
+
+msgid "Budapest"
+msgstr "Будапеща"
+
+msgid "Chisinau"
+msgstr "Кишинев"
+
+msgid "Copenhagen"
+msgstr "Копенхаген"
+
+msgid "Dublin"
+msgstr "Дъблин"
+
+msgid "Gibraltar"
+msgstr "Гибралтар"
+
+msgid "Guernsey"
+msgstr "Гърнси"
+
+msgid "Helsinki"
+msgstr "Хелзинки"
+
+msgid "Isle of Man"
+msgstr "Ман (остров)"
+
+msgid "Jersey"
+msgstr "Джърси"
+
+msgid "Kaliningrad"
+msgstr "Калининград"
+
+msgid "Kiev"
+msgstr "Киев"
+
+msgid "Lisbon"
+msgstr "Лисабон"
+
+msgid "Ljubljana"
+msgstr "Любляна"
+
+msgid "London"
+msgstr "Лондон"
+
+msgid "Luxembourg"
+msgstr "Люксембург"
+
+msgid "Madrid"
+msgstr "Мадрид"
+
+msgid "Malta"
+msgstr "Малта"
+
+msgid "Mariehamn"
+msgstr "Мариехамн"
+
+msgid "Minsk"
+msgstr "Минск"
+
+msgid "Monaco"
+msgstr "Монако"
+
+msgid "Moscow"
+msgstr "Москва"
+
+msgid "Oslo"
+msgstr "Осло"
+
+msgid "Paris"
+msgstr "Париж"
+
+msgid "Podgorica"
+msgstr "Подгорица"
+
+msgid "Prague"
+msgstr "Прага"
+
+msgid "Riga"
+msgstr "Рига"
+
+msgid "Rome"
+msgstr "Рим"
+
+msgid "Samara"
+msgstr "Самара"
+
+msgid "San Marino"
+msgstr "Сан Марино"
+
+msgid "Sarajevo"
+msgstr "Сараево"
+
+msgid "Simferopol"
+msgstr "Симферопол"
+
+msgid "Skopje"
+msgstr "Скопие"
+
+msgid "Sofia"
+msgstr "София"
+
+msgid "Stockholm"
+msgstr "Стокхолм"
+
+msgid "Tallinn"
+msgstr "Талин"
+
+msgid "Tirane"
+msgstr "Тирана"
+
+msgid "Tiraspol"
+msgstr "Тираспол"
+
+msgid "Uzhgorod"
+msgstr "Ужгород"
+
+msgid "Vaduz"
+msgstr "Вадуц"
+
+msgid "Vatican"
+msgstr "Ватикан"
+
+msgid "Vienna"
+msgstr "Виена"
+
+msgid "Vilnius"
+msgstr "Вилнюс"
+
+msgid "Volgograd"
+msgstr "Волгоград"
+
+msgid "Warsaw"
+msgstr "Варшава"
+
+msgid "Zagreb"
+msgstr "Загреб"
+
+msgid "Zaporozhye"
+msgstr "Запорожие"
+
+msgid "Zurich"
+msgstr "Цюрих"
+
+msgid "Indian"
+msgstr "Индийски океан"
+
+msgid "Antananarivo"
+msgstr "Антананариво"
+
+msgid "Chagos"
+msgstr ""
+
+msgid "Christmas"
+msgstr "Рождество Христово"
+
+msgid "Cocos"
+msgstr ""
+
+msgid "Comoro"
+msgstr "Коморо"
+
+msgid "Kerguelen"
+msgstr "Кергелен"
+
+msgid "Mahe"
+msgstr "Махе"
+
+msgid "Maldives"
+msgstr "Малдиви"
+
+msgid "Mauritius"
+msgstr "Мавриций"
+
+msgid "Mayotte"
+msgstr "Майот"
+
+msgid "Reunion"
+msgstr ""
+
+msgid "Pacific"
+msgstr "Тихи океан"
+
+msgid "Apia"
+msgstr "Апия"
+
+msgid "Auckland"
+msgstr "Окланд"
+
+msgid "Chatham"
+msgstr ""
+
+msgid "Easter"
+msgstr "Великден"
+
+msgid "Efate"
+msgstr "Ефате"
+
+msgid "Enderbury"
+msgstr ""
+
+msgid "Fakaofo"
+msgstr ""
+
+msgid "Fiji"
+msgstr "Фиджи"
+
+msgid "Funafuti"
+msgstr "Фунафути"
+
+msgid "Galapagos"
+msgstr "Галапагоски острови"
+
+msgid "Gambier"
+msgstr ""
+
+msgid "Guadalcanal"
+msgstr "Гуадалканал"
+
+msgid "Guam"
+msgstr "Гуам"
+
+msgid "Honolulu"
+msgstr "Хонолулу"
+
+msgid "Johnston"
+msgstr "Джонстън"
+
+msgid "Kiritimati"
+msgstr "Киритимати"
+
+msgid "Kosrae"
+msgstr "Кошрай"
+
+msgid "Kwajalein"
+msgstr "Куаджалин"
+
+msgid "Majuro"
+msgstr ""
+
+msgid "Marquesas"
+msgstr "Маркизки острови"
+
+msgid "Midway"
+msgstr "Мидуей"
+
+msgid "Nauru"
+msgstr "Науру"
+
+msgid "Niue"
+msgstr "Ниуе"
+
+msgid "Norfolk"
+msgstr "Норфолк"
+
+msgid "Noumea"
+msgstr "Нумеа"
+
+msgid "Pago Pago"
+msgstr "Паго Паго"
+
+msgid "Palau"
+msgstr "Палау"
+
+msgid "Pitcairn"
+msgstr "Питкерн"
+
+msgid "Ponape"
+msgstr "Понапе"
+
+msgid "Port Moresby"
+msgstr "Порт Морсби"
+
+msgid "Rarotonga"
+msgstr "Раротонга"
+
+msgid "Saipan"
+msgstr "Сайпан"
+
+msgid "Samoa"
+msgstr "Самоа"
+
+msgid "Tahiti"
+msgstr "Таити"
+
+msgid "Tarawa"
+msgstr "Тарауа"
+
+msgid "Tongatapu"
+msgstr "Тонгтапу"
+
+msgid "Truk"
+msgstr "Чуюк"
+
+msgid "Wake"
+msgstr "Килватер"
+
+msgid "Wallis"
+msgstr "Уалис"
+
+msgid "Yap"
+msgstr "Яп"
+

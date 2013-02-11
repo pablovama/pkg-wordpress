@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hu_HU\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2011-12-12 23:15:19+00:00\n"
+"POT-Creation-Date: 2012-01-03 21:15:50+00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: FYGureout <webmester@wordpress2you.com>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -16,23 +16,23 @@ msgstr ""
 "X-Poedit-Country: HUNGARY\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: wp-includes/capabilities.php:542
-#: wp-includes/capabilities.php:562
-#: wp-includes/capabilities.php:588
+#: wp-includes/capabilities.php:547
+#: wp-includes/capabilities.php:567
+#: wp-includes/capabilities.php:593
 msgid "Use <code>WP_User->ID</code> instead."
 msgstr "<code>WP_User->ID</code> használata a támogatott!"
 
-#: wp-includes/capabilities.php:850
+#: wp-includes/capabilities.php:855
 msgid "Usage of user levels by plugins and themes is deprecated. Use roles and capabilities instead."
 msgstr "A felhasználói szintek használata a sablonokbanl és a bővítményekben már elavult. Helyettük inkább a  szerepköröket és képességeket használjuk."
 
-#: wp-includes/functions.wp-styles.php:28
-#: wp-includes/functions.wp-styles.php:55
-#: wp-includes/functions.wp-styles.php:83
-#: wp-includes/functions.wp-styles.php:104
-#: wp-includes/functions.wp-styles.php:135
-#: wp-includes/functions.wp-styles.php:157
-#: wp-includes/functions.wp-styles.php:181
+#: wp-includes/functions.wp-styles.php:30
+#: wp-includes/functions.wp-styles.php:57
+#: wp-includes/functions.wp-styles.php:85
+#: wp-includes/functions.wp-styles.php:106
+#: wp-includes/functions.wp-styles.php:137
+#: wp-includes/functions.wp-styles.php:159
+#: wp-includes/functions.wp-styles.php:183
 #: wp-includes/functions.wp-scripts.php:29
 #: wp-includes/functions.wp-scripts.php:56
 #: wp-includes/functions.wp-scripts.php:90
@@ -337,7 +337,7 @@ msgstr "Archívum"
 #: wp-admin/edit-link-form.php:28
 #: wp-admin/includes/class-wp-posts-list-table.php:273
 #: wp-admin/includes/class-wp-links-list-table.php:82
-#: wp-admin/press-this.php:498
+#: wp-admin/press-this.php:512
 msgid "Categories"
 msgstr "Kategóriák"
 
@@ -992,7 +992,7 @@ msgstr "Nincs a feltételnek megfelelő eredmény."
 #: wp-admin/includes/widgets.php:182
 #: wp-admin/includes/meta-boxes.php:293
 #: wp-admin/includes/meta-boxes.php:697
-#: wp-admin/press-this.php:556
+#: wp-admin/press-this.php:570
 msgid "Add"
 msgstr "Hozzáad"
 
@@ -1066,7 +1066,7 @@ msgstr "Nincsenek további hozzászólások."
 #: wp-admin/includes/dashboard.php:563
 #: wp-admin/includes/meta-boxes.php:215
 #: wp-admin/includes/meta-boxes.php:216
-#: wp-admin/press-this.php:470
+#: wp-admin/press-this.php:484
 msgid "Publish"
 msgstr "Közzététel"
 
@@ -1084,7 +1084,7 @@ msgstr "Mentés, mint függőben lévő"
 #: wp-includes/script-loader.php:327
 #: wp-admin/includes/dashboard.php:560
 #: wp-admin/includes/meta-boxes.php:31
-#: wp-admin/press-this.php:468
+#: wp-admin/press-this.php:482
 msgid "Save Draft"
 msgstr "Mentés vázlatként"
 
@@ -1750,52 +1750,52 @@ msgstr "&laquo; Vissza"
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; hiba"
 
-#: wp-includes/functions.php:3312
+#: wp-includes/functions.php:3321
 #: wp-includes/admin-bar.php:572
 #: wp-admin/widgets.php:35
 msgid "Widgets"
 msgstr "Widgetek"
 
-#: wp-includes/functions.php:3458
-#: wp-includes/functions.php:3498
+#: wp-includes/functions.php:3467
+#: wp-includes/functions.php:3507
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s <strong>használata nem támogatott</strong> a %2$s verzió óta! Ezt javasoljuk helyette: %3$s."
 
-#: wp-includes/functions.php:3460
-#: wp-includes/functions.php:3500
+#: wp-includes/functions.php:3469
+#: wp-includes/functions.php:3509
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s már <strong>használata nem támogatott</strong> a %2$s verzió óta, és nincs helyette javaslatunk."
 
-#: wp-includes/functions.php:3542
+#: wp-includes/functions.php:3551
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
 msgstr "%1$s meghívás <strong>használata nem támogatott</strong> lehetőség a %2$s verzió óta. %3$s"
 
-#: wp-includes/functions.php:3544
+#: wp-includes/functions.php:3553
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s meghívás <strong>használata nem támogatott</strong> lehetőség a %2$s verzió óta, és nincs helyette javaslatunk."
 
-#: wp-includes/functions.php:3576
+#: wp-includes/functions.php:3585
 msgid "(This message was added in version %s.)"
 msgstr "(Ez az üzenet a %s verzióban került hozzáadásra.)"
 
-#: wp-includes/functions.php:3577
+#: wp-includes/functions.php:3586
 msgid "Please see <a href=\"http://codex.wordpress.org/Debugging_in_WordPress\">Debugging in WordPress</a> for more information."
 msgstr "További információk a<a href=\"http://codex.wordpress.org/Debugging_in_WordPress\" target=\"_blank\"> WordPress hibakeresés</a> oldalon."
 
-#: wp-includes/functions.php:3578
+#: wp-includes/functions.php:3587
 msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
 msgstr "%1$s <strong>helytelenül került meghívásra</strong>. %2$s %3$s"
 
-#: wp-includes/functions.php:4289
+#: wp-includes/functions.php:4298
 msgid "Select a city"
 msgstr "Város kiválasztása"
 
-#: wp-includes/functions.php:4334
-#: wp-includes/functions.php:4338
+#: wp-includes/functions.php:4343
+#: wp-includes/functions.php:4347
 msgid "UTC"
 msgstr "UTC"
 
-#: wp-includes/functions.php:4342
+#: wp-includes/functions.php:4351
 msgid "Manual Offsets"
 msgstr "Eltérés kézi beállítása"
 
@@ -1973,7 +1973,7 @@ msgid "Add or remove tags"
 msgstr "Címke hozzáadása, vagy eltávolítása"
 
 #: wp-includes/taxonomy.php:415
-#: wp-admin/press-this.php:561
+#: wp-admin/press-this.php:575
 msgid "Choose from the most used tags"
 msgstr "Választás a leggyakrabban előforduló címkék közül"
 
@@ -2309,8 +2309,8 @@ msgstr "Címkefelhő"
 #: wp-includes/default-widgets.php:1006
 #: wp-admin/includes/dashboard.php:550
 #: wp-admin/includes/class-wp-posts-list-table.php:276
-#: wp-admin/press-this.php:548
-#: wp-admin/press-this.php:552
+#: wp-admin/press-this.php:562
+#: wp-admin/press-this.php:566
 msgid "Tags"
 msgstr "Címkék"
 
@@ -2582,7 +2582,7 @@ msgstr "Oldal nem található"
 #. translators: 1: month name, 2: 4-digit year
 #: wp-includes/general-template.php:939
 msgid "%1$s %2$d"
-msgstr "%2$d. / %1$s"
+msgstr "%2$d. %1$s"
 
 #. translators: Calendar caption: 1: month name, 2: 4-digit year
 #: wp-includes/general-template.php:1147
@@ -2840,7 +2840,7 @@ msgid "Add New Page"
 msgstr "Új oldal írása"
 
 #: wp-includes/post.php:1188
-#: wp-admin/press-this.php:583
+#: wp-admin/press-this.php:597
 msgid "Edit Post"
 msgstr "Bejegyzés szerkesztése"
 
@@ -2960,7 +2960,7 @@ msgstr "Nincs jogosultság a vázlat mentéséhez."
 
 #: wp-includes/post.php:5129
 #: wp-admin/includes/class-wp-posts-list-table.php:1006
-#: wp-admin/press-this.php:485
+#: wp-admin/press-this.php:499
 msgctxt "Post format"
 msgid "Standard"
 msgstr "Általános"
@@ -3127,7 +3127,7 @@ msgstr "A cél URL megadása"
 #: wp-admin/includes/nav-menu.php:129
 #: wp-admin/includes/nav-menu.php:550
 #: wp-admin/includes/class-wp-links-list-table.php:81
-#: wp-admin/press-this.php:644
+#: wp-admin/press-this.php:658
 msgid "URL"
 msgstr "URL"
 
@@ -3210,7 +3210,7 @@ msgstr "Támogató fórum"
 
 #: wp-includes/admin-bar.php:115
 msgid "http://wordpress.org/support/"
-msgstr "http://forum.word-press.hu"
+msgstr "http://forum.wpm.hu"
 
 #: wp-includes/admin-bar.php:122
 msgid "Feedback"
@@ -5506,7 +5506,7 @@ msgstr "Idéz"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:258
 #: wp-admin/press-this.php:160
-#: wp-admin/press-this.php:650
+#: wp-admin/press-this.php:664
 msgid "Insert Image"
 msgstr "Kép beszúrása"
 
@@ -6333,7 +6333,7 @@ msgstr "<a href=\"http://codex.wordpress.org/Links_Screen\" target=\"_blank\">Li
 #: wp-admin/media-upload.php:78
 #: wp-admin/nav-menus.php:466
 msgid "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
-msgstr "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Fórum</a> (angol) és <a href=\"http://forum.word-press.hu/\" target=\"_blank\">Fórum</a> (magyar)"
+msgstr "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Fórum</a> (angol) és <a href=\"http://forum.wpm.hu/\" target=\"_blank\">Fórum</a> (magyar)"
 
 #. translators: add new links
 #: wp-admin/link-manager.php:73
@@ -6347,7 +6347,7 @@ msgstr "Új hozzáadása"
 #: wp-admin/edit-comments.php:158
 #: wp-admin/edit.php:226
 #: wp-admin/upload.php:181
-#: wp-admin/users.php:402
+#: wp-admin/users.php:403
 #: wp-admin/plugins.php:398
 #: wp-admin/edit-tags.php:268
 msgid "Search results for &#8220;%s&#8221;"
@@ -6375,7 +6375,7 @@ msgstr "Link keresése"
 #: wp-admin/edit.php:22
 #: wp-admin/post-new.php:40
 #: wp-admin/users.php:13
-#: wp-admin/users.php:111
+#: wp-admin/users.php:112
 #: wp-admin/includes/bookmark.php:30
 #: wp-admin/press-this.php:17
 #: wp-admin/widgets.php:16
@@ -6738,7 +6738,7 @@ msgstr "Honlap címe"
 
 #: wp-admin/edit-link-form.php:102
 msgid "Example: <code>http://wordpress.org/</code> &#8212; don&#8217;t forget the <code>http://</code>"
-msgstr "Példa: <code>http://forum.word-press.hu</code> &#8212; nem elfelejteni az elejére írni, hogy <code>http://</code>!"
+msgstr "Példa: <code>http://forum.wpm.hu</code> &#8212; nem elfelejteni az elejére írni, hogy <code>http://</code>!"
 
 #: wp-admin/edit-link-form.php:107
 #: wp-admin/themes.php:231
@@ -6749,7 +6749,7 @@ msgstr "Példa: <code>http://forum.word-press.hu</code> &#8212; nem elfelejteni 
 #: wp-admin/includes/class-wp-terms-list-table.php:101
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:144
 #: wp-admin/press-this.php:146
-#: wp-admin/press-this.php:647
+#: wp-admin/press-this.php:661
 msgid "Description"
 msgstr "Leírás"
 
@@ -7958,7 +7958,7 @@ msgstr "Eszközök"
 #: wp-admin/options-writing.php:128
 #: wp-admin/includes/dashboard.php:509
 #: wp-admin/press-this.php:302
-#: wp-admin/press-this.php:464
+#: wp-admin/press-this.php:478
 msgid "Press This"
 msgstr "Press This"
 
@@ -9375,135 +9375,135 @@ msgstr "Felhasználói adatok módosítása nem engedélyezett."
 msgid "You can&#8217;t give users that role."
 msgstr "Felhasználói jogok módosítása nem engedélyezett."
 
-#: wp-admin/users.php:124
-#: wp-admin/users.php:171
+#: wp-admin/users.php:125
+#: wp-admin/users.php:172
 msgid "User deletion is not allowed from this screen."
 msgstr "Felhasználó törlése erről a helyről nem engedélyezett."
 
-#: wp-admin/users.php:134
-#: wp-admin/users.php:181
+#: wp-admin/users.php:135
+#: wp-admin/users.php:182
 msgid "You can&#8217;t delete users."
 msgstr "Felhasználók törlése nem engedélyezett."
 
-#: wp-admin/users.php:144
+#: wp-admin/users.php:145
 msgid "You can&#8217;t delete that user."
 msgstr "Felhasználó törlése nem engedélyezett."
 
-#: wp-admin/users.php:196
+#: wp-admin/users.php:197
 msgid "Delete Users"
 msgstr "Felhasználók törlése"
 
-#: wp-admin/users.php:197
+#: wp-admin/users.php:198
 msgid "You have specified this user for deletion:"
 msgid_plural "You have specified these users for deletion:"
 msgstr[0] "Az alábbi felhasználó törlésre lett kijelölve:"
 msgstr[1] "Az alábbi felhasználók törlésre lettek kijelölve:"
 
-#: wp-admin/users.php:205
+#: wp-admin/users.php:206
 msgid "ID #%1s: %2s <strong>The current user will not be deleted.</strong>"
 msgstr "ID #%1s: %2s <strong>Az aktuális felhasználó nem törölhető.</strong>"
 
-#: wp-admin/users.php:207
-#: wp-admin/users.php:310
+#: wp-admin/users.php:208
+#: wp-admin/users.php:311
 msgid "ID #%1s: %2s"
 msgstr "ID #%1s: %2s"
 
-#: wp-admin/users.php:214
+#: wp-admin/users.php:215
 msgid "What should be done with posts and links owned by this user?"
 msgid_plural "What should be done with posts and links owned by these users?"
 msgstr[0] "Mi legyen a felhasználó bejegyzéseivel és hozzászólásaival?"
 msgstr[1] "Mi legyen a felhasználók bejegyzéseivel és hozzászólásaival?"
 
-#: wp-admin/users.php:217
+#: wp-admin/users.php:218
 msgid "Delete all posts and links."
 msgstr "Összes bejegyzés és link törlése."
 
-#: wp-admin/users.php:219
+#: wp-admin/users.php:220
 msgid "Attribute all posts and links to:"
 msgstr "Összes bejegyzés és link módosítása:"
 
-#: wp-admin/users.php:223
+#: wp-admin/users.php:224
 msgid "Confirm Deletion"
 msgstr "Törlés megerősítése"
 
-#: wp-admin/users.php:225
+#: wp-admin/users.php:226
 msgid "There are no valid users selected for deletion."
 msgstr "Nincsenek törlésre kijelölt felhasználók."
 
-#: wp-admin/users.php:237
-#: wp-admin/users.php:245
-#: wp-admin/users.php:274
-#: wp-admin/users.php:282
+#: wp-admin/users.php:238
+#: wp-admin/users.php:246
+#: wp-admin/users.php:275
+#: wp-admin/users.php:283
 msgid "You can&#8217;t remove users."
 msgstr "Felhasználó eltávolítása nem engedélyezett."
 
-#: wp-admin/users.php:297
+#: wp-admin/users.php:298
 msgid "Remove Users from Site"
 msgstr "Felhasználók eltávolítása a honlapról"
 
-#: wp-admin/users.php:298
+#: wp-admin/users.php:299
 msgid "You have specified these users for removal:"
 msgstr "Az alábbi felhasználók törlésre lettek kijelölve:"
 
-#: wp-admin/users.php:306
+#: wp-admin/users.php:307
 msgid "ID #%1s: %2s <strong>The current user will not be removed.</strong>"
 msgstr "ID #%1s: %2s <strong>Az aktuális felhasználó nem törölhető.</strong>"
 
-#: wp-admin/users.php:308
+#: wp-admin/users.php:309
 msgid "ID #%1s: %2s <strong>You don't have permission to remove this user.</strong>"
 msgstr "ID #%1s: %2s <strong>Az aktuális felhasználó törléséhez nincs megfelelő jogosultság.</strong>"
 
-#: wp-admin/users.php:317
+#: wp-admin/users.php:318
 msgid "Confirm Removal"
 msgstr "Eltávolítás megerősítése"
 
-#: wp-admin/users.php:319
+#: wp-admin/users.php:320
 msgid "There are no valid users selected for removal."
 msgstr "Nincsenek jóváhagyott, eltávolításra kijelölt felhasználók."
 
-#: wp-admin/users.php:348
+#: wp-admin/users.php:349
 msgid "%s user deleted"
 msgid_plural "%s users deleted"
 msgstr[0] "%s felhasználó törölve."
 msgstr[1] "%s felhasználó törölve."
 
-#: wp-admin/users.php:351
+#: wp-admin/users.php:352
 msgid "New user created."
 msgstr "Új felhasználó létrehozva."
 
-#: wp-admin/users.php:354
+#: wp-admin/users.php:355
 msgid "Changed roles."
 msgstr "Szerepkör megváltoztatva."
 
-#: wp-admin/users.php:357
+#: wp-admin/users.php:358
 msgid "The current user&#8217;s role must have user editing capabilities."
 msgstr "Az aktuális felhasználó nem rendelkezik a felhasználók módosítási jogával."
 
-#: wp-admin/users.php:358
+#: wp-admin/users.php:359
 msgid "Other user roles have been changed."
 msgstr "A többi felhasználói szerepkör megváltoztatva."
 
-#: wp-admin/users.php:361
+#: wp-admin/users.php:362
 msgid "You can&#8217;t delete the current user."
 msgstr "Az aktuális felhasználó törlése nem engedélyezett."
 
-#: wp-admin/users.php:362
+#: wp-admin/users.php:363
 msgid "Other users have been deleted."
 msgstr "A többi felhasználó törölve."
 
-#: wp-admin/users.php:365
+#: wp-admin/users.php:366
 msgid "User removed from this site."
 msgstr "Felhasználó eltávolítva a honlapról."
 
-#: wp-admin/users.php:368
+#: wp-admin/users.php:369
 msgid "You can't remove the current user."
 msgstr "Az aktuális felhasználó törlése nem engedélyezett."
 
-#: wp-admin/users.php:369
+#: wp-admin/users.php:370
 msgid "Other users have been removed."
 msgstr "A többi felhasználó eltávolításra került."
 
-#: wp-admin/users.php:396
+#: wp-admin/users.php:397
 #: wp-admin/user-edit.php:186
 #: wp-admin/menu.php:176
 #: wp-admin/menu.php:178
@@ -9511,13 +9511,13 @@ msgctxt "user"
 msgid "Add New"
 msgstr "Új hozzáadása"
 
-#: wp-admin/users.php:398
+#: wp-admin/users.php:399
 #: wp-admin/user-edit.php:188
 msgctxt "user"
 msgid "Add Existing"
 msgstr "Létező felhasználó hozzáadása"
 
-#: wp-admin/users.php:409
+#: wp-admin/users.php:410
 #: wp-admin/includes/dashboard.php:468
 msgid "Search Users"
 msgstr "Felhasználó keresése"
@@ -10098,236 +10098,239 @@ msgid "Don&#8217;t you wish all software came with these freedoms? So do we! For
 msgstr "Nem lenne jó, ha minden szoftver ilyen szabadságjogokkal jelenne meg? Szerintünk is! További információ a <a href=\"http://www.fsf.org/\">Free Software Foundation</a> oldalain található."
 
 #: wp-admin/about.php:37
-msgid "Easier Uploading"
-msgstr "Könnyebb feltöltés"
-
-#: wp-admin/about.php:45
-msgid "File Type Detection"
-msgstr "Fájltípus meghatározása"
-
-#: wp-admin/about.php:46
-msgid "We&#8217;ve streamlined things! Instead of needing to click on a specific upload icon based on your file type, now there&#8217;s just one. Once your file is uploaded, the appropriate fields will be displayed for entering information based on the file type."
-msgstr "Egyszerűsítettük a dolgokat! Ahelyett, hogy a feltölteni kívánt fájltípus szerinti ikonra kellene kattintgatni, mostantól csak egy van. Ahogy a fájlt feltöltöttük, a megfelelő kitöltendő mezők meg fognak jelenni a fájl típusának megfelelően."
-
-#: wp-admin/about.php:48
-msgid "Drag-and-Drop Media Uploader"
-msgstr "\"Fogd és vidd\" média-feltöltő"
-
-#: wp-admin/about.php:49
-msgid "Adding photos or other files to posts and pages just got easier. Drag files from your desktop and drop them into the uploader. Add one file at a time, or many at once."
-msgstr "Az új fotók és egyéb fájlok bejegyzésekhez és oldalakhoz rendelése még egyszerűbbé vált. Fogjunk egy fájlt az asztalról és ejtsük rá a feltöltő felületre. Egyszerre egy, és több fájllal is működik."
-
-#: wp-admin/about.php:51
-msgid "More File Formats"
-msgstr "További fájlformátumok"
-
-#: wp-admin/about.php:52
-msgid "We&#8217;ve added the rar and 7z file formats to the list of allowed file types in the uploader."
-msgstr "A *.rar és a *.7zip a fájlfeltöltő engedélyezett fájlformátumai közé kerültek,"
-
-#: wp-admin/about.php:58
-msgid "Dashboard Design"
-msgstr "Vezérlőpult elrendezése"
-
-#: wp-admin/about.php:61
-msgid "Flyout Menus"
-msgstr "Előugró menük"
-
-#: wp-admin/about.php:62
-msgid "Speed up navigating the dashboard and reduce repetitive clicking with our new flyout submenus. As you hover over each main menu item in your dashboard navigation, the submenus will magically appear, providing single-click access to any dashboard screen."
-msgstr "Gyorsítottunk a vezérlőpult navigációján, csökkentettünk a kattintások számát, az új, előugró menüinkkel. Amint az egyes főmenü elemek fölé visszük az egeret a vezérlőpultunkon, az almenük csodával határos módon megjelennek, ezzel biztosítva egy kattintásos hozzáférést bármely vezérlőpult képernyőhöz."
-
-#: wp-admin/about.php:65
-msgid "Header + Admin Bar = Toolbar"
-msgstr "Fejrész + Adminsáv = Eszköztár"
-
-#: wp-admin/about.php:66
-msgid "To save space and increase efficiency, we&#8217;ve combined the admin bar and the old Dashboard header into one persistent toolbar. Hovering over the toolbar items will reveal submenus when available for quick access. "
-msgstr "A helytakarékosság és hatékonyság jegyében egyesítettük a régi vezérlőpult menüjét és az admin sávot, egy állandó eszköztárrá. Ha az egeret az eszköztár elemei fölé visszük, megjelennek az almenük, a gyorsabb elérés érdekében."
-
-#: wp-admin/about.php:73
-msgid "Responsive Design"
-msgstr "Fogékony tervezés"
-
-#: wp-admin/about.php:74
-msgid "Certain dashboard screens have been updated to look better at various sizes, including improved iPad/tablet support."
-msgstr "Néhány vezérlőpult képernyőt frissítettünk, hogy jobban nézzen ki a különböző méretekben, ezzel együtt gazdagodott az iPad/tablet támogatás is."
-
-#: wp-admin/about.php:78
-msgid "Help Tabs"
-msgstr "Segítség fül"
-
-#: wp-admin/about.php:79
-msgid "The Help tabs located in the upper corner of the dashboard screens below your name have gotten a facelift. Help content is broken into smaller sections for easier access, with links to relevant documentation and the support forums always visible."
-msgstr "A Segítség fül a felső sarokban található a Vezérlőpult valamennyi képernyőjén, és egy kis arculat váltáson esett át. A tartalom kisebb részekre lett tördelve, a könnyebb elérés érdekében, ezenkívül a hivatkozás a dokumentációra, és a fórumra folyamatosan látható."
-
-#: wp-admin/about.php:85
-msgid "Feels Like the First Time"
-msgstr "Olyan, mint elsőre"
-
-#: wp-admin/about.php:93
-msgid "New Feature Pointers"
-msgstr "Új tippszolgáltatás"
-
-#: wp-admin/about.php:94
-msgid "When we add new features, move navigation, or do anything else with the dashboard that might throw you for a loop when you update your WordPress site, we&#8217;ll let you know about it with new feature pointers explaining the change."
-msgstr "Amikor új funkciókat hozunk létre, átrendezzük a navigációt, vagy valami hasonlót teszünk a Vezérlőpulttal, akkor frissítés után a felület tájékoztató ablakokat fog dobálni az újdonságokra mutatva, hogy elmagyarázzuk a változás lényegét."
-
-#: wp-admin/about.php:96
-msgid "Post-update Changelog"
-msgstr "Újdonságok listája frissítés után"
-
-#: wp-admin/about.php:97
-msgid "This screen! From now on when you update WordPress, you&#8217;ll be brought to this screen &mdash; also accessible any time from the W logo in the corner of the toolbar &mdash; to get an overview of what&#8217;s changed."
-msgstr "Ez a képernyő! Mostantól amikor frissítjük a WordPress-ünket, ez a képernyő fog megjelenni &mdash; ugyanakkor bármikor elérhető a bal sarokban lévő W logóra kattintva &mdash; hogy bármikor átnézhessük a legutóbbi változásokat."
-
-#: wp-admin/about.php:99
-msgid "Dashboard Welcome"
-msgstr "Vezérlőpult üdvözlet"
-
-#: wp-admin/about.php:100
-msgid "The dashboard home screen will have a Welcome area that displays when a new WordPress installation is accessed for the first time, prompting the site owner to complete various setup tasks. Once dismissed, this welcome can be accessed via the dashboard home screen options tab."
-msgstr "A vezérlőpult kezdőoldalának lesz egy üdvözlő része, amely az új telepítés után különböző beállítási lépéseket fog ajánlani a tulajdonosnak. Amennyiben ezt elutasítjuk, a továbbiakban a Képernyő beállítások fül alatt érhető el."
-
-#: wp-admin/about.php:107
-msgid "Content Tools"
-msgstr "Tartalom eszközök"
-
-#: wp-admin/about.php:111
-msgid "Better Co-Editing"
-msgstr "Jobb közös szerkesztés"
-
-#: wp-admin/about.php:113
-msgid "Have you ever gone to edit a post after someone else has finished with it, only to get an alert that tells you the other person is still editing the post? From now on, you&#8217;ll only get that alert if another person is still on the editing screen &mdash; no more time lag."
-msgstr "Előfordult már valaha, hogy szerkesztettünk egy bejegyzést, miután valaki más már befejezte rajta a munkát, és kaptunk egy figyelmeztetést, hogy az a másik személy, még mindig szerkeszti a bejegyzést? Mostantól, csak akkor kapunk figyelmeztetést, ha az illető tényleg a szerkesztő képernyőn tartózkodik még, nincs többé időeltolódás."
-
-#: wp-admin/about.php:116
-msgid "Tumblr Importer"
-msgstr "Tumblr importáló"
-
-#: wp-admin/about.php:117
-msgid "Want to import content from Tumblr to WordPress? No problem! Go to <span class=\"no-break\">Tools &rarr; Import</span> to get the new Tumblr Importer, which maps your Tumblog posts to the matching WordPress post formats. Tip: Choose a theme designed to display post formats to get the greatest benefit from the importer."
-msgstr "Szeretnénk tartalmat importálni Tumblr-ről WordPress-be? Semmi gond! Menjünk az <span class=\"no-break\">Eszközök &rarr; Importálás</span> képernyőre, hogy beszerezzük az Tumblr importert, amely összerendeli a Tumblog formátumokat a WordPress bejegyzés formátumával. Tipp: Válasszunk olyan sablont, amely támogatja a bejegyzés formátumokat, így lehet a legjobban a hasznunkra az importálás."
-
-#: wp-admin/about.php:120
-msgid "Widget Improvements"
-msgstr "Widget fejlesztések"
-
-#: wp-admin/about.php:121
-msgid "Changing themes often requires widget re-configuration based on the number and position of sidebars. Now if you change back to a previous theme, the widgets will automatically go back to how you had them arranged in that theme. <em>Note: if you&#8217;ve added new widgets since the switch, you&#8217;ll need to rescue them from the Inactive Widgets area.</em>"
-msgstr "A sablonváltás gyakran azzal jár, hogy újra be kell állítani az oldalsávok számát és pozicióját. Mostantól kezdve, ha visszatérünk korábbi sablonunkhoz, a widgetek automatikusan visszatérnek arra az állapotra, ahogyan korábban beállítottuk őket. <em>Megjegyzés: ha új widgeteket adtunk hozzá a váltás óta, akkor ki kell szabadítanunk őket, az Inkatív Widgetek részből.</em>"
-
-#: wp-admin/about.php:128
-msgid "Under the Hood"
-msgstr "A motorháztető alatt"
-
-#: wp-admin/about.php:132
-msgid "Flexible Permalinks"
-msgstr "Rugalmas közvetlen linkek"
-
-#: wp-admin/about.php:133
-msgid "You have more freedom when choosing a post permalink structure. Skip the date information or add a category slug without a performance penalty."
-msgstr "Még több szabadságot kapunk, a bejegyzés struktúra kiválasztásában. Kihagyhatjuk a dátum információt, vagy a kategóriát belőle teljesítményromlás nélkül."
-
-#: wp-admin/about.php:136
-msgid "Post Slugs: Less Funky"
-msgstr "Keresőbarát url címek: kevésbé rémisztő"
-
-#: wp-admin/about.php:137
-msgid "Funky characters in post titles (e.g. curly quotes from a word processor) will no longer result in garbled post slugs."
-msgstr "Az ijesztő karakterek a bejegyzés címében (pl. idézőjelek egy szövegszerkesztőből) nem fognak híbás keresőbarát url-t eredményezni."
-
-#: wp-admin/about.php:140
-msgid "jQuery and jQuery UI"
-msgstr "jQuery és jQuery UI"
-
-#: wp-admin/about.php:141
-msgid "WordPress now includes the entire jQuery UI stack and the latest version of jQuery: %s."
-msgstr "WordPress mostantól tartalmazza a teljes jQuery UI-t és a legutóbbi jQuery %s verziót"
-
-#: wp-admin/about.php:148
-msgid "This handy method will tell you if a <code>WP_Query</code> object is the main WordPress query or a secondary query."
-msgstr "Ez a hasznos kis eljárás elárulja nekünk, hogy a <code>WP_Query</code> objektum a fő WordPress lekérdezés-e, vagy másodlagos."
-
-#: wp-admin/about.php:151
-msgid "WP_Screen API"
-msgstr "WP_Screen API"
-
-#: wp-admin/about.php:152
-msgid "WordPress has a nice new API for working with admin screens. Create rich screens, add help documentation, adapt to screen contexts, and more."
-msgstr "WordPress admin képernyő egy kellemes, új API-val rendelkezik, amellyel élménygazdag képernyőket lehet létrehozni, dokumentációval, beállításokkal, és még továbbiakkal."
-
-#: wp-admin/about.php:155
-msgid "Editor API Overhaul"
-msgstr "Szerkesztő API alapos átdolgozása"
-
-#: wp-admin/about.php:156
-msgid "The new editor API automatically pulls in all the JS and CSS goodness for the editor. It even supports multiple editors on the same page."
-msgstr "Az új szerkesztő API minden JS és CSS jóságot betölt a szerkesztő számára. Sőt, egy oldalon akár több szerkesztőnk is lehet."
-
-#: wp-admin/about.php:165
-msgid "Return to Updates"
-msgstr "Vissza a frissítésekhez"
-
-#: wp-admin/about.php:165
-msgid "Return to Dashboard &rarr; Updates"
-msgstr "Vezérlőpulthoz &rarr; Frissítések"
-
-#: wp-admin/about.php:168
-msgid "Go to Dashboard &rarr; Home"
-msgstr "Vezérlőpulthoz &rarr; Kezdőlap"
-
-#: wp-admin/about.php:179
-msgid "Maintenance Release"
-msgid_plural "Maintenance Releases"
-msgstr[0] "Hibajavító frissítés"
-msgstr[1] "Hibajavító frissítések"
-
-#: wp-admin/about.php:180
-msgid "Security Release"
-msgid_plural "Security Releases"
-msgstr[0] "Biztonsági frissítés"
-msgstr[1] "Biztonsági frissítések"
-
-#: wp-admin/about.php:181
+#: wp-admin/about.php:189
 msgid "Maintenance and Security Release"
 msgid_plural "Maintenance and Security Releases"
 msgstr[0] "Karbantartó és biztonsági frissítés"
 msgstr[1] "Karbantartó és biztonsági frissítések"
 
+#. translators: 1: WordPress version number, 2: plural number of bugs. Singular
+#. security issue.
+#: wp-admin/about.php:38
+#: wp-admin/about.php:200
+msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
+msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
+msgstr[0] "<strong>%1$s verzió</strong> egy biztonsági rést, és %2$s hibát javított."
+msgstr[1] "<strong>%1$s verzió</strong> egy biztonsági rést, és %2$s hibát javított."
+
+#: wp-admin/about.php:40
+#: wp-admin/about.php:207
+msgid "For more information, see <a href=\"%s\">the release notes</a>."
+msgstr "További információk: <a href=\"%s\">Verzió információk</a>."
+
+#: wp-admin/about.php:45
+msgid "Easier Uploading"
+msgstr "Könnyebb feltöltés"
+
+#: wp-admin/about.php:53
+msgid "File Type Detection"
+msgstr "Fájltípus meghatározása"
+
+#: wp-admin/about.php:54
+msgid "We&#8217;ve streamlined things! Instead of needing to click on a specific upload icon based on your file type, now there&#8217;s just one. Once your file is uploaded, the appropriate fields will be displayed for entering information based on the file type."
+msgstr "Egyszerűsítettük a dolgokat! Ahelyett, hogy a feltölteni kívánt fájltípus szerinti ikonra kellene kattintgatni, mostantól csak egy van. Ahogy a fájlt feltöltöttük, a megfelelő kitöltendő mezők meg fognak jelenni a fájl típusának megfelelően."
+
+#: wp-admin/about.php:56
+msgid "Drag-and-Drop Media Uploader"
+msgstr "\"Fogd és vidd\" média-feltöltő"
+
+#: wp-admin/about.php:57
+msgid "Adding photos or other files to posts and pages just got easier. Drag files from your desktop and drop them into the uploader. Add one file at a time, or many at once."
+msgstr "Az új fotók és egyéb fájlok bejegyzésekhez és oldalakhoz rendelése még egyszerűbbé vált. Fogjunk egy fájlt az asztalról és ejtsük rá a feltöltő felületre. Egyszerre egy, és több fájllal is működik."
+
+#: wp-admin/about.php:59
+msgid "More File Formats"
+msgstr "További fájlformátumok"
+
+#: wp-admin/about.php:60
+msgid "We&#8217;ve added the rar and 7z file formats to the list of allowed file types in the uploader."
+msgstr "A *.rar és a *.7zip a fájlfeltöltő engedélyezett fájlformátumai közé kerültek,"
+
+#: wp-admin/about.php:66
+msgid "Dashboard Design"
+msgstr "Vezérlőpult elrendezése"
+
+#: wp-admin/about.php:69
+msgid "Flyout Menus"
+msgstr "Előugró menük"
+
+#: wp-admin/about.php:70
+msgid "Speed up navigating the dashboard and reduce repetitive clicking with our new flyout submenus. As you hover over each main menu item in your dashboard navigation, the submenus will magically appear, providing single-click access to any dashboard screen."
+msgstr "Gyorsítottunk a vezérlőpult navigációján, csökkentettünk a kattintások számát, az új, előugró menüinkkel. Amint az egyes főmenü elemek fölé visszük az egeret a vezérlőpultunkon, az almenük csodával határos módon megjelennek, ezzel biztosítva egy kattintásos hozzáférést bármely vezérlőpult képernyőhöz."
+
+#: wp-admin/about.php:73
+msgid "Header + Admin Bar = Toolbar"
+msgstr "Fejrész + Adminsáv = Eszköztár"
+
+#: wp-admin/about.php:74
+msgid "To save space and increase efficiency, we&#8217;ve combined the admin bar and the old Dashboard header into one persistent toolbar. Hovering over the toolbar items will reveal submenus when available for quick access. "
+msgstr "A helytakarékosság és hatékonyság jegyében egyesítettük a régi vezérlőpult menüjét és az admin sávot, egy állandó eszköztárrá. Ha az egeret az eszköztár elemei fölé visszük, megjelennek az almenük, a gyorsabb elérés érdekében."
+
+#: wp-admin/about.php:81
+msgid "Responsive Design"
+msgstr "Fogékony tervezés"
+
+#: wp-admin/about.php:82
+msgid "Certain dashboard screens have been updated to look better at various sizes, including improved iPad/tablet support."
+msgstr "Néhány vezérlőpult képernyőt frissítettünk, hogy jobban nézzen ki a különböző méretekben, ezzel együtt gazdagodott az iPad/tablet támogatás is."
+
+#: wp-admin/about.php:86
+msgid "Help Tabs"
+msgstr "Segítség fül"
+
+#: wp-admin/about.php:87
+msgid "The Help tabs located in the upper corner of the dashboard screens below your name have gotten a facelift. Help content is broken into smaller sections for easier access, with links to relevant documentation and the support forums always visible."
+msgstr "A Segítség fül a felső sarokban található a Vezérlőpult valamennyi képernyőjén, és egy kis arculat váltáson esett át. A tartalom kisebb részekre lett tördelve, a könnyebb elérés érdekében, ezenkívül a hivatkozás a dokumentációra, és a fórumra folyamatosan látható."
+
+#: wp-admin/about.php:93
+msgid "Feels Like the First Time"
+msgstr "Olyan, mint elsőre"
+
+#: wp-admin/about.php:101
+msgid "New Feature Pointers"
+msgstr "Új tippszolgáltatás"
+
+#: wp-admin/about.php:102
+msgid "When we add new features, move navigation, or do anything else with the dashboard that might throw you for a loop when you update your WordPress site, we&#8217;ll let you know about it with new feature pointers explaining the change."
+msgstr "Amikor új funkciókat hozunk létre, átrendezzük a navigációt, vagy valami hasonlót teszünk a Vezérlőpulttal, akkor frissítés után a felület tájékoztató ablakokat fog dobálni az újdonságokra mutatva, hogy elmagyarázzuk a változás lényegét."
+
+#: wp-admin/about.php:104
+msgid "Post-update Changelog"
+msgstr "Újdonságok listája frissítés után"
+
+#: wp-admin/about.php:105
+msgid "This screen! From now on when you update WordPress, you&#8217;ll be brought to this screen &mdash; also accessible any time from the W logo in the corner of the toolbar &mdash; to get an overview of what&#8217;s changed."
+msgstr "Ez a képernyő! Mostantól amikor frissítjük a WordPress-ünket, ez a képernyő fog megjelenni &mdash; ugyanakkor bármikor elérhető a bal sarokban lévő W logóra kattintva &mdash; hogy bármikor átnézhessük a legutóbbi változásokat."
+
+#: wp-admin/about.php:107
+msgid "Dashboard Welcome"
+msgstr "Vezérlőpult üdvözlet"
+
+#: wp-admin/about.php:108
+msgid "The dashboard home screen will have a Welcome area that displays when a new WordPress installation is accessed for the first time, prompting the site owner to complete various setup tasks. Once dismissed, this welcome can be accessed via the dashboard home screen options tab."
+msgstr "A vezérlőpult kezdőoldalának lesz egy üdvözlő része, amely az új telepítés után különböző beállítási lépéseket fog ajánlani a tulajdonosnak. Amennyiben ezt elutasítjuk, a továbbiakban a Képernyő beállítások fül alatt érhető el."
+
+#: wp-admin/about.php:115
+msgid "Content Tools"
+msgstr "Tartalom eszközök"
+
+#: wp-admin/about.php:119
+msgid "Better Co-Editing"
+msgstr "Jobb közös szerkesztés"
+
+#: wp-admin/about.php:121
+msgid "Have you ever gone to edit a post after someone else has finished with it, only to get an alert that tells you the other person is still editing the post? From now on, you&#8217;ll only get that alert if another person is still on the editing screen &mdash; no more time lag."
+msgstr "Előfordult már valaha, hogy szerkesztettünk egy bejegyzést, miután valaki más már befejezte rajta a munkát, és kaptunk egy figyelmeztetést, hogy az a másik személy, még mindig szerkeszti a bejegyzést? Mostantól, csak akkor kapunk figyelmeztetést, ha az illető tényleg a szerkesztő képernyőn tartózkodik még, nincs többé időeltolódás."
+
+#: wp-admin/about.php:124
+msgid "Tumblr Importer"
+msgstr "Tumblr importáló"
+
+#: wp-admin/about.php:125
+msgid "Want to import content from Tumblr to WordPress? No problem! Go to <span class=\"no-break\">Tools &rarr; Import</span> to get the new Tumblr Importer, which maps your Tumblog posts to the matching WordPress post formats. Tip: Choose a theme designed to display post formats to get the greatest benefit from the importer."
+msgstr "Szeretnénk tartalmat importálni Tumblr-ről WordPress-be? Semmi gond! Menjünk az <span class=\"no-break\">Eszközök &rarr; Importálás</span> képernyőre, hogy beszerezzük az Tumblr importert, amely összerendeli a Tumblog formátumokat a WordPress bejegyzés formátumával. Tipp: Válasszunk olyan sablont, amely támogatja a bejegyzés formátumokat, így lehet a legjobban a hasznunkra az importálás."
+
+#: wp-admin/about.php:128
+msgid "Widget Improvements"
+msgstr "Widget fejlesztések"
+
+#: wp-admin/about.php:129
+msgid "Changing themes often requires widget re-configuration based on the number and position of sidebars. Now if you change back to a previous theme, the widgets will automatically go back to how you had them arranged in that theme. <em>Note: if you&#8217;ve added new widgets since the switch, you&#8217;ll need to rescue them from the Inactive Widgets area.</em>"
+msgstr "A sablonváltás gyakran azzal jár, hogy újra be kell állítani az oldalsávok számát és pozicióját. Mostantól kezdve, ha visszatérünk korábbi sablonunkhoz, a widgetek automatikusan visszatérnek arra az állapotra, ahogyan korábban beállítottuk őket. <em>Megjegyzés: ha új widgeteket adtunk hozzá a váltás óta, akkor ki kell szabadítanunk őket, az Inkatív Widgetek részből.</em>"
+
+#: wp-admin/about.php:136
+msgid "Under the Hood"
+msgstr "A motorháztető alatt"
+
+#: wp-admin/about.php:140
+msgid "Flexible Permalinks"
+msgstr "Rugalmas közvetlen linkek"
+
+#: wp-admin/about.php:141
+msgid "You have more freedom when choosing a post permalink structure. Skip the date information or add a category slug without a performance penalty."
+msgstr "Még több szabadságot kapunk, a bejegyzés struktúra kiválasztásában. Kihagyhatjuk a dátum információt, vagy a kategóriát belőle teljesítményromlás nélkül."
+
+#: wp-admin/about.php:144
+msgid "Post Slugs: Less Funky"
+msgstr "Keresőbarát url címek: kevésbé rémisztő"
+
+#: wp-admin/about.php:145
+msgid "Funky characters in post titles (e.g. curly quotes from a word processor) will no longer result in garbled post slugs."
+msgstr "Az ijesztő karakterek a bejegyzés címében (pl. idézőjelek egy szövegszerkesztőből) nem fognak híbás keresőbarát url-t eredményezni."
+
+#: wp-admin/about.php:148
+msgid "jQuery and jQuery UI"
+msgstr "jQuery és jQuery UI"
+
+#: wp-admin/about.php:149
+msgid "WordPress now includes the entire jQuery UI stack and the latest version of jQuery: %s."
+msgstr "WordPress mostantól tartalmazza a teljes jQuery UI-t és a legutóbbi jQuery %s verziót"
+
+#: wp-admin/about.php:156
+msgid "This handy method will tell you if a <code>WP_Query</code> object is the main WordPress query or a secondary query."
+msgstr "Ez a hasznos kis eljárás elárulja nekünk, hogy a <code>WP_Query</code> objektum a fő WordPress lekérdezés-e, vagy másodlagos."
+
+#: wp-admin/about.php:159
+msgid "WP_Screen API"
+msgstr "WP_Screen API"
+
+#: wp-admin/about.php:160
+msgid "WordPress has a nice new API for working with admin screens. Create rich screens, add help documentation, adapt to screen contexts, and more."
+msgstr "WordPress admin képernyő egy kellemes, új API-val rendelkezik, amellyel élménygazdag képernyőket lehet létrehozni, dokumentációval, beállításokkal, és még továbbiakkal."
+
+#: wp-admin/about.php:163
+msgid "Editor API Overhaul"
+msgstr "Szerkesztő API alapos átdolgozása"
+
+#: wp-admin/about.php:164
+msgid "The new editor API automatically pulls in all the JS and CSS goodness for the editor. It even supports multiple editors on the same page."
+msgstr "Az új szerkesztő API minden JS és CSS jóságot betölt a szerkesztő számára. Sőt, egy oldalon akár több szerkesztőnk is lehet."
+
+#: wp-admin/about.php:173
+msgid "Return to Updates"
+msgstr "Vissza a frissítésekhez"
+
+#: wp-admin/about.php:173
+msgid "Return to Dashboard &rarr; Updates"
+msgstr "Vezérlőpulthoz &rarr; Frissítések"
+
+#: wp-admin/about.php:176
+msgid "Go to Dashboard &rarr; Home"
+msgstr "Vezérlőpulthoz &rarr; Kezdőlap"
+
+#: wp-admin/about.php:187
+msgid "Maintenance Release"
+msgid_plural "Maintenance Releases"
+msgstr[0] "Hibajavító frissítés"
+msgstr[1] "Hibajavító frissítések"
+
+#: wp-admin/about.php:188
+msgid "Security Release"
+msgid_plural "Security Releases"
+msgstr[0] "Biztonsági frissítés"
+msgstr[1] "Biztonsági frissítések"
+
 #. translators: 1: WordPress version number.
-#: wp-admin/about.php:184
+#: wp-admin/about.php:192
 msgid "<strong>Version %1$s</strong> addressed a security issue."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues."
 msgstr[0] "<strong>%1$s verzió</strong> egy biztonsági hibát javít."
 msgstr[1] "<strong>%1$s verzió</strong> néhány biztonsági hibát javít."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:188
+#: wp-admin/about.php:196
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>%1$s verzió</strong> %2$s hibát javít."
 msgstr[1] "<strong>%1$s verzió</strong> %2$s hibát javít."
 
-#. translators: 1: WordPress version number, 2: plural number of bugs. Singular
-#. security issue.
-#: wp-admin/about.php:192
-msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
-msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
-msgstr[0] "<strong>%1$s verzió</strong>biztonsági rést, és %2$s hibát javított."
-msgstr[1] "<strong>%1$s verzió</strong>biztonsági rést, és %2$s hibát javított."
-
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:196
+#: wp-admin/about.php:204
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
-msgstr[0] "<strong>%1$s verzió</strong>biztonsági réseket, és %2$s hibát javított."
-msgstr[1] "<strong>%1$s verzió</strong>biztonsági réseket, és %2$s hibát javított."
-
-#: wp-admin/about.php:199
-msgid "For more information, see <a href=\"%s\">the release notes</a>."
-msgstr "További információk: <a href=\"%s\">Verzió információk</a>."
+msgstr[0] "<strong>%1$s verzió</strong> biztonsági réseket, és %2$s hibát javított."
+msgstr[1] "<strong>%1$s verzió</strong> biztonsági réseket, és %2$s hibát javított."
 
 #: wp-admin/link.php:109
 msgid "Link not found."
@@ -10524,7 +10527,7 @@ msgstr "Visszaállítás"
 #: wp-admin/includes/dashboard.php:563
 #: wp-admin/includes/meta-boxes.php:219
 #: wp-admin/includes/meta-boxes.php:220
-#: wp-admin/press-this.php:473
+#: wp-admin/press-this.php:487
 msgid "Submit for Review"
 msgstr "Elküld megtekintésre"
 
@@ -12490,9 +12493,9 @@ msgid "Upload file and import"
 msgstr "Fájl feltöltése és importálása"
 
 #: wp-admin/includes/template.php:955
-#: wp-admin/press-this.php:463
-#: wp-admin/press-this.php:497
-#: wp-admin/press-this.php:547
+#: wp-admin/press-this.php:477
+#: wp-admin/press-this.php:511
+#: wp-admin/press-this.php:561
 msgid "Click to toggle"
 msgstr "Bővebben kikapcsolás/bekapcsolás"
 
@@ -13381,7 +13384,7 @@ msgstr "Kezdőlap"
 #: wp-admin/includes/nav-menu.php:878
 #: wp-admin/includes/meta-boxes.php:327
 #: wp-admin/includes/meta-boxes.php:672
-#: wp-admin/press-this.php:504
+#: wp-admin/press-this.php:518
 msgid "Most Used"
 msgstr "Leggyakoribb"
 
@@ -14016,7 +14019,7 @@ msgstr "Közzététel:<br>%1$s</b>"
 
 #. translators: %s: add new taxonomy label
 #: wp-admin/includes/meta-boxes.php:351
-#: wp-admin/press-this.php:526
+#: wp-admin/press-this.php:540
 msgid "+ %s"
 msgstr "+ %s"
 
@@ -14408,44 +14411,44 @@ msgstr "Hozzáadás hivatkozásból"
 msgid "Refresh"
 msgstr "Frissíts"
 
-#: wp-admin/press-this.php:483
+#: wp-admin/press-this.php:497
 msgid "Post Format:"
 msgstr "Bejegyzés formája:"
 
-#: wp-admin/press-this.php:520
+#: wp-admin/press-this.php:534
 msgid "You cannot modify this Taxonomy."
 msgstr "Ezt a Taxonomy-t nem módosíthatja."
 
-#: wp-admin/press-this.php:581
+#: wp-admin/press-this.php:595
 msgid "Your post has been saved."
 msgstr "Bejegyzés elmentve."
 
-#: wp-admin/press-this.php:582
+#: wp-admin/press-this.php:596
 msgid "View post"
 msgstr "Bejegyzés megtekintése"
 
-#: wp-admin/press-this.php:584
+#: wp-admin/press-this.php:598
 msgid "Close Window"
 msgstr "Ablak bezárása"
 
-#: wp-admin/press-this.php:594
+#: wp-admin/press-this.php:608
 msgid "Loading..."
 msgstr "Betöltés..."
 
-#: wp-admin/press-this.php:614
+#: wp-admin/press-this.php:628
 msgid "via "
 msgstr "útján"
 
-#: wp-admin/press-this.php:622
+#: wp-admin/press-this.php:636
 msgid "Add:"
 msgstr "Hozzáad:"
 
-#: wp-admin/press-this.php:626
-#: wp-admin/press-this.php:627
+#: wp-admin/press-this.php:640
+#: wp-admin/press-this.php:641
 msgid "Insert an Image"
 msgstr "Kép beszúrása"
 
-#: wp-admin/press-this.php:631
+#: wp-admin/press-this.php:645
 msgid "Embed a Video"
 msgstr "Videó beillesztése"
 
@@ -16172,12 +16175,12 @@ msgid "One or more database tables are unavailable.  The database may need to be
 msgstr "Egy vagy több adattábla nem található az adatbázisban. Szükséges lehet az <a href=\"maint/repair.php?referrer=is_blog_installed\">adatbázis javítása</a>."
 
 #. Not gettexted string WP_I18N_DB_ERROR
-#: wp-includes/functions.php:3368
+#: wp-includes/functions.php:3377
 msgid "Database Error"
 msgstr "Adatbázis hiba"
 
 #. Not gettexted string WP_I18N_DB_CONNECTION_ERROR
-#: wp-includes/functions.php:3372
+#: wp-includes/functions.php:3381
 msgid "Error establishing a database connection"
 msgstr "Hiba az adatbázis-kapcsolat létrehozása során"
 
@@ -16205,7 +16208,7 @@ msgstr ""
 "<li>Van a(z) <code>%2$s</code> felhasználónak joga, hogy használja a(z) <code>%1$s</code> adatbázist?</li>\n"
 "<li>Néhány rendszeren a felhasználói név az adatbázis előtagja, szóval így nézne ki, hogy<code>felhasználónév_%1$s</code>. Lehet, hogy ez a probléma?</li>\n"
 "</ul>\n"
-"<p>Ha semmi nem segít <strong>fel kell venni a kapcsolatot a szolgáltatóval</strong>. Ha bármi más hiba áll elő, bizonyosan sgítséget lehet találni a <a href='http://forum.word-press.hu/' target=\"_blank\">WordPress Magyarország Fórum</a>án.</p>"
+"<p>Ha semmi nem segít <strong>fel kell venni a kapcsolatot a szolgáltatóval</strong>. Ha bármi más hiba áll elő, bizonyosan sgítséget lehet találni a <a href='http://forum.wpm.hu/' target=\"_blank\">WordPress Magyarország Fórum</a>án.</p>"
 
 #. Not gettexted string WP_I18N_DB_QUERY_ERROR_FULL
 #: wp-includes/wp-db.php:927
@@ -16238,7 +16241,7 @@ msgstr ""
 "\t<li>Biztos, hogy jó adatbázis szerver cím került beírásra?</li>\n"
 "\t<li>Biztos, hogy fut az adatbázis szerver?</li>\n"
 "</ul>\n"
-"<p>Ha nem vagyunk biztosak az előzőek bármelyikében, kapcsolatba kell lépni a szolgáltatóval. Ha további segítségre van szükség, bármikor meglátogatható a <a href='http://forum.word-press.hu/' target=\"_blank\">WordPress Magyarország Fórum</a>.</p>\n"
+"<p>Ha nem vagyunk biztosak az előzőek bármelyikében, kapcsolatba kell lépni a szolgáltatóval. Ha további segítségre van szükség, bármikor meglátogatható a <a href='http://forum.wpm.hu/' target=\"_blank\">WordPress Magyarország Fórum</a>.</p>\n"
 
 #. Not gettexted string WP_I18N_DB_GETROW_ERROR
 #: wp-includes/wp-db.php:1329
@@ -17347,7 +17350,7 @@ msgstr "Úgy tűnik, hogy nincs <code>wp-config.php</code> fájl. A telepítőne
 #~ msgid "http://wordpress.org/development/"
 #~ msgstr ""
 #~ "WordPress <a href=\"http://www.wordpress.org\">angol</a> és <a href="
-#~ "\"http://wphu.org\">magyar</a> nyelven"
+#~ "\"http://www.word-press.hu\">magyar</a> nyelven"
 #~ msgid "http://wordpress.org/development/feed/"
 #~ msgstr "http://wordpress.org/development/feed/"
 #~ msgid "Not enough space to upload. %1$s KB needed."

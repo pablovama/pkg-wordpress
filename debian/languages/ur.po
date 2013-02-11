@@ -1,0 +1,5885 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress 2.0.4\n"
+"Report-Msgid-Bugs-To: Urduweb Localization Team <l10n@urduweb.org>\n"
+"POT-Creation-Date: 2005-03-27 20:35-0600\n"
+"PO-Revision-Date: 2006-10-06 10:33-0500\n"
+"Last-Translator: Zack Ajmal <urdu@zackvision.com>\n"
+"Language-Team: UrduWeb Localization Team <l10n@urduweb.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Rosetta-Version: 0.1\n"
+"X-Poedit-Language: Urdu\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: wp-comments-post.php:15
+msgid "Sorry, comments are closed for this item."
+msgstr "معذرت، اس آئیٹم پر تبصرے بند ہیں۔"
+
+#: wp-comments-post.php:34
+msgid "Sorry, you must be logged in to post a comment."
+msgstr "معذرت، تبصرہ کرنے کیلئے آپ کا دخول ضروری ہے۔"
+
+#: wp-comments-post.php:41
+msgid "Error: please fill the required fields (name, email)."
+msgstr "غلطی: براہ مہربانی مطلوبہ معلومات لکھیں (نام، برقی پتہ)۔"
+
+#: wp-comments-post.php:43
+msgid "Error: please enter a valid email address."
+msgstr "غلطی: براہ مہربانی ایک کارآمد برقی پتہ داخل کریں۔"
+
+#: wp-comments-post.php:47
+msgid "Error: please type a comment."
+msgstr "غلطی: براہ مہربانی تبصرہ لکھیں۔"
+
+#: wp-commentsrss2.php:23
+#, php-format
+msgid "Comments on: %s"
+msgstr "%sپر تبصرے"
+
+#: wp-commentsrss2.php:23
+#, php-format
+msgid "Comments for %s"
+msgstr "%sکےلیے تبصرے"
+
+#: wp-commentsrss2.php:58
+#, php-format
+msgid "Comment on %1$s by %2$s"
+msgstr "%2$s کے %1$s پر تبصرے"
+
+#: wp-commentsrss2.php:60
+#, php-format
+msgid "by: %s"
+msgstr "مِن: %s"
+
+#: wp-commentsrss2.php:68
+msgid "Protected Comments: Please enter your password to view comments."
+msgstr "آپ پر تبصرے جو ردی نہیں واپس اکیسمٹ میں شامل کردئیے جائیں گے چونکہ یہ اپنی غلطیوں سے سیکھتا اور بہتر ہوتا ہے۔"
+
+#: wp-login.php:43
+msgid "Lost Password"
+msgstr "گمشدہ کلمہ شناخت"
+
+#: wp-login.php:62
+msgid "Please enter your information here. We will send you a new password."
+msgstr "براہ مہربانی اپنی معلومات یہاں داخل کریں۔ ہم آپکو ایک نیا کلمہ شناخت بھیج دیں گے۔"
+
+#: wp-login.php:71
+#: wp-login.php:234
+#: wp-register.php:116
+msgid "Username:"
+msgstr "اسم صارف:"
+
+#: wp-login.php:73
+#: wp-register.php:117
+#: wp-admin/edit-comments.php:94
+#: wp-admin/edit-form-comment.php:27
+#: wp-admin/moderation.php:148
+#: wp-admin/post.php:201
+msgid "E-mail:"
+msgstr "  برقی پتہ:"
+
+#: wp-login.php:76
+msgid "Retrieve Password"
+msgstr "کلمہ شناخت کا حصول"
+
+#: wp-login.php:79
+#: wp-login.php:245
+#: wp-register.php:122
+msgid "Are you lost?"
+msgstr "کیا آپ کھو گئے ہیں؟"
+
+#: wp-login.php:79
+#: wp-login.php:245
+#: wp-register.php:122
+msgid "Back to blog"
+msgstr "بلاگ کو واپسی"
+
+#: wp-login.php:81
+#: wp-login.php:247
+#: wp-register.php:119
+#: wp-includes/template-functions-general.php:43
+msgid "Register"
+msgstr "اندراج کروائیں"
+
+#: wp-login.php:83
+#: wp-login.php:214
+#: wp-login.php:240
+#: wp-register.php:76
+#: wp-register.php:123
+#: wp-includes/template-functions-general.php:31
+msgid "Login"
+msgstr "دخول"
+
+#: wp-login.php:98
+#, php-format
+msgid "Sorry, that user does not seem to exist in our database. Perhaps you have the wrong username or e-mail address? <a href=\"%s\">Try again</a>."
+msgstr "معذرت، یہ صارف ہمارے کوائفیے میں نہیں ہے۔ ہو سکتا ہے کہ صارف کا نام یا برقی پتہ غلط ہو؟ <a href=\"%s\">دوبارہ کوشش کریں</a>۔"
+
+#: wp-login.php:107
+msgid "Someone has asked to reset the password for the following site and username."
+msgstr "کسی نے اس سائٹ اور اسم صارف کےلیے کلمہ شناخت ازسرنو بدلنے کو کہا ہے۔"
+
+#: wp-login.php:109
+#: wp-login.php:143
+#: wp-register.php:73
+#: wp-includes/pluggable-functions.php:450
+#: wp-includes/pluggable-functions.php:458
+#, php-format
+msgid "Username: %s"
+msgstr "اسم صارف: %s"
+
+#: wp-login.php:110
+msgid "To reset your password visit the following address, otherwise just ignore this email and nothing will happen."
+msgstr "اپنے کلمہ شناخت کو ازسرنو بدلنے کیلئے مندرجہ ذیل ربط پر جائیں۔ دوسری صورت میں اس برقیے کو فراموش کردیں اور کچھ بھی تبدیل نہیں ہوگا۔"
+
+#: wp-login.php:113
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] کلمہ شناخت دوبارہ  تبدیل کریں"
+
+#: wp-login.php:116
+#: wp-login.php:150
+msgid "The e-mail could not be sent."
+msgstr "برقیہ نہیں بھیجا جا سکا۔"
+
+#: wp-login.php:117
+#: wp-login.php:151
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr "ممکن وجہ: ہو سکتا ہے کہ آپ کے ویب ہوسٹ نے میل() فنکشن ممنوع کیا ہو۔ ۔ ۔"
+
+#: wp-login.php:120
+#, php-format
+msgid "The e-mail was sent successfully to %s's e-mail address."
+msgstr "برقیہ کامیابی سے %s کے پتے پر بھیج دیا گیا ہے۔"
+
+#: wp-login.php:121
+#: wp-login.php:155
+msgid "Check your e-mail first, of course"
+msgstr "بالکل، پہلے اپنی برقی  ڈاک دیکھیں"
+
+#: wp-login.php:121
+#: wp-login.php:155
+msgid "Click here to login!"
+msgstr "دخول کیلئے یہاں کلک کریں"
+
+#: wp-login.php:132
+#: wp-login.php:135
+msgid "Sorry, that key does not appear to be valid."
+msgstr "معذرت، یہ کلید درست معلوم نہیں ہوتی۔"
+
+#: wp-login.php:144
+#: wp-register.php:74
+#: wp-includes/pluggable-functions.php:459
+#, php-format
+msgid "Password: %s"
+msgstr "کلمہ‌شناخت: %s"
+
+#: wp-login.php:147
+#, php-format
+msgid "[%s] Your new password"
+msgstr "[%s] آپ کا نیا کلمہ‌شناخت"
+
+#: wp-login.php:154
+msgid "Your new password is in the mail."
+msgstr "آپ کا نیا کلمہ‌شناخت برقیے میں ہے"
+
+#: wp-login.php:157
+#, php-format
+msgid "Password Lost and Changed for user: %s"
+msgstr "گم ہونے پر کلمہ‌شناخت بدل دیا گیا برائے صارف: %s"
+
+#: wp-login.php:158
+#, php-format
+msgid "[%s] Password Lost/Change"
+msgstr "[%s] کلمہ‌شناخت گم یا تبدیل"
+
+#: wp-login.php:205
+msgid "Your session has expired."
+msgstr "آپ کی نشست ختم ہوگئی ہے۔"
+
+#: wp-login.php:208
+#: wp-includes/pluggable-functions.php:181
+msgid "<strong>Error</strong>: The password field is empty."
+msgstr "<strong>غلطی</strong>: کلمہ شناخت کا قطعہ خالی ہے۔"
+
+#: wp-login.php:235
+#: wp-includes/template-functions-post.php:6
+#: wp-admin/options-writing.php:64
+msgid "Password:"
+msgstr "کلمہ‌شناخت:"
+
+#: wp-login.php:238
+msgid "Remember me"
+msgstr "مجھے یاد رکھیں"
+
+#: wp-login.php:249
+#: wp-register.php:124
+msgid "Password Lost and Found"
+msgstr "کلمہ‌شناخت کھونا اور ملنا"
+
+#: wp-login.php:249
+#: wp-register.php:124
+msgid "Lost your password?"
+msgstr "کیا آپ کا کلمہ‌شناخت کھو گیا ہے؟"
+
+#: wp-mail.php:20
+msgid "There doesn&#8217;t seem to be any new mail."
+msgstr "کوئی نیا برقیہ نہیں دکھائی دیتا۔"
+
+#: wp-register.php:21
+#: wp-admin/admin-functions.php:396
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>غلطی</strong>: براہ مہربانی اسم صارف لکھیں۔"
+
+#: wp-register.php:25
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>غلطی</strong>: براہ مہربانی اپنا برقی پتہ لکھیں۔"
+
+#: wp-register.php:27
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>غلطی</strong>: برقی پتہ درست نہیں ہے۔"
+
+#: wp-register.php:32
+#: wp-admin/admin-functions.php:421
+msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
+msgstr "<strong>غلطی</strong>: یہ اسم صارف درست نہیں۔براہ مہربانی درست اسم صارف لکھیں۔"
+
+#: wp-register.php:37
+#: wp-admin/admin-functions.php:424
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr "<strong>غلطی</strong>: یہ اسم صارف پہلے ہی مندرج ہے کوئی اور چنیں۔"
+
+#: wp-register.php:42
+msgid "<strong>ERROR</strong>: This email address is already registered, please supply another."
+msgstr "<strong>غلطی</strong>: یہ  برقی پتہ پہلے ہی مندرج ہے کوئی اور مہیا کریں۔"
+
+#: wp-register.php:49
+#, php-format
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr "<strong>غلطی</strong>: آپ کا اندراج نہیں کیا جا سکا ... براہ مہربانی <a href=\"mailto:%s\">ویب ماسٹر</a> سے رابطہ کریں۔"
+
+#: wp-register.php:60
+#: wp-register.php:72
+msgid "Registration Complete"
+msgstr "اندراج مکمل"
+
+#: wp-register.php:74
+msgid "emailed to you"
+msgstr "آپ کو برقیہ کر دیا گیا ہے"
+
+#: wp-register.php:75
+#: wp-includes/pluggable-functions.php:451
+#, php-format
+msgid "E-mail: %s"
+msgstr " برقی پتہ: %s"
+
+#: wp-register.php:91
+msgid "Registration Form"
+msgstr "اندراج فارم"
+
+#: wp-register.php:104
+msgid "Register for this blog"
+msgstr "اس بلاگ کے لیے اندراج کرائیں"
+
+#: wp-register.php:118
+msgid "A password will be emailed to you."
+msgstr "آپ کو کلمۂشناخت بھیج دیا جائے گا۔"
+
+#: wp-register.php:140
+msgid "Registration Currently Disabled"
+msgstr "اندراج اس وقت معطل ہے"
+
+#: wp-register.php:148
+msgid "Registration Disabled"
+msgstr "اندراج معطل"
+
+#: wp-register.php:149
+msgid "User registration is currently not allowed."
+msgstr "صارفین کے اندراج کی فی‌الحال اجازت نہیں ہے۔"
+
+#: wp-register.php:150
+msgid "Go back to the blog"
+msgstr "واپس بلاگ کی جانب"
+
+#: wp-register.php:150
+msgid "Home"
+msgstr "مسکن"
+
+#: wp-settings.php:126
+#, php-format
+msgid "It doesn't look like you've installed WP yet. Try running <a href='%s'>install.php</a>."
+msgstr "لگتا ہے آپ نے ابھی تک و-پ نصب نہیں کیا اسے چلانے کی کوشش کریں<a href='%s'>install.php</a>."
+
+#: wp-includes/classes.php:852
+#, php-format
+msgid "Suspected spam comments: <strong>%s</strong>"
+msgstr "مشکوک ردی تبصرہ: <strong>%s</strong>"
+
+#: wp-includes/classes.php:856
+msgid "Move suspect comments to moderation queue &raquo;"
+msgstr "مشتبہ تبصروں کو پڑتال قطار میں ڈالیں «"
+
+#: wp-includes/classes.php:859
+msgid "Check Comments Results:"
+msgstr "تبصروں کے نتائج دیکھئے:"
+
+#: wp-includes/classes.php:861
+msgid "&laquo; Return to Discussion Options page."
+msgstr "&raquo; واپس مباحثہ کے انتخابات والے صفحے پر"
+
+#: wp-includes/class-pop3.php:82
+#: wp-includes/class-pop3.php:90
+#: wp-includes/class-pop3.php:102
+msgid "POP3 connect:"
+msgstr "رابطہ پ-ا-پ تین(pop3)"
+
+#: wp-includes/class-pop3.php:82
+msgid "No server specified"
+msgstr "کوئی پیشکار واضح نہیں"
+
+#: wp-includes/class-pop3.php:90
+#: wp-includes/class-pop3.php:102
+#: wp-includes/class-pop3.php:141
+#: wp-includes/class-pop3.php:276
+#: wp-includes/class-pop3.php:330
+#: wp-includes/class-pop3.php:341
+#: wp-includes/class-pop3.php:389
+#: wp-includes/class-pop3.php:422
+#: wp-includes/class-pop3.php:455
+#: wp-includes/class-pop3.php:554
+#: wp-includes/class-pop3.php:577
+msgid "Error "
+msgstr "غلطی "
+
+#: wp-includes/class-pop3.php:110
+msgid "POP3: premature NOOP OK, NOT an RFC 1939 Compliant server"
+msgstr "پ۔ ا۔ پ تین: قبل از وقت ن۔ ا۔ ا۔ پ ٹھیک، آر ایف سی 1939 سے مطابقت نہ رکھنے والا پیشکار"
+
+#: wp-includes/class-pop3.php:120
+msgid "POP3 noop:"
+msgstr "پ۔ ا۔ پ نووپ (pop 3 noop):"
+
+#: wp-includes/class-pop3.php:120
+#: wp-includes/class-pop3.php:186
+#: wp-includes/class-pop3.php:235
+#: wp-includes/class-pop3.php:260
+#: wp-includes/class-pop3.php:302
+#: wp-includes/class-pop3.php:376
+#: wp-includes/class-pop3.php:415
+#: wp-includes/class-pop3.php:445
+#: wp-includes/class-pop3.php:479
+#: wp-includes/class-pop3.php:542
+#: wp-includes/class-pop3.php:610
+msgid "No connection to server"
+msgstr "پیشکار سے کوئی قربت نہیں"
+
+#: wp-includes/class-pop3.php:133
+#: wp-includes/class-pop3.php:136
+#: wp-includes/class-pop3.php:141
+msgid "POP3 user:"
+msgstr "پ-ا-پ تین(pop3)صارف:"
+
+#: wp-includes/class-pop3.php:133
+msgid "no login ID submitted"
+msgstr "اسم صارف نہیں دیا گیا"
+
+#: wp-includes/class-pop3.php:136
+#: wp-includes/class-pop3.php:156
+msgid "connection not established"
+msgstr "قرابت نہیں ہو سکی"
+
+#: wp-includes/class-pop3.php:153
+#: wp-includes/class-pop3.php:156
+#: wp-includes/class-pop3.php:161
+#: wp-includes/class-pop3.php:170
+msgid "POP3 pass:"
+msgstr "پ-ا-پ تین(pop3) پاس"
+
+#: wp-includes/class-pop3.php:153
+#: wp-includes/class-pop3.php:195
+msgid "No password submitted"
+msgstr "کلمہ‌شناخت مہیا نہیں کیا گیا"
+
+#: wp-includes/class-pop3.php:161
+msgid "authentication failed "
+msgstr "تصدیق ناکام ہو گئی "
+
+#: wp-includes/class-pop3.php:170
+#: wp-includes/class-pop3.php:219
+msgid "NOOP failed. Server not RFC 1939 compliant"
+msgstr "نُوپ(Noop)کی ناکامی پیشکارآر‌ایف‌سی1939(Compliant)"
+
+#: wp-includes/class-pop3.php:186
+#: wp-includes/class-pop3.php:192
+#: wp-includes/class-pop3.php:195
+#: wp-includes/class-pop3.php:200
+#: wp-includes/class-pop3.php:210
+#: wp-includes/class-pop3.php:219
+msgid "POP3 apop:"
+msgstr "پی‌اوپی‌تھری اپوپ(apop)"
+
+#: wp-includes/class-pop3.php:192
+msgid "No login ID submitted"
+msgstr "کوئی دخولی شناخت نہیں دی گئی"
+
+#: wp-includes/class-pop3.php:200
+msgid "No server banner"
+msgstr "پیشکار کا کوئی نشان نہیں"
+
+#: wp-includes/class-pop3.php:200
+#: wp-includes/class-pop3.php:210
+msgid "abort"
+msgstr "روکیں"
+
+#: wp-includes/class-pop3.php:210
+msgid "apop authentication failed"
+msgstr "پ-ا-پ تین (pop3)سے تصدیق نہیں ہو سکی"
+
+#: wp-includes/class-pop3.php:235
+msgid "POP3 login:"
+msgstr "پ-ا-پ تین (pop3)دخول:"
+
+#: wp-includes/class-pop3.php:260
+#: wp-includes/class-pop3.php:276
+msgid "POP3 top:"
+msgstr "پ-ا-پ تین(pop3) پہلا:"
+
+#: wp-includes/class-pop3.php:302
+#: wp-includes/class-pop3.php:330
+#: wp-includes/class-pop3.php:341
+#: wp-includes/class-pop3.php:353
+msgid "POP3 pop_list:"
+msgstr "پ-ا-پ تین(pop3)  پی او پی فہرست:"
+
+#: wp-includes/class-pop3.php:353
+msgid "Premature end of list"
+msgstr "فہرست کا قبل از وقت اختتام"
+
+#: wp-includes/class-pop3.php:376
+#: wp-includes/class-pop3.php:389
+msgid "POP3 get:"
+msgstr "پ-ا-پ تین(pop3)   حصول:"
+
+#: wp-includes/class-pop3.php:415
+#: wp-includes/class-pop3.php:422
+msgid "POP3 last:"
+msgstr "پ-ا-پ تین(pop3) آخری:"
+
+#: wp-includes/class-pop3.php:445
+#: wp-includes/class-pop3.php:455
+msgid "POP3 reset:"
+msgstr "پ-ا-پ تین(pop3) دوبارہ درستگی"
+
+#: wp-includes/class-pop3.php:479
+#: wp-includes/class-pop3.php:485
+msgid "POP3 send_cmd:"
+msgstr "پ-ا-پ تین(pop3) سی ایم ڈی بھیجیں:"
+
+#: wp-includes/class-pop3.php:485
+msgid "Empty command string"
+msgstr "خالی کمانڈ ڈور:"
+
+#: wp-includes/class-pop3.php:505
+msgid "POP3 quit:"
+msgstr "پ-ا-پ تین(pop3)برخواستگی:"
+
+#: wp-includes/class-pop3.php:505
+msgid "connection does not exist"
+msgstr "قربت موجود نہیں"
+
+#: wp-includes/class-pop3.php:542
+#: wp-includes/class-pop3.php:554
+#: wp-includes/class-pop3.php:577
+msgid "POP3 uidl:"
+msgstr "POP3  uidl"
+
+#: wp-includes/class-pop3.php:610
+#: wp-includes/class-pop3.php:615
+#: wp-includes/class-pop3.php:621
+msgid "POP3 delete:"
+msgstr "پ-ا-پ تین(POP3) ختم کریں:"
+
+#: wp-includes/class-pop3.php:615
+msgid "No msg number submitted"
+msgstr "کوئی پیغام نمبر نہیں بھیجا گیا"
+
+#: wp-includes/class-pop3.php:621
+msgid "Command failed "
+msgstr "کمانڈ ناکام ہوگئی "
+
+#: wp-includes/comment-functions.php:120
+msgid "Duplicate comment detected; it looks as though you've already said that!"
+msgstr "ایک ہی جیسا تبصرہ؛ ایسا لگتا ہے کہ آپ یہ پہلے ہی کہہ چکے ہیں!"
+
+#: wp-includes/comment-functions.php:128
+msgid "Sorry, you can only post a new comment once every 15 seconds. Slow down cowboy."
+msgstr "معذرت، آپ 15 سکینڈ میں ایک سے زیادہ تبصرہ ارسال نہیں کر سکتے۔ ذرا دھیمی رفتار گھڑسوار۔"
+
+#: wp-includes/comment-functions.php:296
+msgid "Enter your password to view comments"
+msgstr "تبصرے دیکھنے کیلیے اپنا کلمہِ‌شناخت داخل کریں."
+
+#: wp-includes/comment-functions.php:319
+#, php-format
+msgid "Comment on %s"
+msgstr "%sپر تبصرے"
+
+#: wp-includes/comment-functions.php:338
+msgid "Anonymous"
+msgstr "گمنام"
+
+#: wp-includes/functions-formatting.php:714
+msgid "1 min"
+msgstr "ایک منٹ"
+
+#: wp-includes/functions-formatting.php:716
+#, php-format
+msgid "%s mins"
+msgstr "%s منٹ"
+
+#: wp-includes/functions-formatting.php:720
+msgid "1 hour"
+msgstr "1 گھنٹہ"
+
+#: wp-includes/functions-formatting.php:722
+#, php-format
+msgid "%s hours"
+msgstr "%s گھنٹے"
+
+#: wp-includes/functions-formatting.php:726
+msgid "1 day"
+msgstr "ایک یوم"
+
+#: wp-includes/functions-formatting.php:728
+#, php-format
+msgid "%s days"
+msgstr "%sایام"
+
+#: wp-includes/functions.php:1761
+#: wp-admin/admin-functions.php:1510
+msgid "Visit author homepage"
+msgstr "مصنف کی سائٹ پر جائیں"
+
+#: wp-includes/functions.php:1797
+msgid "Stylesheet is missing."
+msgstr "سٹائل‌شیٹ موجود نہیں ہے۔"
+
+#: wp-includes/functions.php:1811
+msgid "File not readable."
+msgstr "فائل ناقابلِ مطالعہ ہے۔"
+
+#: wp-includes/functions.php:1848
+msgid "Template is missing."
+msgstr "سانچہ موجود نہیں ہے۔"
+
+#: wp-includes/functions.php:2361
+#, php-format
+msgid "Are you sure you want to edit this attachment: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ مسنلکہ مدوَن کرنا چاہتے ہیں:&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2363
+msgid "Are you sure you want to add this category?"
+msgstr "کیا آپ واقعی یہ زمرہ شامل کرنا چاہتے ہیں؟"
+
+#: wp-includes/functions.php:2364
+#, php-format
+msgid "Are you sure you want to delete this category: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ زمرہ ختم کرنا چاہتے ہیں:&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2365
+#, php-format
+msgid "Are you sure you want to edit this category: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ زمرہ مدوَن کرنا چاہتے ہیں:&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2367
+#, php-format
+msgid "Are you sure you want to delete this comment: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ تبصرہ ختم کرنا چاہتے ہیں:&quot;%s&quot;?"
+
+#: wp-includes/functions.php:2368
+#, php-format
+msgid "Are you sure you want to unapprove this comment: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ تبصرہ غیر منظور کرنا چاہتے ہیں:&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2369
+#, php-format
+msgid "Are you sure you want to approve this comment: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ تبصرہ منظور کرنا چاہتےہیں:&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2370
+#, php-format
+msgid "Are you sure you want to edit this comment: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ کرنا تبصرہ مدوَن کرنا چاہتےہیں:&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2371
+msgid "Are you sure you want to bulk modify comments?"
+msgstr "کیا آپ واقعی تبصروں میں تبدیلی کرنا چاہتےہیں؟"
+
+#: wp-includes/functions.php:2372
+msgid "Are you sure you want to moderate comments?"
+msgstr "کیا آپ واقعی تبصروں کی پڑتال  کرنا چاہتےہیں؟"
+
+#: wp-includes/functions.php:2374
+msgid "Are you sure you want to add this bookmark?"
+msgstr "کیا آپ واقعی یہ نشان زدگی شامل کرنا چاہتےہیں؟"
+
+#: wp-includes/functions.php:2375
+#, php-format
+msgid "Are you sure you want to delete this bookmark: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ نشان زدگی ختم کرنا چاہتےہیں:&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2376
+#, php-format
+msgid "Are you sure you want to edit this bookmark: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ نشان زدگی کو مدوَن کرنا چاہتےہیں:&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2377
+msgid "Are you sure you want to bulk modify bookmarks?"
+msgstr "کیا آپ واقعی نشان زدگیوں میں اکٹھے تبدیلی کرنا چاہتےہیں؟"
+
+#: wp-includes/functions.php:2379
+msgid "Are you sure you want to add this page?"
+msgstr "کیا آپ واقعی یہ صفحہ شامل کرنا چاہتےہیں؟"
+
+#: wp-includes/functions.php:2380
+#, php-format
+msgid "Are you sure you want to delete this page: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ صفحہ ختم  کرنا چاہتےہیں:&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2381
+#, php-format
+msgid "Are you sure you want to edit this page: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ صفحہ مدوَن کرنا چاہتےہیں:&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2383
+#, php-format
+msgid "Are you sure you want to edit this plugin file: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ دخیلہ فائل مدوَن کرنا چاہتےہیں:&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2384
+#, php-format
+msgid "Are you sure you want to activate this plugin: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ دخیلہ فعال کرنا چاہتےہیں:&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2385
+#, php-format
+msgid "Are you sure you want to deactivate this plugin: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ دخیلہ غیر فعال کرنا چاہتےہیں:&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2387
+msgid "Are you sure you want to add this post?"
+msgstr "کیا آپ واقعی یہ تحریر شامل کرنا چاہتےہیں؟"
+
+#: wp-includes/functions.php:2388
+#, php-format
+msgid "Are you sure you want to delete this post: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ تحریر ختم کرنا چاہتےہیں&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2389
+#, php-format
+msgid "Are you sure you want to edit this post: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ تحریر مدوَن کرنا چاہتےہیں:&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2391
+msgid "Are you sure you want to add this user?"
+msgstr "کیا آپ واقعی یہ  صارف شامل کرنا چاہتےہیں؟"
+
+#: wp-includes/functions.php:2392
+msgid "Are you sure you want to delete users?"
+msgstr "کیا آپ واقعی صارفین ختم کرنا چاہتےہیں؟"
+
+#: wp-includes/functions.php:2393
+msgid "Are you sure you want to bulk modify users?"
+msgstr "کیا آپ واقعی صارفین میں اکٹھے تبدیلی  کرنا چاہتےہیں؟"
+
+#: wp-includes/functions.php:2394
+#, php-format
+msgid "Are you sure you want to edit this user: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ صارف ختم کرنا چاہتےہیں:&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2395
+#, php-format
+msgid "Are you sure you want to modify the profile for: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی ذاتی‌تعارف برائے: &quot;%s&quot;تبدیل کرنا چاہتےہیں؟"
+
+#: wp-includes/functions.php:2397
+msgid "Are you sure you want to edit your settings?"
+msgstr "کیا آپ واقعی اپنی تراتیب میں تبدیلی کرنا چاہتےہیں؟"
+
+#: wp-includes/functions.php:2398
+#, php-format
+msgid "Are you sure you want to change your permalink structure to: %s?"
+msgstr "کیا آپ واقعی اپنا مستقل ربطی ڈھانچہ : %s کے ساتھ بدلنا چاہتےہیں؟"
+
+#: wp-includes/functions.php:2399
+#, php-format
+msgid "Are you sure you want to edit this file: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ فائل مدوَن کرنا چاہتےہیں&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2400
+#, php-format
+msgid "Are you sure you want to edit this theme file: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی یہ حلیاتی فائل مدوَن کرنا چاہتےہیں:&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2401
+#, php-format
+msgid "Are you sure you want to switch to this theme: &quot;%s&quot;?"
+msgstr "کیا آپ واقعی اس حلیے کو لگانا چاہتے ہیں:&quot;%s&quot;؟"
+
+#: wp-includes/functions.php:2416
+msgid "Are you sure you want to do this"
+msgstr "کیا آپ واقعی یہ کرنا چاہتےہیں"
+
+#: wp-includes/functions.php:2426
+msgid "WordPress Confirmation"
+msgstr "ورڈ پریس تصدیق"
+
+#: wp-includes/functions.php:2439
+#: wp-includes/functions.php:2441
+#: wp-admin/edit-link-form.php:225
+#: wp-admin/link-categories.php:347
+#: wp-admin/link-categories.php:348
+#: wp-admin/link-categories.php:349
+#: wp-admin/link-categories.php:350
+#: wp-admin/link-categories.php:351
+#: wp-admin/link-categories.php:353
+#: wp-admin/link-manager.php:365
+#: wp-admin/link-manager.php:366
+#: wp-admin/post.php:215
+msgid "No"
+msgstr "نہیں"
+
+#: wp-includes/functions.php:2439
+#: wp-includes/functions.php:2441
+#: wp-admin/edit-link-form.php:223
+#: wp-admin/link-categories.php:347
+#: wp-admin/link-categories.php:348
+#: wp-admin/link-categories.php:349
+#: wp-admin/link-categories.php:350
+#: wp-admin/link-categories.php:351
+#: wp-admin/link-categories.php:353
+#: wp-admin/link-manager.php:365
+#: wp-admin/link-manager.php:366
+#: wp-admin/post.php:213
+msgid "Yes"
+msgstr "ہاں"
+
+#: wp-includes/functions.php:2451
+msgid "WordPress &rsaquo; Error"
+msgstr "ورڈپریس تنصیب&raquo;غلطی"
+
+#: wp-includes/functions-post.php:910
+#: wp-includes/functions-post.php:948
+#, php-format
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr " %s ڈائریکٹری بنانے سے معذوری۔ کیا اس کی آبائی ڈائریکٹری پیشکار کے لئے قابلِ تحریر ہے؟"
+
+#: wp-includes/functions-post.php:920
+msgid "Empty filename"
+msgstr "خالی اسم فائل"
+
+#: wp-includes/functions-post.php:924
+msgid "Invalid file type"
+msgstr "غیر درست فائل قسم"
+
+#: wp-includes/locale.php:5
+#: wp-includes/locale.php:16
+#: wp-includes/locale.php:29
+msgid "Sunday"
+msgstr "اتوار"
+
+#: wp-includes/locale.php:6
+#: wp-includes/locale.php:17
+#: wp-includes/locale.php:30
+msgid "Monday"
+msgstr "پیر"
+
+#: wp-includes/locale.php:7
+#: wp-includes/locale.php:18
+#: wp-includes/locale.php:31
+msgid "Tuesday"
+msgstr "منگل"
+
+#: wp-includes/locale.php:8
+#: wp-includes/locale.php:19
+#: wp-includes/locale.php:32
+msgid "Wednesday"
+msgstr "بدھ"
+
+#: wp-includes/locale.php:9
+#: wp-includes/locale.php:20
+#: wp-includes/locale.php:33
+msgid "Thursday"
+msgstr "جمعرات"
+
+#: wp-includes/locale.php:10
+#: wp-includes/locale.php:21
+#: wp-includes/locale.php:34
+msgid "Friday"
+msgstr "جمعہ"
+
+#: wp-includes/locale.php:11
+#: wp-includes/locale.php:22
+#: wp-includes/locale.php:35
+msgid "Saturday"
+msgstr "ہفتہ"
+
+#: wp-includes/locale.php:16
+msgid "S_Sunday_initial"
+msgstr "ا_اتوار_شروع"
+
+#: wp-includes/locale.php:17
+msgid "M_Monday_initial"
+msgstr "پ_پیر_شروع"
+
+#: wp-includes/locale.php:18
+msgid "T_Tuesday_initial"
+msgstr "م_منگل_شروع"
+
+#: wp-includes/locale.php:19
+msgid "W_Wednesday_initial"
+msgstr "ب_بدھ_شروع"
+
+#: wp-includes/locale.php:20
+msgid "T_Thursday_initial"
+msgstr "ج_جمعرات_شروع"
+
+#: wp-includes/locale.php:21
+msgid "F_Friday_initial"
+msgstr "ج_جمعہ_شروع"
+
+#: wp-includes/locale.php:22
+msgid "S_Saturday_initial"
+msgstr "ہ_ہفتہ_شروع"
+
+#: wp-includes/locale.php:29
+msgid "Sun"
+msgstr "اتوار"
+
+#: wp-includes/locale.php:30
+msgid "Mon"
+msgstr "پیر"
+
+#: wp-includes/locale.php:31
+msgid "Tue"
+msgstr "منگل"
+
+#: wp-includes/locale.php:32
+msgid "Wed"
+msgstr "بدھ"
+
+#: wp-includes/locale.php:33
+msgid "Thu"
+msgstr "جمعرات"
+
+#: wp-includes/locale.php:34
+msgid "Fri"
+msgstr "جمعہ"
+
+#: wp-includes/locale.php:35
+msgid "Sat"
+msgstr "ہفتہ"
+
+#: wp-includes/locale.php:38
+#: wp-includes/locale.php:53
+msgid "January"
+msgstr "جنوری"
+
+#: wp-includes/locale.php:39
+#: wp-includes/locale.php:54
+msgid "February"
+msgstr "فروری"
+
+#: wp-includes/locale.php:40
+#: wp-includes/locale.php:55
+msgid "March"
+msgstr "مارچ"
+
+#: wp-includes/locale.php:41
+#: wp-includes/locale.php:56
+msgid "April"
+msgstr "اپریل"
+
+#: wp-includes/locale.php:42
+#: wp-includes/locale.php:57
+msgid "May"
+msgstr "مئی"
+
+#: wp-includes/locale.php:43
+#: wp-includes/locale.php:58
+msgid "June"
+msgstr "جون"
+
+#: wp-includes/locale.php:44
+#: wp-includes/locale.php:59
+msgid "July"
+msgstr "جولائی"
+
+#: wp-includes/locale.php:45
+#: wp-includes/locale.php:60
+msgid "August"
+msgstr "اگست"
+
+#: wp-includes/locale.php:46
+#: wp-includes/locale.php:61
+msgid "September"
+msgstr "ستمبر"
+
+#: wp-includes/locale.php:47
+#: wp-includes/locale.php:62
+msgid "October"
+msgstr "اکتوبر"
+
+#: wp-includes/locale.php:48
+#: wp-includes/locale.php:63
+msgid "November"
+msgstr "نومبر"
+
+#: wp-includes/locale.php:49
+#: wp-includes/locale.php:64
+msgid "December"
+msgstr "دسمبر"
+
+#: wp-includes/locale.php:53
+msgid "Jan_January_abbreviation"
+msgstr "جنوری_جنوری_ مخفف"
+
+#: wp-includes/locale.php:54
+msgid "Feb_February_abbreviation"
+msgstr "فروری_فروری_مخفف"
+
+#: wp-includes/locale.php:55
+msgid "Mar_March_abbreviation"
+msgstr "مارچ_مارچ_مخفف"
+
+#: wp-includes/locale.php:56
+msgid "Apr_April_abbreviation"
+msgstr "اپریل_اپریل_مخفف"
+
+#: wp-includes/locale.php:57
+msgid "May_May_abbreviation"
+msgstr "مئی_مئی_مخفف"
+
+#: wp-includes/locale.php:58
+msgid "Jun_June_abbreviation"
+msgstr "جون_جون_مخفف"
+
+#: wp-includes/locale.php:59
+msgid "Jul_July_abbreviation"
+msgstr "جولائی_جولائی_مخفف"
+
+#: wp-includes/locale.php:60
+msgid "Aug_August_abbreviation"
+msgstr "اگست_اگست_مخفف"
+
+#: wp-includes/locale.php:61
+msgid "Sep_September_abbreviation"
+msgstr "ستمبر_ستمبر_مخفف"
+
+#: wp-includes/locale.php:62
+msgid "Oct_October_abbreviation"
+msgstr "اکتوبر_اکتوبر_مخفف"
+
+#: wp-includes/locale.php:63
+msgid "Nov_November_abbreviation"
+msgstr "نومبر_نومبر_مخفف"
+
+#: wp-includes/locale.php:64
+msgid "Dec_December_abbreviation"
+msgstr "دسمبر_دسمبر_مخفف"
+
+#: wp-includes/pluggable-functions.php:189
+msgid "<strong>Error</strong>: Wrong username."
+msgstr "<strong>غلطی</strong>: غلط اسم صارف۔"
+
+#: wp-includes/pluggable-functions.php:197
+msgid "<strong>Error</strong>: Incorrect password."
+msgstr "<strong>غلطی</strong>: غلط کلمہ شناخت۔"
+
+#: wp-includes/pluggable-functions.php:345
+#, php-format
+msgid "New comment on your post #%1$s \"%2$s\""
+msgstr "آپ کی تحریر پر نیا تبصرہ #%1$s \"%2$s\""
+
+#: wp-includes/pluggable-functions.php:346
+#: wp-includes/pluggable-functions.php:420
+#, php-format
+msgid "Author : %1$s (IP: %2$s , %3$s)"
+msgstr "مصنف: %1$s (آئی‌پی: %2$s , %3$s)"
+
+#: wp-includes/pluggable-functions.php:347
+#: wp-includes/pluggable-functions.php:421
+#, php-format
+msgid "E-mail : %s"
+msgstr "برقی پتہ: %s"
+
+#: wp-includes/pluggable-functions.php:348
+#: wp-includes/pluggable-functions.php:356
+#: wp-includes/pluggable-functions.php:363
+#: wp-includes/pluggable-functions.php:422
+#, php-format
+msgid "URI    : %s"
+msgstr "یو‌آر‌ایل: %s"
+
+#: wp-includes/pluggable-functions.php:349
+#: wp-includes/pluggable-functions.php:423
+#, php-format
+msgid "Whois  : http://ws.arin.net/cgi-bin/whois.pl?queryinput=%s"
+msgstr "کون،کہاں؟ : http://ws.arin.net/cgi-bin/whois.pl?queryinput=%s"
+
+#: wp-includes/pluggable-functions.php:350
+#: wp-includes/pluggable-functions.php:424
+msgid "Comment: "
+msgstr "تبصرہ: "
+
+#: wp-includes/pluggable-functions.php:351
+msgid "You can see all comments on this post here: "
+msgstr "آپ اس تحریر پر تمام تبصرے یہاں دیکھ سکتے ہیں: "
+
+#: wp-includes/pluggable-functions.php:352
+#, php-format
+msgid "[%1$s] Comment: \"%2$s\""
+msgstr "[%1$s] تبصرہ: \"%2$s\""
+
+#: wp-includes/pluggable-functions.php:354
+#, php-format
+msgid "New trackback on your post #%1$s \"%2$s\""
+msgstr "آپ کی تحریر پر نیا ٹریک‌بیک #%1$s \"%2$s\""
+
+#: wp-includes/pluggable-functions.php:355
+#: wp-includes/pluggable-functions.php:362
+#, php-format
+msgid "Website: %1$s (IP: %2$s , %3$s)"
+msgstr "ویب سائٹ: %1$s (آئی‌پی: %2$s , %3$s)"
+
+#: wp-includes/pluggable-functions.php:357
+#: wp-includes/pluggable-functions.php:364
+msgid "Excerpt: "
+msgstr "اقتباس "
+
+#: wp-includes/pluggable-functions.php:358
+msgid "You can see all trackbacks on this post here: "
+msgstr "آپ اس تحریر پر تمام ٹریک‌بیک یہاں دیکھ سکتے ہیں:"
+
+#: wp-includes/pluggable-functions.php:359
+#, php-format
+msgid "[%1$s] Trackback: \"%2$s\""
+msgstr "[%1$s] ٹریک‌بیک: \"%2$s\""
+
+#: wp-includes/pluggable-functions.php:361
+#, php-format
+msgid "New pingback on your post #%1$s \"%2$s\""
+msgstr "آپ کی تحریر پر نیا پنگ‌بیک #%1$s \"%2$s\""
+
+#: wp-includes/pluggable-functions.php:365
+msgid "You can see all pingbacks on this post here: "
+msgstr "آپ اس تحریر پر تمام پنگ‌بیک یہاں دیکھ سکتے ہیں:"
+
+#: wp-includes/pluggable-functions.php:366
+#, php-format
+msgid "[%1$s] Pingback: \"%2$s\""
+msgstr "[%1$s] پنگ‌بیک: \"%2$s\""
+
+#: wp-includes/pluggable-functions.php:369
+#: wp-includes/pluggable-functions.php:426
+#, php-format
+msgid "To delete this comment, visit: %s"
+msgstr "اس تبصرے کو مٹانے کے لئیے یہاں جائیے: %s"
+
+#: wp-includes/pluggable-functions.php:418
+#, php-format
+msgid "A new comment on the post #%1$s \"%2$s\" is waiting for your approval"
+msgstr "ایک نیا تبصرہ برائے تحریر #%1$s \"%2$s\" آپکی اجازت کا منتظر ہے"
+
+#: wp-includes/pluggable-functions.php:425
+#, php-format
+msgid "To approve this comment, visit: %s"
+msgstr "اس تبصرے کو منظور کرنے کے لئیے یہاں جائیے: %s"
+
+#: wp-includes/pluggable-functions.php:427
+#, php-format
+msgid "Currently %s comments are waiting for approval. Please visit the moderation panel:"
+msgstr "اس وقت %s تبصرے آپکے منظور کرنے کے منتظر ہیں۔ براہ مہربانی پڑتال کے صفحے پر جائیے:"
+
+#: wp-includes/pluggable-functions.php:430
+#, php-format
+msgid "[%1$s] Please moderate: \"%2$s\""
+msgstr "[%1$s] براہ مہربانی پڑتال کیجئیے: \"%2$s\""
+
+#: wp-includes/pluggable-functions.php:449
+#, php-format
+msgid "New user registration on your blog %s:"
+msgstr "نئے صارف کا اندراج آپ کے بلاگ %s پر:"
+
+#: wp-includes/pluggable-functions.php:453
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] نئے صارف کا اندراج"
+
+#: wp-includes/pluggable-functions.php:462
+#, php-format
+msgid "[%s] Your username and password"
+msgstr "[%s] آپ کا اسم صارف اور کلمہ شناخت"
+
+#: wp-includes/template-functions-author.php:133
+#: wp-includes/template-functions-author.php:199
+#, php-format
+msgid "Posts by %s"
+msgstr "%s کی تحریریں"
+
+#: wp-includes/template-functions-category.php:45
+#: wp-admin/install.php:159
+msgid "Uncategorized"
+msgstr "متفرق"
+
+#: wp-includes/template-functions-category.php:57
+#: wp-includes/template-functions-category.php:60
+#: wp-includes/template-functions-category.php:67
+#: wp-includes/template-functions-category.php:81
+#: wp-includes/template-functions-category.php:84
+#: wp-includes/template-functions-category.php:91
+#: wp-includes/template-functions-category.php:122
+#, php-format
+msgid "View all posts in %s"
+msgstr "%s میں تمام تحریریں دیکھیں"
+
+#: wp-includes/template-functions-category.php:215
+#: wp-admin/categories.php:82
+#: wp-admin/categories.php:160
+#: wp-content/plugins/wp-db-backup.php:818
+msgid "None"
+msgstr "کچھ نہیں"
+
+#: wp-includes/template-functions-category.php:326
+#, php-format
+msgid "View all posts filed under %s"
+msgstr "نیچے ترتیب دیے گئے تمام خطوط دیکھیں %s"
+
+#: wp-includes/template-functions-category.php:391
+msgid "No categories"
+msgstr "کوئی زمرے نہیں"
+
+#: wp-includes/template-functions-general.php:33
+msgid "Logout"
+msgstr "خروج"
+
+#: wp-includes/template-functions-general.php:47
+msgid "Site Admin"
+msgstr "سائٹ منتظم"
+
+#: wp-includes/template-functions-general.php:486
+#: wp-includes/template-functions-general.php:496
+#, php-format
+msgid "View posts for %1$s %2$s"
+msgstr "کے لیے خطوط دیکھیں%1$s %2$s"
+
+#: wp-includes/template-functions-post.php:5
+msgid "This post is password protected. To view it please enter your password below:"
+msgstr "یہ تحریر مقفل ہے۔ دیکھنے کے لیے نیچے اپنا کلمہ شناخت داخل کریں:"
+
+#: wp-includes/template-functions-post.php:6
+#: wp-content/plugins/wp-db-backup.php:848
+msgid "Submit"
+msgstr "ارسال کریں۔"
+
+#: wp-includes/template-functions-post.php:36
+#, php-format
+msgid "Protected: %s"
+msgstr "محفوظ کیا ہوا: %s"
+
+#: wp-includes/template-functions-post.php:112
+msgid "There is no excerpt because this is a protected post."
+msgstr "افتباس دستیاب نہیں کیونکہ یہ ایک محفوظ کیا گیا خط ہے۔"
+
+#: wp-includes/template-functions-post.php:124
+msgid "Pages:"
+msgstr "صفحات:"
+
+#: wp-includes/template-functions-post.php:343
+#: wp-admin/edit-pages.php:3
+#: wp-admin/menu.php:24
+msgid "Pages"
+msgstr "صفحات"
+
+#: wp-includes/template-functions-post.php:454
+msgid "Missing Attachment"
+msgstr "منسلکہ گم ہے"
+
+#: wp-includes/template-functions-post.php:462
+msgid "Missing attachment"
+msgstr "منسلکہ گم ہے"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:9
+#: wp-includes/js/tinymce/wp-mce-help.php:109
+msgid "Rich Editor Help"
+msgstr "متنوِع مدوِن بارے مدد"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:111
+msgid "Basics of Rich Editing"
+msgstr "مبادیات متنوِع تدوین"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:111
+#: wp-admin/edit-link-form.php:41
+msgid "Basics"
+msgstr "مبادیات"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:112
+msgid "Advanced use of the Rich Editor"
+msgstr "متنوِع مدوِن کا اعلٰی  استعمال"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:112
+#: wp-admin/edit-form-comment.php:98
+#: wp-admin/edit-link-form.php:178
+msgid "Advanced"
+msgstr "اعلٰی ترین"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:113
+msgid "Hotkeys"
+msgstr "سرگرم کلیدیں"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:114
+msgid "About the software"
+msgstr "سافٹ ویر کے بارے میں"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:114
+#: wp-admin/install.php:173
+msgid "About"
+msgstr "بارے"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:120
+msgid "Rich Editing Basics"
+msgstr "مبادیات متنوِع تدوین"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:121
+msgid "<em>Rich editing</em>, also called WYSIWYG for What You See Is What You Get, means your text is formatted as you type. The rich editor creates HTML code behind the scenes while you concentrate on writing. Font styles, links and images all appear just as they will on the internet."
+msgstr "<em>متنوِع تدوین</em>، وےسونگ بھی کہلاتی ہے یعنی جو آپ نے دیکھا وہی حاصل کیا،مطلب آپ کی عبارت جیسے لکھی گئی ویسے بناوٹ کی گئی۔متنوِع مدوِن ایچ ٹی ایم ایل رموز پس پردہ لکھتا ہے جب آپ کا دھیان لکھنے پر ہوتا ہے۔خط انداز،روابط اور تصاویر اسی طرح ظاہر ہونگی جیسے وہ انٹرنیٹ پر ہیں۔"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:122
+msgid "WordPress includes TinyMCE, a rich editor that works well in most web browsers used today. It is powerful but it has limitations. Pasting text from other word processors may not give the results you expect. If you do not like the way the rich editor works, you may turn it off in the My Profile form, under Users in the admin menu."
+msgstr "ورڈپریس میں ٹِنی‌ایم‌سی‌ای،ایک متنوِع مدوِن شامل ہے جو آج کل استعمال کیے جانے والے اکثر ویب براؤزروں میں بہترین کام کرتا ہے۔یہ طاقتور ہے مگر محدود بھی۔دوسرے لفظ نگاروں سے یہاں عبارت چسپاں کرنے سے آپ کو شاید مطلوبہ نتائج نہ مل سکیں۔اگر آپ متنوِع مدوِن کے طریقہ کار سے متفق نہیں،آپ اسے میرا ذاتی‌تعارف فارم میں منتظمی فہرست میں جو کہ صارفین کے نیچے ہوگی میں جاکر بند کرسکتے ہیں۔"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:123
+msgid "Because HTML code depends on the less-than character (&lt;) to render web pages, this character is reserved for HTML code. If you want a \"<\" to be visible on your site, you must encode it as \"&amp;lt;\" without the quotes."
+msgstr "چونکہ ایچ ٹی ایم ایل رموز چھوٹا ہونے کے نشان(&lt;) کو ویب صفحہ پیش کرنے کے لیے استعمال کرتا ہے،یہ نشان ایچ ٹی ایم ایل رمز کے لیے الٹ جاتا ہے۔اگر آپ چاہتے ہیں کہ\">\" آپ کی سائٹ پر غائب رہے تو اسے \"&amp;lt;\" کے طور پر بغیر واوین کے با رمز کریں۔  "
+
+#: wp-includes/js/tinymce/wp-mce-help.php:127
+msgid "Advanced Rich Editing"
+msgstr "اعلٰی متنوِع تدوین &raquo;"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:128
+msgid "Images and Attachments"
+msgstr "تصاویر اور منسلکے"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:129
+msgid "Some (not all) browsers allow you to drag images and other items directly into the editor. Most <a href=\"http://www.mozilla.org/products/firefox/\" title=\"Mozilla.org, home of the Firefox web browser\" target=\"_blank\">Firefox</a> users can drag images from the uploading box (directly below the editor) and see their images instantly, complete with a link. If you cannot do this, use your clipboard Copy and Paste functions to insert the image and link tags. The rich editor will display the images after you have saved the post or used the HTML Editor to refresh the display."
+msgstr "کچھ(تمام نہیں) براؤزر آپ کو سہولت دیتے ہیں تصاویر اور دوسری چیزوں کو براہ راست کھینچ کر مدوِن میں لاپھینکیں۔بیشتر<a href=\"http://www.mozilla.org/products/firefox/\" title=\"موزیلاآرگ,فائرفاکس ویب براؤزر کا گھر \" target=\"_blank\">فائرفاکس</a> صارفین چڑھانے والے بکس(مدوِن کے عین نیچے) سے تصاویر کھنچ سکتے ہیں اور انھیں فورًا دیکھ بھی سکتے ہیں،جو ایک ربط سے مکمل ہوتی ہیں۔اگر آپ ایسا نہیں کرسکتے اپنے نقل اور چسپاں کرنے کے فنکشن ربط اور تصاویر کے ٹیگ داخل کرنے کے لیے استعمال کریں۔اعلٰی مدوِن آپ کےتحریر کو محفوظ کرنے کے بعد اسے دکھا دے گا یا استعمال کردہ ایچ ٹی ایم ایل مدوِن یہ کام صفحہ تازہ کرنے پر کردےگا۔ "
+
+#: wp-includes/js/tinymce/wp-mce-help.php:130
+msgid "HTML in the Rich Editor"
+msgstr " متنوِع مدوِن میں ایچ ٹی ایم ایل"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:131
+msgid "When you want to include HTML elements that are not generated by the toolbar buttons, you must enter it by hand. Examples are &lt;pre> and &lt;code>. Simply type the code into the editor. If the code is valid and allowed by the editor, you should see it rendered the next time you update the display, usually by saving or using the HTML Editor. If you want to display \"&lt;\" on the web, you must encode it as \"&amp;lt;\" in the editor."
+msgstr "جب آپ ایچ ٹی ایم ایل عناصر جو اوزاری بٹنوں سے نہ بنے ہوں شامل کرنا چاہیں،آپ کو انھیں ہاتھ سے داخل کرنا پڑے گا۔مثلاٌ  &lt;pre> اور &lt;code>۔صرف مدوِن میں (رمز)کوڈ لکھ دیں۔اگر یہ ٹھیک ہے اور مدوِن اس کی اجازت دیتا ہے،آپ اگلی بار جب آپ نمائش تازہ کریں تو اسے پیش ہونا چاہیے،عمومًا ایچ ٹی ایم ایل مدوِن استعمال یا اسے محفوظ کرنے سے۔اگر آپ صفحے پر\"&یہ;\"  دکھانا چاہتے ہیں آپ کو اسے\"&amp;یہ;\" کے طور پر مدوِن میں بارمز کرنا ہوگا۔"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:132
+msgid "The HTML Editor"
+msgstr "ایچ ٹی ایم ایل مدوِن"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:133
+msgid "The editor will not always understand your intentions as your editing gets more complex. Use the HTML Editor to sort out any rough spots, such as extra elements or attributes. WordPress will strip all empty &lt;p> tags and &lt;br /> tags in favor of simple newline characters. However, it will preserve any tag such as this: &lt;p class=\"anyclass\">&lt;/p>. When using the HTML editor, all less-thans are double-encoded: &amp;amp;lt;. This ensures they display as &amp;lt; in the rich editor and &lt; on the web."
+msgstr "جیسے جیسے تدوین پیچیدہ ہو گی مدوِن ہمیشہ آپ کی اغراض کو نہیں سمجھ سکے گا۔قابل تدوین حصوں جیسے زائد عناصر اور ایٹریبیوٹس کو چھانٹنے کے لیے ایچ ٹی ایم ایل مدوِن استعمال کیجیے۔ورڈپریس خالی &lt;p> اور&lt;br /> ٹیگوں کی نئےقطاری حروف(newline characters) کی صورت میں پٹی بنا دے گا۔مگر یہ کسی بھی &lt;p class=\"anyclass\">&lt;/p> ٹیگ کو برقرار رکھے گا۔ایچ ٹی ایم ایل مدوِن استعمال کرتے ہوئے تمام ‘چھوٹا ہے‘ دوہرے مرموز کیے جاتے ہیں:&amp;amp;lt;۔ یہ اس بات کو یقینی بنائے گا کہ متنوِع مدوِن میں بطور amp;lt; اور ویب پر & کے طور پر نظر آئے۔"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:137
+msgid "Writing at Full Speed"
+msgstr "مکمل رفتار سے لکھائی"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:138
+msgid "Rather than reaching for your mouse to click on the toolbar, use these access keys. Windows and Linux use Alt+&lt;letter>. Macintosh uses Ctrl+&lt;letter>."
+msgstr "اوزاری‌پٹی(ٹول‌بار) پر بجائے کہ آپ ماؤس کلک سے پہنچیں،وسیلہ کلیدیں استعمال کریں۔<ونڈوز اور لینکس Alt+&lt;letter(متعلقہ حرف)> جبکہ میکنٹوشCtrl+&lt;letter(متعلقہ حرف) "
+
+#: wp-includes/js/tinymce/wp-mce-help.php:140
+#: wp-admin/admin-functions.php:814
+#: wp-admin/admin-functions.php:868
+msgid "Key"
+msgstr "کلید"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:140
+#: wp-admin/admin-functions.php:816
+#: wp-admin/categories.php:136
+#: wp-admin/link-manager.php:334
+#: wp-admin/plugins.php:86
+msgid "Action"
+msgstr "عمل"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:141
+msgid "Bold"
+msgstr "جلی"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:141
+msgid "Align Left"
+msgstr "بائیں طرف ترتیب دیں"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:142
+msgid "Italic"
+msgstr "تِرچھا"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:142
+msgid "Align Center"
+msgstr "درمیان میں ترتیب دیں"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:143
+msgid "Strikethrough"
+msgstr "خط مقطوع"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:143
+msgid "Align Right"
+msgstr "دائیں طرف ترتیب دیں"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:144
+#: wp-includes/js/tinymce/wp-mce-help.php:145
+msgid "List"
+msgstr "فہرست"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:144
+msgid "Insert <span class=\"anchor\">Anchor</span>"
+msgstr "داخل کریں<span class=\"anchor\">اینکر</span>"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:145
+msgid "Unlink Anchor"
+msgstr "منقطع لنگر(اینکر)"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:146
+msgid "Quote/Indent"
+msgstr "اقتباس"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:146
+msgid "Insert Image"
+msgstr "تصویر داخل کریں"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:147
+msgid "Unquote/Outdent"
+msgstr "اقتباس ختم"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:147
+msgid "Insert \"More\" Tag"
+msgstr "داخل کریں\"مزید\"ٹیگ"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:148
+msgid "Undo"
+msgstr "پرانا واپس"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:148
+msgid "Edit HTML"
+msgstr "مدوَن ایچ ٹی ایم ایل"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:149
+msgid "Redo"
+msgstr "دوبارہ کریں"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:149
+msgid "Open Help"
+msgstr "امداد کھولئیے"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:154
+msgid "About TinyMCE"
+msgstr "ٹِنی‌ایم‌سی‌ای بارے"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:155
+#, php-format
+msgid "Version: %s"
+msgstr "ورژن:%s"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:156
+#, php-format
+msgid "TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor control released as Open Source under %sLGPL</a>\tby Moxiecode Systems AB. It has the ability to convert HTML TEXTAREA fields or other HTML elements to editor instances."
+msgstr "ٹِنی‌ایم‌سی‌ای آزاد ویب بیسڈ جاواسکرپٹ ایچ ٹی ایم ایل مدوِن جو کہ آزاد مصدر کے طور پر %s ایل جی پی ایل کے تحت</a> ماکسی کوڈ سسٹمزاےبی کی طرف سے جاری کیا گیا۔اس میں ایچ ٹی ایم ایل عبارتی قطعے یا دوسرے ایچ ٹی ایم ایل عناصر کو تدوینی نمونے میں بدلنے کی صلاحیت ہے۔"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:156
+msgid "GNU Library General Public Licence"
+msgstr "جی این یو لائبریری عمومی عوامی اجازت نامہ"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:157
+msgid "Copyright &copy; 2005, <a href=\"http://www.moxiecode.com\" target=\"_blank\">Moxiecode Systems AB</a>, All rights reserved."
+msgstr "ملکیتی حقوق&copy; 2005 ماکسی کوڈ سسٹمز اےبی،تمام حقوق محفوظ "
+
+#: wp-includes/js/tinymce/wp-mce-help.php:158
+msgid "For more information about this software visit the <a href=\"http://tinymce.moxiecode.com\" target=\"_blank\">TinyMCE website</a>."
+msgstr "اس سافٹ‌ویر کے بارے میں مزید معلومات کے لئے <a href=\"http://tinymce.moxiecode.com\" target=\"_blank\">ٹِنی‌ایم‌سی‌ای ویبسائٹ</a> پر جائیں۔"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:161
+msgid "Got Moxie?"
+msgstr "ماہر ہوگئے؟"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:162
+msgid "Hosted By Sourceforge"
+msgstr "سورس‌فورج کیطرف سے ہوسٹ‌شدہ"
+
+#: wp-includes/js/tinymce/wp-mce-help.php:163
+msgid "Also on freshmeat"
+msgstr "فریش‌میٹ پر بھی"
+
+#: wp-admin/admin-footer.php:4
+msgid "Documentation"
+msgstr "دستاویزیت"
+
+#: wp-admin/admin-footer.php:4
+msgid "Support Forums"
+msgstr "امدادی فورم"
+
+#: wp-admin/admin-footer.php:5
+#: wp-admin/upgrade.php:98
+#, php-format
+msgid "%s seconds"
+msgstr "%s سیکنڈ"
+
+#: wp-admin/admin-functions.php:8
+msgid "You are not allowed to create posts or drafts on this blog."
+msgstr "آپ کو اس بلاگ پرمسوؑدے یا تحاریر لکھنے اجازت نہیں."
+
+#: wp-admin/admin-functions.php:26
+#: wp-admin/admin-functions.php:157
+msgid "You cannot post as this user."
+msgstr "اس صارف کے طور پر آپ اشاعت نہیں‌کرسکتے."
+
+#: wp-admin/admin-functions.php:44
+#: wp-admin/admin-functions.php:175
+msgid "This user cannot edit pages."
+msgstr "اس صارف کو صفحات مدوَن کرنے کی اجازت نہیں ہے۔"
+
+#: wp-admin/admin-functions.php:138
+#: wp-admin/post.php:72
+msgid "You are not allowed to edit this post."
+msgstr "اس تحریر کی تدوین کی آپ کو اجازت نہیں."
+
+#: wp-admin/admin-functions.php:226
+msgid "You are not allowed to edit comments on this post, so you cannot edit this comment."
+msgstr "آپ کو اس تحریر پر تبصرے مدوَن کرنے کی اجازت نہیں اس لیے آپ اس تبصرے کی تدوین نہیں‌کرسکتے."
+
+#: wp-admin/admin-functions.php:403
+msgid "<strong>ERROR</strong>: Please enter your password twice."
+msgstr "<strong>غلطی</strong>: مہربانی فرما کر اپنا کلمہِ‌شناخت دو بار داخل کریں."
+
+#: wp-admin/admin-functions.php:406
+msgid "<strong>ERROR</strong>: you typed your new password only once."
+msgstr "<strong>غلطی</strong>: آپ نے نیا کلمہِ‌شناخت صرف ایک بار لکھا ہے۔"
+
+#: wp-admin/admin-functions.php:411
+msgid "<strong>ERROR</strong>: Passwords may not contain the character \"\\\"."
+msgstr "<strong>غلطی</strong>: کلمہءِشناخت میں یہ حروف نہیں ہوسکتے\"\\\"۔"
+
+#: wp-admin/admin-functions.php:415
+msgid "<strong>ERROR</strong>: Please type the same password in the two password fields."
+msgstr "<strong>غلطی</strong>: مہربانی فرما کر اپنا کلمہِ‌شناخت دونوں قطعات میں داخل کریں."
+
+#: wp-admin/admin-functions.php:428
+msgid "<strong>ERROR</strong>: please type an e-mail address"
+msgstr "<strong>غلطی</strong>: مہربانی فرما کر برقی پتہ لکھیں."
+
+#: wp-admin/admin-functions.php:431
+msgid "<strong>ERROR</strong>: the email address isn't correct"
+msgstr "strong>غلطی</strong>: برقی پتہ صحیح‌ نہیں"
+
+#: wp-admin/admin-functions.php:480
+#: wp-admin/link-categories.php:32
+#: wp-admin/link-categories.php:94
+#: wp-admin/link-categories.php:211
+#: wp-admin/link-import.php:71
+#: wp-admin/link-manager.php:46
+#: wp-admin/link-manager.php:74
+#: wp-admin/link-manager.php:111
+#: wp-admin/link-manager.php:163
+msgid "Cheatin' uh ?"
+msgstr "دھوکہ دہی ہاں؟"
+
+#: wp-admin/admin-functions.php:598
+#: wp-admin/admin-functions.php:645
+#: wp-admin/edit-comments.php:152
+#: wp-admin/edit-pages.php:54
+#: wp-admin/edit.php:207
+#: wp-admin/edit.php:264
+#: wp-admin/index.php:52
+#: wp-admin/link-categories.php:358
+#: wp-admin/link-manager.php:384
+#: wp-admin/moderation.php:151
+#: wp-admin/post.php:65
+#: wp-admin/users.php:250
+msgid "Edit"
+msgstr "تدوین"
+
+#: wp-admin/admin-functions.php:602
+#, php-format
+msgid ""
+"You are about to delete the category &quot;%s&quot;.  All of its posts will go to the default category.\\n"
+"&quot;OK&quot; to delete, &quot;Cancel&quot; to stop."
+msgstr ""
+"آپ زمرہ \\'%s\\' مٹانے والے ہیں۔ اس کی تمام تحریریں طےشدہ زمرے میں منتقل ہوجائیں گی۔\\n"
+"\\'ٹھیک ہے\\'مٹانے کے لئیے، \\'مسترد\\'روکنے کے لئیے"
+
+#: wp-admin/admin-functions.php:602
+#: wp-admin/admin-functions.php:646
+#: wp-admin/admin-functions.php:834
+#: wp-admin/edit-comments.php:154
+#: wp-admin/edit-form-comment.php:116
+#: wp-admin/edit-pages.php:55
+#: wp-admin/edit.php:213
+#: wp-admin/edit.php:265
+#: wp-admin/inline-uploading.php:167
+#: wp-admin/link-categories.php:359
+#: wp-admin/link-manager.php:385
+#: wp-admin/moderation.php:157
+msgid "Delete"
+msgstr "ختم کیجئیے"
+
+#: wp-admin/admin-functions.php:604
+#: wp-admin/options-permalink.php:125
+msgid "Default"
+msgstr "طےشدہ"
+
+#: wp-admin/admin-functions.php:644
+#: wp-admin/edit-comments.php:150
+#: wp-admin/edit-pages.php:53
+#: wp-admin/edit.php:201
+msgid "View"
+msgstr "منظر"
+
+#: wp-admin/admin-functions.php:646
+#: wp-admin/edit-pages.php:55
+#, php-format
+msgid ""
+"You are about to delete the &quot;%s&quot; page.\\n"
+"&quot;OK&quot; to delete, &quot;Cancel&quot; to stop."
+msgstr "آپ &quot;%s&quot; صفحے کو ختم کرنے جارہے ہیں۔quot;اوکے&quot; ختم کرنے کےلیے،&quot;مسترد&quot; روکنے کےلیے۔"
+
+#: wp-admin/admin-functions.php:710
+#: wp-admin/admin-functions.php:713
+#: wp-admin/admin-functions.php:716
+msgid "Filetype not supported. Thumbnail not created."
+msgstr "فائل کی قسم معاونت شدہ نہیں ہے تھمب نیل نہیں بنایا جاسکا"
+
+#: wp-admin/admin-functions.php:760
+msgid ".thumbnail"
+msgstr "۔تھمب نیل"
+
+#: wp-admin/admin-functions.php:767
+#: wp-admin/admin-functions.php:772
+#: wp-admin/admin-functions.php:777
+msgid "Thumbnail path invalid"
+msgstr "تھمب‌نیل کا راستہ صحیح نہیں۔"
+
+#: wp-admin/admin-functions.php:783
+msgid "File not found"
+msgstr "فائل نہیں مل سکی"
+
+#: wp-admin/admin-functions.php:815
+#: wp-admin/admin-functions.php:869
+msgid "Value"
+msgstr "قدر"
+
+#: wp-admin/admin-functions.php:833
+msgid "Update"
+msgstr "تازہ کیجئیے"
+
+#: wp-admin/admin-functions.php:865
+msgid "Add a new custom field:"
+msgstr "نیا صوابدیدی قطعہ داخل کریں"
+
+#: wp-admin/admin-functions.php:875
+msgid "- Select -"
+msgstr "-چنیں-"
+
+#: wp-admin/admin-functions.php:882
+msgid "or"
+msgstr "یا"
+
+#: wp-admin/admin-functions.php:890
+msgid "Add Custom Field &raquo;"
+msgstr "اضافی قطعہ شامل کیجئیے &raquo;"
+
+#: wp-admin/admin-functions.php:938
+msgid "Edit timestamp"
+msgstr "مدون ٹائم‌سٹیمپ"
+
+#: wp-admin/admin-functions.php:970
+msgid "Existing timestamp"
+msgstr "موجودہ ٹائم‌سٹیمپ"
+
+#: wp-admin/admin-functions.php:1418
+msgid "Sorry, can&#8217;t edit files with \"..\" in the name. If you are trying to edit a file in your WordPress home directory, you can just type the name of the file in."
+msgstr "معذرت \"..\" نام کے ساتھ فائل مدوَن نہیں کر سکتے۔ اگر آپ ورڈپریس کی مرکزی ڈائریکٹری میں فائل مدوَن کر نے کی کوشش رہے ہیں تو یہاں صرف اس کا نام لکھ سکتے ہیں۔"
+
+#: wp-admin/admin-functions.php:1421
+msgid "Sorry, can&#8217;t call files with their real path."
+msgstr "معذرت، فائلوں کو انکے اصلی پتے سے نہیں بلا سکتے۔"
+
+#: wp-admin/admin-functions.php:1424
+msgid "Sorry, that file cannot be edited."
+msgstr "معذرت، یہ فائل مدوَن نہیں ہو سکتی۔"
+
+#: wp-admin/admin-functions.php:1452
+msgid "Main Index Template"
+msgstr "مرکزی فہرستی سانچہ"
+
+#: wp-admin/admin-functions.php:1452
+#: wp-admin/admin-functions.php:1454
+msgid "Stylesheet"
+msgstr "سٹائل‌شیٹ"
+
+#: wp-admin/admin-functions.php:1452
+#: wp-admin/edit-comments.php:29
+#: wp-admin/edit.php:127
+#: wp-admin/edit.php:251
+#: wp-admin/index.php:41
+#: wp-admin/menu.php:26
+#: wp-content/themes/classic/comments-popup.php:22
+msgid "Comments"
+msgstr "تبصرے"
+
+#: wp-admin/admin-functions.php:1452
+msgid "Popup Comments"
+msgstr "پاپ‌اپ تبصرے."
+
+#: wp-admin/admin-functions.php:1452
+msgid "Footer"
+msgstr "پاورقی"
+
+#: wp-admin/admin-functions.php:1452
+msgid "Header"
+msgstr "سرورق"
+
+#: wp-admin/admin-functions.php:1452
+msgid "Sidebar"
+msgstr "بغلی ‌پٹی"
+
+#: wp-admin/admin-functions.php:1452
+msgid "Archives"
+msgstr "محفوظات:"
+
+#: wp-admin/admin-functions.php:1452
+msgid "Category Template"
+msgstr "زمرہ جاتی سانچہ"
+
+#: wp-admin/admin-functions.php:1452
+msgid "Page Template"
+msgstr "صفحی سانچہ"
+
+#: wp-admin/admin-functions.php:1452
+msgid "Search Results"
+msgstr "نتائجِ‌تلاش"
+
+#: wp-admin/admin-functions.php:1452
+msgid "Single Post"
+msgstr "اکیلی تحریر:"
+
+#: wp-admin/admin-functions.php:1452
+msgid "404 Template"
+msgstr "404 سانچہ"
+
+#: wp-admin/admin-functions.php:1452
+msgid "my-hacks.php (legacy hacks support)"
+msgstr "my-hacks.php (متروک ہیکس کی معاونت)"
+
+#: wp-admin/admin-functions.php:1452
+msgid ".htaccess (for rewrite rules)"
+msgstr ".htaccess (دوبارہ لکھنے کے اصول بیان کرنے کے لئیے)"
+
+#: wp-admin/admin-functions.php:1454
+msgid "Comments Template"
+msgstr "تبصرہ  جاتی سانچہ"
+
+#: wp-admin/admin-functions.php:1454
+msgid "Popup Comments Template"
+msgstr "پاپ‌اپ تبصرہ جاتی سانچہ"
+
+#: wp-admin/admin-functions.php:1504
+msgid "Visit plugin homepage"
+msgstr "مددگار کے مسکن پر جائیں"
+
+#: wp-admin/admin-functions.php:1606
+msgid "WordPress recommends a better browser"
+msgstr "ورڈپریس ایک بہتر براؤزر تجویز کرتا ہے۔"
+
+#: wp-admin/admin-functions.php:1669
+msgid "The uploaded file exceeds the <code>upload_max_filesize</code> directive in <code>php.ini</code>."
+msgstr "چڑھائی گئی فائل کا حجم <code>چڑھائی فائل کا زیادہ سے زیادہ حجم</code> از ہدایت نامہ<code>php.ini</code> سے بڑھتا ہے۔"
+
+#: wp-admin/admin-functions.php:1670
+msgid "The uploaded file exceeds the <em>MAX_FILE_SIZE</em> directive that was specified in the HTML form."
+msgstr "چڑھائی گئی فائل کا حجم<em>چڑھائی فائل کا زیادہ سے زیادہ حجم</em>ہدایت نامے جو ایچ ٹی ایم ایل کی شکل میں ہے سے بڑھتا ہے۔"
+
+#: wp-admin/admin-functions.php:1671
+msgid "The uploaded file was only partially uploaded."
+msgstr "چڑھائی گئی فائل صرف جزوی طور پر چڑھی ہے۔"
+
+#: wp-admin/admin-functions.php:1672
+msgid "No file was uploaded."
+msgstr "کوئی فائل نہیں چڑھائی گئی۔"
+
+#: wp-admin/admin-functions.php:1673
+msgid "Missing a temporary folder."
+msgstr "ایک عارضی فولڈر نہیں مل رہا"
+
+#: wp-admin/admin-functions.php:1674
+msgid "Failed to write file to disk."
+msgstr "ڈسک پر فائل لکھنے میں ناکامی"
+
+#: wp-admin/admin-functions.php:1689
+msgid "Invalid form submission."
+msgstr "فارم کی جمع‌کروائی غلط"
+
+#: wp-admin/admin-functions.php:1697
+msgid "File is empty. Please upload something more substantial."
+msgstr "فائل خالی ہے۔مہربانی کرکے کوئی صحیح چیز چڑھائیں۔"
+
+#: wp-admin/admin-functions.php:1701
+msgid "Specified file failed upload test."
+msgstr "مخصوص‌شدہ فائل چڑھائی امتحان میں ناکام"
+
+#: wp-admin/admin-functions.php:1710
+msgid "File type does not meet security guidelines. Try another."
+msgstr "فائل کی قسم حفاظتی ہدایات سے نہیں ملتی۔کسی دوسری سے کوشش کریں"
+
+#: wp-admin/admin-functions.php:1741
+#, php-format
+msgid "The uploaded file could not be moved to %s."
+msgstr "چڑھائی گئی فائل %s کو نہیں بھیجی جاسکی"
+
+#: wp-admin/admin-functions.php:1778
+#: wp-admin/inline-uploading.php:687
+msgid "File:"
+msgstr "فائل"
+
+#: wp-admin/admin-functions.php:1781
+#: wp-admin/admin.php:95
+#: wp-admin/import.php:3
+#: wp-admin/import.php:9
+#: wp-admin/menu.php:18
+msgid "Import"
+msgstr "درآمد!"
+
+#: wp-admin/admin-functions.php:1782
+#: wp-admin/inline-uploading.php:709
+msgid "Cancel"
+msgstr "مسترد"
+
+#: wp-admin/admin-functions.php:1833
+msgid "Text linked to file"
+msgstr "عبارت فائل سے مربوط"
+
+#: wp-admin/admin-functions.php:1835
+msgid "Text linked to subpost"
+msgstr "عبارت ذیلی تحریر سے مربوط"
+
+#: wp-admin/admin-functions.php:1838
+msgid "Thumbnail linked to file"
+msgstr "تھمب‌نیل فائل سے مربوط۔"
+
+#: wp-admin/admin-functions.php:1840
+msgid "Thumbnail linked to subpost"
+msgstr "تھمب‌نیل ذیلی تحریر سے مربوط"
+
+#: wp-admin/admin-header.php:62
+msgid "View site"
+msgstr "سائٹ دیکھیں"
+
+#: wp-admin/admin-header.php:64
+#, php-format
+msgid "Howdy, <strong>%s</strong>."
+msgstr "کیسے ہو<strong>%s</strong>"
+
+#: wp-admin/admin-header.php:64
+#: wp-content/themes/classic/comments.php:45
+msgid "Log out of this account"
+msgstr "اس کھاتے سے خروج کریں۔"
+
+#: wp-admin/admin-header.php:64
+msgid "Sign Out"
+msgstr "خروج"
+
+#: wp-admin/admin-header.php:64
+msgid "My Account"
+msgstr "میرا کھاتہ"
+
+#: wp-admin/admin.php:8
+#, php-format
+msgid "Your database is out-of-date.  Please <a href='%s'>upgrade</a>."
+msgstr "آپ کا کوائفیہ بہت پرانا(آؤٹ آف ڈیٹ) ہے۔براہ مہربانی<a href='%s'>درجہ بڑھائیں</a>"
+
+#: wp-admin/admin.php:63
+msgid "Invalid plugin page"
+msgstr "دخیلے کا صفحہ ٹھیک نہیں"
+
+#: wp-admin/admin.php:67
+#, php-format
+msgid "Cannot load %s."
+msgstr "لادا نہیں جاسکا: %s"
+
+#: wp-admin/admin.php:83
+msgid "You are not allowed to import."
+msgstr "آپ کو درآمد کی اجازت نہیں۔"
+
+#: wp-admin/admin.php:86
+msgid "Invalid importer."
+msgstr "درآمد کنندہ ٹھیک نہیں"
+
+#: wp-admin/admin.php:90
+msgid "Cannot load importer."
+msgstr "درآمد کنندہ لادا نہیں جاسکا"
+
+#: wp-admin/categories.php:4
+#: wp-admin/categories.php:128
+#: wp-admin/edit-form-advanced.php:94
+#: wp-admin/edit-form.php:28
+#: wp-admin/edit.php:126
+#: wp-admin/menu.php:25
+msgid "Categories"
+msgstr "زمرے"
+
+#: wp-admin/categories.php:31
+#: wp-admin/categories.php:43
+#: wp-admin/categories.php:104
+#: wp-admin/link-import.php:19
+#: wp-admin/options.php:25
+#: wp-content/plugins/akismet/akismet.php:35
+msgid "Cheatin&#8217; uh?"
+msgstr "دھوکہ دہی ہاں&#8217; ؟"
+
+#: wp-admin/categories.php:49
+#, php-format
+msgid "Can't delete the <strong>%s</strong> category: this is the default one"
+msgstr "زمرہ <strong>%s</strong> مٹایا نہیں جاسکتا: یہ طےشدہ زمرہ ہے"
+
+#: wp-admin/categories.php:65
+msgid "Edit Category"
+msgstr "مدوَن زمرہ"
+
+#: wp-admin/categories.php:70
+msgid "Category name:"
+msgstr "اسمِ‌ زمرہ:"
+
+#: wp-admin/categories.php:75
+msgid "Category slug:"
+msgstr "زمرےکا سلَگ"
+
+#: wp-admin/categories.php:79
+#: wp-admin/categories.php:158
+msgid "Category parent:"
+msgstr "کیٹگری پیرنٹ"
+
+#: wp-admin/categories.php:87
+#: wp-admin/inline-uploading.php:695
+msgid "Description:"
+msgstr "تفصیل"
+
+#: wp-admin/categories.php:91
+msgid "Edit category"
+msgstr "زمرہ مدون کریں"
+
+#: wp-admin/categories.php:93
+msgid "&laquo; Return to category list"
+msgstr "« زمروں کی فہرست پر جائیں"
+
+#: wp-admin/categories.php:115
+msgid "Category added."
+msgstr "زمرہ شامل کردیا گیا."
+
+#: wp-admin/categories.php:116
+msgid "Category deleted."
+msgstr "زمرہ مٹا دیا گیا."
+
+#: wp-admin/categories.php:117
+msgid "Category updated."
+msgstr "زمرہ تازہ ہوگیا."
+
+#: wp-admin/categories.php:126
+#, php-format
+msgid "Categories (<a href=\"%s\">add new</a>)"
+msgstr "زمرے (<a href=\"%s\">نئے شامل کیجئیے</a>)"
+
+#: wp-admin/categories.php:132
+#: wp-admin/edit-pages.php:34
+#: wp-admin/edit.php:123
+#: wp-admin/link-categories.php:289
+#: wp-admin/users.php:218
+msgid "ID"
+msgstr "شناخت"
+
+#: wp-admin/categories.php:133
+#: wp-admin/edit-comments.php:134
+#: wp-admin/link-categories.php:151
+#: wp-admin/link-categories.php:288
+#: wp-admin/link-categories.php:406
+#: wp-admin/link-manager.php:302
+#: wp-admin/link-manager.php:328
+#: wp-admin/profile.php:29
+#: wp-admin/themes.php:100
+#: wp-admin/user-edit.php:83
+#: wp-admin/users.php:220
+#: wp-content/themes/classic/comments-popup.php:61
+msgid "Name"
+msgstr "نام"
+
+#: wp-admin/categories.php:134
+#: wp-admin/link-categories.php:137
+#: wp-admin/link-categories.php:300
+#: wp-admin/link-categories.php:392
+#: wp-admin/link-manager.php:304
+#: wp-admin/plugins.php:85
+#: wp-admin/themes.php:101
+msgid "Description"
+msgstr "تفصیل"
+
+#: wp-admin/categories.php:135
+msgid "# Posts"
+msgstr "# تحریریں"
+
+#: wp-admin/categories.php:149
+#, php-format
+msgid "<strong>Note:</strong><br />Deleting a category does not delete posts from that category, it will just set them back to the default category <strong>%s</strong>."
+msgstr "<strong>نوٹ:</strong><br />زمرے کو مٹانے سے اس زمرے سے تحریریں نہیں مٹیں گی بلکہ وہ تحریریں طےشدہ زمرے <strong>%s</strong> میں منتقل ہوجائیں گی۔"
+
+#: wp-admin/categories.php:153
+msgid "Add New Category"
+msgstr "نیا زمرہ شامل کریں۔"
+
+#: wp-admin/categories.php:156
+#: wp-admin/edit-comments.php:94
+#: wp-admin/edit-form-comment.php:21
+#: wp-admin/link-categories.php:126
+#: wp-admin/link-categories.php:381
+#: wp-admin/moderation.php:148
+msgid "Name:"
+msgstr "نام:"
+
+#: wp-admin/categories.php:163
+msgid "Description: (optional)"
+msgstr "تفصیل: (اختیاری)"
+
+#: wp-admin/categories.php:165
+#: wp-admin/link-categories.php:450
+msgid "Add Category &raquo;"
+msgstr "زمرہ شامل کریں »"
+
+#: wp-admin/cat-js.php:25
+msgid "Add"
+msgstr "شامل کریں"
+
+#: wp-admin/cat-js.php:33
+msgid "Separate multiple categories with commas."
+msgstr "کثیر زمروں کو واؤ(،) سے الگ کریں"
+
+#: wp-admin/cat-js.php:52
+msgid "Sending Data..."
+msgstr "ارسالِ کوائف جاری "
+
+#: wp-admin/cat-js.php:57
+msgid "Data Sent..."
+msgstr "کوائف ارسال ہوگئے"
+
+#: wp-admin/cat-js.php:62
+msgid "Processing Request..."
+msgstr "درخواست زیرعمل"
+
+#: wp-admin/cat-js.php:76
+msgid "You don't have permission to do that."
+msgstr "آپ کو یہ کرنے کی اجازت نہیں"
+
+#: wp-admin/cat-js.php:80
+msgid "That category name is invalid.  Try something else."
+msgstr "یہ اسم زمرہ غلط ہے۔کسی اور سے کوشش کریں"
+
+#: wp-admin/edit-comments.php:4
+msgid "Edit Comments"
+msgstr "تبصرے مدون کریں"
+
+#: wp-admin/edit-comments.php:32
+msgid "Show Comments That Contain..."
+msgstr "تبصرے دکھائیں جن میں ..."
+
+#: wp-admin/edit-comments.php:34
+#: wp-admin/edit-pages.php:17
+#: wp-admin/edit.php:83
+#: wp-content/themes/classic/sidebar.php:18
+msgid "Search"
+msgstr "تلاش"
+
+#: wp-admin/edit-comments.php:36
+msgid "(Searches within comment text, e-mail, URI, and IP address.)"
+msgstr "(تبصروں کی عبارت، برقی اور آئی‌پی ایڈریس میں تلاش کرتا ہے)"
+
+#: wp-admin/edit-comments.php:39
+msgid "View Mode"
+msgstr "طرز دیکھیں"
+
+#: wp-admin/edit-comments.php:39
+msgid "Mass Edit Mode"
+msgstr "طرزوں کی اکٹھے تدوین"
+
+#: wp-admin/edit-comments.php:54
+#, php-format
+msgid "%s comments deleted."
+msgstr "%s تبصرے مٹادئیے گئے۔"
+
+#: wp-admin/edit-comments.php:94
+#: wp-admin/edit-form-comment.php:33
+#: wp-admin/edit-link-form.php:44
+#: wp-admin/moderation.php:148
+msgid "URI:"
+msgstr "یو آر ایل:"
+
+#: wp-admin/edit-comments.php:94
+#: wp-admin/moderation.php:148
+#: wp-content/plugins/akismet/akismet.php:286
+msgid "IP:"
+msgstr "آئی‌پی:"
+
+#: wp-admin/edit-comments.php:98
+msgid "Posted"
+msgstr "پوسٹ ہوگیا"
+
+#: wp-admin/edit-comments.php:100
+#: wp-admin/post.php:164
+msgid "Edit Comment"
+msgstr "تبصرہ مدوَن کریں"
+
+#: wp-admin/edit-comments.php:101
+#: wp-admin/edit.php:265
+#: wp-admin/moderation.php:154
+msgid ""
+"You are about to delete this comment.\\n"
+"&quot;Cancel&quot; to stop, &quot;OK&quot; to delete."
+msgstr ""
+"آپ اس  تبصرے کو ختم کرنے جارہے ہیں۔\\n"
+"&quot;مسترد&quot; روکنے کے لیے, &quot;ٹھیک ہے&quot; to ختم کرنے کے لیے"
+
+#: wp-admin/edit-comments.php:101
+msgid "Delete Comment"
+msgstr "تبصرہ ختم کیجئیے"
+
+#: wp-admin/edit-comments.php:107
+#, php-format
+msgid "Edit Post &#8220;%s&#8221;"
+msgstr "تحریر مدوَن کریں “%s”"
+
+#: wp-admin/edit-comments.php:109
+#: wp-admin/moderation.php:152
+#: wp-content/plugins/akismet/akismet.php:298
+msgid "View Post"
+msgstr "تحریر دیکھیں"
+
+#: wp-admin/edit-comments.php:122
+msgid "No comments found."
+msgstr "کوئی تبصرے نہیں ملے۔"
+
+#: wp-admin/edit-comments.php:135
+#: wp-admin/users.php:221
+#: wp-admin/users.php:300
+#: wp-content/themes/classic/comments-popup.php:68
+msgid "E-mail"
+msgstr "برقی پتہ"
+
+#: wp-admin/edit-comments.php:136
+msgid "IP"
+msgstr "آئی‌پی"
+
+#: wp-admin/edit-comments.php:137
+msgid "Comment Excerpt"
+msgstr "تبصرے کا اقتباس"
+
+#: wp-admin/edit-comments.php:138
+msgid "Actions"
+msgstr "افعال"
+
+#: wp-admin/edit-comments.php:154
+msgid ""
+"You are about to delete this comment.\\n"
+"  \\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr ""
+"آپ اس تبصرے کو ختم کرنے جارہے ہیں۔\\n"
+" \\'مسترد\\'روکنے کے لئیے، \\'ٹھیک ہے\\'ختم کرنے کیلئیے۔"
+
+#: wp-admin/edit-comments.php:159
+msgid "Invert Checkbox Selection"
+msgstr "نشان‌زدہ انتخاب کو الٹائیں(ٹُوگل کریں)"
+
+#: wp-admin/edit-comments.php:160
+msgid "Delete Checked Comments"
+msgstr "نشان‌زدہ تبصرے ختم کریں"
+
+#: wp-admin/edit-comments.php:160
+msgid ""
+"You are about to delete these comments permanently.\\n"
+"  \\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr ""
+"آپ ان تبصروں کو مستقل طور پر مٹانے جارہے ہیں \\n"
+" روکنے کے لئیے \\'مسترد\\'، اور مٹانے کے لئیے \\'ٹھیک ہے\\'."
+
+#: wp-admin/edit-comments.php:166
+msgid "No results found."
+msgstr "کوئی نتائج نہیں ملے۔"
+
+#: wp-admin/edit-form-advanced.php:2
+msgid "Post updated"
+msgstr "تحریر تازہ کردی گئی"
+
+#: wp-admin/edit-form-advanced.php:3
+msgid "Custom field updated"
+msgstr "صوابدیدی قطعہ تازہ کردیا گیا"
+
+#: wp-admin/edit-form-advanced.php:4
+msgid "Custom field deleted."
+msgstr "صوابدیدی قطعہ مٹا دیا گیا"
+
+#: wp-admin/edit-form-advanced.php:17
+#: wp-admin/edit-form.php:3
+#: wp-admin/menu.php:20
+msgid "Write Post"
+msgstr "تحریر لکھیں"
+
+#: wp-admin/edit-form-advanced.php:18
+#: wp-admin/edit-page-form.php:4
+msgid "preview &darr;"
+msgstr "پیش منظر&darr"
+
+#: wp-admin/edit-form-advanced.php:39
+msgid "Already pinged:"
+msgstr "پہلے ہی پنگ‌شدہ:"
+
+#: wp-admin/edit-form-advanced.php:47
+#: wp-admin/edit-page-form.php:180
+msgid "Save and Continue Editing"
+msgstr "محفوظ کریں اور تدوین جاری رکھیں"
+
+#: wp-admin/edit-form-advanced.php:73
+#: wp-admin/edit-page-form.php:52
+#: wp-admin/menu.php:42
+msgid "Discussion"
+msgstr "مباحثہ"
+
+#: wp-admin/edit-form-advanced.php:78
+#: wp-admin/edit-page-form.php:57
+msgid "Allow Comments"
+msgstr "تبصرے کی اجازت دیں"
+
+#: wp-admin/edit-form-advanced.php:79
+#: wp-admin/edit-page-form.php:58
+msgid "Allow Pings"
+msgstr "پنگ کی اجازت دیں"
+
+#: wp-admin/edit-form-advanced.php:84
+#: wp-admin/edit-page-form.php:63
+msgid "Password-Protect Post"
+msgstr "کلمہ شناخت سے محفوظ شدہ تحریر"
+
+#: wp-admin/edit-form-advanced.php:89
+#: wp-admin/edit-page-form.php:88
+msgid "Post slug"
+msgstr "تحریر کا سلَگ"
+
+#: wp-admin/edit-form-advanced.php:101
+msgid "Post Status"
+msgstr "تحریر کی حالت"
+
+#: wp-admin/edit-form-advanced.php:103
+msgid "Published"
+msgstr "شائع کر دی گئی"
+
+#: wp-admin/edit-form-advanced.php:105
+msgid "Draft"
+msgstr "مسودہ"
+
+#: wp-admin/edit-form-advanced.php:106
+msgid "Private"
+msgstr "نجی"
+
+#: wp-admin/edit-form-advanced.php:111
+msgid "Post Timestamp"
+msgstr "تحریری ٹائم‌سٹیمپ"
+
+#: wp-admin/edit-form-advanced.php:118
+#: wp-admin/edit-page-form.php:94
+msgid "Post author"
+msgstr "مصنفِ تحریر"
+
+#: wp-admin/edit-form-advanced.php:140
+#: wp-admin/edit-form.php:23
+#: wp-admin/edit-pages.php:35
+#: wp-admin/edit.php:125
+msgid "Title"
+msgstr "عنوان"
+
+#: wp-admin/edit-form-advanced.php:145
+#: wp-admin/edit-form.php:34
+msgid "Post"
+msgstr "تحریر"
+
+#: wp-admin/edit-form-advanced.php:201
+#: wp-admin/edit-page-form.php:181
+msgid "Save"
+msgstr "محفوظ کریں"
+
+#: wp-admin/edit-form-advanced.php:206
+#: wp-admin/edit-form.php:61
+msgid "Publish"
+msgstr "شائع کریں"
+
+#: wp-admin/edit-form-advanced.php:228
+#: wp-admin/edit-page-form.php:196
+#: wp-admin/import/blogger.php:12
+msgid "This feature requires iframe support."
+msgstr "اس خوبی کے لیے اِن‌فریم تقویت کی ضرورت ہے"
+
+#: wp-admin/edit-form-advanced.php:237
+msgid "Optional Excerpt"
+msgstr "اختیاری اقتباس"
+
+#: wp-admin/edit-form-advanced.php:248
+msgid "Trackbacks"
+msgstr "ٹریک‌بیک"
+
+#: wp-admin/edit-form-advanced.php:251
+msgid "Send trackbacks to"
+msgstr "ٹریک‌بیک بھیجیں از"
+
+#: wp-admin/edit-form-advanced.php:251
+msgid "Separate multiple URIs with spaces"
+msgstr "کئی ایک یوآرایل کو وقفے سے الگ الگ کریں"
+
+#: wp-admin/edit-form-advanced.php:264
+#: wp-admin/edit-page-form.php:203
+msgid "Custom Fields"
+msgstr "صوابدیدی قطعات"
+
+#: wp-admin/edit-form-advanced.php:287
+msgid "Delete this post"
+msgstr "اس تحریر کو ختم کریں"
+
+#: wp-admin/edit-form-advanced.php:287
+#, php-format
+msgid ""
+"You are about to delete this post \\'%s\\'\\n"
+"  \\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr ""
+"آپ یہ تحریر ختم کرنے جارہے ہیں\\'%s\\'\\n"
+" \\'مسترد\\' روکنے کیلیے, \\'اوکے\\' ختم کرنے کیلیے."
+
+#: wp-admin/edit-form-comment.php:2
+msgid "Edit Comment &raquo;"
+msgstr "تبصرہ کی تدوین کریں  »"
+
+#: wp-admin/edit-form-comment.php:3
+#, php-format
+msgid "Editing Comment # %s"
+msgstr "تبصرہ # %s زیر تدوین"
+
+#: wp-admin/edit-form-comment.php:40
+#: wp-content/themes/classic/comments.php:17
+#: wp-content/themes/classic/comments-popup.php:45
+msgid "Comment"
+msgstr "تبصرہ"
+
+#: wp-admin/edit-form-comment.php:102
+msgid "Comment Status"
+msgstr "حالتِ تبصرہ"
+
+#: wp-admin/edit-form-comment.php:103
+msgid "Approved"
+msgstr "منظور شدہ"
+
+#: wp-admin/edit-form-comment.php:104
+msgid "Moderated"
+msgstr "پڑتال شدہ"
+
+#: wp-admin/edit-form-comment.php:105
+#: wp-admin/moderation.php:156
+#: wp-content/plugins/akismet/akismet.php:328
+msgid "Spam"
+msgstr "ردی"
+
+#: wp-admin/edit-form-comment.php:110
+msgid "Edit time"
+msgstr "تدوینِ وقت"
+
+#: wp-admin/edit-form-comment.php:117
+msgid "Delete comment"
+msgstr "تبصرہ ختم کریں"
+
+#: wp-admin/edit-form.php:23
+msgid "Help on titles"
+msgstr "عنوانات کی بابت مدد"
+
+#: wp-admin/edit-form.php:28
+msgid "Help on categories"
+msgstr "زمروں کی بابت مدد"
+
+#: wp-admin/edit-form.php:34
+msgid "Help with post field"
+msgstr "تحریر کے قطعےکی بابت مدد"
+
+#: wp-admin/edit-form.php:54
+#, php-format
+msgid "<a href=\"%s\" title=\"Help on trackbacks\"><strong>TrackBack</strong> a <abbr title=\"Universal Resource Identifier\">URI</abbr></a>:</label> (Separate multiple <abbr title=\"Universal Resource Identifier\">URI</abbr>s with spaces.)<br />"
+msgstr "<a href=\"%s\" title=\"ٹریک‌بیک مدد\"><strong>ٹریک‌بیک</strong> a <abbr title=\"عالمی شناختی ذریعہ\">یوآرآئی</abbr></a>:</label> (Separate multiple <abbr title=\"عالمی شناختی ذریعہ\">یوآرآئی</abbr>وقفوں کے ساتھ)<br />"
+
+#: wp-admin/edit-form.php:57
+msgid "Save as Draft"
+msgstr "مسودے کے طور پر محفوظ کریں"
+
+#: wp-admin/edit-form.php:58
+msgid "Save as Private"
+msgstr "نجی کے طور پرمحفوظ‌‌کریں"
+
+#: wp-admin/edit-form.php:65
+msgid "Advanced Editing &raquo;"
+msgstr "اعلٰی‌تدوین &raquo;"
+
+#: wp-admin/edit-link-form.php:4
+msgid "Edit a link:"
+msgstr "ربط کی تدوین:"
+
+#: wp-admin/edit-link-form.php:5
+msgid "Save Changes &raquo;"
+msgstr "تبدیلیاں‌ محفوظ »"
+
+#: wp-admin/edit-link-form.php:10
+msgid "<strong>Add</strong> a link:"
+msgstr "ربط <strong>شامل</strong> کریں:"
+
+#: wp-admin/edit-link-form.php:11
+msgid "Add Link &raquo;"
+msgstr "ربط شامل کریں »"
+
+#: wp-admin/edit-link-form.php:48
+msgid "Link Name:"
+msgstr "ربط کا نام:"
+
+#: wp-admin/edit-link-form.php:52
+msgid "Short description:"
+msgstr "مختصر تفصیل"
+
+#: wp-admin/edit-link-form.php:56
+#: wp-admin/link-import.php:47
+msgid "Category:"
+msgstr "زمرہ:"
+
+#: wp-admin/edit-link-form.php:65
+msgid "Link Relationship (XFN)"
+msgstr "ربطی نسبت(ایکس‌ایف‌این)"
+
+#: wp-admin/edit-link-form.php:68
+msgid "rel:"
+msgstr "نسبت:"
+
+#: wp-admin/edit-link-form.php:72
+msgid "<a href=\"http://gmpg.org/xfn/\">XFN</a> Creator:"
+msgstr "<a href=\"http://gmpg.org/xfn/\">ایکس‌ایف‌این</a> تخلیق کار:"
+
+#: wp-admin/edit-link-form.php:76
+msgid "identity"
+msgstr "شناخت"
+
+#: wp-admin/edit-link-form.php:80
+msgid "another web address of mine"
+msgstr "میرا ایک اور ویب پتہ"
+
+#: wp-admin/edit-link-form.php:84
+msgid "friendship"
+msgstr "دوستی"
+
+#: wp-admin/edit-link-form.php:87
+msgid "contact"
+msgstr "رابطہ"
+
+#: wp-admin/edit-link-form.php:89
+msgid "acquaintance"
+msgstr "شناسا"
+
+#: wp-admin/edit-link-form.php:91
+msgid "friend"
+msgstr "دوست"
+
+#: wp-admin/edit-link-form.php:93
+#: wp-admin/edit-link-form.php:126
+#: wp-admin/edit-link-form.php:149
+#: wp-admin/edit-link-form.php:216
+#: wp-admin/link-categories.php:314
+msgid "none"
+msgstr "کوئی‌نہیں"
+
+#: wp-admin/edit-link-form.php:97
+msgid "physical"
+msgstr "جسمانی"
+
+#: wp-admin/edit-link-form.php:101
+msgid "met"
+msgstr "ملے"
+
+#: wp-admin/edit-link-form.php:105
+msgid "professional"
+msgstr "پیشہ‌ور"
+
+#: wp-admin/edit-link-form.php:109
+msgid "co-worker"
+msgstr "کام کا ساتھی"
+
+#: wp-admin/edit-link-form.php:112
+msgid "colleague"
+msgstr "کولیگ"
+
+#: wp-admin/edit-link-form.php:116
+msgid "geographical"
+msgstr "زمینی"
+
+#: wp-admin/edit-link-form.php:120
+msgid "co-resident"
+msgstr "ہم‌رہائش"
+
+#: wp-admin/edit-link-form.php:123
+msgid "neighbor"
+msgstr "پڑوسی"
+
+#: wp-admin/edit-link-form.php:130
+msgid "family"
+msgstr "خاندان"
+
+#: wp-admin/edit-link-form.php:134
+msgid "child"
+msgstr "بچہ"
+
+#: wp-admin/edit-link-form.php:137
+msgid "kin"
+msgstr "رشتہ‌دار"
+
+#: wp-admin/edit-link-form.php:140
+msgid "parent"
+msgstr "آبائی(پیرنٹ)"
+
+#: wp-admin/edit-link-form.php:143
+msgid "sibling"
+msgstr "بہن بھائی"
+
+#: wp-admin/edit-link-form.php:146
+msgid "spouse"
+msgstr "میاں بیوی"
+
+#: wp-admin/edit-link-form.php:153
+msgid "romantic"
+msgstr "پیار بھرا"
+
+#: wp-admin/edit-link-form.php:157
+msgid "muse"
+msgstr "غوروفکر،محویت"
+
+#: wp-admin/edit-link-form.php:160
+msgid "crush"
+msgstr "مغلوب(کرش)"
+
+#: wp-admin/edit-link-form.php:163
+msgid "date"
+msgstr "چوری چوری سجن ملن کو من کرے(ڈیٹ)"
+
+#: wp-admin/edit-link-form.php:166
+msgid "sweetheart"
+msgstr "جانِ‌من"
+
+#: wp-admin/edit-link-form.php:181
+msgid "Image URI:"
+msgstr "تصویر کا یوآرآئی:"
+
+#: wp-admin/edit-link-form.php:185
+msgid "RSS URI:"
+msgstr "آرایس‌ایس کا یوآرایل:"
+
+#: wp-admin/edit-link-form.php:189
+msgid "Notes:"
+msgstr "نوٹس:"
+
+#: wp-admin/edit-link-form.php:193
+msgid "Rating:"
+msgstr "درجہ بندی:"
+
+#: wp-admin/edit-link-form.php:204
+msgid "(Leave at 0 for no rating.)"
+msgstr "(کوئی درجہ بندی نہ کرنے کی صورت میں 0رہنے دیں۔)"
+
+#: wp-admin/edit-link-form.php:207
+msgid "Target"
+msgstr "ہدف"
+
+#: wp-admin/edit-link-form.php:217
+msgid "(Note that the <code>target</code> attribute is illegal in XHTML 1.1 and 1.0 Strict.)"
+msgstr "(جان لیجیے کہ<code>ہدف</code> ایٹریبیوٹ ایکس ایچ ٹی ایم ایل 1.1 اور 1.0 میں غلط اور غیر قانونی ہے.)"
+
+#: wp-admin/edit-link-form.php:220
+msgid "Visible:"
+msgstr "مرئی:"
+
+#: wp-admin/edit-page-form.php:3
+#: wp-admin/menu.php:21
+msgid "Write Page"
+msgstr "صفحہ لکھیں"
+
+#: wp-admin/edit-page-form.php:68
+msgid "Page Parent"
+msgstr "صفحی آباء"
+
+#: wp-admin/edit-page-form.php:70
+msgid "Main Page (no parent)"
+msgstr "مرکزی‌صفحہ(بغیر‌آباء)"
+
+#: wp-admin/edit-page-form.php:78
+msgid "Page Template:"
+msgstr "صفحی‌سانچہ"
+
+#: wp-admin/edit-page-form.php:80
+msgid "Default Template"
+msgstr "طےشدہ‌سانچہ"
+
+#: wp-admin/edit-page-form.php:111
+msgid "Page Order"
+msgstr "صفحی‌قرینہ"
+
+#: wp-admin/edit-page-form.php:121
+msgid "Page Title"
+msgstr "عنوانِ صفحہ"
+
+#: wp-admin/edit-page-form.php:127
+msgid "Page Content"
+msgstr "صفحہ کا متن"
+
+#: wp-admin/edit-page-form.php:181
+#: wp-admin/edit-page-form.php:183
+#: wp-admin/edit-pages.php:75
+msgid "Create New Page"
+msgstr "نیا صفحہ بنائیں"
+
+#: wp-admin/edit-page-form.php:225
+msgid "Delete this page"
+msgstr "اس صفحے کو ختم کریں"
+
+#: wp-admin/edit-page-form.php:225
+#, php-format
+msgid ""
+"You are about to delete this page \\'%s\\'\\n"
+"  \\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr ""
+"آپ اس صفحے کو ختم کرنے جارہے ہیں۔\\'%s\\'\\n"
+" \\'مسترد\\' روکنے کیلیے, \\'اوکے\\' ختم کرنے کیلیے."
+
+#: wp-admin/edit-pages.php:10
+msgid "Page Management"
+msgstr "صفحوں کا انتظام"
+
+#: wp-admin/edit-pages.php:11
+msgid "Pages are like posts except they live outside of the normal blog chronology and can be hierarchical. You can use pages to organize and manage any amount of content."
+msgstr "صفحات تحریروں کی طرح ہی ہوتے ہیں بس یہ ہے کہ یہ آپکے عام بلاگ کی واقع نگاری سے باہر رہتے ہیں۔ آپ صفحات کی مدد سے جتنا جی چاہیں اپنے مواد کی تنظیم اور ترتیب کرسکتے ہیں"
+
+#: wp-admin/edit-pages.php:11
+msgid "Create a new page"
+msgstr "نیا صفحہ تخلیق کیجئیے"
+
+#: wp-admin/edit-pages.php:15
+msgid "Search Pages&hellip;"
+msgstr "صفحات تلاش کریں &hellip;"
+
+#: wp-admin/edit-pages.php:36
+#: wp-admin/link-manager.php:305
+msgid "Owner"
+msgstr "مالک"
+
+#: wp-admin/edit-pages.php:37
+#: wp-admin/link-categories.php:144
+#: wp-admin/link-categories.php:155
+#: wp-admin/link-categories.php:302
+#: wp-admin/link-categories.php:399
+#: wp-admin/link-categories.php:410
+msgid "Updated"
+msgstr "تازہ کردہ"
+
+#: wp-admin/edit-pages.php:70
+msgid "No pages yet."
+msgstr "فی الحال کوئی صفحات نہیں ہیں۔"
+
+#: wp-admin/edit.php:4
+#: wp-admin/index.php:66
+#: wp-admin/menu.php:23
+#: wp-admin/users.php:223
+msgid "Posts"
+msgstr "تحریریں"
+
+#: wp-admin/edit.php:18
+#: wp-admin/post.php:361
+msgid "Your Drafts:"
+msgstr "آپ کے‌مسودے:"
+
+#: wp-admin/edit.php:26
+#: wp-admin/edit.php:43
+#: wp-admin/index.php:71
+#: wp-admin/index.php:90
+#, php-format
+msgid "Post #%s"
+msgstr "تحریر #%s"
+
+#: wp-admin/edit.php:27
+#: wp-admin/edit.php:44
+#: wp-admin/post.php:372
+msgid "Edit this draft"
+msgstr "اس مسودے کی تدوین کریں"
+
+#: wp-admin/edit.php:35
+msgid "Other&#8217;s Drafts:"
+msgstr "دوسروں کے مسودے:"
+
+#: wp-admin/edit.php:67
+#, php-format
+msgid "Search for &#8220;%s&#8221;"
+msgstr "“%s” کی تلاش‌کریں"
+
+#: wp-admin/edit.php:70
+#: wp-content/themes/classic/comments-popup.php:9
+#, php-format
+msgid "Comments on %s"
+msgstr "%s پر تبصرے"
+
+#: wp-admin/edit.php:72
+msgid "Last 15 Posts"
+msgstr "آخری 15 تحاریر"
+
+#: wp-admin/edit.php:74
+msgid "Previous Posts"
+msgstr "گزشتہ تحریریں"
+
+#: wp-admin/edit.php:81
+msgid "Search Posts&hellip;"
+msgstr "تحریریں تلاش کریں…"
+
+#: wp-admin/edit.php:93
+msgid "Browse Month&hellip;"
+msgstr "مہینہ کھنگالیں…"
+
+#: wp-admin/edit.php:111
+msgid "Show Month"
+msgstr "مہینہ دکھائیں"
+
+#: wp-admin/edit.php:124
+msgid "When"
+msgstr "کب"
+
+#: wp-admin/edit.php:128
+#: wp-admin/upgrade-schema.php:259
+msgid "Author"
+msgstr "مصنف"
+
+#: wp-admin/edit.php:175
+msgid " - <strong>Private</strong>"
+msgstr " <strong>نجی</strong>"
+
+#: wp-admin/edit.php:188
+msgid "0"
+msgstr "0"
+
+#: wp-admin/edit.php:188
+msgid "1"
+msgstr "1"
+
+#: wp-admin/edit.php:188
+msgid "%"
+msgstr "%"
+
+#: wp-admin/edit.php:213
+#, php-format
+msgid ""
+"You are about to delete this post &quot;%s&quot;.\\n"
+"&quot;OK&quot; to delete, &quot;Cancel&quot; to stop."
+msgstr "آپ اس تحریر &quot;%s&quot; کو ختم کرنے جارہے ہیں۔ ختم کرنے کے لیے &quot;اوکے&quot;،صارفے کے لیے &quot;مسترد&quot;."
+
+#: wp-admin/edit.php:231
+msgid "No posts found."
+msgstr "کوئی تحریر نہیں ملی۔"
+
+#: wp-admin/edit.php:241
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; پچھلی تحاریر"
+
+#: wp-admin/edit.php:242
+msgid "Next Entries &raquo;"
+msgstr "اگلے‌ تحاریر&raquo;"
+
+#: wp-admin/edit.php:269
+msgid "Unapprove"
+msgstr "غیر منظور کریں"
+
+#: wp-admin/edit.php:271
+#: wp-admin/moderation.php:155
+msgid "Approve"
+msgstr "منظور کریں"
+
+#: wp-admin/import.php:10
+msgid "If you have posts or comments in another system WordPress can import them into your current blog. To get started, choose a system to import from below:"
+msgstr "اگر آپ کے پاس تحاریر اور تبصرے کسی دوسرے نظام میں محفوظ ہیں ورڈپریس انھیں آپ کے موجودہ بلاگ میں درآمد کرسکتا ہے۔شروع کرنے کے لیے،مندرجہ ذیل سے ایک نظام چنیں"
+
+#: wp-admin/import.php:30
+msgid "No importers are available."
+msgstr "کوئی درآمد کنندگان دستیاب نہیں"
+
+#: wp-admin/index.php:3
+#: wp-admin/index.php:12
+#: wp-admin/menu.php:7
+msgid "Dashboard"
+msgstr "تختہ مشق"
+
+#: wp-admin/index.php:15
+msgid "Latest Activity"
+msgstr "تازہ ترین سرگرمی"
+
+#: wp-admin/index.php:22
+msgid "Incoming Links"
+msgstr "آتےہوئے(ان‌کمنگ)روابط"
+
+#: wp-admin/index.php:22
+msgid "More"
+msgstr "مزید"
+
+#: wp-admin/index.php:41
+msgid "More comments..."
+msgstr "مزید تبصرے…"
+
+#: wp-admin/index.php:44
+#, php-format
+msgid "Comments in moderation (%s)"
+msgstr "پڑتال قطار میں کوئی تبصرے نہیں(%s)"
+
+#: wp-admin/index.php:51
+#, php-format
+msgid "%1$s on %2$s"
+msgstr " %1$s، %2$s پر"
+
+#: wp-admin/index.php:66
+msgid "More posts..."
+msgstr "مزید تحریریں…"
+
+#: wp-admin/index.php:85
+msgid "Scheduled Entries:"
+msgstr "شیڈول شدہ اندراجات"
+
+#: wp-admin/index.php:91
+#, php-format
+msgid "%1$s in %2$s"
+msgstr "%1$s میں %2$s"
+
+#: wp-admin/index.php:91
+msgid "Edit this post"
+msgstr "اس تحریر کی تدوین کریں"
+
+#: wp-admin/index.php:99
+msgid "Blog Stats"
+msgstr "بلاگ‌شماریات"
+
+#: wp-admin/index.php:110
+#, php-format
+msgid "There are currently %1$s <a href=\"%2$s\" title=\"Posts\">posts</a> and %3$s <a href=\"%4$s\" title=\"Comments\">comments</a>, contained within %5$s <a href=\"%6$s\" title=\"categories\">categories</a>."
+msgstr "یہاں موجود ہیں اسوقت%1$s <a href=\"%2$s\" title=\"تحاریر\">خطوط</a>اور%3$s <a href=\"%4$s\" title=\"تبصرے\">تبصرے</a>, %5$s <a href=\"%6$s\" title=\"زمرے\">زمرے</a> میں ہیں۔"
+
+#: wp-admin/index.php:116
+msgid "Welcome to WordPress"
+msgstr "ورڈپریس میں خوش آمدید"
+
+#: wp-admin/index.php:118
+msgid "Use these links to get started:"
+msgstr "شروع کرنے کے لیے یہ روابط استعمال کریں"
+
+#: wp-admin/index.php:121
+msgid "Write a post"
+msgstr "تحریر لکھیں"
+
+#: wp-admin/index.php:122
+msgid "Update your profile or change your password"
+msgstr "اپنا ذاتی‌تعارف تازہ کریں یا کلمہءِشناخت تبدیل کریں"
+
+#: wp-admin/index.php:123
+msgid "Add a link to your blogroll"
+msgstr "روابط میں ایک ربط داخل کریں"
+
+#: wp-admin/index.php:124
+msgid "Change your site&#8217;s look or theme"
+msgstr "اپنی سائٹ کا حلیہ (تھیم) بدلیں"
+
+#: wp-admin/index.php:127
+msgid "Below is the latest news from the official WordPress development blog, click on a title to read the full entry. If you need help with WordPress please see our <a href='http://codex.wordpress.org/'>great documentation</a> or if that doesn't help visit the <a href='http://wordpress.org/support/'>support forums</a>."
+msgstr "ذیل میں ورڈپریس کے خصوصی(پیشہ ورانہ) بلاگ سے تازہ ترین خبریں ہیں،مکمل اندراج پڑھنے کےلیے کسی عنون پر کلک کریں۔اگر آپ کو مزید ورڈ پریس بارے مزید مدد کی ضرورت ہے براہ مہربانی ہمارے<a href='http://codex.wordpress.org/'>(great documentation(دستاویزی ضابطے</a> دیکھیں اگر اس سے بھی مدد نہ ملے توhref='http://wordpress.org/support/'>امدادی فورم</a> پر جائیں۔"
+
+#: wp-admin/index.php:132
+msgid "WordPress Development Blog"
+msgstr "ورڈپریس ارتقائی بلاگ"
+
+#: wp-admin/index.php:137
+#, php-format
+msgid "%s ago"
+msgstr "%s پہلے"
+
+#: wp-admin/index.php:150
+msgid "Other WordPress News"
+msgstr "ورڈپریس کی دوسری خبریں"
+
+#: wp-admin/index.php:150
+msgid "more"
+msgstr "مزید"
+
+#: wp-admin/inline-uploading.php:8
+msgid "You do not have permission to upload files."
+msgstr "آپ کو فائلیں چڑھانے کی اجازت نہیں۔"
+
+#: wp-admin/inline-uploading.php:40
+msgid "You are not allowed to delete this attachment."
+msgstr "اس منسلکے کو ختم کرنے کی آپ کو اجازت نہیں۔"
+
+#: wp-admin/inline-uploading.php:40
+msgid "Go back"
+msgstr "واپس جائیں"
+
+#: wp-admin/inline-uploading.php:56
+msgid "Back to Image Uploading"
+msgstr "تصویر چڑھانے کی طرف واپسی"
+
+#: wp-admin/inline-uploading.php:168
+msgid "Not Linked"
+msgstr "مربوط نہیں"
+
+#: wp-admin/inline-uploading.php:169
+msgid "Linked to Page"
+msgstr "مربوط از صفحہ"
+
+#: wp-admin/inline-uploading.php:170
+msgid "Linked to Image"
+msgstr "مربوط از تصویر"
+
+#: wp-admin/inline-uploading.php:171
+msgid "Linked to File"
+msgstr "مربوط از فائل"
+
+#: wp-admin/inline-uploading.php:172
+msgid "Using Thumbnail"
+msgstr "تھمب‌نیل زیر استعمال"
+
+#: wp-admin/inline-uploading.php:173
+msgid "Using Original"
+msgstr "اصل زیر استعمال"
+
+#: wp-admin/inline-uploading.php:174
+msgid "Using Title"
+msgstr "عنوان زیر استعمال"
+
+#: wp-admin/inline-uploading.php:175
+msgid "Using Filename"
+msgstr "اسمِ‌فائل زیر استعمال"
+
+#: wp-admin/inline-uploading.php:176
+msgid "Using Icon"
+msgstr "آئیکن زیر استعمال"
+
+#: wp-admin/inline-uploading.php:177
+msgid "No Thumbnail"
+msgstr "کوئی تھمب‌نیل نہیں"
+
+#: wp-admin/inline-uploading.php:178
+msgid "Send to editor"
+msgstr "مدوِن کو بھیجیں"
+
+#: wp-admin/inline-uploading.php:179
+msgid "Close Options"
+msgstr "‌انتخابات بند کریں"
+
+#: wp-admin/inline-uploading.php:180
+msgid "Delete this file from the server?"
+msgstr "پیشکار سے یہ فائل ختم کرنی ہے؟"
+
+#: wp-admin/inline-uploading.php:181
+msgid "There is no thumbnail associated with this photo."
+msgstr "اس فوٹو سے کوئی تھمب‌نیل منسلک نہیں۔"
+
+#: wp-admin/inline-uploading.php:279
+msgid "File Type:"
+msgstr "قسمِ‌ فائل"
+
+#: wp-admin/inline-uploading.php:294
+msgid "This script was not meant to be called directly."
+msgstr "اس سکرپٹ کو براہ راست نہ پکاریں"
+
+#: wp-admin/inline-uploading.php:649
+#: wp-admin/inline-uploading.php:707
+msgid "Upload"
+msgstr "چڑھائیں"
+
+#: wp-admin/inline-uploading.php:651
+msgid "Browse"
+msgstr "کھنگالیں(براؤز)"
+
+#: wp-admin/inline-uploading.php:654
+msgid "Browse All"
+msgstr "تمام کھنگالیں(براؤز کریں)"
+
+#: wp-admin/inline-uploading.php:659
+msgid "First"
+msgstr "پہلا"
+
+#: wp-admin/inline-uploading.php:660
+#: wp-admin/inline-uploading.php:663
+msgid "Back"
+msgstr "پیچھے"
+
+#: wp-admin/inline-uploading.php:666
+msgid "Next &raquo;"
+msgstr "اگلا &raquo;"
+
+#: wp-admin/inline-uploading.php:667
+msgid "Last"
+msgstr "آخری"
+
+#: wp-admin/inline-uploading.php:669
+msgid "Next"
+msgstr "اگلا"
+
+#: wp-admin/inline-uploading.php:676
+msgid "You can drag and drop these items into your post. Click on one for more options."
+msgstr "آپ ان چیزوں کو اپنی تحریر میں کھینچ(ڈریگ کرکے) کر پھینک سکتے ہیں۔کسی ایک پر مزید انتخابات کے لیے کلک کریں۔"
+
+#: wp-admin/inline-uploading.php:691
+msgid "Title:"
+msgstr "عنوان:"
+
+#: wp-admin/install.php:21
+msgid "WordPress &rsaquo; Installation"
+msgstr "ورڈپریس تنصیب&raquo;"
+
+#: wp-admin/install.php:82
+msgid "Already Installed"
+msgstr "پہلے ہی نصب شدہ"
+
+#: wp-admin/install.php:82
+msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
+msgstr "ایسا لگتا ہے آپ نے پہلے ہی ورڈ پریس نصب کیا ہو ہے۔دوبارہ تنصیب کے لیے پہلے پرانے کوائفیہ جدوَلوں کو صاف کریں۔"
+
+#: wp-admin/install.php:89
+#, php-format
+msgid "Welcome to WordPress installation. We&#8217;re now going to go through a few steps to get you up and running with the latest in personal publishing platforms. You may want to peruse the <a href=\"%s\">ReadMe documentation</a> at your leisure."
+msgstr "ورڈ پریس تنصیب میں خوش آمدید. ’اب ہم ذاتی اشاعتی پلیٹ فارم آپ کو مہیا کرنے کے لیے کچھ مراحل سے گزرنے جارہے ہیں۔  ہوسکتا ہے آپ  کو<a href=\"%s\"> مجھے پڑھئیے دستاویزیت</a>پڑھنے کی فرصت ہو۔"
+
+#: wp-admin/install.php:90
+msgid "First Step &raquo;"
+msgstr "پہلا مرحلہ »"
+
+#: wp-admin/install.php:97
+msgid "First Step"
+msgstr "پہلا مرحلہ"
+
+#: wp-admin/install.php:98
+msgid "Before we begin we need a little bit of information. Don't worry, you can always change these later."
+msgstr "شروع کرنے سے پہلے ہمیں کچھ معلومات درکار ہیں۔ پریشان مت ہوں آپ انہیں بعد میں بدل سکتے ہیں۔"
+
+#: wp-admin/install.php:103
+#: wp-admin/options-general.php:16
+msgid "Weblog title:"
+msgstr "ویب‌لاگ کا عنوان:"
+
+#: wp-admin/install.php:107
+msgid "Your e-mail:"
+msgstr "آپ کی برقی پتہ:"
+
+#: wp-admin/install.php:111
+msgid "Double-check that email address before continuing."
+msgstr "آگے جانے سے پہلےبرقی پتے کی دوبارہ پڑتال کریں۔"
+
+#: wp-admin/install.php:113
+msgid "Continue to Second Step &raquo;"
+msgstr "دوسرے مرحلے کی طرف رواں &raquo;"
+
+#: wp-admin/install.php:126
+msgid "<strong>ERROR</strong>: please type your e-mail address"
+msgstr "<strong>غلطی</strong>: مہربانی کرکےاپنابرقی‌پتہ لکھیں"
+
+#: wp-admin/install.php:128
+msgid "<strong>ERROR</strong>: the e-mail address isn't correct"
+msgstr "<strong>غلطی</strong>: برقی‌پتہ درست نہیں۔"
+
+#: wp-admin/install.php:132
+msgid "Second Step"
+msgstr "دوسرا مرحلہ"
+
+#: wp-admin/install.php:133
+msgid "Now we&#8217;re going to create the database tables and fill them with some default data."
+msgstr "اب ہم کوائفیہ کے جدول بنانے اور انھیں کچھ طےشدہ مواد سے بھرنے جارہے ہیں."
+
+#: wp-admin/install.php:149
+msgid "Blogroll"
+msgstr "روابط"
+
+#: wp-admin/install.php:164
+msgid "Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!"
+msgstr "ورڈپریس پر خوش آمدید! یہ آپ کی پہلی تحریر ہے اسے مدون یا ختم کریں اور بلاگنگ شروع کر دیں!"
+
+#: wp-admin/install.php:164
+msgid "Hello world!"
+msgstr "ہیلو دنیا!"
+
+#: wp-admin/install.php:164
+msgid "hello-world"
+msgstr "ہیلو-دنیا"
+
+#: wp-admin/install.php:169
+msgid "Mr WordPress"
+msgstr "ورڈپریس صاحب"
+
+#: wp-admin/install.php:169
+msgid "Hi, this is a comment.<br />To delete a comment, just log in, and view the posts' comments, there you will have the option to edit or delete them."
+msgstr "آداب! یہ ایک تبصرہ ہے.<br />تبصرے کو ختم کرنے کے لیے دخول کریں اور تحریروں کے تبصرے دیکھیں۔ وہاں آپ ان کو ختم یا ان کی تدوین کر سکیں گے۔"
+
+#: wp-admin/install.php:173
+msgid "This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress."
+msgstr "یہ ورڈپریس صفحے کی ایک مثال ہے،آپ اسے اپنے بارے میں یا اپنی سائٹ کے بار میں معلومات سے پر کرسکتے تھے تاکہ قارئین جان سکیں کہ آپ کہاں سے ہیں۔آپ اس صفحے کی طرح مزید صفحات یا ذیلی صفحات بنا سکتے ہیں جیسے آپ ورڈ پریس پر اپنے مواد کو منظم کرنا اور رکھنا پسند کریں۔ "
+
+#: wp-admin/install.php:173
+msgid "about"
+msgstr "بابت"
+
+#: wp-admin/install.php:186
+#, php-format
+msgid ""
+"Your new WordPress blog has been successfully set up at:\n"
+"\n"
+"%1$s\n"
+"\n"
+"You can log in to the administrator account with the following information:\n"
+"\n"
+"Username: admin\n"
+"Password: %2$s\n"
+"\n"
+"We hope you enjoy your new weblog. Thanks!\n"
+"\n"
+"--The WordPress Team\n"
+"http://wordpress.org/\n"
+msgstr ""
+"آپ کا ورڈپریس بلاگ کامیابی سے مکمل ہو گیا ہے:\n"
+"\n"
+"%1$s\n"
+"\n"
+"آپ منتظم  کے کھاتے میں مندرجہ ذیل معلومات کےساتھ داخل ہوسکتے ہیں‌:\n"
+"\n"
+"اسم‌ِصارف:admin\n"
+"کلمہِ‌شناخت: %2$s\n"
+"n\n"
+"امید ہے آپ اپنےنئےبلاگ سے لطف اندوز ہونگے‌شکریہ! \n"
+"\n"
+"--ورڈپریس ٹیم\n"
+"http://wordpress.org/\n"
+
+#: wp-admin/install.php:201
+msgid "New WordPress Blog"
+msgstr "نیا ورڈپریس بلاگ"
+
+#: wp-admin/install.php:206
+msgid "Finished!"
+msgstr "ختم!"
+
+#: wp-admin/install.php:208
+#, php-format
+msgid "Now you can <a href=\"%1$s\">log in</a> with the <strong>username</strong> \"<code>admin</code>\" and <strong>password</strong> \"<code>%2$s</code>\"."
+msgstr "اب ہم<a href=\"%1$s\">دخول کرسکتے ہیں</a> بذیعہ<strong>اسمِ‌صارف</strong> \"<code>منتظم(ایڈمن)</code>\" اور<strong>کلمہ‌شناختstrong> \"<code>%2$s</code>\"."
+
+#: wp-admin/install.php:209
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you. If you lose it, you will have to delete the tables from the database yourself, and re-install WordPress. So to review:"
+msgstr "<strong><em>کلمہ‌شناخت نوٹ کر لیں</em></strong>احتیاط سے <em>اٹکل سے</em> صرف آپ کے لیے بنایا گیا ہے۔اگرآپ نے اسے کھو دیا،تو کوائفیے سے تمام جدوَلوں کو ختم کرکے ورڈ پریس کو دوبارہ نصب کر نا پڑے گا. چناچہ نظر ثانی کے لیے:"
+
+#: wp-admin/install.php:212
+#: wp-admin/users.php:219
+#: wp-admin/import/blogger.php:67
+msgid "Username"
+msgstr "اسم‌ صارف"
+
+#: wp-admin/install.php:214
+#: wp-admin/import/blogger.php:67
+msgid "Password"
+msgstr "کلمہ‌شناخت"
+
+#: wp-admin/install.php:216
+msgid "Login address"
+msgstr "دخول کا پتہ"
+
+#: wp-admin/install.php:219
+msgid "Were you expecting more steps? Sorry to disappoint. All done! :)"
+msgstr "کیا آپ مزید مرحلوں کی توقع کر رہے تھے؟ مایوسی کے لیے معذرت خواہ. تمام کام ہوگیا! :)"
+
+#: wp-admin/install.php:224
+msgid "<a href=\"http://wordpress.org/\">WordPress</a>, personal publishing platform."
+msgstr "<<a href=\"http://wordpress.org/\">ورڈپریس</a> ذاتی اشاعتی پلیٹ‌فارم."
+
+#: wp-admin/link-add.php:4
+#: wp-admin/menu.php:32
+msgid "Add Link"
+msgstr "ربط شامل کریں"
+
+#: wp-admin/link-add.php:33
+msgid "Link added."
+msgstr "ربط شامل ہوگیا."
+
+#: wp-admin/link-add.php:42
+#, php-format
+msgid "<p>You can drag <a href=\"%s\" title=\"Link add bookmarklet\">Link This</a> to your toolbar and when you click it a window will pop up that will allow you to add whatever site you&#8217;re on to your links! Right now this only works on Mozilla or Netscape, but we&#8217;re working on it.</p>"
+msgstr "<p>آپ اسے ڈریگ کرکے<a href=\"%s\" title=\"ربط بناؤ بوکمارکلیٹ\">اسے جوڑو</a> اپنے ٹولبار میں لائیں جب آپ اس پر کلک کریں گے ایک چھوٹا دریچہ کھلے گا جو اس بات کی اجازت فراہم کرےگا کہ آپ ’ کوئی بھی سائٹ اپنے روابط میں شامل کرسکیں فی الحال یہ صرف نیٹ سکیپ اور موزیلا پر دستیاب ہے مگر ہم’اس پر کام کررہے ہیں.</p>"
+
+#: wp-admin/link-categories.php:5
+#: wp-admin/menu.php:33
+msgid "Link Categories"
+msgstr "ربطی زمرے"
+
+#: wp-admin/link-categories.php:91
+#, php-format
+msgid "Can't delete the <strong>%s</strong> link category: this is the default one"
+msgstr "ربطی زمرہ <strong>%s</strong> ختم نہیں کرسکتے: یہ طےشدہ ہے۔"
+
+#: wp-admin/link-categories.php:116
+#, php-format
+msgid "Edit &#8220%s&#8221; Category"
+msgstr "زمرہ “%s” کی تدوین"
+
+#: wp-admin/link-categories.php:123
+#: wp-admin/link-categories.php:378
+msgid "Category Options"
+msgstr "انتخاباتِ زمرہ"
+
+#: wp-admin/link-categories.php:130
+#: wp-admin/link-categories.php:385
+msgid "Show:"
+msgstr "دکھائیں:"
+
+#: wp-admin/link-categories.php:134
+#: wp-admin/link-categories.php:389
+#: wp-admin/link-manager.php:332
+msgid "Image"
+msgstr "تصویر"
+
+#: wp-admin/link-categories.php:138
+#: wp-admin/link-categories.php:145
+#: wp-admin/link-categories.php:393
+#: wp-admin/link-categories.php:400
+msgid "(shown in <code>title</code> regardless)"
+msgstr "(اس<code>title</code>میں  سے قطع نظر)"
+
+#: wp-admin/link-categories.php:141
+#: wp-admin/link-categories.php:154
+#: wp-admin/link-categories.php:301
+#: wp-admin/link-categories.php:396
+#: wp-admin/link-categories.php:409
+#: wp-admin/link-manager.php:306
+msgid "Rating"
+msgstr "درجہ بندی"
+
+#: wp-admin/link-categories.php:148
+#: wp-admin/link-categories.php:403
+msgid "Sort order:"
+msgstr "قرینہ لگائیں:"
+
+#: wp-admin/link-categories.php:152
+#: wp-admin/link-categories.php:407
+msgid "Id"
+msgstr "شناخت"
+
+#: wp-admin/link-categories.php:153
+#: wp-admin/link-categories.php:408
+msgid "URL"
+msgstr "یو آر ایل"
+
+#: wp-admin/link-categories.php:156
+#: wp-admin/link-categories.php:411
+msgid "Random"
+msgstr "اٹکل سے"
+
+#: wp-admin/link-categories.php:157
+msgid "Name Length"
+msgstr "نام کی لمبائی"
+
+#: wp-admin/link-categories.php:161
+#: wp-admin/link-categories.php:415
+msgid "Descending"
+msgstr "نزولی"
+
+#: wp-admin/link-categories.php:165
+#: wp-admin/link-categories.php:419
+msgid "Limit:"
+msgstr "حد:"
+
+#: wp-admin/link-categories.php:168
+#: wp-admin/link-categories.php:421
+msgid "(Leave empty for no limit to number of links shown)"
+msgstr "(اگر روابط نظر آنے کی کوئی حد مقرر نہیں کرنی تو خالی چھوڑ دیں)"
+
+#: wp-admin/link-categories.php:172
+#: wp-admin/link-categories.php:425
+msgid "Toggle:"
+msgstr "الٹائیں(ٹُوگل)"
+
+#: wp-admin/link-categories.php:175
+#: wp-admin/link-categories.php:428
+msgid "When new link is added toggle all others to be invisible"
+msgstr "جب نئے ربط کا اضافہ ہو تو دوسرے تمام کو مرئی کی طرف الٹا دیں۔"
+
+#: wp-admin/link-categories.php:181
+#: wp-admin/link-categories.php:294
+#: wp-admin/link-categories.php:434
+msgid "Formatting"
+msgstr "بناوٹ"
+
+#: wp-admin/link-categories.php:184
+#: wp-admin/link-categories.php:437
+msgid "Before Link:"
+msgstr "قبل‌ازربط"
+
+#: wp-admin/link-categories.php:188
+#: wp-admin/link-categories.php:441
+msgid "Between Link and Description:"
+msgstr "ربط اور وضاحت کے مابین"
+
+#: wp-admin/link-categories.php:192
+#: wp-admin/link-categories.php:445
+msgid "After Link:"
+msgstr "بعدازربط"
+
+#: wp-admin/link-categories.php:197
+msgid "Save Category Settings &raquo;"
+msgstr "زمرہ کی تراتیب محفوظ کریں&raquo;"
+
+#: wp-admin/link-categories.php:281
+msgid "You have do not have sufficient permissions to edit the link categories for this blog. :)"
+msgstr "آپ کو اس بلاگ کے روابط کے زمروں کی تدوین کے حقوق حاصل نہیں۔ :)"
+
+#: wp-admin/link-categories.php:285
+msgid "Link Categories:"
+msgstr "ربط کے زمرے:"
+
+#: wp-admin/link-categories.php:290
+msgid "Toggle?"
+msgstr "الٹائیں؟"
+
+#: wp-admin/link-categories.php:291
+#: wp-admin/link-manager.php:194
+#: wp-admin/link-manager.php:310
+msgid "Show"
+msgstr "دکھائیں"
+
+#: wp-admin/link-categories.php:292
+msgid "Sort Order"
+msgstr "قرینہ لگائیں"
+
+#: wp-admin/link-categories.php:293
+msgid "Desc?"
+msgstr "نزولی؟"
+
+#: wp-admin/link-categories.php:295
+msgid "Limit"
+msgstr "حد"
+
+#: wp-admin/link-categories.php:299
+msgid "Images"
+msgstr "تصویریں"
+
+#: wp-admin/link-categories.php:303
+msgid "Before"
+msgstr "پہلے"
+
+#: wp-admin/link-categories.php:304
+msgid "Between"
+msgstr "درمیان"
+
+#: wp-admin/link-categories.php:305
+msgid "After"
+msgstr "بعد"
+
+#: wp-admin/link-categories.php:322
+msgid "name"
+msgstr "نام"
+
+#: wp-admin/link-categories.php:325
+msgid "id"
+msgstr "شناخت"
+
+#: wp-admin/link-categories.php:328
+msgid "url"
+msgstr "یو آرایل"
+
+#: wp-admin/link-categories.php:331
+msgid "rating"
+msgstr "درجہ بندی"
+
+#: wp-admin/link-categories.php:334
+msgid "updated"
+msgstr "تازہ کیا ہوا"
+
+#: wp-admin/link-categories.php:337
+msgid "rand"
+msgstr "حاشیہ"
+
+#: wp-admin/link-categories.php:340
+msgid "length"
+msgstr "لمبائی"
+
+#: wp-admin/link-categories.php:359
+#, php-format
+msgid ""
+"You are about to delete the &quot;%s&quot; link category.\\n"
+"&quot;Cancel&quot; to stop, &quot;OK&quot; to delete."
+msgstr "آپ یہ زمرہ &quot;%s&quot; ختم کرنے جا رہے ہیں۔  \\'مسترد\\' روکنے کےلیے, \\'اوکے\\' ختم کرنے کے لیے."
+
+#: wp-admin/link-categories.php:366
+msgid "These are the defaults for when you call a link category with no additional arguments. All of these settings may be overwritten."
+msgstr "یہ طےشدہ ترتیب ہے جب آپ ربطی زمرے کو بغیر کسی وجہ/تفصیل کے بلاتے ہیں۔یہ تمام تراتیب دوبارہ لکھی جاسکتی ہے۔"
+
+#: wp-admin/link-categories.php:376
+msgid "Add a Link Category:"
+msgstr "ربطی زمرہ شامل کریں"
+
+#: wp-admin/link-categories.php:454
+msgid "Note:"
+msgstr "نوٹ:"
+
+#: wp-admin/link-categories.php:455
+#, php-format
+msgid "Deleting a link category does not delete links from that category.<br />It will just set them back to the default category <strong>%s</strong>."
+msgstr "<p>ربطی زمرے کا مٹانا اس میں موجود روابط کو بھی ختم نہیں کرتا.<br />بلکہ یہ پہلے سے (طےشدہ) زمرے میں چلے جاتے ہیں<b>%s</b>."
+
+#: wp-admin/link-import.php:7
+msgid "Import Blogroll"
+msgstr "درآمد روابط"
+
+#: wp-admin/link-import.php:25
+msgid "Import your blogroll from another system"
+msgstr "دوسرے نظام سے اپنے روابط درآمد کریں۔"
+
+#: wp-admin/link-import.php:29
+msgid "If a program or website you use allows you to export your links or subscriptions as OPML you may import them here."
+msgstr "اگر ایک پروگرام یا ویبسائٹ آپ کو روابط یا ذیلی سکرپٹس  او‌پی‌ایم‌‌ایل کے طور پربرآمد کرنے کی اجازت دے تو آپ اسے یہاں درآمد کرسکتے ہیں۔"
+
+#: wp-admin/link-import.php:34
+msgid "Specify an OPML URL:"
+msgstr "کسی او‌پی‌ایم‌‌ایل  یو آرایل کی نشاندہی کریں:"
+
+#: wp-admin/link-import.php:39
+msgid "Or choose from your local disk:"
+msgstr "یا اپنی مقامی ڈسک سے چنیں:"
+
+#: wp-admin/link-import.php:46
+msgid "Now select a category you want to put these links in."
+msgstr "اب ایک زمرہ چنیں‌جس میں‌آپ یہ روابط رکھنا چاہتے ہیں۔"
+
+#: wp-admin/link-import.php:58
+msgid "Import OPML File"
+msgstr "درآمد او‌پی‌ایم‌‌ایل فائل"
+
+#: wp-admin/link-import.php:75
+msgid "Importing..."
+msgstr "درآمد جاری…"
+
+#: wp-admin/link-import.php:113
+#, php-format
+msgid "Inserted <strong>%s</strong>"
+msgstr "<p>داخل کردیا گیا <strong>%s</strong></p>"
+
+#: wp-admin/link-import.php:116
+#, php-format
+msgid "Inserted %1$d links into category %2$s. All done! Go <a href=\"%3$s\">manage those links</a>."
+msgstr "%2$s زمرہ میں %1$d روابط کا اندراج تمام ہوا۔ اب <a href=\"%3$s\">روابط کو منظم کرنے</a> پرجائیں۔"
+
+#: wp-admin/link-import.php:121
+msgid "You need to supply your OPML url. Press back on your browser and try again"
+msgstr "آپ کو اپنا او‌پی‌ایم‌ایل یوآرایل دینے کی ضرورت ہے۔ اپنے براؤزر سے پیچھے کا بٹن دبائیے اور دوبارہ کوشش کیجیے۔"
+
+#: wp-admin/link-manager.php:7
+#: wp-admin/menu.php:31
+msgid "Manage Links"
+msgstr "انتظامِ‌روابط"
+
+#: wp-admin/link-manager.php:184
+#: wp-admin/link-manager.php:235
+msgid "You do not have sufficient permissions to edit the links for this blog."
+msgstr "اس بلاگ کے روابط کو مدوَن کرنے کے لیے آپ کے پاس مناسب اجازت موجود نہیں۔"
+
+#: wp-admin/link-manager.php:189
+msgid "Link not found."
+msgstr "ربط نہیں‌مل سکا۔"
+
+#: wp-admin/link-manager.php:271
+msgid "<strong>Show</strong> links in category:"
+msgstr "اس زمرے کے ربط  <strong>دکھائیں</strong>"
+
+#: wp-admin/link-manager.php:274
+msgid "<strong>Order</strong> by:"
+msgstr "<strong>حکم</strong> منجانب:"
+
+#: wp-admin/link-manager.php:286
+msgid "All"
+msgstr "تمام"
+
+#: wp-admin/link-manager.php:293
+msgid "(auto toggle)"
+msgstr "(خودکار الٹاؤ/ٹُوگل)"
+
+#: wp-admin/link-manager.php:301
+msgid "Link ID"
+msgstr "شناخت ربط:"
+
+#: wp-admin/link-manager.php:303
+#: wp-admin/link-manager.php:329
+msgid "URI"
+msgstr "یوآرایل"
+
+#: wp-admin/link-manager.php:330
+msgid "Category"
+msgstr "زمرہ"
+
+#: wp-admin/link-manager.php:331
+msgid "rel"
+msgstr "تعلق"
+
+#: wp-admin/link-manager.php:333
+msgid "Visible"
+msgstr "مرئی"
+
+#: wp-admin/link-manager.php:373
+#, php-format
+msgid "Description: %s"
+msgstr "تفصیل: %s"
+
+#: wp-admin/link-manager.php:374
+#, php-format
+msgid "Visit %s"
+msgstr "دورہ کریں #%s"
+
+#: wp-admin/link-manager.php:385
+#, php-format
+msgid ""
+"You are about to delete the &quot;%s&quot; bookmark to %s.\\n"
+"&quot;Cancel&quot; to stop, &quot;OK&quot; to delete."
+msgstr ""
+"آپ  &quot;%s&quot; نشان زدگی کی ختم کرنے جارہے ہیں بطرف %s.\\n"
+"&quot;مسترد&quot; روکنے کے لیے, &quot;ٹھیک ہے&quot; ختم کرنے کےلیے."
+
+#: wp-admin/link-manager.php:403
+msgid "Manage Multiple Links:"
+msgstr "انتظامِ کثیر روابط:"
+
+#: wp-admin/link-manager.php:404
+msgid "Use the checkboxes on the right to select multiple links and choose an action below:"
+msgstr "اپنے دائیں‌ہاتھ موجود چیک‌باکس کو کثیر روابط چننے اور ان سے متعلقہ عمل کے لیے استعمال کریں:"
+
+#: wp-admin/link-manager.php:407
+msgid "Assign ownership to:"
+msgstr " ملکیت منسوب کریں از:"
+
+#: wp-admin/link-manager.php:418
+#: wp-admin/link-manager.php:424
+msgid "Go"
+msgstr "جائیں"
+
+#: wp-admin/link-manager.php:421
+msgid "Toggle Visibility"
+msgstr "مرئیت کو الٹائیں"
+
+#: wp-admin/link-manager.php:424
+msgid "Move to category:"
+msgstr "زمرے کو جائیں:"
+
+#: wp-admin/link-manager.php:427
+msgid "Toggle Checkboxes"
+msgstr "پڑتال خانوں کو الٹائیں"
+
+#: wp-admin/link-parse-opml.php:58
+#, php-format
+msgid "XML error: %1$s at line %2$s"
+msgstr "ایکس ایم ایل غلطی:%1$s از قطار%2$s "
+
+#: wp-admin/menu.php:8
+msgid "Write"
+msgstr "لکھیں"
+
+#: wp-admin/menu.php:9
+msgid "Manage"
+msgstr "انتظام "
+
+#: wp-admin/menu.php:10
+msgid "Links"
+msgstr "روابط"
+
+#: wp-admin/menu.php:11
+msgid "Presentation"
+msgstr "پیشکش"
+
+#: wp-admin/menu.php:12
+#: wp-admin/menu.php:46
+msgid "Plugins"
+msgstr "دخیلے"
+
+#: wp-admin/menu.php:14
+#: wp-admin/users.php:5
+#: wp-admin/import/dotclear.php:624
+#: wp-admin/import/textpattern.php:553
+msgid "Users"
+msgstr "صارفین"
+
+#: wp-admin/menu.php:16
+#: wp-admin/profile.php:4
+msgid "Profile"
+msgstr "ذاتی‌تعارف"
+
+#: wp-admin/menu.php:17
+#: wp-admin/options.php:4
+msgid "Options"
+msgstr "انتخابات"
+
+#: wp-admin/menu.php:28
+#, php-format
+msgid "Awaiting Moderation (%s)"
+msgstr "پڑتال کے انتظار  میں(%s)"
+
+#: wp-admin/menu.php:29
+msgid "Files"
+msgstr "فائلیں"
+
+#: wp-admin/menu.php:34
+#: wp-admin/import/dotclear.php:588
+#: wp-admin/import/textpattern.php:518
+msgid "Import Links"
+msgstr "روابط کی درآمد"
+
+#: wp-admin/menu.php:36
+msgid "Your Profile"
+msgstr "آپ کا ذاتی‌تعارف"
+
+#: wp-admin/menu.php:37
+msgid "Authors &amp; Users"
+msgstr "مصنفین &amp; صارفین"
+
+#: wp-admin/menu.php:39
+msgid "General"
+msgstr "عمومی"
+
+#: wp-admin/menu.php:40
+msgid "Writing"
+msgstr "لکھنا"
+
+#: wp-admin/menu.php:41
+msgid "Reading"
+msgstr "مطالعہ"
+
+#: wp-admin/menu.php:43
+msgid "Permalinks"
+msgstr "مستقل‌روابط"
+
+#: wp-admin/menu.php:44
+msgid "Miscellaneous"
+msgstr "متفرق"
+
+#: wp-admin/menu.php:47
+msgid "Plugin Editor"
+msgstr "دخیلہ مدوَن"
+
+#: wp-admin/menu.php:49
+msgid "Themes"
+msgstr "حلیے(تھیمز)"
+
+#: wp-admin/menu.php:50
+msgid "Theme Editor"
+msgstr "حلیاتی مدوَن"
+
+#: wp-admin/menu.php:61
+msgid "You do not have sufficient permissions to access this page."
+msgstr "اس صفحے پر جانے کے لیے آپ کے پاس مناسب اجازت نہیں۔"
+
+#: wp-admin/moderation.php:4
+msgid "Moderate comments"
+msgstr "تبصرے پڑتال کریں"
+
+#: wp-admin/moderation.php:38
+msgid "Your level is not high enough to moderate comments."
+msgstr "<p>تبصرے کو پڑتال کرنے کے لیے آپ کے پاس مناسب عہدہ نہیں۔</p>"
+
+#: wp-admin/moderation.php:90
+msgid "1 comment approved"
+msgstr "1  تبصرہ منظورشدہ<br />"
+
+#: wp-admin/moderation.php:92
+#, php-format
+msgid "%s comments approved <br />"
+msgstr "%s تبصرے منظور<br />"
+
+#: wp-admin/moderation.php:97
+msgid "1 comment deleted"
+msgstr "1 تبصرہ مٹا دیا گیا "
+
+#: wp-admin/moderation.php:99
+#, php-format
+msgid "%s comments deleted"
+msgstr "%s تبصرے مٹادئیے گئے۔"
+
+#: wp-admin/moderation.php:104
+msgid "1 comment marked as spam"
+msgstr "ایک تبصرہ نشان‌زد بطور ردی<br/>"
+
+#: wp-admin/moderation.php:106
+#, php-format
+msgid "%s comments marked as spam"
+msgstr "%s تبصرے نشان رد بطور ردی <br />"
+
+#: wp-admin/moderation.php:111
+msgid "1 comment unchanged"
+msgstr "ایک1 تبصرہ بغیر تبدیلی کے<br />"
+
+#: wp-admin/moderation.php:113
+#, php-format
+msgid "%s comments unchanged"
+msgstr "%s تبصرے بغیر تبدیلی کے<br />"
+
+#: wp-admin/moderation.php:133
+msgid "Moderation Queue"
+msgstr "پڑتال قطار"
+
+#: wp-admin/moderation.php:148
+msgid "Date:"
+msgstr "تاریخ:"
+
+#: wp-admin/moderation.php:154
+msgid "Delete just this comment"
+msgstr "صرف یہ تبصرہ ختم کریں"
+
+#: wp-admin/moderation.php:154
+msgid "Bulk action:"
+msgstr "بڑی تعداد میں‌ عمل"
+
+#: wp-admin/moderation.php:158
+msgid "Defer until later"
+msgstr "ملتوی کریں"
+
+#: wp-admin/moderation.php:169
+msgid "Moderate Comments &raquo;"
+msgstr "تبصرے پڑتال کریں&raquo;"
+
+#: wp-admin/moderation.php:200
+msgid "Mark all for approval"
+msgstr "تمام کو منظوری کے لیے نشان زد کریں۔"
+
+#: wp-admin/moderation.php:200
+msgid "Mark all as spam"
+msgstr "تمام کو بطور ردی نشان‌زد کریں۔"
+
+#: wp-admin/moderation.php:200
+msgid "Mark all for deletion"
+msgstr "ختم کرنے کے لیے نشان‌زدہ کریں"
+
+#: wp-admin/moderation.php:200
+msgid "Mark all for later"
+msgstr "تمام کو ملتوی کرنے کے لیے نشان زد کریں"
+
+#: wp-admin/moderation.php:206
+msgid "Delete every comment marked \"defer.\" <strong>Warning: This can&#8217;t be undone.</strong>"
+msgstr "ہر تبصرہ جو\"ملتوی\" کے طور پر نشان زد ہو ختم کریں۔  <strong>خبردار: یہ&#8217; لوٹایا نہیں جاسکے گا۔</strong>"
+
+#: wp-admin/moderation.php:213
+msgid "Currently there are no comments for you to moderate."
+msgstr "<p>فی الحال یہاں پڑتال کرنے کے لیے کوئی تبصرہ نہیں۔</p>‌‌"
+
+#: wp-admin/options-discussion.php:4
+#: wp-admin/options-discussion.php:22
+msgid "Discussion Options"
+msgstr "انتخاباتِ مباحثہ"
+
+#: wp-admin/options-discussion.php:26
+msgid "Usual settings for an article:<br /><small><em>(These settings may be overridden for individual articles.)</em></small>"
+msgstr "ایک کالم کے لیے عمومی ہدایات:<br/> <em><small>(انفرادی کالموں کے لیے یہ ہدایات تبدیل کی جاسکتی ہیں۔)</small></em>‌‌"
+
+#: wp-admin/options-discussion.php:31
+msgid "Attempt to notify any Weblogs linked to from the article (slows down posting.)"
+msgstr "کالم سے مربوط تمام ویب‌لاگ کو مطلع کریں.(اشاعت کا عمل سست ہوسکتاہے)"
+
+#: wp-admin/options-discussion.php:36
+msgid "Allow link notifications from other Weblogs (pingbacks and trackbacks.)"
+msgstr "دوسرے ویب‌لاگ سے مربوط‌اطلاعات کی اجازت دیں(ٹریک‌بیک اورپنگ‌بیک)"
+
+#: wp-admin/options-discussion.php:41
+msgid "Allow people to post comments on the article"
+msgstr "اس کالم پر لوگوں‌کو تبصرہ کرنے کی اجازت دیں."
+
+#: wp-admin/options-discussion.php:46
+msgid "E-mail me whenever:"
+msgstr "مجھے برقیہ کریں جب:"
+
+#: wp-admin/options-discussion.php:51
+msgid "Anyone posts a comment"
+msgstr "کوئی بھی تبصرہ کرے"
+
+#: wp-admin/options-discussion.php:56
+msgid "A comment is held for moderation"
+msgstr "تبصرہ پڑتال کے لیے زیر غور"
+
+#: wp-admin/options-discussion.php:61
+msgid "Before a comment appears:"
+msgstr "تبصرے سے پہلے ظاہر ہوگا:"
+
+#: wp-admin/options-discussion.php:66
+msgid "An administrator must approve the comment (regardless of any matches below)"
+msgstr "اور منتظم کو تبصرہ منظور کرنا چاہیے.(مندرجہ ذیل سے ملتے جلتے کے علاوہ)"
+
+#: wp-admin/options-discussion.php:68
+msgid "Comment author must fill out name and e-mail"
+msgstr "تبصرے کے مصنف کو اپنا نام اور برقی پتہ  بھرنا لازمی ہے"
+
+#: wp-admin/options-discussion.php:69
+msgid "Comment author must have a previously approved comment"
+msgstr "مصنفِ تبصرہ کا پہلے سے منظور شدہ تبصرہ موجود ہونا ضروری ہے"
+
+#: wp-admin/options-discussion.php:73
+msgid "Comment Moderation"
+msgstr "پڑتالِ تبصرہ"
+
+#: wp-admin/options-discussion.php:74
+#, php-format
+msgid "Hold a comment in the queue if it contains more than %s links. (A common characteristic of comment spam is a large number of hyperlinks.)"
+msgstr "اگر اس میں %s سے زیادہ روابط ہوں توتبصرے کو قطار میں‌رکھیں۔(ردی تبصروں کی ایک مشترک خصوصیت بے تحاشا(ہائپر)روابط کا ہونا ہے۔)‌"
+
+#: wp-admin/options-discussion.php:76
+msgid "When a comment contains any of these words in its content, name, URI, e-mail, or IP, hold it in the moderation queue: (Separate multiple words with new lines.) <a href=\"http://codex.wordpress.org/Spam_Words\">Common spam words</a>."
+msgstr "جب کوئی تبصرہ اپنے متن میں اسم، یو آر ایل،برقی ڈاک، یا آئی پی میں سے کوئی ایک رکھے اسے پڑتال قطار میں لگا دیں: ( کثیر الفاظ کو نئی سطر سے الگ کریں۔)<a href=\"http://codex.wordpress.org/Spam_Words\">"
+
+#: wp-admin/options-discussion.php:81
+msgid "Check past comments against moderation list"
+msgstr "پڑتال فہرست کے مقابل پرانے تبصرے دیکھیں۔"
+
+#: wp-admin/options-discussion.php:85
+msgid "Comment Blacklist"
+msgstr "روک فہرست تبصرہ‌جات"
+
+#: wp-admin/options-discussion.php:86
+msgid "This is a list of words that you want completely blacklisted from your blog. Be very careful what you add here, because if a comment matches something here it will be completely nuked and there will be no notification. Remember that partial words can match, so if there is any chance something here might match it would be better to put it in the moderation box above."
+msgstr "یہ ان الفاظ کی فہرست ہے جنھیں‌آپ اپنے بلاگ سے مکمل طور پر روکنا چاہتے ہیں۔آپ نے یہاں‌جو شامل کیا ہے اس بارے بہت محتاط رہیں۔کیونکہ اگر یہاں‌کوئی تبصرہ اس سے مل گیا تو اسے مکمل طور پر بغیر اطلاع کے ختم کردیا جائے گا۔یادرکھیں کہ جزوی الفاظ مل سکتے ہیں چناچہ اگر ملنے کا خطرہ ہو تو اسے اوپر پڑتال بکسے میں رکھنا بہتر ہوگا۔"
+
+#: wp-admin/options-discussion.php:92
+msgid "Blacklist comments from open and insecure proxies."
+msgstr "کھلی اور غیر محفوظ پراکسیز سے روکے گئے تبصرے۔"
+
+#: wp-admin/options-discussion.php:97
+#: wp-admin/options-general.php:103
+#: wp-admin/options-misc.php:46
+#: wp-admin/options-reading.php:61
+#: wp-admin/options-writing.php:95
+msgid "Update Options"
+msgstr "انتخابات کی تازہ کاری"
+
+#: wp-admin/options-general.php:4
+#: wp-admin/options-general.php:11
+msgid "General Options"
+msgstr "عمومی انتخابات"
+
+#: wp-admin/options-general.php:20
+msgid "Tagline:"
+msgstr "ٹیگ‌لائن:"
+
+#: wp-admin/options-general.php:23
+msgid "In a few words, explain what this weblog is about."
+msgstr "چند الفاظ میں‌ اپنے ویب‌لاگ کی بابت لکھیں۔"
+
+#: wp-admin/options-general.php:26
+msgid "WordPress address (URI):"
+msgstr "ورڈ پریس پتہ (یو آر ایل):"
+
+#: wp-admin/options-general.php:30
+msgid "Blog address (URI):"
+msgstr "(یو آر ایل)بلاگ کا پتہ:"
+
+#: wp-admin/options-general.php:31
+msgid "If you want your blog homepage <a href=\"http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory\">to be different than the directory</a> you installed WordPress in, enter that address here."
+msgstr "اگر آپ چاہتے ہیں‌کہ آپ کے بلاگ کے مرکزی صفحے<a href=\"http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory\"> کا پتہ ورڈ پریس میں‌نصب کردہ پتے سے مختلف ہو تو اسے یہاں‌درج کریں. "
+
+#: wp-admin/options-general.php:34
+msgid "E-mail address:"
+msgstr "برقی پتہ:"
+
+#: wp-admin/options-general.php:37
+msgid "This address is used only for admin purposes."
+msgstr "یہ پتہ صرف انتظامی کاموں‌کے لیے مستعمل ہے."
+
+#: wp-admin/options-general.php:40
+msgid "Membership:"
+msgstr "صارفیت:"
+
+#: wp-admin/options-general.php:43
+msgid "Anyone can register"
+msgstr "کوئی بھی مندرج ہوسکتاہے"
+
+#: wp-admin/options-general.php:46
+msgid "Users must be registered and logged in to comment"
+msgstr "تبصرے کے لیے صارفین لازمًا مندرج اور دخول کریں۔"
+
+#: wp-admin/options-general.php:51
+msgid "New User Default Role:"
+msgstr "نیا صارفی طےشدہ کردار"
+
+#: wp-admin/options-general.php:63
+msgid "Date and Time"
+msgstr "وقت اور تاریخ"
+
+#: wp-admin/options-general.php:66
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is:"
+msgstr "<abbr title=\"آفاقی مربوط وقت\">UTC</abbr> یہ ہے:"
+
+#: wp-admin/options-general.php:70
+msgid "Times in the weblog should differ by:"
+msgstr "ویب‌لاگ‌وقت میں ضرور اتنا فرق ہونا چاہیے:"
+
+#: wp-admin/options-general.php:72
+msgid "hours"
+msgstr "گھنٹے"
+
+#: wp-admin/options-general.php:75
+msgid "Default date format:"
+msgstr "تاریخ کی طےشدہ بناوٹ:"
+
+#: wp-admin/options-general.php:77
+#: wp-admin/options-general.php:82
+msgid "Output:"
+msgstr "ماحصل:"
+
+#: wp-admin/options-general.php:80
+msgid "Default time format:"
+msgstr "وقت کی طےشدہ بناوٹ:"
+
+#: wp-admin/options-general.php:86
+msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>. Save option to update sample output."
+msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\"> تاریخ کی بناوٹ پر دستاویز یت</a>۔ نمونے کے ماحصل کو تازہ کرنے کے لیے انتخاب محفوظ کریں"
+
+#: wp-admin/options-general.php:89
+msgid "Weeks in the calendar should start on:"
+msgstr "کیلنڈر میں ہفتے ایسے شروع ہوں:"
+
+#: wp-admin/options-head.php:23
+msgid "Options saved."
+msgstr "انتخابات محفوظ:"
+
+#: wp-admin/options-misc.php:4
+#: wp-admin/options-misc.php:12
+msgid "Miscellaneous Options"
+msgstr "متفرق انتخابات:"
+
+#: wp-admin/options-misc.php:16
+msgid "Uploading"
+msgstr "چڑھانا زیرعمل(اپلوڈنگ)"
+
+#: wp-admin/options-misc.php:19
+msgid "Store uploads in this folder"
+msgstr "یہ فائل سٹور کریں:"
+
+#: wp-admin/options-misc.php:22
+msgid "Default is <code>wp-content/uploads</code>"
+msgstr "طےشدہ ہے <code>wp-content/uploads</code>"
+
+#: wp-admin/options-misc.php:30
+msgid "Organize my uploads into month- and year-based folders"
+msgstr "میرے چڑھاووں(اپلوڈز) کو مہینہ اور سال کے لحاظ سے مرتب فولڈروں میں رکھیں۔ "
+
+#: wp-admin/options-misc.php:38
+msgid "Track Links&#8217; Update Times"
+msgstr "روابط کی ٹریکنگ&#8217;وقت کی تازہ کاری"
+
+#: wp-admin/options-misc.php:40
+msgid "Use legacy <code>my-hacks.php</code> file support"
+msgstr "لیجیسی‌فائل<code>my-hacks.php</code>کی معاونت استعمال کریں"
+
+#: wp-admin/options-permalink.php:4
+msgid "Permalink Options"
+msgstr "مستقل‌ربط انتخابات"
+
+#: wp-admin/options-permalink.php:97
+msgid "Permalink structure updated."
+msgstr "مستقل‌روابط کا ڈھانچہ تازہ کردیا گیا."
+
+#: wp-admin/options-permalink.php:99
+msgid "You should update your .htaccess now."
+msgstr "اب آپ کو اپنی ایچ‌‌ٹی‌اے ایکسس تازہ کرنی چاہیے"
+
+#: wp-admin/options-permalink.php:104
+msgid "Customize Permalink Structure"
+msgstr "مستقل ربطی ڈھانچے کو کسٹمائز کریں"
+
+#: wp-admin/options-permalink.php:105
+msgid "By default WordPress uses web URIs which have question marks and lots of numbers in them, however WordPress offers you the ability to create a custom URI structure for your permalinks and archives. This can improve the aesthetics, usability, and forward-compatibility of your links. A <a href=\"http://codex.wordpress.org/Using_Permalinks\">number of tags are available</a>, and here are some examples to get you started."
+msgstr "عموماًورڈ پریس بہت زیادہ سوالیہ نشان اور نمبروں والی یوآرایل استعمال کرتا ہے تاہم ورڈ پریس یہ سہولت دیتا ہے کہ آپ اپنے محفوظات ‌اور مستقل روابط کا یوآرایل ڈھانچہ اپنی پسند کے مطابق بنا سکتے ہیں.یہ آپکے روابط کےعلم،استعمال اور دیرپا ہونے میں‌معاون ہوگا.<a href=\"http://codex.wordpress.org/Using_Permalinks\">کئی ٹیگ دستیاب ہیں</a> اور یہاں‌شروع کرنے کے لیے کچھ مزید نمونے بھی ہیں."
+
+#: wp-admin/options-permalink.php:121
+msgid "Common options:"
+msgstr "مشترک انتخابات:"
+
+#: wp-admin/options-permalink.php:131
+msgid "Date and name based"
+msgstr "بہ ترتیب وقت اور تاریخ"
+
+#: wp-admin/options-permalink.php:137
+msgid "Numeric"
+msgstr "عددی"
+
+#: wp-admin/options-permalink.php:147
+msgid "Custom, specify below"
+msgstr "صوابدیدی،نیچے بتائیں"
+
+#: wp-admin/options-permalink.php:151
+msgid "Custom structure"
+msgstr "صوابدیدی ڈھانچہ"
+
+#: wp-admin/options-permalink.php:153
+msgid "Optional"
+msgstr "اختیاری"
+
+#: wp-admin/options-permalink.php:155
+msgid "If you like, you may enter a custom prefix for your category URIs here. For example, <code>/taxonomy/tags</code> would make your category links like <code>http://example.org/taxonomy/tags/uncategorized/</code>. If you leave this blank the default will be used."
+msgstr "اگر چاہیں‌تو آپ پسندیدہ سابقہ اپنی یوآرایل کے زمرے کے لیے داخل کرسکتے ہیں.مثال کے طور پر<code>/taxonomy/categorias</code> آپ کے زمرےکے روابط کو<code>http://example.org/taxonomy/categorias/uncategorized/</code> جیسا بنا دے گا.اگر آپ اسے خالی چھوڑ دیں‌تو طےشدہ استعمال کیا جائے گا."
+
+#: wp-admin/options-permalink.php:157
+msgid "If you like, you may enter a custom prefix for your category URIs here. For example, <code>/index.php/taxonomy/tags</code> would make your category links like <code>http://example.org/index.php/taxonomy/tags/uncategorized/</code>. If you leave this blank the default will be used."
+msgstr "اگر چاہیں‌تو آپ پسندیدہ سابقہ اپنی یوآرایل کے زمرے کے لیے داخل کرسکتے ہیں.مثال کے طور پر<code>/taxonomy/categorias</code> آپ کے زمرےکے روابط کو<code>http://example.org/taxonomy/categorias/uncategorized/</code> جیسا بنا دے گا.اگر آپ اسے خالی چھوڑ دیں‌تو طےشدہ استعمال کیا جائے گا."
+
+#: wp-admin/options-permalink.php:160
+msgid "Category base"
+msgstr "بنیادِزمرہ"
+
+#: wp-admin/options-permalink.php:163
+msgid "Update Permalink Structure &raquo;"
+msgstr "مستقل روابط کا ڈھانچہ تازہ کریں&raquo;"
+
+#: wp-admin/options-permalink.php:167
+msgid "If your <code>.htaccess</code> file were <a href=\"http://codex.wordpress.org/Make_a_Directory_Writable\">writable</a>, we could do this automatically, but it isn&#8217;t so these are the mod_rewrite rules you should have in your <code>.htaccess</code> file. Click in the field and press <kbd>CTRL + a</kbd> to select all."
+msgstr "اگر آپ<code>.htaccess</code><a href=\"http://codex.wordpress.org/Make_a_Directory_Writable\">قابل لکھائی</a> ڈائرکٹری بنانا چاہتے ہیں‌تو ہم اسے خود کار انداز میں‌بھی بنا سکتے ہیں لیکن دوبارہ لکھنے کے قوانین آپ کی<code>.htaccess</code>فائل میں‌ہونگے.قطعے میں‌کلک کریں‌اور<kbd>CTRL + a</kbd> سب کو چننے کے لیے دبائیں."
+
+#: wp-admin/options.php:90
+msgid "All options"
+msgstr "تمام انتخابات"
+
+#: wp-admin/options.php:109
+msgid "Update Settings &raquo;"
+msgstr "تراتیب تازہ کریں&raquo;"
+
+#: wp-admin/options-reading.php:4
+#: wp-admin/options-reading.php:11
+msgid "Reading Options"
+msgstr "انتخاباتِ‌مطالعہ"
+
+#: wp-admin/options-reading.php:16
+msgid "Blog Pages"
+msgstr "صفحاتِ‌بلاگ"
+
+#: wp-admin/options-reading.php:19
+msgid "Show at most:"
+msgstr "تمام تر دکھائیں:"
+
+#: wp-admin/options-reading.php:23
+msgid "days"
+msgstr "ایام"
+
+#: wp-admin/options-reading.php:24
+#: wp-admin/options-reading.php:36
+msgid "posts"
+msgstr "تحاریر"
+
+#: wp-admin/options-reading.php:32
+msgid "Syndication Feeds"
+msgstr "مجلسی فیڈز"
+
+#: wp-admin/options-reading.php:35
+msgid "Show the most recent:"
+msgstr "تازہ ترین دکھائیں:"
+
+#: wp-admin/options-reading.php:39
+msgid "For each article, show:"
+msgstr "ہر کالم کے لیے،دکھائیں:"
+
+#: wp-admin/options-reading.php:41
+msgid "Full text"
+msgstr "تمام متن"
+
+#: wp-admin/options-reading.php:42
+msgid "Summary"
+msgstr "خلاصہ"
+
+#: wp-admin/options-reading.php:49
+msgid "Encoding for pages and feeds:"
+msgstr "فیڈ اور صفحات کے لیے رمزکاری:"
+
+#: wp-admin/options-reading.php:51
+msgid "The character encoding you write your blog in (UTF-8 is <a href=\"http://developer.apple.com/documentation/macos8/TextIntlSvcs/TextEncodingConversionManager/TEC1.5/TEC.b0.html\">recommended</a>)"
+msgstr "آُپ نے اپنے بلاگ کے لیے جو حرفی رمز کاری چنی وہ یوٹی‌ایف8 ہے. <a href=\"http://developer.apple.com/documentation/macos8/TextIntlSvcs/TextEncodingConversionManager/TEC1.5/TEC.b0.html\">سفارش کردہ</a>)"
+
+#: wp-admin/options-reading.php:56
+msgid "WordPress should compress articles (gzip) if browsers ask for them"
+msgstr "ورڈپریس کو براؤزر کے مطالبہ پر مختصر کردہ کالم(جی زپ میں) فراہم کرنے چاہییں"
+
+#: wp-admin/options-writing.php:4
+#: wp-admin/options-writing.php:11
+msgid "Writing Options"
+msgstr "لکھائی کے انتخابات"
+
+#: wp-admin/options-writing.php:16
+msgid "Size of the post box:"
+msgstr "تحریر بکس کا حجم:"
+
+#: wp-admin/options-writing.php:18
+msgid "lines"
+msgstr "سطور"
+
+#: wp-admin/options-writing.php:21
+msgid "Formatting:"
+msgstr "بناوٹ:"
+
+#: wp-admin/options-writing.php:25
+msgid "Users should use the visual rich editor by default"
+msgstr "صارفین کو طےشدہ طور پر مرئی متنوع مدوِن استعمال کرنا چاہیے"
+
+#: wp-admin/options-writing.php:28
+msgid "Convert emoticons like <code>:-)</code> and <code>:-P</code> to graphics on display"
+msgstr "جذبات جیسے<code>:-)</code>اور<code>:-P</code> کو دکھانے کے لیے گرافکس میں‌بدلیں."
+
+#: wp-admin/options-writing.php:29
+msgid "WordPress should correct invalidly nested XHTML automatically"
+msgstr "ورڈپریس کو غیرضروری طور پر موجود ایکس ایچ‌ٹی‌ایم‌ایل خودبخود ٹھیک کرنے چاہئیں."
+
+#: wp-admin/options-writing.php:33
+msgid "Default post category:"
+msgstr "طےشدہ زُمرہِ‌اشاعت:"
+
+#: wp-admin/options-writing.php:48
+msgid "Writing by e-mail"
+msgstr "برقیہ کے ذریعے لکھنا"
+
+#: wp-admin/options-writing.php:49
+#, php-format
+msgid "To post to WordPress by e-mail you must set up a secret e-mail account with POP3 access. Any mail received at this address will be posted, so it&#8217;s a good idea to keep this address very secret. Here are three random strings you could use: <code>%s</code>, <code>%s</code>, <code>%s</code>."
+msgstr "برقی سے تحریر بھیجنے کے لیے آپ کو ایک خفیہ پی-او-پی3 کھاتہ بنانا ہوگا.اس پتے پر موصول شدہ کوئی بھی برقی شائع کردی جائے گی. چناچہ &#8217; ایک پتے کو خفیہ رکھنے کے لیے اچھی ترکیب ہے.یہاں‌تین بے ترتیب دھاگے دیے گئے ہیں‌جو آپ استعال کر سکتے ہیں<code>%s</code>, <code>%s</code>, <code>%s</code>."
+
+#: wp-admin/options-writing.php:53
+msgid "Mail server:"
+msgstr "برقیہ‌ پیشکار:"
+
+#: wp-admin/options-writing.php:55
+msgid "Port:"
+msgstr "دھانہ:"
+
+#: wp-admin/options-writing.php:60
+msgid "Login name:"
+msgstr "دخولی نام:"
+
+#: wp-admin/options-writing.php:70
+msgid "Default post by mail category:"
+msgstr "برقیہ زمرے کی طےشدہ تحریر:"
+
+#: wp-admin/options-writing.php:86
+msgid "Update Services"
+msgstr "‌خدمات کی تازہ کاری"
+
+#: wp-admin/options-writing.php:87
+msgid "When you publish a new post, WordPress automatically notifies the following site update services. For more about this, see <a href=\"http://codex.wordpress.org/Update_Services\">Update Services</a> on the Codex. Separate multiple service URIs with line breaks."
+msgstr "جب آپ نئی تحریر شائع کریں ورڈپریس خودبخود مندرجہ ذیل سائٹس کی تازہ‌خدمات کو مطلع کردیتا ہے.مزید معلومات کے لیےدیکھیے<a href=\"http://codex.wordpress.org/Update_Services\">تازہ خدمات</a> کوڈیکس میں.مختلف کثیر خدمات کی یوآرایل لائن بریک کے ساتھ."
+
+#: wp-admin/page-new.php:3
+msgid "New Page"
+msgstr "نیا صفحہ"
+
+#: wp-admin/page-new.php:10
+msgid "Page saved."
+msgstr "صفحہ محفوظ"
+
+#: wp-admin/page-new.php:10
+msgid "Manage pages"
+msgstr "صفحات کا انتظام"
+
+#: wp-admin/plugin-editor.php:4
+msgid "Edit Plugins"
+msgstr " دخیلے مدوَن کریں"
+
+#: wp-admin/plugin-editor.php:40
+#: wp-admin/templates.php:42
+#: wp-admin/templates.php:67
+#: wp-admin/theme-editor.php:53
+msgid "You have do not have sufficient permissions to edit templates for this blog."
+msgstr "<p>اس بلاگ کے سانچے کی تدوین کے لیے آپ کے پاس مناسب اجازت موجود نہیں.</p>"
+
+#: wp-admin/plugin-editor.php:60
+msgid "You have do not have sufficient permissions to edit plugins for this blog."
+msgstr "<p>اس بلاگ کے دخیلے مدون کرنے کیلیے آپ کے پاس مناسب اجازت موجود نہیں.</p>"
+
+#: wp-admin/plugin-editor.php:75
+#: wp-admin/templates.php:92
+#: wp-admin/theme-editor.php:89
+msgid "File edited successfully."
+msgstr "فائل کامیابی سے مدوَن کرلی گئی."
+
+#: wp-admin/plugin-editor.php:80
+#: wp-admin/templates.php:98
+#, php-format
+msgid "Editing <strong>%s</strong>"
+msgstr "تدوین<strong>%s</strong>"
+
+#: wp-admin/plugin-editor.php:82
+#: wp-admin/templates.php:100
+#, php-format
+msgid "Browsing <strong>%s</strong>"
+msgstr "براؤزنگ<strong>%s</strong>"
+
+#: wp-admin/plugin-editor.php:86
+msgid "Plugin files"
+msgstr "دخیلہ جاتی فائلیں"
+
+#: wp-admin/plugin-editor.php:108
+#: wp-admin/templates.php:139
+#: wp-admin/theme-editor.php:143
+msgid "Update File"
+msgstr "فائلیں تازہ کریں"
+
+#: wp-admin/plugin-editor.php:112
+#: wp-admin/templates.php:143
+#: wp-admin/theme-editor.php:147
+msgid "If this file were writable you could edit it."
+msgstr "اگر یہ فائل قابل تحریرہےتو آپ اسے مدوَن کرسکتے ."
+
+#: wp-admin/plugin-editor.php:117
+#: wp-admin/templates.php:148
+#: wp-admin/theme-editor.php:152
+msgid "Oops, no such file exists! Double check the name and try again, merci."
+msgstr "اوہ،ایسی کوئی فائل موجود نہیں.نام کو دوبارہ دیکھیں اور پھر سے کوشش کریں.معذرت!"
+
+#: wp-admin/plugins.php:27
+msgid "Manage Plugins"
+msgstr "دخیلے منظم کریں"
+
+#: wp-admin/plugins.php:57
+msgid "Plugin <strong>activated</strong>."
+msgstr "دخیلے <strong>فعال شدہ</strong>."
+
+#: wp-admin/plugins.php:61
+msgid "Plugin <strong>deactivated</strong>."
+msgstr "دخیلے<strong>غیر فعال شدہ</strong>."
+
+#: wp-admin/plugins.php:66
+msgid "Plugin Management"
+msgstr "دخیلہ جاتی انتظام"
+
+#: wp-admin/plugins.php:67
+msgid "Plugins extend and expand the functionality of WordPress. Once a plugin is installed, you may activate it or deactivate it here."
+msgstr "دخیلے ورڈپریس کی کارکردگی کو بڑھاتے اور پھیلاتے ہیں۔ ایک بار دخیلے کی تنصیب کے بعد آپ اسے فعال یا غیر فعال کرسکتے ہیں۔"
+
+#: wp-admin/plugins.php:77
+msgid "Couldn't open plugins directory or there are no plugins available."
+msgstr "<p>دخیلوں کی ڈائرکٹری کھل نہیں ‌رہی یا وہاں‌کوئی دخیلے دستیاب نہیں</p>"
+
+#: wp-admin/plugins.php:83
+msgid "Plugin"
+msgstr "دخیلہ"
+
+#: wp-admin/plugins.php:84
+msgid "Version"
+msgstr "ورژن"
+
+#: wp-admin/plugins.php:101
+msgid "Deactivate this plugin"
+msgstr "دخیلہ غیر فعال کریں"
+
+#: wp-admin/plugins.php:101
+msgid "Deactivate"
+msgstr "غیر فعال"
+
+#: wp-admin/plugins.php:105
+msgid "Activate this plugin"
+msgstr "اس دخیلے کو فعال کریں"
+
+#: wp-admin/plugins.php:105
+msgid "Activate"
+msgstr "فعال کریں"
+
+#: wp-admin/plugins.php:113
+#, php-format
+msgid "By %s"
+msgstr "بذریعہ %s"
+
+#: wp-admin/plugins.php:124
+msgid "If something goes wrong with a plugin and you can&#8217;t use WordPress, delete or rename that file in the <code>wp-content/plugins</code> directory and it will be automatically deactivated."
+msgstr "اگر دخیلے کے ساتھ کچھ غلط ہو تو آپ ورڈ پریس استعمال نہیں کرسکتے،اس فائل کو<code>wp-content/plugins</code> ڈائرکٹری سے ختم کردیں یا اس کا نام بدل دیں اور یہ خود کار انداز میں غیر فعال ہوجائے گی۔ "
+
+#: wp-admin/plugins.php:126
+msgid "Get More Plugins"
+msgstr "مزید دخیلے حاصل کریں"
+
+#: wp-admin/plugins.php:127
+msgid "You can find additional plugins for your site in the <a href=\"http://wordpress.org/extend/plugins/\">WordPress plugin directory</a>. To install a plugin you generally just need to upload the plugin file into your <code>wp-content/plugins</code> directory. Once a plugin is uploaded, you may activate it here."
+msgstr "حلیے عمومی طور پر ورڈپریس سے علیحدہ اتارے جاتے ہیں.حلیے کی تنصیب کیلیے آپ کو عمومًا <code>wp-content/themes</code> ڈائرکٹری میں‌ فائلیں‌رکھنا پڑتی ہیں.جب ایک حلیہ نصب ہوجائے تو آپ اسے یہاں‌سے چن سکتےہیں."
+
+#: wp-admin/post.php:83
+msgid "Post Preview (updated when post is saved)"
+msgstr "تحریر کا پیش‌منظر (تحریر محفوظ کرتے وقت تازہ کیا گیا)"
+
+#: wp-admin/post.php:83
+msgid "edit &uarr;"
+msgstr "مدوَن&uarr;"
+
+#: wp-admin/post.php:146
+msgid "You are not allowed to delete this post."
+msgstr "اس تحریر کو ختم کرنے کا اختیار آپ کے پاس نہیں."
+
+#: wp-admin/post.php:150
+#: wp-admin/post.php:153
+msgid "Error in deleting..."
+msgstr "ختم کرنے میں‌غلطی..."
+
+#: wp-admin/post.php:173
+#: wp-admin/post.php:192
+#: wp-admin/post.php:235
+#: wp-admin/post.php:263
+#: wp-admin/post.php:283
+#: wp-admin/post.php:310
+#, php-format
+msgid "Oops, no comment with this ID. <a href=\"%s\">Go back</a>!"
+msgstr "اوہ،اس شناخت کے ساتھ کوئی تبصرہ نہیں. <a href=\"%s\">پیچھے جائیں</a>!"
+
+#: wp-admin/post.php:176
+#: wp-admin/post.php:238
+msgid "You are not allowed to edit comments on this post."
+msgstr "اس تحریر پر تبصرے تدوین کرنے کا آپ کو اختیار نہیں."
+
+#: wp-admin/post.php:195
+msgid "You are not allowed to delete comments on this post."
+msgstr "اس تحریر پر تبصرے ختم کرنے کا آپ کو اختیار نہیں."
+
+#: wp-admin/post.php:198
+msgid "<strong>Caution:</strong> You are about to delete the following comment:"
+msgstr "<strong>اشارہ:</strong>آپ اس تبصرے کو ختم کرنے چلے ہیں:"
+
+#: wp-admin/post.php:200
+msgid "Author:"
+msgstr "مصنف:"
+
+#: wp-admin/post.php:202
+msgid "URL:"
+msgstr "یو آرایل:"
+
+#: wp-admin/post.php:203
+msgid "Comment:"
+msgstr "تبصرہ:"
+
+#: wp-admin/post.php:205
+msgid "Are you sure you want to do that?"
+msgstr "کیا آپ واقعی یہ کرنا چاہتےہیں؟"
+
+#: wp-admin/post.php:232
+#, php-format
+msgid "Oops, no post with this ID. <a href=\"%s\">Go back</a>!"
+msgstr "اوہ،اس شناخت کے ساتھ کوئی تحریر نہیں. <a href=\"%s\">پیچھے جائیں</a>!"
+
+#: wp-admin/post.php:266
+msgid "You are not allowed to edit comments on this post, so you cannot disapprove this comment."
+msgstr "آپ کو اس تحریر پر تبصرے مدوِن کرنے کی اجازت نہیں چناچہ آپ اس تبصرے کو نامنظور نہیں کرسکتے."
+
+#: wp-admin/post.php:286
+#: wp-admin/post.php:313
+msgid "You are not allowed to edit comments on this post, so you cannot approve this comment."
+msgstr "آپ کو اس تحریر پر تبصرے مدون کرنے کی اجازت نہیں اس لیے آپ اس تبصرے کو منظور نہیں‌کرسکتے."
+
+#: wp-admin/post.php:348
+msgid "Create New Post"
+msgstr "نئی تحریر تخلیق کریں"
+
+#: wp-admin/post.php:352
+#, php-format
+msgid "Post saved. <a href=\"%s\">View site &raquo;</a>"
+msgstr "تحریر محفوظ۔ <a href=\"%s\">View site »</a>"
+
+#: wp-admin/post.php:371
+#, php-format
+msgid "Post # %s"
+msgstr "تحریر # %s"
+
+#: wp-admin/post.php:376
+#, php-format
+msgid "and %s more"
+msgstr "اور %s مزید"
+
+#: wp-admin/post.php:388
+msgid "WordPress bookmarklet"
+msgstr "ورڈ پریس بوکمارکلیٹ"
+
+#: wp-admin/post.php:389
+msgid "Right click on the following link and choose \"Add to favorites\" to create a posting shortcut."
+msgstr "دیے گئے ربط پر کلک کرکے \"Add to favorites\" کا انتخاب کریں تاکہ تحریر کا تیزراہ بنایا جاسکے۔"
+
+#: wp-admin/post.php:395
+#, php-format
+msgid "Press It - %s"
+msgstr "اسے دبائیں- %s"
+
+#: wp-admin/post.php:399
+#: wp-admin/post.php:414
+#: wp-admin/post.php:418
+#, php-format
+msgid "Press it - %s"
+msgstr "اسے دبائیں- %s"
+
+#: wp-admin/post.php:409
+msgid "One-click bookmarklet:"
+msgstr "ایک-کلک بوکمارکلٹ"
+
+#: wp-admin/post.php:410
+msgid "click here"
+msgstr "یہاں‌کلک کریں"
+
+#: wp-admin/post.php:428
+#, php-format
+msgid ""
+"Since you&#8217;re a newcomer, you&#8217;ll have to wait for an admin to raise your level to 1, in order to be authorized to post.<br />\n"
+"You can also <a href=\"mailto:%s?subject=Promotion?\">e-mail the admin</a> to ask for a promotion.<br />\n"
+"When you&#8217;re promoted, just reload this page and you&#8217;ll be able to blog. :)"
+msgstr ""
+"چونکہ آپ نئے ساتھی ہیں.آپ کو کسی منتظم کی طرف سے اپنے درجے کی ترقی کا انتظار کرنا ہوگا اس تحریر پر اجازت یافتہ ہونے کےلیے.<br />\n"
+"آپ <a href=\"mailto:%s?subject=Promotion?\">منتظم کو برقیہ‌</a> کرکے ترقی کا کہہ سکتے ہیں.\n"
+"جب آپ کی ترقی ہو جائے تو صرف اس صفحے کو دوبارہ چلالیں آپ بلاگ کرنے کے قابل ہونگے:)."
+
+#: wp-admin/profile.php:15
+msgid "Profile updated."
+msgstr "ذاتی‌تعارف تازہ ہوگیا."
+
+#: wp-admin/profile.php:20
+msgid "Your Profile and Personal Options"
+msgstr "آپ کے ذاتی‌تعارف اور ذاتی انتخابات"
+
+#: wp-admin/profile.php:30
+#: wp-admin/user-edit.php:84
+msgid "Username: (no editing)"
+msgstr "اسم صارف(تدوین نہیں)"
+
+#: wp-admin/profile.php:34
+#: wp-admin/user-edit.php:99
+msgid "First name:"
+msgstr "پہلا نام:"
+
+#: wp-admin/profile.php:37
+#: wp-admin/user-edit.php:102
+msgid "Last name:"
+msgstr "آخری نام:"
+
+#: wp-admin/profile.php:40
+#: wp-admin/user-edit.php:105
+msgid "Nickname:"
+msgstr "عرفیت:"
+
+#: wp-admin/profile.php:43
+#: wp-admin/user-edit.php:108
+msgid "Display name publicly as:"
+msgstr "عوامی طور پر نام کو دکھائیں بطور"
+
+#: wp-admin/profile.php:62
+#: wp-admin/user-edit.php:127
+msgid "Contact Info"
+msgstr "تفاصیل رابطہ"
+
+#: wp-admin/profile.php:64
+#: wp-admin/user-edit.php:129
+msgid "E-mail: (required)"
+msgstr "برقی پتہ: (درکار)"
+
+#: wp-admin/profile.php:67
+#: wp-admin/user-edit.php:132
+msgid "Website:"
+msgstr "ویب سائٹ:"
+
+#: wp-admin/profile.php:71
+#: wp-admin/user-edit.php:136
+msgid "AIM:"
+msgstr "اے‌آئی‌ایم:"
+
+#: wp-admin/profile.php:75
+#: wp-admin/user-edit.php:140
+msgid "Yahoo IM:"
+msgstr "یاہو‌ ف‌پ(فوری پیغامبر):"
+
+#: wp-admin/profile.php:79
+#: wp-admin/user-edit.php:144
+msgid "Jabber / Google Talk:"
+msgstr "جےبر/گوگل ٹاک"
+
+#: wp-admin/profile.php:85
+msgid "About yourself"
+msgstr "آپ کی بابت"
+
+#: wp-admin/profile.php:86
+#: wp-admin/user-edit.php:151
+msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
+msgstr "اپنی ذات کے بارے میں کچھ اپنی ذاتی‌تعارف کو پر کرنے کے لیے لکھیں۔اسے عوامی طور پر دکھایا جاسکتا ہے۔"
+
+#: wp-admin/profile.php:95
+msgid "Update Your Password"
+msgstr "اپناکلمہ شناخت تازہ کریں"
+
+#: wp-admin/profile.php:96
+msgid "If you would like to change your password type a new one twice below. Otherwise leave this blank."
+msgstr "اگر آپ اپنا کلمہءِشناخت تبدیل کرنا چاہتے ہیں تو نئے والے کو ذیل میں دو بار لکھیں۔ورنہ اسے خالی چھوڑ دیں۔"
+
+#: wp-admin/profile.php:97
+#: wp-admin/user-edit.php:162
+msgid "New Password:"
+msgstr "نیا کلمہءِ‌شناخت:"
+
+#: wp-admin/profile.php:100
+#: wp-admin/user-edit.php:165
+msgid "Type it one more time:"
+msgstr "اسے ایک مرتبہ مزید لکھیں"
+
+#: wp-admin/profile.php:110
+msgid "Personal Options"
+msgstr "ذاتی انتخابات"
+
+#: wp-admin/profile.php:113
+msgid "Use the visual rich editor when writing"
+msgstr "لکھتے ہوئے مرئی متنوِع مدوِن استعمال کریں"
+
+#: wp-admin/profile.php:122
+#: wp-admin/user-edit.php:179
+msgid "Additional Capabilities:"
+msgstr "مزید قابلیتیں:"
+
+#: wp-admin/profile.php:139
+msgid "Update Profile &raquo;"
+msgstr "ذاتی‌تعارف تازہ کریں »"
+
+#: wp-admin/profile-update.php:8
+msgid "No post?"
+msgstr "کوئی تحریر نہیں؟"
+
+#: wp-admin/templates.php:3
+msgid "Template &amp; File Editing"
+msgstr "سانچہ اور فائل کی تدوین"
+
+#: wp-admin/templates.php:70
+msgid "The config file cannot be edited or viewed through the web interface. Sorry!"
+msgstr "<p>وضعی فائل ویب مواجے سے مدوَن یادیکھی نہیں جاسکتی.معذرت!</p>"
+
+#: wp-admin/templates.php:90
+msgid "Could not save file."
+msgstr "فائل محفوظ نہیں ہوسکی"
+
+#: wp-admin/templates.php:107
+msgid "Recent"
+msgstr "حالیہ"
+
+#: wp-admin/templates.php:116
+msgid "Common"
+msgstr "عام"
+
+#: wp-admin/templates.php:154
+msgid "Other Files"
+msgstr "دیگر فائلیں"
+
+#: wp-admin/templates.php:156
+msgid "To edit a file, type its name here. You can edit any file <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" title=\"Read more about making files writable\">writable by the server</a>, e.g. CHMOD 666."
+msgstr "فائل کی تدوین کا لیے اس کانام یہاں‌لکھیں.آپ کوئی بھی فائل مدوَن کرسکتے ہیں <a href=\"http://wiki.wordpress.org/index.php/MakeWritable\" title=\"فائلوں کو قابلِ تحریر بنانے کیلیے مزید پڑھیں\">پیشکار سے قابل تحریر</a>، جیسے.CHMOD 666"
+
+#: wp-admin/templates.php:159
+msgid "Edit file &raquo;"
+msgstr "مدوَن ‌فائل »"
+
+#: wp-admin/templates.php:162
+msgid "Note: of course, you can also edit the files/templates in your text editor of choice and upload them. This online editor is only meant to be used when you don&#8217;t have access to a text editor or FTP client."
+msgstr "نوٹ: بالکل،آپ فائلوں یا سانچے کو اپنی مرضی کے عبارتی مدوِن میں مدوَن کرکے چڑھا سکتے ہیں۔یہ آن‌لائن مدوِن صرف اس لیے ہے جب آپ کی رسائی کسی عبارتی مدوِن یا ایف ٹی پی موکل تک نہیں"
+
+#: wp-admin/theme-editor.php:4
+msgid "Edit Themes"
+msgstr "حلیہ جاتی تدوین"
+
+#: wp-admin/theme-editor.php:33
+msgid "The requested theme does not exist."
+msgstr " درخواست کیا گیا حلیہ(تھیم) وجود نہیں رکھتا"
+
+#: wp-admin/theme-editor.php:74
+msgid "You have do not have sufficient permissions to edit themes for this blog."
+msgstr "<p> آپ کے پاس اس بلاگ پر حلیوں کو مدوَن کرنے کے لیے مناسب اجازت نہیں.</p>"
+
+#: wp-admin/theme-editor.php:93
+msgid "Select theme to edit:"
+msgstr "تدوین کےلیے حلیہ(تھیم) چنیں:"
+
+#: wp-admin/theme-editor.php:105
+msgid "Select"
+msgstr "چنیں:"
+
+#: wp-admin/theme-editor.php:112
+#, php-format
+msgid "Editing <code>%s</code>"
+msgstr "تدوین<code>%s</code>"
+
+#: wp-admin/theme-editor.php:114
+#, php-format
+msgid "Browsing <code>%s</code>"
+msgstr "براؤزنگ<code>%s</code>"
+
+#: wp-admin/theme-editor.php:118
+#, php-format
+msgid "<strong>'%s'</strong> theme files"
+msgstr "<strong>'%s'</strong>حلیہ(تھیم) فائلیں"
+
+#: wp-admin/themes.php:21
+msgid "Manage Themes"
+msgstr "حلیےمنظم کریں"
+
+#: wp-admin/themes.php:27
+msgid "The active theme is broken.  Reverting to the default theme."
+msgstr "فعال حلیہ خراب. طےشدہ کی طرف واپسی"
+
+#: wp-admin/themes.php:29
+#, php-format
+msgid "New theme activated. <a href=\"%s\">View site &raquo;</a>"
+msgstr "نیا حلیہ(تھیم) فعال<a href=\"%s\">سائٹ دیکھیں &raquo;</a>"
+
+#: wp-admin/themes.php:38
+msgid "Current Theme"
+msgstr "موجودہ حلیہ(‌تھیم)"
+
+#: wp-admin/themes.php:41
+msgid "Current theme preview"
+msgstr "موجودہ‌ حلیے کا پیش منظر"
+
+#: wp-admin/themes.php:43
+#, php-format
+msgid "%1$s %2$s by %3$s"
+msgstr "%1$s %2$sبذریعہ%3$s"
+
+#: wp-admin/themes.php:46
+#, php-format
+msgid "The template files are located in <code>%2$s</code>.  The stylesheet files are located in <code>%3$s</code>.  <strong>%4$s</strong> uses templates from <strong>%5$s</strong>.  Changes made to the templates will affect both themes."
+msgstr "سانچہ فائلوں کا محل‌وقوع<code>%2$s</code> ہے.سٹائل‌شیٹ‌ فائلوں کا محل‌وقوع<code>%3$s</code>ہے. <strong>%4$s</strong>کے سانچہ استعمال کرنے کی جگہ <strong>%5$s</strong>ہے.سانچہ میں‌کی گئی تبدیلیاں دونوں‌ حلیوں(تھیمز) پر اثرانداز ہونگی."
+
+#: wp-admin/themes.php:48
+#, php-format
+msgid "All of this theme&#8217;s files are located in <code>%2$s</code>."
+msgstr "اس حلیے(تھیم) کی تمام فائلوں کا محل وقوع<code>%2$s</code> "
+
+#: wp-admin/themes.php:52
+msgid "Available Themes"
+msgstr "دستیاب حلیے"
+
+#: wp-admin/themes.php:95
+msgid "Broken Themes"
+msgstr "شکستہ حلیے"
+
+#: wp-admin/themes.php:96
+msgid "The following themes are installed but incomplete.  Themes must have a stylesheet and a template."
+msgstr "مندرجہ ذیل حلیے نصب شدہ مگر ادھورے ہیں۔حلیے میں‌ سٹائل‌شیٹ اور سانچہ ضرور ہونا چاہیے."
+
+#: wp-admin/themes.php:126
+msgid "Get More Themes"
+msgstr "مزید حلیے حاصل کریں"
+
+#: wp-admin/themes.php:127
+msgid "You can find additional themes for your site in the <a href=\"http://wordpress.org/extend/themes/\">WordPress theme directory</a>. To install a theme you generally just need to upload the theme folder into your <code>wp-content/themes</code> directory. Once a theme is uploaded, you should see it on this page."
+msgstr "آپ اضافی حلیے اس سائٹ<a href=\"http://wordpress.org/extend/themes/\">ورڈپریس حلیہ(تھیم) ڈائرکٹری</a> سے ڈھونڈ سکتے ہیں۔ایک حلیے کو نصب کرنے کے لیے آپ کو عمومًا حلیہ فولڈر <code>wp-content/themes</code> ڈائرکٹری میں چڑھانا پڑتا ہے۔جب ایک بار حلیہ چڑھ گیا،اسے صفحے پر آپ کو نظر آنا چاہیے"
+
+#: wp-admin/update-links.php:6
+msgid "Feature disabled."
+msgstr "خوبی معطل"
+
+#: wp-admin/upgrade.php:72
+msgid "This file upgrades you from any previous version of WordPress to the latest. It may take a while though, so be patient."
+msgstr "یہ فائل ورڈپریس کے کسی بھی پرانے ورژن  کی جگہ نیا ورژن نصب کردے گی. مگر یہ کچھ وقت لے سکتی ہے،چناچہ صبر سے بیٹھیں."
+
+#: wp-admin/upgrade.php:73
+msgid "Upgrade WordPress &raquo;"
+msgstr ")ترقیِ‌درجہ ورڈپریس&raquo;"
+
+#: wp-admin/upgrade.php:91
+msgid "Step 1"
+msgstr "پہلا1 قدم"
+
+#: wp-admin/upgrade.php:92
+#, php-format
+msgid "There's actually only one step. So if you see this, you're done. <a href='%s'>Have fun</a>!"
+msgstr "اصل میں‌یہاں‌صرف ایک قدم ہے.چناچہ اگر آپ نے یہ دیکھ لیا سمجھیں‌ کام ہوگیا<a href='%s'>موج کریں</a>!."
+
+#: wp-admin/upgrade.php:96
+#, php-format
+msgid "%s queries"
+msgstr "%sاستفسارات(کیوریز)"
+
+#: wp-admin/upgrade-schema.php:157
+msgid "WordPress web address"
+msgstr "ورڈپریس ویب پتہ"
+
+#: wp-admin/upgrade-schema.php:158
+msgid "My Weblog"
+msgstr "میرا ویب‌لاگ"
+
+#: wp-admin/upgrade-schema.php:158
+msgid "Blog title"
+msgstr "بلاگ کا عنوان"
+
+#: wp-admin/upgrade-schema.php:159
+msgid "Just another WordPress weblog"
+msgstr "یونہی ایک اور ورڈپریس ویب‌لاگ"
+
+#: wp-admin/upgrade-schema.php:159
+msgid "Short tagline"
+msgstr "مختصر ٹیگ‌لائن"
+
+#: wp-admin/upgrade-schema.php:182
+msgid "F j, Y"
+msgstr "ایف جے،وائی(F j, Y)"
+
+#: wp-admin/upgrade-schema.php:183
+msgid "g:i a"
+msgstr "جی: آئی اے(g:i a)"
+
+#: wp-admin/upgrade-schema.php:184
+msgid "F j, Y g:i a"
+msgstr "F j, Y g:i a"
+
+#: wp-admin/upgrade-schema.php:205
+msgid "Posts by email go to this category"
+msgstr "تحاریر‌بذریعہ برقیہ اس زمرے میں‌جاتی ہیں"
+
+#: wp-admin/upgrade-schema.php:257
+msgid "Administrator"
+msgstr "منتظم"
+
+#: wp-admin/upgrade-schema.php:258
+msgid "Editor"
+msgstr "مدوِن"
+
+#: wp-admin/upgrade-schema.php:260
+msgid "Contributor"
+msgstr "شریک کار"
+
+#: wp-admin/upgrade-schema.php:261
+msgid "Subscriber"
+msgstr "سبسکرائبر"
+
+#: wp-admin/user-edit.php:4
+#: wp-admin/user-edit.php:73
+msgid "Edit User"
+msgstr "صارف کی تدوین کریں"
+
+#: wp-admin/user-edit.php:40
+#: wp-admin/user-edit.php:54
+msgid "You do not have permission to edit this user."
+msgstr "اس صارف کو مدون کرنے کا آپ کو اختیار نہیں."
+
+#: wp-admin/user-edit.php:59
+msgid "User updated."
+msgstr "  صارف تازہ ہوگیا."
+
+#: wp-admin/user-edit.php:88
+msgid "Role:"
+msgstr "کردار:"
+
+#: wp-admin/user-edit.php:150
+msgid "About the user"
+msgstr "صارف کی بابت"
+
+#: wp-admin/user-edit.php:160
+msgid "Update User's Password"
+msgstr "تازہ کاری کلمہءِ شناخت از صارف &raquo;"
+
+#: wp-admin/user-edit.php:161
+msgid "If you would like to change the user's password type a new one twice below. Otherwise leave this blank."
+msgstr "اگر آپ صارف کا کلمہءِشناخت بدلنا چاہیں،نیا کلمہءِشناخت ذیل میں دو بار لکھیں۔ورنہ اسے خالی چھوڑ دیں۔"
+
+#: wp-admin/user-edit.php:198
+msgid "Update User &raquo;"
+msgstr "تازہ کاری صارف &raquo;"
+
+#: wp-admin/users.php:21
+msgid "You can&#8217;t edit users."
+msgstr "آپ صارفین کو مدوَن کرسکتے ہیں۔"
+
+#: wp-admin/users.php:49
+#: wp-admin/users.php:81
+msgid "You can&#8217;t delete users."
+msgstr "آپ صارفین کو ختم کرسکتے ہیں۔"
+
+#: wp-admin/users.php:90
+msgid "Delete Users"
+msgstr "صارفین ختم کیجئیے"
+
+#: wp-admin/users.php:91
+msgid "You have specified these users for deletion:"
+msgstr "آپ نے ان صارفین کو مٹانے کے لیے نامزد کیا ہے:"
+
+#: wp-admin/users.php:98
+#, php-format
+msgid "ID #%1s: %2s <strong>The current user will not be deleted.</strong>"
+msgstr "شناخت #%1s: %2s <strong> موجودہ صارف ختم نہیں کیا جائے گا</strong>"
+
+#: wp-admin/users.php:100
+#, php-format
+msgid "ID #%1s: %2s"
+msgstr "شناخت #%1s: %2s"
+
+#: wp-admin/users.php:115
+msgid "What should be done with posts and links owned by this user?"
+msgstr "اس صارف کی ملکیت میں موجود روابط اور تحاریر کا کیا بنے گا؟"
+
+#: wp-admin/users.php:118
+msgid "Delete all posts and links."
+msgstr "تمام تحاریر اور روابط ختم کریں۔"
+
+#: wp-admin/users.php:120
+msgid "Attribute all posts and links to:"
+msgstr "تمام تحاریر اور روابط کو منسوب کریں از:"
+
+#: wp-admin/users.php:123
+msgid "Confirm Deletion"
+msgstr "مٹانے کی تصدیق کریں"
+
+#: wp-admin/users.php:125
+msgid "There are no valid users selected for deletion."
+msgstr " مٹانے کے لیے ٹھیک صارفین نہیں چنے گئے۔"
+
+#: wp-admin/users.php:163
+msgid "User deleted."
+msgstr "صارف مٹا دیا گیا."
+
+#: wp-admin/users.php:168
+msgid "New user created."
+msgstr "نیا صارف تخلیق"
+
+#: wp-admin/users.php:173
+msgid "Changed roles."
+msgstr "کردار بدلیں"
+
+#: wp-admin/users.php:178
+msgid "The current user's role must have user editing capabilities."
+msgstr "اس صارف کے کردار میں صارفی تدوین کی قابلیتیں ہونی چاہئیں۔"
+
+#: wp-admin/users.php:179
+msgid "Other user roles have been changed."
+msgstr "دوسرے صارفی کردار بدل دیے گئے۔"
+
+#: wp-admin/users.php:184
+msgid "You can't delete the current user."
+msgstr "اس صارف کو آپ ختم نہیں کرسکتے۔"
+
+#: wp-admin/users.php:185
+msgid "Other users have been deleted."
+msgstr "دوسرے صارفین ختم کردیے گئے ہیں۔"
+
+#: wp-admin/users.php:205
+msgid "User List by Role"
+msgstr "فہرست صارفین بترتیب کردار"
+
+#: wp-admin/users.php:222
+#: wp-admin/users.php:304
+msgid "Website"
+msgstr "ویب‌سائٹ"
+
+#: wp-admin/users.php:239
+msgid "View posts"
+msgstr "تحاریر دیکھیں"
+
+#: wp-admin/users.php:245
+#, php-format
+msgid "e-mail: %s"
+msgstr "برقی پتہ: %s"
+
+#: wp-admin/users.php:264
+msgid "Update Users"
+msgstr "صارفین تازہ کریں"
+
+#: wp-admin/users.php:273
+msgid "Delete checked users."
+msgstr "نشان‌زد صارفین ختم کیجیے"
+
+#: wp-admin/users.php:274
+msgid "Set the Role of checked users to:"
+msgstr "نشان‌زد صارفین کو کردار تفویض کریں: "
+
+#: wp-admin/users.php:276
+msgid "Update &raquo;"
+msgstr "تازہ کاری &raquo;"
+
+#: wp-admin/users.php:281
+msgid "Add New User"
+msgstr "نیا صارف شامل کریں"
+
+#: wp-admin/users.php:282
+#, php-format
+msgid "Users can <a href=\"%1$s\">register themselves</a> or you can manually create users here."
+msgstr "<p>صارفین  <a href=\"%s/wp-register.php\">خودکو یہاں مندرج کرسکتے ہیں</a> یا آپ ہاتھ سے صارف یہاں‌تخلیق کرسکتے ہیں.</p>"
+
+#: wp-admin/users.php:287
+msgid "Nickname"
+msgstr "عرفیت"
+
+#: wp-admin/users.php:292
+msgid "First Name"
+msgstr "پہلا نام"
+
+#: wp-admin/users.php:296
+msgid "Last Name"
+msgstr "آخری نام"
+
+#: wp-admin/users.php:312
+msgid "Password (twice)"
+msgstr "کلمہِ‌شناخت(دوبار)"
+
+#: wp-admin/users.php:320
+msgid "Add User"
+msgstr "صارف شامل کریں"
+
+#: wp-admin/import/blogger.php:10
+msgid "Import Blogger"
+msgstr "بلاگر سے درآمد"
+
+#: wp-admin/import/blogger.php:11
+msgid "Howdy! This importer allows you to import posts and comments from your Blogger account into your WordPress blog."
+msgstr "جناب!یہ درآمد کنندہ آپ کے بلاگر کھاتے سے تحاریر اور تبصروں کو موجودہ ورڈپریس بلاگ میں درآمد کرنے کی اجازت دیتا ہے۔"
+
+#: wp-admin/import/blogger.php:13
+msgid "This will delete everything saved by the Blogger importer except your posts and comments. Are you sure you want to do this?"
+msgstr "اس سے بلاگر درآمد کنندہ کی طرف سے محفوظ کی گئی تمام تحاریر اور تبصرے ختم ہوجائیں گے۔کیا آپ واقعی یہ کرنا چاہتے ہیں؟"
+
+#: wp-admin/import/blogger.php:14
+msgid "Reset this importer"
+msgstr "اس درآمد کنندہ کو دوبارہ ٹھیک کریں۔"
+
+#: wp-admin/import/blogger.php:15
+msgid "Your web server is not properly configured to use this importer. Please enable the CURL extension for PHP and then reload this page."
+msgstr "آپ کا ویب پیشکار اس درآمد کنندہ کو استعمال کرنے کے لیے مناسب طور پر تیار(وضع) نہیں کیا گیا۔براہ مہربانی پی ایچ پی کے لیے کرل(CURL)  اضافت کی اجازت دیں اور اس صفحے کو دوبارہ لوڈ کریں۔"
+
+#: wp-admin/import/blogger.php:66
+msgid "Log in to Blogger"
+msgstr "دخول از بلاگر"
+
+#: wp-admin/import/blogger.php:67
+msgid "Start"
+msgstr "شروع"
+
+#: wp-admin/import/blogger.php:151
+msgid "Selecting a Blog"
+msgstr "بلاگ کا انتخاب زیر عمل"
+
+#: wp-admin/import/blogger.php:197
+msgid "Moving on..."
+msgstr "چل رہے ہیں۔۔"
+
+#: wp-admin/import/blogger.php:203
+msgid "Trying again..."
+msgstr "دوبارہ کوشش کررہے ہیں۔۔"
+
+#: wp-admin/import/blogger.php:225
+msgid "The script will log into your Blogger account, change some settings so it can read your blog, and restore the original settings when it's done. Here's what you do:"
+msgstr "یہ سکرپٹ آپ کے بلاگر کھاتے میں دخول کرے گی،کچھ ضوابط(سیٹنگ) تبدیل کریں تاکہ یہ آپ کے بلاگ کو پڑھ سکے،جب یہ ہوجائے تو اصلی ضوابط بحال کردیں۔یہاں جو آپ نے کرنا ہے:"
+
+#: wp-admin/import/blogger.php:225
+msgid "Back up your Blogger template."
+msgstr "اپنے بلاگر سانچہ کی پشتادہ‌نقل تیار کریں"
+
+#: wp-admin/import/blogger.php:225
+msgid "Back up any other Blogger settings you might need later."
+msgstr "بلاگر کے دوسرے ضوابط(سیٹنگ) کی پشتادہ‌نقل بنائیں جو بعد میں ضروری ہوسکتی ہیں"
+
+#: wp-admin/import/blogger.php:225
+msgid "Log out of Blogger"
+msgstr "بلاگر سے خروج"
+
+#: wp-admin/import/blogger.php:225
+msgid "Log in <em>here</em> with your Blogger username and password."
+msgstr " <em>یہاں</em> دخول،اپنے بلاگر اسم صارف اور کلمہءِشناخت کے ساتھ۔"
+
+#: wp-admin/import/blogger.php:225
+msgid "On the next screen, click one of your Blogger blogs."
+msgstr "اگلے منظر میں،اپنے کوئی ایک بلاگر بلاگ پر کلک کریں۔ "
+
+#: wp-admin/import/blogger.php:225
+msgid "Do not close this window or navigate away until the process is complete."
+msgstr "اس دریچہ کو بند نہ کریں اور نہ کہیں اور جائیں یہاں تک کہ عمل مکمل ہوجائے۔"
+
+#: wp-admin/import/blogger.php:231
+msgid "Login failed. Please enter your credentials again."
+msgstr "دخول ناکام۔براہ مہربانی اپنی اسناد دوبارہ داخل کریں۔"
+
+#: wp-admin/import/blogger.php:240
+msgid "Login failed. Please re-enter your username and password."
+msgstr "دخول ناکام۔براہ مہربانی اپنا اسم صارف اور کلمہءِشناخت دوبارہ داخل کریں۔"
+
+#: wp-admin/import/blogger.php:244
+msgid "No blogs found for this user."
+msgstr "اس صارف کے لیے کوئی بلاگ نہیں ملے۔"
+
+#: wp-admin/import/blogger.php:246
+msgid "Are you looking for %title%? It is temporarily out of service. Please try again in a few minutes. Meanwhile, discover <a href=\"http://wordpress.org/\">a better blogging tool</a>."
+msgstr "کیا آپ %title% کو ڈھونڈ رہے ہیں؟ یہ عارضی طور پر قابل استعمال نہیں۔براہ مہربانی کچھ منٹ بعد کوشش کریں۔ اس دوران،دریافت کریں<a href=\"http://wordpress.org/\">ایک بہتر بلاگنگ اوزار</a>۔"
+
+#: wp-admin/import/blogger.php:293
+msgid "Backing up Blogger options"
+msgstr "بلاگر انتخابات کی پشتادہ‌نقل تیار ہورہی ہے۔"
+
+#: wp-admin/import/blogger.php:309
+msgid "Failed attempt to change publish mode from FTP to BlogSpot."
+msgstr "ایف ٹی پی سے بلاگ‌سپاٹ پر اشاعتی طرز بدلنے کی کوشش ناکام۔"
+
+#: wp-admin/import/blogger.php:324
+msgid "Error on form submission. Retry or reset the importer."
+msgstr "فارم پر کرتے وقت غلطی۔دوبارہ کوشش یا درآمد کنندہ کو دوبارہ ٹھیک کریں۔"
+
+#: wp-admin/import/blogger.php:360
+msgid "Publishing with new template and options"
+msgstr "نئے سانچے اور انتخابات سے اشاعت ہورہی ہے "
+
+#: wp-admin/import/blogger.php:367
+msgid "Your Blogger blog did not take the new template or did not respond."
+msgstr "آپ کا بلاگر بلاگ نیا سانچہ نہیں لے رہا یا جواب نہیں دے رہا"
+
+#: wp-admin/import/blogger.php:379
+msgid "Importing Blogger archives into WordPress"
+msgstr "بلاگر محفوظات کی ورڈپریس میں درآمد زیر عمل"
+
+#: wp-admin/import/blogger.php:393
+msgid "in progress..."
+msgstr "زیر عمل۔۔۔"
+
+#: wp-admin/import/blogger.php:511
+#, php-format
+msgid "%s post(s) parsed, %s skipped..."
+msgstr "%s تحریر(روں) کا تجزیہ،%s اچھال(سکپ کر) دیا گیا۔"
+
+#: wp-admin/import/blogger.php:512
+#, php-format
+msgid "%s comment(s) parsed, %s skipped..."
+msgstr "%s تبصرے(تبصروں) کا تجزیہ،%s اچھال(سکپ کر) دیا گیا۔"
+
+#: wp-admin/import/blogger.php:513
+msgid "Done"
+msgstr "ہوگیا"
+
+#: wp-admin/import/blogger.php:528
+msgid "Restoring your Blogger options"
+msgstr "آپ کے بلاگر انتخابات دوبارہ محفوظ ہورہے ہیں"
+
+#: wp-admin/import/blogger.php:557
+#, php-format
+msgid "%s failed. Trying again."
+msgstr "%s ناکام۔دوبارہ کوشش کریں۔"
+
+#: wp-admin/import/blogger.php:561
+#, php-format
+msgid "%s restored."
+msgstr "%s دوبارہ محفوظ "
+
+#: wp-admin/import/blogger.php:581
+msgid "Publishing with original template and options"
+msgstr "اصلی سانچے اور انتخابات کے ساتھ اشاعت"
+
+#: wp-admin/import/blogger.php:586
+msgid "Congratulations!"
+msgstr "مبارکباد"
+
+#: wp-admin/import/blogger.php:586
+msgid "Now that you have imported your Blogger blog into WordPress, what are you going to do? Here are some suggestions:"
+msgstr "اب آپ نے اپنا بلاگر بلاگ ورڈپریس میں درآمد کرلیا ہے،آپ اب کیا کرنے جا رہے ہیں؟ یہاں کچھ تجاویز ہیں۔"
+
+#: wp-admin/import/blogger.php:586
+msgid "That was hard work! Take a break."
+msgstr "کافی مشکل کام تھا! کچھ سانس لیں"
+
+#: wp-admin/import/blogger.php:588
+msgid "In case you haven't done it already, you can import the posts from your other blogs:"
+msgstr "اس صورت میں کہ آپ نے پہلے یہ نہیں کیا،آپ اپنے دوسرے بلاگوں سے تحاریر درآمد کرسکتے ہیں:"
+
+#: wp-admin/import/blogger.php:590
+#, php-format
+msgid "Go to <a href=\"%s\" target=\"%s\">Authors &amp; Users</a>, where you can modify the new user(s) or delete them. If you want to make all of the imported posts yours, you will be given that option when you delete the new authors."
+msgstr "جائیں ازطرف<a href=\"%s\" target=\"%s\">مصنفین &amp; صارفین</a>،جہاں آپ نئے صارفین میں تبدیلیاں یا ختم کرسکتے ہیں۔اگر آپ تمام درآمدہ تحاریر کو اپنی بنانا چاہتے ہیں،آپ کو نئے مصنفین ختم کرتے وقت انتخاب دیا جائے گا۔ "
+
+#: wp-admin/import/blogger.php:591
+msgid "For security, click the link below to reset this importer. That will clear your Blogger credentials and options from the database."
+msgstr "حفاظت کےلیے،ذیلی ربط پر درآمد کنندہ کو دوبارہ ٹھیک کرنے کےلیے کلک کریں۔یہ آپ کی بلاگر اسناد کو صاف کردے گا اور ڈیٹا بیس سے انتخابات بھی۔"
+
+#: wp-admin/import/blogger.php:665
+msgid "Import posts and comments from a Blogger account"
+msgstr "بلاگر کھاتے سے تحاریر اور تبصرے درآمد کریں"
+
+#: wp-admin/import/dotclear.php:130
+msgid "Import Dotclear"
+msgstr "ڈاٹ‌کلیردرآمد کریں"
+
+#: wp-admin/import/dotclear.php:131
+#: wp-admin/import/textpattern.php:45
+msgid "Steps may take a few minutes depending on the size of your database. Please be patient."
+msgstr "مرحلوں میں کچھ وقت لگ سکتا ہے جو آپ کے ڈیٹا بیس کے حجم پر منحصر ہے۔براہ مہربانی صبر کریں"
+
+#: wp-admin/import/dotclear.php:141
+msgid "Howdy! This importer allows you to extract posts from a Dotclear database into your blog.  Mileage may vary."
+msgstr "جناب! یہ درآمد کنندہ ڈاٹ‌کلیر ڈیٹا بیس سے آپ کے موجودہ بلاگ میں تحاریر نچوڑنے کی اجازت دیتا ہے۔مائلیج شاید بدلے۔"
+
+#: wp-admin/import/dotclear.php:142
+msgid "Your Dotclear Configuration settings are as follows:"
+msgstr "آپ کی ڈاٹ‌کلیر وضع کردہ ضوابط(سیٹنگ) یہ ہیں۔"
+
+#: wp-admin/import/dotclear.php:145
+#: wp-admin/import/textpattern.php:59
+msgid "Import Categories"
+msgstr "زمروں کی درآمد"
+
+#: wp-admin/import/dotclear.php:218
+#: wp-admin/import/textpattern.php:165
+msgid "Importing Categories..."
+msgstr "درآمدِ زمرہ جات زیر‌عمل۔۔۔۔۔۔۔"
+
+#: wp-admin/import/dotclear.php:242
+#: wp-admin/import/textpattern.php:189
+#, php-format
+msgid "Done! <strong>%1$s</strong> categories imported."
+msgstr "ہوگیا!<strong>'%s'</strong>زمرے درآمد ہوگئے۔"
+
+#: wp-admin/import/dotclear.php:245
+#: wp-admin/import/textpattern.php:192
+msgid "No Categories to Import!"
+msgstr "درآمد کےلیے کوئی زمرے نہیں!"
+
+#: wp-admin/import/dotclear.php:259
+#: wp-admin/import/textpattern.php:206
+msgid "Importing Users..."
+msgstr "صارفین کی درآمدزیرعمل۔۔۔۔۔۔۔"
+
+#: wp-admin/import/dotclear.php:316
+#: wp-admin/import/textpattern.php:261
+#, php-format
+msgid "Done! <strong>%1$s</strong> users imported."
+msgstr "ہوگیا!<strong>'%s'</strong>صارف درآمدہوگئے"
+
+#: wp-admin/import/dotclear.php:320
+#: wp-admin/import/textpattern.php:265
+msgid "No Users to Import!"
+msgstr "درآمد کےلیے کوئی صارف نہیں!"
+
+#: wp-admin/import/dotclear.php:336
+#: wp-admin/import/textpattern.php:281
+msgid "Importing Posts..."
+msgstr "تحاریر کی درآمدزیر‌عمل۔۔۔۔۔۔۔"
+
+#: wp-admin/import/dotclear.php:411
+#: wp-admin/import/textpattern.php:347
+#, php-format
+msgid "Done! <strong>%1$s</strong> posts imported."
+msgstr "ہوگیا!<strong>'%s'</strong>تحاریر درآمد ہوگئیں۔"
+
+#: wp-admin/import/dotclear.php:426
+#: wp-admin/import/textpattern.php:362
+msgid "Importing Comments..."
+msgstr " تبصروں کی درآمدزیر‌عمل۔۔۔۔۔۔۔"
+
+#: wp-admin/import/dotclear.php:481
+#: wp-admin/import/textpattern.php:414
+#, php-format
+msgid "Done! <strong>%1$s</strong> comments imported."
+msgstr "ہوگیا!<strong>'%s'</strong>تبصرے درآمد ہوگئے۔"
+
+#: wp-admin/import/dotclear.php:484
+#: wp-admin/import/textpattern.php:417
+msgid "No Comments to Import!"
+msgstr "درآمد کےلیےکوئی تبصرہ نہیں!"
+
+#: wp-admin/import/dotclear.php:497
+#: wp-admin/import/textpattern.php:430
+msgid "Importing Links..."
+msgstr "روابط کی درآمدزیر‌عمل۔۔۔۔۔۔۔"
+
+#: wp-admin/import/dotclear.php:536
+#, php-format
+msgid "Done! <strong>%s</strong> links or link categories imported"
+msgstr "ہوگیا! <strong>%s</strong> روابط یا ربطی زمرے درآمد ہوگئے۔"
+
+#: wp-admin/import/dotclear.php:540
+#: wp-admin/import/textpattern.php:470
+msgid "No Links to Import!"
+msgstr "درآمد کے لیے کوئی روابط نہیں!"
+
+#: wp-admin/import/dotclear.php:554
+#: wp-admin/import/textpattern.php:484
+msgid "Import Users"
+msgstr "صارفین کی درآمد"
+
+#: wp-admin/import/dotclear.php:566
+#: wp-admin/import/textpattern.php:496
+msgid "Import Posts"
+msgstr "تحاریر کی درآمد"
+
+#: wp-admin/import/dotclear.php:577
+#: wp-admin/import/textpattern.php:507
+msgid "Import Comments"
+msgstr "تبصروں کی درآمد"
+
+#: wp-admin/import/dotclear.php:600
+#: wp-admin/import/textpattern.php:530
+msgid "Finish"
+msgstr "ختم"
+
+#: wp-admin/import/dotclear.php:623
+msgid "Welcome to WordPress.  We hope (and expect!) that you will find this platform incredibly rewarding!  As a new WordPress user coming from Dotclear, there are some things that we would like to point out.  Hopefully, they will help your transition go as smoothly as possible."
+msgstr "ورڈپریس میں خوش آمدید۔ہمیں امید(اور توقع) ہے کہ آپ اس پلیٹ فارم کو ناقابل یقین حد تک قابل تعریف پائیں گے! ڈاٹ‌کلیر سے نئے آنے والے ورڈپریس صارف کے طور پر، کچھ چیزیں ہیں جو ہم آپ کو بتانا چاہتے ہیں۔امید ہے کہ یہ آپ کو آسانی سے عبور حاصل کرنے میں مدد فراہم کریں گی۔"
+
+#: wp-admin/import/dotclear.php:625
+#, php-format
+msgid "You have already setup WordPress and have been assigned an administrative login and password.  Forget it.  You didn't have that login in Dotclear, why should you have it here?  Instead we have taken care to import all of your users into our system.  Unfortunately there is one downside.  Because both WordPress and Dotclear uses a strong encryption hash with passwords, it is impossible to decrypt it and we are forced to assign temporary passwords to all your users.  <strong>Every user has the same username, but their passwords are reset to password123.</strong>  So <a href=\"%1$s\">Login</a> and change it."
+msgstr " آپ نے پہلے ہی ورڈپریس نصب کیا ہے اور آپ کو ایک منتظمی اسم صارف اور کلمہءِشناخت سے نوازا گیا ہے۔اسے بھول جائیں۔ڈاٹ‌کلیر میں آپ کے پاس ایسا دخول نہیں تھا،یہاں کیوں ہے؟ قطع نظر کہ ہم نے آپ کے تمام صارفین کو اپنے نظام میں درآمد کرنے میں احتیاط کی ہے۔بدقسمتی سے ایک کمی موجود ہے۔چونکہ ورڈپریس اور ڈاٹ‌کلیر دونوں میں کلمات شناخت کے لیے اعلٰی ترین رمز نگاری استعمال کرتے ہیں، اسے  غیررمز کرنا ناممکن ہے اور ہم مجبور ہیں کہ تمام صارفین کو عارضی کلمات شناخت جاری کریں۔ <strong>ہر صارف کا اسم صارف وہی ہے مگر کلمہ شناخت کو کلمہ شناخت123 سے بدل دیا گیاہے۔</strong> سو<a href=\"%1$s\">دخول کریں</a> اور اسے بدلیں۔"
+
+#: wp-admin/import/dotclear.php:626
+#: wp-admin/import/textpattern.php:555
+msgid "Preserving Authors"
+msgstr "مصنفین برقرار رکھے جارہے ہیں۔"
+
+#: wp-admin/import/dotclear.php:627
+#: wp-admin/import/textpattern.php:556
+msgid "Secondly, we have attempted to preserve post authors.  If you are the only author or contributor to your blog, then you are safe.  In most cases, we are successful in this preservation endeavor.  However, if we cannot ascertain the name of the writer due to discrepancies between database tables, we assign it to you, the administrative user."
+msgstr "دوسرے،ہم نے تحاریر کے مصنفین کو برقرار رکھنے کی کوشش کی ہے۔اگر آپ صرف ایک مصنف یا اس بلاگ کے شریک کار ہیں،تب آپ محفوظ ہیں۔اکثر ہم اس برقرار رکھنے کی دوڑدھوپ میں کامیاب رہتے ہیں۔تاہم،اگر آپ  مصنف کے نام کی تحقیق میں ڈیٹا بیس جدوَلوں کی کوتاہی کی وجہ سے دشواری محسوس کریں،ہم اس کے اختیارات آپ یعنی منتظمی صارف کو دیتے ہیں۔"
+
+#: wp-admin/import/dotclear.php:628
+#: wp-admin/import/textpattern.php:557
+msgid "Textile"
+msgstr "ٹیکسٹائل"
+
+#: wp-admin/import/dotclear.php:629
+msgid "Also, since you're coming from Dotclear, you probably have been using Textile to format your comments and posts.  If this is the case, we recommend downloading and installing <a href=\"http://www.huddledmasses.org/2004/04/19/wordpress-plugin-textile-20/\">Textile for WordPress</a>.  Trust me... You'll want it."
+msgstr "مزید،چونکہ آپ ڈاٹ‌کلیر سے آرہے ہیں، آپ شاید اپنے تبصروں اور تحاریر کو بناوٹ دینے کےلیے ٹیکسٹائل استعمال کرتے رہے ہوں۔اگر ایسی صورت حال ہے،ہم آپ کو <a href=\"http://www.huddledmasses.org/2004/04/19/wordpress-plugin-textile-20/\">ورڈپریس کےلیے ٹیکسٹائل </a> اتارتے اور نصب کرنے کا مشورہ دیں گے۔مجھ پر یقین رکھیے۔۔۔آپ کو اس کی ضرورت ہوگی  "
+
+#: wp-admin/import/dotclear.php:630
+#: wp-admin/import/textpattern.php:559
+msgid "WordPress Resources"
+msgstr "ورڈپریس ذرائع"
+
+#: wp-admin/import/dotclear.php:631
+#: wp-admin/import/textpattern.php:560
+msgid "Finally, there are numerous WordPress resources around the internet.  Some of them are:"
+msgstr "آخر کار،ورڈپریس کے انٹرنیٹ پر کئی ذرائع ہیں۔ جن میں سے کچھ:"
+
+#: wp-admin/import/dotclear.php:633
+#: wp-admin/import/textpattern.php:562
+msgid "<a href=\"http://www.wordpress.org\">The official WordPress site</a>"
+msgstr "<a href=\"http://wordpress.org/\">ورڈپریس کی پیشہ ورانہ ویب سائٹ</a>"
+
+#: wp-admin/import/dotclear.php:634
+#: wp-admin/import/textpattern.php:563
+msgid "<a href=\"http://wordpress.org/support/\">The WordPress support forums"
+msgstr "<a href=\"http://wordpress.org/support/\"> ورڈ پریس کی معاونتی چوپالیں"
+
+#: wp-admin/import/dotclear.php:635
+#: wp-admin/import/textpattern.php:564
+msgid "<a href=\"http://codex.wordpress.org\">The Codex (In other words, the WordPress Bible)</a>"
+msgstr "<a href=\"http://codex.wordpress.org\">کوڈیکس (دوسرے الفاظ میں ورڈپریس کی کتاب مقدس)</a>"
+
+#: wp-admin/import/dotclear.php:637
+#: wp-admin/import/textpattern.php:566
+#, php-format
+msgid "That's it! What are you waiting for? Go <a href=\"%1$s\">login</a>!"
+msgstr "یہی ہے! جس کا آپ انتظار کررہے تھے؟ جائیں <a href=\"%1$s\">دخول کریں</a>!"
+
+#: wp-admin/import/dotclear.php:643
+msgid "Dotclear Database User:"
+msgstr "ڈاٹ‌کلیر صارفِ کوائفیہ"
+
+#: wp-admin/import/dotclear.php:644
+msgid "Dotclear Database Password:"
+msgstr "ڈاٹ‌کلیر کلمہءِشناخت از کوائفیہ "
+
+#: wp-admin/import/dotclear.php:645
+msgid "Dotclear Database Name:"
+msgstr "ڈاٹ‌کلیر اسمِ کوائفیہ "
+
+#: wp-admin/import/dotclear.php:646
+msgid "Dotclear Database Host:"
+msgstr "ڈاٹ‌کلیر کوائفیہ ہوسٹ"
+
+#: wp-admin/import/dotclear.php:648
+msgid "Originating character set:"
+msgstr " کردار سازی کی تخلیق جاری"
+
+#: wp-admin/import/dotclear.php:740
+msgid "Import posts from a Dotclear Blog"
+msgstr "ڈاٹ‌کلیئر بلاگ سے تحریریں درآمد کریں"
+
+#: wp-admin/import/livejournal.php:9
+msgid "Import LiveJournal"
+msgstr " لائیو جرنل سے درآمد کریں"
+
+#: wp-admin/import/livejournal.php:23
+msgid "Howdy! This importer allows you to extract posts from LiveJournal XML export file into your blog.  Pick a LiveJournal file to upload and click Import."
+msgstr "جناب! یہ درآمد کنندہ آپ کولائیو جرنل( ایکس ایم ایل سے تحاریر نچوڑ کر آپ کے بلاگ میں درآمد کرنے کی سہولت دیتا۔ایک لائیو جرنل فائل چڑھانے کےلیے اٹھائیں اور درآمد پر کلک کریں  "
+
+#: wp-admin/import/livejournal.php:67
+#: wp-admin/import/mt.php:277
+#, php-format
+msgid "Post <i>%s</i> already exists."
+msgstr "تحریر<i>%s</i> پہلے ہی موجود ہے"
+
+#: wp-admin/import/livejournal.php:69
+#: wp-admin/import/mt.php:280
+#, php-format
+msgid "Importing post <i>%s</i>..."
+msgstr "تحریر<i>%s</i> کی درآمدزیر‌عمل۔۔۔۔۔۔۔"
+
+#: wp-admin/import/livejournal.php:73
+#: wp-admin/import/rss.php:111
+msgid "Couldn't get post ID"
+msgstr "تحریر کی شناخت حاصل نہیں ہوسکی"
+
+#: wp-admin/import/livejournal.php:118
+#: wp-admin/import/mt.php:333
+#, php-format
+msgid "(%s comments)"
+msgstr "(%sتبصرے)"
+
+#: wp-admin/import/livejournal.php:139
+#: wp-admin/import/mt.php:392
+#: wp-admin/import/rss.php:139
+#, php-format
+msgid "All done. <a href=\"%s\">Have fun!</a>"
+msgstr "سب ہوگیا۔<a href=\"%s\">موج کریں!</a>"
+
+#: wp-admin/import/livejournal.php:170
+msgid "Import posts from LiveJournal"
+msgstr "لائیو جرنل سے تحاریر درآمد کریں"
+
+#: wp-admin/import/mt.php:14
+msgid "Import Movable Type"
+msgstr "  موو ایبل ٹائپ درآمد کریں"
+
+#: wp-admin/import/mt.php:24
+msgid "Howdy! We&#8217;re about to begin the process to import all of your Movable Type entries into WordPress. To begin, select a file to upload and click Import."
+msgstr "جناب! ہم آپ کے مووایبل ٹائپ کے تمام اندراجات ورڈپریس میں درآمد کرنے جارہے ہیں۔شروع کرنے کے لیے،ایک فائل چڑھانے کےلیے چنیں اور درآمد پر کلک کریں۔"
+
+#: wp-admin/import/mt.php:26
+msgid "The importer is smart enough not to import duplicates, so you can run this multiple times without worry if&#8212;for whatever reason&#8212;it doesn't finish. If you get an <strong>out of memory</strong> error try splitting up the import file into pieces."
+msgstr "درآمد کنندہ اتنا ذہین ہے کہ نقول درآمد نہ کرے،چناچہ آپ اسے بغیر کسی پریشانی کے کئی بار چلا سکتے ہیں کوئی بھی وجہ ہو یہ ختم نہیں ہوگا۔اگر آپ<strong>یادداشت(میموری) کی کمی</strong> کی غلطی وصول کریں تو درآمدہ فائل کو ٹکڑوں میں کرنے کی کوشش کریں۔"
+
+#: wp-admin/import/mt.php:137
+msgid "To make it easier for you to edit and save the imported posts and drafts, you may want to change the name of the author of the posts. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr "درآمد کی گئیں تحاریر اور مسودات کی تدوین آسان بنانے کے لیے،آپ شایدمصنفِ تحریر کانام تبدیل کرنا چاہیں۔مثلاًہوسکتا ہے آپ تمام اندراجات درآمد کرنا چاہیں<code>admin</code>کے اندراجات کر طور پر۔"
+
+#: wp-admin/import/mt.php:138
+msgid "Below, you can see the names of the authors of the MovableType posts in <i>italics</i>. For each of these names, you can either pick an author in your WordPress installation from the menu, or enter a name for the author in the textbox."
+msgstr "نیچے آپ <i>ترچھی تحریر</i> میں موو ایبل ٹائپ  کی تحاریر کے مصنفین کے نام دیکھ سکتے ہیں۔ان میں سے کسی بھی نام کے لیے آپ ورڈپریس تنصیبی فہرست سے ایک مصنف کا نام منتخب کرسکتے ہیں یا عبارتی‌بکسے میں مصنف کانام لکھ سکتے ہیں۔"
+
+#: wp-admin/import/mt.php:139
+msgid "If a new user is created by WordPress, the password will be set, by default, to \"changeme\". Quite suggestive, eh? ;)"
+msgstr "اگر نیا صارف بذریعہ ورڈپریس بنایا گیا ہے تو کلمہِ‌شناخت پہلے سے طےشدہ ہوگا,اسے\"changemeا\"۔تجویز کیا جاتا ہے۔ٹھیک;)"
+
+#: wp-admin/import/mt.php:381
+#, php-format
+msgid "(%s pings)"
+msgstr "(%s پنگز)"
+
+#: wp-admin/import/mt.php:429
+msgid "Import posts and comments from your Movable Type blog"
+msgstr "اپنے موو ایبل ٹائپ بلاگ سے تحاریر اور تبصرے درآمد کریں"
+
+#: wp-admin/import/rss.php:10
+msgid "Import RSS"
+msgstr "درآمد آرایس ایس"
+
+#: wp-admin/import/rss.php:24
+msgid "Howdy! This importer allows you to extract posts from any RSS 2.0 file into your blog. This is useful if you want to import your posts from a system that is not handled by a custom import tool. Pick an RSS file to upload and click Import."
+msgstr "جناب! یہ درآمد کنندہ کسی بھی آر ایس ایس 0ء2 فائل سے آپ کو تحاریر نچوڑنے کی سہولت دیتا ہے۔یہ اس صورت میں بہترین ہے جب آپ کسی ایسے نظام سے تحاریر درآمد کریں جوصوابدیدی درآمدی اوزار سے نہیں چلتا۔چڑھانے کے لیے ایک آرایس ایس فائل اٹھائیں اور درآمد پر کلک کریں۔"
+
+#: wp-admin/import/rss.php:102
+msgid "Importing post..."
+msgstr "تحریر کی درآمدزیر‌عمل۔۔۔۔۔۔۔"
+
+#: wp-admin/import/rss.php:107
+msgid "Post already imported"
+msgstr "تحریر پہلے ہی درآمدشدہ"
+
+#: wp-admin/import/rss.php:117
+msgid "Done !"
+msgstr "ہوگیا!"
+
+#: wp-admin/import/rss.php:170
+msgid "Import posts from an RSS feed"
+msgstr "کسی آرایس ایس فیڈ سے تحاریر درآمد کریں"
+
+#: wp-admin/import/textpattern.php:44
+msgid "Import Textpattern"
+msgstr "ٹیکسٹ پیٹرن  درآمد کریں"
+
+#: wp-admin/import/textpattern.php:55
+msgid "Howdy! This importer allows you to extract posts from any Textpattern 4.0.2+ into your blog. This has not been tested on previous versions of Textpattern.  Mileage may vary."
+msgstr "جناب! یہ درآمدکنندہ آپ کو کسی ٹیکسٹ پیٹرن  جو +4.0.2 سے تحاریر نچوڑنے اور آپ کے بلاگ میں درآمد کرنے کی اجازت دیتاہے۔اسے ٹیکسٹ پیٹرن پرانے ورژنوں پر جانچا نہیں گیا۔مائلیج بدل سکتا ہے"
+
+#: wp-admin/import/textpattern.php:56
+msgid "Your Textpattern Configuration settings are as follows:"
+msgstr "آپ کے ٹیکسٹ پیٹرن  کے لیے وضع کردہ ضوابط(سیٹنگ) یہ ہیں"
+
+#: wp-admin/import/textpattern.php:466
+#, php-format
+msgid "Done! <strong>%s</strong> Links imported"
+msgstr "ہوگیا!<strong>%s</strong> روابط درآمد ہوگئے"
+
+#: wp-admin/import/textpattern.php:552
+msgid "Welcome to WordPress.  We hope (and expect!) that you will find this platform incredibly rewarding!  As a new WordPress user coming from Textpattern, there are some things that we would like to point out.  Hopefully, they will help your transition go as smoothly as possible."
+msgstr "ورڈپریس میں خوش آمدید۔ہمیں امید(اور توقع) ہے کہ آپ اس پلیٹ فارم کو ناقابل یقین حد تک قابل تعریف پائیں گے! ٹیکسٹ پیٹرن  سے نئے صارف کے طور پر ہم آپ کو کچھ چیزیں بتانا چاہتے ہیں۔امید ہے یہ آپ کے عبور حاصل کرنے کو مزید آسان بنا دیں گی۔"
+
+#: wp-admin/import/textpattern.php:554
+#, php-format
+msgid "You have already setup WordPress and have been assigned an administrative login and password.  Forget it.  You didn't have that login in Textpattern, why should you have it here?  Instead we have taken care to import all of your users into our system.  Unfortunately there is one downside.  Because both WordPress and Textpattern uses a strong encryption hash with passwords, it is impossible to decrypt it and we are forced to assign temporary passwords to all your users.  <strong>Every user has the same username, but their passwords are reset to password123.</strong>  So <a href=\"%1$s\">Login</a> and change it."
+msgstr "آپ نے پہلے ہی ورڈپریس نصب کیا ہے اور آپ کو ایک منتظمی اسم صارف اور کلمہءِشناخت سے نوازا گیا ہے۔اسے بھول جائیں۔ٹیکسٹ پیٹرن  میں آپ کے پاس ایسا دخول نہیں تھا،یہاں کیوں ہے؟ قطع نظر کہ ہم نے آپ کے تمام صارفین کو اپنے نظام میں درآمد کرنے میں احتیاط کی ہے۔بدقسمتی سے ایک کمی موجود ہے۔چونکہ ورڈپریس اور ٹیکسٹ پیٹرن  دونوں کلمات شناخت کے لیے اعلٰی ترین رمز نگاری استعمال کرتے ہیں، اسے  غیررمز کرنا ناممکن ہے اور ہم مجبور ہیں کہ تمام صارفین کو عارضی کلمات شناخت جاری کریں۔strongہر صارف کا اسم صارف وہی ہے مگر کلمہ شناخت کو کلمہ شناخت123 سے بدل دیا گیاہے۔</strong> سو<a href=\"%1$s\">دخول کریں</a> اور اسے بدلیں۔"
+
+#: wp-admin/import/textpattern.php:558
+msgid "Also, since you're coming from Textpattern, you probably have been using Textile to format your comments and posts.  If this is the case, we recommend downloading and installing <a href=\"http://www.huddledmasses.org/2004/04/19/wordpress-plugin-textile-20/\">Textile for WordPress</a>.  Trust me... You'll want it."
+msgstr "مزید،چونکہ آپ ٹیکسٹ پیٹرن  سے آرہے ہیں، آپ شاید اپنے تبصروں اور تحاریر کو بناوٹ دینے کےلیے ٹیکسٹ پیٹرن  استعمال کرتے رہے ہوں۔اگر ایسی صورت حال ہے،ہم آپ کو <a href=\"http://www.huddledmasses.org/2004/04/19/wordpress-plugin-textile-20/\">ورڈپریس کےلیے ٹیکسٹائل </a> اتارتے اور نصب کرنے کا مشورہ دیں گے۔مجھ پر یقین رکھیے۔۔۔آپ کو اس کی ضرورت ہوگی  "
+
+#: wp-admin/import/textpattern.php:572
+msgid "Textpattern Database User:"
+msgstr "ٹیکسٹ پیٹرن  صارفِ کوائفیہ :"
+
+#: wp-admin/import/textpattern.php:573
+msgid "Textpattern Database Password:"
+msgstr "ٹیکسٹ پیٹرن  کلمہءِشناخت ازکوائفیہ :"
+
+#: wp-admin/import/textpattern.php:574
+msgid "Textpattern Database Name:"
+msgstr "ٹیکسٹ پیٹرن اسمِ کوائفیہ :"
+
+#: wp-admin/import/textpattern.php:575
+msgid "Textpattern Database Host:"
+msgstr "ٹیکسٹ پیٹرن  کوائفیہ ہوسٹ:"
+
+#: wp-admin/import/textpattern.php:576
+msgid "Textpattern Table prefix (if any):"
+msgstr "ٹیکسٹ پیٹرن  جدوَل سابقہ(اگر کوئی ہےتو)"
+
+#: wp-admin/import/textpattern.php:662
+msgid "Import posts from a Textpattern Blog"
+msgstr "ایک ‌ٹیکسٹ‌پیٹرن بلاگ سے تحاریر درآمد کریں"
+
+#: wp-content/plugins/wp-db-backup.php:45
+#: wp-content/plugins/wp-db-backup.php:55
+#: wp-content/plugins/wp-db-backup.php:58
+#: wp-content/plugins/wp-db-backup.php:66
+msgid "You are not allowed to perform backups."
+msgstr "آپ کو پشتادہ نقول بنانے کی اجازت نہیں۔"
+
+#: wp-content/plugins/wp-db-backup.php:87
+msgid "Backup Complete!"
+msgstr "پشتادہ‌نقل مکمل!"
+
+#: wp-content/plugins/wp-db-backup.php:113
+#: wp-content/plugins/wp-db-backup.php:323
+#: wp-content/plugins/wp-db-backup.php:327
+#: wp-content/plugins/wp-db-backup.php:761
+#: wp-content/plugins/wp-db-backup.php:800
+msgid "Backup"
+msgstr "پشتادہ‌نقل"
+
+#: wp-content/plugins/wp-db-backup.php:114
+msgid "Progress"
+msgstr "ارتقاء"
+
+#: wp-content/plugins/wp-db-backup.php:116
+msgid "DO NOT DO THE FOLLOWING AS IT WILL CAUSE YOUR BACKUP TO FAIL:"
+msgstr " یہ نہ کریں،اس سے آپ کا پشتادہ نقل بنانے کا عمل ناکام ہوجائےگا:"
+
+#: wp-content/plugins/wp-db-backup.php:119
+msgid "Close this browser"
+msgstr "یہ براؤزر بند کیجیے"
+
+#: wp-content/plugins/wp-db-backup.php:120
+msgid "Reload this page"
+msgstr "اس صفحے کو دوبارہ لوڈ کیجئیے"
+
+#: wp-content/plugins/wp-db-backup.php:121
+msgid "Click the Stop or Back buttons in your browser"
+msgstr "اپنے براؤزر میں روکئے یا پیچھے جائیے کے بٹنوں پر کلک "
+
+#: wp-content/plugins/wp-db-backup.php:123
+msgid "Progress:"
+msgstr "ارتقاء:"
+
+#: wp-content/plugins/wp-db-backup.php:166
+#, php-format
+msgid "Backup complete, preparing <a href=\\\"%s\\\">backup</a> for download..."
+msgstr "پشتادہ‌نقل مکمل،<a href=\\\"%s\\\">محفوظ‌نقل</a> اتارنے کے لیے تیاری جاری ہے۔۔"
+
+#: wp-content/plugins/wp-db-backup.php:172
+#, php-format
+msgid "Backup complete, sending <a href=\\\"%s\\\">backup</a> via email..."
+msgstr "پشتادہ‌نقل مکمل،<a href=\\\"%s\\\">محفوظ‌نقل</a> برقیہ سے بھیجی جارہی ہے۔۔"
+
+#: wp-content/plugins/wp-db-backup.php:178
+#, php-format
+msgid "Backup complete, download <a href=\\\"%s\\\">here</a>."
+msgstr "پشتادہ‌نقل مکمل، <a href=\\\"%s\\\">یہاں سے</a> اتاریں۔"
+
+#: wp-content/plugins/wp-db-backup.php:230
+msgid "Creating backup file..."
+msgstr "پشتادہ‌نقل کی فائل بن رہی ہے۔۔"
+
+#: wp-content/plugins/wp-db-backup.php:233
+#, php-format
+msgid "Finished backing up table \\\"%s\\\"."
+msgstr "پشتادہ‌نقل جدوَل ختم\\\"%s\\\"۔"
+
+#: wp-content/plugins/wp-db-backup.php:235
+#, php-format
+msgid "Backing up table \\\"%s\\\"..."
+msgstr "پشتادہ‌نقل جدوَل\\\"%s\\\"..."
+
+#: wp-content/plugins/wp-db-backup.php:247
+#: wp-content/plugins/wp-db-backup.php:568
+msgid "Could not open the backup file for writing!"
+msgstr "پشتادہ‌نقل فائل لکھنے کے لیے نہیں کھل سکی!"
+
+#: wp-content/plugins/wp-db-backup.php:248
+msgid "The backup file could not be saved.  Please check the permissions for writing to your backup directory and try again."
+msgstr "پشتادہ‌نقل فائل محفوظ نہیں کی جاسکی۔اپنی پشتادہ‌نقل ڈائرکٹری میں لکھنے کے لیے اجازتیں دیکھیے اور پھر کوشش کیجیے۔"
+
+#: wp-content/plugins/wp-db-backup.php:273
+#: wp-content/plugins/wp-db-backup.php:572
+msgid "The backup directory is not writeable!"
+msgstr "پشتادہ‌نقل ڈائرکٹری قابل تحریر نہیں!"
+
+#: wp-content/plugins/wp-db-backup.php:274
+msgid "The backup directory is not writeable!  Please check the permissions for writing to your backup directory and try again."
+msgstr "پشتادہ‌نقل ڈائرکٹری قابل تحریر نہیں! براہ مہربانی اپنی محفوظ نقل ڈائرکٹری میں لکھنے کے لیے اجازتیں دیکھیے اور دوبارہ کوشش کیجیے۔"
+
+#: wp-content/plugins/wp-db-backup.php:394
+#: wp-content/plugins/wp-db-backup.php:399
+msgid "There was an error writing a line to the backup script:"
+msgstr "پشتادہ‌نقل سکرپٹ لکھتے ہوئے ایک لائن میں ایرر آیا ہے:"
+
+#: wp-content/plugins/wp-db-backup.php:409
+msgid "Subsequent errors have been omitted from this log."
+msgstr "اس لاگ سے بعد میں آنے والے ایرر حذف کردیے گئے ہیں۔"
+
+#: wp-content/plugins/wp-db-backup.php:428
+msgid "Error getting table details"
+msgstr "جدوَل کی تفاصیل لیتے ہوئے ایرر"
+
+#: wp-content/plugins/wp-db-backup.php:453
+#, php-format
+msgid "Error with SHOW CREATE TABLE for %s."
+msgstr "جدوَل دکھاؤ،بناؤ(SHOW CREATE TABLE ) میں%s کے لیے ایرر۔ "
+
+#: wp-content/plugins/wp-db-backup.php:459
+#, php-format
+msgid "Error getting table structure of %s"
+msgstr "%s کا جدوَلی ڈھانچہ لیتے ہوئے ایرر "
+
+#: wp-content/plugins/wp-db-backup.php:616
+#, php-format
+msgid "File not found:%s"
+msgstr "فائل نہیں‌مل سکی:%s"
+
+#: wp-content/plugins/wp-db-backup.php:618
+msgid "Return to Backup"
+msgstr "پشتادہ‌نقل کی طرف واپس جائیں"
+
+#: wp-content/plugins/wp-db-backup.php:643
+#, php-format
+msgid ""
+"Attached to this email is\n"
+"   %1s\n"
+"   Size:%2s kilobytes\n"
+msgstr ""
+"اس برقیہ سے منسلک ہے\n"
+"   %1s\n"
+"حجم:%2s کلو بائٹس\n"
+
+#: wp-content/plugins/wp-db-backup.php:662
+#: wp-content/plugins/wp-db-backup.php:664
+msgid "Database Backup"
+msgstr "کوائفیہ کی پشتادہ‌نقل"
+
+#: wp-content/plugins/wp-db-backup.php:680
+msgid "Backup Successful"
+msgstr "پشتادہ‌نقل کامیاب"
+
+#: wp-content/plugins/wp-db-backup.php:684
+#, php-format
+msgid "Your backup file: <a href=\"%1s\">%2s</a> should begin downloading shortly."
+msgstr "آپ کی پشتادہ‌نقل فائل:<a href=\"%1s\">%2s</a> تھوڑی دیر میں اترنا شروع ہوجانی چاہیے۔"
+
+#: wp-content/plugins/wp-db-backup.php:692
+#, php-format
+msgid "Your backup has been emailed to %s"
+msgstr "آپ کی پشتادہ‌نقل %s پر برقیہ کر دی گئی ہے"
+
+#: wp-content/plugins/wp-db-backup.php:695
+msgid "Your backup file has been saved on the server. If you would like to download it now, right click and select \"Save As\""
+msgstr " آپ کی پشتادہ‌نقل فائل پیشکار پر محفوظ کردی گئی ہے۔اگر آپ اسے ابھی اتارنا چاہیں توسیدھا کلک کرکے \"Save As\" چنیں "
+
+#: wp-content/plugins/wp-db-backup.php:696
+#, php-format
+msgid "%s bytes"
+msgstr "%s بائٹس"
+
+#: wp-content/plugins/wp-db-backup.php:702
+msgid "The following errors were reported:"
+msgstr "مندرجہ ذیل ایرر کی نشاندہی کی گئی:"
+
+#: wp-content/plugins/wp-db-backup.php:716
+msgid "Scheduled Backup Options Saved!"
+msgstr "فہرست شدہ پشتادہ‌نقل کے انتخابات محفوظ!"
+
+#: wp-content/plugins/wp-db-backup.php:747
+msgid "WARNING: Your wp-content directory is <strong>NOT</strong> writable! We can not create the backup directory."
+msgstr "خبردار: آپ کی وپ-کونٹینٹ ڈائرکٹری قابل تحریر<strong>نہیں</strong>! ہم پشتادہ‌نقل ڈائکرٹری نہیں بنا سکتے۔ "
+
+#: wp-content/plugins/wp-db-backup.php:753
+msgid "WARNING: Your backup directory is <strong>NOT</strong> writable! We can not create the backup directory."
+msgstr "خبردار: آپ کی پشتادہ‌نقل ڈائرکٹری قابل تحریر<strong>نہیں</strong>! ہم پشتادہ‌نقل ڈائکرٹری نہیں بنا سکتے۔ "
+
+#: wp-content/plugins/wp-db-backup.php:762
+msgid "Tables"
+msgstr "جدوَلیں"
+
+#: wp-content/plugins/wp-db-backup.php:765
+msgid "These core WordPress tables will always be backed up:"
+msgstr "یہ بنیادی ورڈپریس جدولیں ہمیشہ پشتادہ‌نقل کی جاتی ہیں:  "
+
+#: wp-content/plugins/wp-db-backup.php:771
+msgid "You may choose to include any of the following tables:"
+msgstr "آپ ان میں یہ جدولیں شامل کرنے کے لیے چن سکتے ہیں:"
+
+#: wp-content/plugins/wp-db-backup.php:777
+msgid "Backup Options"
+msgstr "پشتادہ‌نقل کے انتخابات"
+
+#: wp-content/plugins/wp-db-backup.php:778
+msgid "What to do with the backup file:"
+msgstr "پشتادہ‌نقل  فائل کے ساتھ کیا کیا جائے:"
+
+#: wp-content/plugins/wp-db-backup.php:779
+msgid "Save to server"
+msgstr "پیشکار پر محفوظ کریں"
+
+#: wp-content/plugins/wp-db-backup.php:780
+msgid "Download to your computer"
+msgstr "اپنے کمپیوٹر پر اتار لیں"
+
+#: wp-content/plugins/wp-db-backup.php:782
+#: wp-content/plugins/wp-db-backup.php:831
+msgid "Email backup to:"
+msgstr "پشتادہ‌نقل  برقیہ کردیں:"
+
+#: wp-content/plugins/wp-db-backup.php:802
+msgid "WARNING: Your backup directory is <strong>NOT</strong> writable!"
+msgstr "خبردار: آپ کی پشتادہ‌نقل ڈائرکٹری قابل تحریر<strong>نہیں</strong>!"
+
+#: wp-content/plugins/wp-db-backup.php:809
+msgid "Scheduled Backup"
+msgstr "فہرست شدہ پشتادہ‌نقل"
+
+#: wp-content/plugins/wp-db-backup.php:811
+msgid "Last WP-Cron Daily Execution"
+msgstr "آخری وپ-کرون روزانہ تعمیل(ڈیلی ایگزیکیوشن)"
+
+#: wp-content/plugins/wp-db-backup.php:812
+msgid "Next WP-Cron Daily Execution"
+msgstr "اگلی وپ-کرون روزانہ تعمیل(ڈیلی ایگزیکیوشن)"
+
+#: wp-content/plugins/wp-db-backup.php:816
+msgid "Schedule: "
+msgstr "فہرست (شیڈول):"
+
+#: wp-content/plugins/wp-db-backup.php:818
+msgid "Daily"
+msgstr "روزانہ"
+
+#: wp-content/plugins/wp-db-backup.php:838
+msgid "Tables to include:"
+msgstr "شامل کرنے کے لیے جدوَلیں :"
+
+#: wp-content/plugins/akismet/akismet.php:28
+#: wp-content/plugins/akismet/akismet.php:49
+msgid "Akismet Configuration"
+msgstr "اکیسمٹ کی وضع کاری"
+
+#: wp-content/plugins/akismet/akismet.php:50
+#, php-format
+msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have a WordPress.com account yet, you can get one at <a href=\"%2$s\">WordPress.com</a>."
+msgstr "بہت سے لوگوں کے لیے،<a href=\"%1$s\">اکیسمٹ</a> تبصروں اور ٹریک‌بیک ردی کو کم یا مکمل طور پر ختم کردے گا۔اگر کسی سے ساتھ ایسا معاملہ پیش نہ آئے،صرف اسے منتظمی سکرین پر\"ردی\" کے طور پر نشان زد کردیں اکیسمٹ غلطیوں سے سیکھے گا۔اگر آپ کا ابھی تک ورڈپریس ڈاٹ کوم کھاتہ نہیں،آپ اسے<a href=\"%2$s\">ورڈپریس ڈاٹ کوم</a>سے حاصل کرسکتے ہیں۔ "
+
+#: wp-content/plugins/akismet/akismet.php:54
+msgid "WordPress.com API Key"
+msgstr "ورڈپریس ڈاٹ کوم اےپی‌آئی کلید"
+
+#: wp-content/plugins/akismet/akismet.php:56
+msgid "Your key appears invalid. Double-check it."
+msgstr "آپ کی کلید درست معلوم نہیں ہوتی۔اسکی دوبارہ پڑتال کریں۔"
+
+#: wp-content/plugins/akismet/akismet.php:58
+msgid "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">What is this?</a>"
+msgstr "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">یہ کیا ہے؟</a>"
+
+#: wp-content/plugins/akismet/akismet.php:59
+msgid "Update API Key &raquo;"
+msgstr "اےپی‌آئی کلید تازہ کریں &raquo;"
+
+#: wp-content/plugins/akismet/akismet.php:79
+msgid "Akismet is not active."
+msgstr "اکیسمٹ فعال نہیں۔"
+
+#: wp-content/plugins/akismet/akismet.php:79
+#, php-format
+msgid "You must <a href=\"%1$s\">enter your WordPress.com API key</a> for it to work."
+msgstr "آپ کو<a href=\"%1$s\">اپنی ورڈپریس ڈاٹ کوم اےپی‌آئی کلید داخل کرنی چاہیے</a>تاکہ یہ کام کرے۔  "
+
+#: wp-content/plugins/akismet/akismet.php:203
+#, php-format
+msgid "Akismet Spam (%s)"
+msgstr "اکیسمٹ ردی(%s)"
+
+#: wp-content/plugins/akismet/akismet.php:205
+msgid "Akismet Spam"
+msgstr "اکیسمٹ ردی"
+
+#: wp-content/plugins/akismet/akismet.php:212
+#: wp-content/plugins/akismet/akismet.php:228
+msgid "You do not have sufficient permission to moderate comments."
+msgstr "تبصروں کی پڑتال کے لیے آپ کے پاس مناسب اجازتیں نہیں۔"
+
+#: wp-content/plugins/akismet/akismet.php:224
+#, php-format
+msgid "%1$s comments recovered."
+msgstr "%1$s تبصرے پھر حاصل کرلیے گئے۔"
+
+#: wp-content/plugins/akismet/akismet.php:235
+msgid "All spam deleted."
+msgstr "تمام ردی ختم کردیے گئے۔"
+
+#: wp-content/plugins/akismet/akismet.php:242
+msgid "Caught Spam"
+msgstr "ردی پکڑے گئے"
+
+#: wp-content/plugins/akismet/akismet.php:247
+#, php-format
+msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
+msgstr "اکیسمٹ نے<strong>%1$s</strong> ردی پکڑے ہیں،جب سے آپ نے اسے نصب کیا ہے۔ "
+
+#: wp-content/plugins/akismet/akismet.php:252
+msgid "You have no spam currently in the queue. Must be your lucky day. :)"
+msgstr "قطار میں آپ کے پاس کوئی ردی نہیں۔یقینًایہ آپ کا خوش قسمت دن ہے:)"
+
+#: wp-content/plugins/akismet/akismet.php:255
+msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
+msgstr "آپ اپنے کوائفیہ سے تمام ردی ایک کلک سے ختم کرسکتے ہیں۔یہ کام لوٹایا نہیں جاسکے گا،چناچہ آپ کی خواہش ہوگی کہ کسی قانونی تبصرے کی اس عمل سے نہ گزرنے کی تصدیق ہوجائے۔ردی ہر 15 دن بعد خود بخود مٹا دیے جاتے ہیں،چناچہ اس پر پسینہ نہ بہائیں۔"
+
+#: wp-content/plugins/akismet/akismet.php:259
+#: wp-content/plugins/akismet/akismet.php:313
+#, php-format
+msgid "There are currently %1$s comments identified as spam."
+msgstr "اب تک%1$s تبصرے ردی کے طور پر شناخت ہوچکے ہیں۔ "
+
+#: wp-content/plugins/akismet/akismet.php:259
+#: wp-content/plugins/akismet/akismet.php:313
+msgid "Delete all"
+msgstr "سب ختم کیجئیے"
+
+#: wp-content/plugins/akismet/akismet.php:264
+msgid "Latest Spam"
+msgstr "تازہ ترین ردی"
+
+#: wp-content/plugins/akismet/akismet.php:265
+msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
+msgstr "یہ اکیسمٹ کے ذریعے تازہ ترین شناخت شدہ ردی تبصرے ہیں۔اگر آپ کوئی غلطی دیکھیں،صرف تبصرے کو \"ردی نہیں\" کے طور پر نشان زد کردیں اور اکیسمٹ پرکرنے سے سیکھ لے گا۔ اگر آپ ردی سے کوئی تبصرہ واپس لانا چاہیں،صرف تبصرہ چنیں،اور ردی نہیں پر کلک کردیں۔15 دن بعد ہم کوڑا صاف کردیتے ہیں۔ "
+
+#: wp-content/plugins/akismet/akismet.php:292
+msgid "Not Spam"
+msgstr "ردی نہیں"
+
+#: wp-content/plugins/akismet/akismet.php:307
+msgid "De-spam marked comments &raquo;"
+msgstr "نشان زد تبصروں کو غیر رد کریں&raquo;"
+
+#: wp-content/plugins/akismet/akismet.php:309
+msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
+msgstr "آپ پر تبصرے جو ردی نہیں واپس اکیسمٹ میں شامل کردئیے جائیں گے چونکہ یہ اپنی غلطیوں سے سیکھتا اور بہتر ہوتا ہے۔"
+
+#: wp-content/plugins/akismet/akismet.php:329
+#, php-format
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
+msgstr "<a href=\"%1$s\">اکیسمٹ</a> نے آپ کی سائٹ کو بچایا ہے<a href=\"%2$s\">%3$sردی تبصروں سے</a>."
+
+#: wp-content/themes/classic/comments.php:2
+msgid "Enter your password to view comments."
+msgstr "تبصرے دیکھنے کیلیے اپنا کلمہِ‌شناخت داخل کریں."
+
+#: wp-content/themes/classic/comments.php:5
+msgid "No Comments"
+msgstr "کوئی تبصرہ نہیں."
+
+#: wp-content/themes/classic/comments.php:5
+msgid "1 Comment"
+msgstr "1 تبصرہ"
+
+#: wp-content/themes/classic/comments.php:5
+msgid "% Comments"
+msgstr "% تبصرے"
+
+#: wp-content/themes/classic/comments.php:7
+#: wp-content/themes/classic/comments.php:35
+#: wp-content/themes/classic/comments-popup.php:55
+msgid "Leave a comment"
+msgstr "تبصرہ چھوڑیں"
+
+#: wp-content/themes/classic/comments.php:17
+#: wp-content/themes/classic/comments-popup.php:45
+msgid "Trackback"
+msgstr "ٹریک‌بیک"
+
+#: wp-content/themes/classic/comments.php:17
+#: wp-content/themes/classic/comments-popup.php:45
+msgid "Pingback"
+msgstr "پنگ‌بیک"
+
+#: wp-content/themes/classic/comments.php:17
+#: wp-content/themes/classic/comments-popup.php:45
+msgid "by"
+msgstr "از"
+
+#: wp-content/themes/classic/comments.php:17
+#: wp-content/themes/classic/index.php:11
+msgid "Edit This"
+msgstr "اسے مدوَن کریں"
+
+#: wp-content/themes/classic/comments.php:25
+#: wp-content/themes/classic/comments-popup.php:51
+msgid "No comments yet."
+msgstr "ابھی تک کوئی تبصرہ نہیں."
+
+#: wp-content/themes/classic/comments.php:28
+#: wp-content/themes/classic/comments-popup.php:24
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on this post."
+msgstr "<abbr title=\"بہت آسان مجلس\">آرایس ایس</abbr> اس تحریر پر تبصروں کے لیے فیڈ."
+
+#: wp-content/themes/classic/comments.php:30
+msgid "TrackBack <abbr title=\"Uniform Resource Identifier\">URI</abbr>"
+msgstr "ٹریک بیک <abbr title=\"عالمی شناختی ذریعہ\">یو آر ایل</abbr>"
+
+#: wp-content/themes/classic/comments.php:50
+#: wp-content/themes/classic/comments.php:53
+msgid "(required)"
+msgstr "(درکار)"
+
+#: wp-content/themes/classic/comments.php:74
+#: wp-content/themes/classic/comments-popup.php:88
+msgid "Sorry, the comment form is closed at this time."
+msgstr "معذرت،تبصروں‌کی یہ قسم فی‌الحال بند ہے."
+
+#: wp-content/themes/classic/comments-popup.php:27
+msgid "The <acronym title=\"Uniform Resource Identifier\">URI</acronym> to TrackBack this entry is:"
+msgstr "اس اندراج کو ٹریک‌بیک کرنے کے لیے<acronym title=\" عالمی‌شناختی‌ذریعہ\">یو آر ایل</acronym>ہے:"
+
+#: wp-content/themes/classic/comments-popup.php:56
+msgid "Line and paragraph breaks automatic, e-mail address never displayed, <acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed:"
+msgstr "پیرا اور قطار خودبخود ٹوٹ جاتے ہیں،برقی ایڈریس کبھی نہیں‌دکھایا جاتا، <acronym title=\"ہائپر ٹیکسٹ مارک اپ لینگوئج\">ایچ‌ٹی‌ایم‌ایل</acronym>"
+
+#: wp-content/themes/classic/comments-popup.php:73
+msgid "<acronym title=\"Uniform Resource Identifier\">URI</acronym>"
+msgstr "<acronym title=\"عالمی شناختی ذریعہ\">یو آر ایل</acronym>"
+
+#: wp-content/themes/classic/comments-popup.php:77
+msgid "Your Comment"
+msgstr "آپ کا تبصرہ"
+
+#: wp-content/themes/classic/comments-popup.php:83
+msgid "Say It!"
+msgstr "کہییے!"
+
+#: wp-content/themes/classic/comments-popup.php:93
+msgid "Close this window."
+msgstr "یہ دریچہ بند کیجیے"
+
+#: wp-content/themes/classic/comments-popup.php:101
+#, php-format
+msgid "<cite>Powered by <a href=\"http://wordpress.org\" title=\"%s\"><strong>Wordpress</strong></a></cite>"
+msgstr "<cite>تقویت شدہ بزریعہ <a href=\"http://wordpress.org\" title=\"%s\"><strong>ورڈ پریس</strong></a></cite>"
+
+#: wp-content/themes/classic/comments-popup.php:101
+#: wp-content/themes/classic/footer.php:6
+#: wp-content/themes/classic/sidebar.php:35
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "تقویت‌شدہ بذریعہ ورڈپریس، اپنے فن میں‌ یکتا ذاتی اشاعتی پلیٹ فارم."
+
+#: wp-content/themes/classic/footer.php:6
+#, php-format
+msgid "Powered by <a href='http://wordpress.org/' title='%s'><strong>WordPress</strong></a>"
+msgstr "تقویت شدہ بزریعہ <a href='http://wordpress.org' title='%s'><strong>ورڈ پریس</strong></a>"
+
+#: wp-content/themes/classic/index.php:11
+msgid "Filed under:"
+msgstr "درجہ بند بتحت:"
+
+#: wp-content/themes/classic/index.php:14
+msgid "(more...)"
+msgstr "(مزید…)"
+
+#: wp-content/themes/classic/index.php:19
+msgid "Comments (0)"
+msgstr "تبصرے (0)"
+
+#: wp-content/themes/classic/index.php:19
+msgid "Comments (1)"
+msgstr "تبصرے (1)"
+
+#: wp-content/themes/classic/index.php:19
+msgid "Comments (%)"
+msgstr "تبصرے (%)"
+
+#: wp-content/themes/classic/index.php:27
+msgid "Sorry, no posts matched your criteria."
+msgstr "معذرت آپکے معیار سے کوئی تحریر مطابقت نہیں رکھتی"
+
+#: wp-content/themes/classic/index.php:30
+msgid "&laquo; Previous Page"
+msgstr "« گزشتہ صفحہ"
+
+#: wp-content/themes/classic/index.php:30
+msgid "Next Page &raquo;"
+msgstr "اگلا صفحہ »"
+
+#: wp-content/themes/classic/sidebar.php:8
+msgid "Categories:"
+msgstr "زمرے:"
+
+#: wp-content/themes/classic/sidebar.php:14
+msgid "Search:"
+msgstr "تلاش:"
+
+#: wp-content/themes/classic/sidebar.php:22
+msgid "Archives:"
+msgstr "محفوظات:"
+
+#: wp-content/themes/classic/sidebar.php:27
+msgid "Meta:"
+msgstr "اطلاعات:"
+
+#: wp-content/themes/classic/sidebar.php:31
+msgid "Syndicate this site using RSS"
+msgstr "اس سائٹ کو آر ایس ایس کے ذریعے نشر کریں"
+
+#: wp-content/themes/classic/sidebar.php:31
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "<abbr title=\"بہت آسان مجلس\">آرایس‌ایس</abbr>"
+
+#: wp-content/themes/classic/sidebar.php:32
+msgid "The latest comments to all posts in RSS"
+msgstr "آرایس ایس میں تمام تحاریر پر حالیہ تبصرے"
+
+#: wp-content/themes/classic/sidebar.php:32
+msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "تبصرے <abbr title=\"بہت آسان مجلس\">آرایس‌ایس</abbr>"
+
+#: wp-content/themes/classic/sidebar.php:33
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "یہ صفحہ XHTML 1.0 Transitional کے مطابق درست ہے"
+
+#: wp-content/themes/classic/sidebar.php:33
+msgid "Valid <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+msgstr "درستگیِ<abbr title\"ایکسٹینسیبل‌ہائپر‌ٹیکسٹ‌مارک‌اپ‌لینگوئیج\">ایکس‌ایچ‌ٹی‌ایم‌ایل</abbr>"
+

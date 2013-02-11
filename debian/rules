@@ -10,7 +10,7 @@ WP_CONTENT = debian/wordpress/var/lib/wordpress/wp-content
 	dh $@ --with linktree
 
 override_dh_auto_build:
-	for i in debian/languages/*.po; do \
+	for i in $$(find debian/languages/ -name *.po); do \
 		msgfmt $$i -o $${i%%.po}.mo; \
         done
 	pod2man --utf8 --center wp-setup debian/wp-setup debian/wp-setup.1

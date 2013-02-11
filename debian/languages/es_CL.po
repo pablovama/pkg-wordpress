@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development (future 3.2) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2011-07-13 02:57-0400\n"
+"PO-Revision-Date: 2011-08-30 00:15-0400\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,7 +10,7 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Development (future 3.2)\n"
 "POT-Creation-Date: \n"
-"Last-Translator: Ejner Galaz\n"
+"Last-Translator: Ejner Galaz <jota.ejner@gmail.com>\n"
 "Language-Team: \n"
 
 #: wp-admin/includes/theme.php:313
@@ -246,15 +246,15 @@ msgstr "Puede configurar su panel eligiendo qué módulos se mostrarán, así co
 
 #: wp-admin/edit-form-advanced.php:171
 msgid "<strong>Post Format</strong> - This designates how your theme will display a specific post. For example, you could have a <em>standard</em> blog post with a title and paragraphs, or a short <em>aside</em> that omits the title and contains a short text blurb. Please refer to the Codex for <a href=\"http://codex.wordpress.org/Post_Formats#Supported_Formats\">descriptions of each post format</a>. Your theme could enable all or some of 10 possible formats."
-msgstr "<strong>Formato de entrada</strong> - Señala cómo su tema va a mostrar una entrada específica. Por ejemplo, usted podría tener en el blog una entrada <em>estándar</em> con un título y párrafos, o un corto <em>aside</em> que omita el título y contenga un texto breve. Por favor, consulte el Codex para las <a href=\"http://codex.wordpress.org/Post_Formats#Supported_Formats\" target=\"_blank\">descripciones de cada formato de entrada</a>. Su tema puede permitir todos o sólo alguno de los 10 posibles formatos."
+msgstr "<strong>Formato de artículo</strong> - Señala cómo su tema va a mostrar un artículo específico. Por ejemplo, usted podría tener en el blog un artículo <em>estándar</em> con un título y párrafos, o un corto <em>aside</em> que omita el título y contenga un texto breve. Por favor, consulte el Codex para las <a href=\"http://codex.wordpress.org/Post_Formats#Supported_Formats\" target=\"_blank\">descripciones de cada formato de artículo</a>. Su tema puede permitir todos o sólo alguno de los 10 posibles formatos."
 
 #: wp-admin/edit-form-advanced.php:182
 msgid "Creating a Page is very similar to creating a Post, and the screens can be customized in the same way using drag and drop, the Screen Options tab, and expanding/collapsing boxes as you choose. This screen also has the new in 3.2 distraction-free writing space, available in both the Visual and HTML modes via the Fullscreen buttons. The Page editor mostly works the same as the Post editor, but there are some Page-specific features in the Page Attributes box:"
-msgstr "Crear una página es muy similar a crear una entrada, las pantallas pueden ser personalizadas de la misma forma, con arrastrar y soltar, desde la pestaña &#8220;Opciones de pantalla&#8221;, y también expandir o reducir los módulos como usted desee. Esta pantalla también dispone del área de escritura libre de distracciones, incorporado en la versión 3.2, disponible tanto en los modos del editor visual como HTML desde los botones de Pantalla completa. El editor de páginas funciona de la misma forma que el editor de entradas, pero hay algunas características específicas para las páginas en el módulo de los Atributos de página:"
+msgstr "Crear una página es muy similar a crear un artículo, las pantallas pueden ser personalizadas de la misma forma, con arrastrar y soltar, desde la pestaña &#8220;Opciones de pantalla&#8221;, y también expandir o reducir los módulos como usted desee. Esta pantalla también dispone del área de escritura libre de distracciones, incorporado en la versión 3.2, disponible tanto en los modos del editor visual como HTML desde los botones de Pantalla completa. El editor de páginas funciona de la misma forma que el editor de artículos, pero hay algunas características específicas para las páginas en el módulo de los Atributos de página:"
 
 #: wp-admin/index.php:35
 msgid "The Admin Bar at the top provides quick access to common tasks when you are viewing your site. If you miss the Favorite Actions dropdown, removed as of 3.2, you can find many of the same actions in the Admin Bar, such as Add New > Post."
-msgstr "La barra de administración de la parte superior ofrece acceso rápido a tareas habituales cuando está viendo su sitio. Si echa de menos el desplegable de acciones preferidas, eliminado desde la versión 3.2, puede encontrar muchas de esas acciones en la barra de administración, como por ejemplo Añadir nueva > Entrada."
+msgstr "La barra de administración de la parte superior ofrece acceso rápido a tareas habituales cuando está viendo su sitio. Si echa de menos el desplegable de acciones preferidas, eliminado desde la versión 3.2, puede encontrar muchas de esas acciones en la barra de administración, como por ejemplo Añadir nuevo > Artículo."
 
 #: wp-admin/edit-comments.php:117
 msgid "In the Comment column, above each comment it says &#8220;Submitted on,&#8221; followed by the date and time the comment was left on your site. Clicking on the date/time link will take you to that comment on your live site. Hovering over any comment gives you options to approve, reply (and approve), quick edit, edit, spam mark, or trash that comment."
@@ -266,7 +266,7 @@ msgstr "Cuando esta configuración está activada un aviso se muestra en el mód
 
 #: wp-admin/edit-form-advanced.php:169
 msgid "<strong>Post editor</strong> - Enter the text for your post. There are two modes of editing: Visual and HTML. Choose the mode by clicking on the appropriate tab. Visual mode gives you a WYSIWYG editor. Click the last icon in the row to get a second row of controls. The HTML mode allows you to enter raw HTML along with your post text. You can insert media files by clicking the icons above the post editor and following the directions. You can go the distraction-free writing screen, new in 3.2, via the Fullscreen icon in Visual mode (second to last in the top row) or the Fullscreen button in HTML mode (last in the row). Once there, you can make buttons visible by hovering over the top area. Exit Fullscreen back to the regular post editor."
-msgstr "<strong>Editor de entradas</strong> - Ingrese el texto de su entrada. Hay dos modos de edición: Visual y HTML. Elija el modo haciendo clic en la pestaña correspondiente. El modo visual le proporciona un editor WYSIWYG. Haciendo clic en el último icono de la fila obtendrá una segunda fila de controles. El icono de la pantalla, justo antes, le permite ampliar el cuadro de edición a pantalla completa. El modo HTML le permite introducir código HTML junto con el texto de su entrada. Puede insertar ficheros multimedia haciendo clic en los iconos que están sobre el editor de entradas y seguir las instrucciones. Usted puede ir a la pantalla de escritura libre de  distracción, nueva en la versión 3.2, a través del icono de Pantalla completa en el modo visual (el segundo desde la derecha en la fila superior) o del botón de Pantalla completa del modo HTML (el último de la fila). Una vez ahí, puede hacer visibles los botones pasando sobre el área superior. Salir de pantalla completa, le devuelve al normal editor de entradas."
+msgstr "<strong>Editor de artículos</strong> - Ingrese el texto de su artículo. Hay dos modos de edición: Visual y HTML. Elija el modo haciendo clic en la pestaña correspondiente. El modo visual le proporciona un editor WYSIWYG. Haciendo clic en el último icono de la fila obtendrá una segunda fila de controles. El icono de la pantalla, justo antes, le permite ampliar el cuadro de edición a pantalla completa. El modo HTML le permite introducir código HTML junto con el texto de su artículo. Puede insertar ficheros multimedia haciendo clic en los iconos que están sobre el editor de artículo y seguir las instrucciones. Usted puede ir a la pantalla de escritura libre de  distracción, nueva en la versión 3.2, a través del icono de Pantalla completa en el modo visual (el segundo desde la derecha en la fila superior) o del botón de Pantalla completa del modo HTML (el último de la fila). Una vez ahí, puede hacer visibles los botones pasando sobre el área superior. Salir de pantalla completa, le devuelve al normal editor de artículos."
 
 #: wp-admin/tools.php:16
 msgid "The Use This link for the Categories and Tags Converter will take you to the Import page, where that Converter is one of the plugins you can download. Once that plugin is installed, the link on this page takes you to a screen where you can choose conversion either way."
@@ -628,7 +628,7 @@ msgstr "<a href=\"http://codex.wordpress.org/Dashboard_Updates_Screen\" target=\
 
 #: wp-admin/edit-form-advanced.php:177
 msgid "<a href=\"http://codex.wordpress.org/Posts_Add_New_Screen\" target=\"_blank\">Documentation on Writing and Editing Posts</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Posts_Add_New_Screen\" target=\"_blank\">Documentación sobre la Escritura y Edición de Entradas</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Posts_Add_New_Screen\" target=\"_blank\">Documentación sobre la Escritura y Edición de Artículos</a>"
 
 #: wp-admin/comment.php:51
 #: wp-admin/edit-comments.php:121
@@ -657,7 +657,7 @@ msgstr "<a href=\"http://codex.wordpress.org/Plugins_Add_New_Screen\" target=\"_
 
 #: wp-admin/edit.php:169
 msgid "<a href=\"http://codex.wordpress.org/Posts_Screen\" target=\"_blank\">Documentation on Managing Posts</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Posts_Screen\" target=\"_blank\">Documentación sobre la Administración Entradas</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Posts_Screen\" target=\"_blank\">Documentación sobre la Administración Artículos</a>"
 
 #: wp-admin/options-privacy.php:23
 msgid "<a href=\"http://codex.wordpress.org/Settings_Privacy_Screen\" target=\"_blank\">Documentation on Privacy Settings</a>"
@@ -3582,7 +3582,7 @@ msgstr "Buscar P&aacute;ginas"
 
 #: wp-includes/post.php:1180
 msgid "Add New Post"
-msgstr "Agregar nueva artículo"
+msgstr "Agregar nuevo artículo"
 
 #: wp-includes/post.php:1187
 msgid "Parent Page:"
