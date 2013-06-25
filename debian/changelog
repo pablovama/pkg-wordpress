@@ -16,6 +16,7 @@ wordpress (3.5.2+dfsg-1) unstable; urgency=low
     * Cross-Site Scripting (XSS) (Low Severity) when Installing/Updating
       Plugins/Themes. CVE-2013-2201.
     * XML External Entity Injection (XXE) via oEmbed. CVE-2013-2202.
+  * Update the Vcs-Git and Vcs-Browser URLs.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Tue, 25 Jun 2013 15:52:07 +0200
 
