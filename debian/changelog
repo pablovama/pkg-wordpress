@@ -1,3 +1,24 @@
+wordpress (3.5.2+dfsg-1) unstable; urgency=low
+
+  * New upstream release with many security fixes. Closes: #713947
+    * Server-Side Request Forgery (SSRF) via the HTTP API. CVE-2013-2199.
+    * Privilege Escalation: Contributors can publish posts, and users can
+      reassign authorship. CVE-2013-2200.
+    * Cross-Site Scripting (XSS) in SWFUpload. CVE-2013-2205.
+    * Denial of Service (DoS) via Post Password Cookies. CVE-2013-2173.
+    * Content Spoofing via Flash Applet in TinyMCE Media Plugin.
+      CVE-2013-2204.
+    * Cross-Site Scripting (XSS) when Uploading Media. CVE-2013-2201.
+    * Full Path Disclosure (FPD) during File Upload. CVE-2013-2203.
+  * Additional security hardening includes:
+    * Cross-Site Scripting (XSS) (Low Severity) when Editing Media.
+      CVE-2013-2201.
+    * Cross-Site Scripting (XSS) (Low Severity) when Installing/Updating
+      Plugins/Themes. CVE-2013-2201.
+    * XML External Entity Injection (XXE) via oEmbed. CVE-2013-2202.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 25 Jun 2013 15:52:07 +0200
+
 wordpress (3.5.1+dfsg-2) unstable; urgency=low
 
   * Only replace tinymce files by symlinks if the content is exactly the same.
