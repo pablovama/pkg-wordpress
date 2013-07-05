@@ -1,3 +1,10 @@
+wordpress (3.5.2+dfsg-2) UNRELEASED; urgency=low
+
+  * Improve wp-settings to verify that $_SERVER['HTTP_X_FORWARDED_PROTO']
+    exists before accessing it (avoids a PHP notice).
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 05 Jul 2013 08:51:49 +0200
+
 wordpress (3.5.2+dfsg-1) unstable; urgency=low
 
   * New upstream release with many security fixes. Closes: #713947
