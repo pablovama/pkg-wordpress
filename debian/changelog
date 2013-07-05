@@ -2,6 +2,8 @@ wordpress (3.5.2+dfsg-2) UNRELEASED; urgency=low
 
   * Improve wp-settings to verify that $_SERVER['HTTP_X_FORWARDED_PROTO']
     exists before accessing it (avoids a PHP notice).
+  * Document in README.Debian the need to login to /wp-admin/ to complete
+    an upgrade.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Fri, 05 Jul 2013 08:51:49 +0200
 

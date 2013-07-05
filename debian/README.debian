@@ -82,3 +82,13 @@ Each configuration file can point to a dedicated MySQL database (or
 they can share the same database but then they must use different
 $table_prefix to ensure that they use different tables within
 the same database).
+
+#### Upgrading to a new Wordpress version
+
+The package upgrade doesn't automatically update the Wordpress database,
+you have to login to the administration page of your Wordpress instance
+to complete this part of the upgrade.
+
+Until you do this, your website might be broken and inaccessible. This is
+only required when you switched to a new major release (like 3.4 → 3.5)
+not when you installed a new minor version (like 3.5.1 → 3.5.2).
