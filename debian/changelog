@@ -7,6 +7,8 @@ wordpress (3.6+dfsg-1) UNRELEASED; urgency=low
   * Document in README.Debian the need to login to /wp-admin/ to complete
     an upgrade.
   * Drop useless debian/README.source
+  * Drop 008CVE2008-2392.patch since upstream now disables unfiltered
+    uploads by default. See http://core.trac.wordpress.org/ticket/10692
 
  -- Raphaël Hertzog <hertzog@debian.org>  Wed, 04 Sep 2013 12:24:33 +0200
 
