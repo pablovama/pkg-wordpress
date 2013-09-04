@@ -9,6 +9,9 @@ wordpress (3.6+dfsg-1) UNRELEASED; urgency=low
   * Drop useless debian/README.source
   * Drop 008CVE2008-2392.patch since upstream now disables unfiltered
     uploads by default. See http://core.trac.wordpress.org/ticket/10692
+  * Drop 009CVE2008-6767.patch since the backto parameter is validated
+    against a whitelist, and externally triggered upgrades are not a
+    security problem as long as they work.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Wed, 04 Sep 2013 12:24:33 +0200
 

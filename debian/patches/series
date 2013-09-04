@@ -1,6 +1,5 @@
 001readme.patch
 003installer.patch
-009CVE2008-6767.patch
 010disabling_update_note.patch
 011support-symlinks-for-plugins.patch
 mu.patch
