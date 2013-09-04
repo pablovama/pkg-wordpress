@@ -12,7 +12,6 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/wordpress.git
 
 Package: wordpress
 Architecture: all
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, apache2 | httpd, mysql-client, libapache2-mod-php5 | php5, php5-mysql, php5-gd
 Recommends: wordpress-l10n
 Suggests: mysql-server (>= 5.0.15)
