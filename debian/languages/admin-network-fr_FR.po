@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 3.5.1\n"
+"Project-Id-Version: WordPress 3.6\n"
 "Report-Msgid-Bugs-To: http://wppolyglots.wordpress.com\n"
-"POT-Creation-Date: 2013-01-24 21:20:26+00:00\n"
-"PO-Revision-Date: 2013-01-25 01:30+0100\n"
-"Last-Translator: WordPress Francophone <traduction_at_wordpress-fr.net>\n"
+"POT-Creation-Date: 2013-07-28 19:14:14+00:00\n"
+"PO-Revision-Date: 2013-07-31 09:57+0100\n"
+"Last-Translator: Xavier B. <xavier@boredrie.net>\n"
 "Language-Team: WordPress Francophone <traduction@wordpress-fr.net>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: wp-admin/network/index.php:20 wp-admin/network/settings.php:17
 #: wp-admin/network/site-info.php:43 wp-admin/network/site-new.php:37
@@ -28,48 +28,80 @@ msgstr ""
 #: wp-admin/network/users.php:95 wp-admin/network/users.php:117
 #: wp-admin/network/users.php:130 wp-admin/network/users.php:181
 msgid "You do not have permission to access this page."
-msgstr "Vous n&#8217;avez pas les droits suffisants pour accéder à cette page."
+msgstr "Vous n&rsquo;avez pas les droits suffisants pour accéder à cette page."
+
+#: wp-admin/network/index.php:25
+msgid ""
+"Welcome to your Network Admin. This area of the Administration Screens is "
+"used for managing all aspects of your Multisite Network."
+msgstr ""
+"Bienvenu dans l&rsquo;administration de votre réseau&nbsp;! Cette partie des "
+"écrans d&rsquo;administration sert à gérer tous les aspects de votre réseau "
+"multisite."
+
+#: wp-admin/network/index.php:26
+msgid "From here you can:"
+msgstr "D&rsquo;ici, vous pouvez&nbsp;:"
+
+#: wp-admin/network/index.php:27
+msgid "Add and manage sites or users"
+msgstr "Ajouter et gérer des sites ou des utilisateurs"
+
+#: wp-admin/network/index.php:28
+msgid "Install and activate themes or plugins"
+msgstr "Installer et activer des thèmes ou des extensions"
 
 #: wp-admin/network/index.php:29
-msgid ""
-"Until WordPress 3.0, running multiple sites required using WordPress MU "
-"instead of regular WordPress. In version 3.0, these applications have "
-"merged. If you are a former MU user, you should be aware of the following "
-"changes:"
-msgstr ""
-"Avant WordPress 3.0, la gestion de plusieurs sites requérait l&rsquo;"
-"utilisation de WordPress MU plutôt que le WordPress habituel. Dans la "
-"version 3.0, ces deux éditions ont fusionné. Si vous étiez un utilisateur de "
-"MU, il vous faut garder en tête les modifications suivantes&nbsp;:"
+msgid "Update your network"
+msgstr "Mettre à jour votre réseau"
 
 #: wp-admin/network/index.php:30
+msgid "Modify global network settings"
+msgstr "Modifier les réglages globaux du réseau"
+
+#: wp-admin/network/index.php:38
 msgid ""
-"Site Admin is now Super Admin (we highly encourage you to get yourself a "
-"cape!)."
+"The Right Now widget on this screen provides current user and site counts on "
+"your network."
 msgstr ""
-"L&rsquo;administrateur du site est désormais appelé super-admin (nous vous "
-"encourageons vivement à vous trouver une cape&nbsp;!)&nbsp;;"
+"Le widget Aujourd&rsquo;hui de cet écran vous donne le nombre actuel "
+"d'utilisateurs et de sites sur votre réseau."
 
-#: wp-admin/network/index.php:31
-msgid "Blogs are now called Sites; Site is now called Network."
+#: wp-admin/network/index.php:39
+msgid "To add a new user <strong>click Create a New User</strong>"
 msgstr ""
-"Les blogs sont maintenant appelés des sites. Le site global est maintenant "
-"nommé &laquo;&nbsp;le réseau&nbsp;&raquo;."
+"Pour ajouter un nouvel utilisateur, <strong>cliquez sur Créer un nouvel "
+"utilisateur</strong>"
 
-#: wp-admin/network/index.php:32
+#: wp-admin/network/index.php:40
+msgid "To add a new site <strong>click Create a New Site</strong>"
+msgstr ""
+"Pour ajouter un nouveau site, <strong>cliquez sur Créer un nouveau site</"
+"strong>"
+
+#: wp-admin/network/index.php:41
+msgid "To search for a user or site, use the search boxes."
+msgstr ""
+"Pour chercher un utilisateur ou un site, utilisez les champs de recherche."
+
+#: wp-admin/network/index.php:42
 msgid ""
-"The Right Now box provides the network administrator with links to the "
-"screens to either create a new site or user, or to search existing users and "
-"sites. Screens for Sites and Users are also accessible through the left-hand "
-"navigation in the Network Admin section."
+"<strong>To search for a user</strong> enter all or part of a username or "
+"email address"
 msgstr ""
-"Le bloc &laquo;&nbsp;Aujourd&rsquo;hui&nbsp;&raquo; permet à l&rsquo;"
-"administrateur du réseau de se rendre à l&rsquo;écran de création de sites "
-"et celui de création d&rsquo;utilisateurs, ou de lancer une recherche sur "
-"l&rsquo;ensemble des sites et utilisateurs. Ces écrans sont également "
-"accessibles via la navigation de l&rsquo;administration du réseau de sites."
+"<strong>Pour chercher un utilisateur</strong>, saisissez tout ou partie de "
+"son idenfiant ou de adresse de messagerie"
 
-#: wp-admin/network/index.php:37
+#: wp-admin/network/index.php:43
+msgid "<strong>To search for a site</strong> enter the path or domain"
+msgstr ""
+"<stron>Pour checher un site</strong>, saisissez son chemin ou son domaine"
+
+#: wp-admin/network/index.php:47
+msgid "Quick Tasks"
+msgstr "Tâches rapides"
+
+#: wp-admin/network/index.php:53
 msgid ""
 "<a href=\"http://codex.wordpress.org/Network_Admin\" target=\"_blank"
 "\">Documentation on the Network Admin</a>"
@@ -77,7 +109,7 @@ msgstr ""
 "<a href=http://codex.wordpress.org/Network_Adminl\" target=\"_blank"
 "\">Documentation sur l&rsquo;administration du réseau (en)</a>"
 
-#: wp-admin/network/index.php:38 wp-admin/network/site-info.php:33
+#: wp-admin/network/index.php:54 wp-admin/network/site-info.php:33
 #: wp-admin/network/site-new.php:30 wp-admin/network/site-settings.php:33
 #: wp-admin/network/site-themes.php:33 wp-admin/network/site-users.php:36
 #: wp-admin/network/sites.php:46 wp-admin/network/user-new.php:30
@@ -108,7 +140,7 @@ msgid "Installed Themes"
 msgstr "Thèmes installés"
 
 # contexte
-#: wp-admin/network/menu.php:32 wp-admin/network/themes.php:229
+#: wp-admin/network/menu.php:32 wp-admin/network/themes.php:231
 msgctxt "theme"
 msgid "Add New"
 msgstr "Ajouter"
@@ -126,8 +158,8 @@ msgid "Available Updates"
 msgstr "Mises à jour disponibles"
 
 #: wp-admin/network/menu.php:59 wp-admin/network/upgrade.php:18
-#: wp-admin/network/upgrade.php:43 wp-admin/network/upgrade.php:88
-msgid "Update Network"
+#: wp-admin/network/upgrade.php:43 wp-admin/network/upgrade.php:91
+msgid "Upgrade Network"
 msgstr "Mettre à jour le réseau"
 
 #: wp-admin/network/settings.php:26
@@ -231,6 +263,10 @@ msgstr ""
 "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screenl\" target="
 "\"_blank\">Documentation sur les réglages du réseau (en)</a>"
 
+#: wp-admin/network/settings.php:78
+msgid "Options saved."
+msgstr "Options enregistrées."
+
 #: wp-admin/network/settings.php:87
 msgid "Operational Settings"
 msgstr "Réglages de fonctionnement"
@@ -306,7 +342,7 @@ msgstr ""
 
 #: wp-admin/network/settings.php:139
 msgid "Add New Users"
-msgstr "Ajouter des nouveaux utilisateurs"
+msgstr "Ajouter de nouveaux utilisateurs"
 
 #: wp-admin/network/settings.php:141
 msgid ""
@@ -437,15 +473,11 @@ msgstr "%s Ko"
 
 #: wp-admin/network/settings.php:267
 msgid "Language Settings"
-msgstr "Réglages de langage"
+msgstr "Réglages de langue"
 
 #: wp-admin/network/settings.php:270
 msgid "Default Language"
 msgstr "Langue par défaut"
-
-#: wp-admin/network/settings.php:282
-msgid "Menu Settings"
-msgstr "Réglages du menu"
 
 #: wp-admin/network/settings.php:285
 msgid "Enable administration menus"
@@ -473,8 +505,8 @@ msgid ""
 "date are displayed. Network admins can mark a site as archived, spam, "
 "deleted and mature, to remove from public listings or disable."
 msgstr ""
-"<strong>Info</strong> - Il n&rsquo;est pas recommandé de modifier le domaine "
-"ou le chemin d&rsquo;accès, car cela pourrait rendre le site non "
+"<strong>Infos</strong> - Il n&rsquo;est pas recommandé de modifier le "
+"domaine ou le chemin d&rsquo;accès, car cela pourrait rendre le site non "
 "fonctionnel. Les dates de création et de dernière mise à jour sont "
 "affichées. Les administrateurs réseau peuvent indiquer qu&rsquo;un site est "
 "archivé, indésirable, pour adulte et effacé, afin de le retirer de la liste "
@@ -544,20 +576,20 @@ msgstr "Identifiant du site invalide."
 msgid "Site info updated."
 msgstr "Les infos du site ont été mises à jour."
 
-#: wp-admin/network/site-info.php:88 wp-admin/network/site-settings.php:78
-#: wp-admin/network/site-themes.php:129 wp-admin/network/site-users.php:163
+#: wp-admin/network/site-info.php:88 wp-admin/network/site-settings.php:74
+#: wp-admin/network/site-themes.php:129 wp-admin/network/site-users.php:161
 msgid "Edit Site: <a href=\"%1$s\">%2$s</a>"
 msgstr "Modifier le site&nbsp;: <a href=\"%1$s\">%2$s</a>."
 
-#: wp-admin/network/site-info.php:89 wp-admin/network/site-settings.php:79
-#: wp-admin/network/site-themes.php:130 wp-admin/network/site-users.php:164
+#: wp-admin/network/site-info.php:89 wp-admin/network/site-settings.php:75
+#: wp-admin/network/site-themes.php:130 wp-admin/network/site-users.php:162
 msgid "Edit Site: %s"
 msgstr "Modifier le site&nbsp;: %s"
 
-#: wp-admin/network/site-info.php:104 wp-admin/network/site-settings.php:94
-#: wp-admin/network/site-themes.php:143 wp-admin/network/site-users.php:187
+#: wp-admin/network/site-info.php:104 wp-admin/network/site-settings.php:90
+#: wp-admin/network/site-themes.php:143 wp-admin/network/site-users.php:185
 msgid "Info"
-msgstr "Info"
+msgstr "Infos"
 
 #: wp-admin/network/site-info.php:143
 msgid "Update <code>siteurl</code> and <code>home</code> as well."
@@ -669,7 +701,7 @@ msgstr ""
 msgid "Add Site"
 msgstr "Ajouter un site"
 
-#: wp-admin/network/site-settings.php:74
+#: wp-admin/network/site-settings.php:70
 msgid "Site options updated."
 msgstr "Les réglages du site ont été mis à jour."
 
@@ -683,19 +715,19 @@ msgctxt "themes per page (screen options)"
 msgid "Themes"
 msgstr "Thèmes"
 
-#: wp-admin/network/site-themes.php:157 wp-admin/network/themes.php:237
+#: wp-admin/network/site-themes.php:157 wp-admin/network/themes.php:239
 msgid "Theme enabled."
 msgid_plural "%s themes enabled."
 msgstr[0] "Thème activé."
 msgstr[1] "%s thèmes activés."
 
-#: wp-admin/network/site-themes.php:160 wp-admin/network/themes.php:240
+#: wp-admin/network/site-themes.php:160 wp-admin/network/themes.php:242
 msgid "Theme disabled."
 msgid_plural "%s themes disabled."
 msgstr[0] "Thème désactivé."
 msgstr[1] "%s thèmes désactivés."
 
-#: wp-admin/network/site-themes.php:162 wp-admin/network/themes.php:245
+#: wp-admin/network/site-themes.php:162 wp-admin/network/themes.php:247
 msgid "No theme selected."
 msgstr "Aucun thème sélectionné."
 
@@ -703,39 +735,39 @@ msgstr "Aucun thème sélectionné."
 msgid "Network enabled themes are not shown on this screen."
 msgstr "Les thèmes activés pour le réseau ne sont pas visibles sur cet écran."
 
-#: wp-admin/network/site-users.php:205
+#: wp-admin/network/site-users.php:203
 msgid "User is already a member of this site."
 msgstr "Cet utilisateur est déjà membre de ce site."
 
-#: wp-admin/network/site-users.php:208
+#: wp-admin/network/site-users.php:206
 msgid "Enter the username of an existing user."
 msgstr "Saisir l&rsquo;identifiant d&rsquo;un utilisateur existant."
 
-#: wp-admin/network/site-users.php:214
+#: wp-admin/network/site-users.php:212
 msgid "Select a user to change role."
 msgstr "Sélectionnez un utilisateur dont vous voulez changer le rôle."
 
-#: wp-admin/network/site-users.php:220
+#: wp-admin/network/site-users.php:218
 msgid "Select a user to remove."
 msgstr "Sélectionnez un utilisateur à enlever."
 
-#: wp-admin/network/site-users.php:223
+#: wp-admin/network/site-users.php:221
 msgid "User created."
 msgstr "L&rsquo;utilisateur a été créé."
 
-#: wp-admin/network/site-users.php:226
+#: wp-admin/network/site-users.php:224
 msgid "Enter the username and email."
 msgstr "Saisir l&rsquo;identifiant et l&rsquo;adresse de messagerie."
 
-#: wp-admin/network/site-users.php:229
+#: wp-admin/network/site-users.php:227
 msgid "Duplicated username or email address."
 msgstr "Identifiant ou adresse de messagerie déjà utilisé(e)."
 
-#: wp-admin/network/site-users.php:273 wp-admin/network/user-new.php:103
+#: wp-admin/network/site-users.php:271 wp-admin/network/user-new.php:103
 msgid "Add User"
 msgstr "Ajouter un utilisateur"
 
-#: wp-admin/network/site-users.php:303 wp-admin/network/user-new.php:99
+#: wp-admin/network/site-users.php:301 wp-admin/network/user-new.php:99
 msgid "Username and password will be mailed to the above email address."
 msgstr ""
 "L&rsquo;identifiant et le mot de passe seront envoyés à l&rsquo;adresse de "
@@ -967,14 +999,14 @@ msgstr ""
 "<a href=http://codex.wordpress.org/Network_Admin_Themes_Screenl\" target="
 "\"_blank\">Documentation sur les thèmes du réseau</a>"
 
-#: wp-admin/network/themes.php:243
+#: wp-admin/network/themes.php:245
 msgctxt "network"
 msgid "Theme deleted."
 msgid_plural "%s themes deleted."
 msgstr[0] "Thème supprimé."
 msgstr[1] "%s thèmes supprimés."
 
-#: wp-admin/network/themes.php:247
+#: wp-admin/network/themes.php:249
 msgid "You cannot delete a theme while it is active on the main site."
 msgstr ""
 "Vous ne pouvez pas effacer un thème s&rsquo;il est activé sur le site "
@@ -984,7 +1016,7 @@ msgstr ""
 msgid ""
 "Only use this screen once you have updated to a new version of WordPress "
 "through Updates/Available Updates (via the Network Administration navigation "
-"menu or the Toolbar). Clicking the Update Network button will step through "
+"menu or the Toolbar). Clicking the Upgrade Network button will step through "
 "each site in the network, five at a time, and make sure any database updates "
 "are applied."
 msgstr ""
@@ -992,7 +1024,8 @@ msgstr ""
 "de WordPress (au moyen de la fonction de mise à jour automatique ou la barre "
 "d&rsquo;outils). En cliquant sur &laquo;&nbsp;Mettre à jour le réseau&nbsp;"
 "&raquo;, WordPress s&rsquo;occupera de tous les sites du réseau, par groupes "
-"de cinq, et s&rsquo;assurera que toutes les bases de données sont à jour."
+"de cinq, et s&rsquo;assurera que toutes les mises à jour de bases de données "
+"sont appliquées."
 
 #: wp-admin/network/upgrade.php:26
 msgid ""
@@ -1013,10 +1046,10 @@ msgstr ""
 #: wp-admin/network/upgrade.php:32
 msgid ""
 "<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target="
-"\"_blank\">Documentation on Update Network</a>"
+"\"_blank\">Documentation on Upgrade Network</a>"
 msgstr ""
 "<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target="
-"\"_blank\">Documentation sur la mise à jour du réseau</a>"
+"\"_blank\">Documentation sur la mise à jour du réseau (en)</a>"
 
 #: wp-admin/network/upgrade.php:58
 msgid "All done!"
@@ -1043,16 +1076,23 @@ msgstr ""
 msgid "Next Sites"
 msgstr "Sites suivants"
 
-#: wp-admin/network/upgrade.php:87
+#: wp-admin/network/upgrade.php:88
+msgid "Database Upgrade Required"
+msgstr "Il faut mettre à jour la base de données"
+
+#: wp-admin/network/upgrade.php:89
 msgid ""
-"You can update all the sites on your network through this page. It works by "
-"calling the update script of each site automatically. Hit the link below to "
-"update."
+"WordPress has been updated! Before we send you on your way, we need to "
+"individually upgrade the sites in your network."
 msgstr ""
-"Vous pouvez mettre à jour tous les sites de votre réseau par le biais de "
-"cette page. Le processus consiste à appeler le script de mise à jour pour "
-"chaque site, automatiquement. Cliquez sur le lien ci-dessous pour lancer la "
-"mise à jour."
+"WordPress a été mis à jour&nbsp;! Avant de vous laisser continuer, nous "
+"devons mettre à jour chaque site de votre réseau."
+
+#: wp-admin/network/upgrade.php:90
+msgid "The upgrade process may take a little while, so please be patient."
+msgstr ""
+"Le processus de mise à jour peut prendre un long moment. Merci pour votre "
+"patience."
 
 #: wp-admin/network/user-new.php:17
 msgid "You do not have sufficient permissions to add users to this network."
@@ -1307,8 +1347,8 @@ msgid ""
 "<a href=\"http://codex.wordpress.org/Create_A_Network\" target=\"_blank"
 "\">Documentation on Creating a Network</a>"
 msgstr ""
-"<a href=\"http://codex.wordpress.org/Create_A_Network\" target=\"_blank"
-"\">Documentation sur la création d&rsquo;un réseau de sites</a>"
+"<a href=\"http://codex.wordpress.org/fr:Cr%C3%A9er_un_r%C3%A9seau\" target="
+"\"_blank\">Documentation sur la création d&rsquo;un réseau de sites</a>"
 
 #: wp-admin/network.php:114 wp-admin/network.php:125
 msgid ""
@@ -1330,8 +1370,8 @@ msgstr ""
 "La constante DO_NOT_UPGRADE_GLOBAL_TABLES ne doit pas être définie lors de "
 "la création du réseau."
 
-#: wp-admin/network.php:156 wp-admin/network.php:344 wp-admin/network.php:465
-#: wp-admin/network.php:499
+#: wp-admin/network.php:156 wp-admin/network.php:344 wp-admin/network.php:464
+#: wp-admin/network.php:498
 msgid "Warning:"
 msgstr "Attention&nbsp;:"
 
@@ -1462,7 +1502,7 @@ msgctxt "subdirectory examples"
 msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
 msgstr "comme <code>%1$s/site1</code> et <code>%1$s/site2</code>"
 
-#: wp-admin/network.php:229 wp-admin/network.php:465 wp-admin/network.php:499
+#: wp-admin/network.php:229 wp-admin/network.php:464 wp-admin/network.php:498
 msgid ""
 "Subdirectory networks may not be fully compatible with custom wp-content "
 "directories."
@@ -1612,7 +1652,7 @@ msgstr ""
 "dans <code>%s</code>, au-dessus de la ligne <code>/* C&rsquo;est tout, ne "
 "touchez pas à ce qui suit ! Bon blogging ! */</code>&nbsp;:"
 
-#: wp-admin/network.php:402
+#: wp-admin/network.php:401
 msgid ""
 "This unique authentication key is also missing from your <code>wp-config."
 "php</code> file."
@@ -1620,19 +1660,19 @@ msgid_plural ""
 "These unique authentication keys are also missing from your <code>wp-config."
 "php</code> file."
 msgstr[0] ""
-"Cette clef d&rsquo;authentification unique ne se trouve pas non plus dans "
+"Cette clé d&rsquo;authentification unique ne se trouve pas non plus dans "
 "votre fichier <code>wp-config.php</code>."
 msgstr[1] ""
-"Ces clefs d&rsquo;authentification uniques ne se trouvent pas non plus dans "
+"Ces clés d&rsquo;authentification uniques ne se trouvent pas non plus dans "
 "votre fichier <code>wp-config.php</code>."
 
-#: wp-admin/network.php:402
+#: wp-admin/network.php:401
 msgid "To make your installation more secure, you should also add:"
 msgstr ""
 "Pour mieux sécuriser votre installation, vous devriez également "
 "ajouter&nbsp;:"
 
-#: wp-admin/network.php:462
+#: wp-admin/network.php:461
 msgid ""
 "Add the following to your <code>web.config</code> file in <code>%s</code>, "
 "replacing other WordPress rules:"
@@ -1640,7 +1680,7 @@ msgstr ""
 "Ajoutez les lignes suivantes à votre fichier <code>web.config</code>, dans "
 "<code>%s</code>, en remplacement des autres règles liées à WordPress&nbsp;:"
 
-#: wp-admin/network.php:496
+#: wp-admin/network.php:495
 msgid ""
 "Add the following to your <code>.htaccess</code> file in <code>%s</code>, "
 "replacing other WordPress rules:"
@@ -1648,13 +1688,62 @@ msgstr ""
 "Ajoutez les lignes suivantes à votre fichier <code>.htaccess</code>, dans "
 "<code>%s</code>, en remplacement des autres règles liées à WordPress&nbsp;:"
 
-#: wp-admin/network.php:508
+#: wp-admin/network.php:507
 msgid ""
 "Once you complete these steps, your network is enabled and configured. You "
 "will have to log in again."
 msgstr ""
 "Une fois les étapes effectuées, votre réseau sera activé et configuré. Vous "
 "devez maintenant vous reconnecter."
+
+#~ msgid ""
+#~ "Until WordPress 3.0, running multiple sites required using WordPress MU "
+#~ "instead of regular WordPress. In version 3.0, these applications have "
+#~ "merged. If you are a former MU user, you should be aware of the following "
+#~ "changes:"
+#~ msgstr ""
+#~ "Avant WordPress 3.0, la gestion de plusieurs sites requérait l&rsquo;"
+#~ "utilisation de WordPress MU plutôt que le WordPress habituel. Dans la "
+#~ "version 3.0, ces deux éditions ont fusionné. Si vous étiez un utilisateur "
+#~ "de MU, il vous faut garder en tête les modifications suivantes&nbsp;:"
+
+#~ msgid ""
+#~ "Site Admin is now Super Admin (we highly encourage you to get yourself a "
+#~ "cape!)."
+#~ msgstr ""
+#~ "L&rsquo;administrateur du site est désormais appelé super-admin (nous "
+#~ "vous encourageons vivement à vous trouver une cape&nbsp;!)&nbsp;;"
+
+#~ msgid "Blogs are now called Sites; Site is now called Network."
+#~ msgstr ""
+#~ "Les blogs sont maintenant appelés des sites. Le site global est "
+#~ "maintenant nommé &laquo;&nbsp;le réseau&nbsp;&raquo;."
+
+#~ msgid ""
+#~ "The Right Now box provides the network administrator with links to the "
+#~ "screens to either create a new site or user, or to search existing users "
+#~ "and sites. Screens for Sites and Users are also accessible through the "
+#~ "left-hand navigation in the Network Admin section."
+#~ msgstr ""
+#~ "Le bloc &laquo;&nbsp;Aujourd&rsquo;hui&nbsp;&raquo; permet à l&rsquo;"
+#~ "administrateur du réseau de se rendre à l&rsquo;écran de création de "
+#~ "sites et celui de création d&rsquo;utilisateurs, ou de lancer une "
+#~ "recherche sur l&rsquo;ensemble des sites et utilisateurs. Ces écrans sont "
+#~ "également accessibles via la navigation de l&rsquo;administration du "
+#~ "réseau de sites."
+
+#~ msgid "Menu Settings"
+#~ msgstr "Réglages du menu"
+
+#~ msgid ""
+#~ "You can update all the sites on your network through this page. It works "
+#~ "by calling the update script of each site automatically. Hit the link "
+#~ "below to update."
+#~ msgstr ""
+#~ "Vous pouvez mettre à jour tous les sites de votre réseau par le biais de "
+#~ "cette page. Le processus consiste à appeler le script de mise à jour pour "
+#~ "chaque site, automatiquement. Cliquez sur le lien ci-dessous pour lancer "
+#~ "la mise à jour."
 
 #~ msgctxt "plugin editor"
 #~ msgid "Add New"

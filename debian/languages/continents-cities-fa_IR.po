@@ -5,15 +5,16 @@ msgstr ""
 "POT-Creation-Date: 2010-12-21 10:36:53+00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Gonahkar <gonahkarblog@gmail.com>\n"
-"Language-Team: WP-Persian\n"
+"Language-Team: WP-Persian <info@wp-persian.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Persian\n"
-"X-Poedit-Country: Iran\n"
+"Language: fa_IR\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #. Continent and city translations for timezone selection.
-#.  * This file is not included anywhere. It exists solely for use by xgettext.
+#. * This file is not included anywhere. It exists solely for use by xgettext.
 #: wp-admin/includes/continents-cities.php:7
 msgid "Africa"
 msgstr "آفریقا"
@@ -1961,4 +1962,3 @@ msgstr "والیس"
 #: wp-admin/includes/continents-cities.php:493
 msgid "Yap"
 msgstr "یاپ"
-

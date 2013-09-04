@@ -62,7 +62,7 @@ BASEDIR="${PWD}"
 if [ -d "$svndir" ]; then
     (cd $svndir; svn update --ignore-externals)
 else
-    tmpcodir=$(mktemp -t get-upstream-i18n.XXXXXX)
+    tmpcodir=$(mktemp -d -t get-upstream-i18n.XXXXXX)
     (cd $tmpcodir; svn co --ignore-externals $UPSTREAM_I18N_SVN svn)
     svndir="$tmpcodir/svn"
 fi

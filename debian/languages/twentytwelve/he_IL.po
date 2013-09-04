@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Twelve package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-12-11 19:15:09+0000\n"
+"PO-Revision-Date: 2013-08-04 19:39:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,7 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Twenty Twelve\n"
 
-#: functions.php:313
+msgid "http://wordpress.org/themes/twentytwelve"
+msgstr "http://wordpress.org/themes/twentytwelve"
+
+#: functions.php:345
 msgid "Reply"
 msgstr "תגובה"
 
@@ -21,41 +24,41 @@ msgstr "<span class=\"meta-prep meta-prep-entry-date\">פורסם </span> <span 
 msgid "The 2012 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background."
 msgstr "תבנית 2012 לוורדפרס היא תבנית מגיבה (רספונסיבית) מלאה שנראית טוב בכל מכשיר קצה. היא עושה שימוש בתבנית עמוד ייעודית להצגת עמוד ראשי עם ווידג'טים נפרדים, הצגת גופנים אופציונלית, עיצוב של פורמטים בעמודי ארכיון ועמודי תוכן, ותבנית עמוד לתצוגה במסך מלא ללא סרגלי צד. התאימו אותה לצרכים שלכם עם תפריטים מותאמים אישית, תמונות כותרות, ורקעים."
 
-#: functions.php:120
+#: functions.php:100
 msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "off"
 
-#: functions.php:125
+#: functions.php:105
 msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
 
-#: functions.php:208
+#: functions.php:240
 msgid "Appears on posts and pages except the optional Front Page template, which has its own widgets"
 msgstr "מוצג בפוסטים ועמודים, פרט לתבנית עמוד ראשי לה יש וידג'טים משלה."
 
-#: functions.php:216
+#: functions.php:248
 msgid "First Front Page Widget Area"
 msgstr "אזור ווידג'טים ראשון בעמוד הראשי"
 
-#: functions.php:218 functions.php:228
+#: functions.php:250 functions.php:260
 msgid "Appears when using the optional Front Page template with a page set as Static Front Page"
 msgstr "מוצג כשמשתמשים בתבנית עמוד ראשי, עם הגדרת תצוגת עמוד ראשי סטטי."
 
-#: functions.php:226
+#: functions.php:258
 msgid "Second Front Page Widget Area"
 msgstr "אזור ווידג'טים שני בעמוד הראשי"
 
-#: functions.php:352
+#: functions.php:384
 msgid "This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</span>."
 msgstr "פוסט <span class=\"by-author\"> מאת %4$s</span> פורסם בתאריך %3$s בקטגוריה %1$s וסומן בתגיות %2$s. "
 
-#: functions.php:354
+#: functions.php:386
 msgid "This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
 msgstr "פוסט <span class=\"by-author\"> מאת %4$s</span> פורסם בקטגוריה %1$s בתאריך %3$s."
 
-#: functions.php:356
+#: functions.php:388
 msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
 msgstr "פוסט <span class=\"by-author\"> מאת %4$s</span> פורסם בתאריך %3$s. "
 
@@ -79,7 +82,7 @@ msgstr "מסך מלא, ללא סרגלי צד"
 msgid "Featured post"
 msgstr "פוסט ראשי"
 
-#: functions.php:181
+#: functions.php:213
 msgid "Page %s"
 msgstr "עמוד %s"
 
@@ -105,11 +108,11 @@ msgstr "נראה שלא הצלחנו למצוא את מה שחיפשת. ייתכ
 msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
 msgstr "אנו מצטערים, לא נמצאו תוצאות. חיפוש עשוי לסייע באיתור פריטים דומים."
 
-#: functions.php:292
+#: functions.php:324
 msgid "Post author"
 msgstr "מאת"
 
-#: functions.php:277
+#: functions.php:309
 msgid "(Edit)"
 msgstr "(עריכה)"
 
@@ -129,7 +132,7 @@ msgstr "אין פוסטים להצגה"
 msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
 msgstr "מוכנים לפרסום הפוסט הראשון שלכם? <a href=\"%s\">התחילו כאן</a>."
 
-#: functions.php:346
+#: functions.php:378
 msgid "View all posts by %s"
 msgstr "כל הפוסטים מאת %s&rlm;"
 
@@ -156,43 +159,39 @@ msgstr "ארכיון"
 msgid "Twenty Twelve"
 msgstr "Twenty Twelve"
 
-msgid "http://wordpress.org/extend/themes/twentytwelve"
-msgstr "http://wordpress.org/extend/themes/twentytwelve"
-
 msgid "the WordPress team"
 msgstr "צוות וורדפרס"
 
-#: functions.php:304
+#: functions.php:336
 msgid "Your comment is awaiting moderation."
 msgstr "תגובתך ממתינה לאישור."
 
-#: functions.php:298
+#: functions.php:330
 msgid "%1$s at %2$s"
 msgstr "%1$s בשעה %2$s"
 
-#: content-aside.php:13 content-aside.php:20 content-image.php:17
-#: content-link.php:18 content-quote.php:17 content-status.php:15
-#: content.php:23
+#: content-aside.php:20 content-link.php:18 content-quote.php:17
+#: content-status.php:15
 msgid "Permalink to %s"
 msgstr "קישור קבוע לפוסט %s"
 
-#: functions.php:206
+#: functions.php:238
 msgid "Main Sidebar"
 msgstr "סרגל צדדי ראשי"
 
-#: functions.php:250 single.php:20
+#: functions.php:282 single.php:20
 msgid "Post navigation"
 msgstr "ניווט בפוסטים"
 
-#: functions.php:251
+#: functions.php:283
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&rarr;</span> פוסטים ישנים יותר"
 
-#: functions.php:252
+#: functions.php:284
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "פוסטים חדשים יותר <span class=\"meta-nav\">&larr;</span>"
 
-#: functions.php:277
+#: functions.php:309
 msgid "Pingback:"
 msgstr "פינגבאק:"
 
@@ -205,8 +204,8 @@ msgid "Proudly powered by %s"
 msgstr "פועל על %s"
 
 #: content-aside.php:26 content-image.php:26 content-link.php:24
-#: content-page.php:21 content-quote.php:23 content-status.php:30
-#: content.php:46 functions.php:309 image.php:37
+#: content-page.php:24 content-quote.php:23 content-status.php:30
+#: content.php:46 functions.php:341 image.php:37
 msgid "Edit"
 msgstr "עריכה"
 
@@ -292,11 +291,11 @@ msgstr "ניווט בתגובות"
 msgid "&larr; Older Comments"
 msgstr "&rarr; תגובות ישנות יותר"
 
-#: functions.php:332 functions.php:335
+#: functions.php:364 functions.php:367
 msgid ", "
 msgstr ", "
 
-#: content-page.php:18 content.php:40 image.php:92
+#: content-page.php:21 content.php:40 image.php:92
 msgid "Pages:"
 msgstr "עמודים:"
 

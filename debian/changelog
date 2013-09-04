@@ -13,6 +13,7 @@ wordpress (3.6+dfsg-1) UNRELEASED; urgency=low
     against a whitelist, and externally triggered upgrades are not a
     security problem as long as they work.
   * Update debian/missing-sources with latest versions.
+  * Update upstream l10n.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Wed, 04 Sep 2013 12:24:33 +0200
 
