@@ -12,6 +12,7 @@ wordpress (3.6+dfsg-1) UNRELEASED; urgency=low
   * Drop 009CVE2008-6767.patch since the backto parameter is validated
     against a whitelist, and externally triggered upgrades are not a
     security problem as long as they work.
+  * Update debian/missing-sources with latest versions.
 
  -- Raphaël Hertzog <hertzog@debian.org>  Wed, 04 Sep 2013 12:24:33 +0200
 
