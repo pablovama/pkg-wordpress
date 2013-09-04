@@ -19,8 +19,8 @@ I18NFILES="
 admin-@LANG@.po
 admin-network-@LANG@.po
 continents-cities-@LANG@.po
-twentyteleven/@LANG@.po
 twentytwelve/@LANG@.po
+twentythirteen/@LANG@.po
 "
 
 find_latest_version() {
