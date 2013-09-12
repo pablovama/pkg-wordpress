@@ -1,3 +1,9 @@
+wordpress (3.6.1+dfsg-1) unstable; urgency=high
+
+  * New upstream security release.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 12 Sep 2013 07:58:57 +0200
+
 wordpress (3.6+dfsg-1) unstable; urgency=low
 
   * New upstream release.
