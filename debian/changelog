@@ -1,6 +1,7 @@
 wordpress (3.6.1+dfsg-1) unstable; urgency=high
 
-  * New upstream security release.
+  * New upstream security release. Fixes CVE-2013-4338 CVE-2013-4339
+    CVE-2013-4340. Closes: #722537
 
  -- Raphaël Hertzog <hertzog@debian.org>  Thu, 12 Sep 2013 07:58:57 +0200
 
