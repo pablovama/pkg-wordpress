@@ -1,3 +1,10 @@
+wordpress (3.6.1+dfsg-2) UNRELEASED; urgency=low
+
+  * Enable usage of php5-mysqlnd as an alternative to php5-mysql.
+    Closes: #722552
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 13 Sep 2013 14:06:57 +0200
+
 wordpress (3.6.1+dfsg-1) unstable; urgency=high
 
   * New upstream security release. Fixes CVE-2013-4338 CVE-2013-4339
