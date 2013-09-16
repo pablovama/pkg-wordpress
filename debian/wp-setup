@@ -20,7 +20,7 @@ END
 
 purge_wp_content() {
     for subdir in $WP_CONTENT_SUBDIRS; do
-	list=$(purge_wp_content_subdir $subdir)
+	list=$(purge_wp_content_subdir "$subdir")
 	print_if_needed "Removed from $WP_CONTENT_DIR/$subdir" "$list"
     done
 }
@@ -44,10 +44,10 @@ purge_wp_content_subdir() {
 
 is_symlink_to_standard_directory() {
     local symlink="$1"
-    if [ ! -h $symlink ]; then
+    if [ ! -h "$symlink" ]; then
 	return 1
     fi
-    target=$(readlink $symlink)
+    target=$(readlink "$symlink")
     if [ "$target" = "${target##$WP_CONTENT_ORIG_DIR}" ]; then
 	return 1
     fi
@@ -56,24 +56,24 @@ is_symlink_to_standard_directory() {
 
 remove_symlink() {
     local symlink="$1"
-    echo -n "$(basename $symlink) "
-    rm -f $symlink
+    echo -n "$(basename "$symlink") "
+    rm -f "$symlink"
 }
 
 sync_wp_content() {
     for subdir in $WP_CONTENT_SUBDIRS; do
-	ensure_wp_content_subdir_exists $subdir
-	list=$(add_new_wp_content_files $subdir)
+	ensure_wp_content_subdir_exists "$subdir"
+	list=$(add_new_wp_content_files "$subdir")
 	print_if_needed "Added to $WP_CONTENT_DIR/$subdir" "$list"
-	list=$(drop_removed_wp_content_files $subdir)
+	list=$(drop_removed_wp_content_files "$subdir")
 	print_if_needed "Removed from $WP_CONTENT_DIR/$subdir" "$list"
     done
 }
 
 ensure_wp_content_subdir_exists() {
-    local subdir=$1
+    local subdir="$1"
     [ -e $WP_CONTENT_DIR ] || setup_wp_content
-    mkdir -p $WP_CONTENT_DIR/$subdir
+    mkdir -p "$WP_CONTENT_DIR/$subdir"
 }
 
 setup_wp_content() {
@@ -82,12 +82,12 @@ setup_wp_content() {
 }
 
 add_new_wp_content_files() {
-    local subdir=$1
+    local subdir="$1"
     for dir in $WP_CONTENT_ORIG_DIR/$subdir/*; do
 	if [ ! -e "$dir" ]; then
 	    continue
 	fi
-	name="$(basename $dir)"
+	name="$(basename "$dir")"
 	symlink_path="$WP_CONTENT_DIR/$subdir/$name"
 	if [ -e "$symlink_path" ]; then
 	    continue
@@ -98,7 +98,7 @@ add_new_wp_content_files() {
 }
 
 drop_removed_wp_content_files() {
-    local subdir=$1
+    local subdir="$1"
     for dir in $WP_CONTENT_DIR/$subdir/*; do
 	if ! is_symlink_to_standard_directory "$dir"; then
 	    continue
