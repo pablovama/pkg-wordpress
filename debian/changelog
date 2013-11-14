@@ -6,6 +6,7 @@ wordpress (3.7.1+dfsg-1) UNRELEASED; urgency=low
   * Improve wp-setup to cope with plugins/themes directories with
     spaces. Thanks to Oskar Liljeblad <oskar@osk.mine.nu> for the patch.
     Closes: #723074
+  * Refresh patches
 
  -- Raphaël Hertzog <hertzog@debian.org>  Wed, 13 Nov 2013 20:41:09 +0100
 

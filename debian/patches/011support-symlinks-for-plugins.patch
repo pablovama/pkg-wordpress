@@ -5,7 +5,7 @@ Bug-Debian: http://bugs.debian.org/686228
 
 --- a/wp-includes/plugin.php
 +++ b/wp-includes/plugin.php
-@@ -569,11 +569,41 @@ function plugin_basename($file) {
+@@ -589,11 +589,41 @@ function plugin_basename($file) {
  	$plugin_dir = preg_replace('|/+|','/', $plugin_dir); // remove any duplicate slash
  	$mu_plugin_dir = str_replace('\\','/',WPMU_PLUGIN_DIR); // sanitize for Win32 installs
  	$mu_plugin_dir = preg_replace('|/+|','/', $mu_plugin_dir); // remove any duplicate slash
@@ -49,7 +49,7 @@ Bug-Debian: http://bugs.debian.org/686228
   * @package WordPress
 --- a/wp-admin/includes/plugin.php
 +++ b/wp-admin/includes/plugin.php
-@@ -245,14 +245,19 @@ function get_plugins($plugin_folder = ''
+@@ -248,14 +248,19 @@ function get_plugins($plugin_folder = ''
  		$plugin_root .= $plugin_folder;
  
  	// Files in wp-content/plugins directory

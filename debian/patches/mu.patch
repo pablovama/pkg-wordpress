@@ -1,7 +1,7 @@
 MU for Debian installations
 --- a/wp-admin/network.php
 +++ b/wp-admin/network.php
-@@ -356,17 +356,17 @@ function network_step2( $errors = false
+@@ -364,17 +364,17 @@ function network_step2( $errors = false
  		<p><?php _e( 'Complete the following steps to enable the features for creating a network of sites.' ); ?></p>
  		<div class="updated inline"><p><?php
  			if ( file_exists( $home_path . '.htaccess' ) )
@@ -22,7 +22,7 @@ MU for Debian installations
  				<textarea class="code" readonly="readonly" cols="100" rows="6">
  define('MULTISITE', true);
  define('SUBDOMAIN_INSTALL', <?php echo $subdomain_install ? 'true' : 'false'; ?>);
-@@ -398,7 +398,7 @@ define('BLOG_ID_CURRENT_SITE', 1);
+@@ -405,7 +405,7 @@ define('BLOG_ID_CURRENT_SITE', 1);</text
  		$num_keys_salts = count( $keys_salts );
  ?>
  	<p><?php
@@ -31,7 +31,7 @@ MU for Debian installations
  	<textarea class="code" readonly="readonly" cols="100" rows="<?php echo $num_keys_salts; ?>"><?php echo esc_textarea( $keys_salts_str ); ?></textarea>
  <?php
  	}
-@@ -494,7 +494,7 @@ RewriteRule . index.php [L]
+@@ -499,7 +499,7 @@ RewriteRule . index.php [L]
  EOF;
  
  		?>

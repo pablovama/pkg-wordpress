@@ -2,12 +2,12 @@ Author: Giuseppe Iuculano <giuseppe@iuculano.it>
 Description: Disabled the the "please update" warning, thanks to Hans Spaans and Rolf Leggewie (Closes: #506685)
 --- a/wp-admin/includes/update.php
 +++ b/wp-admin/includes/update.php
-@@ -30,6 +30,8 @@ function get_preferred_from_update_core(
+@@ -28,6 +28,8 @@ function get_preferred_from_update_core(
   * @return array Array of the update objects
   */
  function get_core_updates( $options = array() ) {
 +	if ( !constant('WP_CORE_UPDATE') )
 +		return false;
- 	$options = array_merge( array('available' => true, 'dismissed' => false ), $options );
+ 	$options = array_merge( array( 'available' => true, 'dismissed' => false ), $options );
  	$dismissed = get_site_option( 'dismissed_update_core' );
- 	if ( !is_array( $dismissed ) ) $dismissed = array();
+ 
