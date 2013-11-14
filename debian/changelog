@@ -1,4 +1,4 @@
-wordpress (3.7.1+dfsg-1) UNRELEASED; urgency=low
+wordpress (3.7.1+dfsg-1) unstable; urgency=low
 
   * New upstream release.
   * Enable usage of php5-mysqlnd as an alternative to php5-mysql.
