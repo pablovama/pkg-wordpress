@@ -1,3 +1,0 @@
-- Move the themes to dedicated packages so that they don't disappear
-  during upgrades for users. They would just stay around while the upgrade
-  pulls in the new default themes.
