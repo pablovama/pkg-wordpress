@@ -31,10 +31,10 @@ Depends: apache2 | httpd,
          mysql-client,
          php5-gd,
          php5-mysql | php5-mysqlnd,
-	 wordpress-themes-twentythirteen,
+         wordpress-theme-twentythirteen,
          ${misc:Depends}
 Recommends: wordpress-l10n,
-	    wordpress-themes-twentytwelve
+	    wordpress-theme-twentytwelve
 Suggests: mysql-server (>= 5.0.15)
 Description: weblog manager
  WordPress is a full featured web blogging tool:
@@ -57,9 +57,9 @@ Description: weblog manager - language files
     * Plugin support
  This package contains WordPress language files
 
-Package: wordpress-themes-twentythirteen
+Package: wordpress-theme-twentythirteen
 Architecture: all
-Suggests: wordpress (= ${source:Version})
+Enhances: wordpress 
 Depends: ${misc:Depends}
 Description: weblog manager - twentythirteen theme files
  WordPress is a full featured web blogging tool:
@@ -68,11 +68,11 @@ Description: weblog manager - twentythirteen theme files
     * Non-crufty URLs
     * Themable
     * Plugin support
- This package contains WordPress twentythirteen themes files
+ This package contains WordPress twentythirteen theme files
 
-Package: wordpress-themes-twentytwelve
+Package: wordpress-theme-twentytwelve
 Architecture: all
-Suggests: wordpress (= ${source:Version})
+Enhances: wordpress 
 Depends: ${misc:Depends}
 Description: weblog manager - twentyttwelve theme files
  WordPress is a full featured web blogging tool:
@@ -81,4 +81,4 @@ Description: weblog manager - twentyttwelve theme files
     * Non-crufty URLs
     * Themable
     * Plugin support
- This package contains WordPress twentytwelve themes files
+ This package contains WordPress twentytwelve theme files

@@ -1,3 +1,11 @@
+wordpress (3.7.1+dfsg-2) unstable; urgency=low
+
+  [Pablo Vazquez Martinez]
+  * Split themes in different binary packages.
+    Closes: #723819
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Wed, 13 Nov 2013 20:41:09 +0100
+
 wordpress (3.7.1+dfsg-1) unstable; urgency=low
 
   * New upstream release.

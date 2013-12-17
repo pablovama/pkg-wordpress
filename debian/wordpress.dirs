@@ -2,3 +2,4 @@ var/lib/wordpress/wp-content/blogs.dir
 var/lib/wordpress/wp-content/uploads
 var/lib/wordpress/wp-content/plugins
 var/lib/wordpress/wp-content/languages
+var/lib/wordpress/wp-content/themes
